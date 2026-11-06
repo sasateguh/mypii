@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" role="img" aria-labelledby="t">
+  <title id="t">MyPII</title>
+  <defs>
+    <linearGradient id="rim" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity=".16"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="tile" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1c1f26"/>
+      <stop offset="1" stop-color="#121418"/>
+    </linearGradient>
+  </defs>
+  <!-- ink tile shared with Codr: the Sasa Teguh open-source family -->
+  <rect x="16" y="16" width="224" height="224" rx="56" fill="url(#tile)"/>
+  <rect x="17" y="17" width="222" height="222" rx="55" fill="none" stroke="url(#rim)" stroke-width="2"/>
+  <!-- mark: an identity card whose number line is found and masked (the recognizer's job) -->
+  <rect x="52" y="76" width="152" height="104" rx="16" fill="none" stroke="#f4f4f1" stroke-width="12"/>
+  <circle cx="92" cy="114" r="15" fill="#f4f4f1"/>
+  <rect x="122" y="104" width="54" height="10" rx="5" fill="#f4f4f1" opacity=".55"/>
+  <rect x="122" y="124" width="36" height="10" rx="5" fill="#f4f4f1" opacity=".55"/>
+  <rect x="72" y="146" width="112" height="16" rx="8" fill="#e8b04a"/>
+</svg>
