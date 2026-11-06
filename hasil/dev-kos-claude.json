@@ -1,0 +1,91 @@
+{
+  "baki_usd": 20.0,
+  "dokumen": 1000,
+  "had_usd": 20.0,
+  "jumlah_usd": {
+    "atas": 2.485823,
+    "jangka": 1.089323,
+    "terburuk": 11.620823
+  },
+  "keluar_setiap_dokumen": {
+    "aksara_maks": 460,
+    "aksara_median": 63.0,
+    "aksara_setiap_token": 3,
+    "asas_jawapan": 2000,
+    "atas": 154,
+    "jangka": 21,
+    "terburuk": 1024
+  },
+  "lejar_usd": 0.0,
+  "model": {
+    "anthropic/claude-haiku-5-5": {
+      "harga": {
+        "keluar": 0.5,
+        "masuk": 0.1
+      },
+      "token_masuk": 413725,
+      "token_masuk_maks": 513,
+      "token_masuk_median": 422.0,
+      "usd_atas": 0.118373,
+      "usd_jangka": 0.051873,
+      "usd_terburuk": 0.553373
+    },
+    "anthropic/claude-sonnet-5-5": {
+      "harga": {
+        "keluar": 10.0,
+        "masuk": 2.0
+      },
+      "token_masuk": 413725,
+      "token_masuk_maks": 513,
+      "token_masuk_median": 422.0,
+      "usd_atas": 2.36745,
+      "usd_jangka": 1.03745,
+      "usd_terburuk": 11.06745
+    }
+  },
+  "muat_terburuk": true,
+  "rancang_eksplorasi": {
+    "baki_usd": 17.864452,
+    "digugurkan": {
+      "anthropic/claude-fable-5-1": "kos: perlu USD 57.433268 > baki USD 17.864452",
+      "anthropic/claude-opus-5-5": "kos: perlu USD 18.911608 > baki USD 17.864452"
+    },
+    "dipilih": [],
+    "dokumen": 1000,
+    "had_usd": 20.0,
+    "lejar_usd": 2.135548,
+    "margin": 1.5,
+    "model": {
+      "anthropic/claude-fable-5-1": {
+        "harga": {
+          "keluar": 50.0,
+          "masuk": 10.0
+        },
+        "purata_keluar_probe": 116.0,
+        "token_masuk": 415725,
+        "usd_perlu": 38.52166,
+        "usd_probe": 0.05009,
+        "usd_satu_split": 12.85725
+      },
+      "anthropic/claude-opus-5-5": {
+        "harga": {
+          "keluar": 20.0,
+          "masuk": 4.0
+        },
+        "purata_keluar_probe": 109.0,
+        "token_masuk": 415725,
+        "usd_perlu": 14.779364,
+        "usd_probe": 0.019336,
+        "usd_satu_split": 4.9329
+      }
+    },
+    "muat": true,
+    "pengesahan_ujian_usd": {
+      "anthropic/claude-haiku-5-5": 0.162824,
+      "anthropic/claude-sonnet-5-5": 3.96942
+    },
+    "perlu_ujian_usd": 4.132244,
+    "perlu_usd": 4.132244
+  },
+  "split": "dev"
+}

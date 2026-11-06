@@ -1,0 +1,550 @@
+# Dijana 2026-10-30 oleh `python -m mypii.jana.templat_llm --sasaran latih` (model: ag/gemini-3.8-flash). JANGAN sunting tangan.
+pertama_melayu_l:
+- Nazirul Mubin
+- Shahrul Nizam
+- Taufiq Hidayat
+- Zulhilmi Adli
+- Aniq Hazim
+- Ashraf Hilman
+- Ikram Jamil
+- Izzat Muaz
+- Rayyan Zafran
+- Saiful Bahari
+- Affan Hanif
+- Azam Mustaqim
+- Hishamuddin Rusydi
+- Hazim Nadzmi
+- Farhan Asyraf
+- Adli Syakir
+- Zafran Shahrul
+- Haris Zulhilmi
+- Hanif Aniq
+- Mustaqim Ashraf
+- Thaqif Ezzat
+- Idham Ikram
+- Zakaria Izzat
+- Lokman Saiful
+- Safwan Tariq
+- Naim Affan
+pertama_melayu_p:
+- Hanan Maisarah
+- Nadhirah Adlina
+- Maryam Fariha
+- Husna Wardina
+- Atiqah Hidayah
+- Suraya Murni
+- Ain Raudhah
+- Khalida Munirah
+- Umairah Sarah
+- Kamilia Fauziah
+- Mastura Syazana
+- Nabila Anis
+- Marlina Shakira
+- Aliah Syamimi
+- Elyana Firzanah
+- Masyitah Najwa
+- Zarina Zinnirah
+- Sabrina Natasha
+- Rohani Azimah
+- Haslinda Kauthar
+- Dhabitah Safura
+- Suhana Zubaidah
+- Baiduri Fatihah
+- Maisarah Maryam
+- Adlina Husna
+- Safiya Nadia
+- Wardina Suraya
+- Hidayah Khalida
+- Raudhah Kamilia
+- Munirah Mastura
+- Sarah Syazana
+- Fauziah Nabila
+- Azimah Anis
+- Syazana Marlina
+- Firzanah Hazirah
+- Yusrina Zarina
+pertama_cina:
+- Si Ying
+- Kian Boon
+- Seng Guan
+- Chee Keat
+- Boon Tat
+- Kin Meng
+- Chuan Liang
+- Tian Le
+- Jin Peng
+- Sin Rou
+- Pei Shan
+- Yue Ru
+- Chao Feng
+- Lok Man
+- Hin Wing
+- Siong Ann
+- Guan Peng
+- Meng Tat
+- Kian Seng
+- Boon Jin
+- Chee Siong
+- Chuan Sen
+- Peng Fei
+- Yi Zhen
+- Ru Shan
+- Pei Ying
+pertama_inggeris:
+- Melvin
+- Samantha
+- Stephanie
+- Sharon
+- Rachel
+- Yvonne
+- Wilson
+- Joanne
+- Derrick
+- Kenneth
+- Nicole
+- Bryan
+- Vanessa
+- Jason
+- Cheryl
+- Raymond
+- Michelle
+- Vincent
+- Grace
+- Cynthia
+- Jeffrey
+- Joyce
+- Ronald
+- Christine
+- Eugene
+- Kelly
+- Justin
+- Tiffany
+- Terence
+- Melissa
+- Natalie
+- Gary
+- Valerie
+- Colin
+- Rebecca
+- Priscilla
+- Nigel
+- Esther
+- Julian
+- Dominic
+pertama_india_l:
+- Aravind
+- Navin
+- Pravin
+- Thivagar
+- Harindran
+- Vimalan
+- Yogeswaran
+- Sasikumar
+- Devan
+- Karthegesan
+- Ganesan
+- Kabilan
+- Mathavan
+- Narendran
+- Parameswaran
+- Ragunathan
+- Sivakumar
+- Thiban
+- Uthayakumar
+- Yuvaraj
+- Venugopal
+- Thirumaran
+- Sanjeev
+- Prabu
+- Mohanraj
+- Keerthivasan
+- Jeevan
+- Ilango
+- Dharman
+- Barathan
+- Ajith
+- Ashvin
+- Harish
+- Kuhan
+- Puvan
+- Logeswaran
+- Gurpreet
+- Jaswant
+- Balvinder
+- Amardeep
+- Anbarasan
+- Danesh
+- Elamaran
+- Ravindran
+- Thevan
+- Kishan
+pertama_india_p:
+- Anusha
+- Tharani
+- Meena
+- Malar
+- Pavithra
+- Jaspreet
+- Simran
+- Gurmit
+- Kiranjeet
+- Amrita
+- Vani
+- Prema
+- Shalini
+- Bavani
+- Uma
+- Lavanya
+- Swetha
+- Kausalya
+- Rohini
+- Pushpa
+- Kalaivani
+- Vimala
+- Parameswari
+- Sangeetha
+- Ashwini
+- Dharshini
+- Mythili
+- Gowri
+- Mogana
+- Vanitha
+- Sarojini
+- Komathi
+- Padmavathy
+- Thulasi
+- Menaka
+pertama_iban_l:
+- Tedong
+- Gerinang
+- Gana
+- Bantin
+- Unchat
+- Meling
+- Sandah
+- Enturan
+- Nyelang
+- Jabu
+- Minggat
+- Nyabong
+- Emparie
+- Jemat
+- Manggoi
+- Engkamat
+- Nyawai
+- Begerie
+- Mujah
+- Encharang
+- Mancha
+- Belaja
+- Guntor
+- Dunging
+- Asun
+- Laja
+- Sampurai
+- Malang
+- Kalang
+- Garai
+- Ngumbang
+- Chambai
+- Agas
+- Berandah
+- Ugak
+- Munan
+- Entigu
+- Ringgit
+- Sumping
+- Sandom
+- Rawing
+- Tabor
+- Tagong
+- Ambun
+- Nyalau
+- Bandang
+- Langgie
+pertama_iban_p:
+- Kumang
+- Lulong
+- Jawai
+- Bunsu
+- Dara
+- Sendie
+- Lemok
+- Ubong
+- Lipa
+- Dayun
+- Tipong
+- Selai
+- Cheremi
+- Remie
+- Sinap
+- Renggan
+- Bulan
+- Rinai
+- Bintang
+- Ambai
+- Unyang
+- Rabai
+- Urai
+- Menani
+- Selung
+- Riti
+- Lemba
+- Pinda
+- Empina
+- Churan
+- Melia
+- Punai
+- Renjan
+- Uning
+- Uding
+- Wangi
+- Nyura
+- Rantai
+- Sulan
+- Dingai
+- Nyai
+- Kasi
+- Endu
+- Misi
+- Indun
+- Jelina
+- Encheli
+- Intan
+- Reba
+- Bungan
+- Menari
+- Genilau
+- Belina
+- Lemayan
+- Champa
+- Mengga
+- Pulan
+- Semukau
+pertama_kadazan:
+- Olumis
+- Gimbun
+- Mogunting
+- Kinsik
+- Lasius
+- Gunsalam
+- Ambun
+- Sitor
+- Maringking
+- Bintang
+- Rungkad
+- Gindol
+- Molukun
+- Lojingon
+- Majimbun
+- Domisil
+- Sigoh
+- Lianah
+- Solungoh
+- Gaban
+- Gomurang
+- Salagan
+- Ginibun
+- Ansusung
+- Ginsos
+- Saimon
+- Mondulung
+- Lagason
+- Dusip
+- Rinau
+- Tompuan
+- Sompot
+- Linut
+- Mansau
+- Suring
+- Ginsari
+- Gukil
+- Sinilap
+- Sombiring
+- Tinus
+- Rondung
+- Juman
+- Kalai
+- Guntabid
+- Monis
+- Gimbul
+- Luman
+- Tinim
+- Nolin
+- Mogindun
+- Sikayun
+- Bolon
+- Samban
+- Lansau
+- Gambus
+- Masilun
+- Guntor
+keluarga_cina:
+- Chew
+- Chow
+- Ho
+- Hii
+- Kang
+- Koh
+- Koay
+- Kuan
+- Lai
+- Lam
+- Phang
+- Quah
+- Saw
+- Sin
+- Siow
+- Song
+- Tay
+- Teo
+- Toh
+- Voon
+- Wee
+- Woon
+- Yip
+keluarga_kadazan:
+- Gimbad
+- Gisum
+- Ginsos
+- Tindik
+- Kudan
+- Mindot
+- Motujun
+- Molikun
+- Gambus
+- Tambakau
+- Mogunting
+- Sogondu
+- Ligunjang
+- Madatang
+- Tingadon
+- Gaban
+- Monjilis
+- Bototoy
+- Gondipon
+- Ansow
+- Tondulu
+- Gumpil
+- Lidadun
+- Sambutan
+- Galuk
+- Gunggut
+- Dunggi
+- Sungin
+- Bolungkit
+- Marajun
+- Sualin
+- Kinjawan
+- Yumpang
+- Gundit
+- Taimin
+- Lansangan
+- Gomong
+- Sinidol
+- Romut
+- Lojikim
+- Gansau
+- Guntabid
+- Suking
+- Kolod
+- Sikayun
+- Mogindol
+- Dunging
+- Jitol
+- Tondig
+- Guntor
+- Sikuang
+- Gompodo
+- Mogumpun
+- Rampun
+- Binjua
+- Gonsilou
+- Majangkin
+- Gundangan
+- Modili
+syarikat:
+- Cemerlang Abadi Sdn Bhd
+- Lestari Hijau Solutions Enterprise
+- Puncak Wawasan Holdings Berhad
+- Bayu Samudera Trading
+- Kejora Dinamik PLT
+- Baiduri Unggul Enterprise
+- Harmoni Cipta Teknik Sdn Bhd
+- Prisma Sejahtera Services Enterprise
+- Utuh Wibawa Construction Sdn Bhd
+- Mercu Cemerlang Trading
+- Citra Perkasa PLT
+- Gemilang Flora Landskap Enterprise
+- Serantau Cipta Logistik Sdn Bhd
+- Saujana Emas Kejuruteraan Berhad
+- Kasturi Haruman Trading
+- Impian Selasih Enterprise
+- Intan Gemilang Logistics PLT
+- Dinamik Muhibbah Motors Sdn Bhd
+- Bintang Unggul Niaga Enterprise
+- Cekap Bersatu Solutions Sdn Bhd
+- Vantage Horizon Agro Enterprise
+- Aura Pesona Katering PLT
+- Maya Terbilang Services Sdn Bhd
+- Selasih Kasturi Resources Berhad
+- Kenanga Mekar Landskap Enterprise
+- Murni Abadi Trading
+- Crest Matrix Technologies Sdn Bhd
+- Wawasan Baiduri Konsultansi PLT
+- Puncak Harmoni Kejuruteraan Sdn Bhd
+- Utuh Perkasa Logistik Enterprise
+- Synergy Lestari Foods Berhad
+- Citra Prisma Niaga Trading
+- Rangkaian Maya Infiniti Sdn Bhd
+- Eko Saujana Agro PLT
+- Bintang Baiduri Tekstil Enterprise
+- Mercu Dinamik Automotif Sdn Bhd
+- Sejahtera Saujana Trading
+- Aura Cemerlang Rekabentuk Enterprise
+- Apex Bitara Solutions PLT
+- Mekar Wangi Perabot Berhad
+- Inovasi Utuh Kejuruteraan Sdn Bhd
+- Kencana Unggul Services Trading
+- Harmoni Flora Landskap PLT
+- Bayu Perkasa Logistik Enterprise
+- Puncak Emas Dagangan Sdn Bhd
+- Kejora Abadi Katering Enterprise
+- Terbilang Cekap Logistics Berhad
+- Dinamik Citra Elektrik PLT
+- Gemilang Sejahtera Konsortium Sdn Bhd
+- Cemerlang Impian Rekabentuk Trading
+- Intan Baiduri Industri Enterprise
+- Lestari Utuh Niaga Sdn Bhd
+- Wibawa Samudera Maritim PLT
+- Prisma Kasturi Perabot Berhad
+- Kenanga Saujana Niaga Enterprise
+- Bitara Maya Inovasi Sdn Bhd
+- Selasih Biru Bekalan Trading
+- Kasturi Kejora Konsultansi PLT
+- Cipta Wawasan Dagangan Enterprise
+- Serantau Murni Hardware Berhad
+bandar:
+- Kangar
+- Arau
+- Padang Besar
+- Jitra
+- Baling
+- Butterworth
+- Bukit Mertajam
+- Balik Pulau
+- Taiping
+- Kuala Kangsar
+- Kuala Selangor
+- Nilai
+- Alor Gajah
+- Pontian Kechil
+- Chukai
+- Kerteh
+- Jertih
+- Kudat
+- Ranau
+- Semporna
+- Sibu
+- Sri Aman
+- Kapit

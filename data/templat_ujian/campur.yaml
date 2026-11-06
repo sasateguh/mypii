@@ -1,0 +1,19 @@
+# TEMPLAT SIMPANAN — hanya untuk split ujian. Gelung automatik DILARANG membaca folder ini (program.md).
+# Gaya sengaja berbeza daripada data/templat/ supaya ujian mengukur generalisasi, bukan hafalan templat.
+bahasa: campur
+genre:
+  ocr_invois:
+    - "TAX INVOICE  {SYARIKAT}  Co. Reg: {MY_SSM}  Tel {MY_PHONE}  Inv No {NEG}  Date {TARIKH}"
+    - "RESIT RASMI No: {NEG}  Diterima daripada {NAMA} (KP {MY_NRIC})  Tarikh {TARIKH}"
+  transkrip:
+    - "Ejen: Boleh saya dapatkan nombor kad pengenalan? Pemanggil: {MY_NRIC}. Ejen: Dan nombor untuk dihubungi? Pemanggil: {MY_PHONE}."
+    - "Agent: may i have your IC? Caller: ok it's {MY_NRIC} ... and phone {MY_PHONE} yeah"
+  sms:
+    - "TAHNIAH {NAMA}! Hadiah anda menunggu. Sahkan IC {MY_NRIC} di talian {MY_PHONE} sebelum {TARIKH}."
+    - "Kod rujukan anda {NEG}. Jangan kongsi dengan sesiapa."
+  hr:
+    - "Pekerja baharu: {NAMA}; NRIC: {MY_NRIC}; HP: {MY_PHONE}; Majikan terdahulu: {SYARIKAT} [{MY_SSM}]"
+    - "Payslip ref {NEG} for period ending {TARIKH}"
+  forum:
+    - "sape2 nk join group boleh pm {MY_PHONE}, jgn spam ye"
+    - "dah bayar kat {SYARIKAT} ({MY_SSM}) tapi barang x sampai, no rujukan {NEG}"

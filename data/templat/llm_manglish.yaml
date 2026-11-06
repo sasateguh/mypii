@@ -1,0 +1,660 @@
+# Dijana 2026-10-30 oleh `python -m mypii.jana.templat_llm --sasaran latih` (model: ag/gemini-3.8-flash). JANGAN sunting tangan.
+genre:
+  penyata_bank:
+  - 'DuitNow Transfer Berjaya!
+
+    Tarikh: {TARIKH} ({NEG_TARIKH})
+
+    Penerima: {NAMA}
+
+    DuitNow ID (Mobile): {MY_PHONE}
+
+    Recipient IC: {MY_NRIC}
+
+    Ref No: {NEG}
+
+    Amount: RM 50. Note: Bayar makan lunch tadi kat {BANDAR} k.'
+  - 'Transaction Alert: Pindahan dana segera ke akaun {NEG_AKAUN} ({SYARIKAT}) berjaya dibuat pada {TARIKH}.
+
+    Ref: {NEG_INVOIS}
+
+    Policy/Membership No: {NEG_AHLI}
+
+    Item ({NEG_KOD})
+
+    Total: RM 120. Thank you for using our online banking service!'
+  - 'E-Wallet Payment Receipt
+
+    Paid to: {SYARIKAT} ({MY_SSM})
+
+    Loc: {BANDAR}
+
+    Tarikh: {TARIKH} jam {NEG_TARIKH}
+
+    Inv: {NEG_INVOIS}
+
+    Remark: Beli brg dapur siap delivery. Tq boss.'
+  - 'Statement Remark / Peringatan:
+
+    Trf drpd {NEG_AKAUN} to {NEG_AKAUN}
+
+    Txn Ref: {NEG}
+
+    No Rujukan Invois: {NEG_INVOIS}
+
+    Timestamp: {NEG_TARIKH}
+
+    Status: Successful / Selesai. Sila simpan resit ni ye.'
+  - 'Instant Transfer receipt bro!
+
+    To: {NAMA}
+
+    DuitNow ID: {MY_PHONE}
+
+    Acc no: {NEG_AKAUN}
+
+    Tarikh trf: {TARIKH}
+
+    Ref: {NEG}
+
+    Halal ya bro duit share sewa homestay kat {BANDAR} aritu.'
+  - 'Resit Bayaran Insurans / Takaful
+
+    Syarikat: {SYARIKAT}
+
+    No Akaun Simpanan: {NEG_AKAUN}
+
+    No Polisi / Member ID: {NEG_AHLI}
+
+    No Invois: {NEG_INVOIS}
+
+    Helpdesk contact: {NEG_TEL}
+
+    Status: Bayaran premium bulanan diterima.'
+  - 'JomPay / DuitNow Notification:
+
+    Transfer to {NAMA} ({MY_NRIC}) settle dah!
+
+    Sender Phone: {MY_PHONE}
+
+    Tarikh: {TARIKH}
+
+    Ref: {NEG}
+
+    Remark: Bayar hutang futsal kat {BANDAR} last week. Jangan lupa check baki wallet k.'
+  - 'Bank statement remark:
+
+    DEBIT - Auto-billing ke {SYARIKAT} (Reg No: {MY_SSM_LAMA})
+
+    Tarikh debit: {TARIKH} {NEG_TARIKH}
+
+    Ref invois: {NEG_INVOIS}
+
+    Akaun tolak: {NEG_AKAUN}
+
+    Caj langganan wifi pejabat cawangan {BANDAR}.'
+  keahlian:
+  - 'Hi admin {SYARIKAT} {BANDAR}, saya nak register gym membership baru.
+
+    Nama: {NAMA}
+
+    IC: {MY_NRIC}
+
+    No hp: {MY_PHONE}
+
+    Plan amik yg promo 3 bulan tu ye. Nanti saya transfer payment. Tq!'
+  - 'Bro, card replacement for member no {NEG_AHLI} dah ready ke? Resit bayaran {NEG_INVOIS} dah email aritu.
+
+    Cawangan {SYARIKAT} kat {BANDAR} kata kena check status dgn ref code ({NEG}). Please update ASAP.'
+  - 'Borang Permohonan Keahlian Koperasi {SYARIKAT}:
+
+    Nama Penuh: {NAMA}
+
+    No. Kad Pengenalan: {MY_NRIC}
+
+    Majikan: {SYARIKAT} (No SSM: {MY_SSM})
+
+    Fee pendaftaran RM 50 dah tolak dari akaun {NEG_AKAUN}. Tarikh hantar: {TARIKH}.'
+  - 'Notice: Membership renewal successful for club account {NEG_AHLI}!
+
+    Payment txn: {NEG_INVOIS} via account {NEG_AKAUN} on {NEG_TARIKH}.
+
+    Access tag ({NEG_KOD}) renewed until next year. Collect your new sticker at {SYARIKAT} counter.'
+  - 'Salam boss, nak join club badminton {SYARIKAT} kat {BANDAR}.
+
+    Details member:
+
+    {NAMA}
+
+    Contact: {MY_PHONE}
+
+    IC no: {MY_NRIC}
+
+    Ada joining fee ke kalau register before {TARIKH}?'
+  - 'Yo, nak tanya pasal transfer membership pass ({NEG_KOD}). Member ID {NEG_AHLI} under ref {NEG}.
+
+    Dah bayar admin fee guna receipt {NEG_INVOIS}, tapi hotline {NEG_TEL} tak angkat call pun. Tolong expedite, thanks!'
+  - 'Hi, registration under corporate fitness package {SYARIKAT} (SSM: {MY_SSM_LAMA}).
+
+    Staff name: {NAMA}
+
+    MyKad: {MY_NRIC}
+
+    Mobile: {MY_PHONE}
+
+    Pls issue the membership card ASAP, starting {TARIKH}.'
+  - 'Adoi, tag gym hilang la boss. Nak ganti access card utk {SYARIKAT} cawangan {BANDAR}.
+
+    Nama: {NAMA}
+
+    Phone: {MY_PHONE}
+
+    Ref lama {NEG_AHLI}. Dah buat payment RM 20 ref txn {NEG_INVOIS}.'
+  polisi_takaful:
+  - Salam boss {NAMA}, your medical card plan under {SYARIKAT} nak expire on {TARIKH}. MyKad {MY_NRIC}. Pls WhatsApp agent at {MY_PHONE} to renew direct ah, ref no {NEG}.
+  - 'Peringatan mesra: Bayaran caruman takaful utk Policy No {NEG_AHLI} was unsuccessful on {NEG_TARIKH}. Sila transfer RM 150 to {SYARIKAT} account {NEG_AKAUN} and quote invois {NEG_INVOIS}.'
+  - 'Hi boss, your company SME group takaful under {SYARIKAT} ({MY_SSM}) will lapse on {TARIKH}. Person-in-charge is {NAMA} (IC: {MY_NRIC}). Sila submit form renewal kat branch {BANDAR} segera.'
+  - Update penama takaful berjaya! Plan ({NEG_KOD}) under certificate {NEG_AHLI} telah dikemaskini pada {NEG_TARIKH}. Sila semak ref {NEG} kalau ada sebarang pertukaran beneficiary lain.
+  - 'Bro {NAMA}, policy takaful hayat u nak lapse end of {TARIKH}. Dah submit form penama ke belum? Nanti coverage sangkut rugi je. Any enquiry call branch {BANDAR} or direct contact me at {MY_PHONE} ya. Ref: {NEG}.'
+  - 'Resit bayaran takaful kenderaan: Terima kasih renew with {SYARIKAT}. No Sijil: {NEG_AHLI}, Kod Pelan: {NEG_KOD}. Bayaran RM 280 dah masuk via akaun {NEG_AKAUN} under tracking {NEG_INVOIS}.'
+  - '{SYARIKAT}: Endorsmen penama baharu utk sijil takaful u dah approved. Nama peserta: {NAMA}, MyKad: {MY_NRIC}. Effective date: {TARIKH}. Boleh download e-policy using ref code {NEG}.'
+  - 'Salam, reminder utk renew takaful fleet syarikat {SYARIKAT} (Reg: {MY_SSM_LAMA}). Roadtax & takaful cover expire on {TARIKH}. Please confirm vehicle list through {MY_PHONE} ASAP, tq!'
+  tempahan_hotel:
+  - 'Hi {NAMA}, your homestay at {BANDAR} dah confirm ya! Check-in {TARIKH}. Please provide copy IC {MY_NRIC} for registration at guardhouse. Anything urgent can WhatsApp host at {MY_PHONE}. Booking ref: {NEG}.'
+  - 'Booking Confirmation - {SYARIKAT} Resort {BANDAR}.
+
+    Ref: {NEG_INVOIS}
+
+    Check-in date: {TARIKH}
+
+    Package: Deluxe Family ({NEG_KOD})
+
+    Loyalty Club Member No: {NEG_AHLI}
+
+    Payment via transfer to bank acc: {NEG_AKAUN}. Please show receipt upon check-in. Tq!'
+  - 'Salam boss, {SYARIKAT} ({MY_SSM}) dah reserve 3 bilik kat {BANDAR} on {TARIKH}. Guest rep is {NAMA}, contact {MY_PHONE}. Deposit dah bank in, invois no: {NEG_INVOIS}. Jumpa time check-in nanti lah ya.'
+  - 'Resit Tempahan Chalet {BANDAR} bawah {SYARIKAT}.
+
+    No Tempahan: {NEG}
+
+    No Invois: {NEG_INVOIS}
+
+    Tarikh Bayaran: {NEG_TARIKH}
+
+    Keahlian Travel Club: {NEG_AHLI}
+
+    Baki bayaran kena settle sebelum {TARIKH} masuk acc {NEG_AKAUN} tau.'
+  - 'Homestay check-in form details:
+
+    Guest Name: {NAMA}
+
+    IC/Passport: {MY_NRIC}
+
+    Destination: {BANDAR}
+
+    Check-in: {TARIKH} at 2pm.
+
+    Deposit RM50 to acc {NEG_AKAUN} ref code {NEG_KOD}. Thanks boss!'
+  - 'Auto-reply {SYARIKAT}: We received your booking enquiry {NEG_INVOIS} for weekend stay in {BANDAR}.
+
+    Timestamp: {NEG_TARIKH}
+
+    Promo voucher applied: ({NEG_KOD})
+
+    For urgent assistance, our old landline {NEG_TEL} is under maintenance. Pls email us directly ya.'
+  - 'Travel package 3D2N ke {BANDAR} under {SYARIKAT} (Reg: {MY_SSM_LAMA}).
+
+    Lead traveler: {NAMA}
+
+    Emergency contact: {MY_PHONE}
+
+    Booking Slip ID: {NEG}
+
+    Departure on {TARIKH}. Jangan lupa bawa IC original masa naik van nanti.'
+  - 'Reservation confirmed at {SYARIKAT}!
+
+    Room: Sea View Suite
+
+    Guest: {NAMA} (NRIC: {MY_NRIC})
+
+    Phone: {MY_PHONE}
+
+    Check-in: {TARIKH} kat {BANDAR}
+
+    Ref: {NEG}
+
+    Insurance policy no: {NEG_AHLI}. See you soon!'
+  servis_kenderaan:
+  - Salam boss {NAMA}, kereta you dah siap service kat {SYARIKAT} {BANDAR}. Minyak hitam dengan brake pad depan baru tukar. Ada apa-apa nak tanya roger mekanik kita kat {MY_PHONE}. Total RM180 je bos.
+  - 'Order spare part dah confirm ya bro. Invoice No: {NEG_INVOIS}. Item: Absorber depan ({NEG_KOD}) x 2 unit. Tolong transfer baki bayaran terus ke akaun bank syarikat no acc: {NEG_AKAUN}. Tracking ref: {NEG}. Barang pos ke {BANDAR} petang ni.'
+  - 'Peringatan mesra dari {SYARIKAT}: Roadtax & insuran kereta abang {NAMA} dah nak expired {TARIKH}. Sila verify IC no {MY_NRIC} utk proceed renew NCD 55%. Call atau WhatsApp nombor {MY_PHONE} kalau nak geran pos terus ke {BANDAR}.'
+  - 'Job sheet ref: {NEG}. Workshop {SYARIKAT} cawangan {BANDAR}.
+
+    Tuntutan warranty bateri bawah policy no: {NEG_AHLI}.
+
+    Part no: ({NEG_KOD}) alternator belt.
+
+    Timestamp check-in: {NEG_TARIKH}. Status: pending spare part sampai.'
+  - '{SYARIKAT} ({MY_SSM}) - Resit Servis & Overhaul Enjin.
+
+    Kereta siap overhaul gasket dan water pump. Warranty 6 bulan bermula {TARIKH}.
+
+    Sebarang breakdown atau leaking, terus contact hotline towing kami {MY_PHONE}. Cawangan kami di {BANDAR} sedia membantu.'
+  - 'Bro, quotation utk clutch plate set ({NEG_KOD}) dah siap. Ref invois: {NEG_INVOIS}.
+
+    No telefon supplier yg you bagi tu tak cukup digit {NEG_TEL}, tak lepas nak contact.
+
+    Kalau jadi nak order, inform bengkel kat {BANDAR} sebelum kul 5 petang.'
+  - 'Pusat Servis Kenderaan {SYARIKAT} (Reg: {MY_SSM_LAMA})
+
+    Nama Pemilik: {NAMA}
+
+    No K/P: {MY_NRIC}
+
+    Kerja dibuat: Major service 50 check-point, tukar spark plug & gearbox oil kat {BANDAR}.
+
+    Terima kasih support bengkel kami!'
+  - Bro {NAMA}, kereta dah lepas inspection kat {BANDAR}! Insuran cover note no {NEG_AHLI} dah submit ke sistem. Kalau nak ambik geran petang ni, roger runner saya dulu kat {MY_PHONE} ya. Thank you bossku!
+  bil_utiliti:
+  - 'Peringatan Terakhir: Bil internet {SYARIKAT} you dah overdue 2 bulan boss. Nama: {NAMA} (IC: {MY_NRIC}). Sila bayar sebelum {TARIKH} kalau tak nak kena potong. Any issue call PIC {MY_PHONE} cepat.'
+  - 'Notis Peringatan Bil Air: Acc no {NEG_AKAUN} kat {BANDAR} ada outstanding balance RM 85. Bil ref: {NEG_INVOIS}. Sila settle payment before {TARIKH} to avoid pemotongan bekalan. Helpdesk: {NEG_TEL} (office hours only).'
+  - '{SYARIKAT} (No. SSM: {MY_SSM})
+
+    Invois Utiliti Elektrik: Premis perniagaan kat {BANDAR}.
+
+    No. Rujukan Bil: {NEG_INVOIS} | Kod Tarif: ({NEG_KOD})
+
+    Jumlah perlu dibayar: RM 420. Tarikh akhir: {TARIKH}.'
+  - 'RESIT BAYARAN BIL UTILITI {SYARIKAT}
+
+    Tarikh Transaksi: {NEG_TARIKH}
+
+    No Akaun Pengguna: {NEG_AKAUN}
+
+    No Rujukan: {NEG}
+
+    Kod Mesin: ({NEG_KOD})
+
+    Payment received: RM 150. TQ for prompt payment, bro!'
+  - 'Salam boss {NAMA}, bil pembetungan premis you kat {BANDAR} dah keluar. Membership policy: {NEG_AHLI}. Tolong transfer RM 60 ke akaun {NEG_AKAUN} by {TARIKH} ya. Ada apa-apa WhatsApp saya balik kat {MY_PHONE}.'
+  - 'NOTIS PEMOTONGAN BEKALAN AIR
+
+    Kawasan: {BANDAR}
+
+    Akaun No: {NEG_AKAUN} | No Invois: {NEG_INVOIS}
+
+    Status: Tunggakan 3 bulan. Tindakan pemotongan dijadualkan pada {TARIKH}. Sila hubungi talian hotline bil {NEG_TEL} segera.'
+  - 'Penyata Akaun Jalur Lebar: {SYARIKAT} (Reg No: {MY_SSM_LAMA})
+
+    Alamat Bil: {BANDAR}
+
+    Baki tertunggak: RM 350. Sila clearkan sebelum {TARIKH}. Sekiranya dah bayar, kindly send proof to WhatsApp {MY_PHONE}. TQ boss!'
+  - 'Makluman Pulangan Deposit {SYARIKAT}:
+
+    Nama Pelanggan: {NAMA}
+
+    No K/P: {MY_NRIC}
+
+    Ref No: {NEG}
+
+    Deposit elektrik RM 200 akan dipulangkan ke akaun bank {NEG_AKAUN} selewat-lewatnya {TARIKH}. Terima kasih.'
+  pesanan_online:
+  - Hi seller {SYARIKAT}, barang baju ({NEG_KOD}) sampai rosak la. Nak refund boleh? Order no {NEG}. My name {NAMA}, can contact me at {MY_PHONE}. Pos courier to {BANDAR} hub ya.
+  - 'Sis, refund RM 120 dah proceed tapi finance team need verify MyKad dulu sebab order #{NEG} flagged. Boleh bagi photo IC to confirm no {MY_NRIC}? Nanti refund masuk terus to your bank.'
+  - Order confirmed bro! Tracking no {NEG_INVOIS} via {SYARIKAT}. Item ({NEG_KOD}) already shipped out on {NEG_TARIKH}. Any issue with parcel delivery to {BANDAR}, please quote ref {NEG} k.
+  - Salam boss, can issue official tax invoice for order {NEG_INVOIS}? Bought from {SYARIKAT} on {TARIKH}. Company name {SYARIKAT}, SSM no {MY_SSM}. Please send to {NAMA} ya, tq!
+  - Hi, I nak cancel order {NEG}. Dah bayar via transfer tapi barang habis stock pula. Tolong transfer balik to my account no {NEG_AKAUN}. I punya VIP member no is {NEG_AHLI}. Thanks seller.
+  - Boss, I dah hantar return item ({NEG_KOD}) back to your warehouse in {BANDAR}. Old SSM registration kami is {MY_SSM_LAMA}, under {NAMA}. Kalau dah terima parcel, WhatsApp me at {MY_PHONE} ya.
+  - Hello {SYARIKAT}, parcel tracking {NEG_INVOIS} still stuck at hub since {NEG_TARIKH}. Rider try call number {NEG_TEL} but line cut off. If barang pecah, please refund RM 85 to acc {NEG_AKAUN} ref {NEG}.
+  - 'Order #{NEG} belum sampai lagi la sis. Order date {TARIKH}. Delivery address kat {BANDAR}. Nama penerima {NAMA}, IC {MY_NRIC}. Rider kata phone {MY_PHONE} tak angkat padahal I tunggu kat rumah je.'
+  farmasi:
+  - Hai uncle {NAMA}, your ubat darah tinggi is ready for pickup kat {SYARIKAT} branch {BANDAR}. Please confirm IC {MY_NRIC} masa collect ye. If delivery, call us at {MY_PHONE}. Tq!
+  - 'Refill ubat order ref: {NEG}
+
+    Farmasi: {SYARIKAT}
+
+    Member Policy: {NEG_AHLI}
+
+    Item: Paracetamol 500mg x 2 ({NEG_KOD})
+
+    Paid via online transfer to acc {NEG_AKAUN}
+
+    Timestamp: {NEG_TARIKH}. Pls keep this slip ya.'
+  - 'Surat Rujukan Panel: Klinik {SYARIKAT} to {SYARIKAT} {BANDAR}.
+
+    Patient: {NAMA} (IC: {MY_NRIC})
+
+    Diagnosis: URTI & fever.
+
+    Ubat: Amoxicillin 250mg, Lozenges. Kalau ada issue, please contact clinic directly.'
+  - 'DO No: {NEG_INVOIS}
+
+    Order code: {NEG}
+
+    Item: Insulin Glargine ({NEG_KOD}) qty 10 box.
+
+    Branch: {SYARIKAT} {BANDAR}
+
+    Processed on {NEG_TARIKH}. Helplink call {NEG_TEL} for verification.'
+  - Hello {SYARIKAT}, nak tanya stock ubat kencing manis Metformin 500mg ada lagi tak? Doctor minta saya call {MY_PHONE} kalau nak order delivery. Nama saya {NAMA}, date of birth on {TARIKH}. Tq.
+  - 'Panel claim approved for claim ref {NEG_INVOIS}.
+
+    Insurer Member No: {NEG_AHLI}
+
+    Pharmacy branch: {SYARIKAT}
+
+    Co-payment RM 15 paid to merchant acc {NEG_AKAUN}.
+
+    Txn time: {NEG_TARIKH}. Approved by HQ.'
+  - 'Borang Program Ubat Kronik: Farmasi {SYARIKAT} ({MY_SSM}).
+
+    Nama Pesakit: {NAMA}
+
+    No K/P: {MY_NRIC}
+
+    Alamat pickup: {BANDAR}
+
+    Tarikh mula bekalan: {TARIKH}. Sila bawa MyKad asal masa pickup.'
+  - 'Surat Kebenaran Bekalan Ubat:
+
+    Syarikat panel: {SYARIKAT} (No ROC: {MY_SSM_LAMA})
+
+    Pekerja: {NAMA}
+
+    Contact No: {MY_PHONE}
+
+    Refill kebenaran sah sampai {TARIKH} under ref {NEG}. Sila emel invoice ke HR.'
+  majlis:
+  - 'Salam sis, booking dewan {BANDAR} utk wedding on {TARIKH} dah confirm ya.
+
+    Contact person: {NAMA}
+
+    IC: {MY_NRIC}
+
+    No fon: {MY_PHONE}
+
+    Deposit dah transfer, tqsm!'
+  - 'Hi boss, confirmation for event hall booking at {BANDAR} on {TARIKH}.
+
+    Booking Ref: {NEG}
+
+    Invoice No: {NEG_INVOIS}
+
+    Please bank in balance to our event account {NEG_AKAUN} before {NEG_TARIKH}.
+
+    Package selected: Item ({NEG_KOD}) for 200 pax.'
+  - 'Katering {SYARIKAT} ({MY_SSM}) available utk kenduri kahwin kat {BANDAR}.
+
+    Menu lauk pengantin siap pelamin.
+
+    Kalau nak bincang quotation, boleh direct WhatsApp PIC {NAMA} kat {MY_PHONE} ya.
+
+    Slot {TARIKH} still open lagi, cepat lock!'
+  - 'RSVP confirmation for majlis akikah:
+
+    Guest Name: {NAMA}
+
+    Club Member ID: {NEG_AHLI}
+
+    Receipt Ref: {NEG_INVOIS}
+
+    Emergency contact line registered: {NEG_TEL}
+
+    See you all on {TARIKH} at {BANDAR} hall! Jom makan gulai kawah.'
+  - 'Agreement sewa busana & pelamin under {SYARIKAT} (Reg: {MY_SSM_LAMA}).
+
+    Pengantin: {NAMA}
+
+    No K/P: {MY_NRIC}
+
+    Majlis bertempat di {BANDAR} tarikh {TARIKH}.
+
+    Baki bayaran kena settle seminggu sebelum majlis berlangsung.'
+  - 'Resit tempahan kanopi & katering {SYARIKAT} cawangan {BANDAR}.
+
+    No. Rujukan: {NEG}
+
+    No. Invois: {NEG_INVOIS}
+
+    Untuk tuntutan diskaun ahli, sila masukkan no loyalty: {NEG_AHLI}.
+
+    Sila buat bayaran ke akaun syarikat {NEG_AKAUN} selewatnya {NEG_TARIKH}.'
+  - 'Salam guys, tolong update RSVP kenduri adik {NAMA} kat {BANDAR} on {TARIKH}.
+
+    Sapa nak tumpang homestay or nak bawa extra pax, inform awal2 kat {MY_PHONE} k.
+
+    Food serving start pukul 12 tengah hari, jangan lambat!'
+  - 'Borang tempahan banquet hall {SYARIKAT} ({MY_SSM}):
+
+    Nama Penyewa: {NAMA}
+
+    No Kad Pengenalan: {MY_NRIC}
+
+    No Tel: {MY_PHONE}
+
+    Lokasi: {BANDAR}
+
+    Tarikh Majlis: {TARIKH} (Ref: {NEG}).'
+  derma_zakat:
+  - 'Resit Zakat Fitrah Masjid {BANDAR}
+
+    Nama Pembayar: {NAMA}
+
+    IC: {MY_NRIC}
+
+    No Tel: {MY_PHONE}
+
+    Jumlah: RM 21 (3 pax)
+
+    Tarikh bayaran: {TARIKH}. Moga diberkati bro, syukran jazilan.'
+  - 'Bukti Sumbangan Tabung Kebajikan {SYARIKAT}
+
+    No Transaksi: {NEG_INVOIS}
+
+    Acc Tujuan: {NEG_AKAUN}
+
+    Masa: {NEG_TARIKH}
+
+    Kod Program: Tabung Ramadan ({NEG_KOD})
+
+    Thank you for your donation, may Allah reward you bountifully!'
+  - 'Penyata Zakat Perniagaan dari {SYARIKAT} (No ROC: {MY_SSM}).
+
+    Wakil Syarikat: {NAMA}
+
+    Cawangan {BANDAR}, serahan tunai RM 500 pada {TARIKH}.
+
+    Ref no: {NEG}.
+
+    Jazakallah khair atas sumbangan zakat ini.'
+  - 'Wakaf Karpet Masjid Cawangan {BANDAR}
+
+    Resit No: {NEG_INVOIS}
+
+    No Ahli Kariah: {NEG_AHLI}
+
+    Bank-in Ref: {NEG}
+
+    Contact centre helpline: {NEG_TEL}
+
+    Tarikh: {TARIKH}
+
+    Alhamdulillah terima kasih atas infaq ikhlas anda.'
+  - 'Borang Tajaan Iftar {BANDAR}
+
+    Nama Penderma: {NAMA}
+
+    Syarikat: {SYARIKAT} ({MY_SSM_LAMA})
+
+    WhatsApp / Phone: {MY_PHONE}
+
+    Pakej: 50 pek makanan
+
+    Tarikh: {TARIKH}
+
+    Kite dah verify, tqvm sis!'
+  - 'Sumbangan Anak Yatim {BANDAR} berjaya processed!
+
+    Receipt ID: {NEG_INVOIS}
+
+    Kredit ke akaun: {NEG_AKAUN}
+
+    Kod Kempen: ({NEG_KOD})
+
+    Timestamp: {NEG_TARIKH}
+
+    Semoga murah rezeki selalu ya, receipt copy saved under ref {NEG}.'
+  - 'Resit Rasmi Zakat Pendapatan
+
+    Pembayar: {NAMA}
+
+    No K/P: {MY_NRIC}
+
+    Tarikh: {TARIKH}
+
+    No Resit: {NEG_INVOIS}
+
+    Boleh guna for income tax relief ya. Terima kasih donasi kat tabung {BANDAR}!'
+  - 'Salam bang {NAMA}, dah register borang wakaf kubur {BANDAR} ni.
+
+    IC: {MY_NRIC}
+
+    Contact: {MY_PHONE}
+
+    Ref: {NEG}
+
+    Nanti committee hantar official cert thru WhatsApp ya. Syukran!'
+  acara_sukan:
+  - 'Confirmation slip for {BANDAR} Night Run 5km!
+
+    Runner: {NAMA}
+
+    IC: {MY_NRIC}
+
+    Phone: {MY_PHONE}
+
+    Bib collection time will update later ya, bring your IC to counter.'
+  - 'Payment received for 10km category, thanks bro!
+
+    Ref No: {NEG}
+
+    Receipt: {NEG_INVOIS}
+
+    Bank transfer to {SYARIKAT} Acc: {NEG_AKAUN}
+
+    Bib tag item code: ({NEG_KOD}). See you at the flag-off line!'
+  - 'Reg Badminton Open {BANDAR}:
+
+    Pair 1 Captain: {NAMA}
+
+    WhatsApp: {MY_PHONE}
+
+    Category: Men Doubles Open
+
+    Team Entry Code: {NEG}
+
+    Tolong settle payment before {TARIKH} k, slot limited 32 pairs only!'
+  - 'Notice to all runners {BANDAR} Half Marathon:
+
+    Compulsory Group Insurance Policy: {NEG_AHLI}
+
+    Auto-timestamp log: {NEG_TARIKH}
+
+    Any inquiries contact helpdesk hotline: {NEG_TEL} (office hours only). Good luck everyone!'
+  - 'Borang Pendaftaran Futsal Cup:
+
+    Nama Manager: {NAMA}
+
+    No IC: {MY_NRIC}
+
+    Contact No: {MY_PHONE}
+
+    Nama Company: {SYARIKAT} ({MY_SSM})
+
+    Sila bawa IC masa match day for verification ya.'
+  - 'Event Kit Collection Voucher - Ride for Health:
+
+    Order ID: {NEG_INVOIS}
+
+    Club Member ID: {NEG_AHLI}
+
+    Jersey SKU: ({NEG_KOD})
+
+    Refund / security deposit return directly to account {NEG_AKAUN} within 3 days.'
+  - 'Hi admin, nak transfer bib {BANDAR} 21km please.
+
+    New runner name: {NAMA}
+
+    IC: {MY_NRIC}
+
+    Mobile: {MY_PHONE}
+
+    T-shirt size M. Dah transfer fee kat acc penganjur, let me know once updated bro.'
+  - 'Vendor Booth Registration for Sports Day Carnival:
+
+    PIC Name: {NAMA}
+
+    Phone: {MY_PHONE}
+
+    Company: {SYARIKAT} (Reg: {MY_SSM_LAMA})
+
+    Setup date: {TARIKH}. Please confirm slot by today.'
+  pembekal_b2b:
+  - 'Hi boss, quotation utk bekalan paip PVC dah ready.
+
+    Syarikat: {SYARIKAT} ({MY_SSM})
+
+    Attn to: {NAMA}
+
+    If agree dgn pricing, direct WhatsApp sales team kitorang kat {MY_PHONE} ya. Tq boss!'
+  - 'PO Confirmation: Ref No: {NEG}
+
+    Item: Industrial Valve ({NEG_KOD}) qty 50 unit.
+
+    Delivery to site {BANDAR} before {NEG_TARIKH}.
+
+    Payment dah bank-in to supplier account {NEG_AKAUN}. Pls check Inv: {NEG_INVOIS}.'
+  - 'Dokumen tender pembersihan tapak {BANDAR}.
+
+    Kontraktor utama: {SYARIKAT} (No ROC: {MY_SSM_LAMA}).
+
+    Penama tender: {NAMA} (IC: {MY_NRIC}).
+
+    Segala urusan rasmi sila rujuk submission ID {NEG} bertarikh {TARIKH}.'
+  - 'Salam En {NAMA}, update order tracking {NEG_INVOIS}.
+
+    Barang hardware code ({NEG_KOD}) otw pegi warehouse {BANDAR}.
+
+    Tengok baki bayaran transfer terus ke current acc {NEG_AKAUN}.
+
+    Kalu ada issue call hotline office {NEG_TEL} masa office hours.'
+  - 'Bro, ni revised quotation utk supply plywood kat {BANDAR}.
+
+    Harga can nego sikit kalau amik 100 bundle.
+
+    Any urgent matter can roger our procurement PIC {NAMA} kat {MY_PHONE} ya.
+
+    Tender ref: {NEG}. Tarikh tutup {TARIKH}.'
+  - 'B2B Vendor Registration Status:
+
+    Nama vendor: {SYARIKAT}
+
+    Corporate policy / group coverage no: {NEG_AHLI}
+
+    System submission timestamp: {NEG_TARIKH}
+
+    Status: Lulus for tender job {NEG}. TQ!'
+  - 'Perjanjian sub-con antara {SYARIKAT} ({MY_SSM}) dan kontraktor individu {NAMA} (No K/P: {MY_NRIC}).
+
+    Skop kerja: Pemasangan kabel elektrik kat {BANDAR}.
+
+    Bayaran claim ikut billing cycle bulanan via akaun syarikat {NEG_AKAUN}.'
+  - 'Official Quotation from {SYARIKAT} ({MY_SSM_LAMA}).
+
+    Supply toner & stationery to cawangan {BANDAR}.
+
+    Sila sign quotation & email balik.
+
+    Sebarang pertanyaan boleh hubungi En {NAMA} di mobile {MY_PHONE}.
+
+    Valid till {TARIKH}.'

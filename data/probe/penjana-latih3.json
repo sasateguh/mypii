@@ -1,0 +1,28 @@
+{
+  "sasaran": "latih3",
+  "tarikh": "2026-11-05",
+  "bahasa": "ms",
+  "genre": [
+    "penyata_bank",
+    "keahlian",
+    "polisi_takaful",
+    "tempahan_hotel"
+  ],
+  "calon": [
+    {
+      "model": "rv/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-NVFP4",
+      "lulus": true,
+      "sebab": "sah 15/16 (perlu 8)",
+      "per_genre": {
+        "penyata_bank": 3,
+        "keahlian": 4,
+        "polisi_takaful": 4,
+        "tempahan_hotel": 4
+      },
+      "tolak": {
+        "bahasa_tidak_dinilai": 1
+      }
+    }
+  ],
+  "dipilih": "rv/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-NVFP4"
+}

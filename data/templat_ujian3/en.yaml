@@ -1,0 +1,487 @@
+# Dijana 2026-11-05 oleh `python -m mypii.jana.templat_llm --sasaran ujian3` (model: anthropic/claude-sonnet-5-5). JANGAN sunting tangan.
+# DIMETERAI (PELAN-V2 P6): jangan buka, jangan sunting — gerbang menolak sebarang perubahan.
+genre:
+  pertanian_nelayan:
+  - 'FARMER SUBSIDY APPLICATION
+
+    Applicant: {NAMA}
+
+    MyKad: {MY_NRIC}
+
+    Contact: {MY_PHONE}
+
+    Location of farm: {BANDAR}, 3 hectares of paddy
+
+    Date submitted: {TARIKH}'
+  - 'Notice to all cooperative members: The fertiliser subsidy collection will be held at the {BANDAR} cooperative hall on {TARIKH}. Please bring your member card. Reference: {NEG}. Enquiries to the secretary {NAMA}, tel {MY_PHONE}.'
+  - 'Subsidy claim for outboard engine
+
+    Purchased from {SYARIKAT}, invoice {NEG_INVOIS} dated {NEG_TARIKH}.
+
+    Payment to be credited to bank account {NEG_AKAUN}.
+
+    Application ref: {NEG}
+
+    Status: pending verification by the district office.'
+  - Dear members, your Fishermen's Association insurance renewal is due soon. Policy {NEG12_TANPA} covers 1 vessel and 4 crew. Please settle the premium before {TARIKH}. Call the office if you see any error in the details printed on your slip.
+  - 'REGISTRATION OF SUPPLIER FOR PADDY SEED PROGRAMME
+
+    Business: {SYARIKAT} (LLP)
+
+    LLP No: {MY_SSM_LLP}
+
+    Owner: {NAMA}
+
+    Office line: {MY_PHONE_BS}
+
+    Address: {BANDAR}, Sarawak
+
+    Submitted on {TARIKH}'
+  - 'Smallholder Aid Form, Section A
+
+    Full name: {NAMA}
+
+    NRIC: {PATAH_MY_NRIC}
+
+    Phone: {PATAH_MY_PHONE}
+
+    Farm cooperative: {SYARIKAT}
+
+    Co. reg: {PATAH_MY_SSM}'
+  - 'Cooperative member statement
+
+    Member no: {NEG_AHLI}
+
+    Seed pack code: {NEG_KOD}
+
+    Receipt {NEG_INVOIS} issued on {NEG_TARIKH}
+
+    If the helpline number {NEG_TEL} fails, please visit the {BANDAR} branch counter.
+
+    The next dividend payout will be announced separately.'
+  asrama_pelajar:
+  - 'HOSTEL PLACEMENT OFFER
+
+    Dear {NAMA} (IC: {MY_NRIC}),
+
+    You have been offered a room in Block C, Level 3 for the new semester. Please report to the hostel office by {TARIKH} and bring this letter. Enquiries: {MY_PHONE}.'
+  - 'Student card replacement
+
+    Student: {NAMA}
+
+    Reason: lost card
+
+    Fee paid via receipt {NEG_INVOIS} on {NEG_TARIKH}. Collect the new card at the counter in {BANDAR} campus after 3 working days.'
+  - 'NOTICE: FINAL EXAM VENUE
+
+    Candidates in Group 4 will sit for the paper at Dewan Besar, not the lecture hall. Seat allocation ref: {NEG}. Arrive 30 minutes early and bring your student card. Issued {TARIKH}.'
+  - 'ASRAMA PELAJAR - REGISTRATION FORM
+
+    Name: {NAMA}
+
+    MyKad No.: {PATAH_MY_NRIC}
+
+    Guardian contact: {MY_PHONE}
+
+    Room preference: shared, 2 pax
+
+    Please submit to the warden before check-in.'
+  - 'Hostel deposit refund
+
+    Dear {NAMA}, your deposit refund will be credited to {NEG_AKAUN} within 14 days of check-out. Keep ref {NEG} for tracking. Thank you for staying with us.'
+  - 'Scanned form (OCR text):
+
+    Nama: {NAMA}
+
+    No. KP: {OCR_MY_NRIC}
+
+    Tel: {OCR_MY_PHONE}
+
+    Blok: B, Bilik 12
+
+    Purpose: request to change hostel room due to noisy neighbours.'
+  - 'HOSTEL ACCOMMODATION SUPPLIER NOTICE
+
+    Bedding and locker package ordered by Hostel Management from {SYARIKAT} (Reg. {MY_SSM}).
+
+    For delivery issues call the Kuching office at {MY_PHONE_BS}.
+
+    Order date: {TARIKH}.'
+  - 'Student insurance for hostel residents
+
+    Coverage confirmed for {NAMA}. Cover note {NEG12_TANPA} issued {NEG_TARIKH}. Locker key serial {NEG_KOD}. Return the key upon check-out at {BANDAR} campus.'
+  kontraktor_rumah:
+  - 'Plumber job sheet - {BANDAR}
+
+    Customer: {NAMA}
+
+    Fault: Leaking pipe under bathroom basin, replaced 1 trap and sealed joint.
+
+    Part code {NEG_KOD}, 1 pc.
+
+    Invoice {NEG_INVOIS} paid cash on {TARIKH}. No warranty on old fittings.'
+  - 'Renovation quote for double-storey terrace, {BANDAR}.
+
+    Scope: wet works, tiling for 3 bathrooms, ceiling repair.
+
+    Prepared by {NAMA} for {SYARIKAT}
+
+    Ref: {NEG}
+
+    Deposit transfer to account {NEG_AKAUN} within 7 days of acceptance.
+
+    Quote valid until {NEG_TARIKH}.'
+  - 'SEBUT HARGA / QUOTATION
+
+    Firm: {SYARIKAT} (LLP {MY_SSM_LLP})
+
+    Customer: {NAMA}
+
+    Item: Rewire 2nd floor, install 6 lighting points, 1 DB board.
+
+    Site visit {TARIKH}. Hubungi {MY_PHONE} for any changes.'
+  - 'Electrician job sheet
+
+    Tech: {NAMA}, {SYARIKAT}
+
+    Site: {BANDAR}
+
+    Trip tripped breaker, replaced faulty isolator, unit serial {NEG_KOD}.
+
+    Cust. contact left blank, called {NEG_TEL} but number incomplete.
+
+    Receipt {NEG_INVOIS}, date {NEG_TARIKH}.'
+  - 'QUOTATION (scanned copy)
+
+    Owner name: {NAMA}
+
+    IC No: {OCR_MY_NRIC}
+
+    Company: {SYARIKAT}  Co. Reg: {OCR_MY_SSM}
+
+    Tel: {OCR_MY_PHONE}
+
+    Scope: hack and retile kitchen floor, approx 20 sq m.
+
+    Payment by cheque or bank transfer.'
+  sekolah_memandu:
+  - 'DRIVING SCHOOL ENROLMENT FORM
+
+    Student: {NAMA}
+
+    NRIC: {MY_NRIC}
+
+    Contact: {MY_PHONE}
+
+    Class applied: D, 20 hours theory + 16 hours practical
+
+    Branch: {BANDAR}
+
+    Date registered: {TARIKH}'
+  - Hi {NAMA}, your JPJ driving test has been booked for {TARIKH} at the {BANDAR} test centre. Please bring your original MyKad and the Competent Driving Licence (CDL) card. Call the office at {MY_PHONE} if you need to reschedule.
+  - 'RECEIPT
+
+    {SYARIKAT}
+
+    Receipt no: {NEG_INVOIS}
+
+    Paid by: {NAMA}
+
+    Package: Class D full course
+
+    Payment ref: {NEG}
+
+    Date: {NEG_TARIKH}
+
+    Thank you for choosing us.'
+  - 'Partnership registration copy (scanned):
+
+    Business: {SYARIKAT} Driving Academy
+
+    LLP no: {MY_SSM_LLP}
+
+    Address: {BANDAR}
+
+    Owner contact: {OCR_MY_PHONE}
+
+    Licence renewal due {TARIKH}'
+  - 'Refund request - student {NAMA}
+
+    Withdrew from course on {TARIKH}.
+
+    Please transfer the balance to {NEG_AKAUN}.
+
+    Refund ref: {NEG}
+
+    Status: pending approval by the account office.'
+  - 'Student insurance slip from {SYARIKAT}
+
+    {NEG12_TANPA}
+
+    Covers practical lessons up to {TARIKH}.
+
+    Serial: {NEG_KOD}
+
+    Hotline: {NEG_TEL}
+
+    Keep this slip for the test day.'
+  rawatan_haiwan:
+  - 'ADOPTION FORM - {SYARIKAT} Animal Shelter, {BANDAR}
+
+    Adopter: {NAMA}
+
+    NRIC: {PATAH_MY_NRIC}
+
+    Phone: {PATAH_MY_PHONE}
+
+    Animal: stray kitten, female, approx. 10 weeks
+
+    I agree to sterilise the animal within 6 months. Signed on {TARIKH}.'
+  - 'Vet clinic receipt
+
+    Ref: {NEG}
+
+    Invoice no.: {NEG_INVOIS}
+
+    Patient: Kopi (dog)
+
+    Services: scaling, 1 tooth extraction, antibiotics
+
+    Paid by transfer to {NEG_AKAUN}
+
+    Thank you, see you at the next check-up!'
+  - 'Sabah Animal Clinic (scanned copy)
+
+    Owner: {NAMA}   IC: {OCR_MY_NRIC}
+
+    Tel: {OCR_MY_PHONE}
+
+    Patient: Tiger, rabbit, 1 yr
+
+    Complaint: not eating for 2 days, soft stool. Fluids given. Return if no improvement.'
+  - 'VET BOARDING & TREATMENT FORM
+
+    Business: {SYARIKAT} (LLP no. {MY_SSM_LLP})
+
+    Branch: {BANDAR}
+
+    Office line: {MY_PHONE_BS}
+
+    Pet: Luna (cat), boarding 3 nights from {TARIKH}
+
+    Special care: insulin injection twice daily.'
+  - 'PET INSURANCE CLAIM NOTE
+
+    Pet: Coco (Shih Tzu, 5 yrs)
+
+    Owner: {NAMA}
+
+    Cover no. {NEG12_TANPA}
+
+    Treatment date: {NEG_TARIKH}
+
+    Surgery to remove skin lump at {SYARIKAT}, {BANDAR}. Documents attached: 2 pages.'
+  - 'VETERINARY CLINIC REGISTRATION (supplier details)
+
+    Clinic: {SYARIKAT}
+
+    SSM: {PATAH_MY_SSM}
+
+    Old reg: {MY_SSM_LAMA}
+
+    Pharmacy order: {NEG_KOD}
+
+    Contact: {NEG_TEL}
+
+    Dated {TARIKH}, {BANDAR}.'
+  surat_guaman:
+  - 'LETTER OF DEMAND
+
+    Our Ref: {NEG}
+
+    Date: {TARIKH}
+
+
+    To: {SYARIKAT} (Co. No. {MY_SSM}), {BANDAR}
+
+
+    We act for {NAMA} (NRIC {MY_NRIC}). Pay the outstanding sum under Invoice {NEG_INVOIS} within 14 days of this letter, failing which we will commence proceedings without further notice.'
+  - 'STATUTORY DECLARATION
+
+    I, {NAMA}, NRIC No. {MY_NRIC}, of {BANDAR}, do solemnly and sincerely declare that I am the sole proprietor of {SYARIKAT}. I may be reached at {MY_PHONE}. Declared at {BANDAR} on {TARIKH}.'
+  - 'POWER OF ATTORNEY (EXCERPT)
+
+    I, {NAMA}, hereby appoint {NAMA} as my lawful attorney to operate my savings account {NEG_AKAUN} and to sign all documents relating to the transfer of the vehicle bearing registration chassis {NEG_KOD}. This appointment is effective from {TARIKH}.'
+  - 'Dear Sirs,
+
+    Re: Termination of Tenancy at {BANDAR}
+
+    Our client, {SYARIKAT}, hereby gives notice that the tenancy is terminated with effect from {TARIKH}. Kindly contact our Miss {NAMA} at the Kuching office on {MY_PHONE_BS} to arrange handover of keys. Our Ref: {NEG}.'
+  - 'NOTICE OF DEFAULT
+
+    Our Ref: {NEG}
+
+    We refer to the loan facility granted to {NAMA}. Despite repeated reminders, payment under Receipt {NEG_INVOIS} remains outstanding. Settle within 7 days from {TARIKH}. Insurance cover {NEG12_TANPA} will lapse if no payment is made.'
+  - 'LETTER OF DEMAND
+
+    To: {SYARIKAT}
+
+    Co. Reg. No. (scanned copy): {OCR_MY_SSM}
+
+    We act for {NAMA}. Our client''s NRIC as shown on the scanned form is {OCR_MY_NRIC}. You are required to deliver the goods under Order {NEG} by {TARIKH}, failing which legal action will follow.'
+  - 'Dear {NAMA},
+
+    We confirm receipt of your instructions dated {NEG_TARIKH}. Please quote file ref {NEG} and your customer reference {NEG_TEL} in all correspondence. Our professional fees will be billed under Invoice {NEG_INVOIS}. Meanwhile we hold the sum in trust account {NEG_AKAUN} pending completion.'
+  persatuan_penduduk:
+  - 'LEVY NOTICE
+
+    All residents are reminded that the monthly security levy of RM50 for {TARIKH} remains unpaid for some units. Please pay to account {NEG_AKAUN} and quote your house number. Receipt ref {NEG_INVOIS} will be issued within 3 working days. Queries: Treasurer {NAMA}.'
+  - 'Minutes (extract) - Residents'' Association {BANDAR}
+
+    Item 4: Landscaping work awarded to {SYARIKAT}, a partnership firm, LLP no. {MY_SSM_LLP}. Site contact for the Sarawak head office is {MY_PHONE_BS}. Work to begin {TARIKH}, subject to approval by {NAMA}.'
+  - 'Scanned form - Borang Pendaftaran Ahli Persatuan Penduduk
+
+    Name: {NAMA}
+
+    MyKad: {OCR_MY_NRIC}
+
+    Handphone: {OCR_MY_PHONE}
+
+    Address: No. 12, Lorong 3, {BANDAR}
+
+    Date registered: {TARIKH}
+
+    Signature: ____'
+  - 'Notice to residents: the lift maintenance contract is now with {SYARIKAT}. Please quote service ticket {NEG} for any breakdown report. Parts replaced under item {NEG_KOD} on {NEG_TARIKH}. Do not call old numbers like {NEG_TEL} as they are no longer in use. Thank you.
+
+    - Management Committee'
+  - 'Persatuan Penduduk {BANDAR} - Treasurer''s report
+
+    Sinking fund transferred on {NEG_TARIKH}. Funds held under {NEG12_TANPA} as agreed at the last meeting. Insurance renewal paid to {SYARIKAT}, receipt {NEG_INVOIS}. Balance carried forward to {TARIKH}. Prepared by {NAMA}.'
+  latihan_kemahiran:
+  - 'ENROLMENT CONFIRMATION
+
+    Dear {NAMA}, your place in the Welding Level 2 course at {SYARIKAT} Training Centre, {BANDAR} is confirmed. Please bring a copy of your MyKad ({MY_NRIC}) on {TARIKH}. Enquiries: {MY_PHONE}.'
+  - 'Skills Training Fee Receipt
+
+    Receipt No: {NEG_INVOIS}
+
+    Payment received from {SYARIKAT} for 12 trainees, Forklift Operation.
+
+    Course ref: {NEG}
+
+    Paid by transfer to account {NEG_AKAUN} on {NEG_TARIKH}.'
+  - 'CERTIFICATE COLLECTION NOTICE
+
+    Candidates who completed the Basic Electrical Wiring course may collect their certificates from the {BANDAR} office from {TARIKH}. Collector must show original MyKad. Certificate serial: {NEG_KOD}. Call {NEG_TEL} if unsure of your batch.'
+  - 'Application form (scanned copy)
+
+    Name: {NAMA}
+
+    IC No: {OCR_MY_NRIC}
+
+    Tel: {OCR_MY_PHONE}
+
+    Course: Pastry & Baking, 3 months
+
+    Sponsor: {SYARIKAT}, SSM {OCR_MY_SSM}'
+  - Hi {NAMA}, this is the admin at the {BANDAR} skills centre. Your Hairdressing Level 1 certificate is ready for collection. Office closes at 5pm. Sorry for the delay, we had a printing problem. Call {MY_PHONE} before you come.
+  - 'Employer Sponsorship Letter
+
+    We, {SYARIKAT} (Reg. No. {MY_SSM_LLP}), hereby sponsor {NAMA} to attend the Air-Conditioning Servicing course at your institute from {TARIKH}. Training fees will be settled upon receipt of invoice {NEG_INVOIS}.'
+  - 'Trainee Registration Slip
+
+    Course code: {NEG_KOD}
+
+    Batch ref: {NEG}
+
+    Insurance cover for trainees under scheme {NEG12_TANPA}
+
+    Session starts {NEG_TARIKH}. Attendance of at least 80% is compulsory for certification.'
+  - 'REGISTRATION FORM
+
+    Full name: {NAMA}
+
+    MyKad no.: {PATAH_MY_NRIC}
+
+    Contact (office, Kuching branch): {MY_PHONE_BS}
+
+    Employer phone: {PATAH_MY_PHONE}
+
+    Employer SSM: {PATAH_MY_SSM}
+
+    Please complete in block letters.'
+  lori_pindah:
+  - 'LORI PINDAH RUMAH - BOOKING CONFIRMATION
+
+    Customer: {NAMA}, NRIC {MY_NRIC}
+
+    Contact: {MY_PHONE}
+
+    Pickup: Taman Melati, {BANDAR} on {TARIKH}
+
+    Lorry: 3-tonne, 2 helpers. Booking ref {NEG}'
+  - Hi {NAMA}, this is {SYARIKAT} Movers. Your lorry is confirmed for {TARIKH}, arriving 8am at your old house in {BANDAR}. Deposit receipt {NEG_INVOIS} received. Please have all boxes sealed and labelled by then.
+  - 'Moving quote
+
+    Company: {SYARIKAT} (LLP no. {MY_SSM_LLP})
+
+    Customer: {NAMA}
+
+    Route: {BANDAR} to Kota Kinabalu
+
+    Site office: {MY_PHONE_BS}
+
+    Quote no. {NEG}. Payment to {NEG_AKAUN}'
+  - 'DELIVERY SCHEDULE
+
+    Date: {TARIKH}
+
+    Stop 1: collect furniture at {BANDAR}, driver will call before arrival
+
+    Stop 2: unload at new unit, level 5, lift available
+
+    Tracking {NEG_INVOIS}
+
+    Logged at {NEG_TARIKH}
+
+    No extra charge for first 2 hours of waiting.'
+  - 'Booking form - Pindah Rumah
+
+    Customer name: {NAMA}
+
+    NRIC: {PATAH_MY_NRIC}
+
+    Phone: {PATAH_MY_PHONE}
+
+    From: {BANDAR}
+
+    To: Taman Seri Indah
+
+    Date: {TARIKH}
+
+    Special: piano x1, need 4 men'
+  - 'Mover''s job sheet
+
+    Job {NEG} done on {TARIKH}
+
+    Items moved: washing machine (serial {NEG_KOD}), wardrobe x2, 18 boxes
+
+    Insured under {NEG12_TANPA}
+
+    Call office if any damage: {NEG_TEL}
+
+    Signed by customer {NAMA}'
+  - 'SERVICE AGREEMENT
+
+    Provider: {SYARIKAT}, reg {PATAH_MY_SSM}
+
+    Client: {NAMA}
+
+    Scope: full house move from {BANDAR}, 1 x 5-tonne lorry
+
+    Start {TARIKH}
+
+    Invoice {NEG_INVOIS} to be settled within 7 days.
+
+    Contact {MY_PHONE}'

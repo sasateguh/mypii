@@ -1,0 +1,70 @@
+[project]
+name = "mypii"
+version = "1.0.0"
+description = "Malaysian PII recognizers (MyKad, SSM, phone) for Presidio, plus the MyPII-Bench synthetic BM/EN/Manglish benchmark"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.11,<3.14"
+authors = [{ name = "Aiman Malib" }]
+keywords = ["pii", "pii-detection", "presidio", "malaysia", "mykad", "nric", "data-privacy", "anonymization", "nlp"]
+classifiers = [
+  "Development Status :: 5 - Production/Stable",
+  "Intended Audience :: Developers",
+  "Intended Audience :: Science/Research",
+  "Natural Language :: English",
+  "Natural Language :: Malay",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
+  "Topic :: Security",
+  "Topic :: Text Processing :: Linguistic",
+]
+# numpy + regex dipakai terus oleh pengecam (pengelas konteks, normalisasi) — diisytihar, bukan bergantung pada presidio.
+dependencies = [
+  "presidio-analyzer>=2.2.366",
+  "phonenumbers>=8.13",
+  "pyyaml>=6",
+  "numpy>=1.26",
+  "regex>=2023.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/sasateguh/mypii"
+Source = "https://github.com/sasateguh/mypii"
+Issues = "https://github.com/sasateguh/mypii/issues"
+Changelog = "https://github.com/sasateguh/mypii/blob/main/CHANGELOG.md"
+
+# Alat penilaian/latih = KUMPULAN (PEP 735), bukan extra: PyPI menolak metadata yang membawa URL terus (model spaCy dari
+# GitHub, malaysia-pii-guard dari git), dan kumpulan tidak masuk metadata pakej. `uv sync --group nilai --group garis`.
+[dependency-groups]
+dev = ["pytest>=8", "ruff>=0.6"]
+nilai = [
+  "en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0-py3-none-any.whl",
+]
+# Garis dasar pesaing (ADR-011): tiada di PyPI → git dipin (main, 1 Sep 2026).
+garis = [
+  "malaysia-pii-guard @ git+https://github.com/laizhenyoong/malaysia-pii-guard@75d6920249bd4938a5d030f4c20fbcfe5316cfa7",
+  "anthropic>=1.0",  # PELAN-CLAUDE (ADR-016): SDK rasmi, garis dasar Claude melalui API Anthropic terus
+]
+# PELAN-V2 P10 (ADR-018): alat LATIH pengelas konteks sahaja — ramalan dalam mypii/pengecam memakai numpy, bukan sklearn.
+latih = ["scikit-learn>=1.5", "scipy>=1.13"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+# Wheel membawa config/ + model pengelas DALAM pakej (mypii/_data); mypii.konfig.akar_data() memilihnya bila ada.
+[tool.hatch.build.targets.wheel]
+packages = ["mypii"]
+
+[tool.hatch.build.targets.wheel.force-include]
+"config" = "mypii/_data/config"
+"model/konteks-v2.json" = "mypii/_data/model/konteks-v2.json"
+
+# sdist ramping: kod + config + model sahaja (penanda aras, cache LLM dan dokumen tinggal dalam repo / Zenodo).
+[tool.hatch.build.targets.sdist]
+include = ["mypii", "config", "model/konteks-v2.json", "README.md", "LICENSE", "CHANGELOG.md", "CITATION.cff", "pyproject.toml"]
+
+[tool.ruff]
+line-length = 100

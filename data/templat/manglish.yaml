@@ -1,0 +1,43 @@
+genre:
+  whatsapp:
+    - "bro my ic {MY_NRIC} ah, u help me check can ah? anything just whatsapp {MY_PHONE}"
+    - "eh my no tukar already, now {MY_PHONE} k"
+    - "boss the invoice {NEG} already settle ya, later i send resit"
+    - "ok can, meet at {BANDAR} lah, if lost call me {MY_PHONE}"
+  emel:
+    - "Hi boss, {SYARIKAT} punya SSM no is {MY_SSM}, pls update in system. Any q call {MY_PHONE}. Tq, {NAMA}"
+  borang:
+    - "nama {NAMA} ic {MY_NRIC} hp {MY_PHONE}"
+  aduan:
+    - "this {SYARIKAT} ({MY_SSM}) very teruk la, order {NEG} until now tak sampai since {TARIKH}"
+    - "dah bank in {NEG_AKAUN} but order {NEG_INVOIS} still tak sampai, call me {MY_PHONE}"
+    - "this {SYARIKAT} reg no {MY_SSM_LAMA} scam la, deposit tak return since {TARIKH}"
+    - "model {NEG_KOD} rosak in 2 days, resit {NEG_INVOIS}"
+  klinik:
+    - "pt {NAMA} ic {MY_NRIC} demam 3 hari, family no {MY_PHONE}"
+  # --- P1: gaya baharu + negatif keras ---
+  whatsapp_group:
+    - "[{TARIKH}] admin: parents yg belum send ic anak pls pm k. eg {NAMA} - {MY_NRIC}"
+    - "guys yuran bank in to {NEG_AKAUN} ya, tq"
+    - "sapa hilang wallet kat {BANDAR}? ada ic {NAMA} inside, owner pls ws {MY_PHONE}"
+    - "eh {NEG_TEL} tu no tak cukup la bro, cuba {MY_PHONE}"
+    - "parcel tracking {NEG_INVOIS} esok sampai kot"
+    - "my bank acc {NEG_AKAUN} ye, my ic {MY_NRIC} if u need for the form"
+  borang:
+    - "nama: {NAMA}\nic: {MY_NRIC}\nacc no: {NEG_AKAUN}\nhp: {MY_PHONE}"
+    - "co. {SYARIKAT} reg {MY_SSM_LAMA}, pic {NAMA} {MY_PHONE}"
+  emel_hr:
+    - "hi hr, pls tukar my salary acc to {NEG_AKAUN} start {TARIKH}. ic {MY_NRIC}. tq"
+    - "staff id {NEG_INVOIS} punya laptop tag {NEG_KOD} dah return ya"
+  resit:
+    - "{SYARIKAT} {MY_SSM} | resit {NEG_INVOIS} | {NEG_TARIKH} | total rm23.40"
+    - "duitnow ok, ref {NEG_TARIKH} to {NEG_AKAUN}"
+    - "item {NEG_KOD} x1 rm5, item {NEG_KOD} x2 rm9"
+  jadual_teks:
+    - "no | nama | ic | hp\n1 | {NAMA} | {MY_NRIC} | {MY_PHONE}\n2 | {NAMA} | {MY_NRIC} | {MY_PHONE}"
+    - "sdn bhd | ssm | director ic\n{SYARIKAT} | {MY_SSM} | {MY_NRIC}"
+  ocr_bising:
+    - "lC N0 {MY_NRIC} HP {MY_PHONE}"
+    - "inv0ice {NEG_INVOIS} tarikh {NEG_TARIKH}"
+    - "{SYARIKAT} ({MY_SSM_LAMA}) d0kumen sah"
+    - "akaun {NEG_AKAUN} nama {NAMA}"

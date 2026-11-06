@@ -1,0 +1,79 @@
+{
+  "alfa": 0.05,
+  "deskriptif": {
+    "presidio-asal": {
+      "atas": 0.6837,
+      "bawah": 0.6295,
+      "delta": 0.6553,
+      "p_bootstrap": 0.0,
+      "p_rawak": 0.001
+    }
+  },
+  "dokumen": 1000,
+  "f1": {
+    "llm:anthropic/claude-haiku-5-5": {
+      "atas": 0.8915,
+      "bawah": 0.8509,
+      "f1": 0.8714
+    },
+    "mypii": {
+      "atas": 0.9868,
+      "bawah": 0.9733,
+      "f1": 0.9804
+    },
+    "mypii-v1": {
+      "atas": 0.6204,
+      "bawah": 0.5505,
+      "f1": 0.5872
+    },
+    "presidio-asal": {
+      "atas": 0.3515,
+      "bawah": 0.2967,
+      "f1": 0.3251
+    }
+  },
+  "hipotesis": {
+    "H4a": {
+      "atas": 0.1292,
+      "bawah": 0.0904,
+      "beza_kecil": false,
+      "delta": 0.109,
+      "disokong": true,
+      "margin": 0.01,
+      "p_bootstrap": 0.0,
+      "p_holm_bootstrap": 0.0,
+      "p_rawak": 0.001,
+      "p_rawak_bonferroni": 0.002,
+      "rawak_syarat": false,
+      "sistem": "llm:anthropic/claude-haiku-5-5"
+    },
+    "H4b": {
+      "atas": 0.429,
+      "bawah": 0.3591,
+      "beza_kecil": false,
+      "delta": 0.3932,
+      "disokong": true,
+      "margin": 0.0,
+      "p_bootstrap": 0.0,
+      "p_holm_bootstrap": 0.0,
+      "p_rawak": 0.001,
+      "p_rawak_bonferroni": 0.002,
+      "rawak_syarat": true,
+      "sistem": "mypii-v1"
+    }
+  },
+  "holm_k": 2,
+  "kunci": "semua|*",
+  "lejar_usd_selepas": 3.485583,
+  "llm": {
+    "llm:anthropic/claude-haiku-5-5": {
+      "dokumen": 1000,
+      "gagal": 0,
+      "panggilan": 1000,
+      "rosak": 1
+    }
+  },
+  "pelaksana": "sesi interaktif pemilik 5 Nov 2026 (pindaan 2026-11-05 e)",
+  "sha": "17bb5a1aa964f0162bf4204c11c1cde5f06d6a0c",
+  "split": "ujian3"
+}

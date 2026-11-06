@@ -1,0 +1,43 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  ujian:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: astral-sh/setup-uv@1c37ad07a6a961277cf70c0d37d6f313000f5884 # v10.3.0
+        with:
+          version: "0.12.24"
+          python-version: "3.12"
+      # Ujian unit + kunci sha256 setiap split; tiada rangkaian, tiada model spaCy, tiada kunci API.
+      - run: uv sync --frozen
+      - run: uv run --frozen ruff check mypii tests
+      - run: uv run --frozen pytest -q
+
+  pasang:
+    # Wheel dibina, dipasang dalam venv bersih, dan contoh README dijalankan atas pakej itu.
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python: ["3.11", "3.13"]
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: astral-sh/setup-uv@1c37ad07a6a961277cf70c0d37d6f313000f5884 # v10.3.0
+        with:
+          version: "0.12.24"
+          python-version: ${{ matrix.python }}
+      - run: uv build
+      - run: uvx twine@7.0.0 check --strict dist/*
+      - run: |
+          uv venv --python ${{ matrix.python }} "$RUNNER_TEMP/v"
+          VIRTUAL_ENV="$RUNNER_TEMP/v" uv pip install dist/*.whl \
+            "en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0-py3-none-any.whl"
+          python3 scripts/semak_contoh_readme.py "$RUNNER_TEMP/v/bin/python"

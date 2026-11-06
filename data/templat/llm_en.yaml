@@ -1,0 +1,592 @@
+# Dijana 2026-10-30 oleh `python -m mypii.jana.templat_llm --sasaran latih` (model: ag/gemini-3.8-flash). JANGAN sunting tangan.
+genre:
+  penyata_bank:
+  - 'Payment Advice: Instant Transfer to {SYARIKAT} (SSM: {MY_SSM})
+
+    Beneficiary Acc: {NEG_AKAUN}
+
+    Payment Details: Invoice settlement {NEG_INVOIS}
+
+    Status: Successful on {TARIKH} {NEG_TARIKH}'
+  - 'Interbank GIRO (IBG) Transaction Record
+
+    From: {SYARIKAT} (Reg No: {MY_SSM_LAMA})
+
+    To Account: {NEG_AKAUN}
+
+    Beneficiary Name: {NAMA}
+
+    Contact: {MY_PHONE}
+
+    Description: Contract fee settlement
+
+    Date: {TARIKH}'
+  - 'STATEMENT OF ACCOUNT - {SYARIKAT}
+
+    Entry: Direct Debit Standing Instruction
+
+    Description: Monthly Takaful Premium
+
+    Policy / Member No: {NEG_AHLI}
+
+    Billing Ref: {NEG_INVOIS}
+
+    Debited from: {NEG_AKAUN}
+
+    Date: {TARIKH}'
+  - 'Transfer Completed to {NAMA}
+
+    DuitNow ID (NRIC): {MY_NRIC}
+
+    Transaction Reference: {NEG}
+
+    Time: {NEG_TARIKH}
+
+    Note: Lunch reimbursement at {BANDAR}'
+  keahlian:
+  - 'Welcome to {SYARIKAT} Fitness {BANDAR}!
+
+    Member Name: {NAMA}
+
+    MyKad: {MY_NRIC}
+
+    Phone: {MY_PHONE}
+
+    Membership ID: {NEG_AHLI}
+
+    Your tier-1 access card is ready for collection at the front counter.'
+  - '{SYARIKAT} Club Card Replacement Receipt
+
+    Member ID: {NEG_AHLI}
+
+    Payment Ref: {NEG_INVOIS}
+
+    Refund Bank Acc: {NEG_AKAUN}
+
+    Timestamp: {NEG_TARIKH}
+
+    Replacement fee of RM 20 received successfully on {TARIKH}.'
+  - 'Dear {NAMA}, your request for a replacement badge at {SYARIKAT} Country Club ({BANDAR}) has been approved.
+
+    Please show your IC {MY_NRIC} at the reception. Ref: {NEG}.'
+  - 'Corporate Gym Registration under {SYARIKAT} (SSM: {MY_SSM})
+
+    Employee Name: {NAMA}
+
+    NRIC: {MY_NRIC}
+
+    Branch: {BANDAR}
+
+    Policy No: {NEG_AHLI}
+
+    Please proceed to biometric registration.'
+  - 'Koperasi {SYARIKAT} Annual Dividend Statement
+
+    Member Number: {NEG_AHLI}
+
+    Credited to Bank Account: {NEG_AKAUN}
+
+    Transaction Voucher: {NEG_INVOIS}
+
+    Processed on: {TARIKH} ({NEG_TARIKH})
+
+    Plan item ({NEG_KOD}).'
+  - 'Hi {NAMA}, your annual pass for {SYARIKAT} Sports Club {BANDAR} expires on {TARIKH}.
+
+    Renew your pass now via WhatsApp at {MY_PHONE} or verify using IC {MY_NRIC}.
+
+    Membership No: {NEG_AHLI}.'
+  polisi_takaful:
+  - 'REMINDER: Dear {NAMA} (NRIC: {MY_NRIC}), your takaful contribution for policy {NEG_AHLI} is due on {TARIKH}. Please remit RM 150 to maintain your coverage with {SYARIKAT}.'
+  - 'Update of Nominee Confirmation
+
+    Certificate No: {NEG_AHLI}
+
+    Product Code: ({NEG_KOD})
+
+    Your nomination update request ref {NEG} submitted at {NEG_TARIKH} has been approved. Monthly contributions will continue via auto-debit account ending {NEG_AKAUN}. Thank you for choosing {SYARIKAT} {BANDAR}.'
+  - Dear {NAMA}, your Takaful Kasih renewal is scheduled on {TARIKH}. An SMS alert has been dispatched to your mobile {MY_PHONE}. For service inquiries, visit our branch in {BANDAR} or call customer care.
+  - 'NOTICE OF AUTO-RENEWAL: Family Takaful Plan ({NEG_KOD})
+
+    Policy Ref: {NEG_AHLI}
+
+    Billing Reference: {NEG_INVOIS}
+
+    Effective Date: {TARIKH}
+
+    Your annual contribution will be deducted automatically from account {NEG_AKAUN}. Processed by {SYARIKAT} system log {NEG_TARIKH}.'
+  - 'Important Notice: Outstanding Contribution for Certificate {NEG_AHLI}.
+
+    Invoice No: {NEG_INVOIS}
+
+    Batch: {NEG}
+
+    Please make payment before {TARIKH} to avoid certificate lapse. For payment verification, contact our automated desk at {NEG_TEL} or log on to {SYARIKAT} portal.'
+  - Hi {NAMA}, thank you for keeping your protection active under Certificate {NEG_AHLI}. We tried reaching you at {MY_PHONE} regarding your policy dividend statement. Please drop by our service center at {BANDAR}.
+  - 'Corporate Group Takaful Renewal Confirmation
+
+    Client: {SYARIKAT} (Company No: {MY_SSM_LAMA})
+
+    Person In Charge: {NAMA}
+
+    Contact Number: {MY_PHONE}
+
+    Plan Reference: {NEG_AHLI}
+
+    All eligible employees remain covered from {TARIKH}.'
+  tempahan_hotel:
+  - 'Thank you for booking the Island Hopping Tour with {SYARIKAT}!
+
+    Tour Date: {TARIKH}
+
+    Billing Reference: {NEG_INVOIS}
+
+    Refunds if applicable will be credited to bank acc {NEG_AKAUN}.
+
+    Travel Insurance Policy No: {NEG_AHLI} (Policy Code: {NEG_KOD}).'
+  - 'Guest Registration Form - {SYARIKAT} Hotel {BANDAR}
+
+    Full Name: {NAMA}
+
+    IC / Passport No: {MY_NRIC}
+
+    Contact Number: {MY_PHONE}
+
+    Check-in Date: {TARIKH} | Room No: 304
+
+    Managed by {SYARIKAT} (Company Reg: {MY_SSM}).'
+  - 'Hi {NAMA}, welcome to our homestay in {BANDAR}! Your booking ref is {NEG}.
+
+    Please confirm your NRIC number {MY_NRIC} for key collection.
+
+    If you need anything during your stay from {TARIKH}, WhatsApp owner at {MY_PHONE}.'
+  - 'Corporate Travel Booking Confirmation
+
+    Agency: {SYARIKAT} (ROC: {MY_SSM_LAMA})
+
+    Guest Name: {NAMA} | Contact: {MY_PHONE}
+
+    Destination: {BANDAR} | Check-in: {TARIKH}
+
+    Invoice Number: {NEG_INVOIS} | Folio: {NEG}.'
+  - '{SYARIKAT} Travel & Tours ({MY_SSM})
+
+    Booking Confirmation for {NAMA}
+
+    Package: 4D3N Honeymoon Tour to {BANDAR}
+
+    Traveler Contact: {MY_PHONE}
+
+    Policy: {NEG_AHLI} | Booking Ref: {NEG}'
+  servis_kenderaan:
+  - '{SYARIKAT} Workshop Service Record
+
+    Customer: {NAMA}
+
+    IC No: {MY_NRIC}
+
+    Contact: {MY_PHONE}
+
+    Work Done: Engine oil change & brake pad replacement at {BANDAR} branch.
+
+    Next service due on {TARIKH} or after 10k km.'
+  - 'Dear {NAMA}, your private vehicle road tax and motor takaful under policy {NEG_AHLI} will expire on {TARIKH}. Please contact {SYARIKAT} at {MY_PHONE} to renew early and avoid JPJ summons. SSM: {MY_SSM}.'
+  - 'Delivery Order: {NEG_INVOIS}
+
+    Destination: Auto Workshop, {BANDAR}
+
+    Part Description: Steering rack bush ({NEG_KOD}) - 4 units
+
+    Billing Account: {NEG_AKAUN}
+
+    Order Reference: {NEG}
+
+    Dispatch verified on {NEG_TARIKH}.'
+  - 'Service Reminder from {SYARIKAT}, {BANDAR}:
+
+    Hi {NAMA} (NRIC: {MY_NRIC}), your vehicle inspection certificate expires on {TARIKH}. Please WhatsApp our runner team at {MY_PHONE} to arrange Puspakom booking. Quote ref {NEG}.'
+  bil_utiliti:
+  - '{SYARIKAT} WATER NOTICE
+
+    Account Holder: {NAMA}
+
+    IC No: {MY_NRIC}
+
+    Premises: {BANDAR}
+
+    Contact No: {MY_PHONE}
+
+    Please settle outstanding balance of RM 85 before {TARIKH} to avoid disconnection.'
+  - 'FINAL REMINDER: Immediate disconnection of internet service.
+
+    Account No: {NEG_AKAUN}
+
+    Invoice Reference: {NEG_INVOIS}
+
+    Device Serial: Router ({NEG_KOD})
+
+    Failure to pay within 7 days will result in service termination. Customer Care: {NEG_TEL}.'
+  - '{SYARIKAT} High Speed Fibre Bill
+
+    Company: {SYARIKAT} (ROC: {MY_SSM_LAMA})
+
+    Billing Contact: {MY_PHONE}
+
+    Invoice No: {NEG_INVOIS}
+
+    Due Date: {TARIKH}
+
+    Kindly remit payment to avoid service interruption at {BANDAR} branch.'
+  - 'Official Utility Receipt - {SYARIKAT}
+
+    Receipt No: {NEG_INVOIS}
+
+    Utility Account: {NEG_AKAUN}
+
+    Utility Club Member No: {NEG_AHLI}
+
+    Transaction Timestamp: {NEG_TARIKH}
+
+    Payment received with thanks. Tariff rate: RM 3 per unit.'
+  - '{SYARIKAT} Sewerage Services Bill
+
+    Registered Owner: {NAMA}
+
+    MyKad No: {MY_NRIC}
+
+    Premise Address: {BANDAR}
+
+    Current Charges: RM 32
+
+    Payment Due Date: {TARIKH}
+
+    Reference ID: {NEG}.'
+  - 'Urgent Notice from {SYARIKAT}: Dear {NAMA}, your electricity bill for premises in {BANDAR} is overdue. Please call our representative at {MY_PHONE} immediately or clear account {NEG_AKAUN} by {TARIKH} to prevent meter disconnection.'
+  pesanan_online:
+  - 'Hi {SYARIKAT}, submitting my refund form for order #{NEG}.
+
+    Name: {NAMA}
+
+    IC No: {MY_NRIC}
+
+    Phone: {MY_PHONE}
+
+    Please process the replacement parcel to {BANDAR} branch soon, thanks!'
+  - 'Dear {NAMA}, thank you for purchasing from {SYARIKAT} (SSM: {MY_SSM}). Your invoice {NEG_INVOIS} is ready. For order status or address updates to {BANDAR}, please call customer support at {MY_PHONE}.'
+  - 'CS: Hi {NAMA}, to verify your return for damaged item ({NEG_KOD}), please share your MyKad number.
+
+    Buyer: Okay, my IC is {MY_NRIC}. Please refund to bank account {NEG_AKAUN}. Already dropped off at post.'
+  - '{SYARIKAT} (Company No: {MY_SSM_LAMA})
+
+    Order update: Hi {NAMA}, your return request for order {NEG} has been inspected on {TARIKH}. We will issue the balance to your account {NEG_AKAUN} within 3 days.'
+  - 'Delivery chat:
+
+    Rider: Hello bro, parcel for order #{NEG} is at your gate in {BANDAR}. I tried calling {MY_PHONE} earlier.
+
+    Customer: Sorry, was in a meeting! Please leave it beside the shoe rack.'
+  - 'Return Request Approved!
+
+    Hi {NAMA}, order #{NEG} regarding unit ({NEG_KOD}) is confirmed. Total amount credited to bank account {NEG_AKAUN} on {NEG_TARIKH}. Consignment note: {NEG_INVOIS}.'
+  - 'Order cancellation status for {SYARIKAT}:
+
+    Order {NEG} was auto-cancelled on {NEG_TARIKH}. Loyalty member policy: {NEG_AHLI}.
+
+    SMS notification failed to invalid phone contact {NEG_TEL}.'
+  - Hi {SYARIKAT}, I received the wrong variant for item ({NEG_KOD}) under order ref {NEG}. Tracking was {NEG_INVOIS}. Please refund to account {NEG_AKAUN}. Sending item back from {BANDAR} hub.
+  farmasi:
+  - 'Klinik Panel GL Verification
+
+    Patient: {NAMA} (IC: {MY_NRIC})
+
+    Employer: {SYARIKAT} | Ref: {NEG}
+
+    Please dispense 1 month supply of Metformin 500mg and Amlodipine 10mg. Kindly submit invoice to panel portal by {TARIKH}.'
+  - 'Dear {NAMA}, your monthly refill from Farmasi {SYARIKAT} {BANDAR} is ready for collection under Rx {NEG}.
+
+    Please contact our pharmacist at {MY_PHONE} if you require door-to-door delivery before {TARIKH}.'
+  - 'Panel Pharmacy Claim Statement
+
+    Corporate Client: {SYARIKAT}
+
+    Policy/Member No.: {NEG_AHLI}
+
+    Claim Invoice: {NEG_INVOIS}
+
+    Prescription items billed: ({NEG_KOD}) Salbutamol Inhaler 200 doses. Status: Approved for reimbursement.'
+  - 'Delivery Order - {SYARIKAT} ({MY_SSM})
+
+    Ship to: Farmasi {BANDAR}
+
+    Invoice No: {NEG_INVOIS}
+
+    Consignment: Controlled Drugs Schedule 3.
+
+    Pharmacist in charge mobile: {MY_PHONE}. Received in good condition on {TARIKH}.'
+  - 'e-Prescription Order Status: {NEG}
+
+    Prescription uploaded at {NEG_TARIKH}.
+
+    Pharmacy Helpdesk callback attempted on {NEG_TEL} (unreachable).
+
+    Please update payment method or transfer to account {NEG_AKAUN} to proceed with medication dispatch.'
+  - 'Cawangan Farmasi {BANDAR}
+
+    Operated by {SYARIKAT} (Reg: {MY_SSM_LAMA})
+
+    Poison Book Entry: Dispensed Methylphenidate 10mg to patient {NAMA} (NRIC: {MY_NRIC}).
+
+    Prescribed by Dr {NAMA} on {TARIKH}.'
+  - 'Home Medication Review Memo
+
+    Patient: {NAMA} | MyKad: {MY_NRIC}
+
+    Insurance Policy: {NEG_AHLI}
+
+    Contact: {MY_PHONE}
+
+    Notes: Patient reminded to take blood pressure medication daily after breakfast. Next clinic review set for {TARIKH}.'
+  majlis:
+  - 'Dear {NAMA}, your booking for the wedding banquet at {SYARIKAT} Ballroom, {BANDAR} on {TARIKH} has been confirmed.
+
+    Please contact our event coordinator at {MY_PHONE} or submit your IC {MY_NRIC} to the front desk for security clearance.'
+  - 'Dewan Banquet Booking Receipt: {NEG_INVOIS}
+
+    Location: Community Hall, {BANDAR}
+
+    Loyalty Club Member No.: {NEG_AHLI}
+
+    Deposit paid via online transfer to bank account {NEG_AKAUN}. Ref: {NEG}.
+
+    For catering package ({NEG_KOD}), kindly present this slip upon hall entry on {TARIKH}.'
+  - 'RSVP Confirmation - Walimatulurus Reception
+
+    Guest Name: {NAMA}
+
+    Contact: {MY_PHONE}
+
+    Reserved Table: 12
+
+    Date: {TARIKH} in {BANDAR}
+
+    Booking Ref: {NEG}'
+  - 'Quotation Ref: {NEG_INVOIS}
+
+    Catering Vendor: {SYARIKAT} ({BANDAR})
+
+    Package: Kenduri Buffet Set B ({NEG_KOD}) for 300 pax.
+
+    Please transfer the 50% deposit to bank account {NEG_AKAUN} by {TARIKH} {NEG_TARIKH}.
+
+    Old office line: {NEG_TEL} (currently under maintenance).'
+  - 'Service Agreement for Pelamin & Hall Deco
+
+    Vendor: {SYARIKAT} (SSM: {MY_SSM})
+
+    Client: {NAMA} (NRIC: {MY_NRIC})
+
+    Event Date: {TARIKH} in {BANDAR}
+
+    Advance payment settled. Receipt No: {NEG_INVOIS}.'
+  - 'Venue Booking Record #{NEG}
+
+    Event Insurance Policy No.: {NEG_AHLI}
+
+    Function: Annual Dinner Majlis, {BANDAR}
+
+    Scheduled Date: {TARIKH} at {NEG_TARIKH}
+
+    Billing Account: {NEG_AKAUN}
+
+    Lighting package item ({NEG_KOD}) included in setup.'
+  - 'Canopy & Khemah Rental Form
+
+    Organiser: {NAMA}
+
+    Contact Number: {MY_PHONE}
+
+    Appointed Vendor: {SYARIKAT} (Reg No: {MY_SSM_LAMA})
+
+    Installation Venue: {BANDAR}
+
+    Target Date: {TARIKH}
+
+    Reference: {NEG}'
+  - 'Wedding Photography Package Booking
+
+    Studio: {SYARIKAT} (SSM: {MY_SSM})
+
+    Customer: {NAMA}
+
+    Mobile: {MY_PHONE}
+
+    Date of Majlis: {TARIKH} at {BANDAR}
+
+    Invoice Ref: {NEG_INVOIS}'
+  derma_zakat:
+  - 'Official Receipt - Pusat Zakat {BANDAR}
+
+    Received from: {NAMA}
+
+    NRIC No: {MY_NRIC}
+
+    Contact: {MY_PHONE}
+
+    Date: {TARIKH}
+
+    Payment for: Zakat Harta (RM 150)
+
+    Ref No: {NEG}'
+  - 'Wakaf Building Fund - Masjid Kariah {BANDAR}
+
+    Donation Receipt: {NEG_INVOIS}
+
+    Donor Reference: {NEG_AHLI}
+
+    Credited into Account: {NEG_AKAUN}
+
+    Timestamp: {NEG_TARIKH}
+
+    Thank you for your waqf contribution.'
+  - 'Pertubuhan Kebajikan Anak Yatim {BANDAR}
+
+    Pledge Form ({NEG})
+
+    Donor Name: {NAMA}
+
+    Identity Card: {MY_NRIC}
+
+    Mobile: {MY_PHONE}
+
+    Monthly auto-debit pledge: RM 50
+
+    Date: {TARIKH}'
+  - 'E-Zakat Portal Receipt
+
+    Receipt Number: {NEG_INVOIS}
+
+    Counter Ref: {NEG}
+
+    Payment Mode: Direct Debit ({NEG_AKAUN})
+
+    Package Code: Item ({NEG_KOD})
+
+    Transaction Time: {NEG_TARIKH}
+
+    Helpline: {NEG_TEL} (Office hours only)'
+  - 'Receipt of Wakaf Al-Quran Contribution
+
+    Donor: {SYARIKAT} (Reg No: {MY_SSM_LAMA})
+
+    Contact Person: {NAMA}
+
+    Branch: {BANDAR}
+
+    Issued on: {TARIKH}
+
+    Official Tracking: {NEG_INVOIS}'
+  - 'Tabung Jumaat Collection Slip
+
+    Surau Al-Falah, {BANDAR}
+
+    Batch Ref: {NEG}
+
+    Donor Member Tag: {NEG_AHLI}
+
+    Bank-in Deposit Acc: {NEG_AKAUN}
+
+    Audited Date: {TARIKH}
+
+    System Code: ({NEG_KOD})'
+  - 'Borang Potongan Gaji Zakat Pendapatan
+
+    Name: {NAMA}
+
+    MyKad Number: {MY_NRIC}
+
+    Employer: {SYARIKAT}
+
+    Office: {BANDAR}
+
+    Effective Date: {TARIKH}
+
+    Serial: {NEG}'
+  acara_sukan:
+  - 'Team Registration Receipt: Harimau {BANDAR}
+
+    Booking Ref: {NEG}
+
+    Group Sports Insurance Policy: {NEG_AHLI}
+
+    Payment Tracking: {NEG_INVOIS}
+
+    System Timestamp: {NEG_TARIKH}
+
+    Please present this slip at the secretariat counter.'
+  - 'Event: {BANDAR} Half Marathon
+
+    Club Member No.: {NEG_AHLI}
+
+    Collection Slip: {NEG}
+
+    Generated: {NEG_TARIKH}
+
+    RFID Timing Chip: ({NEG_KOD})
+
+    Note: Bring this confirmation slip to counter 2.'
+  pembekal_b2b:
+  - 'QUOTATION FOR OFFICE SUPPLIES
+
+    Supplier: {SYARIKAT} (SSM: {MY_SSM})
+
+    Contact Person: {NAMA} ({MY_PHONE})
+
+    Deliver to branch in {BANDAR} by {TARIKH}.
+
+    Quotation Ref: {NEG}'
+  - 'PURCHASE ORDER ACKNOWLEDGEMENT
+
+    PO No: {NEG}
+
+    Invoice Ref: {NEG_INVOIS}
+
+    Item Code: ({NEG_KOD}) - 50 units.
+
+    Please remit payment to bank account {NEG_AKAUN}.
+
+    Generated at: {NEG_TARIKH}'
+  - 'TENDER SUBMISSION NOTICE
+
+    Tender Ref: {NEG}
+
+    We, {SYARIKAT} (Reg No: {MY_SSM_LAMA}), hereby appoint {NAMA} (NRIC: {MY_NRIC}) as our authorized tender representative for the site project in {BANDAR}.'
+  - 'Official Quote from {SYARIKAT} (Company No: {MY_SSM})
+
+    Attention: Procurement Dept, {BANDAR}
+
+    Direct Line: {MY_PHONE}
+
+    Order Code: {NEG}
+
+    Terms: 30 days net credit to account {NEG_AKAUN}.'
+  - 'REMITTANCE ADVICE
+
+    Vendor: {SYARIKAT}
+
+    Settlement for Invoice: {NEG_INVOIS}
+
+    Credit to Corporate Acc: {NEG_AKAUN}
+
+    Corporate Member No: {NEG_AHLI}
+
+    Processed on: {NEG_TARIKH}'
+  - 'Site Clearance Form for {BANDAR} Project
+
+    Contractor: {SYARIKAT}
+
+    Site Supervisor: {NAMA}
+
+    IC Number: {MY_NRIC}
+
+    Emergency Contact: {MY_PHONE}
+
+    Permit Ref: {NEG}'

@@ -1,0 +1,7 @@
+sha: 17bb5a1aa964f0162bf4204c11c1cde5f06d6a0c
+tarikh_utc: 2026-11-05T13:00:39Z
+pelaksana: sesi interaktif pemilik 5 Nov 2026 (pindaan 2026-11-05 e)
+uv: uv 0.12.5 (x86_64-unknown-linux-gnu)
+python: Python 3.12.3
+perintah: uv run --extra nilai --extra garis python -m mypii.nilai.harness --split ujian3 --sistem mypii mypii-v1 presidio-asal llm:anthropic/claude-haiku-5-5 --benarkan-ujian
+perintah: uv run python -m mypii.nilai.harness --split ujian3 --sistem mypii mypii-v1 presidio-asal llm:anthropic/claude-haiku-5-5 --statistik --benarkan-ujian

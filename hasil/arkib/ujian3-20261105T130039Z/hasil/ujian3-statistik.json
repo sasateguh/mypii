@@ -1,0 +1,294 @@
+{
+  "_pradaftar": {
+    "blob": "d8741fc0a6a6e02163a32718f36dcec6819b10cd",
+    "fail": "docs/PRA-DAFTAR.md",
+    "komit": "a1d99fc3d68d419a3427bee24a1583bddb43b837"
+  },
+  "banding": {
+    "llm:anthropic/claude-haiku-5-5": {
+      "semua|*": {
+        "atas": 0.1292,
+        "bawah": 0.0904,
+        "delta": 0.109,
+        "n_sah": 1000,
+        "p_bootstrap": 0.0,
+        "p_holm_bootstrap": 0.0,
+        "p_holm_rawak": 0.002,
+        "p_rawak": 0.001
+      },
+      "semua|MY_NRIC": {
+        "atas": 0.2429,
+        "bawah": 0.164,
+        "delta": 0.2021,
+        "n_sah": 1000,
+        "p_bootstrap": 0.0,
+        "p_holm_bootstrap": 0.0,
+        "p_holm_rawak": 0.002,
+        "p_rawak": 0.001
+      },
+      "semua|MY_PHONE": {
+        "atas": 0.1273,
+        "bawah": 0.0824,
+        "delta": 0.1041,
+        "n_sah": 1000,
+        "p_bootstrap": 0.0,
+        "p_holm_bootstrap": 0.0,
+        "p_holm_rawak": 0.002,
+        "p_rawak": 0.001
+      },
+      "semua|MY_SSM": {
+        "atas": 0.0663,
+        "bawah": 0.0003,
+        "delta": 0.033,
+        "n_sah": 1000,
+        "p_bootstrap": 0.026,
+        "p_holm_bootstrap": 0.026,
+        "p_holm_rawak": 0.037,
+        "p_rawak": 0.037
+      }
+    },
+    "mypii-v1": {
+      "semua|*": {
+        "atas": 0.429,
+        "bawah": 0.3591,
+        "delta": 0.3932,
+        "n_sah": 1000,
+        "p_bootstrap": 0.0,
+        "p_holm_bootstrap": 0.0,
+        "p_holm_rawak": 0.002,
+        "p_rawak": 0.001
+      },
+      "semua|MY_NRIC": {
+        "atas": 0.6861,
+        "bawah": 0.5703,
+        "delta": 0.6281,
+        "n_sah": 1000,
+        "p_bootstrap": 0.0,
+        "p_holm_bootstrap": 0.0,
+        "p_holm_rawak": 0.002,
+        "p_rawak": 0.001
+      },
+      "semua|MY_PHONE": {
+        "atas": 0.3407,
+        "bawah": 0.2618,
+        "delta": 0.2998,
+        "n_sah": 1000,
+        "p_bootstrap": 0.0,
+        "p_holm_bootstrap": 0.0,
+        "p_holm_rawak": 0.002,
+        "p_rawak": 0.001
+      },
+      "semua|MY_SSM": {
+        "atas": 0.3449,
+        "bawah": 0.2434,
+        "delta": 0.2915,
+        "n_sah": 1000,
+        "p_bootstrap": 0.0,
+        "p_holm_bootstrap": 0.0,
+        "p_holm_rawak": 0.002,
+        "p_rawak": 0.001
+      }
+    },
+    "presidio-asal": {
+      "semua|*": {
+        "atas": 0.6837,
+        "bawah": 0.6295,
+        "delta": 0.6553,
+        "eksplorasi": true,
+        "n_sah": 1000,
+        "p_bootstrap": 0.0,
+        "p_holm_bootstrap": null,
+        "p_holm_rawak": null,
+        "p_rawak": 0.001
+      },
+      "semua|MY_NRIC": {
+        "atas": 1.0,
+        "bawah": 0.9841,
+        "delta": 0.9929,
+        "eksplorasi": true,
+        "n_sah": 1000,
+        "p_bootstrap": 0.0,
+        "p_holm_bootstrap": null,
+        "p_holm_rawak": null,
+        "p_rawak": 0.001
+      },
+      "semua|MY_PHONE": {
+        "atas": 0.5565,
+        "bawah": 0.4841,
+        "delta": 0.5193,
+        "eksplorasi": true,
+        "n_sah": 1000,
+        "p_bootstrap": 0.0,
+        "p_holm_bootstrap": null,
+        "p_holm_rawak": null,
+        "p_rawak": 0.001
+      },
+      "semua|MY_SSM": {
+        "atas": 0.9626,
+        "bawah": 0.922,
+        "delta": 0.9431,
+        "eksplorasi": true,
+        "n_sah": 1000,
+        "p_bootstrap": 0.0,
+        "p_holm_bootstrap": null,
+        "p_holm_rawak": null,
+        "p_rawak": 0.001
+      }
+    }
+  },
+  "config": {
+    "aras": 0.95,
+    "benih": 2026,
+    "kaedah": "holm",
+    "ulangan": 1000
+  },
+  "dokumen": 1000,
+  "eksplorasi": [
+    "presidio-asal"
+  ],
+  "kunci_utama": "semua|*",
+  "rujukan": "mypii",
+  "sistem": {
+    "llm:anthropic/claude-haiku-5-5": {
+      "semua|*": {
+        "atas": 0.8915,
+        "bawah": 0.8509,
+        "f1": 0.8714,
+        "n_sah": 1000
+      },
+      "semua|MY_NRIC": {
+        "atas": 0.8294,
+        "bawah": 0.75,
+        "f1": 0.7908,
+        "n_sah": 1000
+      },
+      "semua|MY_PHONE": {
+        "atas": 0.9176,
+        "bawah": 0.8727,
+        "f1": 0.8959,
+        "n_sah": 1000
+      },
+      "semua|MY_SSM": {
+        "atas": 0.9376,
+        "bawah": 0.8803,
+        "f1": 0.9101,
+        "n_sah": 1000
+      }
+    },
+    "mypii": {
+      "semua|*": {
+        "atas": 0.9868,
+        "bawah": 0.9733,
+        "f1": 0.9804,
+        "n_sah": 1000
+      },
+      "semua|MY_NRIC": {
+        "atas": 1.0,
+        "bawah": 0.9841,
+        "f1": 0.9929,
+        "n_sah": 1000
+      },
+      "semua|MY_PHONE": {
+        "atas": 1.0,
+        "bawah": 1.0,
+        "f1": 1.0,
+        "n_sah": 1000
+      },
+      "semua|MY_SSM": {
+        "atas": 0.9626,
+        "bawah": 0.922,
+        "f1": 0.9431,
+        "n_sah": 1000
+      }
+    },
+    "mypii-v1": {
+      "semua|*": {
+        "atas": 0.6204,
+        "bawah": 0.5505,
+        "f1": 0.5872,
+        "n_sah": 1000
+      },
+      "semua|MY_NRIC": {
+        "atas": 0.4213,
+        "bawah": 0.3088,
+        "f1": 0.3648,
+        "n_sah": 1000
+      },
+      "semua|MY_PHONE": {
+        "atas": 0.7382,
+        "bawah": 0.6593,
+        "f1": 0.7002,
+        "n_sah": 1000
+      },
+      "semua|MY_SSM": {
+        "atas": 0.6994,
+        "bawah": 0.5934,
+        "f1": 0.6516,
+        "n_sah": 1000
+      }
+    },
+    "presidio-asal": {
+      "semua|*": {
+        "atas": 0.3515,
+        "bawah": 0.2967,
+        "f1": 0.3251,
+        "n_sah": 1000
+      },
+      "semua|MY_NRIC": {
+        "atas": 0.0,
+        "bawah": 0.0,
+        "f1": 0.0,
+        "n_sah": 1000
+      },
+      "semua|MY_PHONE": {
+        "atas": 0.5159,
+        "bawah": 0.4435,
+        "f1": 0.4807,
+        "n_sah": 1000
+      },
+      "semua|MY_SSM": {
+        "atas": 0.0,
+        "bawah": 0.0,
+        "f1": 0.0,
+        "n_sah": 1000
+      }
+    }
+  },
+  "split": "ujian3",
+  "unit": "dokumen",
+  "v2": {
+    "alfa": 0.05,
+    "hipotesis": {
+      "H4a": {
+        "atas": 0.1292,
+        "bawah": 0.0904,
+        "beza_kecil": false,
+        "delta": 0.109,
+        "disokong": true,
+        "margin": 0.01,
+        "p_bootstrap": 0.0,
+        "p_holm_bootstrap": 0.0,
+        "p_rawak": 0.001,
+        "p_rawak_bonferroni": 0.002,
+        "rawak_syarat": false,
+        "sistem": "llm:anthropic/claude-haiku-5-5"
+      },
+      "H4b": {
+        "atas": 0.429,
+        "bawah": 0.3591,
+        "beza_kecil": false,
+        "delta": 0.3932,
+        "disokong": true,
+        "margin": 0.0,
+        "p_bootstrap": 0.0,
+        "p_holm_bootstrap": 0.0,
+        "p_rawak": 0.001,
+        "p_rawak_bonferroni": 0.002,
+        "rawak_syarat": true,
+        "sistem": "mypii-v1"
+      }
+    },
+    "k": 2,
+    "ulangan": 1000
+  }
+}

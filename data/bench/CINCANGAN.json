@@ -1,0 +1,10 @@
+{
+  "latih": {
+    "dokumen": 3000,
+    "sha256": "8dfe8e6ba4239b106693e68282c15c93e6a3871e31dda56cd79c0ad15b38c864"
+  },
+  "dev": {
+    "dokumen": 1000,
+    "sha256": "531532cf82a4565bafc5c5d5214f126a2685e13f8b57fa9873c176fea8e54fcd"
+  }
+}

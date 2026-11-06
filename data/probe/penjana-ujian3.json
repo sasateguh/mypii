@@ -1,0 +1,44 @@
+{
+  "sasaran": "ujian3",
+  "tarikh": "2026-11-05",
+  "bahasa": "ms",
+  "genre": [
+    "pertanian_nelayan",
+    "asrama_pelajar",
+    "kontraktor_rumah",
+    "permit_majlis_daerah"
+  ],
+  "calon": [
+    {
+      "model": "cf/@cf/mistralai/mistral-small-3.1-24b-instruct",
+      "lulus": false,
+      "sebab": "sah 0/16 (perlu 8)",
+      "per_genre": {
+        "pertanian_nelayan": 0,
+        "asrama_pelajar": 0,
+        "kontraktor_rumah": 0,
+        "permit_majlis_daerah": 0
+      },
+      "tolak": {},
+      "ralat": [
+        "pertanian_nelayan: cf/@cf/mistralai/mistral-small-3.1-24b-instruct#1: ValueError; cf/@cf/mistralai/mistral-small-3.1-24b-instruct#2: ValueError; cf/@cf/mistralai/mistral-small-3.1-24b-instruct#3: ValueError",
+        "asrama_pelajar: cf/@cf/mistralai/mistral-small-3.1-24b-instruct#1: ValueError; cf/@cf/mistralai/mistral-small-3.1-24b-instruct#2: ValueError; cf/@cf/mistralai/mistral-small-3.1-24b-instruct#3: ValueError",
+        "kontraktor_rumah: cf/@cf/mistralai/mistral-small-3.1-24b-instruct#1: ValueError; cf/@cf/mistralai/mistral-small-3.1-24b-instruct#2: ValueError; cf/@cf/mistralai/mistral-small-3.1-24b-instruct#3: ValueError",
+        "permit_majlis_daerah: cf/@cf/mistralai/mistral-small-3.1-24b-instruct#1: ValueError; cf/@cf/mistralai/mistral-small-3.1-24b-instruct#2: ValueError; cf/@cf/mistralai/mistral-small-3.1-24b-instruct#3: ValueError"
+      ]
+    },
+    {
+      "model": "anthropic/claude-sonnet-5-5",
+      "lulus": true,
+      "sebab": "sah 16/16 (perlu 8)",
+      "per_genre": {
+        "pertanian_nelayan": 4,
+        "asrama_pelajar": 4,
+        "kontraktor_rumah": 4,
+        "permit_majlis_daerah": 4
+      },
+      "tolak": {}
+    }
+  ],
+  "dipilih": "anthropic/claude-sonnet-5-5"
+}

@@ -1,0 +1,75 @@
+# Probe analisis ralat (A3 P3) — BUKAN sebahagian MyPII-Bench: tidak dibaca `make jana`, tidak mengubah mana-mana split.
+# Setiap kategori menguji satu batasan yang dicatat dalam LOG P2 (⚠). Semua nilai dari mypii/jana/nilai_palsu.py;
+# nama syarikat di bawah ialah rekaan BAHARU yang SENGAJA tiada dalam data/nama.yaml (menguji generalisasi).
+# Slot: {NAMA_SLOT} → penjana nilai_palsu + label emas (null = negatif) + ubah pilihan (mypii/analisis.py UBAH).
+
+slot:
+  MY_NRIC: {penjana: nric, label: MY_NRIC}
+  MY_SSM: {penjana: ssm, label: MY_SSM}
+  MY_SSM_LAMA: {penjana: ssm_lama, label: MY_SSM}
+  MY_PHONE: {penjana: telefon, label: MY_PHONE}
+  NRIC_OCR: {penjana: nric, label: MY_NRIC, ubah: ocr_digit}
+  NRIC_PATAH: {penjana: nric, label: MY_NRIC, ubah: patah_baris}
+  NEG_KOD: {penjana: kod_produk, label: null}
+  NEG_AKAUN: {penjana: akaun_bank, label: null}
+  NEG_TEL_SAH: {penjana: telefon, label: null}     # nombor sah bentuk telefon yang BUKAN telefon (ID, kod)
+  NEG_NRIC_BENTUK: {penjana: nric, label: null}    # 12 digit sah bentuk MyKad yang BUKAN MyKad (no. ahli, no. polisi)
+
+ubah:
+  ocr_digit: {peta: {"0": "O", "1": "l", "5": "S", "8": "B"}, kadar: 0.3}   # sekurang-kurangnya satu digit ditukar
+  patah_baris: {selepas_aksara: 6}                                          # "\n" disisip selepas aksara ke-N
+
+syarikat_baharu: ["Bengkel Motor Hafiz", "Pusat Tuisyen Cemerlang", "Kedai Gunting Rambut Ali", "Klinik Gigi Senyum",
+  "Dapur Mak Long Catering", "Tadika Bintang Kecil", "Syarikat Pengangkutan Laju", "Agensi Pelancongan Pelangi"]
+
+kategori:
+  negatif_berkurung:
+    keterangan: "Kod produk/model berbentuk SSM lama `123456-X` dalam kurungan (tiada dalam templat bench)"
+    templat:
+      - "Model penapis air ({NEG_KOD}) habis stok sampai bulan depan"
+      - "Spare part brek ( {NEG_KOD} ) dah sampai, boleh ambil esok"
+      - "Item: Kipas siling 56 inci ({NEG_KOD}) x2"
+      - "Please reorder the cartridge ({NEG_KOD}), printer tingkat 3 dah habis"
+  syarikat_luar_senarai:
+    keterangan: "SSM selepas nama perniagaan yang tiada dalam data/nama.yaml dan tanpa Sdn Bhd/Enterprise/PLT"
+    templat:
+      - "{SYARIKAT_BARU} {MY_SSM_LAMA}"
+      - "Bayaran kepada {SYARIKAT_BARU} {MY_SSM}, terima kasih"
+      - "{SYARIKAT_BARU} ({MY_SSM_LAMA}) — sebut harga dilampirkan"
+      - "Invoice from {SYARIKAT_BARU} {MY_SSM_LAMA} for October"
+  jadual_tidak_teratur:
+    keterangan: "Jadual teks dengan pengepala bukan di baris pertama, pengepala dua baris, atau sel bercantum"
+    templat:
+      - "SENARAI PESERTA KURSUS\nDikemaskini {NAMA}\n\nNama            No. KP\n{NAMA}    {MY_NRIC}\n{NAMA}    {MY_NRIC}"
+      - "Nama          Kad\n              Pengenalan\n{NAMA}   {MY_NRIC}"
+      - "Pembekal | No. Daftar\n{SYARIKAT_BARU} | {MY_SSM}\n(cawangan {NAMA}) | {MY_SSM}"
+      - "Bil  Pelajar        IC Penjaga\n1    {NAMA}   {MY_NRIC}\n     (penjaga kedua)  {MY_NRIC}"
+  negatif_tanpa_kata:
+    keterangan: "Nombor 12 digit sah bentuk MyKad yang bukan MyKad, tanpa kata negatif dalam senarai config"
+    templat:
+      - "No. ahli koperasi {NEG_NRIC_BENTUK}, yuran tahunan RM50"
+      - "Polisi takaful {NEG_NRIC_BENTUK} akan diperbaharui bulan depan"
+      - "Transfer ke Maybank {NEG_AKAUN} sebelum Jumaat"
+      - "Member ID: {NEG_NRIC_BENTUK} — tunjuk di kaunter untuk diskaun"
+  konteks_jauh:
+    keterangan: "Label MyKad lebih jauh daripada tetingkap 5 perkataan"
+    templat:
+      - "Kad pengenalan pemohon seperti yang dikemukakan semasa pendaftaran awal ialah {MY_NRIC}"
+      - "IC number (as printed on the front of the card, without spaces): {MY_NRIC}"
+      - "No KP ibu bapa atau penjaga yang sah bagi murid ini: {MY_NRIC}"
+  telefon_bukan_telefon:
+    keterangan: "Nombor sah julat telefon MY yang bukan telefon (ID, kod rujukan, no. siri)"
+    templat:
+      - "Kod pengesahan pesanan anda: {NEG_TEL_SAH}"
+      - "Serial no. {NEG_TEL_SAH} — warranty 2 tahun"
+      - "ID pelanggan {NEG_TEL_SAH} telah dikemas kini"
+  ocr_digit:
+    keterangan: "Kekeliruan OCR DALAM nombor itu sendiri (O↔0, l/I↔1, S↔5, B↔8)"
+    templat:
+      - "No. KP: {NRIC_OCR}"
+      - "IC pemohon {NRIC_OCR} disahkan"
+  patah_baris:
+    keterangan: "Nombor MyKad dipecah merentas baris (salinan PDF/OCR)"
+    templat:
+      - "No. Kad Pengenalan: {NRIC_PATAH}"
+      - "Pemohon {NAMA}, IC {NRIC_PATAH}, hadir"

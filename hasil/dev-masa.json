@@ -1,0 +1,31 @@
+{
+  "diukur": "2026-10-30T09:06:58Z",
+  "sistem": {
+    "mypii": {
+      "dokumen": 1000,
+      "saat": 24.12
+    },
+    "presidio-asal": {
+      "dokumen": 1000,
+      "saat": 20.6
+    },
+    "pii-guard": {
+      "dokumen": 1000,
+      "saat": 0.4
+    }
+  },
+  "llm": {
+    "llm:cf/@cf/meta/llama-3.3-70b-instruct-fp8-fast": {
+      "sampel": 20,
+      "gagal": 0,
+      "median_s": 0.93,
+      "maks_s": 1.59
+    },
+    "llm:cbcn/deepseek-v4.1-flash": {
+      "sampel": 20,
+      "gagal": 0,
+      "median_s": 1.67,
+      "maks_s": 2.27
+    }
+  }
+}

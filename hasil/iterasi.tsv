@@ -1,0 +1,81 @@
+tarikh	komit	dev_sha8	f1	status	baris_kod	keterangan
+2026-10-28	-	?	0.9708	ukur		LOG asas: 40 templat tangan (Fasa 0)
+2026-10-28	-	?	0.7912	ukur		LOG P1: +63 templat (103 jumlah; tiada dipadam): WhatsApp kumpulan, borang kerajaan, e-mel HR, resit, jadual teks, OCR bising; negatif keras baharu — no. akaun bank (separuh 12 digit berbentuk MyKad sah), invois 12 digit (bentuk SSM baharu), telefon tidak sah, tarikh+angka rapat, kod produk `123456…
+2026-10-28	-	?	0.8298	simpan		LOG P2-1: Konteks peringkat pengecam (`mypii/pengecam/konteks.py`): frasa penuh dalam 5 perkataan sebelum padanan, ganti padanan subrentetan satu-token Presidio (frasa "sdn bhd"/"no. pendaftaran" tidak pernah padan; "ic" padan dalam "invoice"). Hipotesis: SSM lama terlepas kerana frasa konteks berb…
+2026-10-28	-	?	0.9518	simpan		LOG P2-2: Konteks NEGATIF (`konteks_umum.negatif`: akaun/account/invois/resit/tracking/ref/rujukan/staff id…): frasa negatif yang lebih dekat dengan padanan daripada frasa positif menjatuhkan skor ke 0. Hipotesis: FP NRIC/SSM ialah no. akaun/rujukan 12 digit sah bentuk — dibezakan oleh kata sebelum…
+2026-10-28	-	?	0.948	buang		LOG P2-3a: Konteks entiti pesaing SIMETRI: konteks SSM terdekat = negatif bagi NRIC DAN konteks NRIC terdekat = negatif bagi SSM. Hipotesis: 12 digit yang sah sebagai MyKad dan SSM baharu diputuskan oleh frasa terdekat
+2026-10-28	-	?	0.9541	simpan		LOG P2-3b: Sama tetapi SEHALA: hanya konteks SSM membatalkan NRIC (`MY_NRIC.bersaing: [MY_SSM]`)
+2026-10-28	-	?	0.9588	simpan		LOG P2-4: Konteks SSM tambah kata tunggal/singkatan: pendaftaran, registration, reg, co. no, enterprise, plt. Hipotesis: SSM lama terlepas bila hanya satu kata ("reg 643792-K", "PENDAFTARAN … ( 1071800-K )") atau nama perniagaan Enterprise/PLT mendahului
+2026-10-28	-	?	0.977	simpan		LOG P2-5: Seragamkan kekeliruan OCR (`konteks_umum.ocr_seragam`: 0→o, 1/l/|→i) dalam perkataan berhuruf, pada teks DAN frasa sebelum dipadan. Hipotesis: FP SSM/NRIC pada "inv0ice"/"lNVOICE" dan FN "lC N0" kerana kata konteks OCR tidak dikenali
+2026-10-28	-	?	0.9784	simpan		LOG P2-6: Corak NRIC bersela ruang: lookbehind `(?<!\d )` → `(?<!(?:^|\W)\d+ )` — tolak kumpulan digit TULEN di depan, bukan digit di hujung perkataan OCR. Hipotesis: FN "lC N0 040727 21 1475" kerana "0 " dianggap sebahagian nombor lebih panjang
+2026-10-28	-	?	0.9784	buang		LOG P2-7: Nama bank (bank, maybank, cimb, rhb…) sebagai konteks negatif. Hipotesis: FP NRIC "to CIMB 581028 46 2991" dalam e-mel HR
+2026-10-28	-	?	0.9954	simpan		LOG P2-8: Jadual teks (tab, paip, ruang berlapis; baris berturut-turut dengan bilangan sel sama): konteks = PENGEPALA LAJUR padanan + teks sel sebelum padanan, bukan 5 perkataan dari lajur jiran. Hipotesis: FP/FN NRIC↔SSM dalam jadual kerana "IC Pengarah"/"Acct No" jauh di atas dan nama syarikat di…
+2026-10-28	-	?	0.9954	buang		LOG P2-9: Kata tarikh/masa (tarikh, date, masa, time) sebagai konteks negatif. Hipotesis: FP SSM "Cop tarikh: 202605131810" (cap masa YYYYMMDDhhmm sah bentuk SSM)
+2026-10-28	-	?	0.9987	simpan		LOG P2-10: Corak SSM lama DALAM KURUNGAN `(123456-X)` skor 0.4 (`skor.lama_berkurung`) — konvensyen "Nama Syarikat (123456-X)". Hipotesis: FN SSM lama selepas nama perniagaan tanpa Sdn Bhd/Enterprise
+2026-10-28	-	?	0.9987	buang		LOG P2-11: Nama bank TANPA kata umum "bank" (maybank, cimb, rhb, ambank, bsn, hong leong, affin, alliance) sebagai negatif. Hipotesis: FP NRIC "to CIMB 581028 46 2991" (latih)
+2026-10-28	-	?	0.9987	buang		LOG P2-12: majikan/employer sebagai konteks SSM. Hipotesis: FP NRIC "Majikan: Warisan Katering (201001646596)" (latih)
+2026-10-28	-	?	1.0	buang		LOG P2-13: Akhiran nama perniagaan (trading, resources, holdings, services, solutions, industries) sebagai konteks SSM
+2026-10-28	-	?	0.9987	ukur		LOG P3: Analisis ralat, TIADA perubahan pengecam/templat: `make analisis` (`mypii/analisis.py`) + probe `data/probe/ralat.yaml` (8 kategori × 40, di luar bench) → `docs/ANALISIS-RALAT.md`. Probe: 40/40 FP SSM kod produk berkurung, 37/40 FP NRIC no. ahli/polisi/akaun, 26/40 FP telefon bukan telefon,…
+2026-10-28	-	?	0.9987	ukur		LOG P4: Kajian literatur, TIADA perubahan pengecam/templat: `docs/literatur/rujukan.bib` 24 entri (calon OpenAlex `search_openalex.py`, BibTeX dari `doi_to_bibtex.py`; `validate_citations.py --check-dois` 24/24 sah, doi.org 302 × 24; 1 DOI OpenAlex 404 dibuang) + `RINGKASAN.md` (7 tema, pihak ketig…
+2026-10-29	-	?	0.9954	buang		LOG P2-10 UNDUR (sesi manusia): `skor.lama_berkurung` 0.4 → 0.1: SSM lama berkurung kini perlu konteks seperti SSM lama lain. Sebab: probe P3 `negatif_berkurung` 40/40 FP (kod produk "(560578-W)") — peraturan memintas konteks, iaitu reka bentuk pengecam. Probe selepas undur: negatif_berkurung 40 FP…
+2026-10-30	-	?	0.9954	simpan		LOG B1: Split `ujian2` dimeterai (ADR-004), TIADA perubahan pengecam/latih/dev: `templat_llm.py` + `klien_llm.py` (9router) → `cbcn/kimi-k3` 34/34 panggilan (0 gagal, sandaran tidak dipakai, 5 min 32 s); 238/240 templat lulus pengesah (tolak: jenama 1, nombor_literal 1), 10 genre × 3 bahasa (ms 80,…
+2026-10-30	-	?		ukur		LOG B1 (dibuka semula): Penyemak menolak B1: nama ujian2 berisi nama penuh + syarikat, templat `en` kebanyakan BM. TIADA perubahan pengecam/latih/dev/ujian/ujian2. `templat_llm.py`: pengesah bentuk nama (`bentuk_orang`: nama_pertama ≤ 2 token tanpa penyambung/nama keluarga; nama_akhir = penyambung …
+2026-10-30	-	?	0.9954	simpan		LOG B1b: Jana semula ujian2 (meterai dibuka SEKALI — `arahan.md` §B1b, penilai auto AP-T613; ujian2 `0307a169…` tidak pernah dinilai). TIADA perubahan pengecam/latih/dev/ujian v1/kod. 4 fail meterai dipadam → `templat_llm --sasaran ujian2` (pengesah ADR-005): `cbcn/kimi-k3` 34/34 panggilan (0 gagal…
+2026-10-30	-	?	0.9954	ukur		LOG B1b (ditolak penyemak → pengesah diperketat): Penyemak menolak B1b: 6/80 templat `en` ujian2 `337820ee…` BM penuh (lulus senyap: < 3 kata fungsi = tidak dinilai = lulus), `nama_akhir` huruf kecil, penyambung tidak sepadan jantina/komuniti. TIADA perubahan pengecam/data/ujian2 (ujian2 TIDAK dija…
+2026-10-30	-	?		simpan		LOG B1b (jana semula ke-2, pengesah ADR-008): Jana semula PENUH ujian2 di bawah arahan projek §ujian2 (sesi manusia 30 Okt: dibenarkan sehingga `UJIAN2-MUKTAMAD`). TIADA perubahan kod/pengecam/latih/dev/ujian v1. 4 fail dipadam → `templat_llm --sasaran ujian2`: `cbcn/kimi-k3` 43 panggilan (0 gagal,…
+2026-10-30	-	?		ukur		LOG B1b (ditolak penyemak ke-3 → pengesah bandar/syarikat, ADR-009): Penyemak menolak ujian2 `54cf318f…`: 60/60 `bandar` = triplet 'Nama | Syarikat | Bandar, Negeri', `--semak` tidak menyemak bentuk bandar/syarikat. TIADA perubahan pengecam/data/ujian2 (jana semula = komit berikutnya). Kod: `templa…
+2026-10-30	-	?		ukur		LOG B1b (jana semula ke-3, pengesah ADR-009): Jana semula PENUH ujian2 (arahan projek §ujian2, `UJIAN2-MUKTAMAD` belum wujud). TIADA perubahan pengecam/latih/dev/ujian v1/nama.yaml. Penjana: `jana.nama_orang` (fail berkumpulan sahaja) — gelaran sebelum `{NAMA}` → kumpulan jantina itu (`jana.gelaran…
+2026-10-30	-	?	0.9954	ukur		LOG ujian2 MUKTAMAD: Penyemak LULUS B1b (`d2176a3`) → `data/bench/UJIAN2-MUKTAMAD` dikomit SENDIRI (`2ecb14d`: sha KUNCI2 `83ff90b4…` + tarikh + 'lulus penyemak potongan B1b'); tiada perubahan ujian2/kod/pengecam/latih/dev. Had realisme dari sampel penyemak (bukan label) direkod ADR-004 §Meterai. `…
+2026-10-30	-	531532cf	0.8877	ukur		LOG B2 — **garis dasar dev-v2**: Latih/dev lebih pelbagai (ADR-010), TIADA perubahan pengecam/`pengecam:` config/ujian v1/ujian2/nama.yaml. Sasaran `latih` baharu: `ag/gemini-3.8-flash` 49 panggilan (0 gagal; tiada sandaran disenarai PELAN-B), 12 genre BERBEZA dari genre ujian2 × 3 bahasa; 250/288 …
+2026-10-30	-	531532cf	0.8877	ukur		LOG B3 — **garis dasar pesaing dev-v2**: Harness: sistem `pii-guard` (`malaysia-pii-guard` git `75d6920…`, extra `garis`; ambang 0.4, `resolve()` pustaka sendiri, peta MY_NRIC/PHONE_NUMBER) + `llm:<model>` sifar-tembak (suhu 0, prompt tetap config `garis_dasar.llm`, satu dok satu panggilan, span = …
+2026-10-30	-	531532cf	0.8877	ukur		LOG B4 — **laporan bandingan dev-v2**: `docs/BANDINGAN.md`: prosa (cara membaca, tafsiran, had, English summary) + blok dijana `make bandingan` (`mypii/nilai/bandingan.py` + `bandingan_md.py`, ADR-012; config `bandingan:`). TIADA perubahan pengecam/`pengecam:` config/fungsi metrik/data/cache. Blok:…
+2026-10-30	-	531532cf	0.8877	ukur		LOG B5 — **draf isu Presidio** (TIDAK dihantar): `docs/draf/isu-presidio.md` (EN, templat *Feature request* hulu): cadangan `MY_NRIC` dahulu (`country_specific/malaysia/`, `COUNTRY_CODE = "my"`, `enabled: false`), `MY_SSM` PR berasingan selepas maklum balas; TIADA cadangan telefon (`presidio-asal` …
+2026-10-30	-	531532cf	0.8877	ukur		LOG C1 — **vendor skil K-Dense v2.72.0**: Tarball tag `v2.72.0` (`gh api`, hulu `526ebce`) ke folder sementara di luar repo; 5 calon disalin tanpa `tests/` (hulu tiada `tests/` dalam 5 folder ini). Imbasan `cisco-ai-skill-scanner` 2.3.2 (`scan-all`, venv `/tmp/imbas-kd`, bukan kebergantungan repo):…
+2026-10-30	-	531532cf		ukur		LOG C1 (pembaikan) — **pagar PINTAS skrip vendor**: Pelari menolak C1: `pagar semak --berbanding 995dcb5` = PINTAS `hypothesis-generation/scripts/validate_hypothesis_schema.py` (0 → 1078 baris, laluan dikecualikan `.claude/skills/**`, had 800). Dibuang fail itu + 4 skrip yang mengimportnya (audit_e…
+2026-10-30T09:49:08Z	8c78b07	531532cf	0.8877	ukur	+0/-0	C2a pasang
+2026-10-30T10:00:59Z	c598575+	531532cf	0.8877	ukur	+29/-0	C2b carta kemajuan (make carta)
+2026-10-30T10:22:05Z	238ab85	531532cf	0.8877	ukur	+0/-0	C3a statistik (ramalan disimpan; tiada perubahan pengecam)
+2026-10-30T10:51:17Z	7a55620+	531532cf	0.8877	ukur	+2/-0	C3b ketidakpastian dalam BANDINGAN (make statistik; tiada perubahan pengecam)
+2026-10-30T11:04:33Z	1eccc54+	531532cf	0.8877	ukur	+4/-0	C4a pra-daftar (pengecam beku; tiada ujian dibuka)
+2026-10-30T11:20:43Z	0679af4+	531532cf	0.8877	ukur	+1/-0	C4b kunci harness pada pra-daftar (pengecam beku; tiada ujian dibuka)
+2026-10-31T04:48:43Z	cc5051c+	531532cf	0.8877	ukur	+58/-0	IAA P1 protokol (pindaan PRA-DAFTAR + config iaa; pengecam beku; tiada ujian dibuka)
+2026-10-31T04:57:08Z	c5d1523+	531532cf	0.8877	ukur	+0/-0	IAA P2 (gerbang: dev tidak berubah)
+2026-10-31T05:25:19Z	5b86391+	531532cf	0.8877	ukur	+1/-0	IAA P3 (gerbang: dev tidak berubah)
+2026-10-31T06:38:19Z	15cdd0a+	531532cf	0.8877	ukur	+0/-0	IAA P4: ujian pelayar halaman semakan (tiada perubahan pengecam)
+2026-10-31T07:35:05Z	e60a100+	531532cf	0.8877	ukur	+0/-0	IAA P5: kontena + skrip deploy (tiada perubahan pengecam)
+2026-10-31T07:39:59Z	3a3150d	531532cf	0.8877	ukur	+0/-0	make nilai
+2026-10-31T08:26:09Z	3a3150d+	531532cf	0.8877	ukur	+0/-0	IAA P6: hidup (tiada perubahan pengecam)
+2026-10-31T08:35:18Z	d963d1b+	531532cf	0.8877	ukur	+0/-0	IAA P7: penyemak LLM + eksport (tiada perubahan pengecam)
+2026-10-31T08:57:37Z	c8955e3+	531532cf	0.8877	ukur	+0/-0	IAA P8: larian LLM (tiada perubahan pengecam)
+2026-10-31T09:09:11Z	2cbb3dc+	531532cf	0.8877	ukur	+0/-0	IAA P9: make iaa-skor (tiada perubahan pengecam)
+2026-10-31T09:21:01Z	9c17eb5+	531532cf	0.8877	ukur	+0/-0	IAA P10: pencetus + README + mesej (tiada perubahan pengecam)
+2026-11-01T10:16:39Z	70fb8fa+	531532cf	0.8877	ukur	+0/-0	IAA-HALAMAN P1: halaman pintu + 404 mesra (tiada perubahan pengecam)
+2026-11-01T11:28:00Z	7a43370+	531532cf	0.8877	ukur	+0/-0	IAA-HALAMAN P2: ujian pelayar pintu (tiada perubahan pengecam)
+2026-11-01T11:45:42Z	7d3fd6d+	531532cf	0.8877	ukur	+0/-0	IAA-HALAMAN P3: deploy halaman pintu (tiada perubahan pengecam)
+2026-11-01T12:00:26Z	0daf68a+	531532cf	0.8877	ukur	+0/-0	IAA-HALAMAN P4: mesej butang-sahaja (kod sahaja)
+2026-11-03T06:22:26Z	effe228+	531532cf	0.8877	ukur	+0/-0	IAA P11: skor akhir p1×llm (tiada perubahan pengecam)
+2026-11-03T06:33:37Z	2f9b275+	531532cf	0.8877	ukur	+0/-0	CLAUDE P1: pindaan PRA-DAFTAR Claude (dokumen sahaja)
+2026-11-03T06:47:23Z	57f431f+	531532cf	0.8877	ukur	+17/-0	CLAUDE P2: klien Anthropic + lejar + penghala (tiada perubahan pengecam)
+2026-11-03T07:01:24Z	63b23d3+	531532cf	0.8877	ukur	+2/-2	CLAUDE P2 baiki: anthropic/ keluar dari semua sehingga P4 + cache dibuka malas (tiada perubahan pengecam)
+2026-11-03T07:14:57Z	7c0d41b+	531532cf	0.8877	ukur	+2/-2	CLAUDE P2 baiki (b): semua melangkau anthropic/ tanpa cache (tiada perubahan pengecam)
+2026-11-03T07:46:19Z	0125cf1+	531532cf	0.8877	ukur	+0/-0	CLAUDE P3 baiki: semakan kunci sebelum import anthropic (tiada perubahan pengecam)
+2026-11-03T08:27:46Z	de7556d	531532cf	0.8877	ukur	+0/-0	CLAUDE P4: larian dev Claude (Haiku+Sonnet) — pengecam tidak berubah
+2026-11-03T09:01:31Z	7e38afa+	531532cf	0.8877	ukur	+0/-0	CLAUDE P5 semakan dev tidak berubah
+2026-11-03T11:45:29Z	b7a23d8+	531532cf	0.8877	ukur	+7/-0	MODEL-LAIN P2: eksplorasi di luar Holm (pengecam tidak berubah)
+2026-11-03T12:22:12Z	f7b4285+	531532cf	0.8877	ukur	+17/-0	MODEL-LAIN P3 gerbang
+2026-11-03T12:27:20Z	453cf2a+	531532cf	0.8877	ukur	+0/-0	make nilai
+2026-11-03T13:23:23Z	fcaba2c	531532cf	0.8877	ukur	+0/-0	make nilai
+2026-11-03T17:21:44Z	8ac349c+	531532cf	0.8877	ukur	+0/-0	make nilai
+2026-11-03T17:57:35Z	2e9bad7+	531532cf	0.8877	ukur	+0/-0	make nilai
+2026-11-05T11:15:22Z	c577f2a+	5109e59e	0.6149	ukur	+1/-1	V2 P5 garis dasar dev3: pengecam v1 (beku sejak mypii-v1-muktamad) atas templat Nemotron
+2026-11-05T12:16:07Z	3a25786+	5109e59e	0.7906	ukur	+9/-3	P9 i1: normalisasi OCR O/l/S/B diapit digit (NormalOCR) semua pengecam
+2026-11-05T12:18:50Z	3a25786+	5109e59e	0.8861	ukur	+20/-11	P9 i2: patah baris (config pengecam.normal.patah_baris) di sempadan kumpulan NRIC/telefon/SSM baharu + validasi digit
+2026-11-05T12:19:34Z	3a25786+	5109e59e	0.8981	ukur	+23/-11	P9 i3: corak talian tetap kod kawasan berkurung (08X) NNNNNN
+2026-11-05T12:20:23Z	3a25786+	5109e59e	0.8981	ukur	+28/-11	P9 i4: SSM kod LLP (ssm_rob.yaml llp: true) tahun < llp.tahun_min ditolak
+2026-11-05T12:23:43Z	3a25786+	5109e59e	0.9919	ukur	+67/-11	P11 tala: pengelas konteks cara=tapis ambang=0.3 (semua entiti)
+2026-11-05T12:24:12Z	3a25786+	5109e59e	0.9925	ukur	+67/-11	P11 tala: pengelas konteks cara=tapis ambang=0.5 (semua entiti)
+2026-11-05T12:24:44Z	3a25786+	5109e59e	0.9919	ukur	+67/-11	P11 tala: pengelas konteks cara=tapis ambang=0.7 (semua entiti)
+2026-11-05T12:25:19Z	3a25786+	5109e59e	0.9957	ukur	+67/-11	P11 tala: pengelas konteks cara=ganti ambang=0.3 (semua entiti)
+2026-11-05T12:25:52Z	3a25786+	5109e59e	0.9981	ukur	+67/-11	P11 tala: pengelas konteks cara=ganti ambang=0.5 (semua entiti)
+2026-11-05T12:26:21Z	3a25786+	5109e59e	0.9981	ukur	+67/-11	P11 tala: pengelas konteks cara=ganti ambang=0.7 (semua entiti)
+2026-11-05T12:33:31Z	a8d773d	5109e59e	0.9981	simpan	+0/-0	P9–P11 disimpan a8d773d: pengecam v2 + pengelas konteks ganti@0.5

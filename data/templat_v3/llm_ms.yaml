@@ -1,0 +1,1314 @@
+# Dijana 2026-11-05 oleh `python -m mypii.jana.templat_llm --sasaran latih3` (model: rv/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-NVFP4). JANGAN sunting tangan.
+genre:
+  penyata_bank:
+  - 'Notifikasi transfer banc.
+
+    Dari: {NAMA} ({MY_NRIC})
+
+    Ke: {SYARIKAT}, {BANDAR}
+
+    Rujukan: {NEG_INVOIS}
+
+    Hubungi: {MY_PHONE}
+
+    {TARIKH}'
+  - 'Catatan penyata banc
+
+    Pembayaran kepada: {SYARIKAT} ({MY_SSM})
+
+    Akaun: {NEG_AKAUN}
+
+    Kod produk: {NEG_KOD}
+
+    Tarikh: {TARIKH}'
+  - 'Transfer wang telah dibuat.
+
+    Nama: {NAMA}
+
+    No. kad identiti (pecah): {PATAH_MY_NRIC}
+
+    Telefon (pecah): {PATAH_MY_PHONE}
+
+    Bandar: {BANDAR}
+
+    {TARIKH}'
+  - 'Notifikasi transfer banc
+
+    Dari: {SYARIKAT}
+
+    Ke: {NAMA}
+
+    Nombor akaun: {NEG_AKAUN}
+
+    Rujukan: {NEG_INVOIS}
+
+    Tarikh: {TARIKH} / {NEG_TARIKH}'
+  - 'Pemberitahuan transfer bank
+
+    Kepada: {NAMA}
+
+    No kad pengenalan: {MY_NRIC}
+
+    No telefon: {MY_PHONE}
+
+    Tarikh: {TARIKH}
+
+    Rujukan: {NEG}'
+  - 'Resit dompet elektronik
+
+    Pembayaran kepada {SYARIKAT}
+
+    No pendaftaran syarikat: {MY_SSM}
+
+    No telefon rangkaian darat: {MY_PHONE_BS}
+
+    Tarikh: {TARIKH}
+
+    Rujukan: {NEG_INVOIS}'
+  - 'Catatan penyata bank
+
+    Transaksi ke akaun {NEG_AKAUN}
+
+    Pemegang akaun: {NAMA}
+
+    No kad pengenalan (salinan dipindai): {OCR_MY_NRIC}
+
+    Tarikh: {TARIKH}'
+  - 'Resit pembayaran e-wallet
+
+    Dibayar kepada {SYARIKAT} ({MY_SSM_LLP})
+
+    No invois: {NEG_INVOIS}
+
+    Tarikh: {TARIKH}
+
+    Rujukan: {NEG}'
+  - 'Pemberitahuan transfer akaun
+
+    Akaun penerima: {NEG_AKAUN}
+
+    Tarikh: {TARIKH}
+
+    Rujukan: {NEG}'
+  - 'Resit pembayaran dompet elektronik
+
+    Dibayar kepada {SYARIKAT}
+
+    {NEG12_TANPA}
+
+    Tarikh: {TARIKH}
+
+    Rujukan: {NEG}'
+  keahlian:
+  - 'Borang pendaftaran keahlian gim.
+
+    Nama: {NAMA}
+
+    Nombor MyKad: {MY_NRIC}
+
+    Telefon: {MY_PHONE}
+
+    Tarikh daftar: {TARIKH}
+
+    Syarikat: {SYARIKAT}, {BANDAR}'
+  - 'Notis pemulangan kad keahlian.
+
+    Nama: {NAMA}
+
+    Nombor pendaftaran syarikat: {MY_SSM}
+
+    Tarikh baharu: {TARIKH}
+
+    Syarikat: {SYARIKAT}
+
+    Bandar: {BANDAR}'
+  - 'Permintaan ganti kad kooperatif.
+
+    Nama: {NAMA}
+
+    Nombor MyKad: {MY_NRIC}
+
+    Nombor telefon Sabah/Sarawak: {MY_PHONE_BS}
+
+    Nombor daftar LLP: {MY_SSM_LLP}
+
+    Tarikh: {TARIKH}
+
+    Syarikat: {SYARIKAT}, {BANDAR}'
+  - 'Salinan dokumen daftar (skan).
+
+    Nama: {NAMA}
+
+    Nombor MyKad (OCR): {OCR_MY_NRIC}
+
+    Telefon (OCR): {OCR_MY_PHONE}
+
+    Tarikh: {TARIKH}
+
+    Syarikat: {SYARIKAT}'
+  - 'Borang pendaftaran (kolum sempit).
+
+    Nama: {NAMA}
+
+    Nombor MyKad terputus: {PATAH_MY_NRIC}
+
+    Telefon terputus: {PATAH_MY_PHONE}
+
+    Tarikh: {TARIKH}
+
+    Syarikat: {SYARIKAT}'
+  - 'Terima kasih untuk pembayaran.
+
+    Nombor rujukan: {NEG12_TANPA}
+
+    Tarikh: {TARIKH}
+
+    Syarikat: {SYARIKAT}
+
+    Bandar: {BANDAR}'
+  - 'Permintaan ganti kad ahli.
+
+    Nama: {NAMA}
+
+    No. ahli: {NEG_AHLI}
+
+    Tarikh: {TARIKH}
+
+    Syarikat: {SYARIKAT}
+
+    Bandar: {BANDAR}'
+  - 'Nota pembayaran kad.
+
+    Nama: {NAMA}
+
+    Nombor telefon tidak lengkap: {NEG_TEL}
+
+    Tarikh: {TARIKH}
+
+    Syarikat: {SYARIKAT}
+
+    Bandar: {BANDAR}'
+  - 'DAFTAR KEANGOTAAN GYM
+
+    Nama: {NAMA}
+
+    Nombor Telefon: {MY_PHONE}
+
+    No. MyKad: {MY_NRIC}
+
+    Tarikh Daftar: {TARIKH}'
+  - 'PENDAFTARAN SEMULA KO-OPERASI {SYARIKAT}
+
+    Ahli: {NAMA}
+
+    Nombor Daftar Syarikat: {MY_SSM}
+
+    Tarikh Baharu: {TARIKH}
+
+    No. Rujukan: {NEG}'
+  - 'DAFTAR KLUB KEBUGARAN {SYARIKAT}
+
+    Pemegang: {NAMA}
+
+    Nombor Telefon BS: {MY_PHONE_BS}
+
+    Nombor Daftar LLP: {MY_SSM_LLP}
+
+    Tarikh: {TARIKH}'
+  - 'NOTIS KEANGOTAAN
+
+    Kebajikan: {NEG_KOD}
+
+    Tarikh Kadaluarsa: {TARIKH}
+
+    Nombor Rujukan: {NEG}
+
+    Silakan hubungi {SYARIKAT} di {BANDAR}.'
+  polisi_takaful:
+  - 'Polisi takaful anda akan tamat pada {TARIKH}. Sila baharukan sebelum tarikh ini.
+
+    No polisi: {NEG_AHLI}. Pemegang: {NAMA} ({MY_NRIC}). Hubungi {MY_PHONE}, {BANDAR}.'
+  - 'Kemaskini calon penerima manfaat takaful. Nama: {NAMA}.
+
+    No NRIC (dipindai): {OCR_MY_NRIC}. Telefon (dipindai): {OCR_MY_PHONE}. Tarikh: {TARIKH}. Rujukan: {NEG_INVOIS}.'
+  - 'Notis penubahan semula takaful persekongidan. Nama firma: {SYARIKAT} ({MY_SSM_LLP}).
+
+    Pegawai: {NAMA}. Nombor polisi: {NEG_AHLI}. Hubungi {MY_PHONE_BS}. Tarikh: {TARIKH}.'
+  - 'Pengingat kontribuli takaful bulanan. Tarikh: {TARIKH}.
+
+    Amaun: RM 90. {NEG12_TANPA}. Bayar di cawangan {SYARIKAT}, {BANDAR}.'
+  - 'Rujukan pembayaran: {NEG}. Tarikh proses: {NEG_TARIKH}.
+
+    Kod transaksi: {NEG_KOD}. Nombor resit: {NEG_INVOIS}. Telefon: {NEG_TEL}.'
+  - 'Pemberitahuan penamatan akaun takaful. Nama: {NAMA}.
+
+    Syarikat: {SYARIKAT}, {BANDAR}. Nombor akaun: {NEG_AKAUN}. Nombor ahli: {NEG_AHLI}. Tarikh: {TARIKH}.'
+  - 'Kepada {NAMA},
+
+    Polisi takaful tamat pada {TARIKH}. Bayarkan premium sebelum itu.
+
+    No polisi: {NEG_AHLI}
+
+    NRIC: {MY_NRIC} | Tel: {MY_PHONE}
+
+    {SYARIKAT}, {BANDAR}'
+  - 'Kemaskini penerima manfaat takaful untuk {NAMA}.
+
+    No kad pengenali: {PATAH_MY_NRIC}
+
+    Sila sahkan di {SYARIKAT}, {BANDAR} sebelum {TARIKH}.'
+  - 'Pengingat premi takaful tahunan.
+
+    Syarikat: {SYARIKAT} (LLP {MY_SSM_LLP})
+
+    Hubungi: {MY_PHONE_BS}
+
+    Polisi: {NEG_AHLI} | Pemegang: {NAMA}
+
+    Tarikh bayaran: {TARIKH}'
+  - 'Pengingat pembayaran premium takaful.
+
+    Nama: {NAMA}
+
+    Tarikh: {TARIKH}
+
+    Rujukan: {NEG}
+
+    Hubungi: {NEG_TEL}
+
+    {SYARIKAT}, {BANDAR}'
+  - 'Kemaskini calon penerima manfaat untuk {NAMA}.
+
+    Nombor pengenali: {NEG}
+
+    Tarikh kuat kuasa: {TARIKH}
+
+    Jabatan: {SYARIKAT}'
+  tempahan_hotel:
+  - 'Tempahan Hotel
+
+    Nama Tetamu: {NAMA}
+
+    No. MyKad: {MY_NRIC}
+
+    Telefon: {MY_PHONE}
+
+    Tarikh check-in: {TARIKH}
+
+    Bilik: 101'
+  - 'Syarikat {SYARIKAT} (SSM: {MY_SSM}) tempah untuk {NAMA}.
+
+    Tarikh: {TARIKH}
+
+    Rujukan: {NEG_INVOIS}
+
+    Telefon: {MY_PHONE}'
+  - 'Tempahan melalui perkongsian terbatas {SYARIKAT} ({MY_SSM_LLP}).
+
+    Pemohon: {NAMA}
+
+    Tarikh: {TARIKH}
+
+    Telefon: {MY_PHONE}'
+  - 'Resepsi tempahan
+
+    Nombor invois: {NEG_INVOIS}
+
+    Rujukan: {NEG}
+
+    Tarikh: {TARIKH}
+
+    Bil: 5'
+  - 'Maklum Tetap Tamu
+
+    Nama: {NAMA}
+
+    Telefon (skan): {OCR_MY_PHONE}
+
+    Tarikh tempahan: {TARIKH}
+
+    Rujukan: {NEG}'
+  servis_kenderaan:
+  - 'Rekod Servis Kenderaan
+
+    Pemohon: {NAMA}
+
+    No. Kad Pengenalan: {MY_NRIC}
+
+    Telefon: {PATAH_MY_PHONE}
+
+    Tarikh: {TARIKH}
+
+    Bengkel: {SYARIKAT}, {BANDAR}'
+  - 'Pengingat Pemutihan Cukai Jalan
+
+    Nama Pemilik: {NAMA}
+
+    Syarikat: {SYARIKAT} ({OCR_MY_SSM})
+
+    Hubungi: {MY_PHONE}
+
+    Tarikh Akhir: {TARIKH}
+
+    Loket: {BANDAR}'
+  - 'Nota Servis
+
+    Pelanggan: {NAMA}
+
+    Telefon: {MY_PHONE}
+
+    Syarikat Bengkel (LLP): {SYARIKAT} ({MY_SSM_LLP})
+
+    Tarikh: {TARIKH}
+
+    Rujukan: {NEG_INVOIS}'
+  - 'Nota Bayaran
+
+    Invois: {NEG_INVOIS}
+
+    Akaun: {NEG_AKAUN}
+
+    Tarikh: {TARIKH}
+
+    Jumlah: 350
+
+    {SYARIKAT}
+
+    {BANDAR}'
+  - 'Pengingat Lesen
+
+    Nombor Rujukan: {NEG}
+
+    Tarikh Akhir: {NEG_TARIKH}
+
+    Telefon: {NEG_TEL}
+
+    Polisi: {NEG_AHLI}
+
+    {SYARIKAT}
+
+    {BANDAR}'
+  - 'Pengingat Pembaharuan Cukai Jalan
+
+    Kepada: {NAMA} ({MY_NRIC})
+
+    Bengkel: {SYARIKAT} ({MY_SSM})
+
+    Bandar: {BANDAR}
+
+    Tarikh limit: {TARIKH}
+
+    Rujukan: {NEG_INVOIS}'
+  - 'Pesanan Spare Part - {SYARIKAT} ({MY_SSM_LAMA})
+
+    Telefon: {MY_PHONE}
+
+    Alamat: {BANDAR}, Tarikh: {TARIKH}
+
+    Nombor pesanan: {NEG}
+
+    Barang: {NEG_KOD}'
+  - 'Rekod Servis - {SYARIKAT}
+
+    Pelanggan: {NAMA}
+
+    Bandar: {BANDAR}
+
+    Tarikh: {TARIKH}
+
+    Invois: {NEG_INVOIS}
+
+    Sistem mencatat {NEG12_TANPA} untuk rujukan.'
+  bil_utiliti:
+  - 'BIL ELEKTRIK BULANAN
+
+    SYARIKAT: {SYARIKAT}
+
+    PELANGGAN: {NAMA} ({MY_NRIC})
+
+    AKAUN: {NEG_AKAUN}
+
+    TARIKH: {TARIKH}
+
+    JUMLAH BAYARAN: RM {NEG_KOD}'
+  - 'NOTIS PENGHENTIAN PERKHIDMATAN
+
+    Kepada: {NAMA}
+
+    Syarikat: {SYARIKAT} ({MY_SSM})
+
+    Telefon: {MY_PHONE}
+
+    Tarikh berkuatkuasa: {TARIKH}
+
+    Sila hubungi kami sebelum {TARIKH}'
+  - 'STATEMENT AKAUN (SALINAN DOKUMEN)
+
+    SYARIKAT: {SYARIKAT}
+
+    NAMA: {NAMA}
+
+    NRIC (OCR): {OCR_MY_NRIC}
+
+    TELEFON (PUTUS): {PATAH_MY_PHONE}
+
+    TARIKH CETAK: {NEG_TARIKH}'
+  - 'NOTIS BAYARAN LEWAT INTERNET
+
+    KEPADA: {NAMA}
+
+    SYARIKAT: {SYARIKAT}
+
+    NO. DAFTAR (OCR): {OCR_MY_SSM}
+
+    TELEFON SABAH/SARAWAK: {MY_PHONE_BS}
+
+    TARIKH: {TARIKH}
+
+    BAYAR SEGERA'
+  - 'RINGKASAN ELEKTRIK
+
+    SYARIKAT: {SYARIKAT}
+
+    BANDAR: {BANDAR}
+
+    NOMBOR RUJUKAN: {NEG}
+
+    NOMBOR INVOIS: {NEG_INVOIS}
+
+    KOD PRODUK: {NEG_KOD}
+
+    TARIKH: {NEG_TARIKH}'
+  - 'BIL ELEKTRIK BULANAN
+
+    Pelanggan: {NAMA} ({MY_NRIC})
+
+    Bandar: {BANDAR}
+
+    Tarikh: {TARIKH} | Invois: {NEG_INVOIS}
+
+    Telefon: {MY_PHONE}'
+  - 'NOTA AKAUN AIR
+
+    Syarikat: {SYARIKAT} ({MY_SSM_LAMA})
+
+    Pemegang: {NAMA}
+
+    Daerah: {BANDAR} | Tarikh: {TARIKH} | Rujukan: {NEG}
+
+    Telefon: {MY_PHONE}'
+  - 'BIL INTERNET BULANAN
+
+    Pelanggan: {NAMA}
+
+    Telefon (salinan dokumen): {OCR_MY_PHONE}
+
+    Tarikh: {TARIKH}
+
+    Invois: {NEG_INVOIS}'
+  - 'NOTA PUTUSAN ALIRAN ELEKTRIK
+
+    Kepada: {NAMA}
+
+    Nombor pengenalan (pecahan baris): {PATAH_MY_NRIC}
+
+    Tarikh: {TARIKH}
+
+    Rujukan: {NEG}'
+  - 'RINGKASAN AKAUN
+
+    Syarikat: {SYARIKAT}
+
+    Bandar: {BANDAR} | Tarikh: {TARIKH}
+
+    Nombor invois: {NEG_INVOIS} | Nombor akaun: {NEG_AKAUN}
+
+    Nombor telefon tidak sah: {NEG_TEL}'
+  - 'NOTA KEWANGAN
+
+    Syarikat: {SYARIKAT}
+
+    Bandar: {BANDAR} | Tarikh: {TARIKH}
+
+    Nombor telefon tidak lengkap: {NEG_TEL}
+
+    Kod produk: {NEG_KOD} | Rujukan: {NEG}'
+  pesanan_online:
+  - 'Salam, pesanan anda telah diterima oleh {SYARIKAT}.
+
+    Nama: {NAMA}
+
+    Telefon: {MY_PHONE}
+
+    MyKad: {MY_NRIC}
+
+    Tarikh: {TARIKH}
+
+    Nombor pesanan: {NEG}'
+  - 'Assalamualaikum, saya ingin membuat permintaan refund.
+
+    Nama: {NAMA}
+
+    Syarikat: {SYARIKAT} (SSM: {MY_SSM})
+
+    Telefon: {MY_PHONE}
+
+    Invois: {NEG_INVOIS}
+
+    Tarikh: {TARIKH}'
+  - 'Halo, saya nak balik barang yang rosak.
+
+    Nama: {NAMA}
+
+    Syarikat: {SYARIKAT} (LLP: {MY_SSM_LLP})
+
+    Telefon: {MY_PHONE_BS}
+
+    Kod produk: {NEG_KOD}
+
+    Tarikh: {TARIKH}'
+  - 'Salinan resit yang dipindai untuk pembayaran.
+
+    Nama: {NAMA}
+
+    NRIC: {OCR_MY_NRIC}
+
+    Telefon: {OCR_MY_PHONE}
+
+    Nombor resit: {NEG_INVOIS}
+
+    Tarikh: {TARIKH}'
+  - 'Borang pengembalian barang.
+
+    Nama: {NAMA}
+
+    No MyKad: {PATAH_MY_NRIC}
+
+    Telefon: {PATAH_MY_PHONE}
+
+    Tarikh: {TARIKH}
+
+    Nombor: {NEG}'
+  - 'Pesanan anda telah diproses dan sedang dikirim.
+
+    Nombor pesanan: {NEG}
+
+    Invois: {NEG_INVOIS}
+
+    Tarikh: {NEG_TARIKH}
+
+    Syarikat: {SYARIKAT}
+
+    Bandar: {BANDAR}'
+  - 'Saya ingin menukar barang yang salah.
+
+    Nombor invois: {NEG_INVOIS}
+
+    Nombor resmi: {NEG_TEL}
+
+    Tarikh: {NEG_TARIKH}
+
+    Kod barang: {NEG_KOD}
+
+    Terima kasih.'
+  - 'Assalamualaikum {NAMA},
+
+    Pesanan anda telah diterima oleh {SYARIKAT} pada {TARIKH}. Nombor telefon anda {MY_PHONE} dan nombor pengenalan {MY_NRIC} kami simpan untuk penjejakan. Nombor pesanan {NEG}.'
+  - 'Kami merujuk permintaan refund dari {SYARIKAT} (daftar SSM: {MY_SSM}). Sila hubungi kami melalui {MY_PHONE_BS} di {BANDAR} untuk butiran lanjut. Nombor invois {NEG_INVOIS}.'
+  - Permintaan balikan barang untuk syarikat {SYARIKAT} yang terdaftar sebagai LLP {MY_SSM_LLP}. Sila hantar barang balik ke {BANDAR} sebelum {TARIKH}. Nombor pesanan {NEG}.
+  - 'Salinan resit yang di-scan menunjukkan nombor pengenalan {OCR_MY_NRIC} dan telefon {PATAH_MY_PHONE}.
+
+    Sila semak kembali sebelum memproses refund. Nombor pelacaan {NEG_INVOIS}.'
+  - 'Nombor pendaftaran syarikat dalam fail imbas: {OCR_MY_SSM}.
+
+    Sila maklumkan akaun bank {NEG_AKAUN} untuk diterima semula wang. Tarikh {TARIKH}.'
+  - Pesanan anda telah diproses oleh {SYARIKAT}. Rujukan sistem {NEG12_TANPA} telah direkodkan. Nombor pesanan {NEG} dan kod produk {NEG_KOD}.
+  - Halo, saya nak tanya soal refund untuk pesanan {NEG}. Barang sampai dalam keadaan rosak. Boleh tolong bantu? Tarikh {NEG_TARIKH}.
+  - Saya ingin balik barang yang dibeli dari {SYARIKAT} di {BANDAR}. Nombor invois {NEG_INVOIS}. Nombor telefon yang salah {NEG_TEL}. Sila hubungi balik.
+  farmasi:
+  - 'Surat pesanan ubat dari {SYARIKAT}, {BANDAR}.
+
+    Tarikh: {TARIKH}. Nombor: {NEG}.
+
+    Dikeluarkan oleh {NAMA} ({MY_NRIC}).
+
+    Hubungi {MY_PHONE}.
+
+    Ubat {NEG_KOD}, 2 kotak.'
+  - 'Surat rujukan klinik panel.
+
+    Kepada {NAMA}, {BANDAR}.
+
+    NRIC: {OCR_MY_NRIC}.
+
+    Telefon: {PATAH_MY_PHONE}.
+
+    Tarikh: {TARIKH}. {SYARIKAT}.'
+  - 'Pesanan ubat runcit untuk {SYARIKAT} ({MY_SSM}).
+
+    Tarikh: {TARIKH}. Telefon: {MY_PHONE}.
+
+    Nombor invois: {NEG_INVOIS}. Kod: {NEG_KOD}.
+
+    Disediakan oleh {NAMA}.'
+  - 'Surat klinik panel LLP.
+
+    Kepada: {SYARIKAT} ({MY_SSM_LLP}).
+
+    Tarikh: {TARIKH}, {BANDAR}.
+
+    No. telefon: {OCR_MY_PHONE}.
+
+    Dipersetujui oleh {NAMA}.'
+  - 'Maklumat pesanan ubat.
+
+    Syarikat: {SYARIKAT}, {BANDAR}.
+
+    Tarikh: {TARIKH}.
+
+    Telefon: {NEG_TEL}.
+
+    Nombor: {NEG}. Kod: {NEG_KOD}.'
+  majlis:
+  - 'Undian majlis kahwin {NAMA}
+
+    Sila sahkan kehadiran sebelum {TARIKH} di {BANDAR}
+
+    Nombor pengenalan: {MY_NRIC}
+
+    Telefon: {MY_PHONE}'
+  - 'Tempahan dewan majlis untuk {TARIKH}
+
+    Pemohon: {NAMA}
+
+    Nombor daftar LLP: {MY_SSM_LLP}
+
+    NRIC (pecahan baris): {PATAH_MY_NRIC}'
+  - 'Rujukan pesanan: {NEG}
+
+    Invois: {NEG_INVOIS}
+
+    Pejabat {SYARIKAT}, {BANDAR}
+
+    Telefon tak lengkap: {NEG_TEL}
+
+    Tarikh: {TARIKH}'
+  - 'Dokterima daripada {SYARIKAT}
+
+    {NEG12_TANPA}
+
+    Tarikh diterima: {TARIKH}
+
+    Lokasi: {BANDAR}'
+  - 'Maklumat bayaran majlis di {BANDAR}
+
+    Nombor akaun: {NEG_AKAUN}
+
+    Rujukan: {NEG}
+
+    Tarikh: {TARIKH}'
+  - 'Tempahan tempat di {BANDAR}, Sabah
+
+    Pemohon: {NAMA}
+
+    Telefon rangkaian darat: {MY_PHONE_BS}
+
+    Nombor syarikat (skan): {OCR_MY_SSM}'
+  - 'Assalamualaikum dan salam sejahtera,
+
+    Kami, {NAMA}, merasmikan majlis perkahwinan pada {TARIKH} di {BANDAR}.
+
+    Sila sahkan kehadiran dengan menghubungi {MY_PHONE} atau menghantar maklum balas sebelum {TARIKH}.
+
+    No. MyKad: {MY_NRIC}.'
+  - 'Permintaan perkhidmatan catering dari {SYARIKAT} untuk majlis di {BANDAR} pada {TARIKH}.
+
+    Penghubung: {NAMA}, {MY_PHONE}.
+
+    Nombor pendaftaran syarikat: {MY_SSM}.
+
+    Invois: {NEG_INVOIS}.'
+  - 'Booking tempat majlis melalui {SYARIKAT} ({MY_SSM_LLP}) di {BANDAR}.
+
+    Hubungi {NAMA} melalui {MY_PHONE_BS} bagi detail tarikh {TARIKH}.
+
+    Sila bayar deposit sebelum {TARIKH}.'
+  - 'Borang RSVP yang dipindai (majlis kahwin) — {NAMA}.
+
+    NRIC (dipindai): {OCR_MY_NRIC}.
+
+    Telefon (dipindai): {OCR_MY_PHONE}.
+
+    Tarikh majlis: {TARIKH} di {BANDAR}.'
+  - 'Pesanan makanan majlis di {BANDAR} oleh {SYARIKAT}.
+
+    Nombor pendaftaran syarikat:
+
+    {PATAH_MY_SSM}
+
+    Telefon pengeborong:
+
+    {PATAH_MY_PHONE}
+
+    Tarikh: {TARIKH}.'
+  - 'Resmi: pesanan tempat majlis dari {SYARIKAT} di {BANDAR}.
+
+    Rujukan pesanan: {NEG}.
+
+    Invois bayaran: {NEG_INVOIS}.
+
+    Nombor akaun syarikat: {NEG_AKAUN}.
+
+    Tarikh kedatangan: {TARIKH}.'
+  - 'Majlis di {BANDAR} akan dianjurkan oleh {SYARIKAT} pada {TARIKH}.
+
+    Penghubung: {NAMA}.
+
+    Resit: {NEG_INVOIS}.
+
+    {NEG12_TANPA}'
+  - 'Pengesahan tempat majlis di {BANDAR} oleh {SYARIKAT}.
+
+    Tarikh tempahan: {NEG_TARIKH}.
+
+    Kod lokasi: {NEG_KOD}.
+
+    Nombor telefon tidak sah: {NEG_TEL}.
+
+    Ditandatangani oleh {NAMA}.'
+  derma_zakat:
+  - 'BORANG IKRAR ZAKAT PERNIAGAAN
+
+    Nama syarikat: {SYARIKAT}
+
+    No pendaftaran: {MY_SSM}
+
+    Pemohon: {NAMA}
+
+    Jumlah derma: RM 250
+
+    Tarikh: {TARIKH}'
+  - 'BORANG DERMA ZAKAT (LLP)
+
+    Nama perkongungan: {SYARIKAT}
+
+    No pendaftaran LLP: {MY_SSM_LLP}
+
+    Telefon negeri timur: {MY_PHONE_BS}
+
+    Penyumbang: {NAMA}
+
+    Tarikh: {TARIKH}'
+  - 'RESIT ZAKAT UMUM
+
+    Penerima: {SYARIKAT}
+
+    Nombor resit: {NEG}
+
+    Tarikh: {TARIKH}
+
+    Jumlah: RM 100
+
+    Bandar: {BANDAR}'
+  - 'TERIMA KASIH DERMA
+
+    Penerima: {SYARIKAT}
+
+    Penyumbang: {NAMA}
+
+    Tarikh: {TARIKH}
+
+    {NEG12_TANPA}
+
+    {BANDAR}'
+  - 'RESIT ZAKAT (CETAKAN)
+
+    Penerima: {SYARIKAT}
+
+    No. resit: {NEG_INVOIS}
+
+    Tarikh sistem: {NEG_TARIKH}
+
+    Kod bayaran: {NEG_KOD}
+
+    Tel. hubungi: {NEG_TEL}'
+  - 'Terima Kasih Derma
+
+    Penerima: {NAMA}
+
+    Kod Resepsi: {NEG_KOD}
+
+    Masa: {NEG_TARIKH}
+
+    {BANDAR}'
+  acara_sukan:
+  - 'Maklumat hubungan Sabah/Sarawak
+
+    Nama: {NAMA}
+
+    Telefon bekalan: {MY_PHONE_BS}
+
+    Bandar: {BANDAR}
+
+    Tarikh daftar: {TARIKH}'
+  - 'Amaran keselamatan larian
+
+    Semua peserta wajib menyetujui syarat.
+
+    Tempat: {BANDAR}
+
+    Tarikh: {TARIKH}
+
+    Penganjur: {SYARIKAT}
+
+    Nombor invois: {NEG_INVOIS}'
+  - 'Maklumat Hubungan Peserta
+
+    Nama: {NAMA}
+
+    Syarikat: {SYARIKAT}
+
+    Telefon (Sabah/Sarawak): {MY_PHONE_BS}
+
+    Tarikh: {TARIKH}'
+  - 'Info Larian Suka Rasa
+
+    Tempat: {BANDAR}
+
+    Tarikh: {TARIKH}
+
+    Penganjur: {SYARIKAT}
+
+    Nombor Rujukan: {NEG}'
+  - 'Resep Pembayaran Sukan
+
+    Tarikh: {TARIKH}
+
+    No. Invois: {NEG_INVOIS}
+
+    Nombor Tel: {NEG_TEL}
+
+    Kod: {NEG_KOD}
+
+    Rujukan: {NEG_AKAUN}'
+  pembekal_b2b:
+  - 'Permohonan tawaran dari {SYARIKAT}, {BANDAR}.
+
+    No. Rujukan: {NEG}
+
+    Tarikh: {TARIKH}
+
+    No. Pendaftaran Syarikat: {MY_SSM}
+
+    Hubungi: {NAMA}, {MY_PHONE}
+
+    Barang: {NEG_KOD}'
+  - 'Surat perbelanjaan kepada {SYARIKAT}.
+
+    No. Pesanan: {NEG}
+
+    Tarikh: {TARIKH}
+
+    No. Pendaftaran Lama: {MY_SSM_LAMA}
+
+    Telefon: {MY_PHONE}
+
+    Akaun bank: {NEG_AKAUN}'
+  - 'Permohonan tender dari {SYARIKAT} ({MY_SSM_LLP}).
+
+    Perwakilan: {NAMA}
+
+    Tarikh penyerahan: {TARIKH}
+
+    Masa cap: {NEG_TARIKH}
+
+    Bandar: {BANDAR}'
+  - 'Dokumen perkhidmatan antara syarikat.
+
+    Rujukan: {NEG}
+
+    Tarikh: {TARIKH}
+
+    Kod barang: {NEG_KOD}
+
+    {NEG12_TANPA}
+
+    Catatan: harga dalam RM.'
+  - 'Surat kenal pasti pesanan.
+
+    Kepada: {SYARIKAT}, {BANDAR}
+
+    Tarikh: {TARIKH}
+
+    No. Rujukan: {NEG}
+
+    Telefon sambungan: {NEG_TEL}
+
+    Catatan: sila balas surat ini.'
+  - 'Nota penghantaran barang.
+
+    Kepada: {SYARIKAT}
+
+    Tarikh: {TARIKH}
+
+    No. Rujukan: {NEG}
+
+    Tel pejabat: {NEG_TEL}
+
+    Kod item: {NEG_KOD}'
+  - 'PESANAN BELIAN
+
+    Kepada: {SYARIKAT}, {BANDAR}
+
+    Kami memesan barang berikut untuk syarikat kami.
+
+    No. Pesanan: {NEG} | Tarikh: {TARIKH}
+
+    No. Pendaftaran Syarikat: {MY_SSM}
+
+    Hubungi: {MY_PHONE}'
+  - 'KETETAPAN HARGA
+
+    Dari: {SYARIKAT}
+
+    Untuk: {NAMA}, {SYARIKAT}
+
+    Tarikh: {TARIKH}
+
+    No. Rujukan: {NEG}
+
+    NRIC pegawai perkhidmatan: {PATAH_MY_NRIC}
+
+    Tel yang dipindai: {OCR_MY_PHONE}'
+  - 'SERAHAN TENDUM
+
+    Syarikat: {SYARIKAT} ({MY_SSM_LLP})
+
+    Alamat: {BANDAR}
+
+    Tarikh serahan: {TARIKH}
+
+    Telefon pejabat (Sabah/Sarawak): {MY_PHONE_BS}
+
+    Perwakilan: {NAMA}'
+  - 'NOTA PENGHANTARAN
+
+    No. Invois: {NEG_INVOIS}
+
+    Diterima oleh: {SYARIKAT}, {BANDAR}
+
+    Tarikh: {TARIKH}
+
+    No. Pendaftaran (discan): {OCR_MY_SSM}
+
+    Tel (pegang kertas): {PATAH_MY_PHONE}'
+  - 'BORANG DAFTAR PEMBEKAL
+
+    Nama pemohon: {NAMA}
+
+    No. MyKad: {MY_NRIC}
+
+    No. SSM lama: {MY_SSM_LAMA}
+
+    Syarikat: {SYARIKAT} | Bandar: {BANDAR}
+
+    Tarikh: {TARIKH}'
+  - 'PESANAN PEMBELIAN
+
+    Kepada: {SYARIKAT}, {BANDAR}
+
+    Tarikh: {TARIKH}
+
+    No. Pesanan: {NEG}
+
+    Rujukan pembayaran: {NEG_AKAUN}
+
+    Jumlah: RM 999'
+  imbasan_borang:
+  - 'BORANG PERMOHONAN KERJA
+
+    Nama Penuh: {NAMA}
+
+    No. KP: {MY_NRIC}
+
+    Telefon: {MY_PHONE}
+
+    Tarikh: {TARIKH}
+
+    Bandar: {BANDAR}'
+  - 'BORANG PERDANA
+
+    Nama: {NAMA}
+
+    No. Kad:
+
+    {PATAH_MY_NRIC}
+
+    Tarikh: {TARIKH}
+
+    Syarikat: {SYARIKAT}'
+  - 'BORANG DAFTAR SYARIKAT
+
+    Nama Syarikat: {SYARIKAT}
+
+    No. Daftar SSM: {OCR_MY_SSM}
+
+    Telefon Pejabat: {OCR_MY_PHONE}
+
+    Bandar: {BANDAR}
+
+    Tarikh: {TARIKH}'
+  - 'BORANG DAFTAR LLP
+
+    Nama Perkongsian: {SYARIKAT}
+
+    No. Pendaftaran LLP: {MY_SSM_LLP}
+
+    Telefon (Sabah/Sarawak): {MY_PHONE_BS}
+
+    Bandar: {BANDAR}
+
+    Tarikh: {TARIKH}'
+  - 'RINGKASAN INVOIS
+
+    Nombor Invois: {NEG_INVOIS}
+
+    Tarikh: {TARIKH}
+
+    Kod Produk: {NEG_KOD}
+
+    Jumlah: 5
+
+    Bandar: {BANDAR}
+
+    Syarikat: {SYARIKAT}'
+  - 'DOKUMEN PENERIMAAN
+
+    Rujukan: {NEG}
+
+    {NEG12_TANPA}
+
+    Tarikh: {TARIKH}
+
+    Bandar: {BANDAR}
+
+    Catatan: diterima'
+  - 'BORANG HUBUNGAN
+
+    Nama Syarikat: {SYARIKAT}
+
+    Tel: {NEG_TEL}
+
+    Tarikh: {TARIKH}
+
+    Bandar: {BANDAR}
+
+    Nombor Rujukan: {NEG}'
+  - 'BORANG KEWANGAN
+
+    Nama: {NAMA}
+
+    No. Daftar Lama: {MY_SSM_LAMA}
+
+    Tarikh: {TARIKH}
+
+    Bandar: {BANDAR}
+
+    Syarikat: {SYARIKAT}'
+  - 'Borang Permohonan Kerja
+
+    Nama Penuh: {NAMA}
+
+    Nombor MyKad: {MY_NRIC}
+
+    Nombor Telefon: {MY_PHONE}
+
+    Tarikh: {TARIKH}
+
+    Bandar: {BANDAR}'
+  - 'Borang Daftar Syarikat
+
+    Nama Syarikat: {SYARIKAT}
+
+    Nombor Pendaftaran SSM: {MY_SSM}
+
+    Tarikh Daftaran: {TARIKH}
+
+    Bandar: {BANDAR}'
+  - 'Perkongsian Terbatas (LLP)
+
+    Nama Perkongsian: {SYARIKAT}
+
+    Nombor Pendaftaran LLP: {MY_SSM_LLP}
+
+    Pemegang: {NAMA}
+
+    Tarikh: {TARIKH}'
+  - 'Borang Kontak Timur Malaysia
+
+    Nama: {NAMA}
+
+    Nombor Telefon Sabah/Sarawak: {MY_PHONE_BS}
+
+    Bandar: {BANDAR}
+
+    Tarikh: {TARIKH}'
+  - 'Borang Hubungan
+
+    Nama: {NAMA}
+
+    Telefon: {NEG}
+
+    Tarikh: {TARIKH}
+
+    Bandar: {BANDAR}'
+  - 'Borang Bantuan
+
+    Nama: {NAMA}
+
+    Telefon: {NEG_TEL}
+
+    Tarikh: {TARIKH}
+
+    Bandar: {BANDAR}'
+  kedai_sabah_sarawak:
+  - 'Assalamualaikum {NAMA}, barang anda siap di {SYARIKAT}, {BANDAR}.
+
+    Sila hubungi {MY_PHONE_BS} pada {TARIKH} untuk ambilan.
+
+    Terima kasih.'
+  - 'NOTIS: {SYARIKAT} (LLP {MY_SSM_LLP}) pindah kedai baru di {BANDAR}, {TARIKH}.
+
+    Hubungi kami:
+
+    {PATAH_MY_PHONE}'
+  - 'Resep pembelian dari {SYARIKAT}, {BANDAR}.
+
+    Pelanggan: {NAMA} ({OCR_MY_NRIC}).
+
+    Tarikh: {TARIKH}. No invois: {NEG_INVOIS}.'
+  - 'Kemaskeni lesen syarikat: {SYARIKAT}, No. Pendaftaran {MY_SSM_LAMA}.
+
+    Pihak berkuasa: {BANDAR}. Tarikh kuat kuasa: {TARIKH}.
+
+    Hubungi: {MY_PHONE}.'
+  - 'Maklumat pelanggan baharu:
+
+    Nama: {NAMA}
+
+    No. Kad Pengenalan: {PATAH_MY_NRIC}
+
+    Telefon: {OCR_MY_PHONE}
+
+    {BANDAR}, {TARIKH}'
+  - 'Rincian bayaran:
+
+    Nombor akaun: {NEG_AKAUN}
+
+    Hubungi: {NEG_TEL}
+
+    Tarikh transaksi: {NEG_TARIKH}
+
+    Syikat: {SYARIKAT}'
+  - 'NOTIS BENGKEL {SYARIKAT}
+
+    Di {BANDAR}. Hubungi {NAMA} di {MY_PHONE_BS} untuk janji muafakat. Bermula {TARIKH}.'
+  - 'Assalamualaikum, saya {NAMA} dari {BANDAR}. Saya ingin beli barang dari {SYARIKAT}.
+
+    Nombor telefon saya {MY_PHONE} dan Nombor pengenalan saya {MY_NRIC}.
+
+    Balas saya segera.'
+  - 'INVOIS {NEG_INVOIS}
+
+    {SYARIKAT} ({MY_SSM_LLP})
+
+    Pelanggan: {NAMA}
+
+    Tarikh: {TARIKH}
+
+    Jumlah bayaran: RM 350'
+  - 'Salinan resit dari {SYARIKAT}, {BANDAR}.
+
+    Nombor telefon (OCR): {OCR_MY_PHONE}
+
+    Hubungi {NAMA} secepatnya.'
+  - 'INGATAN PEMBAYARAN
+
+    {SYARIKAT}, {BANDAR}
+
+    Nombor invois: {NEG_INVOIS}
+
+    Nombor akaun: {NEG_AKAUN}
+
+    Tarikh akhir: {TARIKH}'
+  - 'Pesan pelanggan:
+
+    Saya {NAMA} dari {BANDAR}.
+
+    Hubungi saya di {NEG_TEL} bagi penawaran {SYARIKAT}.
+
+    Tarikh: {TARIKH}.'
+  firma_llp:
+  - 'Surat Serta Terima Dokumen
+
+    Kepada {SYARIKAT}
+
+    {BANDAR}, {TARIKH}
+
+    Rujukan: {NEG}
+
+    Kami telah menerima semua fail yang disemak.'
+  - 'Maklumat Pembayaran
+
+    Rujukan: {NEG}
+
+    Invois: {NEG_INVOIS}
+
+    Nombor Bank: {NEG_AKAUN}
+
+    Tarikh: {NEG_TARIKH}
+
+    Diproses oleh {SYARIKAT}'
+  - 'Surat Konsultasi
+
+    Kepada: {NAMA}
+
+    Telefon dalam salinan semak:
+
+    {PATAH_MY_PHONE}
+
+    Kod projek: {NEG_KOD}
+
+    Tarikh: {TARIKH}'
+  - 'Terima kasih atas pembayaran.
+
+    Sistem mencatat {NEG12_TANPA} untuk rujukan.
+
+    Tarikh: {TARIKH}
+
+    {NAMA}, {SYARIKAT}, {BANDAR}'
+  - 'Mesejan pengingat pembayaran.
+
+    No invois: {NEG_INVOIS}
+
+    Nombor akaun banc: {NEG_AKAUN}
+
+    Tel tidak lengkap: {NEG_TEL}
+
+    Tarikh: {TARIKH}'
+  - 'Notis Ahli
+
+    No Ahli: {NEG_AHLI}
+
+    Kod produk: {NEG_KOD}
+
+    Tarikh daftar: {NEG_TARIKH}'
+  - 'Surat Rasmi
+
+    Yang terhormat {NAMA},
+
+    Hubungi kami di {MY_PHONE_BS}.
+
+    Nombor pendaftaran syarikat (salinan semak): {OCR_MY_SSM}
+
+    Tarikh: {TARIKH}'

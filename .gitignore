@@ -1,0 +1,23 @@
+.venv/
+__pycache__/
+.ruff_cache/
+.pytest_cache/
+hasil/*
+!hasil/cache/
+!hasil/cache/**
+!hasil/dev-masa.json
+# PELAN-C (ADR-006): rekod iterasi + carta + statistik dev dikomit; hasil/ramalan/ dan hasil/*ujian* KEKAL diabaikan
+!hasil/iterasi.tsv
+!hasil/kemajuan.svg
+!hasil/dev-statistik.json
+# PELAN-IAA P9 (ADR-015): skor persetujuan + kadar ralat label (kiraan sahaja, tiada teks)
+!hasil/iaa.json
+# PELAN-CLAUDE P3 (ADR-016): anggaran kos Claude dev (kiraan token + USD sahaja)
+!hasil/dev-kos-claude.json
+# PELAN-MODEL-LAIN P3/P4 (ADR-017): probe format eksplorasi (kiraan + jenis ralat sahaja)
+!hasil/dev-probe-llm.json
+# PELAN-V2 P12/P13: statistik + kuasa dev3 (kiraan sahaja) — sumber angka pindaan kuasa v2
+!hasil/dev3-statistik.json
+# 6 Nov 2026: salinan arkib larian ujian muktamad (v1 ujian/ujian2 + v2 ujian3) — keputusan + ramalan + cache, MANIFEST.sha256
+!hasil/arkib/
+!hasil/arkib/**

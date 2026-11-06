@@ -1,0 +1,262 @@
+# Dijana 2026-10-30 oleh `python -m mypii.jana.templat_llm --sasaran ujian2` (model: cbcn/kimi-k3). JANGAN sunting tangan.
+# DIMETERAI (PELAN-B B1): jangan buka, jangan sunting — gerbang menolak sebarang perubahan.
+genre:
+  tuntutan_insurans:
+  - 'BORANG TUNTUTAN INSURANS
+
+    Nama Penuh: {NAMA}
+
+    No. MyKad: {MY_NRIC}
+
+    No. Polisi: {NEG}
+
+    Tarikh Kejadian: {TARIKH}
+
+    Lokasi: {BANDAR}
+
+    Sila lengkapkan dan kembalikan selewat-lewatnya 14 hari dari tarikh surat ini.'
+  - 'Salam sejahtera {NAMA},
+
+    Tuntutan anda di bawah polisi {NEG} telah diterima. Sila hubungi pegawai kami di {MY_PHONE} untuk pengesahan butiran. No. rujukan: {NEG_INVOIS}. Terima kasih.'
+  - 'Kepada {SYARIKAT},
+
+    Saya, {NAMA} ({MY_NRIC}), ingin membuat tuntutan kerosakan kenderaan yang berlaku di {BANDAR} pada {TARIKH}. No. pendaftaran syarikat bengkel: {MY_SSM}. Bayaran boleh dikreditkan ke akaun {NEG_AKAUN}.'
+  - 'PERINGATAN: Tuntutan {NEG} masih menunggu dokumen sokongan. Sila lampirkan resit {NEG_INVOIS} bertarikh {NEG_TARIKH} serta kod bil {NEG_KOD} sebelum {TARIKH}. Abaikan mesej ini jika sudah dihantar.'
+  - 'Maklumat Tuntutan Hospital
+
+    Pesakit: {NAMA}
+
+    No. Kad Pengenalan: {MY_NRIC}
+
+    No. Telefon: {MY_PHONE}
+
+    Panel Hospital: {SYARIKAT}, {BANDAR}
+
+    Tarikh Masuk: {TARIKH}'
+  - 'Tuan/Puan,
+
+    Merujuk surat kami {NEG_TARIKH}, semakan tuntutan {NEG} mendapati jumlah invois {NEG_INVOIS} tidak sepadan dengan akaun {NEG_AKAUN}. Sila hantar dokumen sebenar dalam tempoh 7 hari bekerja.'
+  - 'E-mel Susulan Tuntutan
+
+    Daripada: {NAMA} ({MY_PHONE})
+
+    Kepada: Jabatan Tuntutan {SYARIKAT} (No. SSM: {MY_SSM_LAMA})
+
+    Subjek: Tuntutan kemalangan {TARIKH} di {BANDAR}. Saya lampirkan salinan MyKad {MY_NRIC} dan laporan polis {NEG}.'
+  - 'Sila semak status tuntutan {NEG} anda melalui portal. Kod pengesahan: {NEG_KOD}. Tarikh penghantaran semula: {TARIKH}. Untuk pertanyaan, rujuk nombor siri borang {NEG_TEL} atau e-mel cawangan {BANDAR}.'
+  permohonan_pinjaman:
+  - 'Borang Permohonan Pinjaman Peribadi
+
+    Nama: {NAMA}
+
+    No. MyKad: {MY_NRIC}
+
+    Telefon: {MY_PHONE}
+
+    Alamat: {BANDAR}
+
+    Tarikh: {TARIKH}'
+  - 'Saya, {NAMA}, pemilik {SYARIKAT} (No. Pendaftaran SSM: {MY_SSM}), ingin memohon pembiayaan perniagaan. Sila hubungi saya di {MY_PHONE} untuk maklumat lanjut.'
+  - 'Kepada Pihak Bank,
+
+    Merujuk permohonan pinjaman rujukan {NEG} bertarikh {NEG_TARIKH}, saya ingin menyemak status pembayaran ke akaun {NEG_AKAUN}. Invois berkaitan: {NEG_INVOIS}.'
+  - Salam, saya nak tanya tentang pinjaman ASB. Nama saya {NAMA}, IC {MY_NRIC}. Boleh call saya {MY_PHONE} bila-bila masa. Terima kasih.
+  - 'Notis: Bayaran ansuran bagi kod produk {NEG_KOD} telah direkodkan pada {NEG_TARIKH}. Nombor telefon yang diberikan ({NEG_TEL}) tidak lengkap, sila kemas kini melalui borang rujukan {NEG}.'
+  - 'PERMOHONAN PINJAMAN PERUMAHAN
+
+    Pemohon: {NAMA}
+
+    NRIC: {MY_NRIC}
+
+    Majikan: {SYARIKAT} (SSM: {MY_SSM})
+
+    Lokasi Hartanah: {BANDAR}
+
+    Tarikh Permohonan: {TARIKH}'
+  - 'Pertanyaan Pembiayaan Perniagaan — {SYARIKAT}, {BANDAR}.
+
+    Kami ingin memohon kemudahan modal pusingan. Dokumen sokongan: invois {NEG_INVOIS}, penyata akaun {NEG_AKAUN}, tarikh transaksi {NEG_TARIKH}.'
+  pendaftaran_sekolah:
+  - 'BORANG PENDAFTARAN MURID BARU
+
+    Nama Murid: {NAMA}
+
+    No. MyKad: {MY_NRIC}
+
+    Nama Penjaga: {NAMA}
+
+    Telefon: {MY_PHONE}
+
+    Tarikh Pendaftaran: {TARIKH}'
+  - 'Notis kepada Ibu Bapa: Sila hubungi Pn {NAMA} di talian {MY_PHONE} sebelum {TARIKH} untuk mengesahkan pendaftaran anak anda, {NAMA}, di Taska kami di {BANDAR}.'
+  - 'Resit Bayaran Pendaftaran
+
+    Inbois: {NEG_INVOIS}
+
+    Diterima daripada: {NAMA}
+
+    Kod Murid: {NEG_KOD}
+
+    Tarikh: {NEG_TARIKH}
+
+    Yuran pendaftaran telah dijelaskan sepenuhnya. Terima kasih.'
+  - Pusat Tuisyen {SYARIKAT} ({MY_SSM}) kini membuka pendaftaran sesi baharu di {BANDAR}. Sila kemukakan salinan MyKad murid {MY_NRIC} dan borang yang ditandatangani oleh {TARIKH}.
+  - 'Yang dihormati {NAMA}, pendaftaran {NAMA} (No. MyKid: {MY_NRIC}) telah diluluskan. Sila hubungi pejabat kami di {MY_PHONE} untuk maklumat orientasi pada {TARIKH}.'
+  - 'Makluman Pembayaran Yuran
+
+    Sila bank-in ke akaun {NEG_AKAUN} atas nama {SYARIKAT} sebelum {NEG_TARIKH}. Rujukan bayaran: {NEG}. Sebarang pertanyaan sila rujuk guru kelas.'
+  - 'Senarai Semak Pendaftaran Kelas Tambahan:
+
+    - No. Rujukan: {NEG}
+
+    - Kod Program: {NEG_KOD}
+
+    - Tel sementara murid (belum lengkap): {NEG_TEL}
+
+    Sila kemas kini maklumat di pejabat {BANDAR} sebelum {TARIKH}.'
+  kurier:
+  - Ybhg. {NAMA}, bungkusan anda (no. jejak {NEG_INVOIS}) gagal dihantar ke {BANDAR} pada {TARIKH}. Sila hubungi {MY_PHONE} untuk atur semula penghantaran. — {SYARIKAT}
+  - 'PERHATIAN: Penghantaran gagal. Kurier {SYARIKAT} akan cuba semula esok. Rujukan {NEG}, invois {NEG_INVOIS}, tarikh cap masa {NEG_TARIKH}. Kod item {NEG_KOD}.'
+  - Kepada {NAMA}, sila sahkan alamat penghantaran di {BANDAR} dengan memberikan no. MyKad {MY_NRIC} dan no. telefon {MY_PHONE} sebelum {TARIKH}. Bungkusan {NEG_INVOIS}.
+  - 'Notis kutipan: Barangan tiba di cawangan {SYARIKAT} {BANDAR}. Tunjukkan resit {NEG_INVOIS} dan kod {NEG_KOD} semasa kutipan. Tempoh simpanan: 7 hari. Rujukan {NEG}.'
+  - Salam, {NAMA}. Syarikat penghantar {SYARIKAT} (No. SSM {MY_SSM}) memerlukan pengesahan identiti. Sila hantar salinan MyKad {MY_NRIC} bagi tuntutan bungkusan hilang {NEG_INVOIS}.
+  - 'Kegagalan penghantaran kali kedua pada {TARIKH}. Penerima: {NAMA}, {BANDAR}. No. rujukan dalaman {NEG}, akaun penghantar {NEG_AKAUN}, no. tel tidak lengkap {NEG_TEL}.'
+  - '{SYARIKAT} (SSM lama {MY_SSM_LAMA}): Sila ambil bungkusan {NEG_INVOIS} di pejabat pos {BANDAR} selewat-lewatnya {TARIKH}. Bawa MyKad {MY_NRIC} sebagai pengesahan.'
+  - 'Mesej automatik: Kurier cuba hubungi anda 3 kali. Sila panggil balik {MY_PHONE} dan sebutkan no. jejak {NEG_INVOIS}. Terima kasih, {NAMA}. Pasukan {SYARIKAT}, {BANDAR}.'
+  sewa_rumah:
+  - Bilik medium untuk disewa di {BANDAR}. Sewa RM 450 sebulan termasuk wifi. Hubungi {NAMA} di {MY_PHONE} untuk tonton rumah.
+  - 'PERJANJIAN SEWAAN RUMAH
+
+    Antara tuan rumah {NAMA} (No. MyKad: {MY_NRIC}) dengan penyewa {NAMA} ({MY_NRIC}). Premis di {BANDAR}. Sewa bulanan RM 800 berkuat kuasa {TARIKH}. Deposit dua bulan diperlukan.'
+  - 'Salam {NAMA}, deposit sewa dah saya transfer ke akaun tuan rumah {NEG_AKAUN} pada {NEG_TARIKH}. Resit nombor {NEG_INVOIS}. Rujukan sewaan: {NEG}. Terima kasih!'
+  - Rumah teres 2 tingkat di {BANDAR} untuk disewa. 3 bilik, 2 bilik air. Ejen berdaftar {SYARIKAT} ({MY_SSM}). Sila hubungi {MY_PHONE} atau emel. Rujukan iklan {NEG_KOD}.
+  - 'Ybhg {NAMA},
+
+    Bersama-sama ini disertakan salinan MyKad {MY_NRIC} dan surat pengesahan majikan {SYARIKAT} ({MY_SSM_LAMA}) untuk permohonan sewaan di {BANDAR} bertarikh {TARIKH}.'
+  - Penyewa selesa nak tengok unit pada {TARIKH} jam {NEG_TARIKH}. Kata nak booking je terus, cuma nombor telefon dia {NEG_TEL} macam tak lengkap. Invois deposit {NEG_INVOIS} nanti saya hantar.
+  - 'KENYATAAN: Rumah banglo di {BANDAR} disewakan oleh {SYARIKAT}, No. Pendaftaran {MY_SSM}. Pertanyaan sila telefon {MY_PHONE}. Sewa dari RM 950 sebulan, kemasukan serta-merta.'
+  - 'Semakan status penyewaan rujukan {NEG} bagi unit kod {NEG_KOD} di {BANDAR}: tarikh serahan kunci {TARIKH}, baki dibayar melalui akaun {NEG_AKAUN}. Nota dalaman bertarikh {NEG_TARIKH}.'
+  jual_beli:
+  - Assalamualaikum, kereta masih ada? Saya {NAMA} dari {BANDAR}. Boleh hubungi saya {MY_PHONE} untuk tengok kereta petang ini.
+  - 'Untuk dijual: sofa dua tempat duduk, kondisi baik. Harga boleh runding. Berminat sila WhatsApp {MY_PHONE}, tanya {NAMA}.'
+  - Telefon bimbit terpakai untuk dilepaskan, kod {NEG_KOD}, siap kotak dan pengecas. Tracking pos terakhir {NEG_INVOIS}. COD di {BANDAR} sahaja, tiada penghantaran jauh.
+  - Saya peniaga berdaftar, nama syarikat {SYARIKAT}, no pendaftaran {MY_SSM}. Untuk jual beli perabot terpakai di {BANDAR}, sila hubungi {MY_PHONE} sebelum jam 8 malam.
+  - Salam, nak tempah kabinet tu. Rujukan pesanan {NEG}, tarikh hantar {NEG_TARIKH}. Nanti saya bayar deposit ke akaun {NEG_AKAUN} ya.
+  - 'Urniaga jual beli telefon: pembeli diminta beri salinan MyKad {MY_NRIC} untuk rekod kedai {SYARIKAT} pada {TARIKH}. Pendaftaran lama kami {MY_SSM_LAMA}.'
+  - Barang masih ada ke bang? Nombor saya {NEG_TEL}, tak siap lagi line baru. Saya duduk {BANDAR}, boleh datang ambil sendiri.
+  laporan_polis:
+  - 'LAPORAN POLIS
+
+    Saya, {NAMA}, No. MyKad {MY_NRIC}, ingin melaporkan bahawa saya telah kehilangan dompet di {BANDAR} pada {TARIKH}. Nombor telefon saya {MY_PHONE}.'
+  - Pada {TARIKH}, saya {NAMA} telah disamun di hadapan {SYARIKAT}, {BANDAR}. No. kad pengenalan saya {MY_NRIC}. Kerugian wang tunai dan telefon. Boleh hubungi {MY_PHONE}.
+  - Saya {NAMA}, pekerja {SYARIKAT} (No. SSM {MY_SSM}), melaporkan kehilangan pasport syarikat di {BANDAR} pada {TARIKH}. No. telefon pejabat {MY_PHONE}.
+  - 'LAPORAN KEHILANGAN
+
+    Saya {NAMA} telah kehilangan beg di pasar {BANDAR} pada {TARIKH}. Nombor rujukan polis {NEG}.'
+  - Saya melaporkan pendaftaran perniagaan hilang milik {SYARIKAT}, No. SSM lama {MY_SSM_LAMA}, di {BANDAR} pada {TARIKH}. Saksi {NAMA}, telefon {MY_PHONE}.
+  - Pada {TARIKH} kira-kira jam 3 petang, motosikal saya hilang di parkir {BANDAR}. No. siri enjin {NEG_KOD}, no. resit {NEG_INVOIS}. Pemilik {NAMA}.
+  - Saya {NAMA} melaporkan penipuan atas talian melalui akaun {NEG_AKAUN} pada {TARIKH}. Nombor telefon suspek {NEG_TEL}. Masa transaksi {NEG_TARIKH}.
+  - 'LAPORAN POLIS
+
+    Saya {NAMA}, No. MyKad {MY_NRIC}, melaporkan kes langgar lari di {BANDAR} pada {TARIKH}. Telefon saya {MY_PHONE}, no. invoisis baik pulih {NEG_INVOIS}.'
+  hr_pekerja:
+  - 'BORANG PENDAFTARAN PEKERJA BARU
+
+    Nama Penuh: {NAMA}
+
+    No. MyKad: {MY_NRIC}
+
+    No. Telefon: {MY_PHONE}
+
+    Tarikh Mula Bekerja: {TARIKH}
+
+    Lokasi Penempatan: {BANDAR}'
+  - 'NOTA SLIP GAJI
+
+    Syarikat: {SYARIKAT} (No. Pendaftaran: {MY_SSM})
+
+    Nama Kakitangan: {NAMA}
+
+    Rujukan Gaji: {NEG}
+
+    Sila pastikan akaun bank {NEG_AKAUN} adalah tepat sebelum tarikh pembayaran {NEG_TARIKH}.'
+  - 'REKOD KAKITANGAN
+
+    Nama: {NAMA}
+
+    NRIC: {MY_NRIC}
+
+    Jawatan: Kerani Am
+
+    Alamat: {BANDAR}
+
+    No. Syarikat (SSM lama): {MY_SSM_LAMA}
+
+    Sekiranya kecemasan, hubungi {MY_PHONE}.'
+  - 'SURAT PERLETAKAN JAWATAN
+
+    Kepada pihak {SYARIKAT},
+
+    Saya, {NAMA}, dengan ini menyerahkan notis perletakan jawatan berkuat kuasa {TARIKH}. Terima kasih atas peluang yang diberikan selama 2 tahun saya berkhidmat.'
+  - 'MAKLUMAT PENGESAHAN GAJI
+
+    Nombor rujukan permohonan: {NEG}
+
+    No. invois pembayaran: {NEG_INVOIS}
+
+    Kod cawangan: {NEG_KOD}
+
+    Sila kemukakan dokumen sebelum {TARIKH}.'
+  - 'BORANG PERMOHONAN CUTI TAHUNAN
+
+    Nama Pekerja: {NAMA}
+
+    No. Telefon Bimbit: {MY_PHONE}
+
+    Tarikh Cuti: {TARIKH}
+
+    Tempoh: 3 hari
+
+    Cawangan: {BANDAR}'
+  - 'SENARAI SEMAK PENGAMBILAN BARU
+
+    1. Salinan dokumen pengenalan — rujukan {NEG}
+
+    2. Nombor telefon kenalan ({NEG_TEL}) — perlu dikemas kini
+
+    3. Kod laluan akses bangunan: {NEG_KOD}
+
+    Tarikh induksi: {TARIKH} di pejabat {BANDAR}.'
+  - 'NOTA KELULUSAN BONUS
+
+    Syarikat: {SYARIKAT} ({MY_SSM})
+
+    Penerima: {NAMA} (NRIC: {MY_NRIC})
+
+    No. invois bonus: {NEG_INVOIS}
+
+    Akaun bank penerima: {NEG_AKAUN}
+
+    Diluluskan pada {TARIKH}.'
+  pusat_panggilan:
+  - 'Pelanggan: {NAMA}
+
+    No. MyKad: {MY_NRIC}
+
+    No. telefon: {MY_PHONE}
+
+    Aduan: bil lewat diterima di {BANDAR}. Rujukan: {NEG}.'
+  - 'Ejen: Encik {NAMA} menelefon dari {SYARIKAT}, no. pendaftaran {MY_SSM}. Mahu kemas kini alamat ke {BANDAR}. Nombor hubungan: {MY_PHONE}.'
+  - 'Tiket {NEG}: Panggilan masuk jam {NEG_TARIKH}. Pelanggan sebut no. {NEG_TEL} tetapi tidak lengkap. Invois {NEG_INVOIS} belum dijelaskan. Tindakan: panggil semula esok.'
+  - Verifikasi gagal. Pelanggan {NAMA} memberi NRIC {MY_NRIC} yang tidak sepadan dengan rekod {SYARIKAT} ({MY_SSM_LAMA}). Disahkan melalui {MY_PHONE} pada {TARIKH}.
+  - 'Ringkasan: Pesanan {NEG_INVOIS} dari {BANDAR} tertangguh. Pelanggan minta hubungi {MY_PHONE} selepas waktu pejabat. Nama penerima: {NAMA}.'
+  - 'Aduan {NEG}: Siri peranti {NEG_KOD} diterima rosak pada {NEG_TARIKH}. Pemulangan dirujuk ke akaun {NEG_AKAUN}. Kes ditutup {TARIKH}.'
+  media_sosial:
+  - Assalamualaikum warga {BANDAR}. Ada sesiapa kenal {NAMA}? Dia ada tinggalkan kad di kedai saya semalam. Minta hubungi saya di {MY_PHONE} secepat mungkin. Terima kasih.
+  - Hati-hati semua! Saya kena scam dengan syarikat kononnya dari {BANDAR}, nama {SYARIKAT}, no pendaftaran {MY_SSM}. Depa minta saya bayar ke akaun {NEG_AKAUN}. Nasib baik tak sempat transfer. Jangan percaya ya!
+  - Salam, saya nak jual barang preloved. Kod item {NEG_KOD}, harga RM 50 saja. Berminat boleh PM atau WhatsApp {MY_PHONE}. Area {BANDAR} sahaja, pos tambah RM 8.
+  - Group admin, minta tolong semakkan ahli baru ni. Dia bagi no IC {MY_NRIC} masa daftar event {TARIKH}, tapi tak verify. Nama dia {NAMA}. Rujukan pendaftaran {NEG}.
+  - Pesanan saya dari {SYARIKAT} masih tak sampai! No tracking {NEG_INVOIS}, order dibuat pada {NEG_TARIKH}. Dah 5 hari tunggu. Ada sesiapa ada masalah sama?
+  - 'Urgent: Mencari tukang baiki paip area {BANDAR}. Sila hubungi {NAMA} di {MY_PHONE} atau pejabat kami {SYARIKAT} (no SSM lama {MY_SSM_LAMA}). Kerja kecil je, 2 jam siap.'
+  - Saya cuba call kedai tu tapi nombor {NEG_TEL} tak dapat, mungkin salah nombor. Ada sesiapa ada contact lain? Invois saya {NEG_INVOIS} dari bulan 3 hari tu belum settle.
+  - Hi semua, saya {NAMA} dari {BANDAR}. Nak buka puasa bersama pada {TARIKH}. Yuran RM 30 seorang, bayar ke akaun {NEG_AKAUN}. Untuk pengesahan, hantar no IC {MY_NRIC} dan telefon {MY_PHONE} melalui DM sahaja ya. Terima kasih!

@@ -1,0 +1,47 @@
+genre:
+  whatsapp:
+    - "Hi, this is {NAMA}. My IC number is {MY_NRIC}, please call me at {MY_PHONE}."
+    - "New number: {MY_PHONE}. Old one is no longer active."
+    - "Order {NEG} shipped today, tracking will follow."
+  emel:
+    - "Dear Sir/Madam,\n{SYARIKAT} (Company No. {MY_SSM}) would like to request a quotation. Contact: {MY_PHONE}.\nRegards, {NAMA}"
+    - "Your payment reference {NEG} was received on {TARIKH}."
+    - "Applicant: {NAMA}\nNRIC: {MY_NRIC}\nPhone: {MY_PHONE}\nCity: {BANDAR}"
+  borang:
+    - "Name: {NAMA} | IC No: {MY_NRIC} | Mobile: {MY_PHONE} | Employer: {SYARIKAT} ({MY_SSM})"
+    - "Form serial {NEG} | Date {TARIKH} | Branch {BANDAR}"
+  aduan:
+    - "I wish to lodge a complaint against {SYARIKAT}, registration no {MY_SSM}. The goods have not arrived since {TARIKH}."
+    - "I transferred to account {NEG_AKAUN} but order {NEG_INVOIS} never arrived. My number is {MY_PHONE}."
+    - "Item {NEG_KOD} was faulty, receipt {NEG_INVOIS} dated {TARIKH}."
+  klinik:
+    - "Patient {NAMA}, NRIC {MY_NRIC}, presented with fever. Next of kin reachable at {MY_PHONE}."
+    - "MRN {NEG}, follow-up on {TARIKH} at {BANDAR} clinic."
+  # --- P1: new styles + hard negatives ---
+  whatsapp_group:
+    - "[{TARIKH}] Admin: parents who haven't sent the child's IC, pm me. Format: {NAMA} - {MY_NRIC}"
+    - "Class fees go to account {NEG_AKAUN}, thanks everyone"
+    - "Found a wallet near {BANDAR} station, IC belongs to {NAMA}. Owner pls text {MY_PHONE}"
+    - "the number {NEG_TEL} seems incomplete, try {MY_PHONE} instead"
+    - "Courier tracking {NEG_INVOIS}, ETA tomorrow"
+  gov_form:
+    - "SECTION A: APPLICANT DETAILS\n1. Full Name (as per MyKad): {NAMA}\n2. New IC No.: {MY_NRIC}\n3. Mobile No.: {MY_PHONE}"
+    - "Bank Account No. (for disbursement): {NEG_AKAUN}\nBank: Public Bank\nFile Ref: {NEG_TARIKH}"
+    - "Declaration: I, {NAMA} (NRIC {MY_NRIC}), declare the above information to be true. Date: {TARIKH}"
+    - "Employer: {SYARIKAT}\nCompany Registration No.: {MY_SSM_LAMA}\nOffice Tel: {MY_PHONE}"
+  hr_email:
+    - "Hi Payroll,\nPlease update the salary account for {NAMA} (IC {MY_NRIC}) to CIMB {NEG_AKAUN} effective {TARIKH}."
+    - "Candidate {NAMA}, phone {MY_PHONE}. Emergency contact {NAMA}, phone {MY_PHONE}."
+    - "Re: Offboarding\nEmployee ID: {NEG_INVOIS}\nLast day: {TARIKH}\nPlease return laptop asset tag {NEG_KOD}."
+  receipt:
+    - "{SYARIKAT} (Co. No. {MY_SSM})\nTAX INVOICE {NEG_INVOIS}\nDate/Time: {NEG_TARIKH}\nTotal: RM 89.00\nTel: {MY_PHONE}"
+    - "Payment successful\nTransaction ID: {NEG_TARIKH}\nTo account: {NEG_AKAUN}"
+    - "SKU {NEG_KOD} x1  RM 19.90\nSKU {NEG_KOD} x3  RM 7.50"
+  text_table:
+    - "| No | Name | NRIC | Phone |\n| 1 | {NAMA} | {MY_NRIC} | {MY_PHONE} |\n| 2 | {NAMA} | {MY_NRIC} | {MY_PHONE} |"
+    - "Acct No           Amount\n{NEG_AKAUN}    RM 1,200\n{NEG_AKAUN}    RM 640"
+    - "Company\tReg No\tDirector\tDirector IC\n{SYARIKAT}\t{MY_SSM}\t{NAMA}\t{MY_NRIC}"
+  ocr_noisy:
+    - "ID CARD N0: {MY_NRIC}  |  M0BILE: {MY_PHONE}"
+    - "CERT1FICATE OF INCORP0RATION\n{SYARIKAT}\nCompany No. {MY_SSM_LAMA}"
+    - "lNVOICE  {NEG_INVOIS}   DATE  {TARIKH}   PART  {NEG_KOD}"

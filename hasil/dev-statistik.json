@@ -1,0 +1,599 @@
+{
+  "banding": {
+    "llm:anthropic/claude-haiku-5-5": {
+      "semua|*": {
+        "atas": -0.0094,
+        "bawah": -0.0465,
+        "delta": -0.0272,
+        "n_sah": 1000,
+        "p_bootstrap": 1.0,
+        "p_holm_bootstrap": 1.0,
+        "p_holm_rawak": 0.995,
+        "p_rawak": 0.995
+      },
+      "semua|MY_NRIC": {
+        "atas": -0.0716,
+        "bawah": -0.1376,
+        "delta": -0.1035,
+        "n_sah": 1000,
+        "p_bootstrap": 1.0,
+        "p_holm_bootstrap": 1.0,
+        "p_holm_rawak": 1.0,
+        "p_rawak": 1.0
+      },
+      "semua|MY_PHONE": {
+        "atas": 0.085,
+        "bawah": 0.0458,
+        "delta": 0.0643,
+        "n_sah": 1000,
+        "p_bootstrap": 0.0,
+        "p_holm_bootstrap": 0.0,
+        "p_holm_rawak": 0.006,
+        "p_rawak": 0.001
+      },
+      "semua|MY_SSM": {
+        "atas": -0.0109,
+        "bawah": -0.0948,
+        "delta": -0.0517,
+        "n_sah": 1000,
+        "p_bootstrap": 1.0,
+        "p_holm_bootstrap": 1.0,
+        "p_holm_rawak": 0.991,
+        "p_rawak": 0.991
+      }
+    },
+    "llm:anthropic/claude-sonnet-5-5": {
+      "semua|*": {
+        "atas": 0.0268,
+        "bawah": -0.0086,
+        "delta": 0.0095,
+        "n_sah": 1000,
+        "p_bootstrap": 0.145,
+        "p_holm_bootstrap": 0.29,
+        "p_holm_rawak": 0.2618,
+        "p_rawak": 0.1309
+      },
+      "semua|MY_NRIC": {
+        "atas": -0.0678,
+        "bawah": -0.1315,
+        "delta": -0.0992,
+        "n_sah": 1000,
+        "p_bootstrap": 1.0,
+        "p_holm_bootstrap": 1.0,
+        "p_holm_rawak": 1.0,
+        "p_rawak": 1.0
+      },
+      "semua|MY_PHONE": {
+        "atas": 0.1036,
+        "bawah": 0.0631,
+        "delta": 0.0824,
+        "n_sah": 1000,
+        "p_bootstrap": 0.0,
+        "p_holm_bootstrap": 0.0,
+        "p_holm_rawak": 0.006,
+        "p_rawak": 0.001
+      },
+      "semua|MY_SSM": {
+        "atas": 0.0791,
+        "bawah": -0.0025,
+        "delta": 0.0395,
+        "n_sah": 1000,
+        "p_bootstrap": 0.027,
+        "p_holm_bootstrap": 0.054,
+        "p_holm_rawak": 0.036,
+        "p_rawak": 0.018
+      }
+    },
+    "llm:cf/@cf/meta/llama-3.3-70b-instruct-fp8-fast": {
+      "semua|*": {
+        "atas": 0.2028,
+        "bawah": 0.1591,
+        "delta": 0.1817,
+        "n_sah": 1000,
+        "p_bootstrap": 0.0,
+        "p_holm_bootstrap": 0.0,
+        "p_holm_rawak": 0.006,
+        "p_rawak": 0.001
+      },
+      "semua|MY_NRIC": {
+        "atas": 0.2039,
+        "bawah": 0.1324,
+        "delta": 0.1679,
+        "n_sah": 1000,
+        "p_bootstrap": 0.0,
+        "p_holm_bootstrap": 0.0,
+        "p_holm_rawak": 0.006,
+        "p_rawak": 0.001
+      },
+      "semua|MY_PHONE": {
+        "atas": 0.1818,
+        "bawah": 0.1266,
+        "delta": 0.1527,
+        "n_sah": 1000,
+        "p_bootstrap": 0.0,
+        "p_holm_bootstrap": 0.0,
+        "p_holm_rawak": 0.006,
+        "p_rawak": 0.001
+      },
+      "semua|MY_SSM": {
+        "atas": 0.2553,
+        "bawah": 0.1777,
+        "delta": 0.2178,
+        "n_sah": 1000,
+        "p_bootstrap": 0.0,
+        "p_holm_bootstrap": 0.0,
+        "p_holm_rawak": 0.006,
+        "p_rawak": 0.001
+      }
+    },
+    "llm:cf/@cf/mistralai/mistral-small-3.1-24b-instruct": {
+      "semua|*": {
+        "atas": 0.0583,
+        "bawah": 0.0165,
+        "delta": 0.0364,
+        "eksplorasi": true,
+        "n_sah": 1000,
+        "p_bootstrap": 0.001,
+        "p_holm_bootstrap": null,
+        "p_holm_rawak": null,
+        "p_rawak": 0.001
+      },
+      "semua|MY_NRIC": {
+        "atas": -0.0069,
+        "bawah": -0.0756,
+        "delta": -0.0412,
+        "eksplorasi": true,
+        "n_sah": 1000,
+        "p_bootstrap": 1.0,
+        "p_holm_bootstrap": null,
+        "p_holm_rawak": null,
+        "p_rawak": 0.994
+      },
+      "semua|MY_PHONE": {
+        "atas": 0.1486,
+        "bawah": 0.1,
+        "delta": 0.1224,
+        "eksplorasi": true,
+        "n_sah": 1000,
+        "p_bootstrap": 0.0,
+        "p_holm_bootstrap": null,
+        "p_holm_rawak": null,
+        "p_rawak": 0.001
+      },
+      "semua|MY_SSM": {
+        "atas": 0.1172,
+        "bawah": -0.009,
+        "delta": 0.0519,
+        "eksplorasi": true,
+        "n_sah": 1000,
+        "p_bootstrap": 0.053,
+        "p_holm_bootstrap": null,
+        "p_holm_rawak": null,
+        "p_rawak": 0.047
+      }
+    },
+    "llm:rv/deepseek-ai/DeepSeek-V4.1-Flash": {
+      "semua|*": {
+        "atas": 0.1897,
+        "bawah": 0.1467,
+        "delta": 0.1684,
+        "n_sah": 1000,
+        "p_bootstrap": 0.0,
+        "p_holm_bootstrap": 0.0,
+        "p_holm_rawak": 0.006,
+        "p_rawak": 0.001
+      },
+      "semua|MY_NRIC": {
+        "atas": 0.1889,
+        "bawah": 0.1255,
+        "delta": 0.1571,
+        "n_sah": 1000,
+        "p_bootstrap": 0.0,
+        "p_holm_bootstrap": 0.0,
+        "p_holm_rawak": 0.006,
+        "p_rawak": 0.001
+      },
+      "semua|MY_PHONE": {
+        "atas": 0.194,
+        "bawah": 0.1374,
+        "delta": 0.1641,
+        "n_sah": 1000,
+        "p_bootstrap": 0.0,
+        "p_holm_bootstrap": 0.0,
+        "p_holm_rawak": 0.006,
+        "p_rawak": 0.001
+      },
+      "semua|MY_SSM": {
+        "atas": 0.2185,
+        "bawah": 0.139,
+        "delta": 0.1784,
+        "n_sah": 1000,
+        "p_bootstrap": 0.0,
+        "p_holm_bootstrap": 0.0,
+        "p_holm_rawak": 0.006,
+        "p_rawak": 0.001
+      }
+    },
+    "llm:rv/zai-org/GLM-5.3-Flash": {
+      "semua|*": {
+        "atas": 0.0169,
+        "bawah": -0.0197,
+        "delta": -0.0012,
+        "eksplorasi": true,
+        "n_sah": 1000,
+        "p_bootstrap": 1.0,
+        "p_holm_bootstrap": null,
+        "p_holm_rawak": null,
+        "p_rawak": 0.5534
+      },
+      "semua|MY_NRIC": {
+        "atas": -0.0155,
+        "bawah": -0.0834,
+        "delta": -0.0496,
+        "eksplorasi": true,
+        "n_sah": 1000,
+        "p_bootstrap": 1.0,
+        "p_holm_bootstrap": null,
+        "p_holm_rawak": null,
+        "p_rawak": 0.998
+      },
+      "semua|MY_PHONE": {
+        "atas": 0.1252,
+        "bawah": 0.0803,
+        "delta": 0.1012,
+        "eksplorasi": true,
+        "n_sah": 1000,
+        "p_bootstrap": 0.0,
+        "p_holm_bootstrap": null,
+        "p_holm_rawak": null,
+        "p_rawak": 0.001
+      },
+      "semua|MY_SSM": {
+        "atas": -0.0373,
+        "bawah": -0.1181,
+        "delta": -0.0756,
+        "eksplorasi": true,
+        "n_sah": 1000,
+        "p_bootstrap": 1.0,
+        "p_holm_bootstrap": null,
+        "p_holm_rawak": null,
+        "p_rawak": 1.0
+      }
+    },
+    "pii-guard": {
+      "semua|*": {
+        "atas": 0.1908,
+        "bawah": 0.1415,
+        "delta": 0.1668,
+        "n_sah": 1000,
+        "p_bootstrap": 0.0,
+        "p_holm_bootstrap": 0.0,
+        "p_holm_rawak": 0.006,
+        "p_rawak": 0.001
+      },
+      "semua|MY_NRIC": {
+        "atas": 0.1936,
+        "bawah": 0.1161,
+        "delta": 0.1533,
+        "n_sah": 1000,
+        "p_bootstrap": 0.0,
+        "p_holm_bootstrap": 0.0,
+        "p_holm_rawak": 0.006,
+        "p_rawak": 0.001
+      },
+      "semua|MY_PHONE": {
+        "atas": 0.0404,
+        "bawah": 0.0086,
+        "delta": 0.0228,
+        "n_sah": 1000,
+        "p_bootstrap": 0.007,
+        "p_holm_bootstrap": 0.007,
+        "p_holm_rawak": 0.007,
+        "p_rawak": 0.007
+      },
+      "semua|MY_SSM": {
+        "atas": 0.8403,
+        "bawah": 0.7667,
+        "delta": 0.8054,
+        "n_sah": 1000,
+        "p_bootstrap": 0.0,
+        "p_holm_bootstrap": 0.0,
+        "p_holm_rawak": 0.006,
+        "p_rawak": 0.001
+      }
+    },
+    "presidio-asal": {
+      "semua|*": {
+        "atas": 0.4813,
+        "bawah": 0.4299,
+        "delta": 0.4568,
+        "n_sah": 1000,
+        "p_bootstrap": 0.0,
+        "p_holm_bootstrap": 0.0,
+        "p_holm_rawak": 0.006,
+        "p_rawak": 0.001
+      },
+      "semua|MY_NRIC": {
+        "atas": 0.867,
+        "bawah": 0.8,
+        "delta": 0.8328,
+        "n_sah": 1000,
+        "p_bootstrap": 0.0,
+        "p_holm_bootstrap": 0.0,
+        "p_holm_rawak": 0.006,
+        "p_rawak": 0.001
+      },
+      "semua|MY_PHONE": {
+        "atas": 0.4095,
+        "bawah": 0.3404,
+        "delta": 0.3753,
+        "n_sah": 1000,
+        "p_bootstrap": 0.0,
+        "p_holm_bootstrap": 0.0,
+        "p_holm_rawak": 0.006,
+        "p_rawak": 0.001
+      },
+      "semua|MY_SSM": {
+        "atas": 0.8403,
+        "bawah": 0.7667,
+        "delta": 0.8054,
+        "n_sah": 1000,
+        "p_bootstrap": 0.0,
+        "p_holm_bootstrap": 0.0,
+        "p_holm_rawak": 0.006,
+        "p_rawak": 0.001
+      }
+    }
+  },
+  "config": {
+    "aras": 0.95,
+    "benih": 2026,
+    "kaedah": "holm",
+    "ulangan": 1000
+  },
+  "dokumen": 1000,
+  "eksplorasi": [
+    "llm:cf/@cf/mistralai/mistral-small-3.1-24b-instruct",
+    "llm:rv/zai-org/GLM-5.3-Flash"
+  ],
+  "kunci_utama": "semua|*",
+  "rujukan": "mypii",
+  "sistem": {
+    "llm:anthropic/claude-haiku-5-5": {
+      "semua|*": {
+        "atas": 0.9312,
+        "bawah": 0.8979,
+        "f1": 0.9149,
+        "n_sah": 1000
+      },
+      "semua|MY_NRIC": {
+        "atas": 0.9553,
+        "bawah": 0.9148,
+        "f1": 0.9363,
+        "n_sah": 1000
+      },
+      "semua|MY_PHONE": {
+        "atas": 0.9542,
+        "bawah": 0.915,
+        "f1": 0.9357,
+        "n_sah": 1000
+      },
+      "semua|MY_SSM": {
+        "atas": 0.8913,
+        "bawah": 0.8206,
+        "f1": 0.8571,
+        "n_sah": 1000
+      }
+    },
+    "llm:anthropic/claude-sonnet-5-5": {
+      "semua|*": {
+        "atas": 0.8966,
+        "bawah": 0.8578,
+        "f1": 0.8782,
+        "n_sah": 1000
+      },
+      "semua|MY_NRIC": {
+        "atas": 0.9525,
+        "bawah": 0.9097,
+        "f1": 0.932,
+        "n_sah": 1000
+      },
+      "semua|MY_PHONE": {
+        "atas": 0.9369,
+        "bawah": 0.8964,
+        "f1": 0.9176,
+        "n_sah": 1000
+      },
+      "semua|MY_SSM": {
+        "atas": 0.8031,
+        "bawah": 0.7249,
+        "f1": 0.7659,
+        "n_sah": 1000
+      }
+    },
+    "llm:cf/@cf/meta/llama-3.3-70b-instruct-fp8-fast": {
+      "semua|*": {
+        "atas": 0.7335,
+        "bawah": 0.6777,
+        "f1": 0.706,
+        "n_sah": 1000
+      },
+      "semua|MY_NRIC": {
+        "atas": 0.7073,
+        "bawah": 0.6219,
+        "f1": 0.6649,
+        "n_sah": 1000
+      },
+      "semua|MY_PHONE": {
+        "atas": 0.8734,
+        "bawah": 0.8182,
+        "f1": 0.8473,
+        "n_sah": 1000
+      },
+      "semua|MY_SSM": {
+        "atas": 0.6309,
+        "bawah": 0.5439,
+        "f1": 0.5876,
+        "n_sah": 1000
+      }
+    },
+    "llm:cf/@cf/mistralai/mistral-small-3.1-24b-instruct": {
+      "semua|*": {
+        "atas": 0.871,
+        "bawah": 0.829,
+        "f1": 0.8513,
+        "n_sah": 1000
+      },
+      "semua|MY_NRIC": {
+        "atas": 0.9021,
+        "bawah": 0.8454,
+        "f1": 0.874,
+        "n_sah": 1000
+      },
+      "semua|MY_PHONE": {
+        "atas": 0.9,
+        "bawah": 0.8514,
+        "f1": 0.8776,
+        "n_sah": 1000
+      },
+      "semua|MY_SSM": {
+        "atas": 0.797,
+        "bawah": 0.6984,
+        "f1": 0.7535,
+        "n_sah": 1000
+      }
+    },
+    "llm:rv/deepseek-ai/DeepSeek-V4.1-Flash": {
+      "semua|*": {
+        "atas": 0.7483,
+        "bawah": 0.6899,
+        "f1": 0.7193,
+        "n_sah": 1000
+      },
+      "semua|MY_NRIC": {
+        "atas": 0.7164,
+        "bawah": 0.6319,
+        "f1": 0.6757,
+        "n_sah": 1000
+      },
+      "semua|MY_PHONE": {
+        "atas": 0.8626,
+        "bawah": 0.806,
+        "f1": 0.8359,
+        "n_sah": 1000
+      },
+      "semua|MY_SSM": {
+        "atas": 0.6733,
+        "bawah": 0.5813,
+        "f1": 0.627,
+        "n_sah": 1000
+      }
+    },
+    "llm:rv/zai-org/GLM-5.3-Flash": {
+      "semua|*": {
+        "atas": 0.9059,
+        "bawah": 0.8699,
+        "f1": 0.8889,
+        "n_sah": 1000
+      },
+      "semua|MY_NRIC": {
+        "atas": 0.9082,
+        "bawah": 0.8555,
+        "f1": 0.8824,
+        "n_sah": 1000
+      },
+      "semua|MY_PHONE": {
+        "atas": 0.9197,
+        "bawah": 0.8748,
+        "f1": 0.8988,
+        "n_sah": 1000
+      },
+      "semua|MY_SSM": {
+        "atas": 0.9102,
+        "bawah": 0.8454,
+        "f1": 0.881,
+        "n_sah": 1000
+      }
+    },
+    "mypii": {
+      "semua|*": {
+        "atas": 0.9037,
+        "bawah": 0.8701,
+        "f1": 0.8877,
+        "n_sah": 1000
+      },
+      "semua|MY_NRIC": {
+        "atas": 0.867,
+        "bawah": 0.8,
+        "f1": 0.8328,
+        "n_sah": 1000
+      },
+      "semua|MY_PHONE": {
+        "atas": 1.0,
+        "bawah": 1.0,
+        "f1": 1.0,
+        "n_sah": 1000
+      },
+      "semua|MY_SSM": {
+        "atas": 0.8403,
+        "bawah": 0.7667,
+        "f1": 0.8054,
+        "n_sah": 1000
+      }
+    },
+    "pii-guard": {
+      "semua|*": {
+        "atas": 0.7434,
+        "bawah": 0.6977,
+        "f1": 0.7209,
+        "n_sah": 1000
+      },
+      "semua|MY_NRIC": {
+        "atas": 0.7193,
+        "bawah": 0.6391,
+        "f1": 0.6795,
+        "n_sah": 1000
+      },
+      "semua|MY_PHONE": {
+        "atas": 0.9914,
+        "bawah": 0.9596,
+        "f1": 0.9772,
+        "n_sah": 1000
+      },
+      "semua|MY_SSM": {
+        "atas": 0.0,
+        "bawah": 0.0,
+        "f1": 0.0,
+        "n_sah": 1000
+      }
+    },
+    "presidio-asal": {
+      "semua|*": {
+        "atas": 0.4554,
+        "bawah": 0.4078,
+        "f1": 0.4309,
+        "n_sah": 1000
+      },
+      "semua|MY_NRIC": {
+        "atas": 0.0,
+        "bawah": 0.0,
+        "f1": 0.0,
+        "n_sah": 1000
+      },
+      "semua|MY_PHONE": {
+        "atas": 0.6596,
+        "bawah": 0.5905,
+        "f1": 0.6247,
+        "n_sah": 1000
+      },
+      "semua|MY_SSM": {
+        "atas": 0.0,
+        "bawah": 0.0,
+        "f1": 0.0,
+        "n_sah": 1000
+      }
+    }
+  },
+  "split": "dev",
+  "unit": "dokumen"
+}

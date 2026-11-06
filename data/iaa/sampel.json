@@ -1,0 +1,2121 @@
+{
+ "benih": 20261031,
+ "setiap_strata": 25,
+ "n": 300,
+ "kiraan": {
+  "dev/en/berspan": 25,
+  "dev/en/negatif": 25,
+  "dev/manglish/berspan": 25,
+  "dev/manglish/negatif": 25,
+  "dev/ms/berspan": 25,
+  "dev/ms/negatif": 25,
+  "ujian2/en/berspan": 25,
+  "ujian2/en/negatif": 25,
+  "ujian2/manglish/berspan": 25,
+  "ujian2/manglish/negatif": 25,
+  "ujian2/ms/berspan": 25,
+  "ujian2/ms/negatif": 25
+ },
+ "dokumen": [
+  {
+   "urutan": 1,
+   "id": "mypii-u2-00858",
+   "split": "ujian2",
+   "bahasa": "en",
+   "berspan": true
+  },
+  {
+   "urutan": 2,
+   "id": "mypii-u2-00356",
+   "split": "ujian2",
+   "bahasa": "en",
+   "berspan": true
+  },
+  {
+   "urutan": 3,
+   "id": "mypii-01347",
+   "split": "dev",
+   "bahasa": "ms",
+   "berspan": false
+  },
+  {
+   "urutan": 4,
+   "id": "mypii-02808",
+   "split": "dev",
+   "bahasa": "ms",
+   "berspan": false
+  },
+  {
+   "urutan": 5,
+   "id": "mypii-01693",
+   "split": "dev",
+   "bahasa": "en",
+   "berspan": true
+  },
+  {
+   "urutan": 6,
+   "id": "mypii-00926",
+   "split": "dev",
+   "bahasa": "en",
+   "berspan": true
+  },
+  {
+   "urutan": 7,
+   "id": "mypii-00612",
+   "split": "dev",
+   "bahasa": "en",
+   "berspan": true
+  },
+  {
+   "urutan": 8,
+   "id": "mypii-u2-00388",
+   "split": "ujian2",
+   "bahasa": "en",
+   "berspan": true
+  },
+  {
+   "urutan": 9,
+   "id": "mypii-u2-00450",
+   "split": "ujian2",
+   "bahasa": "en",
+   "berspan": true
+  },
+  {
+   "urutan": 10,
+   "id": "mypii-03638",
+   "split": "dev",
+   "bahasa": "en",
+   "berspan": false
+  },
+  {
+   "urutan": 11,
+   "id": "mypii-01173",
+   "split": "dev",
+   "bahasa": "ms",
+   "berspan": true
+  },
+  {
+   "urutan": 12,
+   "id": "mypii-u2-00105",
+   "split": "ujian2",
+   "bahasa": "en",
+   "berspan": true
+  },
+  {
+   "urutan": 13,
+   "id": "mypii-00858",
+   "split": "dev",
+   "bahasa": "en",
+   "berspan": true
+  },
+  {
+   "urutan": 14,
+   "id": "mypii-u2-00411",
+   "split": "ujian2",
+   "bahasa": "en",
+   "berspan": true
+  },
+  {
+   "urutan": 15,
+   "id": "mypii-00956",
+   "split": "dev",
+   "bahasa": "manglish",
+   "berspan": true
+  },
+  {
+   "urutan": 16,
+   "id": "mypii-01818",
+   "split": "dev",
+   "bahasa": "ms",
+   "berspan": false
+  },
+  {
+   "urutan": 17,
+   "id": "mypii-03508",
+   "split": "dev",
+   "bahasa": "manglish",
+   "berspan": true
+  },
+  {
+   "urutan": 18,
+   "id": "mypii-u2-00569",
+   "split": "ujian2",
+   "bahasa": "en",
+   "berspan": false
+  },
+  {
+   "urutan": 19,
+   "id": "mypii-u2-00840",
+   "split": "ujian2",
+   "bahasa": "manglish",
+   "berspan": false
+  },
+  {
+   "urutan": 20,
+   "id": "mypii-03320",
+   "split": "dev",
+   "bahasa": "manglish",
+   "berspan": false
+  },
+  {
+   "urutan": 21,
+   "id": "mypii-03556",
+   "split": "dev",
+   "bahasa": "en",
+   "berspan": true
+  },
+  {
+   "urutan": 22,
+   "id": "mypii-u2-00075",
+   "split": "ujian2",
+   "bahasa": "ms",
+   "berspan": true
+  },
+  {
+   "urutan": 23,
+   "id": "mypii-u2-00757",
+   "split": "ujian2",
+   "bahasa": "manglish",
+   "berspan": true
+  },
+  {
+   "urutan": 24,
+   "id": "mypii-01720",
+   "split": "dev",
+   "bahasa": "en",
+   "berspan": true
+  },
+  {
+   "urutan": 25,
+   "id": "mypii-01736",
+   "split": "dev",
+   "bahasa": "manglish",
+   "berspan": true
+  },
+  {
+   "urutan": 26,
+   "id": "mypii-03805",
+   "split": "dev",
+   "bahasa": "en",
+   "berspan": false
+  },
+  {
+   "urutan": 27,
+   "id": "mypii-01206",
+   "split": "dev",
+   "bahasa": "ms",
+   "berspan": true
+  },
+  {
+   "urutan": 28,
+   "id": "mypii-u2-00835",
+   "split": "ujian2",
+   "bahasa": "manglish",
+   "berspan": true
+  },
+  {
+   "urutan": 29,
+   "id": "mypii-03361",
+   "split": "dev",
+   "bahasa": "ms",
+   "berspan": true
+  },
+  {
+   "urutan": 30,
+   "id": "mypii-01461",
+   "split": "dev",
+   "bahasa": "en",
+   "berspan": true
+  },
+  {
+   "urutan": 31,
+   "id": "mypii-u2-00231",
+   "split": "ujian2",
+   "bahasa": "en",
+   "berspan": true
+  },
+  {
+   "urutan": 32,
+   "id": "mypii-00937",
+   "split": "dev",
+   "bahasa": "en",
+   "berspan": false
+  },
+  {
+   "urutan": 33,
+   "id": "mypii-u2-00599",
+   "split": "ujian2",
+   "bahasa": "ms",
+   "berspan": true
+  },
+  {
+   "urutan": 34,
+   "id": "mypii-u2-00437",
+   "split": "ujian2",
+   "bahasa": "manglish",
+   "berspan": false
+  },
+  {
+   "urutan": 35,
+   "id": "mypii-u2-00636",
+   "split": "ujian2",
+   "bahasa": "ms",
+   "berspan": false
+  },
+  {
+   "urutan": 36,
+   "id": "mypii-00558",
+   "split": "dev",
+   "bahasa": "manglish",
+   "berspan": false
+  },
+  {
+   "urutan": 37,
+   "id": "mypii-03806",
+   "split": "dev",
+   "bahasa": "ms",
+   "berspan": true
+  },
+  {
+   "urutan": 38,
+   "id": "mypii-u2-00290",
+   "split": "ujian2",
+   "bahasa": "ms",
+   "berspan": true
+  },
+  {
+   "urutan": 39,
+   "id": "mypii-02038",
+   "split": "dev",
+   "bahasa": "manglish",
+   "berspan": true
+  },
+  {
+   "urutan": 40,
+   "id": "mypii-03360",
+   "split": "dev",
+   "bahasa": "en",
+   "berspan": false
+  },
+  {
+   "urutan": 41,
+   "id": "mypii-01308",
+   "split": "dev",
+   "bahasa": "ms",
+   "berspan": false
+  },
+  {
+   "urutan": 42,
+   "id": "mypii-u2-00704",
+   "split": "ujian2",
+   "bahasa": "ms",
+   "berspan": true
+  },
+  {
+   "urutan": 43,
+   "id": "mypii-u2-00235",
+   "split": "ujian2",
+   "bahasa": "en",
+   "berspan": false
+  },
+  {
+   "urutan": 44,
+   "id": "mypii-u2-00295",
+   "split": "ujian2",
+   "bahasa": "ms",
+   "berspan": false
+  },
+  {
+   "urutan": 45,
+   "id": "mypii-03136",
+   "split": "dev",
+   "bahasa": "ms",
+   "berspan": false
+  },
+  {
+   "urutan": 46,
+   "id": "mypii-u2-00586",
+   "split": "ujian2",
+   "bahasa": "manglish",
+   "berspan": false
+  },
+  {
+   "urutan": 47,
+   "id": "mypii-03945",
+   "split": "dev",
+   "bahasa": "ms",
+   "berspan": true
+  },
+  {
+   "urutan": 48,
+   "id": "mypii-00009",
+   "split": "dev",
+   "bahasa": "en",
+   "berspan": false
+  },
+  {
+   "urutan": 49,
+   "id": "mypii-u2-00736",
+   "split": "ujian2",
+   "bahasa": "ms",
+   "berspan": false
+  },
+  {
+   "urutan": 50,
+   "id": "mypii-01115",
+   "split": "dev",
+   "bahasa": "en",
+   "berspan": false
+  },
+  {
+   "urutan": 51,
+   "id": "mypii-u2-00600",
+   "split": "ujian2",
+   "bahasa": "en",
+   "berspan": false
+  },
+  {
+   "urutan": 52,
+   "id": "mypii-03057",
+   "split": "dev",
+   "bahasa": "ms",
+   "berspan": true
+  },
+  {
+   "urutan": 53,
+   "id": "mypii-u2-00157",
+   "split": "ujian2",
+   "bahasa": "ms",
+   "berspan": true
+  },
+  {
+   "urutan": 54,
+   "id": "mypii-u2-00983",
+   "split": "ujian2",
+   "bahasa": "en",
+   "berspan": false
+  },
+  {
+   "urutan": 55,
+   "id": "mypii-u2-00697",
+   "split": "ujian2",
+   "bahasa": "ms",
+   "berspan": true
+  },
+  {
+   "urutan": 56,
+   "id": "mypii-02264",
+   "split": "dev",
+   "bahasa": "ms",
+   "berspan": false
+  },
+  {
+   "urutan": 57,
+   "id": "mypii-00986",
+   "split": "dev",
+   "bahasa": "ms",
+   "berspan": false
+  },
+  {
+   "urutan": 58,
+   "id": "mypii-u2-00419",
+   "split": "ujian2",
+   "bahasa": "ms",
+   "berspan": true
+  },
+  {
+   "urutan": 59,
+   "id": "mypii-u2-00882",
+   "split": "ujian2",
+   "bahasa": "ms",
+   "berspan": true
+  },
+  {
+   "urutan": 60,
+   "id": "mypii-00312",
+   "split": "dev",
+   "bahasa": "en",
+   "berspan": false
+  },
+  {
+   "urutan": 61,
+   "id": "mypii-01723",
+   "split": "dev",
+   "bahasa": "manglish",
+   "berspan": false
+  },
+  {
+   "urutan": 62,
+   "id": "mypii-u2-00679",
+   "split": "ujian2",
+   "bahasa": "ms",
+   "berspan": false
+  },
+  {
+   "urutan": 63,
+   "id": "mypii-u2-00256",
+   "split": "ujian2",
+   "bahasa": "en",
+   "berspan": true
+  },
+  {
+   "urutan": 64,
+   "id": "mypii-u2-00965",
+   "split": "ujian2",
+   "bahasa": "manglish",
+   "berspan": false
+  },
+  {
+   "urutan": 65,
+   "id": "mypii-00953",
+   "split": "dev",
+   "bahasa": "ms",
+   "berspan": true
+  },
+  {
+   "urutan": 66,
+   "id": "mypii-02753",
+   "split": "dev",
+   "bahasa": "en",
+   "berspan": true
+  },
+  {
+   "urutan": 67,
+   "id": "mypii-00633",
+   "split": "dev",
+   "bahasa": "ms",
+   "berspan": false
+  },
+  {
+   "urutan": 68,
+   "id": "mypii-u2-00139",
+   "split": "ujian2",
+   "bahasa": "ms",
+   "berspan": true
+  },
+  {
+   "urutan": 69,
+   "id": "mypii-u2-00254",
+   "split": "ujian2",
+   "bahasa": "en",
+   "berspan": false
+  },
+  {
+   "urutan": 70,
+   "id": "mypii-u2-00206",
+   "split": "ujian2",
+   "bahasa": "ms",
+   "berspan": false
+  },
+  {
+   "urutan": 71,
+   "id": "mypii-02792",
+   "split": "dev",
+   "bahasa": "en",
+   "berspan": false
+  },
+  {
+   "urutan": 72,
+   "id": "mypii-u2-00593",
+   "split": "ujian2",
+   "bahasa": "en",
+   "berspan": true
+  },
+  {
+   "urutan": 73,
+   "id": "mypii-u2-00523",
+   "split": "ujian2",
+   "bahasa": "en",
+   "berspan": false
+  },
+  {
+   "urutan": 74,
+   "id": "mypii-u2-00271",
+   "split": "ujian2",
+   "bahasa": "ms",
+   "berspan": true
+  },
+  {
+   "urutan": 75,
+   "id": "mypii-u2-00476",
+   "split": "ujian2",
+   "bahasa": "manglish",
+   "berspan": true
+  },
+  {
+   "urutan": 76,
+   "id": "mypii-03795",
+   "split": "dev",
+   "bahasa": "en",
+   "berspan": false
+  },
+  {
+   "urutan": 77,
+   "id": "mypii-u2-00040",
+   "split": "ujian2",
+   "bahasa": "manglish",
+   "berspan": true
+  },
+  {
+   "urutan": 78,
+   "id": "mypii-00680",
+   "split": "dev",
+   "bahasa": "en",
+   "berspan": true
+  },
+  {
+   "urutan": 79,
+   "id": "mypii-00448",
+   "split": "dev",
+   "bahasa": "en",
+   "berspan": false
+  },
+  {
+   "urutan": 80,
+   "id": "mypii-u2-00869",
+   "split": "ujian2",
+   "bahasa": "manglish",
+   "berspan": false
+  },
+  {
+   "urutan": 81,
+   "id": "mypii-00982",
+   "split": "dev",
+   "bahasa": "en",
+   "berspan": true
+  },
+  {
+   "urutan": 82,
+   "id": "mypii-u2-00550",
+   "split": "ujian2",
+   "bahasa": "manglish",
+   "berspan": true
+  },
+  {
+   "urutan": 83,
+   "id": "mypii-u2-00541",
+   "split": "ujian2",
+   "bahasa": "manglish",
+   "berspan": true
+  },
+  {
+   "urutan": 84,
+   "id": "mypii-03526",
+   "split": "dev",
+   "bahasa": "en",
+   "berspan": false
+  },
+  {
+   "urutan": 85,
+   "id": "mypii-u2-00844",
+   "split": "ujian2",
+   "bahasa": "en",
+   "berspan": true
+  },
+  {
+   "urutan": 86,
+   "id": "mypii-01785",
+   "split": "dev",
+   "bahasa": "manglish",
+   "berspan": false
+  },
+  {
+   "urutan": 87,
+   "id": "mypii-u2-00045",
+   "split": "ujian2",
+   "bahasa": "manglish",
+   "berspan": true
+  },
+  {
+   "urutan": 88,
+   "id": "mypii-03071",
+   "split": "dev",
+   "bahasa": "en",
+   "berspan": false
+  },
+  {
+   "urutan": 89,
+   "id": "mypii-u2-00413",
+   "split": "ujian2",
+   "bahasa": "manglish",
+   "berspan": false
+  },
+  {
+   "urutan": 90,
+   "id": "mypii-02077",
+   "split": "dev",
+   "bahasa": "manglish",
+   "berspan": false
+  },
+  {
+   "urutan": 91,
+   "id": "mypii-u2-00221",
+   "split": "ujian2",
+   "bahasa": "manglish",
+   "berspan": false
+  },
+  {
+   "urutan": 92,
+   "id": "mypii-01820",
+   "split": "dev",
+   "bahasa": "manglish",
+   "berspan": false
+  },
+  {
+   "urutan": 93,
+   "id": "mypii-u2-00210",
+   "split": "ujian2",
+   "bahasa": "en",
+   "berspan": true
+  },
+  {
+   "urutan": 94,
+   "id": "mypii-02004",
+   "split": "dev",
+   "bahasa": "en",
+   "berspan": true
+  },
+  {
+   "urutan": 95,
+   "id": "mypii-02208",
+   "split": "dev",
+   "bahasa": "manglish",
+   "berspan": false
+  },
+  {
+   "urutan": 96,
+   "id": "mypii-u2-00662",
+   "split": "ujian2",
+   "bahasa": "ms",
+   "berspan": true
+  },
+  {
+   "urutan": 97,
+   "id": "mypii-u2-00114",
+   "split": "ujian2",
+   "bahasa": "manglish",
+   "berspan": false
+  },
+  {
+   "urutan": 98,
+   "id": "mypii-03212",
+   "split": "dev",
+   "bahasa": "en",
+   "berspan": false
+  },
+  {
+   "urutan": 99,
+   "id": "mypii-u2-00537",
+   "split": "ujian2",
+   "bahasa": "manglish",
+   "berspan": false
+  },
+  {
+   "urutan": 100,
+   "id": "mypii-01551",
+   "split": "dev",
+   "bahasa": "ms",
+   "berspan": true
+  },
+  {
+   "urutan": 101,
+   "id": "mypii-02940",
+   "split": "dev",
+   "bahasa": "manglish",
+   "berspan": true
+  },
+  {
+   "urutan": 102,
+   "id": "mypii-u2-00700",
+   "split": "ujian2",
+   "bahasa": "en",
+   "berspan": false
+  },
+  {
+   "urutan": 103,
+   "id": "mypii-01969",
+   "split": "dev",
+   "bahasa": "manglish",
+   "berspan": true
+  },
+  {
+   "urutan": 104,
+   "id": "mypii-u2-00970",
+   "split": "ujian2",
+   "bahasa": "en",
+   "berspan": true
+  },
+  {
+   "urutan": 105,
+   "id": "mypii-02828",
+   "split": "dev",
+   "bahasa": "ms",
+   "berspan": true
+  },
+  {
+   "urutan": 106,
+   "id": "mypii-u2-00269",
+   "split": "ujian2",
+   "bahasa": "en",
+   "berspan": false
+  },
+  {
+   "urutan": 107,
+   "id": "mypii-u2-00497",
+   "split": "ujian2",
+   "bahasa": "manglish",
+   "berspan": false
+  },
+  {
+   "urutan": 108,
+   "id": "mypii-01672",
+   "split": "dev",
+   "bahasa": "manglish",
+   "berspan": true
+  },
+  {
+   "urutan": 109,
+   "id": "mypii-u2-00484",
+   "split": "ujian2",
+   "bahasa": "en",
+   "berspan": false
+  },
+  {
+   "urutan": 110,
+   "id": "mypii-02128",
+   "split": "dev",
+   "bahasa": "manglish",
+   "berspan": true
+  },
+  {
+   "urutan": 111,
+   "id": "mypii-u2-00909",
+   "split": "ujian2",
+   "bahasa": "ms",
+   "berspan": false
+  },
+  {
+   "urutan": 112,
+   "id": "mypii-03780",
+   "split": "dev",
+   "bahasa": "manglish",
+   "berspan": false
+  },
+  {
+   "urutan": 113,
+   "id": "mypii-02089",
+   "split": "dev",
+   "bahasa": "ms",
+   "berspan": false
+  },
+  {
+   "urutan": 114,
+   "id": "mypii-u2-00527",
+   "split": "ujian2",
+   "bahasa": "en",
+   "berspan": false
+  },
+  {
+   "urutan": 115,
+   "id": "mypii-02087",
+   "split": "dev",
+   "bahasa": "manglish",
+   "berspan": false
+  },
+  {
+   "urutan": 116,
+   "id": "mypii-00988",
+   "split": "dev",
+   "bahasa": "en",
+   "berspan": false
+  },
+  {
+   "urutan": 117,
+   "id": "mypii-u2-00420",
+   "split": "ujian2",
+   "bahasa": "en",
+   "berspan": false
+  },
+  {
+   "urutan": 118,
+   "id": "mypii-u2-00340",
+   "split": "ujian2",
+   "bahasa": "ms",
+   "berspan": true
+  },
+  {
+   "urutan": 119,
+   "id": "mypii-01940",
+   "split": "dev",
+   "bahasa": "en",
+   "berspan": false
+  },
+  {
+   "urutan": 120,
+   "id": "mypii-u2-00030",
+   "split": "ujian2",
+   "bahasa": "ms",
+   "berspan": false
+  },
+  {
+   "urutan": 121,
+   "id": "mypii-01745",
+   "split": "dev",
+   "bahasa": "manglish",
+   "berspan": false
+  },
+  {
+   "urutan": 122,
+   "id": "mypii-u2-00661",
+   "split": "ujian2",
+   "bahasa": "manglish",
+   "berspan": true
+  },
+  {
+   "urutan": 123,
+   "id": "mypii-u2-00255",
+   "split": "ujian2",
+   "bahasa": "manglish",
+   "berspan": true
+  },
+  {
+   "urutan": 124,
+   "id": "mypii-u2-00583",
+   "split": "ujian2",
+   "bahasa": "en",
+   "berspan": false
+  },
+  {
+   "urutan": 125,
+   "id": "mypii-u2-00498",
+   "split": "ujian2",
+   "bahasa": "en",
+   "berspan": true
+  },
+  {
+   "urutan": 126,
+   "id": "mypii-u2-00729",
+   "split": "ujian2",
+   "bahasa": "ms",
+   "berspan": true
+  },
+  {
+   "urutan": 127,
+   "id": "mypii-u2-00067",
+   "split": "ujian2",
+   "bahasa": "manglish",
+   "berspan": true
+  },
+  {
+   "urutan": 128,
+   "id": "mypii-01652",
+   "split": "dev",
+   "bahasa": "en",
+   "berspan": true
+  },
+  {
+   "urutan": 129,
+   "id": "mypii-u2-00276",
+   "split": "ujian2",
+   "bahasa": "manglish",
+   "berspan": true
+  },
+  {
+   "urutan": 130,
+   "id": "mypii-00508",
+   "split": "dev",
+   "bahasa": "manglish",
+   "berspan": true
+  },
+  {
+   "urutan": 131,
+   "id": "mypii-01167",
+   "split": "dev",
+   "bahasa": "manglish",
+   "berspan": true
+  },
+  {
+   "urutan": 132,
+   "id": "mypii-u2-00900",
+   "split": "ujian2",
+   "bahasa": "ms",
+   "berspan": true
+  },
+  {
+   "urutan": 133,
+   "id": "mypii-u2-00601",
+   "split": "ujian2",
+   "bahasa": "en",
+   "berspan": false
+  },
+  {
+   "urutan": 134,
+   "id": "mypii-u2-00233",
+   "split": "ujian2",
+   "bahasa": "en",
+   "berspan": true
+  },
+  {
+   "urutan": 135,
+   "id": "mypii-u2-00023",
+   "split": "ujian2",
+   "bahasa": "ms",
+   "berspan": true
+  },
+  {
+   "urutan": 136,
+   "id": "mypii-u2-00264",
+   "split": "ujian2",
+   "bahasa": "manglish",
+   "berspan": false
+  },
+  {
+   "urutan": 137,
+   "id": "mypii-03400",
+   "split": "dev",
+   "bahasa": "manglish",
+   "berspan": true
+  },
+  {
+   "urutan": 138,
+   "id": "mypii-u2-00188",
+   "split": "ujian2",
+   "bahasa": "en",
+   "berspan": false
+  },
+  {
+   "urutan": 139,
+   "id": "mypii-u2-00072",
+   "split": "ujian2",
+   "bahasa": "manglish",
+   "berspan": true
+  },
+  {
+   "urutan": 140,
+   "id": "mypii-00055",
+   "split": "dev",
+   "bahasa": "manglish",
+   "berspan": true
+  },
+  {
+   "urutan": 141,
+   "id": "mypii-01914",
+   "split": "dev",
+   "bahasa": "ms",
+   "berspan": true
+  },
+  {
+   "urutan": 142,
+   "id": "mypii-03236",
+   "split": "dev",
+   "bahasa": "manglish",
+   "berspan": false
+  },
+  {
+   "urutan": 143,
+   "id": "mypii-u2-00802",
+   "split": "ujian2",
+   "bahasa": "ms",
+   "berspan": false
+  },
+  {
+   "urutan": 144,
+   "id": "mypii-u2-00328",
+   "split": "ujian2",
+   "bahasa": "ms",
+   "berspan": false
+  },
+  {
+   "urutan": 145,
+   "id": "mypii-01831",
+   "split": "dev",
+   "bahasa": "ms",
+   "berspan": true
+  },
+  {
+   "urutan": 146,
+   "id": "mypii-01770",
+   "split": "dev",
+   "bahasa": "manglish",
+   "berspan": true
+  },
+  {
+   "urutan": 147,
+   "id": "mypii-02253",
+   "split": "dev",
+   "bahasa": "en",
+   "berspan": true
+  },
+  {
+   "urutan": 148,
+   "id": "mypii-01391",
+   "split": "dev",
+   "bahasa": "en",
+   "berspan": false
+  },
+  {
+   "urutan": 149,
+   "id": "mypii-01064",
+   "split": "dev",
+   "bahasa": "en",
+   "berspan": false
+  },
+  {
+   "urutan": 150,
+   "id": "mypii-01275",
+   "split": "dev",
+   "bahasa": "manglish",
+   "berspan": true
+  },
+  {
+   "urutan": 151,
+   "id": "mypii-00836",
+   "split": "dev",
+   "bahasa": "en",
+   "berspan": false
+  },
+  {
+   "urutan": 152,
+   "id": "mypii-u2-00964",
+   "split": "ujian2",
+   "bahasa": "ms",
+   "berspan": false
+  },
+  {
+   "urutan": 153,
+   "id": "mypii-00403",
+   "split": "dev",
+   "bahasa": "ms",
+   "berspan": true
+  },
+  {
+   "urutan": 154,
+   "id": "mypii-03688",
+   "split": "dev",
+   "bahasa": "manglish",
+   "berspan": true
+  },
+  {
+   "urutan": 155,
+   "id": "mypii-01269",
+   "split": "dev",
+   "bahasa": "en",
+   "berspan": true
+  },
+  {
+   "urutan": 156,
+   "id": "mypii-02593",
+   "split": "dev",
+   "bahasa": "en",
+   "berspan": false
+  },
+  {
+   "urutan": 157,
+   "id": "mypii-01266",
+   "split": "dev",
+   "bahasa": "ms",
+   "berspan": true
+  },
+  {
+   "urutan": 158,
+   "id": "mypii-01351",
+   "split": "dev",
+   "bahasa": "ms",
+   "berspan": true
+  },
+  {
+   "urutan": 159,
+   "id": "mypii-02646",
+   "split": "dev",
+   "bahasa": "ms",
+   "berspan": true
+  },
+  {
+   "urutan": 160,
+   "id": "mypii-u2-00595",
+   "split": "ujian2",
+   "bahasa": "manglish",
+   "berspan": false
+  },
+  {
+   "urutan": 161,
+   "id": "mypii-03298",
+   "split": "dev",
+   "bahasa": "ms",
+   "berspan": false
+  },
+  {
+   "urutan": 162,
+   "id": "mypii-u2-00985",
+   "split": "ujian2",
+   "bahasa": "manglish",
+   "berspan": true
+  },
+  {
+   "urutan": 163,
+   "id": "mypii-02060",
+   "split": "dev",
+   "bahasa": "ms",
+   "berspan": false
+  },
+  {
+   "urutan": 164,
+   "id": "mypii-u2-00972",
+   "split": "ujian2",
+   "bahasa": "manglish",
+   "berspan": false
+  },
+  {
+   "urutan": 165,
+   "id": "mypii-u2-00865",
+   "split": "ujian2",
+   "bahasa": "manglish",
+   "berspan": false
+  },
+  {
+   "urutan": 166,
+   "id": "mypii-01431",
+   "split": "dev",
+   "bahasa": "manglish",
+   "berspan": false
+  },
+  {
+   "urutan": 167,
+   "id": "mypii-u2-00892",
+   "split": "ujian2",
+   "bahasa": "manglish",
+   "berspan": true
+  },
+  {
+   "urutan": 168,
+   "id": "mypii-u2-00109",
+   "split": "ujian2",
+   "bahasa": "en",
+   "berspan": false
+  },
+  {
+   "urutan": 169,
+   "id": "mypii-00579",
+   "split": "dev",
+   "bahasa": "manglish",
+   "berspan": false
+  },
+  {
+   "urutan": 170,
+   "id": "mypii-03108",
+   "split": "dev",
+   "bahasa": "ms",
+   "berspan": true
+  },
+  {
+   "urutan": 171,
+   "id": "mypii-u2-00218",
+   "split": "ujian2",
+   "bahasa": "manglish",
+   "berspan": false
+  },
+  {
+   "urutan": 172,
+   "id": "mypii-01690",
+   "split": "dev",
+   "bahasa": "en",
+   "berspan": true
+  },
+  {
+   "urutan": 173,
+   "id": "mypii-02507",
+   "split": "dev",
+   "bahasa": "ms",
+   "berspan": false
+  },
+  {
+   "urutan": 174,
+   "id": "mypii-01398",
+   "split": "dev",
+   "bahasa": "en",
+   "berspan": true
+  },
+  {
+   "urutan": 175,
+   "id": "mypii-u2-00807",
+   "split": "ujian2",
+   "bahasa": "en",
+   "berspan": false
+  },
+  {
+   "urutan": 176,
+   "id": "mypii-03507",
+   "split": "dev",
+   "bahasa": "en",
+   "berspan": true
+  },
+  {
+   "urutan": 177,
+   "id": "mypii-u2-00726",
+   "split": "ujian2",
+   "bahasa": "en",
+   "berspan": false
+  },
+  {
+   "urutan": 178,
+   "id": "mypii-00288",
+   "split": "dev",
+   "bahasa": "ms",
+   "berspan": false
+  },
+  {
+   "urutan": 179,
+   "id": "mypii-00691",
+   "split": "dev",
+   "bahasa": "en",
+   "berspan": true
+  },
+  {
+   "urutan": 180,
+   "id": "mypii-u2-00440",
+   "split": "ujian2",
+   "bahasa": "ms",
+   "berspan": true
+  },
+  {
+   "urutan": 181,
+   "id": "mypii-03807",
+   "split": "dev",
+   "bahasa": "en",
+   "berspan": false
+  },
+  {
+   "urutan": 182,
+   "id": "mypii-u2-00012",
+   "split": "ujian2",
+   "bahasa": "en",
+   "berspan": false
+  },
+  {
+   "urutan": 183,
+   "id": "mypii-u2-00496",
+   "split": "ujian2",
+   "bahasa": "manglish",
+   "berspan": false
+  },
+  {
+   "urutan": 184,
+   "id": "mypii-u2-00943",
+   "split": "ujian2",
+   "bahasa": "manglish",
+   "berspan": true
+  },
+  {
+   "urutan": 185,
+   "id": "mypii-03926",
+   "split": "dev",
+   "bahasa": "en",
+   "berspan": false
+  },
+  {
+   "urutan": 186,
+   "id": "mypii-u2-00003",
+   "split": "ujian2",
+   "bahasa": "ms",
+   "berspan": false
+  },
+  {
+   "urutan": 187,
+   "id": "mypii-u2-00172",
+   "split": "ujian2",
+   "bahasa": "en",
+   "berspan": true
+  },
+  {
+   "urutan": 188,
+   "id": "mypii-u2-00300",
+   "split": "ujian2",
+   "bahasa": "ms",
+   "berspan": true
+  },
+  {
+   "urutan": 189,
+   "id": "mypii-u2-00118",
+   "split": "ujian2",
+   "bahasa": "manglish",
+   "berspan": true
+  },
+  {
+   "urutan": 190,
+   "id": "mypii-u2-00645",
+   "split": "ujian2",
+   "bahasa": "en",
+   "berspan": true
+  },
+  {
+   "urutan": 191,
+   "id": "mypii-00627",
+   "split": "dev",
+   "bahasa": "manglish",
+   "berspan": false
+  },
+  {
+   "urutan": 192,
+   "id": "mypii-02656",
+   "split": "dev",
+   "bahasa": "manglish",
+   "berspan": false
+  },
+  {
+   "urutan": 193,
+   "id": "mypii-u2-00850",
+   "split": "ujian2",
+   "bahasa": "ms",
+   "berspan": false
+  },
+  {
+   "urutan": 194,
+   "id": "mypii-02164",
+   "split": "dev",
+   "bahasa": "ms",
+   "berspan": false
+  },
+  {
+   "urutan": 195,
+   "id": "mypii-03482",
+   "split": "dev",
+   "bahasa": "manglish",
+   "berspan": true
+  },
+  {
+   "urutan": 196,
+   "id": "mypii-u2-00761",
+   "split": "ujian2",
+   "bahasa": "manglish",
+   "berspan": true
+  },
+  {
+   "urutan": 197,
+   "id": "mypii-00925",
+   "split": "dev",
+   "bahasa": "en",
+   "berspan": true
+  },
+  {
+   "urutan": 198,
+   "id": "mypii-02384",
+   "split": "dev",
+   "bahasa": "ms",
+   "berspan": false
+  },
+  {
+   "urutan": 199,
+   "id": "mypii-02634",
+   "split": "dev",
+   "bahasa": "en",
+   "berspan": true
+  },
+  {
+   "urutan": 200,
+   "id": "mypii-u2-00587",
+   "split": "ujian2",
+   "bahasa": "manglish",
+   "berspan": false
+  },
+  {
+   "urutan": 201,
+   "id": "mypii-03537",
+   "split": "dev",
+   "bahasa": "ms",
+   "berspan": true
+  },
+  {
+   "urutan": 202,
+   "id": "mypii-u2-00252",
+   "split": "ujian2",
+   "bahasa": "ms",
+   "berspan": true
+  },
+  {
+   "urutan": 203,
+   "id": "mypii-01641",
+   "split": "dev",
+   "bahasa": "ms",
+   "berspan": true
+  },
+  {
+   "urutan": 204,
+   "id": "mypii-u2-00735",
+   "split": "ujian2",
+   "bahasa": "ms",
+   "berspan": false
+  },
+  {
+   "urutan": 205,
+   "id": "mypii-u2-00348",
+   "split": "ujian2",
+   "bahasa": "manglish",
+   "berspan": false
+  },
+  {
+   "urutan": 206,
+   "id": "mypii-03333",
+   "split": "dev",
+   "bahasa": "manglish",
+   "berspan": true
+  },
+  {
+   "urutan": 207,
+   "id": "mypii-u2-00530",
+   "split": "ujian2",
+   "bahasa": "manglish",
+   "berspan": true
+  },
+  {
+   "urutan": 208,
+   "id": "mypii-02442",
+   "split": "dev",
+   "bahasa": "en",
+   "berspan": false
+  },
+  {
+   "urutan": 209,
+   "id": "mypii-u2-00833",
+   "split": "ujian2",
+   "bahasa": "ms",
+   "berspan": true
+  },
+  {
+   "urutan": 210,
+   "id": "mypii-u2-00721",
+   "split": "ujian2",
+   "bahasa": "en",
+   "berspan": false
+  },
+  {
+   "urutan": 211,
+   "id": "mypii-03541",
+   "split": "dev",
+   "bahasa": "manglish",
+   "berspan": true
+  },
+  {
+   "urutan": 212,
+   "id": "mypii-u2-00926",
+   "split": "ujian2",
+   "bahasa": "ms",
+   "berspan": false
+  },
+  {
+   "urutan": 213,
+   "id": "mypii-03329",
+   "split": "dev",
+   "bahasa": "en",
+   "berspan": true
+  },
+  {
+   "urutan": 214,
+   "id": "mypii-u2-00568",
+   "split": "ujian2",
+   "bahasa": "manglish",
+   "berspan": false
+  },
+  {
+   "urutan": 215,
+   "id": "mypii-u2-00014",
+   "split": "ujian2",
+   "bahasa": "ms",
+   "berspan": false
+  },
+  {
+   "urutan": 216,
+   "id": "mypii-u2-00495",
+   "split": "ujian2",
+   "bahasa": "manglish",
+   "berspan": true
+  },
+  {
+   "urutan": 217,
+   "id": "mypii-u2-00924",
+   "split": "ujian2",
+   "bahasa": "ms",
+   "berspan": true
+  },
+  {
+   "urutan": 218,
+   "id": "mypii-01467",
+   "split": "dev",
+   "bahasa": "manglish",
+   "berspan": false
+  },
+  {
+   "urutan": 219,
+   "id": "mypii-u2-00281",
+   "split": "ujian2",
+   "bahasa": "ms",
+   "berspan": false
+  },
+  {
+   "urutan": 220,
+   "id": "mypii-u2-00062",
+   "split": "ujian2",
+   "bahasa": "en",
+   "berspan": false
+  },
+  {
+   "urutan": 221,
+   "id": "mypii-00669",
+   "split": "dev",
+   "bahasa": "ms",
+   "berspan": false
+  },
+  {
+   "urutan": 222,
+   "id": "mypii-01205",
+   "split": "dev",
+   "bahasa": "manglish",
+   "berspan": false
+  },
+  {
+   "urutan": 223,
+   "id": "mypii-00249",
+   "split": "dev",
+   "bahasa": "ms",
+   "berspan": true
+  },
+  {
+   "urutan": 224,
+   "id": "mypii-u2-00113",
+   "split": "ujian2",
+   "bahasa": "ms",
+   "berspan": true
+  },
+  {
+   "urutan": 225,
+   "id": "mypii-u2-00837",
+   "split": "ujian2",
+   "bahasa": "en",
+   "berspan": true
+  },
+  {
+   "urutan": 226,
+   "id": "mypii-u2-00724",
+   "split": "ujian2",
+   "bahasa": "en",
+   "berspan": false
+  },
+  {
+   "urutan": 227,
+   "id": "mypii-u2-00084",
+   "split": "ujian2",
+   "bahasa": "ms",
+   "berspan": true
+  },
+  {
+   "urutan": 228,
+   "id": "mypii-u2-00487",
+   "split": "ujian2",
+   "bahasa": "manglish",
+   "berspan": false
+  },
+  {
+   "urutan": 229,
+   "id": "mypii-00512",
+   "split": "dev",
+   "bahasa": "ms",
+   "berspan": true
+  },
+  {
+   "urutan": 230,
+   "id": "mypii-u2-00852",
+   "split": "ujian2",
+   "bahasa": "manglish",
+   "berspan": false
+  },
+  {
+   "urutan": 231,
+   "id": "mypii-02518",
+   "split": "dev",
+   "bahasa": "en",
+   "berspan": true
+  },
+  {
+   "urutan": 232,
+   "id": "mypii-03832",
+   "split": "dev",
+   "bahasa": "manglish",
+   "berspan": false
+  },
+  {
+   "urutan": 233,
+   "id": "mypii-u2-00027",
+   "split": "ujian2",
+   "bahasa": "manglish",
+   "berspan": true
+  },
+  {
+   "urutan": 234,
+   "id": "mypii-u2-00887",
+   "split": "ujian2",
+   "bahasa": "en",
+   "berspan": true
+  },
+  {
+   "urutan": 235,
+   "id": "mypii-u2-00559",
+   "split": "ujian2",
+   "bahasa": "manglish",
+   "berspan": false
+  },
+  {
+   "urutan": 236,
+   "id": "mypii-03843",
+   "split": "dev",
+   "bahasa": "manglish",
+   "berspan": true
+  },
+  {
+   "urutan": 237,
+   "id": "mypii-u2-00480",
+   "split": "ujian2",
+   "bahasa": "en",
+   "berspan": true
+  },
+  {
+   "urutan": 238,
+   "id": "mypii-u2-00459",
+   "split": "ujian2",
+   "bahasa": "manglish",
+   "berspan": true
+  },
+  {
+   "urutan": 239,
+   "id": "mypii-00444",
+   "split": "dev",
+   "bahasa": "manglish",
+   "berspan": true
+  },
+  {
+   "urutan": 240,
+   "id": "mypii-u2-00656",
+   "split": "ujian2",
+   "bahasa": "en",
+   "berspan": false
+  },
+  {
+   "urutan": 241,
+   "id": "mypii-u2-00719",
+   "split": "ujian2",
+   "bahasa": "ms",
+   "berspan": false
+  },
+  {
+   "urutan": 242,
+   "id": "mypii-03974",
+   "split": "dev",
+   "bahasa": "ms",
+   "berspan": false
+  },
+  {
+   "urutan": 243,
+   "id": "mypii-u2-00318",
+   "split": "ujian2",
+   "bahasa": "ms",
+   "berspan": false
+  },
+  {
+   "urutan": 244,
+   "id": "mypii-03037",
+   "split": "dev",
+   "bahasa": "manglish",
+   "berspan": true
+  },
+  {
+   "urutan": 245,
+   "id": "mypii-02230",
+   "split": "dev",
+   "bahasa": "ms",
+   "berspan": false
+  },
+  {
+   "urutan": 246,
+   "id": "mypii-02035",
+   "split": "dev",
+   "bahasa": "ms",
+   "berspan": false
+  },
+  {
+   "urutan": 247,
+   "id": "mypii-u2-00251",
+   "split": "ujian2",
+   "bahasa": "manglish",
+   "berspan": false
+  },
+  {
+   "urutan": 248,
+   "id": "mypii-u2-00359",
+   "split": "ujian2",
+   "bahasa": "ms",
+   "berspan": true
+  },
+  {
+   "urutan": 249,
+   "id": "mypii-01647",
+   "split": "dev",
+   "bahasa": "manglish",
+   "berspan": false
+  },
+  {
+   "urutan": 250,
+   "id": "mypii-00310",
+   "split": "dev",
+   "bahasa": "ms",
+   "berspan": false
+  },
+  {
+   "urutan": 251,
+   "id": "mypii-00275",
+   "split": "dev",
+   "bahasa": "ms",
+   "berspan": true
+  },
+  {
+   "urutan": 252,
+   "id": "mypii-u2-00306",
+   "split": "ujian2",
+   "bahasa": "manglish",
+   "berspan": false
+  },
+  {
+   "urutan": 253,
+   "id": "mypii-u2-00173",
+   "split": "ujian2",
+   "bahasa": "manglish",
+   "berspan": true
+  },
+  {
+   "urutan": 254,
+   "id": "mypii-u2-00426",
+   "split": "ujian2",
+   "bahasa": "en",
+   "berspan": false
+  },
+  {
+   "urutan": 255,
+   "id": "mypii-u2-00906",
+   "split": "ujian2",
+   "bahasa": "en",
+   "berspan": true
+  },
+  {
+   "urutan": 256,
+   "id": "mypii-00807",
+   "split": "dev",
+   "bahasa": "ms",
+   "berspan": true
+  },
+  {
+   "urutan": 257,
+   "id": "mypii-03861",
+   "split": "dev",
+   "bahasa": "manglish",
+   "berspan": true
+  },
+  {
+   "urutan": 258,
+   "id": "mypii-u2-00022",
+   "split": "ujian2",
+   "bahasa": "manglish",
+   "berspan": false
+  },
+  {
+   "urutan": 259,
+   "id": "mypii-u2-00717",
+   "split": "ujian2",
+   "bahasa": "ms",
+   "berspan": false
+  },
+  {
+   "urutan": 260,
+   "id": "mypii-u2-00493",
+   "split": "ujian2",
+   "bahasa": "ms",
+   "berspan": false
+  },
+  {
+   "urutan": 261,
+   "id": "mypii-02172",
+   "split": "dev",
+   "bahasa": "ms",
+   "berspan": false
+  },
+  {
+   "urutan": 262,
+   "id": "mypii-02622",
+   "split": "dev",
+   "bahasa": "manglish",
+   "berspan": false
+  },
+  {
+   "urutan": 263,
+   "id": "mypii-u2-00995",
+   "split": "ujian2",
+   "bahasa": "manglish",
+   "berspan": true
+  },
+  {
+   "urutan": 264,
+   "id": "mypii-03203",
+   "split": "dev",
+   "bahasa": "ms",
+   "berspan": true
+  },
+  {
+   "urutan": 265,
+   "id": "mypii-00375",
+   "split": "dev",
+   "bahasa": "ms",
+   "berspan": true
+  },
+  {
+   "urutan": 266,
+   "id": "mypii-u2-00843",
+   "split": "ujian2",
+   "bahasa": "ms",
+   "berspan": false
+  },
+  {
+   "urutan": 267,
+   "id": "mypii-u2-00505",
+   "split": "ujian2",
+   "bahasa": "en",
+   "berspan": true
+  },
+  {
+   "urutan": 268,
+   "id": "mypii-01421",
+   "split": "dev",
+   "bahasa": "en",
+   "berspan": true
+  },
+  {
+   "urutan": 269,
+   "id": "mypii-00327",
+   "split": "dev",
+   "bahasa": "en",
+   "berspan": false
+  },
+  {
+   "urutan": 270,
+   "id": "mypii-u2-00368",
+   "split": "ujian2",
+   "bahasa": "ms",
+   "berspan": false
+  },
+  {
+   "urutan": 271,
+   "id": "mypii-00155",
+   "split": "dev",
+   "bahasa": "en",
+   "berspan": true
+  },
+  {
+   "urutan": 272,
+   "id": "mypii-03856",
+   "split": "dev",
+   "bahasa": "manglish",
+   "berspan": false
+  },
+  {
+   "urutan": 273,
+   "id": "mypii-u2-00279",
+   "split": "ujian2",
+   "bahasa": "en",
+   "berspan": true
+  },
+  {
+   "urutan": 274,
+   "id": "mypii-u2-00868",
+   "split": "ujian2",
+   "bahasa": "en",
+   "berspan": true
+  },
+  {
+   "urutan": 275,
+   "id": "mypii-02750",
+   "split": "dev",
+   "bahasa": "ms",
+   "berspan": false
+  },
+  {
+   "urutan": 276,
+   "id": "mypii-u2-00953",
+   "split": "ujian2",
+   "bahasa": "ms",
+   "berspan": true
+  },
+  {
+   "urutan": 277,
+   "id": "mypii-u2-00369",
+   "split": "ujian2",
+   "bahasa": "ms",
+   "berspan": true
+  },
+  {
+   "urutan": 278,
+   "id": "mypii-03053",
+   "split": "dev",
+   "bahasa": "ms",
+   "berspan": false
+  },
+  {
+   "urutan": 279,
+   "id": "mypii-u2-00017",
+   "split": "ujian2",
+   "bahasa": "manglish",
+   "berspan": true
+  },
+  {
+   "urutan": 280,
+   "id": "mypii-02725",
+   "split": "dev",
+   "bahasa": "manglish",
+   "berspan": false
+  },
+  {
+   "urutan": 281,
+   "id": "mypii-u2-00338",
+   "split": "ujian2",
+   "bahasa": "ms",
+   "berspan": false
+  },
+  {
+   "urutan": 282,
+   "id": "mypii-00917",
+   "split": "dev",
+   "bahasa": "ms",
+   "berspan": false
+  },
+  {
+   "urutan": 283,
+   "id": "mypii-02935",
+   "split": "dev",
+   "bahasa": "en",
+   "berspan": true
+  },
+  {
+   "urutan": 284,
+   "id": "mypii-00519",
+   "split": "dev",
+   "bahasa": "en",
+   "berspan": false
+  },
+  {
+   "urutan": 285,
+   "id": "mypii-01438",
+   "split": "dev",
+   "bahasa": "manglish",
+   "berspan": true
+  },
+  {
+   "urutan": 286,
+   "id": "mypii-u2-00191",
+   "split": "ujian2",
+   "bahasa": "ms",
+   "berspan": false
+  },
+  {
+   "urutan": 287,
+   "id": "mypii-00393",
+   "split": "dev",
+   "bahasa": "en",
+   "berspan": false
+  },
+  {
+   "urutan": 288,
+   "id": "mypii-u2-00277",
+   "split": "ujian2",
+   "bahasa": "ms",
+   "berspan": false
+  },
+  {
+   "urutan": 289,
+   "id": "mypii-u2-00598",
+   "split": "ujian2",
+   "bahasa": "en",
+   "berspan": true
+  },
+  {
+   "urutan": 290,
+   "id": "mypii-03986",
+   "split": "dev",
+   "bahasa": "manglish",
+   "berspan": false
+  },
+  {
+   "urutan": 291,
+   "id": "mypii-03146",
+   "split": "dev",
+   "bahasa": "manglish",
+   "berspan": true
+  },
+  {
+   "urutan": 292,
+   "id": "mypii-u2-00407",
+   "split": "ujian2",
+   "bahasa": "en",
+   "berspan": true
+  },
+  {
+   "urutan": 293,
+   "id": "mypii-03905",
+   "split": "dev",
+   "bahasa": "manglish",
+   "berspan": true
+  },
+  {
+   "urutan": 294,
+   "id": "mypii-01941",
+   "split": "dev",
+   "bahasa": "manglish",
+   "berspan": false
+  },
+  {
+   "urutan": 295,
+   "id": "mypii-01300",
+   "split": "dev",
+   "bahasa": "ms",
+   "berspan": true
+  },
+  {
+   "urutan": 296,
+   "id": "mypii-u2-00580",
+   "split": "ujian2",
+   "bahasa": "manglish",
+   "berspan": true
+  },
+  {
+   "urutan": 297,
+   "id": "mypii-03267",
+   "split": "dev",
+   "bahasa": "ms",
+   "berspan": false
+  },
+  {
+   "urutan": 298,
+   "id": "mypii-u2-00400",
+   "split": "ujian2",
+   "bahasa": "en",
+   "berspan": false
+  },
+  {
+   "urutan": 299,
+   "id": "mypii-u2-00766",
+   "split": "ujian2",
+   "bahasa": "en",
+   "berspan": false
+  },
+  {
+   "urutan": 300,
+   "id": "mypii-02959",
+   "split": "dev",
+   "bahasa": "manglish",
+   "berspan": false
+  }
+ ]
+}

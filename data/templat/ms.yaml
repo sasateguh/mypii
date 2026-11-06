@@ -1,0 +1,53 @@
+genre:
+  whatsapp:
+    - "Salam, saya {NAMA}. No IC saya {MY_NRIC}, boleh check status permohonan? Call {MY_PHONE} kalau ada apa-apa."
+    - "Bang, nombor saya dah tukar ye, sekarang {MY_PHONE}. Simpan elok2"
+    - "Tolong daftar anak saya, {NAMA}, no. kp {MY_NRIC}. Terima kasih cikgu"
+    - "Invois #{NEG} dah bayar semalam, resit nanti saya hantar"
+    - "Jumpa kat {BANDAR} pukul 3, kalau sesat call {MY_PHONE}"
+  emel:
+    - "Tuan/Puan,\nDengan hormatnya, {SYARIKAT} (No. Pendaftaran SSM: {MY_SSM}) ingin memohon sebutharga. Sila hubungi {MY_PHONE}.\nSekian, {NAMA}"
+    - "Untuk makluman, pembayaran rujukan {NEG} telah diterima pada {TARIKH}."
+    - "Pemohon: {NAMA}\nNo. Kad Pengenalan: {MY_NRIC}\nNo. Telefon: {MY_PHONE}\nAlamat: {BANDAR}"
+  borang:
+    - "Nama: {NAMA} | No. KP: {MY_NRIC} | Tel: {MY_PHONE} | Majikan: {SYARIKAT} ({MY_SSM})"
+    - "No. Siri Borang: {NEG}  Tarikh: {TARIKH}  Cawangan: {BANDAR}"
+  aduan:
+    - "Saya {NAMA} ingin membuat aduan terhadap {SYARIKAT}, no. syarikat {MY_SSM}. Barang tidak sampai sejak {TARIKH}."
+    - "Pesanan {NEG} masih belum diterima. Sila hubungi saya di {MY_PHONE}."
+    - "Saya dah bank in ke akaun {NEG_AKAUN} tapi pesanan {NEG_INVOIS} masih tak dihantar. No tel saya {MY_PHONE}."
+    - "Syarikat {SYARIKAT}, no. pendaftaran {MY_SSM_LAMA}, enggan pulangkan deposit sejak {TARIKH}."
+    - "Barang kod {NEG_KOD} rosak, resit {NEG_INVOIS} bertarikh {TARIKH}."
+  klinik:
+    - "Pesakit {NAMA}, KP {MY_NRIC}, datang dengan demam 3 hari. Waris boleh dihubungi di {MY_PHONE}."
+    - "No. rekod {NEG}, temujanji susulan {TARIKH} di Klinik Kesihatan {BANDAR}."
+  # --- P1: gaya baharu + negatif keras ---
+  whatsapp_kumpulan:
+    - "[{TARIKH}] Cikgu Ana: ibu bapa yg belum hantar no kp anak, sila pm sy. Contoh: {NAMA} - {MY_NRIC}"
+    - "Admin: duit kelas dah masuk akaun {NEG_AKAUN} ye, tq semua 🙏"
+    - "Siapa jumpa dompet warna hitam kat {BANDAR}? Ada IC atas nama {NAMA}. Pemilik boleh wasap {MY_PHONE}"
+    - "salah nombor kot, {NEG_TEL} tu tak lengkap. cuba call {MY_PHONE}"
+    - "Tracking pos laju: {NEG_INVOIS}, sampai esok insyaAllah"
+  borang_kerajaan:
+    - "BAHAGIAN A: MAKLUMAT PEMOHON\n1. Nama Penuh (seperti dalam MyKad): {NAMA}\n2. No. Kad Pengenalan Baru: {MY_NRIC}\n3. No. Telefon Bimbit: {MY_PHONE}"
+    - "BORANG PERMOHONAN BANTUAN\nNo. Akaun Bank (untuk pembayaran): {NEG_AKAUN}\nNama Bank: Bank Simpanan Nasional\nNo. Rujukan Fail: {NEG_TARIKH}"
+    - "Pengakuan: Saya {NAMA} (No. KP: {MY_NRIC}) mengaku bahawa maklumat di atas adalah benar. Tarikh: {TARIKH}"
+    - "Majikan: {SYARIKAT}\nNo. Pendaftaran Syarikat: {MY_SSM_LAMA}\nNo. Tel Pejabat: {MY_PHONE}"
+    - "Kegunaan pejabat sahaja. No. Siri: {NEG_INVOIS}  Diterima oleh: {NAMA}  Cop tarikh: {NEG_TARIKH}"
+  emel_hr:
+    - "Kepada Unit Gaji,\nSila kemas kini akaun gaji staf {NAMA} (No. KP {MY_NRIC}) kepada akaun Maybank {NEG_AKAUN} berkuat kuasa {TARIKH}."
+    - "Calon temu duga: {NAMA}, tel {MY_PHONE}. Waris: {NAMA}, tel {MY_PHONE}. Sila sahkan kehadiran sebelum {TARIKH}."
+    - "Perkara: Penamatan Kontrak\nPekerja: {NAMA}\nNo. Pekerja: {NEG_INVOIS}\nPayroll akan diproses pada {TARIKH}."
+  resit:
+    - "{SYARIKAT} ({MY_SSM})\nRESIT RASMI No. {NEG_INVOIS}\nTarikh/Masa: {NEG_TARIKH}\nJumlah: RM 45.90\nTel: {MY_PHONE}"
+    - "RESIT\nNo. Rujukan Transaksi: {NEG_TARIKH}\nDibayar ke akaun: {NEG_AKAUN}\nStatus: Berjaya"
+    - "Kod item {NEG_KOD} x2  RM12.00\nKod item {NEG_KOD} x1  RM8.50\nTerima kasih, sila datang lagi"
+  jadual_teks:
+    - "| Bil | Nama | No. KP | No. Tel |\n| 1 | {NAMA} | {MY_NRIC} | {MY_PHONE} |\n| 2 | {NAMA} | {MY_NRIC} | {MY_PHONE} |"
+    - "Bil  No. Akaun        Jumlah\n1    {NEG_AKAUN}   RM 300\n2    {NEG_AKAUN}   RM 150"
+    - "Syarikat\tNo. SSM\tPengarah\tIC Pengarah\n{SYARIKAT}\t{MY_SSM}\t{NAMA}\t{MY_NRIC}"
+  ocr_bising:
+    - "KAD PENGENALAN MALAYS1A\n{MY_NRIC}\n{NAMA}\nWARGANEGARA\nLELAKI"
+    - "N0 . K/P :  {MY_NRIC}   N0 . TEL :  {MY_PHONE}\nNAMA :  {NAMA}"
+    - "SURAT  P E R A K U A N   PENDAFTARAN\n{SYARIKAT}\n( {MY_SSM_LAMA} )"
+    - "B1L  INV0IS  {NEG_INVOIS}   TARlKH  {TARIKH}"

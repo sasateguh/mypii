@@ -1,0 +1,47 @@
+# Sumber rasmi untuk MyPII v2 — PELAN-V2 P1 (4 Nov 2026). Huraian + petikan: docs/sumber/SSM-ROB-TELEFON.md
+# Dibaca oleh mypii/jana/nilai_v3.py (P3; llp.tahun_min = SATU sumber tahun minimum LLP); P9 pengecam akan membacanya.
+# Peraturan: entri tanpa `sumber:` rasmi TIDAK dijana dan TIDAK dikesan. URL dibuka dengan curl 4 Nov 2026 (HTTP 200).
+
+format_12_digit:
+  berkuat_kuasa: "2019-10-11"
+  struktur: {tahun: 4, kod_entiti: 2, siri: 6}
+  sumber: https://www.ssm.com.my/Lists/Announcement/AnnouncementDetails.aspx?ID=134
+  sumber_jadual: https://mahwengkwai.com/wp-content/uploads/2019/11/FAQ-SSM-12-Digit-English-2-1.pdf  # risalah FAQ SSM (salinan pihak ketiga), sha256 b3a6b12db6c3a963…
+
+kod_entiti:
+  "01": {jenis: syarikat_tempatan, llp: false}
+  "02": {jenis: syarikat_asing, llp: false}
+  "03": {jenis: perniagaan, llp: false}
+  "04": {jenis: llp_tempatan, llp: true}
+  "05": {jenis: llp_asing, llp: true}
+  "06": {jenis: llp_amalan_profesional, llp: true}
+
+llp:
+  akta: "Akta Perkongsian Liabiliti Terhad 2012 (Akta 743)"
+  berkuat_kuasa: "2012-12-26"          # P.U. (B) 421/2012
+  tahun_min: 2012                      # nombor kod 04–06 dengan tahun < 2012 tidak wujud
+  sumber: https://www.kpdn.gov.my/images/2024/awam/akta/ssm/Act%20743.pdf          # sha256 7f730b9004035124…
+  sumber_teks: https://www.ssm.com.my/acts/Limited%20Liability%20Partnerships%20Act%202012.pdf
+
+rob_lama:
+  # Tiada sumber rasmi untuk bentuk nombor ROB lama atau awalan negeri (dicari 4 Nov 2026; lihat dokumen sumber).
+  awalan_disahkan: []
+  sumber_bentuk_syarikat: https://www.ssm.com.my/bm/Pages/Services/Other-Services/document/SUPPORTING%20MODULE-%20LEARN%20ABOUT%20THE%20SYSTEM.pdf  # "Old Registration No. (e.g: 123456-X)" — ROC, sudah dalam v1
+  tidak_disahkan:                      # rekod ketelusan SAHAJA — jangan jana/kesan
+    - {awalan: [AS, PG, KT, TR, IP, CA, "00", NS, MA, JM, LA], bentuk: "WW XXXXXXX-Y", sumber: https://forum.lowyat.net/topic/1734602/all, jenis: forum}
+    - {contoh_bentuk: "SA0000001-D", sumber: https://malaysia.acclime.com/guides/business-registration-number/, jenis: firma}
+
+talian_tetap_bs:
+  # MCMC NEAP §6.3.3, Rajah 6.2 (08X Sarawak X=2–6, 08Y Sabah Y=7–9, 087 Labuan), §6.4.1.3 (pelanggan 6 digit, X1 = 2–9)
+  sumber: https://www.mcmc.gov.my/skmmgovmy/media/General/registers/Numbering-and-Electronic-Addressing-Plan.pdf  # sha256 fecd36d356eedaa9…
+  panjang_pelanggan: 6
+  # digit pertama pelanggan yang sah menurut metadata libphonenumber 9.0.42 (corak fixed_line MY, diukur 4 Nov 2026)
+  digit_pertama:
+    "082": "2345678"
+    "083": "2345"
+    "084": "2345678"
+    "085": "234567"
+    "086": "234589"
+    "087": "234578"
+    "088": "23456789"
+    "089": "23456789"

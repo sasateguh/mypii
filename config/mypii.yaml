@@ -1,0 +1,632 @@
+# Semua nilai yang munasabah berubah hidup di sini (nilai tetap #3). Kod membaca; kod tidak menyimpan.
+pengecam:
+  konteks_umum:                  # padanan frasa penuh dalam N perkataan sebelum padanan (mypii/pengecam/konteks.py)
+    tetingkap_perkataan: 5
+    aksara_maks: 120
+    faktor: 0.35                 # sama seperti lalai Presidio
+    skor_min: 0.4
+    ocr_seragam: {"0": "o", "1": "i", "l": "i", "|": "i"}   # kedua-dua frasa dan teks diseragamkan sebelum dipadan
+    skor_negatif: 0.0            # frasa negatif lebih dekat daripada frasa positif → hasil dibuang
+    negatif: [akaun, account, acc, acct, "a/c", "bank in", disbursement, invois, invoice, resit, receipt, tracking,
+              "pos laju", courier, "no. siri", "staff id", "employee id", "no. pekerja", order, pesanan, ref, rujukan,
+              transaksi, transaction, amount]
+  normal:                        # PELAN-V2 P9 (PRA-DAFTAR §3.1 d): mypii/pengecam/normal.py
+    ocr_digit: {"O": "0", "l": "1", "S": "5", "B": "8"}   # diganti HANYA bila diapit digit kiri + kanan (1:1, span asal kekal)
+    patah_baris: '[ \t]*\n[ \t]*'   # pemisah sempadan kumpulan tambahan (nombor dipecah baris)
+  MY_NRIC:
+    konteks: [ic, "i/c", mykad, nric, "kad pengenalan", "no. kp", kp, "no kp", "identity card", "ic no", "no. ic", "no ic"]
+    skor: {bersempang: 0.5, rapat: 0.3}
+    bersaing: [MY_SSM]           # konteks SSM yang lebih dekat = bukan MyKad (12 digit boleh sah sebagai kedua-duanya)
+  MY_SSM:
+    konteks: [ssm, "no. pendaftaran", "registration no", "reg. no", "company no", "no. syarikat", "sdn bhd", "sdn. bhd.", "berhad", "roc", "rob",
+              pendaftaran, registration, reg, "co. no", "co no", enterprise, plt]
+    skor: {baharu: 0.4, lama: 0.1, lama_berkurung: 0.1}   # 0.4 (P2-10) diundur 29 Okt: kurungan tanpa konteks = 40/40 FP kod produk (probe)
+    tahun_min: 1900
+    kod_jenis: ["01", "02", "03", "04", "05", "06"]   # SSM 11 Okt 2019: 01 syarikat tempatan … 06 LLP profesional
+  MY_PHONE:
+    konteks: [tel, telefon, phone, "no. tel", "no tel", hp, "h/p", whatsapp, wasap, ws, call, mobile, bimbit, hubungi, contact]
+    skor: {antarabangsa: 0.6, tempatan: 0.4}
+
+jana:
+  benih: 20261028
+  bilangan_dokumen: 5000
+  bahasa: {ms: 0.4, en: 0.3, manglish: 0.3}
+  nisbah_negatif_keras: 0.25      # bahagian dokumen yang hanya ada nombor menyerupai PII
+  split: {latih: 0.6, dev: 0.2, ujian: 0.2}
+  tahun_lahir: [1940, 2012]
+  # PELAN-B B1: split ujian2 (templat LLM keluarga berbeza + nama berasingan) — DIMETERAI selepas komit pertama
+  templat_ujian2: data/templat_ujian2
+  nama_ujian2: data/nama_ujian2.yaml
+  bilangan_ujian2: 1000           # benih = benih + 2
+  # PELAN-B B2 (ADR-010): templat LLM latih/dev = data/templat/<awalan><bahasa>.yaml (digabung ke bahasa sama); nama tambahan
+  # (berkumpulan, bersilang kosong dengan nama_ujian2) untuk latih/dev SAHAJA — NAMA dari fail itu dengan kebarangkalian di bawah.
+  awalan_templat_llm: llm_
+  nama_tambahan: data/nama_tambahan.yaml
+  nisbah_nama_tambahan: 0.5
+  # ADR-008: susunan NAMA bila fail nama berkumpulan (nama.yaml v1 rata = cara lama, cincangan v1 tidak berubah). berat = kebarangkalian
+  # relatif; penyambung + bapa = "<pertama> <penyambung> <nama diri lelaki komuniti sama>"; keluarga_dahulu = susunan Cina ("Tan Jun Hao").
+  nama_kumpulan:
+    melayu_l: {berat: 3, pertama: pertama_melayu_l, penyambung: bin, bapa: pertama_melayu_l}
+    melayu_p: {berat: 3, pertama: pertama_melayu_p, penyambung: binti, bapa: pertama_melayu_l}
+    cina: {berat: 2, pertama: pertama_cina, keluarga: keluarga_cina, keluarga_dahulu: true}
+    cina_inggeris: {berat: 1, pertama: pertama_inggeris, keluarga: keluarga_cina}
+    india_l: {berat: 0.75, pertama: pertama_india_l, penyambung: "a/l", bapa: pertama_india_l}
+    india_p: {berat: 0.75, pertama: pertama_india_p, penyambung: "a/p", bapa: pertama_india_l}
+    iban_l: {berat: 0.25, pertama: pertama_iban_l, penyambung: anak, bapa: pertama_iban_l}
+    iban_p: {berat: 0.25, pertama: pertama_iban_p, penyambung: anak, bapa: pertama_iban_l}
+    kadazan: {berat: 0.5, pertama: pertama_kadazan, keluarga: keluarga_kadazan}
+  # ADR-009 (fail berkumpulan sahaja): gelaran tepat sebelum {NAMA} → hanya kumpulan jantina itu ("En. {NAMA}" bukan "Asyikin binti …").
+  # Gelaran kabur (cik, dato', dr) sengaja TIADA. Kumpulan bercampur jantina (cina, kadazan) tidak dipilih bila gelaran dikesan.
+  gelaran_jantina:
+    l: [encik, en., en, tuan, mr, mr., sir, abang, bang, pakcik, uncle, datuk, "tan sri"]
+    p: [puan, pn., pn, mrs, mrs., ms, ms., miss, madam, mdm, mdm., makcik, auntie, aunty, kakak, kak, datin, "puan sri", toh puan]
+  kumpulan_jantina:
+    l: [melayu_l, india_l, iban_l]
+    p: [melayu_p, india_p, iban_p]
+
+# MyPII v2 — data v3 (PELAN-V2 Keputusan 3; PRA-DAFTAR pindaan 2026-11-04). Penjana `mypii/jana/nilai_v3.py` + `jana.jana_v3`
+# (`make jana-v3`). Split v1 di atas tidak disentuh. Fakta format (kod entiti SSM, kod kawasan 08X) = config/ssm_rob.yaml.
+jana_v3:
+  keluar: data/bench_v3
+  templat: [data/templat_v3]        # P5 (5 Nov): templat LLM keluarga A (Nemotron); P3 memakai data/templat sementara
+  templat_ujian3: data/templat_ujian3
+  nama_ujian3: data/nama_ujian3.yaml
+  bilangan: {latih3: 3000, dev3: 1000, ujian3: 1000}
+  benih_tambah: {latih3: 3, ujian3: 4}   # jana.benih + 3 (latih3/dev3), + 4 (ujian3)
+  bahasa: {ms: 0.4, en: 0.3, manglish: 0.3}
+  nisbah_negatif_keras: 0.25
+  ssm_tahun: [1960, 2026]
+  # tahun minimum LLP = config/ssm_rob.yaml llp.tahun_min (satu sumber, fakta rasmi Akta 743)
+  # kebarangkalian per slot: llp = MY_SSM → LLP (b); talian_bs = MY_PHONE → Sabah/Sarawak (c); ocr / patah = setiap nilai positif → (d)
+  # (eksklusif); neg12 = NEG_AHLI → 12 digit berbentuk MyKad (e, dicatat hanya bila teks tiada kata negatif)
+  kebarangkalian: {llp: 0.35, talian_bs: 0.3, ocr: 0.1, patah: 0.1, neg12: 0.6}
+  ocr_ganti: {"0": "O", "1": "l", "5": "S", "8": "B"}
+  patah_baris: ["\n", " \n", "\n  "]
+  patah_sempadan: {MY_NRIC: [6, 8], MY_SSM: [4, 6], MY_PHONE: [3]}   # nombor rapat tanpa pemisah: kedudukan sempadan kumpulan
+  gaya_talian_bs: ["{kod}-{a}{b}", "{kod}-{a} {b}", "{kod} {a} {b}", "({kod}) {a}{b}", "+60{k}-{a}{b}", "+60 {k} {a} {b}"]
+  gaya_neg12: ["{a}{b}{c}", "{a} {b} {c}", "{a}-{b}-{c}"]
+
+nilai:
+  entiti: [MY_NRIC, MY_SSM, MY_PHONE]
+  ambang_skor: 0.4               # hasil Presidio di bawah ambang ini diabaikan
+  v1: {tag: mypii-v1-muktamad}   # sistem `mypii-v1` (§7-v2): kod + config tag ini dari git worktree sementara
+  split_dikunci: [ujian, ujian2, ujian3]  # perlu --benarkan-ujian (manusia sahaja, sekali sebelum terbit)
+  # PELAN-V2 P4: laluan split v3 (konfig.fail_split / fail_cincangan). Split lain = data/bench/<split>.jsonl + data/bench/CINCANGAN.json (v1)
+  split_fail:
+    latih3: {fail: data/bench_v3/latih3.jsonl, cincangan: data/bench_v3/CINCANGAN3.json}
+    dev3: {fail: data/bench_v3/dev3.jsonl, cincangan: data/bench_v3/CINCANGAN3.json}
+    ujian3: {fail: data/bench_v3/ujian3.jsonl, cincangan: data/bench_v3/KUNCI3.json}
+  peta_garis_dasar:              # HANYA untuk presidio-asal: entiti generik → entiti MyPII (garis dasar adil)
+    PHONE_NUMBER: MY_PHONE
+  iterasi:                       # PELAN-C C2a (ADR-006 §Iterasi): `make nilai STATUS=… KETERANGAN="…"` → satu baris TSV, tambah-sahaja
+    fail: hasil/iterasi.tsv
+    lajur: [tarikh, komit, dev_sha8, f1, status, baris_kod, keterangan]
+    status: [simpan, buang, crash, ukur]   # ukur = pengukuran tanpa keputusan (potongan dokumen/proses)
+    sistem_f1: mypii             # lajur f1 = `kunci_f1` tepat sistem ini
+    kunci_f1: "semua|*"
+    laluan_kod: [mypii/pengecam, config/mypii.yaml]   # baris_kod = git diff --numstat HEAD atas laluan ini
+    kotor_abai: [hasil]          # output larian (TSV ini, skor, carta) — tidak menjadikan `komit` bertanda `+`
+    had_keterangan: 300
+    carta:                       # PELAN-C C2b: `make carta` → SVG statik (stdlib, mypii/nilai/carta.py); palet = skil dataviz (3 slot pertama, sah semua-pasangan)
+      fail: hasil/kemajuan.svg
+      tajuk: "Kemajuan gelung pengecam MyPII · MyPII recogniser loop progress"
+      sari_kata:                 # satu baris SVG setiap unsur
+        - "Garis = F1 terbaik setakat ini (simpan sahaja), dipecah bila split dev berubah atau tidak diketahui (?)"
+        - "Line = best F1 so far (kept attempts only), broken when the dev split changes or is unknown (?)"
+      paksi_x: "Iterasi · Iteration"
+      paksi_y: "F1 tepat (semua|*) · Exact F1"
+      label_status:              # legenda; susunan = susunan lukisan
+        simpan: "simpan · kept"
+        buang: "buang · discarded"
+        ukur: "ukur · measured"
+        crash: "crash (di dasar · at floor)"
+      label_tiada_f1: "tiada F1 (di dasar) · no F1 (at floor)"
+      label_terbaik: "terbaik setakat ini · best so far"
+      label_lorong: "—"            # label lorong dasar (titik tanpa F1) di kiri paksi-y
+      label_dev: "dev"             # label pemisah segmen: "dev 531532cf"
+      lebar: 960
+      tinggi: 480
+      jidar: {kiri: 64, kanan: 24, atas: 124, bawah: 64}
+      langkah_x: 5               # label paksi-x setiap N iterasi
+      langkah_y: 0.05            # gridline + bundar julat y
+      had_tooltip: 160           # aksara keterangan dalam <title>
+      warna:                     # terang / gelap (prefers-color-scheme) — dataviz palette.md
+        terang: {permukaan: "#fcfcfb", dakwat: "#0b0b0b", dakwat2: "#52514e", senyap: "#898781", grid: "#e1e0d9", paksi: "#c3c2b7",
+                 simpan: "#2a78d6", buang: "#eb6834", ukur: "#1baf7a", crash: "#52514e"}
+        gelap: {permukaan: "#1a1a19", dakwat: "#f0efec", dakwat2: "#c3c2b7", senyap: "#898781", grid: "#2c2c2a", paksi: "#383835",
+                simpan: "#3987e5", buang: "#d95926", ukur: "#199e70", crash: "#c3c2b7"}
+      bentuk: {simpan: bulat, buang: segiempat, ukur: berlian, crash: pangkah}   # pengekodan kedua (bukan warna sahaja)
+  statistik:                     # PELAN-C C3a (ADR-006 §Statistik): `make statistik` membaca hasil/ramalan/ (tiada Presidio/rangkaian)
+    ulangan: 1000                # sampel semula bootstrap DAN pilih atur ujian rawak
+    benih: 2026                  # random.Random(benih) — benih sama → JSON sama bait-demi-bait
+    aras: 0.95                   # selang keyakinan persentil
+    kaedah: holm                 # pembetulan perbandingan berganda atas k garis dasar (hanya holm disokong)
+    rujukan: mypii               # sistem A dalam setiap perbandingan berpasangan (A lawan setiap garis dasar)
+    kunci_utama: "semua|*"       # hipotesis utama; kunci lain = "semua|<entiti>" untuk setiap nilai.entiti (sekunder)
+    folder_ramalan: ramalan      # <--keluar>/<folder>/<split>-<sistem>.jsonl, satu baris {id, spans} setiap dokumen
+    perpuluhan: 4
+    laporan: docs/BANDINGAN.md   # PELAN-C C3b (ADR-013): blok "Ketidakpastian" dijana dari hasil/<split>-statistik.json
+    penanda: ["<!-- statistik:mula -->", "<!-- statistik:tamat -->"]
+    pradaftar:                   # PELAN-C C4a (ADR-007): analisis kuasa `make kuasa` → docs/PRA-DAFTAR.md (angka disalin dari output)
+      alfa: 0.05                 # aras kesignifikanan keluarga (sehala), Holm atas k garis dasar
+      kuasa: 0.80                # kebarangkalian mengesan kesan sebesar MDE
+      dokumen_sasaran: 1000      # saiz split ujian2 (KUNCI2.json `dokumen`); ralat piawai diskala √(n_dev / n_sasaran)
+      fail: docs/PRA-DAFTAR.md   # PELAN-C C4b (ADR-014): split dikunci ditolak bila fail ini tiada/kotor dalam git HEAD
+      # PELAN-V2 P4: split v3 dikunci juga menuntut ≥ `min` tajuk pindaan `corak` dalam fail itu di HEAD (ujian3: pindaan v2 P2
+      # + pindaan kuasa P13 — ujian3 dibuka hanya selepas pengecam v2 dibekukan; PRA-DAFTAR §7-v2)
+      pindaan_split:
+        ujian3: {corak: '^### \d{4}-\d{2}-\d{2} .*MyPII v2', min: 2}
+    v2:                          # PRA-DAFTAR pindaan 2026-11-04 "MyPII v2": H4a/H4b atas split v3 (statistik_v2.py); lain = deskriptif
+      split: [dev3, ujian3]
+      alfa: 0.05
+      beza_kecil: 0.02           # hipotesis keunggulan dengan Δ < ini dilapor "beza kecil" walau disokong
+      belanja_luar_usd: 3.399903  # belanja ujian v1 TIDAK dikomit (PRA-DAFTAR v2 §Haiku: RINGKASAN v1 5.535451 − lejar 2.135548)
+      margin_kos: 1.5            # baki ≥ anggaran Haiku ujian3 × ini (scripts/ujian3-muktamad.sh)
+      hipotesis:
+        H4a: {sistem: "llm:anthropic/claude-haiku-5-5", margin: 0.01}   # bukan-inferioriti, δ = 0.01; p rawak deskriptif
+        H4b: {sistem: mypii-v1, margin: 0, rawak: true}                 # v2 > v1; p rawak × k juga syarat
+
+# 9router (PELAN-B). Kunci dari env (nama di bawah), TIDAK dalam repo. Semua arahan dalam mesej `user` (cbai/* membuang role:system).
+llm:
+  url: http://127.0.0.1:20128/v1/chat/completions
+  env_kunci: MYPII_9ROUTER_KEY
+  serentak: 2
+  ulang: 3                       # cubaan setiap model sebelum beralih ke sandaran
+  jeda_saat: 5
+  had_masa_saat: 180
+  # v2.x (5 Nov 2026): dihantar dalam setiap permintaan 9router. Tanpanya pembekal memakai lalai sendiri (Cloudflare = 256 token → jawapan
+  # templat Mistral terpotong, probe ujian3 gagal 0/16). Kunci cache garis dasar 9router TIDAK berubah (garis.kunci_cache) — jawapan lama kekal
+  # dipakai; buang baris ini = tingkah laku lama.
+  max_tokens: 4096
+  nice: 10
+  penjana:                       # peranan model: PELAN-B §Peranan model (asingkan keluarga)
+    ujian2: {model: cbcn/kimi-k3, sandaran: [cbcn/glm-5.3], suhu: 0.8}
+    latih: {model: ag/gemini-3.8-flash, sandaran: [], suhu: 0.8}   # PELAN-B tidak menyenarai sandaran untuk latih
+    # PELAN-V2 (PRA-DAFTAR pindaan 2026-11-04): calon + susunan TETAP; hanya calon pertama yang lulus `--probe` dipakai (tiada sandaran
+    # semasa jana). Keluarga A (latih3/dev3) ≠ keluarga B (ujian3) ≠ penjana/garis dasar lepas — `templat_llm.keluarga`.
+    # Pindaan 2026-11-05: StepFun GAGAL probe 4 Nov (kualiti), Hunyuan tidak boleh dipanggil [disunting] → Nemotron, tiada sandaran.
+    latih3: {model: rv/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-NVFP4, sandaran: [], suhu: 0.8}
+    # Pindaan 2026-11-05 (c), ADR-020 (keputusan pemilik): MiniMax/Grok tidak boleh dipanggil → Mistral, sandaran Claude Sonnet (API terus).
+    ujian3: {model: cf/@cf/mistralai/mistral-small-3.1-24b-instruct, sandaran: [anthropic/claude-sonnet-5-5], suhu: 0.8}
+
+# Garis dasar pesaing (PELAN-B B3, ADR-011) — sistem harness `pii-guard` dan `llm:<model>`. Bukan sebahagian gelung pengecam.
+garis_dasar:
+  pii_guard:                     # laizhenyoong/malaysia-pii-guard (extra `garis`, git dipin dalam pyproject)
+    peta: {MY_NRIC: MY_NRIC, PHONE_NUMBER: MY_PHONE}   # jenis entitinya → entiti MyPII; selebihnya (akaun bank, pasport, e-mel) diabaikan
+    entiti_disokong: [MY_NRIC, MY_PHONE]               # tiada SSM → dilapor juga `*` atas entiti ini sahaja
+  llm:
+    model:                       # PELAN-B §Peranan model: bukan keluarga penjana templat; tiada sandaran disenarai
+      - cf/@cf/meta/llama-3.3-70b-instruct-fp8-fast
+      - rv/deepseek-ai/DeepSeek-V4.1-Flash
+      - anthropic/claude-sonnet-5-5  # PELAN-CLAUDE (ADR-016): API Anthropic TERUS, tetapan dalam `anthropic:` di bawah
+      - anthropic/claude-haiku-5-5
+      - cf/@cf/mistralai/mistral-small-3.1-24b-instruct  # EKSPLORASI (ADR-017, PELAN-MODEL-LAIN P6): lulus probe P4, cache dev dikomit
+      - rv/zai-org/GLM-5.3-Flash                          # EKSPLORASI (sama); di luar Holm — `eksplorasi:` di bawah memutuskan
+    eksplorasi:                  # PRA-DAFTAR pindaan 2026-11-03 (ADR-017): CI + Δ + p mentah, DI LUAR keluarga Holm (k kekal 6).
+      - anthropic/claude-opus-5-5  # Masuk `model:` (di HUJUNG) hanya bersama cache dev selepas lulus probe/kos (PELAN-MODEL-LAIN P6).
+      - anthropic/claude-fable-5-1
+      - kr/gpt-5.6-sol
+      - qd/qmodel
+      - cf/@cf/mistralai/mistral-small-3.1-24b-instruct
+      - rv/zai-org/GLM-5.3-Flash
+    suhu: 0
+    cache: hasil/cache/llm       # <model>.jsonl, kunci sha256(model+prompt+teks), DIKOMIT → larian semula tanpa rangkaian
+    prompt: |
+      You are a PII detector for Malaysian text (Malay, English or Manglish). Find every occurrence of these identifiers in the document:
+      - MY_NRIC: Malaysian MyKad / NRIC identity card number (12 digits, often written YYMMDD-PB-####).
+      - MY_SSM: Malaysian company registration number (SSM), new 12-digit format or old format such as 123456-X.
+      - MY_PHONE: Malaysian phone number (mobile or landline, with or without +60).
+      Do not report account numbers, invoice or order numbers, member numbers, product codes, dates or other numbers.
+      Return ONLY a JSON array, one object per identifier: [{"teks": "<exact substring copied from the document>", "entiti": "MY_NRIC|MY_SSM|MY_PHONE"}].
+      "teks" must be copied character-for-character, without labels around it. Return [] if there is none.
+
+      Document:
+      {teks}
+    probe:                       # PRA-DAFTAR pindaan 2026-11-03: format sahaja (tiada F1) atas N dokumen PERTAMA ikut susunan fail
+      split: [dev]               # split lain DITOLAK sebelum fail dibaca
+      dokumen: 5
+      fail: hasil/{split}-probe-llm.json   # dikomit; kiraan + jenis ralat sahaja (tiada teks, tiada F1)
+    anthropic:                   # PELAN-CLAUDE (ADR-016) — model `anthropic/<id>`; suhu TIDAK dihantar (API menolak nilai bukan lalai)
+      env_kunci: ANTHROPIC_API_KEY   # `set -a; . ~/ops/mypii/anthropic.env; set +a` dalam shell larian sahaja
+      had_usd: 20                # had keras lejar (≤ 20, pemilik); panggilan yang boleh melepasinya TIDAK dibuat
+      lejar: hasil/cache/llm/anthropic-lejar.json   # dikomit; kiraan token + USD sahaja (tiada teks/kunci)
+      max_tokens: 1024           # jawapan cache LLM sedia ada ≤ 460 aksara; juga asas kos terburuk
+      aksara_setiap_token: 3     # anggaran token masuk untuk kos terburuk (dibundar ke atas)
+      had_masa_saat: 180
+      ulang_sdk: 3               # max_retries SDK (408/409/429/5xx/sambungan)
+      kos:                       # PELAN-CLAUDE P3 `make kos-claude`: count_tokens (percuma) SEBELUM larian
+        split: [dev]             # split lain DITOLAK (split dikunci tidak pernah dihantar)
+        fail: hasil/{split}-kos-claude.json   # dikomit; kiraan token + USD sahaja
+        serentak: 4
+        ulang: 6                 # ralat sementara (429/5xx/sambungan) selepas ulang_sdk; jeda linear
+        jeda_saat: 10
+        margin: 1.5              # pindaan 2026-11-03: × purata token keluar SEBENAR probe (anggaran calon eksplorasi, `--rancang`)
+        gugur: [anthropic/claude-fable-5-1, anthropic/claude-opus-5-5]   # susunan gugur bila Perlu > baki lejar (had TIDAK dinaikkan)
+        blok_rancang: rancang_eksplorasi   # kunci dalam `fail` yang ditulis `--rancang`
+      model:                     # harga USD sejuta token (dok Anthropic, 3 Nov 2026); `parameter` dihantar seperti adanya + masuk kunci cache
+        claude-sonnet-5-5:
+          harga: {masuk: 2.0, keluar: 10.0}
+          parameter: {thinking: {type: between_tools}}   # Sonnet 5.5 menolak `disabled`; between_tools = tiada pemikiran tanpa alat
+        claude-haiku-5-5:
+          harga: {masuk: 0.10, keluar: 0.50}             # prompt ≤ 100K token
+          parameter: {thinking: {type: disabled}}
+        # PRA-DAFTAR pindaan 2026-11-03 (eksplorasi, ADR-017): pemikiran TIDAK boleh dimatikan + `temperature` = 400 → kedua-duanya
+        # TIDAK dihantar; effort paras terendah; `max_tokens` per model (token pemikiran dikira dalam keluaran); tiada `fallbacks`.
+        claude-opus-5-5:
+          harga: {masuk: 4.0, keluar: 20.0}
+          max_tokens: 4096
+          parameter: {output_config: {effort: low}}
+        claude-fable-5-1:
+          harga: {masuk: 10.0, keluar: 50.0}
+          max_tokens: 4096
+          parameter: {output_config: {effort: low}}
+
+# Laporan bandingan dev (PELAN-B B4, ADR-012) — `make bandingan` menulis blok jana dalam `laporan`.
+bandingan:
+  laporan: docs/BANDINGAN.md
+  penanda: ["<!-- jana:mula -->", "<!-- jana:tamat -->"]
+  fail_masa: hasil/dev-masa.json # `make bandingan-masa` sahaja (berubah setiap larian); DIKOMIT (.gitignore pengecualian)
+  sampel_latensi: 20             # dokumen dev pertama ikut id, satu panggilan LLM bersiri setiap satu
+  token_label: 3                 # token terakhir sebelum span dalam baris = label kumpulan ralat
+  label_teratas: 5
+  contoh_setiap_label: 1
+  lebar_petikan: 40              # aksara di kiri/kanan span dalam contoh
+
+templat_llm:
+  sasaran:
+    ujian2:
+      folder: data/templat_ujian2
+      fail_nama: data/nama_ujian2.yaml
+      genre:                     # ≥ 8 setiap bahasa; sengaja berbeza daripada genre data/templat/
+        tuntutan_insurans: "insurance claim form or claim follow-up message"
+        permohonan_pinjaman: "personal or business loan application / financing enquiry"
+        pendaftaran_sekolah: "school / tuition / kindergarten registration and parent notices"
+        kurier: "courier / parcel delivery notices, failed delivery, pickup arrangements"
+        sewa_rumah: "house or room rental ad, tenancy agreement excerpt, landlord-tenant chat"
+        jual_beli: "second-hand marketplace listing and buyer-seller chat (car, phone, furniture)"
+        laporan_polis: "police report / lost item report / incident statement excerpt"
+        hr_pekerja: "HR onboarding form, payslip note, staff record, resignation letter"
+        pusat_panggilan: "call-centre transcript or ticket notes"
+        media_sosial: "public social-media post or comment (community group, forum)"
+    latih:                       # B2: data/templat/llm_<bahasa>.yaml; genre sengaja BERBEZA daripada genre ujian2 di atas
+      folder: data/templat
+      awalan_fail: llm_
+      fail_nama: data/nama_tambahan.yaml
+      min_templat: 240
+      elak_sasaran: [ujian2]     # templat + nama sasaran ini ditolak bila sama (kod membanding; kandungan tidak dicetak)
+      prompt_tambahan: |
+        Hard negatives must vary: 12-digit membership / insurance policy numbers ({NEG_AHLI}) and bank accounts ({NEG_AKAUN}) next to
+        words like "member no." or "policy"; product codes inside brackets, e.g. "Item ({NEG_KOD})"; timestamps ({NEG_TARIKH});
+        serial / reference numbers ({NEG}, {NEG_INVOIS}).
+      genre:
+        penyata_bank: "bank transfer notification, e-wallet receipt, bank statement remark"
+        keahlian: "gym / club / cooperative membership registration, renewal or card replacement"
+        polisi_takaful: "insurance / takaful policy renewal notice, nominee update, premium reminder (not a claim)"
+        tempahan_hotel: "hotel / homestay / travel package booking confirmation and guest details"
+        servis_kenderaan: "car workshop service record, road tax / licence renewal reminder, spare-part order"
+        bil_utiliti: "electricity / water / internet bill, account statement, disconnection notice"
+        pesanan_online: "online shop order confirmation, refund or return request chat"
+        farmasi: "pharmacy order, prescription refill, panel clinic letter"
+        majlis: "wedding / event RSVP, catering or venue booking"
+        derma_zakat: "zakat / mosque / charity donation receipt or pledge form"
+        acara_sukan: "fun run / sports tournament registration and participant list"
+        pembekal_b2b: "supplier quotation, purchase order, tender submission between companies"
+    # --- PELAN-V2 P4 (PRA-DAFTAR pindaan 2026-11-04): sasaran v3 = `jana_sasaran_v3` (slot v3 + kategori b–e, probe dahulu). ---
+    latih3:                      # keluarga A → data/templat_v3/llm_<bahasa>.yaml (P5: jana_v3.templat); nama = nama.yaml + nama_tambahan sedia ada
+      v3: true
+      folder: data/templat_v3
+      awalan_fail: llm_
+      min_templat: 240
+      panggilan: 2               # pindaan 2026-11-05 (b): 2 panggilan setiap bahasa × genre, digabung sebelum pengesah (lalai 1)
+      min_kategori: 20           # templat yang memakai slot setiap kategori b–e (`kategori_v3`), setiap kategori
+      elak_folder: [data/templat, data/templat_ujian, data/templat_ujian2, data/templat_ujian3]   # pendua ditolak; kandungan tidak dicetak
+      genre_unik_dari: [data/templat_ujian, data/templat_ujian2, data/templat_ujian3]   # kunci genre tidak boleh sama (latih B2 boleh)
+      elak_nama: []
+      genre:                     # genre latih B2 + tiga genre baharu untuk kategori v3; BERBEZA daripada genre ujian2 + ujian3
+        penyata_bank: "bank transfer notification, e-wallet receipt, bank statement remark"
+        keahlian: "gym / club / cooperative membership registration, renewal or card replacement"
+        polisi_takaful: "insurance / takaful policy renewal notice, nominee update, premium reminder (not a claim)"
+        tempahan_hotel: "hotel / homestay / travel package booking confirmation and guest details"
+        servis_kenderaan: "car workshop service record, road tax / licence renewal reminder, spare-part order"
+        bil_utiliti: "electricity / water / internet bill, account statement, disconnection notice"
+        pesanan_online: "online shop order confirmation, refund or return request chat"
+        farmasi: "pharmacy order, prescription refill, panel clinic letter"
+        majlis: "wedding / event RSVP, catering or venue booking"
+        derma_zakat: "zakat / mosque / charity donation receipt or pledge form"
+        acara_sukan: "fun run / sports tournament registration and participant list"
+        pembekal_b2b: "supplier quotation, purchase order, tender submission between companies"
+        imbasan_borang: "text extracted from a scanned or photographed paper form (odd line breaks, OCR noise in letters)"
+        kedai_sabah_sarawak: "shop, office or workshop notices and customer messages in Sabah or Sarawak (landline contacts)"
+        firma_llp: "letters, invoices and engagement notes from professional firms registered as LLPs (accounting, legal, consulting)"
+    ujian3:                      # keluarga B → data/templat_ujian3/<bahasa>.yaml + data/nama_ujian3.yaml (= jana_v3.templat_ujian3 / nama_ujian3)
+      v3: true
+      folder: data/templat_ujian3
+      fail_nama: data/nama_ujian3.yaml
+      panggilan_nama: 4          # pindaan 2026-11-05 (d): 4 panggilan setiap kategori nama, digabung sebelum tapis_nama (lalai 1)
+      min_templat: 150
+      min_kategori: 10
+      elak_folder: [data/templat, data/templat_ujian, data/templat_ujian2, data/templat_v3]
+      genre_unik_dari: [data/templat, data/templat_ujian, data/templat_ujian2, data/templat_v3]
+      elak_nama: [data/nama_tambahan.yaml, data/nama_ujian2.yaml]   # + data/nama.yaml (selalu); persilangan mesti kosong
+      genre:                     # ≥ 8; BERBEZA daripada semua genre lama (kunci diperiksa kod atas setiap folder elak sebelum LLM dipanggil)
+        pertanian_nelayan: "farmer / fisherman subsidy or aid application, agricultural cooperative notice"
+        asrama_pelajar: "college or university hostel placement, student card replacement, exam venue notice"
+        kontraktor_rumah: "home renovation contractor quotation, plumber or electrician job sheet"
+        permit_majlis_daerah: "local council application: business licence, signboard permit, assessment tax notice"
+        sekolah_memandu: "driving school enrolment, test booking and instructor notes"
+        rawatan_haiwan: "veterinary visit record, pet vaccination card, pet adoption form"
+        surat_guaman: "lawyer's letter, statutory declaration or power of attorney excerpt"
+        persatuan_penduduk: "residents' association or society meeting minutes, committee list, levy notice"
+        latihan_kemahiran: "vocational / skills training course enrolment and certificate collection"
+        lori_pindah: "house-moving lorry booking, mover's inventory list and delivery schedule"
+  bahasa:
+    ms: "Bahasa Melayu (standard Malay as written in Malaysia)"
+    en: "Malaysian English (write the whole document in English; Malay only for local terms such as place or form names)"
+    manglish: "Manglish (casual Malaysian mix of Malay and English, with typical slang and abbreviations)"
+  bahasa_semak:                  # ADR-005: templat 'en'/'ms' mesti didominasi kata fungsi bahasanya (manglish tidak disemak)
+    min_nisbah: 0.6              # bahagian kata fungsi bahasa sendiri / semua kata fungsi yang dikenali
+    min_kata_fungsi: 3           # kurang daripada ini = TOLAK `bahasa_tidak_dinilai` untuk en/ms (penyemak 30 Okt: 24/80 en lulus senyap)
+    # kata fungsi + kata dokumen lazim yang hanya wujud dalam SATU bahasa (bukan nama tempat/gelaran: jalan, encik, puan sengaja TIADA)
+    kata_fungsi:
+      en: [the, and, of, to, is, are, was, were, for, with, your, you, please, this, that, these, we, our, has, have, had, will,
+           would, on, at, from, been, be, by, an, it, its, as, or, if, not, can, should, which, who, after, before, kindly, here,
+           a, in, all, any, my, me, i, us, they, their, he, she, his, her, them, may, must, do, does, did, into, about, per, than,
+           then, also, only, upon, regarding, attached, below, above, following, dated, under, until, within, without, between,
+           through, dear, regards, thank, thanks, application, form, payment, received, monthly, rent, rental, loan, business,
+           financing, claim, accident, personal, agency, manages, contact, details, customer, reference, number, amount, address,
+           name, date, office, branch, member, applicant, delivery, account, there, when, where, but, being]
+      ms: [dan, yang, untuk, dengan, ini, itu, ialah, adalah, telah, akan, kepada, dari, daripada, sila, kami, anda, saya, tidak,
+           pada, bagi, sudah, boleh, atau, jika, kerana, oleh, dalam, sebagai, juga, belum, perlu, bahawa, tersebut, kita, mohon,
+           di, ke, pihak, sahaja, lagi, segera, dibuat, diminta, berikut, sebarang, bersama, terhadap, antara, tentang, melalui,
+           hingga, sehingga, serta, semua, mengenai, selepas, sebelum, semasa, setiap, nama, tarikh, alamat, maklumat, butiran,
+           pelanggan, rujukan, nombor, urusan, terima, kasih, bayaran, hubungi, diterima, bulanan, sewa, sewaan, pinjaman,
+           pembiayaan, perniagaan, peribadi, permohonan, borang, tuntutan, kemalangan, agensi, menguruskan, jumlah, baki,
+           kenderaan, rumah, pejabat, cawangan, ahli, pemohon, penerima, penghantaran, akaun, hari, bulan, tahun]
+  templat_setiap_panggilan: 8
+  negatif_setiap_panggilan: 3
+  panjang: [40, 600]
+  min_templat: 150
+  min_genre_setiap_bahasa: 8
+  min_nisbah_negatif: 0.25
+  slot:                          # huraian untuk prompt; set slot sah = slot yang dikenali mypii/jana/jana.py
+    NAMA: "person's full name"
+    SYARIKAT: "company / business name"
+    BANDAR: "Malaysian town"
+    TARIKH: "date"
+    MY_NRIC: "MyKad / NRIC number of a person"
+    MY_SSM: "company registration number (SSM, new 12-digit format)"
+    MY_SSM_LAMA: "company registration number (SSM, old format)"
+    MY_PHONE: "phone number"
+    NEG: "generic reference / order number (NOT personal data)"
+    NEG_AKAUN: "bank account number (NOT personal ID)"
+    NEG_INVOIS: "invoice / receipt / tracking number"
+    NEG_TEL: "incomplete or invalid phone-like number"
+    NEG_TARIKH: "numeric date or timestamp"
+    NEG_KOD: "product code / serial number"
+    NEG_AHLI: "12-digit membership / insurance policy number (NOT personal ID)"
+  nama:
+    minta: 60                    # dipohon setiap kategori; ditapis kemudian
+    min: {pertama_melayu_l: 20, pertama_melayu_p: 20, pertama_cina: 15, pertama_inggeris: 10, pertama_india_l: 10, pertama_india_p: 10,
+          pertama_iban_l: 6, pertama_iban_p: 6, pertama_kadazan: 8, keluarga_cina: 15, keluarga_kadazan: 8, syarikat: 10, bandar: 10}
+    sambung: [bin, binti, bt, bte, "a/l", "a/p", anak, al, ap, "@"]   # tidak dikira untuk persilangan token nama orang
+    # bentuk (ADR-005): jana.py NAMA = nama_pertama + " " + nama_akhir, jadi setiap senarai mesti BAHAGIAN nama, bukan nama penuh
+    maks_token_pertama: 2
+    penyambung_akhir: [bin, binti, bt, bte, "a/l", "a/p", anak]       # nama_akhir = penyambung + nama, ATAU satu token (nama keluarga)
+    maks_token_selepas_penyambung: 2
+    penyambung_bapa_melayu: [bin, binti, bt, bte]                    # nama bapa Melayu = nama pertama biasa, bukan nama keluarga
+    akhiran_syarikat: ["sdn bhd", "bhd", berhad, enterprise, enterprises, trading, plt, trade, ventures, venture, resources,
+                       holdings, services, solutions, industries, corporation, corp, company, "co", llp, ltd, limited, group,
+                       logistics, logistik, katering, catering, agency, agensi, studio, mart, store, kedai]
+    # ADR-008: nama ujian2 BERKUMPULAN (komuniti × jantina) — `pertama_*` = nama diri, `keluarga_*` = nama keluarga satu token.
+    # jana.py menyusun NAMA ikut `jana.nama_kumpulan` (penyambung sepadan jantina, nama bapa dari senarai lelaki komuniti sama).
+    # Senarai rata nama_pertama/nama_akhir (data/nama.yaml v1) kekal disokong; untuk sasaran berkumpulan ia = `format_rata` (tolak).
+    bentuk_bukan_orang:          # ADR-009: `bandar` = SATU nama tempat, `syarikat` = SATU nama syarikat (bukan triplet 'Nama | Syarikat | Bandar')
+      pemisah_larangan: ["|", ",", ";", ":", "\n", "\t"]
+      maks_token_bandar: 3       # 'Bandar Baru Bangi'
+      maks_token_syarikat: 6
+      syarikat_wajib_akhiran: true   # mesti berakhiran `akhiran_syarikat` (Sdn Bhd, Trading, PLT…) — selaras prompt `huraian.syarikat`
+    huruf_besar: true            # setiap token nama (selain penyambung) bermula huruf besar; penjana membetulkan, pengesah menolak
+    huraian:
+      pertama_melayu_l: "Malay MALE given names (one or two words, e.g. the style of 'Hakimi', 'Danial Hakim'); no bin/binti part, no surname"
+      pertama_melayu_p: "Malay FEMALE given names (one or two words, e.g. the style of 'Damia Qistina', 'Syahirah'); no bin/binti part, no surname"
+      pertama_cina: "Malaysian Chinese given names in romanised form, two syllables written as two capitalised words (e.g. the style of 'Jun Hao', 'Xin Yi'); no surname"
+      pertama_inggeris: "English given names commonly used by Malaysian Chinese and others (one word, e.g. the style of 'Desmond', 'Fiona'); no surname"
+      pertama_india_l: "Malaysian Indian MALE given names (one word, Tamil/Telugu/Malayalee/Punjabi); no a/l part, no surname"
+      pertama_india_p: "Malaysian Indian FEMALE given names (one word, Tamil/Telugu/Malayalee/Punjabi); no a/p part, no surname"
+      pertama_iban_l: "Iban MALE given names from Sarawak (one word); no anak part"
+      pertama_iban_p: "Iban FEMALE given names from Sarawak (one word); no anak part"
+      pertama_kadazan: "Kadazan-Dusun given names from Sabah (one word, male and female mixed); no surname"
+      keluarga_cina: "Malaysian Chinese SURNAMES in Malaysian romanisation (exactly one capitalised word, e.g. the style of 'Yeoh', 'Cheah')"
+      keluarga_kadazan: "Kadazan-Dusun family names from Sabah (exactly one capitalised word)"
+      # ADR-009: setiap entri = SATU nama sahaja (kimi-k3 memulangkan 'Nama | Syarikat | Bandar, Negeri' 61/61 dengan huraian lama)
+      syarikat: "invented small Malaysian business names ending in Sdn Bhd, Enterprise, Trading, PLT, Berhad or similar; must NOT be a real or well-known company. Each array element is ONLY the company name (2-6 words), with no person name, town, state or separator such as | or ,"
+      bandar: "real Malaysian town names (small and mid-size towns across all states, including Sabah and Sarawak). Each array element is ONLY the town name itself (1-3 capitalised words, e.g. the style of 'Tanah Merah', 'Kuala Kubu Bharu'), with no person name, company, state name or separator such as | or ,"
+  # PELAN-V2 P4: slot v3 (jana.isi_v3) → slot v1 setara (pengesah v1 dipakai atas teks dipetakan) + huraian prompt
+  slot_v3:
+    MY_SSM_LLP: {setara: MY_SSM, huraian: "registration number of a limited liability partnership (LLP)"}
+    MY_PHONE_BS: {setara: MY_PHONE, huraian: "Sabah or Sarawak landline phone number"}
+    OCR_MY_NRIC: {setara: MY_NRIC, huraian: "MyKad number as it appears in text from a scanned document (may contain an OCR error)"}
+    OCR_MY_SSM: {setara: MY_SSM, huraian: "company registration number as it appears in text from a scanned document (may contain an OCR error)"}
+    OCR_MY_PHONE: {setara: MY_PHONE, huraian: "phone number as it appears in text from a scanned document (may contain an OCR error)"}
+    PATAH_MY_NRIC: {setara: MY_NRIC, huraian: "MyKad number broken across a line break (narrow form column)"}
+    PATAH_MY_SSM: {setara: MY_SSM, huraian: "company registration number broken across a line break"}
+    PATAH_MY_PHONE: {setara: MY_PHONE, huraian: "phone number broken across a line break"}
+    NEG12_TANPA: {setara: NEG_AHLI, huraian: "12-digit membership / policy / account number written WITHOUT any label word next to it (NOT personal ID)"}
+  kategori_v3:                   # kategori PRA-DAFTAR v2 → slot templat yang menghasilkannya ((a) ROB GUGUR — P1: 0 awalan disahkan)
+    b: [MY_SSM_LLP]
+    c: [MY_PHONE_BS]
+    d: [OCR_MY_NRIC, OCR_MY_SSM, OCR_MY_PHONE, PATAH_MY_NRIC, PATAH_MY_SSM, PATAH_MY_PHONE]
+    e: [NEG12_TANPA]
+  keluarga:                      # model penjana v3 → keluarga (PRA-DAFTAR pindaan 2026-11-04); latih3 ∩ ujian3 mesti kosong
+    stp/step-3.7-flash: stepfun
+    cbai/hy3-preview: tencent
+    cbai/minimax-m3: minimax
+    gcli/grok-4.7: xai
+    rv/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-NVFP4: nvidia   # pindaan 2026-11-05 (keluarga A ganti)
+    cf/@cf/mistralai/mistral-small-3.1-24b-instruct: mistral   # pindaan 2026-11-05 (c): keluarga B ujian3
+    anthropic/claude-sonnet-5-5: anthropic                     # pindaan 2026-11-05 (c): sandaran B ujian3
+  keluarga_larangan: [kimi, gemini, claude, glm, llama, deepseek, gpt, qwen, mistral]   # penjana / garis dasar lepas (subrentetan model atau keluarga)
+  keluarga_larangan_kecuali:    # pindaan 2026-11-05 (c): pengecualian larangan HANYA untuk sasaran ini (keputusan pemilik, ADR-020)
+    ujian3: [mistral, anthropic]
+  penjana_larangan_tepat: [anthropic/claude-haiku-5-5]   # pembanding H4a — tidak boleh menjadi penjana mana-mana sasaran
+  anthropic_max_tokens: 4096     # penjanaan templat/nama via API Anthropic (senarai JSON > jawapan pengesan 1024)
+  probe:                         # `--probe`: format sahaja, calon ikut susunan llm.penjana.<sasaran>; pertama lulus = SATU-SATUNYA model jana
+    fail: data/probe/penjana-{sasaran}.json   # statistik sahaja (tiada kandungan); tidak ditindih
+    templat: 4
+    negatif: 1
+    genre: 4                     # pindaan 2026-11-05: genre pertama sasaran yang diprobe; ambang = JUMLAH sah merentas genre
+    min_nisbah_sah: 0.5          # templat lulus pengesah / dipohon
+  # padanan perkataan penuh (huruf kecil); perkataan umum (grab, boost, shell, tenaga, takaful) sengaja TIADA
+  jenama_larangan: [petronas, maybank, cimb, "public bank", "rhb", "hong leong", ambank, "bank islam", "bank rakyat", bsn, "affin",
+                    proton, perodua, airasia, "malaysia airlines", shopee, lazada, foodpanda, celcom, maxis, digi, "u mobile",
+                    unifi, "telekom malaysia", tnb, axiata, genting, "sime darby", "top glove", "99 speedmart", mydin, "aeon",
+                    "tesco", "jaya grocer", "pos laju", "j&t", "ninja van", "gdex", "dhl", "fedex", "touch 'n go", tng,
+                    "mr diy", "petron", caltex, "bhp", kfc, mcdonald, starbucks, "secret recipe",
+                    "prudential", "great eastern", "etiqa", "allianz", "zurich", "aia", "manulife",
+                    "samsung", "microsoft", "amazon"]
+  prompt_templat: |
+    You are writing TEMPLATES for a synthetic benchmark of Malaysian personal-data detection. Nothing refers to real people.
+    Language: $bahasa
+    Genre: $genre — $huraian
+    Write exactly $n distinct, realistic documents of this genre, 1-6 lines each, 40-500 characters, varied in tone, structure and wording.
+    Every name, company, town, date and every ID-like number must be a placeholder. Use ONLY these placeholders (exact spelling, with curly braces):
+    $slot
+    Rules:
+    - Write every document entirely in the language above.
+    - Exactly $neg of the $n documents contain NONE of {MY_NRIC}, {MY_SSM}, {MY_SSM_LAMA}, {MY_PHONE}; they contain hard negatives
+      ({NEG_AKAUN}, {NEG_INVOIS}, {NEG_TEL}, {NEG_TARIKH}, {NEG_KOD}, {NEG}) placed where such numbers naturally appear.
+    - The other documents contain at least one of {MY_NRIC}, {MY_SSM}, {MY_SSM_LAMA}, {MY_PHONE}; they may also contain negatives.
+    - Never write a number with 4 or more digits. Small numbers (1-3 digits) are fine.
+    - No real brand, bank, telco, courier or famous company names: use {SYARIKAT}. No real person names: use {NAMA}.
+    - Do not explain. Output ONLY a JSON array of strings, one string per document (use \n inside a string for line breaks).
+  prompt_templat_v3: |
+    You are writing TEMPLATES for a synthetic benchmark of Malaysian personal-data detection. Nothing refers to real people.
+    Language: $bahasa
+    Genre: $genre — $huraian
+    Write exactly $n distinct, realistic documents of this genre, 1-6 lines each, 40-500 characters, varied in tone, structure and wording.
+    Every name, company, town, date and every ID-like number must be a placeholder. Use ONLY these placeholders (exact spelling, with curly braces):
+    $slot
+    Rules:
+    - Write every document entirely in the language above.
+    - Exactly $neg of the $n documents contain NONE of $positif; they contain hard negatives placed where such numbers naturally
+      appear. At least one of them uses {NEG12_TANPA} with NO label word next to it (no "member", "policy", "account", "ahli", "polisi",
+      "akaun", "no. ahli" or similar anywhere in that document).
+    - The other documents contain at least one of $positif.
+    - Across the documents, use {MY_SSM_LLP} (a partnership firm), {MY_PHONE_BS} (a Sabah/Sarawak landline) and at least two of the
+      {OCR_...} / {PATAH_...} placeholders where a scanned or narrow-column document would naturally damage or break a number.
+    - Never write a number with 4 or more digits. Small numbers (1-3 digits) are fine.
+    - No real brand, bank, telco, courier or famous company names: use {SYARIKAT}. No real person names: use {NAMA}.
+    - Do not explain. Output ONLY a JSON array of strings, one string per document (use \n inside a string for line breaks).
+  prompt_nama: |
+    Generate $n distinct entries for a synthetic Malaysian benchmark: $huraian.
+    People and companies must be invented (no celebrities, politicians or real businesses).
+    Do NOT use any of these words or entries: $elak
+    Do not explain. Output ONLY a JSON array of strings.
+
+# Semakan label manusia / IAA (PELAN-IAA, ADR-015; pindaan PRA-DAFTAR 2026-10-31). NILAI sahaja — kod mypii/iaa/ membaca dari sini.
+iaa:
+  sampel:
+    fail: data/iaa/sampel.json   # id + split + bahasa + berspan + urutan SAHAJA (tiada teks)
+    benih: 20261031              # random.Random(benih) — pensampel strata DAN kocok urutan paparan
+    split: {dev: data/bench/dev.jsonl, ujian2: data/bench/ujian2.jsonl}   # ujian2: id/bahasa/bilangan span sahaja dibaca
+    bahasa: [ms, en, manglish]
+    setiap_strata: 25            # setiap split × bahasa × (berspan | negatif) → 2 × 3 × 2 × 25 = 300
+  uji:                           # penyemak `uji` (ujian pelayar): dokumen dev di LUAR sampel sahaja
+    dokumen: 6
+  pakej:
+    folder: ~/ops/mypii/iaa      # luar repo; backup harian ~/ops
+    bundel: dokumen.json         # teks + span emas mengikut urutan (baca-sahaja dalam kontena)
+    stor: jawapan.sqlite         # journal_mode=DELETE
+    penyemak: penyemak.json      # token setiap penyemak, 0600, tidak pernah dikomit/dilog
+  pelayan:
+    nama_hos: semak-mypii.sasateguh.com
+    hos: 0.0.0.0
+    port: 8080
+    had_badan: 16384             # bait maksimum badan POST
+    had_nilai_b: 20              # baris maksimum dalam kotak (b)
+    had_aksara_b: 40             # aksara maksimum setiap baris kotak (b)
+    token_bait: 32               # secrets.token_urlsafe(token_bait)
+  pilihan:
+    a: [betul, salah, jenis_lain]
+    b: [tiada, ada]
+    c: [ya, janggal]
+  llm:
+    model: cbcn/glm-5.3          # keluarga berlainan (Zhipu); TIADA sandaran — gagal berulang = berhenti, pemilik memilih
+    suhu: 0
+    cache: hasil/cache/iaa       # <model>.jsonl, kunci sha256(model+prompt+teks), DIKOMIT; nama fail TANPA "ujian"
+    keluar: data/iaa/jawapan/llm.jsonl
+    prompt: |
+      You are checking the labels of a synthetic Malaysian text (Malay, English or Manglish) used to evaluate PII detectors.
+      Identifier types:
+      - MY_NRIC: Malaysian MyKad / NRIC identity card number (12 digits, often written YYMMDD-PB-####).
+      - MY_SSM: Malaysian company registration number (SSM), new 12-digit format or old format such as 123456-X.
+      - MY_PHONE: Malaysian phone number (mobile or landline, with or without +60).
+      Account numbers, invoice or order numbers, member numbers, product codes and dates are NOT these identifiers.
+
+      Labelled spans (number. type: text):
+      {span}
+
+      Answer three questions:
+      (a) For each labelled span: "betul" (correct), "salah" (not this kind of identifier at all) or "jenis_lain" (an identifier of a different type above).
+      (b) List every MyKad/NRIC, SSM or phone number in the document that is NOT labelled, copied exactly. [] if none.
+      (c) Does the text read like a real Malaysian document? "ya" or "janggal" (awkward/unnatural).
+      Return ONLY JSON: {"span": ["betul|salah|jenis_lain", ... one per labelled span, in order], "tak_bertanda": ["..."], "realistik": "ya|janggal"}
+
+      Document:
+      {teks}
+  skor:
+    keluar: hasil/iaa.json       # DIKOMIT (.gitignore !hasil/iaa.json)
+    jawapan: data/iaa/jawapan    # <penyemak>.jsonl (eksport SQLite tanpa token; llm.jsonl format sama)
+    pasangan: [[p1, llm], [p1, p2]]   # pasangan yang tiada penyemak lengkap dilapor "menunggu"
+    utama: [p1, p2]              # pasangan utama bila p2 wujud
+    laporan: docs/BANDINGAN.md
+    penanda: ["<!-- iaa:mula -->", "<!-- iaa:tamat -->"]
+
+# PELAN-V2 P10/P11 (PRA-DAFTAR Keputusan 4, ADR-018): pengelas konteks TEMPATAN. Latih = `make latih-konteks` (scikit-learn, extra
+# `latih`) atas `split_latih` SAHAJA; ramalan = numpy dalam mypii/pengecam/pengelas.py. `sha256` = artifak yang dipakai (disemak).
+konteks:
+  aktif: true                    # P11: artifak dilatih + sha256 diisi
+  artifak: model/konteks-v2.json
+  sha256: 02d7d9bd378597622b0829da1b527e38ce8e7fac283da4e9279deca1acb2a0d3
+  split_latih: latih3
+  split_tolak: [dev3, ujian3, ujian2, ujian, dev, latih]   # ditolak SEBELUM fail dibaca (tambahan kepada nilai.split_dikunci)
+  benih: 2026
+  C: 1.0
+  iterasi_maks: 1000
+  min_kekerapan: 2               # ciri mesti muncul dalam ≥ N calon latih
+  perpuluhan: 6                  # pekali dibundar → artifak bait sama setiap latihan
+  ciri:                          # mypii/pengecam/ciri.py
+    tetingkap_token: 6
+    aksara_maks: 80
+    aksara_kiri: 24
+    ngram_aksara: 3
+    bentuk_maks: 4
+  gabung:                        # P11: cara + ambang ditala atas dev3 (dibenarkan — set penalaan)
+    cara: ganti                  # tapis = p < ambang → skor_negatif; ganti = p ≥ ambang → ≥ skor_min, lain skor_negatif
+    ambang: {MY_NRIC: 0.5, MY_SSM: 0.5, MY_PHONE: 0.5}
+
+# PELAN-V2 P16: laporan `make bandingan-v2` → docs/BANDINGAN-V2.md (mypii/nilai/bandingan_v2.py). Teks had = PRA-DAFTAR v2 + pindaan 5 Nov.
+bandingan_v2:
+  laporan: docs/BANDINGAN-V2.md
+  # Salinan arkib larian ujian3 SEKALI dalam repo (6 Nov 2026, MANIFEST.sha256 disahkan; asal luar repo di hos pembina).
+  # Laluan relatif = dari akar repo.
+  arkib_ujian3: hasil/arkib/ujian3-20261105T130039Z
+  sistem: [mypii, llm:anthropic/claude-haiku-5-5, mypii-v1, presidio-asal]
+  haiku: llm:anthropic/claude-haiku-5-5
+  entiti: [MY_NRIC, MY_SSM, MY_PHONE]
+  bahasa: [ms, en, manglish]
+  nama:
+    mypii: MyPII v2
+    mypii-v1: MyPII v1 (tag)
+    presidio-asal: Presidio asal
+    llm:anthropic/claude-haiku-5-5: Claude Haiku 5.5
+  had:
+    - "Data sintetik: nilai kategori (b)–(e) dijana oleh `nilai_v3.py` yang ditulis pembina yang sama dengan pengecam v2, jadi ujian3 mengukur liputan bentuk yang dijangka, bukan realisme teks sebenar."
+    - "Pengelas konteks dilatih atas gaya penjana A (Nemotron); ujian3 (penjana B) menguji pemindahan gaya antara DUA keluarga LLM sahaja."
+    - "v1 tidak pernah melihat kategori baharu → H4b dijangka besar; ia bukan bukti generalisasi melebihi kategori itu."
+    - "Reka bentuk v2 ditulis selepas ujian v1 dibuka; kategori datang dari ANALISIS-RALAT (sebelum ujian v1)."
+    - "Label telefon Sabah/Sarawak = julat libphonenumber (ADR-002), jadi recall telefon terlebih optimis."
+    - "Claude ialah keluarga pembantu yang menulis kod DAN penjana templat ujian3 (Sonnet) DAN pembanding H4a (Haiku). Teks ujian3 dari keluarga Anthropic dijangka memihak kepada Haiku, jadi arah bias menentang MyPII untuk H4a."
+    - "Satu split ujian3 dari satu penjana B; tiada replikasi. Calon B pertama (Mistral) gugur kerana pemotongan 256 token oleh kod pembina, bukan mutu (pindaan 2026-11-05 e)."
+    - "Satu larian Haiku setiap split (tidak deterministik); 1 jawapan rosak dikira sebagai tiada ramalan."
+  ringkasan_en: "On the sealed test3 split (1000 synthetic documents, template generator family B = Claude Sonnet 5.5, opened once), MyPII v2 reaches exact micro F1 {v2} versus Claude Haiku 5.5 {haiku} and MyPII v1 {v1}. Both pre-registered v2 hypotheses are supported (Holm k = 2): H4a non-inferiority to Haiku (Δ {da:+}, margin 0.01) and H4b improvement over v1 (Δ {db:+}). The recogniser runs locally (regex + validation + a small logistic-regression context classifier, numpy only) with no API at prediction time. All data are synthetic; see the limitations above."

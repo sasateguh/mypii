@@ -1,0 +1,195 @@
+# Dijana 2026-10-30 oleh `python -m mypii.jana.templat_llm --sasaran ujian2` (model: cbcn/kimi-k3). JANGAN sunting tangan.
+# DIMETERAI (PELAN-B B1): jangan buka, jangan sunting — gerbang menolak sebarang perubahan.
+genre:
+  tuntutan_insurans:
+  - Salam, saya {NAMA}, nak buat tuntutan insurans kereta langgar belakang kat {BANDAR} pada {TARIKH}. No polis report {NEG}, sila proses ya.
+  - Hi {SYARIKAT}, ini follow up claim medical saya. Nama {NAMA}, IC {MY_NRIC}, nombor polisi {NEG}. Dah hantar resit {NEG_INVOIS} tapi takde update lagi ni.
+  - 'Borang Tuntutan
+
+    Nama: {NAMA}
+
+    No KP: {MY_NRIC}
+
+    Tel: {MY_PHONE}
+
+    Tarikh kemalangan: {TARIKH}
+
+    Lokasi: {BANDAR}
+
+    Syarikat panel: {SYARIKAT} ({MY_SSM})'
+  - Tolong check status tuntutan {NEG} saya, dah {TARIKH} hantar. Resit bengkel {NEG_INVOIS}, akaun untuk bayaran {NEG_AKAUN}. Cepatlah sikit.
+  - Mak saya {NAMA} kena admit hospital kat {BANDAR} {TARIKH} lepas. Ni tuntutan insurans hospital, IC dia {MY_NRIC}, nombor telefon saya {MY_PHONE}. Minta update ASAP.
+  - 'Pengesahan tuntutan: {NEG_INVOIS}. Tarikh transaksi {NEG_TARIKH}, kod barang rosak {NEG_KOD}. Jumlah dalam akaun {NEG_AKAUN}. Nombor rujukan salah {NEG_TEL}.'
+  - Dear {SYARIKAT} (ROC {MY_SSM_LAMA}), saya {NAMA}, agent insurans. Client saya nak claim banjir rumah di {BANDAR} {TARIKH}. Boleh call saya {MY_PHONE} untuk details.
+  - Hi, saya {NAMA} dari {SYARIKAT} ({MY_SSM}). Claim tuntutan {NEG} untuk kakitangan kami, IC {MY_NRIC}, tel {MY_PHONE}. Invois hospital {NEG_INVOIS} dah dilampirkan. Terima kasih!
+  permohonan_pinjaman:
+  - Salam, saya {NAMA} nak mohon pinjaman perniagaan untuk {SYARIKAT}. No kad pengenalan saya {MY_NRIC}, SSM syarikat {MY_SSM}. Mohon pertimbangan ya, saya dari {BANDAR}.
+  - Hai, minat la dengan pakej pembiayaan korang. Boleh call saya balik tak? {MY_PHONE}. Nama {NAMA}, area {BANDAR} je. Terima kasih!
+  - Kepada pihak bank, saya {NAMA} ingin buat pertanyaan pinjaman peribadi. Akaun saya {NEG_AKAUN}, nombor rujukan permohonan {NEG}. Harap dapat balasan sebelum {NEG_TARIKH}.
+  - Boss, saya nak apply loan untuk expand kedai {SYARIKAT} kat {BANDAR}. SSM lama {MY_SSM_LAMA}, dah lama register. I/C {MY_NRIC}. Call la {MY_PHONE} bila free.
+  - Tolong semak status permohonan pinjaman saya ya. No invois bayaran {NEG_INVOIS}, kod produk pembiayaan {NEG_KOD}. Saya hantar borang pada {NEG_TARIKH}, tapi nombor telefon masa tu {NEG_TEL} salah tulis.
+  - Assalamualaikum. Saya {NAMA} dari {BANDAR}, nak tanya pasal personal loan. Gaji tetap tiap bulan, IC saya {MY_NRIC}. Tarikh mohon {TARIKH}. Boleh whatsapp {MY_PHONE}.
+  - Hi admin, berminat dengan skim pembiayaan SME untuk {SYARIKAT}. Nombor pendaftaran SSM baru {MY_SSM}. Alamat HQ kat {BANDAR}. Rujukan borang online {NEG}, akaun syarikat {NEG_AKAUN}.
+  - Nak tanya je, syarat pinjaman macam mana eh? Saya ada terima surat tawaran {NEG_INVOIS}, siri dokumen {NEG_KOD}. Telefon pejabat {NEG_TEL} macam tak lengkap. Tarikh luput {NEG_TARIKH}. Tolong jelaskan ya.
+  pendaftaran_sekolah:
+  - 'BORANG PENDAFTARAN MURID BARU
+
+    Nama murid: {NAMA}
+
+    No. MyKad: {MY_NRIC}
+
+    Tarikh lahir: {TARIKH}
+
+    No. tel penjaga: {MY_PHONE}
+
+    Alamat: {BANDAR}'
+  - 'Makluman Tadika {SYARIKAT} ({MY_SSM}):
+
+    Yuran pendaftaran kena clear sebelum {TARIKH} ya. Apa-apa hal call cikgu di {MY_PHONE}. Anak-anak bawak bekal sendiri, canteen tutup minggu ni.'
+  - Hi Puan, ni borang taska untuk {NAMA}. Tolong isi IC anak ({MY_NRIC}) dan alamat rumah kat {BANDAR}. Hantar balik sebelum {TARIKH}. Tq!
+  - 'Notis Mesyuarat PIBG
+
+    Semua ibu bapa dijemput hadir pada {TARIKH} jam 10 pagi. No. rujukan: {NEG}. Yuran kecemasan RM50 sahaja.'
+  - 'PUSAT TUISYEN {SYARIKAT} ({MY_SSM_LAMA})
+
+    Resit yuran bagi {NAMA} — Invois: {NEG_INVOIS}
+
+    Bayaran diterima pada {TARIKH}. Akaun {NEG_AKAUN}. Sebarang pertanyaan WhatsApp {MY_PHONE}.'
+  - 'Attn ibu bapa: kelas ganti Matematik dipindah ke {TARIKH}. Kod kelas {NEG_KOD}. Sila reply kat number {NEG_TEL} kalau tak dapat hadir. Terima kasih!'
+  - Pendaftaran anak saya {NAMA} dah siap. Cikgu minta salinan MyKad ({MY_NRIC}) nanti hantar masa ambil borang. Taska kat {BANDAR} tu senang je nak cari.
+  - 'Reminder: bayar deposit kelas renang sebelum {TARIKH}. Ref {NEG}, invois {NEG_INVOIS}. Jangan bank in lewat, nanti kena cas lebih. Timestamp booking: {NEG_TARIKH}.'
+  kurier:
+  - 'Hi {NAMA}, parcel anda dari {SYARIKAT} dah sampai hub {BANDAR}. Sila ambil sebelum {TARIKH}. Tracking: {NEG_INVOIS}. Tksh!'
+  - Aiyo {NAMA}, tadi posmen datang rumah xde orang la. Parcel {NEG_INVOIS} simpan kat pejabat {SYARIKAT} {BANDAR}. Call {MY_PHONE} utk redelivery ya.
+  - 'NOTIS {SYARIKAT}: Penghantaran gagal ke alamat {NAMA} di {BANDAR} pada {TARIKH}. Mohon sahkan IC {MY_NRIC} semasa kutipan. Rujukan {NEG}.'
+  - '{NAMA}, brg u dh lebey 3 hari kat stor kami. Invoice {NEG_INVOIS}, kod brg {NEG_KOD}. Tolong dtg ambil cepat sebelum {TARIKH}, kalau tak kami pulang balik tau.'
+  - Salam, ini {SYARIKAT}. SSM kami {MY_SSM}. Pesanan {NEG} utk {NAMA} tertahan sbb alamat tak lengkap. Ws {MY_PHONE} dgn alamat penuh & {BANDAR} sekali ya.
+  - 'Makluman: caj simpanan parcel {NEG_INVOIS} akan dikenakan mulai {NEG_TARIKH}. Bayaran ke akaun {NEG_AKAUN} sahaja. — {SYARIKAT} ({MY_SSM_LAMA}), {BANDAR}'
+  - '{NAMA}, abg kurier try call {NEG_TEL} tak dapat la. Parcel {NEG} tunggu kat kiosk {SYARIKAT} {BANDAR} sampai {TARIKH}. Bawak IC {MY_NRIC} masa pickup.'
+  - Hi {NAMA}! Nak hantar parcel {NEG_INVOIS} esok pagi area {BANDAR}. Confirm kat {MY_PHONE} sebelum {TARIKH} ok? Ruj {NEG_KOD}. — {SYARIKAT}
+  sewa_rumah:
+  - Bilik master utk disewa di {BANDAR}, fully furnished, ada aircond & wifi. RM sebulan je, deposit 2 bulan. Berminat call/ws {NAMA} kat {MY_PHONE}. Boleh masuk {TARIKH}.
+  - 'Kepada {NAMA},
+
+    Sila bayar sewa bulan ni ke akaun {NEG_AKAUN} sebelum {NEG_TARIKH}. Lewat kena denda RM seminit. Ref no: {NEG_INVOIS}.
+
+    Tuan rumah.'
+  - 'Perjanjian Tenancy
+
+    Diantara tuan rumah {NAMA} (IC: {MY_NRIC}) dan penyewa {NAMA} (IC: {MY_NRIC}) bagi premis di {BANDAR}. Sewa RM sebulan bermula {TARIKH}. Didaftarkan bawah syarikat {SYARIKAT} (No. SSM: {MY_SSM}).'
+  - hi kak, sy {NAMA}, berminat dgn rumah sewa area {BANDAR} tu. Boleh tak arrange viewing {TARIKH}? no hp sy {MY_PHONE}. ic sy {MY_NRIC} kalau kak nak verify dulu. tq!
+  - 'FOR RENT: Rumah teres 2 tingkat {BANDAR}, 3 bilik 2 bilik air. Agent: {SYARIKAT} ({MY_SSM_LAMA}). Hubungi {NAMA} {MY_PHONE}. Listing code: {NEG_KOD}.'
+  - Bos, meter air rosak la, tukang baiki {SYARIKAT} kata order no {NEG} tapi dia call no lama {NEG_TEL} tak dapat. Invoice {NEG_INVOIS} nanti sy forward. Pg ni {TARIKH} dia datang.
+  - 'Surat Perjanjian Sewa Bilik
+
+    Nama Penyewa: {NAMA}
+
+    No. MyKad: {MY_NRIC}
+
+    Telefon: {MY_PHONE}
+
+    Alamat: {BANDAR}
+
+    Tarikh Mula: {TARIKH}
+
+    Deposit: RM bayar sekali.'
+  - Wtsapp je {MY_PHONE} kalau nak sewa room di {BANDAR}, owner {NAMA} sporting je. Kos RM satu bulan, ejen {SYARIKAT} ssm {MY_SSM}. Takde kontrak panjang, masuk terus {TARIKH}.
+  jual_beli:
+  - Salam bro, kereta masih ada ke? Saya {NAMA} dari {BANDAR}, berminat nak tengok Sabtu ni {TARIKH}. Boleh call saya {MY_PHONE}, tq!
+  - 'Untuk dijual: sofa 3 seater, kondisi tiptop, ambil sendiri kat {BANDAR}. Harga boleh nego. Kod item {NEG_KOD}. Berminat PM cepat!'
+  - 'Bro minta IC sekeping untuk tempahan ya. Ni saya bagi: {MY_NRIC}, nama {NAMA}. Invois nanti hantar ke {NEG_INVOIS}, transfer masuk akaun {NEG_AKAUN}.'
+  - Kedai {SYARIKAT} ada jual phone second murah2. SSM kami {MY_SSM} (dulu {MY_SSM_LAMA}), order rujukan {NEG}. Whatsapp {MY_PHONE} untuk deal.
+  - 'Buyer: Boss, nak COD boleh? Petang ni lepas kerja.
+
+    Seller: Ok jom, area {BANDAR} jam 7. Bagi nombor senang contact: {MY_PHONE}.
+
+    Buyer: Noted boss, nanti saya update.'
+  - Perhatian! Jangan bank in sebelum verify. No telefon tu {NEG_TEL} tak boleh dial langsung, tracking barang {NEG_INVOIS} pun tak wujud. Tarikh pos katanya {NEG_TARIKH}. Kena scam lah bro.
+  - Meja study solid, kusi sekali, jual sebab nak pindah dari {BANDAR} bulan depan. Rujukan iklan {NEG}, resit lama {NEG_INVOIS}. First come first serve ya.
+  - Salam, saya {NAMA} wakil {SYARIKAT}. Nak beli 5 unit untuk ofis di {BANDAR}. Minta quotation sebelum {TARIKH}, kami perlukan dokumen IC {MY_NRIC} untuk kontrak. Terima kasih.
+  laporan_polis:
+  - 'LAPORAN POLIS
+
+    Saya, {NAMA}, No. MyKad {MY_NRIC}, ingin melaporkan bahawa dompet saya hilang di pasar {BANDAR} pada {TARIKH}. Kalau ada jumpa boleh call saya {MY_PHONE}.'
+  - Tuan, saya {NAMA} nak repot motor kena curi depan kedai {SYARIKAT} kat {BANDAR}, lebih kurang {TARIKH} punya cerita. MyKad saya {MY_NRIC}, hp {MY_PHONE}.
+  - Kehilangan beg galas semasa balik kerja. Pemilik {NAMA}, boleh hubungi {MY_PHONE}. Resit pembelian {NEG_INVOIS}, siri beg {NEG_KOD}.
+  - Saya {NAMA} ({MY_NRIC}) melaporkan akaun bank saya {NEG_AKAUN} ada transaksi pelik, invois {NEG_INVOIS}, berlaku pada {TARIKH} di {BANDAR}. Minta tindakan.
+  - Repot kena scam la tuan. Nombor pelaku {NEG_TEL}, dia cakap dari syarikat {SYARIKAT}. Saya dah bank-in kat akaun {NEG_AKAUN} rujukan {NEG}. Tarikh {NEG_TARIKH}.
+  - Saya, {NAMA}, pekerja {SYARIKAT} (No. SSM {MY_SSM}), melaporkan laptop syarikat hilang di stesen bas {BANDAR} pada {TARIKH}. Hubungi saya {MY_PHONE} atau MyKad {MY_NRIC}.
+  - Barang pos tak sampai-sampai. Tracking {NEG_INVOIS}, order {NEG}, produk kod {NEG_KOD}. Saya {NAMA} dari {BANDAR} melapor pada {NEG_TARIKH}.
+  - Laporan kes penipuan jual beli online. Saya {NAMA}, MyKad {MY_NRIC}, telefon {MY_PHONE}. Peniaga guna SSM lama {MY_SSM_LAMA}, rujukan bayaran {NEG_INVOIS} di {BANDAR}.
+  hr_pekerja:
+  - 'Borang Onboarding Pekerja Baru
+
+    Nama: {NAMA}
+
+    No. MyKad: {MY_NRIC}
+
+    Syarikat: {SYARIKAT} ({MY_SSM})
+
+    Tarikh Mula: {TARIKH}
+
+    Sila isi dan pulangkan ke HR sebelum masuk kerja ya.'
+  - 'Nota Payslip Bulan Ini
+
+    Hai {NAMA}, gaji dah masuk ke akaun {NEG_AKAUN} pada {NEG_TARIKH}. Slip no. {NEG_INVOIS}. Kalau ada salah kira, jangan risau, roger je HR {BANDAR}.'
+  - 'Surat Resign
+
+    Kepada pihak HR {SYARIKAT}, saya {NAMA} ({MY_NRIC}) ingin memaklumkan perletakan jawatan berkuatkuasa {TARIKH}. Tolong settle semua baki gaji ke akaun saya, no {NEG_AKAUN}. Terima kasih.'
+  - 'Rekod Staf Sementara
+
+    Nama: {NAMA} | Tel: {MY_PHONE} | Bandar: {BANDAR}
+
+    Sijil masih dalam proses, tarikh kemaskini {NEG_TARIKH}. Kod pekerja {NEG_KOD}. Jangan kongsi dengan luar ya.'
+  - 'Memo HR: Pertukaran syarikat induk.
+
+    SSM lama {MY_SSM_LAMA} -> SSM baru {MY_SSM}.
+
+    Semua kontrak staf termasuk {NAMA} akan dipindah serentak pada {TARIKH}. Tak perlu buat apa-apa, duduk diam je.'
+  - 'Permohonan Cuti Tahunan
+
+    Nama: {NAMA}
+
+    No. Rujukan: {NEG}
+
+    Cuti dari {TARIKH}, 3 hari je sebab ada hal keluarga kat {BANDAR}.
+
+    Harap bos approve, nanti saya balas email ya.'
+  - 'Kemaskini Maklumat Bank Staf
+
+    Hi {NAMA}, kami perlu verify akaun {NEG_AKAUN} untuk tujuan gaji. Kindly call balik nombor pejabat {MY_PHONE} sebelum {TARIKH} untuk pengesahan. Thanks!'
+  - 'Borang Kesihatan Pekerja
+
+    Nama staf: {NAMA}
+
+    Syarikat: {SYARIKAT}
+
+    No. telefon kecemasan: {NEG_TEL} (tak lengkap, tolong isi semula)
+
+    Tarikh pemeriksaan: {TARIKH}
+
+    Serial borang: {NEG_KOD}'
+  pusat_panggilan:
+  - 'Agent: Salam, {SYARIKAT} helpdesk. Boleh saya dapat nama penuh dan IC untuk verify?
+
+    Caller: {NAMA}, IC {MY_NRIC}.
+
+    Agent: Okay tuan, verified. Masalah akaun {NEG_AKAUN} tu kami escalate ya.'
+  - 'Tiket #2: Pn {NAMA} call tanya status invois {NEG_INVOIS}. Nombor tel yang dia bagi {NEG_TEL} tak lengkap, minta dia call balik. Tarikh invois {NEG_TARIKH}.'
+  - Caller nak update nombor telefon baru {MY_PHONE} untuk akaun {NEG_AKAUN}. IC {MY_NRIC} dah verify. Tolong tukar sebelum {TARIKH}, dia dah pindah ke {BANDAR}.
+  - 'Agent: Boss {SYARIKAT} cakap SSM baru dia {MY_SSM}, tapi dalam sistem masih SSM lama {MY_SSM_LAMA}. Saya tukar dua-dua sekali ke?
+
+    Nota: Ref {NEG}, settle {TARIKH}.'
+  - En {NAMA} complain parcel kod {NEG_KOD} tak sampai-sampai ke {BANDAR}. Tracking {NEG_INVOIS}, janji sampai {NEG_TARIKH} tapi masih tiada. Dia minta refund 2 hari.
+  - Call masuk dari {NAMA}, marah-marah kata bil {NEG_INVOIS} salah kira. Dah semak, akaun {NEG_AKAUN} memang kena caj dua kali. Janji call balik sebelum {TARIKH}.
+  - 'Verify pelanggan baru: {NAMA} dari {BANDAR}, IC {MY_NRIC}, fon {MY_PHONE}. Daftar bawah syarikat {SYARIKAT}, rujukan {NEG}. Semua okay, proceed onboarding.'
+  - 'Follow-up tiket {NEG}: {NAMA} nak kemaskini maklumat {SYARIKAT}. SSM {MY_SSM} confirm dengan dokumen dia hantar {TARIKH}. Nombor telefon pejabat {MY_PHONE} dah update.'
+  media_sosial:
+  - Wey geng, aku baru je kena scam semalam! Diaorang mintak aku bank in ke akaun {NEG_AKAUN} pastu hilang terus. Jangan percaya ya kalau ada yang PM macam tu. Nombor order {NEG} pun palsu je. Hati-hati semua!
+  - Hi admin, nak promote sikit. Kedai aku {SYARIKAT} dah buka kat {BANDAR}. SSM dah lulus tau, nombor {MY_SSM}. Nak order whatsapp {MY_PHONE} je, harga mampu milik!
+  - Tolong weh, siapa kenal {NAMA} suruh dia call aku cepat {MY_PHONE}. Urusan penting ni, pasal loan yang dia janji hari tu. Dah {TARIKH} takde news langsung.
+  - Guys aku nak tanya, kalau IC hilang kena buat macam mana? NRIC aku {MY_NRIC}, risau ada orang salah guna. Kalau jumpa sila pm, area {BANDAR}. Terima kasih banyak!
+  - Alhamdulillah barang dah sampai! Tracking {NEG_INVOIS} laju gila, pos dalam masa 2 hari je. Kod barang {NEG_KOD} betul macam dalam gambar. Seller {SYARIKAT} memang tiptop, recommended!
+  - Perhatian warga {BANDAR}! Mesyuarat penduduk akan diadakan pada {TARIKH}. Sebarang pertanyaan hubungi pengerusi {NAMA} di talian {MY_PHONE}. Jumpa korang kat sana ya!
+  - Kenapa ya aku tak boleh login app ni? Masuk nombor {NEG_TEL} asyik invalid je. Dah try dari semalam {NEG_TARIKH} sama jugak. Ada sesiapa hadap masalah sama ke?
+  - Nak buka company kecil-kecilan kat {BANDAR}, yang lama dulu register guna {MY_SSM_LAMA} tapi sekarang dah upgrade {MY_SSM}. Siapa ada pengalaman sharing lah sikit. Boleh pm aku {MY_PHONE} kalau nak borak.

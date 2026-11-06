@@ -1,0 +1,9 @@
+sha: 3472f21304eb7462759524179c619cfde9f69ddc
+tarikh_utc: 2026-11-03T18:24:55Z
+pelaksana: ejen autopilot mypii-ujian atas kebenaran pemilik 3 Nov 2026
+uv: uv 0.12.5 (x86_64-unknown-linux-gnu)
+python: Python 3.12.3
+perintah: uv run --extra nilai --extra garis python -m mypii.nilai.harness --split ujian2 --sistem semua --benarkan-ujian
+perintah: uv run python -m mypii.nilai.harness --split ujian2 --sistem semua --statistik --benarkan-ujian
+perintah: uv run --extra nilai --extra garis python -m mypii.nilai.harness --split ujian  --sistem semua --benarkan-ujian
+perintah: uv run python -m mypii.nilai.harness --split ujian  --sistem semua --statistik --benarkan-ujian

@@ -1,0 +1,563 @@
+# Dijana 2026-11-05 oleh `python -m mypii.jana.templat_llm --sasaran ujian3` (model: anthropic/claude-sonnet-5-5). JANGAN sunting tangan.
+# DIMETERAI (PELAN-V2 P6): jangan buka, jangan sunting — gerbang menolak sebarang perubahan.
+genre:
+  pertanian_nelayan:
+  - 'PERMOHONAN BANTUAN BENIH PADI
+
+    Nama pemohon: {NAMA}
+
+    No. MyKad: {MY_NRIC}
+
+    No. telefon: {MY_PHONE}
+
+    Luas sawah: 3 hektar, di daerah {BANDAR}.
+
+    Tarikh permohonan: {TARIKH}'
+  - 'Notis kepada semua ahli koperasi: mesyuarat agung tahunan akan diadakan pada {TARIKH} di dewan {SYARIKAT}, {BANDAR}. Sila bawa kad ahli anda. Untuk pertanyaan, hubungi setiausaha, {NAMA}, di talian {MY_PHONE}.'
+  - 'BORANG SUBSIDI DIESEL NELAYAN
+
+    Nama nelayan: {NAMA}
+
+    No. bot berdaftar: {NEG_KOD}
+
+    No. rujukan permohonan: {NEG}
+
+    Pendaratan utama: jeti {BANDAR}
+
+    Tarikh lulus: {NEG_TARIKH}'
+  - 'Pengesahan penerimaan baja subsidi.
+
+    No. invois: {NEG_INVOIS}
+
+    Kuantiti: 40 beg
+
+    Deposit telah dibayar ke akaun koperasi {NEG_AKAUN}.
+
+    Sila simpan salinan ini sebagai bukti.'
+  - 'Tuan/Puan,
+
+    Dengan ini {SYARIKAT} (No. SSM {MY_SSM}) memohon bantuan jentera ladang untuk projek penanaman sayur di {BANDAR}. Wakil syarikat, {NAMA}, boleh dihubungi di {MY_PHONE} pada waktu pejabat.'
+  - 'Resit pembelian anak ikan keli
+
+    {NEG_INVOIS} | {NEG_TARIKH}
+
+    Pembeli: {NAMA}
+
+    12 bekas x 1 unit
+
+    Kod stok: {NEG_KOD}
+
+    {NEG12_TANPA}
+
+    Terima kasih kerana menyokong penternak tempatan.'
+  - 'BORANG PENDAFTARAN PETANI (hasil imbasan)
+
+    Nama: {NAMA}
+
+    No. KP: {OCR_MY_NRIC}
+
+    Tel: {OCR_MY_PHONE}
+
+    Pejabat Pertanian: {BANDAR}
+
+    No. pendaftaran syarikat: {OCR_MY_SSM}
+
+    Tarikh: {TARIKH}'
+  asrama_pelajar:
+  - 'PEMBERITAHUAN PENEMPATAN ASRAMA
+
+    Saudara/Saudari {NAMA}, anda telah ditempatkan di Blok C, Bilik 214 bagi sesi ini. Sila lapor diri di pejabat asrama pada {TARIKH} dengan membawa salinan kad pengenalan {MY_NRIC}. Hubungi warden di {MY_PHONE} jika ada masalah.'
+  - 'PERMOHONAN GANTIAN KAD PELAJAR
+
+    Nama: {NAMA}
+
+    No. KP: {PATAH_MY_NRIC}
+
+    Sebab kehilangan: kad hilang di perpustakaan
+
+    No. rujukan permohonan: {NEG}
+
+    Resit bayaran RM10 bernombor {NEG_INVOIS} dilampirkan.'
+  - 'NOTIS TEMPAT PEPERIKSAAN
+
+    Peperiksaan akhir semester akan diadakan di Dewan Besar, {BANDAR}. Calon dikehendaki hadir 30 minit lebih awal. Tarikh cetakan notis: {NEG_TARIKH}. Kod kertas soalan: {NEG_KOD}. Bawa kad pelajar dan slip pendaftaran.'
+  - 'BORANG PENGESAHAN PENGINAPAN (imbasan)
+
+    Nama pelajar: {NAMA}
+
+    No. MyKad: {OCR_MY_NRIC}
+
+    No. tel. waris: {OCR_MY_PHONE}
+
+    Alamat asrama: Blok B, Tingkat 3, Bilik 12, {BANDAR}
+
+    Tandatangan warden: ____________'
+  - Salam, {NAMA}. Yuran asrama sebanyak RM450 boleh dibayar melalui pindahan ke akaun {NEG_AKAUN} sebelum {TARIKH}. Simpan bukti pembayaran dan rujukan {NEG_INVOIS}. Untuk pertanyaan, sila hubungi Bahagian Hal Ehwal Pelajar di {MY_PHONE_BS}.
+  - 'KONTRAK PENYELENGGARAAN ASRAMA
+
+    Pihak kolej melantik {SYARIKAT} (No. SSM: {MY_SSM}) untuk kerja pembaikan paip di Blok A dan D. Kerja bermula pada {TARIKH}.
+
+    Perkongsian pembekal bahan: {SYARIKAT} (LLP: {MY_SSM_LLP}).
+
+    Penyelaras: {NAMA}, {MY_PHONE}.'
+  - 'SLIP INSURANS PELAJAR
+
+    Pelajar: {NAMA}
+
+    Pelan perlindungan asrama berkuat kuasa dari {TARIKH}.
+
+    {NEG12_TANPA}
+
+    Talian bantuan: {NEG_TEL}
+
+    Kod pelan: {NEG_KOD}
+
+    Simpan slip ini untuk rujukan.'
+  kontraktor_rumah:
+  - 'LEMBARAN KERJA PLUMBER
+
+    No. kerja: {NEG}
+
+    Pelanggan: {NAMA}
+
+    Kerja: ganti paip bocor di bilik air tingkat 2, pasang pili baharu.
+
+    Kod pili: {NEG_KOD}
+
+    Siap pada: {NEG_TARIKH}
+
+    Tandatangan pelanggan: ________'
+  - '{SYARIKAT} Enterprise (No. Pendaftaran SSM: {MY_SSM})
+
+    Sebut harga no. {NEG_INVOIS}
+
+    Kerja pendawaian semula rumah teres dua tingkat di {BANDAR}.
+
+    Bayaran 30% pendahuluan. Sila hubungi {NAMA} di {MY_PHONE}.'
+  - 'BORANG TEMPAHAN TUKANG ELEKTRIK
+
+    Nama pelanggan: {NAMA}
+
+    No. KP: {PATAH_MY_NRIC}
+
+    Tel: {PATAH_MY_PHONE}
+
+    Masalah: litar pintas di ruang tamu, suis kipas rosak.
+
+    Tarikh lawatan: {TARIKH}'
+  - '{SYARIKAT} Services (LLP)
+
+    No. LLP: {MY_SSM_LLP}
+
+    Sebut harga untuk kerja bumbung dan siling plaster di {BANDAR}.
+
+    Rujukan: {NEG}
+
+    Pembayaran melalui akaun {NEG_AKAUN}. Tel pejabat: {MY_PHONE_BS}'
+  - '[Imbasan] JOB SHEET ELEKTRIK
+
+    Syarikat: {SYARIKAT}, SSM {OCR_MY_SSM}
+
+    Pelanggan: {NAMA}, KP {OCR_MY_NRIC}
+
+    Tel: {OCR_MY_PHONE}
+
+    Kerja: pasang 6 lampu LED dan 2 soket tambahan di dapur.'
+  - 'NOTA KERJA TUKANG PAIP
+
+    Tempahan: {NEG}
+
+    Lokasi: rumah {NAMA}, {BANDAR}
+
+    Tukar tangki air dan pasang pam baharu. Siri pam: {NEG_KOD}.
+
+    No. tel pelanggan tidak lengkap dalam rekod: {NEG_TEL}
+
+    Polisi insurans pelanggan: {NEG_AHLI}
+
+    Tarikh siap: {TARIKH}'
+  permit_majlis_daerah:
+  - 'PERMOHONAN LESEN PERNIAGAAN
+
+    Nama Pemohon: {NAMA}
+
+    No. Kad Pengenalan: {MY_NRIC}
+
+    Nama Perniagaan: {SYARIKAT}
+
+    Alamat Premis: Lot 12, Jalan Perdana, {BANDAR}
+
+    No. Telefon: {MY_PHONE}
+
+    Tarikh Permohonan: {TARIKH}'
+  - 'Tuan/Puan,
+
+    Permit papan tanda untuk premis {SYARIKAT} (No. Pendaftaran SSM: {MY_SSM}) telah diluluskan oleh Majlis Daerah {BANDAR}. Sila kutip permit di kaunter pada {TARIKH}. Rujukan fail: {NEG}.'
+  - 'NOTIS CUKAI PENILAIAN
+
+    Kepada: {NAMA}
+
+    Hartanah: No. 45, Taman Seri Murni, {BANDAR}
+
+    Baki tertunggak boleh dijelaskan melalui akaun {NEG_AKAUN}. Resit akan dikeluarkan dengan nombor {NEG_INVOIS}.
+
+    Tarikh akhir bayaran: {TARIKH}.'
+  - 'BORANG PERMOHONAN PAPAN TANDA (imbasan)
+
+    Nama Syarikat: {SYARIKAT}
+
+    No. Pendaftaran: {OCR_MY_SSM}
+
+    Pemilik: {NAMA}
+
+    Hubungi pegawai di talian {OCR_MY_PHONE} untuk semakan lanjut.
+
+    Tarikh terima: {TARIKH}'
+  - Lesen perniagaan {SYARIKAT} akan tamat tempoh pada {TARIKH}. Pembaharuan boleh dibuat di Jabatan Perlesenan, Majlis Daerah {BANDAR}. Sila rujuk nombor kelulusan {NEG} dan kod permit {NEG_KOD}. Tiada caj lewat dikenakan sebelum tarikh tersebut.
+  - 'PERMOHONAN LESEN KEDAI RUNCIT
+
+    Nama Firma: {SYARIKAT} (LLP)
+
+    No. Pendaftaran LLP: {MY_SSM_LLP}
+
+    Penyelaras: {NAMA}
+
+    Talian pejabat: {MY_PHONE_BS}
+
+    Lokasi premis: Pekan {BANDAR}
+
+    Tarikh serahan: {TARIKH}'
+  sekolah_memandu:
+  - 'BORANG PENDAFTARAN KURSUS MEMANDU
+
+    Nama: {NAMA}
+
+    No. KP: {MY_NRIC}
+
+    Tel: {MY_PHONE}
+
+    Kelas: D (kereta manual), 16 jam amali
+
+    Tarikh daftar: {TARIKH}
+
+    Resit bayaran: {NEG_INVOIS}'
+  - 'Nota jurulatih: Calon {NAMA} sudah boleh mengawal klac dengan baik tetapi masih lambat memeriksa cermin sisi. Latihan parkir selari di {BANDAR} perlu diulang sebelum ujian JPJ pada {TARIKH}. Ingatkan pelajar bawa kad pengenalan asal.'
+  - 'Salam, tempahan ujian memandu anda telah disahkan. Rujukan tempahan: {NEG}. Sila hadir 30 minit lebih awal di pusat ujian {BANDAR}. Jika ada masalah, hubungi pejabat kami di {MY_PHONE_BS} waktu pejabat.'
+  - 'Sekolah Memandu {SYARIKAT} (No. SSM: {MY_SSM}) mengesahkan bahawa pelajar di bawah telah menamatkan 8 jam kelas teori.
+
+    Nama: {NAMA}
+
+    Tarikh tamat: {TARIKH}
+
+    No. sijil: {NEG_KOD}'
+  - 'Pelajar baharu: bayaran yuran RM boleh dibuat melalui pindahan ke akaun {SYARIKAT} nombor {NEG_AKAUN}. Selepas bayar, simpan resit {NEG_INVOIS} dan hantar bukti kepada kerani. Cap masa transaksi: {NEG_TARIKH}.'
+  - 'Pendaftaran pemandu, polis insurans pelajar:
+
+    Nama: {NAMA}
+
+    No. KP: {OCR_MY_NRIC}
+
+    Tel bimbit: {OCR_MY_PHONE}
+
+    (Salinan imbasan kurang jelas, sila semak semula dengan pelajar)'
+  - 'Borang kemas kini syarikat (lampiran SSM) untuk {SYARIKAT}, rakan kongsi {NAMA}, cawangan {BANDAR}.
+
+    No. pendaftaran LLP: {MY_SSM_LLP}
+
+    No. SSM lama: {OCR_MY_SSM}
+
+    No. tel pejabat: {PATAH_MY_PHONE}'
+  - 'Pelajar {NAMA} telah menyelesaikan kelas 6 dan 7 dengan cemerlang. Kad keahlian kelab memandu: {NEG12_TANPA}. Rujukan jurulatih: {NEG}. Ujian bertulis dijadualkan pada {NEG_TARIKH}. Nombor yang tidak lengkap dalam rekod lama: {NEG_TEL}.'
+  rawatan_haiwan:
+  - 'REKOD LAWATAN KLINIK HAIWAN
+
+    Klinik: {SYARIKAT}, {BANDAR}
+
+    Tarikh: {TARIKH}
+
+    Pemilik: {NAMA}, No. KP {MY_NRIC}
+
+    Pesakit: Kucing parsi, jantan, 3 tahun, berat 4 kg
+
+    Diagnosis: jangkitan kulit ringan. Salap diberikan, ulang lawatan selepas 2 minggu.'
+  - 'KAD VAKSINASI ANJING
+
+    Nama haiwan: Bobi (Golden Retriever)
+
+    Pemilik: {NAMA}
+
+    Tel. pemilik: {MY_PHONE}
+
+    Vaksin 5-in-1 diberi pada {TARIKH}
+
+    No. kelompok vaksin: {NEG_KOD}
+
+    Vaksin seterusnya: {TARIKH}'
+  - 'BORANG PENGAMBILAN HAIWAN (ADOPSI)
+
+    Pusat Penyelamat: {SYARIKAT} (No. Pendaftaran {MY_SSM})
+
+    Pengambil: {NAMA}
+
+    No. Kad Pengenalan: {MY_NRIC}
+
+    Haiwan: anak kucing betina, kira-kira 3 bulan
+
+    Tarikh ambil: {TARIKH}
+
+    Saya berjanji menjaga haiwan ini dengan baik dan tidak meninggalkannya.'
+  - 'RESIT RAWATAN HAIWAN
+
+    No. resit: {NEG_INVOIS}
+
+    Tarikh: {NEG_TARIKH}
+
+    Klinik: {SYARIKAT}, {BANDAR}
+
+    Perkhidmatan: pembedahan mandul kucing, ubat antibiotik 5 hari
+
+    Bayaran melalui pindahan ke akaun {NEG_AKAUN}
+
+    Terima kasih atas kepercayaan anda.'
+  - 'Klinik Veterinar {SYARIKAT} (LLP) - No. LLP {MY_SSM_LLP}
+
+    Salam {NAMA}, ini peringatan temujanji vaksin tahunan untuk arnab anda pada {TARIKH}.
+
+    Sila hubungi kami di talian pejabat {MY_PHONE_BS} jika ingin menukar masa.
+
+    Sila bawa kad vaksin lama.'
+  - 'REKOD PESAKIT (IMBASAN)
+
+    Pemilik: {NAMA}
+
+    No. KP: {OCR_MY_NRIC}
+
+    Tel: {OCR_MY_PHONE}
+
+    Haiwan: anjing kacukan, betina, 5 tahun
+
+    Keluhan: tidak mahu makan sejak 2 hari, muntah beberapa kali.
+
+    Catatan doktor: ujian darah dijalankan, rujuk rekod {NEG}'
+  - 'KAD VAKSINASI KUCING
+
+    Nama kucing: Comel
+
+    Siri tag cip mikro: {NEG_KOD}
+
+    Tarikh vaksin: {NEG_TARIKH}
+
+    Polisi insurans haiwan: tiada
+
+    No. fail klinik: {NEG}
+
+    Pemilik: {NAMA}, {BANDAR}
+
+    Doktor yang merawat telah mengesahkan kucing ini sihat.'
+  - 'BORANG ADOPSI - {SYARIKAT}
+
+    Nama pengambil: {NAMA}
+
+    No. KP: {PATAH_MY_NRIC}
+
+    No. telefon: {PATAH_MY_PHONE}
+
+    Alamat: {BANDAR}
+
+    Tarikh: {TARIKH}
+
+    Haiwan yang diambil: anjing jantan, 1 tahun, telah divaksin dan dimandulkan.'
+  surat_guaman:
+  - Saya, {NAMA}, pemegang kad pengenalan No. {MY_NRIC}, dengan sesungguhnya dan sebenarnya mengaku bahawa saya beralamat di {BANDAR} dan segala butir di atas adalah benar. Diikrarkan di {BANDAR} pada {TARIKH}.
+  - 'KEPADA: {SYARIKAT} (No. Syarikat {MY_SSM})
+
+    RUJ KAMI: {NEG}
+
+    TUNTUTAN BAYARAN BERKENAAN INVOIS {NEG_INVOIS}
+
+    Kami diarahkan oleh anak guam kami, {NAMA}, menuntut bayaran tertunggak dalam tempoh 14 hari dari tarikh surat ini, {TARIKH}. Hubungi pejabat kami di {MY_PHONE}.'
+  - 'SURAT KUASA WAKIL
+
+    Saya, {NAMA} (NRIC {OCR_MY_NRIC}), dengan ini melantik {NAMA} sebagai wakil saya untuk menguruskan urusan tanah di {BANDAR}. Kuasa ini berkuat kuasa mulai {TARIKH}.'
+  - 'Tuan/Puan,
+
+    Mengenai tuntutan insurans bagi {NAMA}, nombor rujukan fail {NEG}. Bayaran hendaklah dimasukkan ke dalam {NEG_AKAUN} dalam tempoh 7 hari dari {TARIKH}. Sila abaikan sebarang panggilan daripada nombor {NEG_TEL}.'
+  - 'NOTIS TUNTUTAN
+
+    Kepada {SYARIKAT}, No. Pendaftaran {OCR_MY_SSM}, beralamat di {BANDAR}.
+
+    Anak guam kami menuntut penyelesaian segera atas kerosakan barang kod {NEG_KOD} yang dibekalkan pada {NEG_TARIKH}. Sebarang pertanyaan boleh dibuat kepada {NAMA}.'
+  - Firma Guaman {SYARIKAT} (No. LLP {MY_SSM_LLP}) bertindak bagi pihak {NAMA}. Sila hubungi pejabat kami di {BANDAR} melalui talian {MY_PHONE_BS} untuk temu janji pada {TARIKH}.
+  - 'AKUAN BERKANUN
+
+    Saya, {NAMA}, No. Kad Pengenalan {PATAH_MY_NRIC}, mengaku bahawa dokumen yang dikemukakan adalah salinan sebenar. Nombor telefon saya ialah {PATAH_MY_PHONE}. Diakui di hadapan saya pada {TARIKH}.'
+  - 'Rujukan: {NEG}
+
+    Kami merujuk kepada perjanjian jual beli antara {NAMA} dan {SYARIKAT}. Deposit telah dibayar melalui resit {NEG_INVOIS} bagi unit {NEG_KOD}. Bayaran baki diselesaikan ke {NEG12_TANPA} sebelum {TARIKH}.'
+  persatuan_penduduk:
+  - 'MINIT MESYUARAT JAWATANKUASA PERSATUAN PENDUDUK
+
+    Tarikh: {TARIKH}
+
+    Hadir: {NAMA} (Pengerusi), {NAMA} (Setiausaha)
+
+    Perkara 3: Kutipan yuran penyelenggaraan akan diuruskan oleh {NAMA}. Sebarang pertanyaan boleh dihubungi di {MY_PHONE}.'
+  - 'NOTIS KUTIPAN LEVI
+
+    Kepada semua penduduk Taman {BANDAR},
+
+    Levi tahunan sebanyak RM 60 perlu dijelaskan sebelum {TARIKH}. Rujukan bayaran: {NEG}. Bayaran boleh dibuat ke akaun persatuan {NEG_AKAUN}. Resit akan dikeluarkan dengan no. {NEG_INVOIS}.'
+  - 'Perkara 5: Kontrak pembersihan kawasan diluluskan kepada {SYARIKAT} (No. SSM {MY_SSM}) bagi tempoh setahun.
+
+    Wakil syarikat, {NAMA}, boleh dihubungi di {MY_PHONE}.
+
+    Kos dibahagikan sama rata kepada 3 blok.'
+  - 'BORANG PENDAFTARAN AHLI (imbasan)
+
+    Nama: {NAMA}
+
+    No. KP: {OCR_MY_NRIC}
+
+    Tel: {OCR_MY_PHONE}
+
+    Tarikh daftar: {NEG_TARIKH}
+
+    No. rujukan borang: {NEG}'
+  - 'Bil kerja membaiki lampu jalan diterima daripada {SYARIKAT}.
+
+    No. invois: {NEG_INVOIS}
+
+    Kod alat ganti: {NEG_KOD}
+
+    Bayaran dibuat ke {NEG12_TANPA} pada {NEG_TARIKH}.
+
+    Hubungi bendahari di {NEG_TEL} jika ada kemusykilan.'
+  latihan_kemahiran:
+  - 'PENGESAHAN PENDAFTARAN KURSUS
+
+    Nama peserta: {NAMA}
+
+    No. KP: {MY_NRIC}
+
+    Kursus: Asas Kimpalan Arka (40 jam)
+
+    Tarikh mula: {TARIKH}
+
+    Sila hubungi penyelaras di {MY_PHONE} jika ada sebarang pertanyaan.'
+  - 'Salam {NAMA},
+
+    Sijil kemahiran anda sudah sedia untuk diambil di pejabat {SYARIKAT}, {BANDAR}. Sila bawa salinan resit bayaran bernombor {NEG_INVOIS} dan tunjukkan MyKad semasa pengambilan. Waktu operasi 9 pagi hingga 4 petang.'
+  - 'BORANG PENDAFTARAN PELATIH
+
+    Nama: {NAMA}
+
+    No. KP: {PATAH_MY_NRIC}
+
+    No. Tel: {PATAH_MY_PHONE}
+
+    Majikan: {SYARIKAT}
+
+    Tarikh daftar: {TARIKH}'
+  - 'Pusat latihan kami, {SYARIKAT}, menawarkan kursus penyejukbekuan dan penyamanan udara di {BANDAR}. Bayaran yuran sebanyak RM 850 boleh dibuat ke akaun {NEG_AKAUN}. Rujukan permohonan: {NEG}. Pendaftaran ditutup pada {TARIKH}.'
+  - 'Kepada Pengurus Latihan,
+
+    Kami {SYARIKAT} (No. SSM {MY_SSM}) ingin menghantar 5 pekerja untuk kursus keselamatan di tapak bina. Sila hubungi {NAMA} di {MY_PHONE_BS} untuk pengesahan jadual dan sebut harga.'
+  - 'Resit No. {NEG_INVOIS}
+
+    Diterima daripada: {NAMA}
+
+    Bayaran: Yuran kursus pembaikan motosikal
+
+    Cap masa: {NEG_TARIKH}
+
+    Kod modul: {NEG_KOD}
+
+    Sijil boleh diambil mulai {TARIKH}.'
+  - 'Pelatih yang dihormati,
+
+    Anda telah berdaftar dalam program jahitan asas di {BANDAR}.
+
+    Kod modul: {NEG_KOD}
+
+    No. {NEG12_TANPA}
+
+    Sila hadir pada {TARIKH} jam 8.30 pagi. Hubungi {NEG_TEL} jika perlu bantuan (nombor tidak lengkap, sila semak semula borang).'
+  lori_pindah:
+  - 'TEMPAHAN LORI PINDAH RUMAH
+
+    Pelanggan: {NAMA}
+
+    No. MyKad: {MY_NRIC}
+
+    Tel: {MY_PHONE}
+
+    Lori 3 tan dari {BANDAR} ke {BANDAR}, tarikh angkut {TARIKH}.
+
+    Rujukan tempahan: {NEG}'
+  - 'Salam, saya {NAMA}. Nak tempah lori 1 tan untuk pindah rumah pada {TARIKH}, dari {BANDAR} ke {BANDAR}. Barang: 1 peti sejuk, 2 katil, 1 sofa, 12 kotak. Boleh hubungi saya di {MY_PHONE} atau WhatsApp. Terima kasih.'
+  - 'SENARAI INVENTORI BARANG
+
+    Pemilik: {NAMA}
+
+    1. Mesin basuh - 1 unit, kod {NEG_KOD}
+
+    2. Almari pakaian - 2 unit
+
+    3. Meja makan + 4 kerusi
+
+    4. Kotak buku - 15 kotak
+
+    Invois: {NEG_INVOIS}
+
+    Bayaran dibuat ke akaun {NEG_AKAUN}'
+  - '{SYARIKAT} Pengangkutan
+
+    Daftar SSM: {MY_SSM} ({MY_SSM_LAMA})
+
+    Penghantaran barang pelanggan {NAMA} dijadualkan pada {TARIKH}, anggaran tiba jam 2 petang di {BANDAR}.
+
+    Semak status: {NEG_INVOIS}'
+  - 'BORANG TEMPAHAN (imbasan)
+
+    Nama: {NAMA}
+
+    No. KP: {OCR_MY_NRIC}
+
+    Telefon: {OCR_MY_PHONE}
+
+    Alamat asal: {BANDAR}
+
+    Alamat baru: {BANDAR}
+
+    Tarikh pindah: {TARIKH}
+
+    Lori 5 tan, 2 pekerja tambahan.'
+  - 'Pindah Rumah Kuching
+
+    Pelanggan: {NAMA}
+
+    Talian pejabat: {MY_PHONE_BS}
+
+    Perkhidmatan oleh {SYARIKAT} Enterprise (LLP: {MY_SSM_LLP}).
+
+    Lori tiba pada {TARIKH}. Mohon sediakan 20 kotak yang telah dibungkus.'
+  - 'PERAKUAN PENERIMAAN BARANG
+
+    No. tempahan: {NEG}
+
+    Cap masa serahan: {NEG_TARIKH}
+
+    Telefon pemandu: {NEG_TEL}
+
+    Pembayaran melalui pindahan ke {NEG_AKAUN}
+
+    Total 34 item diterima dalam keadaan baik. Ditandatangani oleh {NAMA}.'
+  - 'Jadual penghantaran lori:
+
+    Hari 1 - Muat barang di {BANDAR}, 25 kotak dan 6 perabot.
+
+    Hari 2 - Tiba di {BANDAR}, pelanggan {NAMA}.
+
+    No. rujukan insurans barang: {NEG12_TANPA}
+
+    Serial peti sejuk {NEG_KOD}. Resit {NEG_INVOIS}.'

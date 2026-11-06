@@ -1,0 +1,8 @@
+# Konteks bina imej mypii-iaa (deploy/iaa/Dockerfile) = SENARAI BENAR: .env, hasil/, data/ (termasuk ujian2),
+# .venv, .git dan selainnya tidak pernah sampai ke pembina (Depot). Tambah laluan di sini bila Dockerfile COPY fail baharu.
+*
+!config/mypii.yaml
+!mypii/konfig.py
+!mypii/iaa/
+!deploy/iaa/Dockerfile
+**/__pycache__

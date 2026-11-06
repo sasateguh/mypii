@@ -1,0 +1,29 @@
+{
+ "jumlah_usd": 3.388863,
+ "model": {
+  "anthropic/claude-fable-5-1": {
+   "keluar": 580,
+   "masuk": 2109,
+   "panggilan": 5,
+   "usd": 0.05009
+  },
+  "anthropic/claude-haiku-5-5": {
+   "keluar": 186347,
+   "masuk": 812071,
+   "panggilan": 2000,
+   "usd": 0.174397
+  },
+  "anthropic/claude-opus-5-5": {
+   "keluar": 545,
+   "masuk": 2109,
+   "panggilan": 5,
+   "usd": 0.019336
+  },
+  "anthropic/claude-sonnet-5-5": {
+   "keluar": 208019,
+   "masuk": 532425,
+   "panggilan": 1129,
+   "usd": 3.14504
+  }
+ }
+}

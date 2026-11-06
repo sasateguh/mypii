@@ -1,0 +1,38 @@
+# semak-mypii.sasateguh.com → halaman semakan IAA (kontena mypii-iaa:8080, rangkaian coolify). PELAN-IAA, ADR-015.
+#   docker cp semak-mypii.traefik.yaml coolify-proxy:/traefik/dynamic/semak-mypii.yaml   (deploy.sh buat ini)
+# Nama hos + port = config/mypii.yaml iaa.pelayan (nama_hos, port) — ubah kedua-duanya bersama.
+# Satu nama satu fail (LE HTTP-01: nama tanpa DNS menggagalkan sijil semua nama dalam router yang sama).
+# compress: HTML membawa `no-transform` (elak beacon CF) jadi CF tidak memampatkan — origin memampatkan.
+# Kepala noindex/CSP/no-store/no-referrer dihantar oleh pelayan sendiri (mypii/iaa/pelayan.py KEPALA).
+http:
+  routers:
+    semak-mypii:
+      entryPoints: [https]
+      service: semak-mypii-svc
+      rule: Host(`semak-mypii.sasateguh.com`)
+      middlewares: [semak-mypii-compress, semak-mypii-headers]
+      tls:
+        certResolver: letsencrypt
+      priority: 100
+    semak-mypii-http:
+      entryPoints: [http]
+      service: semak-mypii-svc
+      rule: Host(`semak-mypii.sasateguh.com`)
+      middlewares: [semak-mypii-https]
+      priority: 100
+  middlewares:
+    semak-mypii-compress:
+      compress: {}
+    semak-mypii-headers:
+      headers:
+        stsSeconds: 31536000
+        frameDeny: true
+    semak-mypii-https:
+      redirectScheme:
+        scheme: https
+        permanent: true
+  services:
+    semak-mypii-svc:
+      loadBalancer:
+        servers:
+          - url: http://mypii-iaa:8080

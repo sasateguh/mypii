@@ -1,0 +1,84 @@
+{
+  "dokumen": 5,
+  "gugur": [
+    "kr/gpt-5.6-sol",
+    "qd/qmodel"
+  ],
+  "id": [
+    "mypii-02292",
+    "mypii-02671",
+    "mypii-01196",
+    "mypii-01179",
+    "mypii-03016"
+  ],
+  "lulus": [
+    "anthropic/claude-opus-5-5",
+    "anthropic/claude-fable-5-1",
+    "cf/@cf/mistralai/mistral-small-3.1-24b-instruct",
+    "rv/zai-org/GLM-5.3-Flash"
+  ],
+  "model": {
+    "anthropic/claude-fable-5-1": {
+      "dari_cache": 5,
+      "diterima": 5,
+      "diurai": 5,
+      "dokumen": 5,
+      "jenis_ralat": [],
+      "lulus": true,
+      "panggilan": 0
+    },
+    "anthropic/claude-opus-5-5": {
+      "dari_cache": 5,
+      "diterima": 5,
+      "diurai": 5,
+      "dokumen": 5,
+      "jenis_ralat": [],
+      "lulus": true,
+      "panggilan": 0
+    },
+    "cf/@cf/mistralai/mistral-small-3.1-24b-instruct": {
+      "dari_cache": 0,
+      "diterima": 5,
+      "diurai": 5,
+      "dokumen": 5,
+      "jenis_ralat": [],
+      "lulus": true,
+      "panggilan": 5
+    },
+    "kr/gpt-5.6-sol": {
+      "dari_cache": 0,
+      "diterima": 0,
+      "diurai": 0,
+      "dokumen": 5,
+      "jenis_ralat": [
+        "kr/gpt-5.6-sol#1: HTTPError; kr/gpt-5.6-sol#2: TimeoutError; kr/gpt-5.6-sol#3: HTTPError",
+        "kr/gpt-5.6-sol#1: HTTPError; kr/gpt-5.6-sol#2: TimeoutError; kr/gpt-5.6-sol#3: TimeoutError",
+        "kr/gpt-5.6-sol#1: TimeoutError; kr/gpt-5.6-sol#2: HTTPError; kr/gpt-5.6-sol#3: TimeoutError",
+        "kr/gpt-5.6-sol#1: TimeoutError; kr/gpt-5.6-sol#2: TimeoutError; kr/gpt-5.6-sol#3: TimeoutError"
+      ],
+      "lulus": false,
+      "panggilan": 5
+    },
+    "qd/qmodel": {
+      "dari_cache": 0,
+      "diterima": 0,
+      "diurai": 0,
+      "dokumen": 5,
+      "jenis_ralat": [
+        "qd/qmodel#1: HTTPError; qd/qmodel#2: HTTPError; qd/qmodel#3: HTTPError"
+      ],
+      "lulus": false,
+      "panggilan": 5
+    },
+    "rv/zai-org/GLM-5.3-Flash": {
+      "dari_cache": 0,
+      "diterima": 5,
+      "diurai": 5,
+      "dokumen": 5,
+      "jenis_ralat": [],
+      "lulus": true,
+      "panggilan": 5
+    }
+  },
+  "split": "dev"
+}

@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="ms">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<meta name="referrer" content="no-referrer">
+<meta name="theme-color" content="#E6ECEA">
+<title>MyPII</title>
+<link rel="stylesheet" href="/statik/app.css">
+<script src="/statik/app.js" defer></script>
+</head>
+<body>
+<header class="atas">
+  <div class="atas-baris">
+    <h1 class="judul" data-t="judul"></h1>
+    <button type="button" class="bahasa" id="bahasa"></button>
+  </div>
+  <div class="kemajuan" id="kemajuan" role="progressbar" aria-valuemin="0">
+    <div class="kemajuan-isi" id="kemajuan-isi"></div>
+  </div>
+  <p class="kemajuan-teks" id="kemajuan-teks"></p>
+</header>
+
+<main id="utama" class="utama" tabindex="-1">
+  <p class="memuat" data-t="memuat"></p>
+</main>
+
+<p class="privasi" data-t="privasi"></p>
+
+<template id="t-dokumen">
+  <article class="helaian">
+    <p class="helaian-no"></p>
+    <p class="teks"></p>
+  </article>
+  <section class="soalan" aria-labelledby="sa">
+    <h2 id="sa" data-t="soalan_a"></h2>
+    <p class="bantu" data-t="soalan_a_bantu"></p>
+    <ol class="span-senarai"></ol>
+  </section>
+  <section class="soalan" aria-labelledby="sb">
+    <h2 id="sb" data-t="soalan_b"></h2>
+    <div class="segmen segmen-b" role="group" aria-labelledby="sb"></div>
+    <div class="kotak-b" hidden>
+      <label class="bantu" for="nilai-b" data-t="b_bantu"></label>
+      <textarea id="nilai-b" rows="3" inputmode="text" autocomplete="off" autocapitalize="characters" spellcheck="false"></textarea>
+      <button type="button" class="butang butang-simpan" data-t="b_simpan"></button>
+    </div>
+  </section>
+  <section class="soalan" aria-labelledby="sc">
+    <h2 id="sc" data-t="soalan_c"></h2>
+    <div class="segmen segmen-c" role="group" aria-labelledby="sc"></div>
+  </section>
+</template>
+
+<template id="t-tamat">
+  <section class="tamat">
+    <h2 data-t="tamat_judul"></h2>
+    <p data-t="tamat_teks"></p>
+  </section>
+</template>
+
+<footer class="bawah">
+  <p class="status" id="status" role="status" aria-live="polite"></p>
+  <div class="bawah-baris">
+    <button type="button" class="butang butang-undur" id="undur"></button>
+    <button type="button" class="butang butang-utama" id="seterusnya"></button>
+  </div>
+</footer>
+</body>
+</html>

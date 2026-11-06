@@ -1,0 +1,3 @@
++ uv run --extra nilai --extra garis python -m mypii.nilai.harness --split ujian2 --sistem semua --benarkan-ujian
+pra-daftar docs/PRA-DAFTAR.md @ komit b7a23d812736274bc1bd01c812da274bc7fede35 (blob 94ebbe82b78e26cf6d2c02275ec642dc67887bf0)
+llm:cf/@cf/meta/llama-3.3-70b-instruct-fp8-fast: {"dokumen": 1000, "dari_cache": 0, "panggilan": 1000, "gagal": 0, "rosak": 2}

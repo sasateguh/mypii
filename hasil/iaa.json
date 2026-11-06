@@ -1,0 +1,191 @@
+{
+  "n": 300,
+  "pasangan": {
+    "p1×llm": {
+      "a": {
+        "kappa": {
+          "atas": null,
+          "bawah": null,
+          "nilai": null
+        },
+        "setuju": {
+          "atas": 1.0,
+          "bawah": 1.0,
+          "nilai": 1.0
+        }
+      },
+      "b": {
+        "f1": {
+          "atas": 0.5231,
+          "bawah": 0.3036,
+          "nilai": 0.4202
+        },
+        "kedua_tiada": 224,
+        "nilai_a": 35,
+        "nilai_b": 84
+      },
+      "c": {
+        "kappa": {
+          "atas": 0.0,
+          "bawah": 0.0,
+          "nilai": 0.0
+        },
+        "setuju": {
+          "atas": 0.8367,
+          "bawah": 0.7467,
+          "nilai": 0.7933
+        }
+      },
+      "dokumen": 300,
+      "keadaan": "lengkap",
+      "span": 258,
+      "utama": true
+    },
+    "p1×p2": {
+      "keadaan": "menunggu p2 (0/300)",
+      "utama": false
+    }
+  },
+  "penyemak": {
+    "llm": {
+      "gagal": 0,
+      "n": 300,
+      "rosak": 0,
+      "separa": 0,
+      "siap": 300
+    },
+    "p1": {
+      "gagal": 0,
+      "n": 300,
+      "rosak": 0,
+      "separa": 0,
+      "siap": 300
+    },
+    "p2": {
+      "n": 300,
+      "siap": 0
+    }
+  },
+  "ralat": {
+    "llm": {
+      "dev": {
+        "dokumen": 150,
+        "janggal": {
+          "atas": 0.3,
+          "bawah": 0.16,
+          "nilai": 0.2267
+        },
+        "span": 132,
+        "span_salah": {
+          "atas": 0.0,
+          "bawah": 0.0,
+          "nilai": 0.0
+        },
+        "tak_bertanda": {
+          "atas": 0.3,
+          "bawah": 0.1667,
+          "nilai": 0.2267
+        }
+      },
+      "dev-ujian2": {
+        "janggal": {
+          "atas": 0.14,
+          "bawah": -0.0533,
+          "nilai": 0.04
+        },
+        "span_salah": {
+          "atas": 0.0,
+          "bawah": 0.0,
+          "nilai": 0.0
+        },
+        "tak_bertanda": {
+          "atas": 0.1067,
+          "bawah": -0.0867,
+          "nilai": 0.0067
+        }
+      },
+      "ujian2": {
+        "dokumen": 150,
+        "janggal": {
+          "atas": 0.2467,
+          "bawah": 0.1267,
+          "nilai": 0.1867
+        },
+        "span": 126,
+        "span_salah": {
+          "atas": 0.0,
+          "bawah": 0.0,
+          "nilai": 0.0
+        },
+        "tak_bertanda": {
+          "atas": 0.2867,
+          "bawah": 0.1533,
+          "nilai": 0.22
+        }
+      }
+    },
+    "p1": {
+      "dev": {
+        "dokumen": 150,
+        "janggal": {
+          "atas": 0.0,
+          "bawah": 0.0,
+          "nilai": 0.0
+        },
+        "span": 132,
+        "span_salah": {
+          "atas": 0.0,
+          "bawah": 0.0,
+          "nilai": 0.0
+        },
+        "tak_bertanda": {
+          "atas": 0.1133,
+          "bawah": 0.0267,
+          "nilai": 0.0667
+        }
+      },
+      "dev-ujian2": {
+        "janggal": {
+          "atas": 0.0,
+          "bawah": 0.0,
+          "nilai": 0.0
+        },
+        "span_salah": {
+          "atas": 0.0,
+          "bawah": 0.0,
+          "nilai": 0.0
+        },
+        "tak_bertanda": {
+          "atas": -0.0267,
+          "bawah": -0.18,
+          "nilai": -0.1
+        }
+      },
+      "ujian2": {
+        "dokumen": 150,
+        "janggal": {
+          "atas": 0.0,
+          "bawah": 0.0,
+          "nilai": 0.0
+        },
+        "span": 126,
+        "span_salah": {
+          "atas": 0.0,
+          "bawah": 0.0,
+          "nilai": 0.0
+        },
+        "tak_bertanda": {
+          "atas": 0.2267,
+          "bawah": 0.1133,
+          "nilai": 0.1667
+        }
+      }
+    }
+  },
+  "sampel_sha256": "a86287abcba9fb27346c5c8bee5ce67d9544fd7b95139a5999c56d8645120376",
+  "statistik": {
+    "aras": 0.95,
+    "benih": 2026,
+    "ulangan": 1000
+  }
+}

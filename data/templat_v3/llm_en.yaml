@@ -1,0 +1,501 @@
+# Dijana 2026-11-05 oleh `python -m mypii.jana.templat_llm --sasaran latih3` (model: rv/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-NVFP4). JANGAN sunting tangan.
+genre:
+  penyata_bank:
+  - 'Transfer in from {SYARIKAT} to account of {NAMA}.
+
+    Date: {TARIKH}
+
+    Holder phone: {MY_PHONE}
+
+    Holder MyKad: {MY_NRIC}
+
+    Reference: {NEG}'
+  - 'Remark: payment to {SYARIKAT}
+
+    Company registration no: {MY_SSM}
+
+    Account: {NEG_AKAUN}
+
+    Date: {TARIKH}'
+  - 'Sabah landline contact for transfer
+
+    Phone: {MY_PHONE_BS}
+
+    OCR phone from slip:
+
+    {OCR_MY_PHONE}
+
+    Ref: {NEG}'
+  keahlian:
+  - 'GYM MEMBERSHIP REGISTRATION
+
+    Name: {NAMA}
+
+    NRIC: {MY_NRIC}
+
+    Phone: {MY_PHONE}
+
+    Town: {BANDAR}
+
+    Date: {TARIKH}
+
+    Member No: {NEG_AHLI}'
+  - 'GYM BRANCH REGISTRATION (EAST MALAYSIA)
+
+    Name: {NAMA}
+
+    NRIC (scanned): {OCR_MY_NRIC}
+
+    Phone (Sabah/Sarawak): {MY_PHONE_BS}
+
+    Branch: {BANDAR}
+
+    Date: {TARIKH}
+
+    Policy: {NEG_AHLI}'
+  - 'PAYMENT RECEIPT
+
+    Ref: {NEG_INVOIS}
+
+    Amount: RM 85
+
+    Date: {TARIKH}
+
+    {NEG12_TANPA}
+
+    Approved by: {SYARIKAT}'
+  - 'CLUB MEMBERSHIP RENEWAL
+
+    Association: {SYARIKAT}
+
+    No. Ahli: {NEG_AHLI}
+
+    Expiry: {NEG_TARIKH}
+
+    Branch: {BANDAR}
+
+    Date: {TARIKH}'
+  polisi_takaful:
+  - 'Takaful Policy Renewal Notice
+
+    Dear {NAMA}, your policy expires on {TARIKH}.
+
+    Please renew before {TARIKH} at {SYARIKAT} branch, {BANDAR}.
+
+    Policy No.: {NEG_AHLI} | NRIC: {MY_NRIC}'
+  - 'Nominee Update Request
+
+    For: {NAMA} ({PATAH_MY_NRIC})
+
+    Contact us at {MY_PHONE} to sign the form at {SYARIKAT}.'
+  - 'Takaful Premium Payment Reminder
+
+    {SYARIKAT} (Old: {MY_SSM_LAMA}) processes payment for {NAMA}.
+
+    Amount RM800. Due date: {TARIKH}. Reference: {NEG_INVOIS}.'
+  - 'Policy Renewal Notice
+
+    Scanned document for {NAMA} in {BANDAR}.
+
+    NRIC (scan): {OCR_MY_NRIC}
+
+    Phone (scan): {OCR_MY_PHONE}. Please contact {SYARIKAT} before {TARIKH}.'
+  - 'Renewal Reminder
+
+    Date: {TARIKH}
+
+    Location: {BANDAR}
+
+    {NEG12_TANPA}
+
+    Please contact the head office of {SYARIKAT}.'
+  - 'Premium Notice
+
+    Payment reference: {NEG}
+
+    Invoice No.: {NEG_INVOIS}
+
+    Date received: {TARIKH}
+
+    Contact {SYARIKAT}, {BANDAR} for assistance.'
+  - 'Nominee Update
+
+    Policyholder name: {NAMA}
+
+    Product code: {NEG_KOD}
+
+    Bank account: {NEG_AKAUN}
+
+    Effective date: {TARIKH}'
+  - 'Takaful Policy Renewal Notice
+
+    Dear {NAMA}, your policy expires on {TARIKH}. Please pay the premium before the expiry date.
+
+    Contact us at {MY_PHONE}. NRIC: {MY_NRIC} | Reference: {NEG_AHLI}'
+  - 'Monthly Premium Reminder
+
+    {NAMA}, kindly settle your takaful contribution by {TARIKH}.
+
+    Invoice: {NEG_INVOIS}
+
+    Scanned phone: {OCR_MY_PHONE}
+
+    Scanned NRIC: {OCR_MY_NRIC}'
+  - 'Business Takaful Renewal Notice
+
+    {NAMA} on behalf of {SYARIKAT}
+
+    LLP Registration: {MY_SSM_LLP}
+
+    Sabah Sarawak Landline: {MY_PHONE_BS}
+
+    Pay before {TARIKH}'
+  - 'Payment Reminder
+
+    {NAMA}, amount due is RM 150.
+
+    Date: {TARIKH}
+
+    {NEG12_TANPA}
+
+    Pay at {SYARIKAT}, {BANDAR}.'
+  - 'Takaful Policy Notice
+
+    Invoice reference: {NEG_INVOIS}
+
+    Bank account number: {NEG_AKAUN}
+
+    Contact {SYARIKAT} at {BANDAR} before {TARIKH}.'
+  tempahan_hotel:
+  - 'Hotel Sejuk Booking
+
+    Guest: {NAMA}
+
+    MyKad No: {MY_NRIC} | Phone: {MY_PHONE}
+
+    Check-in date: {TARIKH}
+
+    Reference: {NEG}
+
+    Invoice: {NEG_INVOIS}'
+  - 'Company Travel Booking
+
+    Company: {SYARIKAT}
+
+    SSM Registration No: {MY_SSM}
+
+    Person in charge: {NAMA}
+
+    Booking date: {TARIKH}
+
+    Invoice reference: {NEG_INVOIS}'
+  - 'Homestay Stay Details
+
+    Guest: {NAMA}
+
+    Check-in: {TARIKH}
+
+    NRIC (scan): {OCR_MY_NRIC}
+
+    Contact (scan): {OCR_MY_PHONE}
+
+    Host: {SYARIKAT}, {BANDAR}'
+  pesanan_online:
+  - 'Dear {NAMA},
+
+    Your order from {SYARIKAT} is confirmed.
+
+    Order no: {NEG}
+
+    Invoice: {NEG_INVOIS}
+
+    Delivery to {BANDAR} by {TARIKH}.
+
+    Thank you.'
+  - 'Hi {SYARIKAT}, I need to return my purchase.
+
+    Order {NEG} from {TARIKH}.
+
+    Item code {NEG_KOD} is damaged.
+
+    Please collect from {BANDAR}.
+
+    Regards, {NAMA}.'
+  - 'Hi, I want to return this item.
+
+    Order number {NEG}
+
+    {NEG12_TANPA}
+
+    Please refund to my card.
+
+    Thanks.'
+  - 'Hello {NAMA},
+
+    Thank you for ordering from {SYARIKAT}.
+
+    Order: {NEG}
+
+    NRIC: {MY_NRIC}
+
+    Phone: {MY_PHONE}
+
+    Ship to {BANDAR} on {TARIKH}.'
+  - 'Dear {SYARIKAT},
+
+    Bulk order for our office.
+
+    Company reg: {MY_SSM}
+
+    Contact: {MY_PHONE}
+
+    Order ref: {NEG} {TARIKH}
+
+    Deliver to {BANDAR}.'
+  - 'Return request for {NEG}.
+
+    Customer: {NAMA}
+
+    NRIC: {PATAH_MY_NRIC}
+
+    Sabah line: {MY_PHONE_BS}
+
+    Town: {BANDAR}
+
+    Date: {TARIKH}.'
+  - 'Hello {SYARIKAT}, I am {NAMA} from {BANDAR}. I just placed an order through your mobile shop.
+
+    My phone number is {MY_PHONE}. Please confirm order {NEG} for this item. Thank you.'
+  - 'Hello, I want to request a return for order {NEG}.
+
+    My full name is {NAMA} and my MyKad number is {MY_NRIC}. The item arrived damaged in {BANDAR} on {TARIKH}.'
+  - 'The uploaded receipt copy is unclear. The phone number recorded is {PATAH_MY_PHONE}.
+
+    The MyKad number in the scan is {OCR_MY_NRIC}. Please contact {SYARIKAT} for the refund arrangement.'
+  - 'We received a refund request from {NAMA} for services provided by {SYARIKAT} ({MY_SSM_LLP}).
+
+    The invoice number is {NEG_INVOIS}. Please transfer the money to the bank account provided.'
+  - 'Hi, I am {NAMA} from {BANDAR}, Sabah. I need help with order {NEG}.
+
+    My office phone number here is {MY_PHONE_BS}. Please contact me as soon as possible.'
+  - 'Thank you for choosing {SYARIKAT}. Your order {NEG} has been processed and will be delivered to {BANDAR} on {TARIKH}.
+
+    Please keep the tracking number {NEG_INVOIS} for future reference.'
+  - 'Your order has been updated. Please check {NEG12_TANPA}.
+
+    The item will arrive in {BANDAR} before {TARIKH}. Thank you, {SYARIKAT}.'
+  - 'Hello {SYARIKAT}, I am {NAMA} from {BANDAR}. The phone number I registered is {NEG_TEL}.
+
+    Please contact me regarding order {NEG} on {TARIKH}.'
+  pembekal_b2b:
+  - 'QUOTATION - {TARIKH}
+
+    To: {SYARIKAT}, {BANDAR}
+
+    From: {SYARIKAT} (SSM: {MY_SSM})
+
+    Contact: {NAMA} at {MY_PHONE}
+
+    Items: industrial bearings, RM 850 per unit.
+
+    Valid for 30 days.'
+  - 'PURCHASE ORDER {NEG}
+
+    Date: {TARIKH}
+
+    Supplier: {SYARIKAT}, {BANDAR}
+
+    Attn: {NAMA}, NRIC {PATAH_MY_NRIC}
+
+    PO reference: {NEG_INVOIS}
+
+    Approved by procurement.'
+  - 'TENDER SUBMISSION - {TARIKH}
+
+    Bidder: {SYARIKAT} (LLP registration {MY_SSM_LLP})
+
+    Address: {BANDAR}, Malaysia
+
+    Contact line: {MY_PHONE_BS}
+
+    Proposed value: as per bill of quantities
+
+    Signature: __________'
+  - 'PURCHASE ORDER {NEG}
+
+    {TARIKH}
+
+    Supplier: {SYARIKAT}, {BANDAR}
+
+    Contact phone: {NEG_TEL}
+
+    Bank account: {NEG_AKAUN}
+
+    Reference: {NEG_INVOIS}'
+  - 'Payment Advice
+
+    Company: {SYARIKAT}
+
+    Account Number: {NEG_AKAUN}
+
+    Invoice: {NEG_INVOIS}
+
+    Tel: {NEG_TEL}
+
+    {TARIKH}'
+  - 'Tender Receipt
+
+    Reference: {NEG}
+
+    Product Code: {NEG_KOD}
+
+    Date Received: {NEG_TARIKH}
+
+    {TARIKH}'
+  kedai_sabah_sarawak:
+  - 'NOTICE: {SYARIKAT} motor workshop, {BANDAR}, Sabah.
+
+    Closed for public holiday from {TARIKH} to {TARIKH}.
+
+    Urgent collection only: call {MY_PHONE_BS}.
+
+    SSM LLP: {MY_SSM_LLP}.'
+  - 'Customer message for {NAMA}: your spare part {NEG_KOD} is ready at {SYARIKAT}, {BANDAR}, Sarawak.
+
+    Please bring this slip and your MyKad: {MY_NRIC}.
+
+    Contact office landline {MY_PHONE} during hours.
+
+    {TARIKH}'
+  - 'INVOICE {NEG_INVOIS} from {SYARIKAT}, {BANDAR}.
+
+    Amount due: RM {NEG}. Please pay by {TARIKH}.
+
+    Company reg (scanned): {OCR_MY_SSM}.
+
+    Phone (scanned): {OCR_MY_PHONE}.'
+  - 'REMINDER: {NAMA}, your account at {SYARIKAT} is overdue.
+
+    Old SSM: {MY_SSM_LAMA}.
+
+    Call {MY_PHONE_BS} immediately.
+
+    {BANDAR}, Sarawak. {TARIKH}'
+  - 'SHOP HOLIDAY NOTICE
+
+    {SYARIKAT} will be closed {TARIKH} to {TARIKH}.
+
+    Reopens {TARIKH} at 9am.
+
+    For enquiries, leave message at counter.
+
+    {BANDAR}, Sarawak.'
+  - 'NOTICE - {SYARIKAT}, {BANDAR}
+
+    Dear {NAMA}, your repair is complete.
+
+    Kindly contact our landline {MY_PHONE_BS} by {TARIKH}.
+
+    Thank you.'
+  - 'Invoice from {SYARIKAT} (LLP), {BANDAR}
+
+    SSM LLP: {MY_SSM_LLP}
+
+    Attn: {NAMA}
+
+    Please settle by {TARIKH}'
+  - 'Delivery note - {SYARIKAT}, {BANDAR}
+
+    Ref {NEG}
+
+    {NEG12_TANPA}
+
+    Send to {NAMA} before {TARIKH}'
+  firma_llp:
+  - '{NEG12_TANPA} dated {TARIKH} for {SYARIKAT} in {BANDAR}.'
+  - 'Engagement letter for accounting services to {SYARIKAT} in {BANDAR}.
+
+    Partner: {NAMA}. Firm LLP registration: {MY_SSM_LLP}.
+
+    Date: {TARIKH}. Contact: {MY_PHONE}.'
+  - 'Invoice {NEG_INVOIS} from {SYARIKAT} Advocates & Solicitors LLP.
+
+    Client: {NAMA}. Matter: corporate registration {OCR_MY_NRIC}.
+
+    Date {TARIKH}. Fee reference {NEG}.'
+  - 'Consulting engagement note for {SYARIKAT}, {BANDAR}.
+
+    Consultant: {NAMA}. Office line: {MY_PHONE_BS}.
+
+    Engagement date: {TARIKH}.'
+  - 'Statement of account for {SYARIKAT} in {BANDAR}.
+
+    Prepared by {NAMA} on {TARIKH}.
+
+    Reference {NEG}. Invoice {NEG_INVOIS}.'
+  - 'Remittance advice from {SYARIKAT} to {NAMA}.
+
+    Bank account {NEG_AKAUN}. Item code {NEG_KOD}.
+
+    Contact line {NEG_TEL}. Date {TARIKH}.'
+  - 'Client intake for {NAMA}, NRIC {MY_NRIC}.
+
+    Mobile number broken in narrow column: {PATAH_MY_PHONE}.
+
+    Firm LLP no {MY_SSM_LLP}. Date {TARIKH}.'
+  - 'Scanned engagement copy from {SYARIKAT}, {BANDAR}.
+
+    Phone as read: {OCR_MY_PHONE}. Old SSM: {MY_SSM_LAMA}.
+
+    Partner {NAMA}. Date {TARIKH}.'
+  - 'Dear {NAMA},
+
+    {SYARIKAT} LLP
+
+    {BANDAR}
+
+    Re: your letter dated {TARIKH}. Our firm, registered under {MY_SSM_LLP}, offers accounting services. Please contact us at {MY_PHONE_BS} to schedule a meeting.'
+  - 'Reference: {NEG}
+
+    This statement is issued by {SYARIKAT} LLP ({MY_SSM_LAMA}).
+
+    Please contact {NAMA} at {PATAH_MY_PHONE} or {PATAH_MY_SSM}.'
+  - 'Attached form
+
+    {NEG12_TANPA}
+
+    Prepared by: {NAMA}
+
+    Date: {TARIKH}'
+  - 'Confirmation letter
+
+    Phone number: {NEG_TEL}
+
+    Bank reference: {NEG_AKAUN}
+
+    Date: {TARIKH}'
+  - 'Invoice number {NEG_INVOIS}
+
+    Payment reference: {NEG}
+
+    Company: {SYARIKAT}
+
+    Date: {TARIKH}'
+  - 'To: {NAMA}
+
+    Law firm: {SYARIKAT}
+
+    Registration number: {MY_SSM}
+
+    Identity card number: {OCR_MY_NRIC}
+
+    Date: {TARIKH}'
+  - 'Payment reminder
+
+    To: {NAMA}, {SYARIKAT}
+
+    Identity number: {MY_NRIC}
+
+    Tel: {MY_PHONE}
+
+    Date: {TARIKH}'

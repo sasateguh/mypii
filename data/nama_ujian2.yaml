@@ -1,0 +1,787 @@
+# Dijana 2026-10-30 oleh `python -m mypii.jana.templat_llm --sasaran ujian2` (model: cbcn/kimi-k3). JANGAN sunting tangan.
+# DIMETERAI (PELAN-B B1): jangan buka, jangan sunting — gerbang menolak sebarang perubahan.
+pertama_melayu_l:
+- Hakimi
+- Danial Hakim
+- Aiman Faris
+- Syazwan Iqbal
+- Amirul Hakim
+- Firdaus Aiman
+- Luqman Aliff
+- Zikri Danish
+- Harith Zarif
+- Irfan Najmi
+- Qayyum Danish
+- Afiq Zharif
+- Ridzuan Akmal
+- Shahir Zafri
+- Azri Hadi
+- Fikri Aiman
+- Nabil Zarif
+- Syahmi Irfan
+- Haiqal Danish
+- Zarif Aiman
+- Ikmal Firdaus
+- Arif Zikri
+- Danish Qayyum
+- Aiman Irfan
+- Faris Luqman
+- Hakim Zarif
+- Iqbal Nabil
+- Aliff Syahmi
+- Najmi Ridzuan
+- Zharif Afiq
+- Akmal Shahir
+- Hadi Azri
+- Zafri Fikri
+- Syazril Haikal
+- Imran Zulkifli
+- Khairil Anas
+- Shafiq Izwan
+- Badrul Hisham
+- Idzham Rizal
+- Wafi Raziq
+- Tarmizi Ehsan
+- Shukri Zamri
+- Faiz Nazrin
+- Huzair Ilham
+- Zamir Rashid
+- Anuar Fitri
+- Roslan Hafiy
+- Kamal Adib
+- Shahril Eiman
+- Dzul Aiman
+- Farid Wafi
+- Azlan Syafiq
+- Halim Zaid
+- Rizal Imran
+- Nasrul Hadi
+- Fauzi Danial
+- Zulhairi Arif
+- Ehsan Luqman
+- Ilham Zarif
+pertama_melayu_p:
+- Damia Qistina
+- Syahirah
+- Balqis Humaira
+- Aleesya Sofea
+- Widad Batrisyia
+- Eryna Maisara
+- Qaseh Adelia
+- Ilham Dhiya
+- Kirana Amani
+- Liyana Batrisya
+- Mawar Zafirah
+- Nadira Elysa
+- Putri Ariana
+- Qistina Balqis
+- Raisya Danna
+- Safiyya Elina
+- Tihani Marissa
+- Ulya Damia
+- Warda Qaisara
+- Yasmin Elora
+- Zara Aleena
+- Adriana Camelia
+- Alya Dania
+- Amara Qistina
+- Azalea Putri
+- Batrisyia Delisha
+- Cahaya Maira
+- Dalili Wafa
+- Ellysa Rania
+- Faiqa Medina
+- Ghazalina Irdina
+- Hani Sofea
+- Inara Qalesya
+- Jannah Aleesya
+- Kartika Widad
+- Laila Damia
+- Mahirah Qaseh
+- Nayla Adriana
+- Orked Batrisya
+- Puspita Raisya
+- Qalesya Nadira
+- Ratna Safiyya
+- Salwa Tihani
+- Tania Ulya
+- Umma Warda
+- Vidya Yasmin
+- Wani Zara
+- Xaviera Alya
+- Yusra Amara
+- Zahira Azalea
+- Afrina Cahaya
+- Benita Dalili
+- Cempaka Ellysa
+- Dewi Faiqa
+- Ezzati Hani
+- Fazreena Inara
+- Ghalia Jannah
+- Haura Kartika
+- Izzati Laila
+pertama_cina:
+- Jun Hao
+- Xin Yu
+- Hao Chen
+- Yu Han
+- Ze Kai
+- Rui Bo
+- Kai Yuan
+- Chen Xi
+- Han Qi
+- Bo Yan
+- An Tao
+- En Hao
+- Xi Ran
+- Qi Lun
+- Shu Kai
+- Yuan He
+- Zhi Xuan
+- Hao Ran
+- Jun Ze
+- Yu Zhe
+- Xuan Rui
+- Han Bo
+- Ze An
+- Rui En
+- Bo Xi
+- Tao Qi
+- He Xuan
+- Yan Jun
+- Lun Hao
+- Shen Yu
+- Zhe Kai
+- Xi Chen
+- Ran Han
+- Qi Yuan
+- En Ze
+- He Rui
+- Xuan Bo
+- Zhi Tao
+- Hao An
+- Jun Xi
+- Kai Qi
+- Yu Lun
+- Chen Zhe
+- Ze He
+- Rui Xuan
+- Bo Jun
+- Tao Yu
+- An Chen
+- Xi Kai
+- Qi Hao
+- Yuan Ze
+- Zhi Rui
+- Ran Bo
+- Lun Tao
+- Shen An
+- Zhe Xi
+- He Qi
+- Xuan Yuan
+pertama_inggeris:
+- Adrian
+- Alvin
+- Amanda
+- Andrea
+- Anita
+- Audrey
+- Beatrice
+- Bernard
+- Brenda
+- Brian
+- Calvin
+- Carmen
+- Cedric
+- Celine
+- Charlene
+- Clara
+- Claudia
+- Cyrus
+- Daphne
+- Darren
+- Deborah
+- Denise
+- Dennis
+- Desmond
+- Donna
+- Doreen
+- Edmund
+- Edwin
+- Elaine
+- Eleanor
+- Elias
+- Eunice
+- Felicia
+- Fiona
+- Florence
+- Francis
+- Gabriel
+- Gerald
+- Gilbert
+- Gloria
+- Gregory
+- Hazel
+- Heather
+- Helena
+- Herbert
+- Irene
+- Isaac
+- Isabel
+- Ivan
+- Janice
+- Karen
+- Kelvin
+- Laura
+- Lauren
+- Leonard
+- Lester
+- Marcus
+- Margaret
+- Marian
+- Marvin
+pertama_india_l:
+- Arvind
+- Balamurugan
+- Chandran
+- Dinesh
+- Elango
+- Ganesh
+- Haridas
+- Indran
+- Jayakumar
+- Karthik
+- Loganathan
+- Mohan
+- Naveen
+- Prakash
+- Ramesh
+- Saravanan
+- Thirumal
+- Udayakumar
+- Vasudevan
+- Yogesh
+- Anbarasu
+- Bharath
+- Deepak
+- Eswaran
+- Gopinath
+- Hariharan
+- Jagdish
+- Kumaran
+- Lakshman
+- Manikandan
+- Nithyan
+- Parthiban
+- Ragavan
+- Selvakumar
+- Tamilselvan
+- Vignesh
+- Warrenjit
+- Amritpal
+- Balwinder
+- Charanjit
+- Daljit
+- Gurdeep
+- Harpreet
+- Jaswinder
+- Kulwant
+- Manpreet
+- Navjot
+- Paramjit
+- Ranjit
+- Satnam
+- Tejinder
+- Ajeet
+- Balraj
+- Gurmeet
+- Karanbir
+- Pritam
+- Sukhdev
+- Vijayakumar
+- Murugan
+pertama_india_p:
+- Anitha
+- Bhavani
+- Chitra
+- Deepa
+- Divya
+- Eswari
+- Gayathri
+- Geetha
+- Harini
+- Indrani
+- Janani
+- Jayanthi
+- Kamala
+- Karpagam
+- Lakshmi
+- Lalitha
+- Malini
+- Meera
+- Nalini
+- Nandini
+- Padma
+- Parvathi
+- Poornima
+- Radha
+- Rajeswari
+- Ramani
+- Revathi
+- Sandhya
+- Saraswathi
+- Selvi
+- Shanti
+- Sharmila
+- Shobana
+- Suganthi
+- Sumathi
+- Sundari
+- Tamilarasi
+- Usha
+- Vasanthi
+- Vijaya
+- Yamuna
+- Amutha
+- Brindha
+- Deivanai
+- Elakkiya
+- Gomathi
+- Hemalatha
+- Ishwarya
+- Jothilakshmi
+- Kalyani
+- Maheswari
+- Nithya
+- Oviya
+- Punitha
+- Renuka
+- Saranya
+- Thilagavathi
+- Vaishnavi
+- Yogeswari
+pertama_iban_l:
+- Bujang
+- Garang
+- Libau
+- Rentap
+- Luta
+- Kanyan
+- Mujan
+- Antu
+- Sadok
+- Gendang
+- Lapu
+- Narang
+- Jugah
+- Kedit
+- Bantan
+- Mawar
+- Ujan
+- Dalin
+- Engking
+- Saging
+- Lidam
+- Untan
+- Gumbang
+- Kelian
+- Radin
+- Jimbun
+- Sugan
+- Langgi
+- Punan
+- Belawing
+- Tawai
+- Nuing
+- Sanggau
+- Mering
+- Pangga
+- Jok
+- Linoh
+- Tindin
+- Sumbang
+- Janting
+- Ukit
+- Selera
+- Bunyau
+- Luban
+- Tugau
+- Kelubi
+- Milan
+- Ransi
+- Jelani
+- Batang
+- Sulang
+- Empiang
+- Girik
+- Napuh
+- Lemai
+- Tarang
+- Buang
+- Meluan
+- Ribut
+- Kunyit
+pertama_iban_p:
+- Anjak
+- Bujang
+- Sulie
+- Endun
+- Lian
+- Nurak
+- Selaka
+- Idup
+- Tujang
+- Lelang
+- Beti
+- Udih
+- Jani
+- Keling
+- Sengian
+- Manjah
+- Lumba
+- Undau
+- Beliang
+- Tindin
+- Sumbang
+- Gira
+- Lempong
+- Duyu
+- Kenang
+- Pawi
+- Renggi
+- Sanggau
+- Muning
+- Tikai
+- Lidas
+- Burang
+- Jintan
+- Seka
+- Belaka
+- Rundu
+- Teliau
+- Kuban
+- Nangka
+- Pelian
+- Sudan
+- Ingat
+- Lungga
+- Bera
+- Dandu
+- Keran
+- Sibat
+- Manggu
+- Telian
+- Upih
+- Gering
+- Sidan
+- Bunan
+- Kudi
+- Lelan
+- Rantau
+- Meli
+- Tungka
+- Bida
+- Seran
+pertama_kadazan:
+- Rinumis
+- Koidapan
+- Lunsudan
+- Tavijin
+- Sorobin
+- Miolud
+- Ganulap
+- Ondoloi
+- Pilitan
+- Rusimoi
+- Tandigon
+- Velurin
+- Jimbolan
+- Suntingan
+- Koromid
+- Dulinang
+- Posiding
+- Rinugan
+- Tolombin
+- Masilau
+- Gundohing
+- Livundan
+- Sakirang
+- Monolud
+- Piturin
+- Ranudit
+- Binuvad
+- Gumantar
+- Losijim
+- Tindarau
+- Vunisang
+- Kolupis
+- Manjalin
+- Rudonik
+- Sampirang
+- Liduron
+- Ontobol
+- Giromin
+- Padasukan
+- Tunggalik
+- Miranduk
+- Solungan
+- Kimpadan
+- Rovinad
+- Butulang
+- Sindorum
+- Lokimad
+- Puradik
+- Tambunut
+- Gelipang
+- Monorik
+- Dasilang
+- Ungavid
+- Kirondom
+- Palisun
+- Tovondon
+- Rimbaruk
+- Salumik
+- Nodopin
+- Garumis
+keluarga_cina:
+- Yeoh
+- Cheah
+- Teoh
+- Goh
+- Ooi
+- Ong
+- Khoo
+- Loh
+- Lau
+- Yap
+- Gan
+- Chin
+- Chan
+- Chua
+- Teh
+- Foo
+- Hew
+- Yeo
+- Teng
+- Tang
+- Tong
+- Fong
+- Poon
+- Pang
+- Phua
+- Khor
+- Quek
+- Kwan
+- Leong
+- Liew
+- Liaw
+- Lum
+- Mah
+- Mok
+- Sia
+- Soh
+- Soon
+- Tai
+- Ting
+- Tiong
+- Woo
+- Yam
+- Yee
+- Yong
+- Chai
+- Choong
+- Cheong
+- Seah
+- Siew
+- Sim
+- Low
+- Loo
+- Ang
+- Cheam
+- Kong
+- Soo
+- Beh
+- Liong
+- Peh
+- Shen
+keluarga_kadazan:
+- Ganobin
+- Lojuin
+- Mojitam
+- Sambalai
+- Kundasangi
+- Tambunan
+- Gintolung
+- Mojusip
+- Dunggol
+- Sindumin
+- Lombang
+- Koputun
+- Tanggalung
+- Mondikot
+- Siumbang
+- Gubanin
+- Lantowi
+- Mojurang
+- Tibabar
+- Sogindau
+- Koporing
+- Langgadon
+- Mojikon
+- Tumpowok
+- Singgaron
+- Gobuntong
+- Lumawig
+- Mojohing
+- Tandekon
+- Soborong
+- Kopuizan
+- Langadang
+- Mojusang
+- Tondowoi
+- Simbaton
+- Guriting
+- Lompodon
+- Mojivun
+- Tagalung
+- Sonduang
+- Kopondon
+- Libangon
+- Mojutang
+- Tiriggon
+- Sambodon
+- Goluntu
+- Lumondou
+- Mojiring
+- Toburung
+- Sandapong
+- Kopulang
+- Langkawon
+- Mojodang
+- Tunggalon
+- Siburang
+- Gomandong
+- Lupakon
+- Mojangkou
+- Tinsulung
+syarikat:
+- Aroma Lestari Sdn Bhd
+- Cerah Puncak Enterprise
+- Nadi Primawan Trading
+- Lautan Sutra PLT
+- Baiduri Cemerlang Berhad
+- Rimba Nilai Sdn Bhd
+- Cakera Suria Enterprise
+- Embun Murni Trading
+- Panca Wibawa PLT
+- Sri Tanjung Berhad
+- Desa Gemilang Sdn Bhd
+- Fajar Baiduri Enterprise
+- Gelora Intan Trading
+- Harmoni Reka PLT
+- Ikhlas Niaga Sdn Bhd
+- Jentayu Kreatif Berhad
+- Kelana Biru Enterprise
+- Laman Cempaka Trading
+- Mentari Paksi PLT
+- Nusa Tulas Sdn Bhd
+- Ombak Riang Enterprise
+- Padi Mas Trading
+- Qalbu Dinamik PLT
+- Ratna Kencana Berhad
+- Suluh Amanah Enterprise
+- Teratai Emas Trading
+- Uda Bestari PLT
+- Warna Semesta Sdn Bhd
+- Zamrud Arif Berhad
+- Bayu Lencana Enterprise
+- Cendana Puri Trading
+- Dataran Mulia PLT
+- Ehsan Makmur Sdn Bhd
+- Fikrah Gemuruh Berhad
+- Gema Sukma Enterprise
+- Haluan Tirta Trading
+- Ilham Pesona PLT
+- Jalinan Usaha Sdn Bhd
+- Kirana Raya Berhad
+- Langkah Ceria Enterprise
+- Mutiara Angkasa Trading
+- Nakhoda Fikir PLT
+- Oriza Pasifik Sdn Bhd
+- Permata Hikmah Berhad
+- Rimbun Selasih Enterprise
+- Satria Bumi Trading
+- Teras Wawasan PLT
+- Usaha Cita Sdn Bhd
+- Valenia Langit Berhad
+- Wau Dinamik Enterprise
+- Yakin Cergas Trading
+- Zirah Purnama PLT
+- Adiwarna Lestari Sdn Bhd
+- Bahtera Kurnia Enterprise
+- Cakra Niaga Trading
+- Dewangga Alam PLT
+- Elok Pertiwi Berhad
+- Fasa Indah Enterprise
+- Gerbang Ilmu Trading
+- Hikayat Samudra PLT
+bandar:
+- Tanah Merah
+- Kuala Kubu Bharu
+- Sungai Petani
+- Batu Pahat
+- Muar
+- Segamat
+- Temerloh
+- Kuala Lipis
+- Raub
+- Bentong
+- Kuala Terengganu
+- Kemaman
+- Dungun
+- Marang
+- Pasir Mas
+- Machang
+- Kuala Krai
+- Gua Musang
+- Jeli
+- Tumpat
+- Kulim
+- Sungai Siput
+- Tapah
+- Bidor
+- Kampar
+- Teluk Intan
+- Lumut
+- Sitiawan
+- Tanjung Malim
+- Rawang
+- Kajang
+- Banting
+- Jenjarom
+- Port Dickson
+- Bahau
+- Kuala Pilah
+- Tampin
+- Jasin
+- Ayer Keroh
+- Masjid Tanah
+- Tangkak
+- Kluang
+- Mersing
+- Kulai
+- Pontian
+- Simpang Renggam
+- Labis
+- Bekok
+- Pekan
+- Jerantut
+- Kuala Rompin
+- Sandakan
+- Tawau
+- Lahad Datu
+- Beaufort
+- Keningau
+- Miri
+- Bintulu
+- Sarikei

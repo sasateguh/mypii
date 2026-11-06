@@ -1,0 +1,1000 @@
+{"kunci": "003626d38782c5894f88aae1a3bba1ecab84a2d78ccfb83c731958515c41f65a", "jawapan": "[{\"teks\": \"550323535565\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "00975e4b5fff64d9f543dee188a4857f776f27682cb31a8f8775e1379fb95186", "jawapan": "[]"}
+{"kunci": "00a86d61eaab288ae55f110fe17ec0c5f9931f9a5dbb44cf6354383a00095ee4", "jawapan": "[{\"teks\": \"941216-39-0039\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"200106100614\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "010f24692145e54d1d27e5c8605cfc6842634830e0c2d2318626e30ca5c611bc", "jawapan": "[{\"teks\": \"990815-00-5168\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "0117c03324b0cd7674826c4946a2c8e86faa93e70f56d5ae0bbc8f159224f3d6", "jawapan": "[{\"teks\": \"03-718 68\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "014b8dd713911977fb724b1d58ff6d2e8af3c5c056362ab9aa75fde709fdbe7f", "jawapan": "[]"}
+{"kunci": "019a57e28df5bc313b0b58d16db8b08aa4c50bfda9afd97129d280a2492c8e1c", "jawapan": "[{\"teks\": \"015-406 2944\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "01dd6cae0f837d784fbfb909f490b465e6f080c4d8c81f991eeec1e6dd049d60", "jawapan": "[]"}
+{"kunci": "01f77dc7fa9785a154ca82cc87944f1c5e08b8953fa93461c7bdae40044ecc9a", "jawapan": "[{\"teks\": \"09-248 7512\", \"entiti\": \"MY_PHONE\"}, {\"teks\": \"531201 71 3232\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "02fdcd08d89d343e4759eaae706a62f468e55659ddff951204451f25bfff20a1", "jawapan": "[{\"teks\": \"798250-M\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "032e4f1ee6c374960ba878e2ea0cc1a969851400dd62b1a6cc3af7a1a12e3657", "jawapan": "[]"}
+{"kunci": "035d6dd6fbd09e2b6ccc25b731551af3eed0ad00678e0e33b420cffca63cdf6d", "jawapan": "[{\"teks\": \"471013 33 3507\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"03-6645 6435\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "0432186098bb983e664d919f30b1cb205ecadf830a1d252d109fd5183040976a", "jawapan": "[{\"teks\": \"309104-D\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "043c039181187a1879719f40ee989a596b731a50336ffa0bebdcbc78780b3eef", "jawapan": "[{\"teks\": \"019-843 986050\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "0485eecd335f7e79302df45d0ca010df5577e63c4982482ef118f0fc0729504b", "jawapan": "[{\"teks\": \"145777-F\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "0487a4e16f623e50308684085c17528c3b9f947a69ae3d1f538c406a7d18aa0e", "jawapan": "[{\"teks\": \"081025 02 4912\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"013 3864284\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "04ad2189392415f3d425b6d80a407f0ea5bea33cc8b48475d3463960b5d863cb", "jawapan": "[{\"teks\": \"640430247617\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "04d198660b45636836156865a5d8298e59e31a7077c02ffec71ce28f297fea40", "jawapan": "[{\"teks\": \"522206-B\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "04fff79820022891383b98c7ec6bccb885c20be9b62cee100c5280486c8c0fee", "jawapan": "[]"}
+{"kunci": "0526fcf09e26cc48bed5e37ef4eceaadbc6c97eaff4fd64a429141eec836965e", "jawapan": "[{\"teks\": \"430622-44-1285\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"1552704-T\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "0566c26801240f7372b1b21d4317a8e6f77d3f5fe1a42c540ab28d426ddb78e9", "jawapan": "[{\"teks\": \"560927-78-8993\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "0609867663b51f6d3599b83af5721de832cf729d86a193f613929be04f00907c", "jawapan": "[{\"teks\": \"03-584 68\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "0657198dde165bc109c3dcf3a8dd90492f6dd8405efbd9bea3aa845fe28d672f", "jawapan": "[{\"teks\": \"019 385 6015\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "0665064016bdce6f47b0422e431d2bc3f4d635fca6053c64a3ec3f11757ae49a", "jawapan": "[{\"teks\": \"080501-65-9337\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"+60 17 7744723\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "0676aa04cc943eec60a40ea4a48617ed61d78fe3ecdd89f8349f4c653fb9e9a1", "jawapan": "[]"}
+{"kunci": "072afcbf860ae19de2903747865d8a99d46a1721816b1b28901cab3dee29334d", "jawapan": "[]"}
+{"kunci": "072f99fd5164f5728c71ce9a7494749d52611efba07b7e3f47c9ba8769e5e8b4", "jawapan": "[{\"teks\": \"245134-G\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"06-965 9914\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "073018cd6b28ed186ca97b20ca16950193cbfd96a5eb923f141cd3b8a51de192", "jawapan": "[{\"teks\": \"260621-873-3322\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"014-51585\", \"entiti\": \"MY_PHONE\"}, {\"teks\": \"143560-D\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "07e5e1446fa4017ed06e130fea9fc18e483dbc70ba491f68c5940fcd7748601b", "jawapan": "[{\"teks\": \"250925-717-0361\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "081749b063eb096555b54ef6c55fcca5a4b0dbf13fd42ee3b5d453a5ca07d990", "jawapan": "[{\"teks\": \"802117-H\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "08a08722b440d0af16ccb5ddb0ef1fe8da474b22f4fb702001bc4d090b7aa801", "jawapan": "[{\"teks\": \"010-84127\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "08c8d23686ac85b629db88f59aa47f805d6bd850e62e619041c8d5c2e3951e1f", "jawapan": "[{\"teks\": \"341671-E\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"890922988486\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "094cbe6d401dee48d598953e9e097745f990251a3de0d492aedf8ed45fb7c786", "jawapan": "[{\"teks\": \"730831-76-8639\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"016 896 4844\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "095e3db6cf733fd04b3cff1289620dd006ec10f751e75cd17628d28a309992ab", "jawapan": "[{\"teks\": \"872100-A\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "098be772cd95dbdc8feda476782165acbf99d314be57a9a84e4377796977134c", "jawapan": "[]"}
+{"kunci": "0a46e5df79b6315c9df1ee6f2558b9c4ed22fa43dd88273fffe1edea02620f63", "jawapan": "[{\"teks\": \"981016-16-1049\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "0a573df98a708757b510c455af10fc80e0fd5babc1b935a9bdeff62b7141f502", "jawapan": "[{\"teks\": \"844450-M\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "0a7835366e72d0ee68a3b6ec264bb2d3ab674a7d85346e8e301a07f3281745f8", "jawapan": "[{\"teks\": \"208921-F\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "0ac8de6b3acadcf69da7200c0bf8247ee74d2136d47c9e1a9e6f13b20a5ad720", "jawapan": "[{\"teks\": \"757986-H\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "0b164aa2badef5917b99916723639217027208ef071b6f2bc0c2b4f63fbb894c", "jawapan": "[{\"teks\": \"894075-M\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"03-6493 8841\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "0b25f2c9028aa26cbabb71cd3b66d78b8bf2c6f241f45365e037b85c3574a331", "jawapan": "[{\"teks\": \"800821 33 7085\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"196204115290\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"013-5986943\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "0b4871f67ce50829cdfdfaf67a0a1536463e404543aed3b3b7acfe3cafb8f29e", "jawapan": "[{\"teks\": \"260501-458-5273\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "0b5f0f79d1fa4c7ab1b989ff281d42d6e3bbedf7c2d9ae451faa671277a01a66", "jawapan": "[{\"teks\": \"1009177-F\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"06-229 3597\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "0c5eb46cfa6554c5ece6cdf6f39779594275085e32701ba86d1f5d7a56c5502d", "jawapan": "[{\"teks\": \"581206 31 4029\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"901029632352\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"+60-12-680 0965\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "0c8cec0c24685f1ce50db7c8dc29c175aec75bf894a38600b10bd405c28b6cab", "jawapan": "[{\"teks\": \"245533-F\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"145735-V\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "0c98f4ad70f78c2eaec37c767788bfad274c04ada079c61b2c5b2161d0ac711a", "jawapan": "[{\"teks\": \"614128-K\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "0cf5edfee706cacab4c5b7561a2caadc2465544b559846ed0e6e871d282854ff", "jawapan": "[\n{\"teks\": \"480721-32-2921\", \"entiti\": \"MY_NRIC\"},\n{\"teks\": \"920106-28-9295\", \"entiti\": \"MY_NRIC\"},\n{\"teks\": \"+6011-7070 6522\", \"entiti\": \"MY_PHONE\"},\n{\"teks\": \"+60 11 3812 5805\", \"entiti\": \"MY_PHONE\"}\n]"}
+{"kunci": "0cfe60d592f6d0aa8dd36437db0c76e29784f174ad36af684c5caebef37430b7", "jawapan": "[{\"teks\": \"990612-H\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"620612-52-6904\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"013-6407081\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "0d0aa60e51fd4afc99fd7ca7c5595157b1b5b7635f545ca7593dffb3be9b843e", "jawapan": "[{\"teks\": \"178193-P\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"859091-B\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "0d1296044c2d99f0f32a30e5389ced00c0a5d096ca227898fd3ae57608eac7e6", "jawapan": "[{\"teks\": \"199304204306\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"01131735022\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "0d29c71cac2dc0de841d7a1e0f5a93a73de7419697b7a6f12601788cd646f5d9", "jawapan": "[{\"teks\": \"899240-U\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"798568-V\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "0d5bd662ee5f4ea31f146757ac6f163e9d89c995e1834e3ade95a99e54dab0d6", "jawapan": "[]"}
+{"kunci": "0d6d17cb69f8f6df99e0cf1b07849fb86759eb963fca7b0c2b70886dfd6ee915", "jawapan": "[{\"teks\": \"400410 65 6030\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"012 635 9705\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "0ec176c901aa773338ec4909cccb718b813d59d0333ae176081fa5cec5f228aa", "jawapan": "[{\"teks\": \"177295-X\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "0edd23147683596456dfb8858c59caff2fad70cb230ed94cedae61677dfa43bd", "jawapan": "[{\"teks\": \"1017163-A\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"+60 148136972\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "0edff60edb401a976262fb3a71a48e3c472b0a20c9d20056ee6cd397793f166c", "jawapan": "[{\"teks\": \"198101698892\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"014-9129565\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "0ee7ec4f40ac87465b8edc520be92f9ef0dc7a29fbfda536e548f2f9a2e574b9", "jawapan": "[{\"teks\": \"720831 38 8213\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"201802983993\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "0f3d34461c7e7af3db084fa35feffaf4c06348143de0edeadbb76b4e2f28c5fc", "jawapan": "[{\"teks\": \"268659-W\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"04-797 3002\", \"entiti\": \"MY_PHONE\"}, {\"teks\": \"726616-08-4991\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "0ff07d1caadc4e6d2991999a20d47cd309475c0a63e2795a91d1857b1c024f45", "jawapan": "[{\"teks\": \"01135549398\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "101aafc6e99a68e8507cb1108a20868cad655a0a7242da3e4306c633334719c3", "jawapan": "[{\"teks\": \"200704716550\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"03-3090 3582\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "114c29424a9a3376541c6968d4953261ce9d6aefb8000999c86e77d9785477ef", "jawapan": "[{\"teks\": \"940530 32 7486\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"04/07/2025\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "1167c2e08dbe8d4a265c907dee7afec3505348fd6e3b4774d7c7e2d0c20a486f", "jawapan": "[{\"teks\": \"1412992-X\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"0125075772\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "117a31f983edd5f64f191c56908db02812d0d767cf3e6772b7e5adb4a40d6770", "jawapan": "[{\"teks\": \"960619-69-4658\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"691366-W\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "118c5e52a0dba350ccf2be25526bb56cc0c7893b99fd67839bb74a43d4a115f4", "jawapan": "[{\"teks\": \"333865-X\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "11f661ecbfe4810b0e616414e05f1943b2dc0f22de01fa787fe6142c20a13a22", "jawapan": "[{\"teks\": \"885431435708\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"857520-D\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "12207879a340750449be4711e72e60964d05326d52c48199046556c963a272bf", "jawapan": "[{\"teks\": \"596405-G\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "12591495f0cccfc2a500cf9b844039a48d1ce49f840cccefb7861bb048ade33c", "jawapan": "[\n  {\"teks\": \"932658-U\", \"entiti\": \"MY_SSM\"},\n  {\"teks\": \"250323-994-9920\", \"entiti\": \"MY_NRIC\"}\n]"}
+{"kunci": "127c7f33072d3f18995e8e3d2bdb5baa8d4dafd3b8854ab5b4e656b391335318", "jawapan": "[]"}
+{"kunci": "1312d0380fb89bb9f16c2b251b726fc4fe82522664fc5af18899fae64ea7a12d", "jawapan": "[{\"teks\": \"110228066646\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"+60 19 841 0552\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "1383b1be7946ce16db6d0475a2d3941ed4396754d51bb870f4403c1276346ffb", "jawapan": "[\n  {\"teks\": \"197401228739\", \"entiti\": \"MY_SSM\"},\n  {\"teks\": \"017-5318011\", \"entiti\": \"MY_PHONE\"}\n]"}
+{"kunci": "1386941108d1b3d067bfe89ecc1166af7311f3d6bae3bbeb935228f1eb95939b", "jawapan": "[{\"teks\": \"1069056-T\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"0178371560\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "13b359098603bf1d563bfd2680957f0e4254436c01637ae2897c1d0e0e5d36ea", "jawapan": "[{\"teks\": \"1302284-U\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"014335 0440\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "13de9f3933772174282e96a4ca3b025efa3a79a307c563a4b54c5ca5f5ddfccb", "jawapan": "[{\"teks\": \"286818-K\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"260503-129-1450\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "140b21de112f3d4c2f31ed169139b482cc5d88167bb3fb18875a94fdb42ccfe9", "jawapan": "[{\"teks\": \"545903-K\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "141b566f68698d213ddc57d7758f8cf1020ace19e62609074af722f6dfba62de", "jawapan": "[{\"teks\": \"02283809\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "142a2644a88b36de543dd3b240dd1c461cd8ae4c48257a64194974220f63269e", "jawapan": "[{\"teks\": \"238788-A\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"015-430 8059\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "142ba0857ceabbd6f328b82b598b993646c3ce482db7bc0de04046dca595f03c", "jawapan": "[{\"teks\": \"672257-X\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "1436eebbbd44ffd1a965a784c650c0fb798260f003efa3918d165cb4164d837c", "jawapan": "[]"}
+{"kunci": "1494caab5a3374ad0687a26fc6a805d3658f661c1e3900f799af1eeace60527c", "jawapan": "[]"}
+{"kunci": "14aadd166a738c2332e975cf46e7a660af820be0d25dcf54b320a61f9dcad369", "jawapan": "[{\"teks\": \"914861-G\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "14c47be29f53c6c0d96a7f74734c7ad1ec9a917ae556055d6243c32520072a93", "jawapan": "[{\"teks\": \"040810418105\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "14ed694b0f9f587dcc5f95947f0f14893d903b38bd65a920c96e8bb56feb328e", "jawapan": "[{\"teks\": \"070504-50-2248\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"790119-94-1686\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "14f10991be3ea396c7352c8ae1603485f3de79b51c0878f15645c760485f8d47", "jawapan": "[{\"teks\": \"579422-G\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"015-679 3369\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "15077d2bc5f77f4013c2c073f8cff54f4353ea4c3e1491f819e57d12da92d4d7", "jawapan": "[{\"teks\": \"680929-65-9655\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "15162c456ed46fb35c790bdcec793dff8540936926ea3907d4beac036a488367", "jawapan": "[{\"teks\": \"431217 79 6306\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"+60-13-471 9314\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "155d7238c2a5871ecd9e90fba8c9bdda9552928817a28f51f467a796dfeb9e33", "jawapan": "[{\"teks\": \"198706207930\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"260513-194-9632\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "1562903a03c2a88a5951adaca7e6f9cd2c56e501cda8cb5fd1d57e6dc72fbee6", "jawapan": "[{\"teks\": \"740321-92-109\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "15e4988ba1231a62d56cd3bd1d665cd838cdc415c95b23d7605ad35a717916a5", "jawapan": "[{\"teks\": \"880508-27-5326\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "161c0a1c3fdc8bde7cee7e6bd0d99d7f92046b21bcca806d1ff628e392b8d65e", "jawapan": "[{\"teks\": \"409451794228\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"727019-M\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "16c179734121743996416c66521bb99d5d9eb8e3add3be49d20e4a8ce045b5a5", "jawapan": "[{\"teks\": \"920810-77-7860\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"870916-80-4985\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "16e3a63de44508777cbb0a4ea815346d38543a499fc5cc2895156d1501c26d7f", "jawapan": "[\n{\"teks\": \"620514230858\", \"entiti\": \"MY_NRIC\"},\n{\"teks\": \"+60 17-760 2872\", \"entiti\": \"MY_PHONE\"},\n{\"teks\": \"610521083810\", \"entiti\": \"MY_NRIC\"},\n{\"teks\": \"0109604205\", \"entiti\": \"MY_PHONE\"}\n]"}
+{"kunci": "16eb379a363712d414fca29c43a7cbd39e6aecf705bb4fc03cfec8e01afbe4d8", "jawapan": "[{\"teks\": \"480701359027\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"+60 192771328\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "16ee0875c0fb00cd4c8f8389cae30da91dfd2f57218018299c544ffa8c8d3421", "jawapan": "[{\"teks\": \"178859-P\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"010-2491989\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "17c9f4fb28ef5524d40c55e19abf1186dea84270cb0f2b91c7b9b38edebbc496", "jawapan": "[]"}
+{"kunci": "1891a233c2eadbbfdf1e1e8f1d211f2d3d3838ed54eb013e51a9042b1cf6b2ab", "jawapan": "[{\"teks\": \"640907 14 2628\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"012-631 1038\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "1915a964cbbd2cb1e1ec67b80eb96518bdba2087ca36a5cab9e920ae2d61449d", "jawapan": "[{\"teks\": \"470115 91 1355\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "19c5cf41f5c8a99fc3914366fe5449a1fda3c09c85b8dcff770b951355c238a5", "jawapan": "[{\"teks\": \"717581-E\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"03-896 65\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "19da0849854d314d33f3ba511aba56a2c9d5434134dd915054a54566963ba736", "jawapan": "[{\"teks\": \"019-8282355\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "19e85bf4fa2cf91453cf1be0ce25a2250fa120d8a8dd5d35d68f6bed375887d2", "jawapan": "[{\"teks\": \"629725-C\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"282723989413\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "1a04202473d4a7887f6d4dc31e18aa21b42499b148abd3ccdf7d5a3e209eec59", "jawapan": "[]"}
+{"kunci": "1a5813fa135d50cdd113c6003bd8924899949966678fcc9674329a8c8b785315", "jawapan": "[{\"teks\": \"909339-H\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"016672 5482\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "1ac54995be8b2ddc276a5f6fff891101cf6e1733f2be4b152977f890ab904daa", "jawapan": "[{\"teks\": \"201605720630\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"+6013-7076218\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "1b06849f54c015308fef1a7dcb3bac176d54a20f9e99f16427f8b8f1bbbc30ff", "jawapan": "[{\"teks\": \"814055-M\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"22052026-150\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "1b069494412d8b5b7e8870c8907be2be5af1c988c335c4cb7b7d4ca7a8126ecd", "jawapan": "[{\"teks\": \"520037-C\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "1b3bdbe871897c3605f89d8e35f5f34ebe7640f9b331fc55345f7aba39ed3449", "jawapan": "[]"}
+{"kunci": "1b3c8fde633c49ec36c3e1322a5666c7b986a16dc8d812a956d642bc7a281fca", "jawapan": "[{\"teks\": \"954016-G\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "1b655aa29b2867a1a00ac8341263a12e16333e04d82aa78582fc2f475aed4390", "jawapan": "[{\"teks\": \"+60 19-2593186\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "1b66acbb94c7be63c6726141e2d0d3092fd8d424a671c84996638e0af05a96b7", "jawapan": "[{\"teks\": \"251008-578-1914\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"359338-C\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "1b679e149780561e299b1d8bf8f94aeb12a168d524fb28a6d15e35e05572b79c", "jawapan": "[]"}
+{"kunci": "1b8f67c41ced0a4492b8ddd6feb50195efc9145f8a7789a4cc7f63f731a1cabf", "jawapan": "[{\"teks\": \"011-94143\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "1bb269ab29bc71aa6fb0348f00d329d34db182e96c791b500fc1dbc933336e8b", "jawapan": "[{\"teks\": \"740628-15-6610\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "1c265ffc798ba9a187ad8e7831626d8bbf9ee4d8d01f43563a4304685789bc83", "jawapan": "[{\"teks\": \"810402 53 8654\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"648233-H\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"198304119233\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "1c5adbc4d76088caec7644f9855b1c66a261ea0eafc7d33431d60dea579ef5e5", "jawapan": "[{\"teks\": \"971115091192\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "1c86d5cfed97f17652ab6632d816ccd5059e89488627b31f06b5f4a5e65cde6b", "jawapan": "[{\"teks\": \"930509263857\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"016 3539413\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "1ce039eb3e9048358f1771d049b2b501b05bf723a0bd0cb2311609614ab0e73d", "jawapan": "[{\"teks\": \"630727025540\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "1d103524d809f6f6daaf93f328557b0667de1eceff54a9be6c558c0319573207", "jawapan": "[]"}
+{"kunci": "1d3f0bdeed25c614d1cd00c8374e3bb265ebd392b2ada6239666f5c766e40ac4", "jawapan": "[{\"teks\": \"760615-70-0461\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"827945-E\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"260214-944-1216\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "1d51a7ab4b406ef3ec804dfa893547a6b284a915b644689175f67df661f1a003", "jawapan": "[{\"teks\": \"521007031261\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"654850356786\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"9689375531\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "1d632628da5fcd5ac320f24a53748b2727a040d0a6e1f935e8f9a6341d939ffb", "jawapan": "[{\"teks\": \"699754-X\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"680508-79-0509\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "1d6353f4471d9d4c23e67451d6a21518de8e7941e1b17efc6f82de8d1b41edca", "jawapan": "[{\"teks\": \"100717-77-0248\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"197906324142\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "1d8341cbd519349580374a6528215046717effc8466faee964cc54525d002789", "jawapan": "[{\"teks\": \"260701-910-2532\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "1dc912c944ecac19dbfd1cc79a41b37ac80b7900aac06019d8a418b91985617a", "jawapan": "[{\"teks\": \"019-564 427761\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "1dd9be7c2183de8db7c761e9833ea7ec2d0cae805a0f08c634af4cc475727b0f", "jawapan": "[{\"teks\": \"810716-08-3772\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"+60-14 3745484\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "1df585c76f2035ce2131470e6a07c8bd6d474536b8f9492e0968141e97ef5958", "jawapan": "[{\"teks\": \"260656-E\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"013-82457\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "1df89b99cc672739996bae6eefa70b1a5bea196b4c3b3ff1f1a0b7cdf938ab9b", "jawapan": "[{\"teks\": \"+60 12-871 1040\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "1e45fd0ad71a07f3a78b242ac5084185294d8ed65c0e4d597d10e765c9b14c7e", "jawapan": "[]"}
+{"kunci": "1ea2032f3cbcb38cc70ae86f9e51e9b3ccc0a25a9a8ed1c6e32765ded722ddb7", "jawapan": "[{\"teks\": \"421211-34-6121\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"+60-17 4969117\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "1f1f99552d2224a2da3f9decbd7ed00379674695ff7ad4585fc758dabf693aa5", "jawapan": "[{\"teks\": \"780808-47-6908\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"199604296826\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"0173852343\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "1f43bf2fea300a72714005bec9ba3d369c0ab839a52bb2690eea9475c85a2d80", "jawapan": "[{\"teks\": \"250502-932-5180\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "1f69aba346e65d5033487b8de3efc62dfcc54f7280a31df8fe4416d979ac748a", "jawapan": "[{\"teks\": \"630930 09 0360\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"013-5169625\", \"entiti\": \"MY_PHONE\"}, {\"teks\": \"707167-W\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "1f6c712a599cf663429f47e0389d09c422abcf6efcb87b979bbe1592b1554137", "jawapan": "[{\"teks\": \"198502852993\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"+60-17857 1891\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "1f9af9db8b9d720d37eb1e1745f05679737565e9871e38df8dc3b93e69a92f68", "jawapan": "[{\"teks\": \"490555-A\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"011-62728\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "2021a895daea882da3f5a3717a8958abe8f1d403c8ca095b2e14088e8e0440fa", "jawapan": "[{\"teks\": \"411366-F\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"010-59568\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "20894544c9a299ae33c18f16d66f5bb38551aabea5394efa35de8864dfd4cd51", "jawapan": "[{\"teks\": \"928516-W\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"011-20920\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "21252eff4d42ba600c14517c494ccdf99ac299b6e23e88542d384dd1cd69e224", "jawapan": "[{\"teks\": \"421227616782\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"03-4226 7338\", \"entiti\": \"MY_PHONE\"}, {\"teks\": \"530114-18-9403\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "219b353635be01e755c2ab86d2bfea69ded455e6c13e45bdd9ef7be6463230e8", "jawapan": "[{\"teks\": \"03-2088 4030\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "225f109fce8bd2100755c666945ed12a73d90e84a279a87f2f0254788f42cff5", "jawapan": "[{\"teks\": \"500312 64 3045\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"43026-F\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "2262e61f4bb02e3018b5dbf001884104f27052f9d34a956a0e70c7a94466ad06", "jawapan": "[{\"teks\": \"631015-12-7652\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"05-488 2513\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "22d171806a96eed349ab15efc349d6288bd35b07704573a704cc45af60391849", "jawapan": "[{\"teks\": \"538420-T\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "234bd63e4f4d9a5a78290e9869b0bceb1a3c8cd3cf0a7bc5a5e540f0f4b2c989", "jawapan": "[{\"teks\": \"450610 12 7402\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"07-537 8933\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "237ac258012fc5d5fac12b7b18cc22b5196307c8f6cb2aa7ed1a34ebeddb16b0", "jawapan": "[{\"teks\": \"720518345302\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"011-27005170\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "23e6ec215f9207873dd92d85be32c0a39529809308c1109576d52d7938611fd1", "jawapan": "[{\"teks\": \"260112-884-5479\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "240870c17d3a13c5e35bf0a8e68867bee4774f51051a234c983263ea25466ca1", "jawapan": "[{\"teks\": \"860909 40 4680\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "243fd732b2934fb95a612e9dd6bb641dfa2e79087858ffe16fc972737dcababb", "jawapan": "[{\"teks\": \"500610-90-2195\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"04-995 4095\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "2470a7514834251ad619df14832d2e410c213c6c263712d0459191a55f615513", "jawapan": "[{\"teks\": \"925893-P\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"504291-G\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "24c3a4bfdf603e423355828d113592ca57691dc7e87803c95aae3aa9d0a55147", "jawapan": "[{\"teks\": \"991025278638\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "24d2da65956def016e4bbab8960dc81d0b20b891188dd63ec401de61f7baee06", "jawapan": "[{\"teks\": \"017-33740\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "252c811a4dcc6bf57de6b2c2ac5a230625ca2c6387a522c526256b846a1de0ff", "jawapan": "[{\"teks\": \"538549-E\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "252fd5bedba57604fa0e1c59ccb529477db2f6a944082845821d6118dca734ae", "jawapan": "[]"}
+{"kunci": "25410130be2957c4ed88d8dea24809d0f01de59982f0261c11acb637bd639c6f", "jawapan": "[{\"teks\": \"925004-08-2136\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"19666-G\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "257e88ab8a8e634d91c1d1b642d42d455046923dae46f11084febacad33b0221", "jawapan": "[{\"teks\": \"440517915862\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"+60113439 4833\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "25c4c2478f642403519a80d2bd27848692c750a5baf4c8af40405cf87ff02ff1", "jawapan": "[{\"teks\": \"711003431460\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"018-2017121\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "25c9eff7942f67ae5e7ca58951f5a9023986cc86694de7972ebdf1331df4ef6d", "jawapan": "[{\"teks\": \"890323-86-4740\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "25db2faa6273aab57f2519640ef5d58bb7e78122566bed83868b0168827327eb", "jawapan": "[{\"teks\": \"480308-37-8426\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"0142194848\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "26352d11bfda251f9d5e44d6ed4cd2238edfc8d1e34f1ae56a00a360e2db85ab", "jawapan": "[]"}
+{"kunci": "266c43044f6210d310779310cebd9c1cc97e81ed3972a1cefe5d661c7a687357", "jawapan": "[{\"teks\": \"199101149348\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"03-7836 2781\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "2685298276ac6f380e7f887a82046b7aec6d4744c04143454000c116e1fc6e3c", "jawapan": "[]"}
+{"kunci": "268d38cb53a2e483264b70133fd196f6b7e58e0056e77415b89aa1617de54264", "jawapan": "[{\"teks\": \"741205 60 1616\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"197702019759\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "2697fdb1c7bcd63d60f004951d882b050bf57af74ce3fd52349bfe20d57e3401", "jawapan": "[{\"teks\": \"0135748556\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "27073ee2dc5aaa4552b94c9e811130ad9ea00d014a6360b1a9c44accb40c9a73", "jawapan": "[{\"teks\": \"240860-P\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"45511-A\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"0126913027\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "27405d246c8708846d2c06ce1d43988b40fadc246b44a95ddbf7cff4402ec535", "jawapan": "[\n  {\"teks\": \"552806-16-8778\", \"entiti\": \"MY_NRIC\"},\n  {\"teks\": \"996524-U\", \"entiti\": \"MY_SSM\"},\n  {\"teks\": \"03-359 30\", \"entiti\": \"MY_PHONE\"}\n]"}
+{"kunci": "27699ad2cb4770c30cc3f81ac8433329f44496425100a0e2507364bf38316e08", "jawapan": "[{\"teks\": \"260417-696-1094\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"194118-D\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "27adf81ef59546c68000d99b7c37d81dcb05e255686687d3eec4818cfac32118", "jawapan": "[{\"teks\": \"496019-V\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "27b0f012bc4776730c94bf6e6aaa881f411aa6ec5f839d06e0a86c1a39c28e10", "jawapan": "[{\"teks\": \"435916-05-3306\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"202603436377\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"+60 17 673 2603\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "27bcdf6a458da247d5ae275523af8267ccec3b1bd15729e8ba43450cd1b34a5f", "jawapan": "[{\"teks\": \"017-46828\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "28053c942be4aa31ae1df2f3e771569cad4f4a42ccce827bedafc82e7008d9d2", "jawapan": "[{\"teks\": \"0124550569\", \"entiti\": \"MY_PHONE\"}, {\"teks\": \"019-219 0548\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "28497314789c5647d3fe46c8a20128b2ba5fb4b9f97629b58159f7c9a6ff6aea", "jawapan": "[{\"teks\": \"466110-12-1852\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"472510-U\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"820914 76 9061\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "28c3f4fc0a734ecd3b2a61f38a4f107c9df8c504e1de823dc88fc1e8012a71d7", "jawapan": "[{\"teks\": \"+60-14951 8758\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "295248dc81e208122e23827782e3824c62338f426140dce1e09d6a73b924b6e1", "jawapan": "[{\"teks\": \"260225-709-8129\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "297a0c688ae86de920e6d16628bc0c7e89086a064031378d7878af5eec25455f", "jawapan": "[{\"teks\": \"30773-C\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"591107-P\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "29c0b8c1f0c5f507cd3c575c5e0861b94959a536c335ce1f06180dfdd6c1cee7", "jawapan": "[{\"teks\": \"641006-W\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "29c97fb6c18db21d6efdfc13f840dc75b134164049fc34ee30af5927bf942fb4", "jawapan": "[{\"teks\": \"590809-26-8465\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"014 9022023\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "29f211a1715d7bbeb81c92f3e7b219c14e782295495b860e86d65c1030850a03", "jawapan": "[{\"teks\": \"528852-M\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "2a01f1fb933c5494cee477be325684e89f8dd688e0df04d35c49c9d04a760a61", "jawapan": "[]"}
+{"kunci": "2a19e7a429836f25e5f2150a8eb70032155ee4d75d89558e138fdd739eebb7c6", "jawapan": "[{\"teks\": \"490419681066\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"876945-H\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"010-565 989375\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "2a1bfad533c0229d152ac571863626568726f8dab609f61a59cb8871d5a379ee", "jawapan": "[{\"teks\": \"166220-09-7163\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "2a2da221b769c9bfadd6289dbd515c1fc12bf2cf64674be2ba5c6860a0fe0d70", "jawapan": "[{\"teks\": \"81882-W\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "2a39c2ecea6daac260364a89d08e59e1533c91f9f005fbddbee0be8ea389d9d4", "jawapan": "[{\"teks\": \"440760-C\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "2ac00247f10aa37e82bb16fe6a40c49767e17ae28b8fa8a32d02883011bde318", "jawapan": "[{\"teks\": \"014-755 7272\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "2ad6555f48994c0b3723bcc493549c3fe73c82601cb1b4c5bbd27ca5e543d31a", "jawapan": "[{\"teks\": \"03-192 74\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "2b22cf06ce82a4e8c9ed770f870aecc1bc497869d1a30063b41bde2b0231e9fe", "jawapan": "[{\"teks\": \"685504-12-0873\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "2b7c83c3beef64a7235dc2206259bd1e805ba902ce40c14cc1494fa93d92afa9", "jawapan": "[{\"teks\": \"209488-C\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"250817-903-3872\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "2b894cb83a9de66220752a94b720f31a2abfa26486353da9f0d482d57698f804", "jawapan": "[{\"teks\": \"070714-91-3129\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"03-8140 9549\", \"entiti\": \"MY_PHONE\"}, {\"teks\": \"Citra Perkasa PLT\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "2b903617611287874d4be18aa948aea8167410a9cd3f2eda0fa6144ab337a578", "jawapan": "[]"}
+{"kunci": "2b9a5b07bb92b0b352816374243ac45770a934391f1ae61b08ac88ac315fb450", "jawapan": "[{\"teks\": \"198101380752\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "2c7ae8eb31bc0b2df7f50e64914d335331c130cb003eb4fe7709e72ca13f66b1", "jawapan": "[]"}
+{"kunci": "2cbfd534b84e54bfeaca7a4bf588a0e980e12f639565a9364c09ac57d4f09490", "jawapan": "[{\"teks\": \"+6018 9263367\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "2cd830c3a053551b7427d55b50533e63d283330197fe65647a63f97da940080c", "jawapan": "[{\"teks\": \"706915-W\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "2d104d2d86953b8d2fc43f1a59865e1ce7df30444fbb2dc794d89b60d8bc4813", "jawapan": "[{\"teks\": \"779453-E\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "2d1698a7bea8ba91b936ca5921a29f454a97bef82488d94e21b0a15fae2c7ec4", "jawapan": "[{\"teks\": \"1300236-U\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"+60 17-424 9364\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "2d512228cab0ae842458208b93a863e826f6d161531db67e0ffdb181f8312187", "jawapan": "[{\"teks\": \"595072-K\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "2d76d585ac54493085187d7b15911b8924e398d4bb660f409e463f949a0b2eff", "jawapan": "[{\"teks\": \"242381-T\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "2e5b379f346d6eceed7404bfb328020c8ef17fc97957040cae7e243876b86ca7", "jawapan": "[{\"teks\": \"260801-368-5844\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "2e75c1bcb90ae802d1d489ec3b5f71ab666f015e45152698e2db5d0f6fd06175", "jawapan": "[{\"teks\": \"019-598 693499\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "2e7664fdf59a6c77df41da98b24627ddc98621497381099022e03ffc39bf2ed1", "jawapan": "[]"}
+{"kunci": "2f0ee0f40d96a4167e4b90ea30cbdc9320eb6e752f566d8981b64ac7f4a4df4f", "jawapan": "[]"}
+{"kunci": "2f8e45e939ceb1237c6004c142beeef279ad943ec294750c268267c1558a8f1a", "jawapan": "[{\"teks\": \"061227610301\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"014 879 5819\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "2fc673df85592143c42db16366b7b947d0d42b3fd7c6691a4e21e21bce6cea30", "jawapan": "[{\"teks\": \"199603560668\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"745280-B\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "2fcb631db017ceeb9f8c246e7fb3e26fc2b4593c067724c9780531d745c161d2", "jawapan": "[{\"teks\": \"031029 33 4272\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"+6013 8959872\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "303ad03c8ec6dc203de6065a7f279734fcc5cff3e9512f624490f2bb32855df2", "jawapan": "[\n  {\"teks\": \"040409 50 5217\", \"entiti\": \"MY_NRIC\"},\n  {\"teks\": \"870814-68-6686\", \"entiti\": \"MY_NRIC\"},\n  {\"teks\": \"03-8926 8479\", \"entiti\": \"MY_PHONE\"},\n  {\"teks\": \"013 547 2662\", \"entiti\": \"MY_PHONE\"}\n]"}
+{"kunci": "30423084cc4b40465d9228bf3190c72608155db851464e473a3f84dce912007f", "jawapan": "[]"}
+{"kunci": "314ebb18d3f398796a311434b61571ba35e462adcd89d80a0793bfae240540dd", "jawapan": "[{\"teks\": \"011 27446855\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "315c2a5f5ab101640c036f9e901e1b0a01bfc0ebce345a62398cbe1b936595ff", "jawapan": "[{\"teks\": \"243815-V\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "316f113c11cfdf3e9872e44d006be3528d928e65bd06f95bf2add16810b07417", "jawapan": "[]"}
+{"kunci": "3186a08ddadab8d6919b133d39ed56fb408de46400fde54c85b1c62ae8b2b53c", "jawapan": "[{\"teks\": \"41981-V\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "319bc4e96c6e0170ff509bd718ee03e7e0e04c95c55fb713742be13f3ec0bdb8", "jawapan": "[]"}
+{"kunci": "31a156597e7f3ff01b566cbfe3127c08afe491647860dfe97f946307ba707558", "jawapan": "[]"}
+{"kunci": "31b0eec481f2ec56f6226591b019d6dad219157ffddb94bcd739e18c5a500a40", "jawapan": "[{\"teks\": \"411208829888\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"03-6382 9507\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "31c4cbfb1293e747194fff74666fa1e4e9ca23d1e492b961dfe33ab3598ebd3b", "jawapan": "[{\"teks\": \"401030-22-6430\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"017 907 8741\", \"entiti\": \"MY_PHONE\"}, {\"teks\": \"970816-69-6681\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "31e555da97dd12aa96a333094e78e1d4c5e9693bde66a198a7d381151ac9d678", "jawapan": "[{\"teks\": \"010-3003455\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "32193581113a2d0d64f8ade406491eb6601e5311bfd2834610aa6c841757a3b5", "jawapan": "[{\"teks\": \"948223-F\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"012-30682\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "3255c6ad48870e736ecb577237eafcb87f895cdc02c7c6bfc5aad86f896d2cf4", "jawapan": "[{\"teks\": \"042720-13-1057\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "3259df2ad22cf5deb5eb48effeb2a7cab72a4bcd586af303327228d601fe75fd", "jawapan": "[{\"teks\": \"014-96561\", \"entiti\": \"MY_PHONE\"}, {\"teks\": \"311707-B\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "32664d9ad276d6ffcb672106aa7715921e2a8cfb3bf48f7f0bf8b70000939e94", "jawapan": "[{\"teks\": \"911114 87 4652\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"940417-70-6499\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "3296f9b5c5ae09e839cd27dd99a2f4d898f24d0ec426440380f650f9a8b0d5e1", "jawapan": "[{\"teks\": \"014-267 150875\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "33331032ee9557184bfd7e084668586ed63a2e9d4500d2fc1169bd001df01ebd", "jawapan": "[{\"teks\": \"935581-V\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"010-3055063\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "334182210d5ad9d5eb9d2e2ce8bc940aa130bfadc3a144405011440562a4636f", "jawapan": "[{\"teks\": \"260521-166-0486\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "33d1854830bbde2c782abdf44016a78c8b025388681dd44e0a2c4a0d6258851d", "jawapan": "[{\"teks\": \"550909-56-0009\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"640919-70-6985\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "33fc9623fc71ebf80035ef6b0d056b122c474e827aefe60c02f5527532186f71", "jawapan": "[{\"teks\": \"464430-D\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "3493b15624552fd5ec754805744ed4ef5b4579491ef0ba949e3d38436d1baaf9", "jawapan": "[{\"teks\": \"510708-35-4625\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"012 3265326\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "34d6ceaad2ee785d544a0abc90103efd07fd0e746f1393afbe5890eebcc8b767", "jawapan": "[{\"teks\": \"960704-23-3554\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"012 925 4970\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "34e5a6cbca5e623df1b8c8ad18f00ddefbbb7c46b4fceccd1b031921da9fd6d7", "jawapan": "[{\"teks\": \"347720-04-6202\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"147098-D\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "34f122097e95557f529dcc95d92c153d6a73500379240e7ccf281fb4bc68c262", "jawapan": "[{\"teks\": \"770707-41-4868\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"03-3273 1837\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "34f64bff6a506c4bce16cae412b4fb8337f059b7a877018c64e2faae3d239907", "jawapan": "[{\"teks\": \"423244-M\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"015-617 5359\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "35bfae6473bd5f34548aa1047fc55bd23c5d5da79947faac9447dcc52b665ce4", "jawapan": "[{\"teks\": \"974256-B\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"+60 19 5666007\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "35c4118c7d83464f34cf5766fb8a5730e8b5fdd44235d567ebe0a06d04a08cd6", "jawapan": "[{\"teks\": \"019-22074\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "3664d8c58601f56823ba087ba7cec13c0a721f41f134a4c015a79c06da2d3255", "jawapan": "[{\"teks\": \"930723-92-4147\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"634010-C\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "36bdc8aee8975fab23c9b3c29259e074e75724a07ea1849f6a0e4468fdb4e73e", "jawapan": "[{\"teks\": \"773954-M\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "373a80ebb44521cad1655a5add8c81a911f8591c740b2b2cb215cf807e4a7793", "jawapan": "[{\"teks\": \"700511099238\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"415903-G\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "37581aaa792ac0444f439f39c20fb400d4be591b885f34516d5e2e3bde80b019", "jawapan": "[{\"teks\": \"261589-C\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "37c14fcfd31cc545032ebd65649a7cbe55f05f768e95477f291f3f350aeb90ce", "jawapan": "[{\"teks\": \"200001984905\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"0112396 9650\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "37e1ab991db0cfcbf1581bba87a00eaf4972c6526ca2fcbd6150fc56718dda40", "jawapan": "[]"}
+{"kunci": "37f0fb02860c074ae7f8b892b09d1c7d9955dd222447e3f0afba671070005762", "jawapan": "[{\"teks\": \"03-450 45\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "384208f9166e49149526afb91e867a0530127ce05213c1a4a7271efc04cf5ce6", "jawapan": "[{\"teks\": \"019-392 0575\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "38a7a5803f90e0540f963080148bf8921a27c8c755a73598484628e7db439583", "jawapan": "[{\"teks\": \"273029-D\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "390cf21ae6ec223df3ea1eab06d2585dc187b7ba44edd11c62f3627210ddf942", "jawapan": "[{\"teks\": \"03-911 84\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "397594c5ff74bbd4b48a71d2de662de60365e6bc4d1a398bdca2b780cbc2bd13", "jawapan": "[{\"teks\": \"56615-F\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"0125730817\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "3988035c047a6ca37e0ad673da9925c773669ca1fbe89358795d4b4141a7733c", "jawapan": "[{\"teks\": \"680970-V\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"882947-M\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"03-3287 7380\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "39ec047695d308f0ad83abca67a3abca4d95ea3c4ea9e566e11be7a605dab60e", "jawapan": "[{\"teks\": \"661344-T\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"420219 87 6928\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "3a7bed62c718b35bb6947224506cf5612b48b2aacab6027cb42162e726e41b24", "jawapan": "[{\"teks\": \"274815-E\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "3ab1df2639be115a9808f9c40963ab9a253f45261721a87cb26f3ac13beda4d2", "jawapan": "[]"}
+{"kunci": "3b030880ad3ccf1f040d5e8737fffbec1f05ee211c55f6ab32ffa3c26c1f93ba", "jawapan": "[{\"teks\": \"015-949 6509\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "3b72ebe27aac26a5c1ff9b15712153d0ff38877b4741069c91ccc9085ca4b03c", "jawapan": "[{\"teks\": \"780131048087\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"+60 174564802\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "3bb9084d56a9bcfae752d2c46775e67496bed308c233f514ee2307ed94136a1d", "jawapan": "[{\"teks\": \"700202064973\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"+6010-9290014\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "3bda355bacfd40ac4f4d1e42d43954434080f1c07e6a3c4bab35428344639493", "jawapan": "[{\"teks\": \"801314-M\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"260110-98-9798\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "3c00c6bb7207a1e2f478b713012065015e276051377a4b06ea309cfce53b77a8", "jawapan": "[{\"teks\": \"284281-V\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "3c2a8dc7eeff3af9d429caf21a2e79f49099d810a470f1be3ceaa150321f5cd0", "jawapan": "[{\"teks\": \"260717-178-7859\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"435819-E\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"03-292 14\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "3c68e2744f45183a49b37ff417953383e57863115d721949abbcee2d13a4a989", "jawapan": "[{\"teks\": \"010-20647\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "3cbd41aea373c1fc80a56e768963b674c7761bb01d56e040a55e1cd01c5fc459", "jawapan": "[]"}
+{"kunci": "3ccd2be85e6ad64d4bd5bfa359640e6d4558ab572da1e562afe5193a31f57be4", "jawapan": "[{\"teks\": \"197301183701\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"550311865878\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "3cdb81fa27461b023c4425ed5fcf5f9604bf16d38df83c7ee6c576e1fbfdd88c", "jawapan": "[{\"teks\": \"620705-86-8234\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"24694-H\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"197002747174\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "3ced118cf461c6064de19511bcf429a3862720c7750457d5d65e7b2e6f226c2c", "jawapan": "[{\"teks\": \"767767-F\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "3dd9a825f353f2b20daf17f1f9f7ebc281f9f6ec05badf9d645a3643f0d99c3c", "jawapan": "[{\"teks\": \"980418-03-0078\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "3e16a40b7a792ceee36f6b8ab01c09e50ff00ff752ace3329fe4eb6f3f174ac9", "jawapan": "[]"}
+{"kunci": "3e3092a3844d0da37306aafd84e63bac0a85162820abe1c5c1d0526f633a1061", "jawapan": "[{\"teks\": \"+6010-7615410\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "3e706bed938838e54c6b5108e5a8ebd40c932a36e8adeed9116a73d5d7751669", "jawapan": "[{\"teks\": \"943739-W\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "3f20b08a93a62fd79e0e90890506f9bd5370255e1ceb4b066f6a675571049739", "jawapan": "[{\"teks\": \"400822-37-5786\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"014-735 2364\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "3f2b31e46040e269558f58cf69afe4eea348c8b4dc34b13151ee5a7b2bd67408", "jawapan": "[{\"teks\": \"010 3022762\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "3f957a71f84d33524c6bc008108fa8bf0b19cd703bf1c1f7b9541f839124b19e", "jawapan": "[{\"teks\": \"199003744269\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"+6012923 4822\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "40adbb3278e25019fc3f676b277ee181dc1dfb9cd13042de836e3473c55a62f6", "jawapan": "[{\"teks\": \"501125853472\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"+60-177648051\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "413f44f29ad6cfa847871780e9d26a4b388f1d9aa9fc27e09a49b112d318e4b6", "jawapan": "[{\"teks\": \"476012-K\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "41d670d24b7ff9d8099481f67db60cb68491ddd24fd28d0e875c049f2d2ce886", "jawapan": "[]"}
+{"kunci": "420915c5877c7c20f4f69a207c75df43c1bb5927deb942679463e2844c9a14b0", "jawapan": "[{\"teks\": \"952253-K\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"06927971\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "42184f0bea8e397fc2c920306a21d814e05da1f7e0d8294233bc5a23530596fb", "jawapan": "[{\"teks\": \"1487296-M\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "4271a3c210b7a77edb71a059032c2e8f1f49f0cb746b99c3c1cd38337889bafb", "jawapan": "[{\"teks\": \"620523 30 6768\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"+60 12-726 4205\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "427707576bc42fbef553bef35a3e93d69993a1a022ab638ba6e382b0535d7e24", "jawapan": "[{\"teks\": \"1229012-E\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"018-2787267\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "42f6a27fbd4e601f2bf4fe97f257cc17504fc6a948c2e01c89e4385527c281c4", "jawapan": "[{\"teks\": \"910118343019\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"862871-D\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "42fa0f22a061642e096d87032ad212198b1422bc511ce0a1d861b1721efb696a", "jawapan": "[{\"teks\": \"03184989\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "432e3635da4384ced826b5f428cc78cd3e8b78c5f5fbaa25d6e6eb500ddc2d69", "jawapan": "[{\"teks\": \"86724-T\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "43396aa819ca65c49601fd35437d124fc2b1ef6701f5c85bbaf0058a974a6978", "jawapan": "[{\"teks\": \"365908-11-4788\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"250314-553-8077\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"012-16108\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "4351db4555d526dddae0c5899f7c7525fc10f5c1d0c485b941a88adb6e15a355", "jawapan": "[{\"teks\": \"640519-79-8759\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"019 306 7824\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "436d5a859b416443c9c9b5bea40578973d0080e5b87c64b99be8de0267de4c90", "jawapan": "[{\"teks\": \"223427-V\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"25253-B\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "4378235ac91a34eb3f7adb4d0be07eca4ff6396009e505cab40ca99e15994e67", "jawapan": "[{\"teks\": \"430318-13-5680\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "438418b0da5ef5f9285483abc6941d12d80780a990dd0a9fd1ca93fa2dc19f03", "jawapan": "[{\"teks\": \"56892-A\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"011-40177898\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "43a02b8415395a18de3dbf08c7119cf68fac500f18610df6ca9e0991add66643", "jawapan": "[]"}
+{"kunci": "43b81dfddc3d683a7346dcb9d9bc7f7bc8b377da0140019a0e739a67129bf41f", "jawapan": "[{\"teks\": \"950607460365\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"844867-W\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "43f42cf7ac32f0ea7bdf329c421ca5748947dde929281d5d2f2acfd69c6c0826", "jawapan": "[]"}
+{"kunci": "448e0aecff3958f1b5919849732843274a53e5d728515c0da97d8dd0419baab5", "jawapan": "[{\"teks\": \"574915-M\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"+60-10 986 8619\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "4490d841ec19f7600a723f0251aa61b5db64b7034114422b3d9e79fa4c14cae4", "jawapan": "[{\"teks\": \"152097-P\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "44da950f91a6ba5693a864e67c8e9d0fcd4a3d9ded8111d940b65b5e4dcf06cc", "jawapan": "[{\"teks\": \"198205203037\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"670314581967\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "44fb0a81e56dba72ea068bbd459d3fb227a3f7dbc75a96673adbd07ec7e2b95b", "jawapan": "[]"}
+{"kunci": "451ed058306968470c43a18d22b31fd0bd1e180c8753aa6d7e0ac19a03f1f902", "jawapan": "[{\"teks\": \"647322-E\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "454b1f1c1a6be319c240580f0fcac3fc42b90bf3b092e106275b6cfc87e79ce7", "jawapan": "[{\"teks\": \"890803-29-4258\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"019-6143180\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "45790ae0e77d332705f53b7e5e2a333e0abc2825c312de9eda2fcea46ab9f33e", "jawapan": "[{\"teks\": \"545308-T\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"09-652 0192\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "45df8bfceb28bd5eb9576a3483275a6102a914eb67025342d2070e487b47e69a", "jawapan": "[{\"teks\": \"710814 65 4857\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"019 2364842\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "460b15b9a7de6e1b9e8ad6ec33e223ee0154fb9cd68a2500dc746dae29070cae", "jawapan": "[{\"teks\": \"820605-05-4949\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"03-2745 4366\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "4638ebd19de0c05cb229b9b56a73f5af64bcbcc36347cd36798bd112183dc04c", "jawapan": "[]"}
+{"kunci": "463e72793bd4a351147ba0b8781a248363bd04a035a0c85b36b1ddfbb33add7d", "jawapan": "[]"}
+{"kunci": "46e11bff38544f144f2cf0a12cefe49118f0d9127db8bf52d895448cc371680a", "jawapan": "[{\"teks\": \"154352-H\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"010-629 4054\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "4739e6a11188d8324e02a32812883ab0cf8d1283fd75f25647f12eb533716d2b", "jawapan": "[{\"teks\": \"273178-D\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"03-8748 6652\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "47a81ea9c0441d57e9d99e232a0f95366decb181466aa4d3bdbfa198bcc532e9", "jawapan": "[{\"teks\": \"011025 48 4902\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"387839-X\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "47d79cf43fe3cdbc88e44fcabae2a942b5f6a65e1d7f05e0816af36a146d4a64", "jawapan": "[{\"teks\": \"1280376-G\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "48058ac6d6d514bdc0bae6bafa00f8ddf8b8618d36d8b0bb79dada81a4bb3c60", "jawapan": "[{\"teks\": \"091207426514\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "482a7a3b762eca0cd60a3aa03e257e6057289f8fc8c354cb0fe14cf8446dcb6e", "jawapan": "[{\"teks\": \"1552745-P\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"+60-16387 5959\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "4903c0ba4adf72d989b8df67cc57a6c46c2fe4bc71ef14b0776d10b1f9b6dab3", "jawapan": "[]"}
+{"kunci": "490972a03d068418b260105a123e056f11afe153da815bd281e5f70c9550c615", "jawapan": "[{\"teks\": \"631736-W\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "49f7f896c254940de8e716f655bd842e571cc97d33e183b5c8a87772c69195fc", "jawapan": "[{\"teks\": \"710290-K\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "4a04748376cf0bbc8d23be4c563da7579e5c167b849fc30eaa58d5269b8331b4", "jawapan": "[{\"teks\": \"421228-41-2823\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"137852-K\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "4a1b8ddf7c81a264fe74edc0a36f378411eb06ea352095724cbbf590459cb819", "jawapan": "[{\"teks\": \"110616 82 0159\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"197501026282\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "4a4d1094fb8ff801cd6c3b4442a09d9442109fef48fefa663f8130cabe839b0d", "jawapan": "[{\"teks\": \"100216 28 0129\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"016-529 8597\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "4ae1ac3a74c6de29de893fd0e4d78f4f55689e5d563c8c6dfcf1cb18d9bdcca7", "jawapan": "[{\"teks\": \"250709-339-6555\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"06513996\", \"entiti\": \"MY_PHONE\"}, {\"teks\": \"612061057545\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "4b0c5258007a7f9447f4b5175b8cff15433424ce927f6027e652bcc7cf226410", "jawapan": "[{\"teks\": \"890615 33 8314\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"+60 18 7140098\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "4b402bcfc1e8f2001e231d15010c51e99511f792e8b4bd72719bbe7984e4bb0c", "jawapan": "[{\"teks\": \"080317-31-2322\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"014-5973924\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "4b6b1285a32cd7b864382fcd7359b66950e18014fcd1444d6cbd2123e6137cfb", "jawapan": "[{\"teks\": \"090513 39 3915\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"03-2206 1526\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "4b8cae100fae2881c370c11c442c67145252a9231f425488cab0a77afb18ef04", "jawapan": "[]"}
+{"kunci": "4c0a6d5c0c78582d2ff6559c61301967147952de22dc4c46f749aaf6c2169160", "jawapan": "[{\"teks\": \"1378171-P\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"019-522 9880\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "4c50d96f2ab782d287ba7d410158c08d5c3ce941db03b0c8cc2faff69a2fffa3", "jawapan": "[{\"teks\": \"040528551976\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"836729-C\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "4cac38f99c1f6973340d5df340f510db2ca24d08ad460647b8b4da34df941514", "jawapan": "[{\"teks\": \"415623-M\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"260227-929-5328\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"6276 9879 8556 06\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "4d1b72cc5d6c03c2e5063536de2cb983e44e20e9968d4b4b14033b946ed4f406", "jawapan": "[{\"teks\": \"951003035849\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"+6010 823 6218\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "4d73e03a527e05ccf1e7cc70586af09f0b3e58ebec77b1ac66f43a14edeeafed", "jawapan": "[{\"teks\": \"014-41358\", \"entiti\": \"MY_PHONE\"}, {\"teks\": \"421585-H\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "4d823c86d79c03d227a2b5ffbeadf8e5b317f6a548c235292c3783797e0b793e", "jawapan": "[{\"teks\": \"731202456352\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "4daf896c9089d3e4f63f33c3811d569730e4234f9edbf2d7ceda70ea81d7dd7b", "jawapan": "[{\"teks\": \"013 2467798\", \"entiti\": \"MY_PHONE\"}, {\"teks\": \"53482-U\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"9387121283\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "4dc3b0828a204edb3afba43bc422ede485a108c0a30a5bac587633c320022aaa", "jawapan": "[\n{\"teks\": \"050615-43-7227\", \"entiti\": \"MY_NRIC\"},\n{\"teks\": \"810609 07 5330\", \"entiti\": \"MY_NRIC\"},\n{\"teks\": \"+6018-2580142\", \"entiti\": \"MY_PHONE\"},\n{\"teks\": \"+60 14-634 5327\", \"entiti\": \"MY_PHONE\"}\n]"}
+{"kunci": "4e69422a7751eab03e72231f2f73029eb273112604328a18cc734b0edf8bf8b9", "jawapan": "[{\"teks\": \"810117848230\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "4ea7ede0bd4a6971af13f2ac684d2fe10fba8f732099c0774426fc0ea609146e", "jawapan": "[{\"teks\": \"201306498789\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"030414 85 9390\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"030414859390\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "4f42e1eb23e906da174df887fd485f8b4c978352c18c643e056bab1c2cdf3459", "jawapan": "[{\"teks\": \"250311-364-3071\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "4ff2e926a1cbbe758b36c294fe2273373bcc9f723ec7c4ac0c830aceaf70302a", "jawapan": "[]"}
+{"kunci": "5005b2f1919771c8960d1db90e7ea549dc3462a957e9795f7ec8557688a11926", "jawapan": "[{\"teks\": \"198501487656\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "50bda41f296fc1d8cc3d1044da4d8101f0fb6da5f07a76a6f84d14ce14b41a6a", "jawapan": "[{\"teks\": \"700526-67-5988\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"011-49335490\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "50bdea6a5c8e0d743d65598b24b31cd5b11dbbdd8eb3e3d37d13547660648bc2", "jawapan": "[{\"teks\": \"545588-D\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"312811-16-6357\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "50da1a3204935631d73d4f032227f9363e79b8b23af84fd08f8aa1d3bfa777f7", "jawapan": "[{\"teks\": \"015-217 8120\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "51afaed961a84d6b64cdb949427576b4e7e48e6723e1c5530b28814521060f2f", "jawapan": "[{\"teks\": \"461126 79 6550\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"196902617598\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"019-7395796\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "51f6bdcd9568cf24c9b3e868265c5866f4828b0ce97d4d65baa03a029f035648", "jawapan": "[{\"teks\": \"566351-M\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "51fb8a8f2b39d96182b59a08a289574d99ea3257e2ebfd50fd46cd3b8d67e088", "jawapan": "[{\"teks\": \"877124-09-6564\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"650620 91 9086\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"+60-11-30566817\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "522f59d81b71540fb9964a87ae0dfbc8250010bbc6765341d0c4f86d09338def", "jawapan": "[{\"teks\": \"233909-G\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "5277b79566df1993cee6ff88d12308a00c5bf6012c665ef8e7105e9010761c43", "jawapan": "[{\"teks\": \"790428 50 0345\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"476044-U\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "52f6ebeaeb0caeaefb57346526e33e996ee9b7af556ea3f5e28f0108dd0ed379", "jawapan": "[{\"teks\": \"775189-B\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"015-244 1318\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "53149866f5452c966b6f494aa59e1c9045a5ba739a439c76945539532dd20be3", "jawapan": "[{\"teks\": \"4278-P\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"04-389 4075\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "531a3b9c8854a7aef314e827041faf8328c8015423194d2d9101a14a6ef23759", "jawapan": "[]"}
+{"kunci": "53ebcd4e29856f23e7e4799a0704172e66a17666d68a0122080865fb6e1f36ad", "jawapan": "[{\"teks\": \"540530-56-2994\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"+6012 6747060\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "548d42a41d0afe78b2b100d7c77cfc5a090e1c88e4c72fca85f374db9e08cbf6", "jawapan": "[{\"teks\": \"348491-U\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"019-984 3439\", \"entiti\": \"MY_PHONE\"}, {\"teks\": \"60\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "54a5569bd854c5ba58be20d89e8b52a8e60a00c54c26630507d0d9b794f67c26", "jawapan": "[]"}
+{"kunci": "54faaae41d16e3755385f3ef70835d3b53791f70ba2e15e004ff6b5b7a5058c6", "jawapan": "[{\"teks\": \"840129525161\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"650995-V\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "554aea92ea0392919ec7b01fe247cc246dee64bca482f78c085b2d98f82b8a0a", "jawapan": "[{\"teks\": \"730102 59 6677\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "557c522a9691fbb1d26321f0456269378562747fff03aa2c61adf9bafa523aae", "jawapan": "[{\"teks\": \"53170-D\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"011-74402\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "5597931056a0f69d097ad2018ee11ecce11752b66a1ae8294e914a44d1e4d06d", "jawapan": "[]"}
+{"kunci": "55adead47a71ab14bf2b9df35fe52bc40b758f956ef3b271539f1b2ea3a8263b", "jawapan": "[{\"teks\": \"976505-M\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "55ed9bc971bf39686ac44a8b0e9b5f94779d28d6f908c723e42621d403e5373e", "jawapan": "[{\"teks\": \"20971-P\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "55f6bb147d34e3e327c98e61a79bdd1dc6a1665ace92a8452b7361b45f68c7a0", "jawapan": "[{\"teks\": \"486346-D\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "56144532949868ef1197d421798a2d421ef2ab664f9a4985660fa9ab8582708b", "jawapan": "[{\"teks\": \"013 7355443\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "567095be9f145d7dfaf5ebe3ba45af8af3eca7a9efa7a759dd41a574727a64e8", "jawapan": "[{\"teks\": \"575409-H\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"+6011 38405660\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "56759a73d901f613d1765ef09488c92f928af24e627c78950beb7f1e63d832a2", "jawapan": "[{\"teks\": \"550906507799\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"013 4536608\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "568fa63bbdb4317cb0f65395a23bcb99f91ef357a235960865469d58353b8135", "jawapan": "[{\"teks\": \"200303839377\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"+6017 477 5862\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "569d020edb5cbb41f72fd2c77d2fee4e882370eed82f0f1c4691efa3585ade97", "jawapan": "[{\"teks\": \"930414-73-3419\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "56d592c6c5671256069ac9e694f6ef0927962910d964e43bdb44e8a8c4b1dab5", "jawapan": "[{\"teks\": \"010-23551\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "571424bb43da8979eab87ecb6474058c63433a7fbbc2598d533c75fc57bca3cd", "jawapan": "[{\"teks\": \"901009 16 9887\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"198703158280\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"+60 16-624 3339\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "575ce18c17844eaaba12db53475593a331b372f4b9cc32c0549fc93fae6b7fa8", "jawapan": "[{\"teks\": \"260425-190-6681\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "57609a22f4ce253305da92a4ef1069991a225aab4b93f07b0b57e35fc9752426", "jawapan": "[{\"teks\": \"870817-86-8894\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"6973058184\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "57927d5977ee24d4583a1eeefe160e2ee70f37f7ecc39ba3089e26ef415bb448", "jawapan": "[{\"teks\": \"66329-V\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "581eb06ba52dd900d3e860f4e9eb7b380ad9855c5bee7c91d68766d3b9e2a5ef", "jawapan": "[\n  {\"teks\": \"166811-13-5797\", \"entiti\": \"MY_NRIC\"},\n  {\"teks\": \"153798-E\", \"entiti\": \"MY_SSM\"},\n  {\"teks\": \"611021 16 5279\", \"entiti\": \"MY_NRIC\"},\n  {\"teks\": \"981020425293\", \"entiti\": \"MY_NRIC\"},\n  {\"teks\": \"260517-440-3743\", \"entiti\": \"MY_NRIC\"}\n]"}
+{"kunci": "584b17ff20d65ee7b40bf5702b0314c49030fe1121499ff983d4bcda9b095fb7", "jawapan": "[{\"teks\": \"30402-F\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"016-953 7174\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "588d52a94f52cbdb0e03f3df0a3bc50cdc74ba7b9b15fd2416a1bbf8779dcf24", "jawapan": "[]"}
+{"kunci": "58afcbc63d8da6ee70d5b08b400cdbdd687ebc99abf972dcd28617e51f63c210", "jawapan": "[{\"teks\": \"013 278 3157\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "59595154a0a22a0254d8f8e54c55fdd50d137b0b2ce7491f8370ac41947b6c81", "jawapan": "[{\"teks\": \"1147352-E\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"03-2853 2477\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "59f2834a64611668a8c6a1c4c0bc8ecf63dc0dd6401c96106b6e655f0fac548b", "jawapan": "[{\"teks\": \"491114-55-2063\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "59f62f6a87f2d9251d43dc8253981ef1b72ff82d185ffd015e9685ccef0c5781", "jawapan": "[{\"teks\": \"013 9222684\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "5a1715fa0b22f674a644a87dc3da82719fbc03abf84497d3973783307c0cf549", "jawapan": "[{\"teks\": \"260320-661-8743\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "5aaf4521dde53c0d533e72b03e24cab4730eadf15ef5f2f31035b4bbccac0094", "jawapan": "[{\"teks\": \"260307-375-8011\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"461216-F\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "5acb37dc1a6358ac7f489ab14fc82a05c1062b06380bbe0f738201a0cead1505", "jawapan": "[]"}
+{"kunci": "5ad2c548b5e1a62805109fa67de10efdd386b8fdd7ab7b51e3f0ec9e91eb81f6", "jawapan": "[{\"teks\": \"851104-23-3723\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "5ad97090a0795241c392824813259f4b23debadda9de3bde24a14eea68b4cb01", "jawapan": "[{\"teks\": \"1268934-B\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"017-6712190\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "5b777a38a7cb61ee8f0e3ddb9183f672a6432e65ee822c54c9dd1895cb06a583", "jawapan": "[{\"teks\": \"500424 62 0996\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"013-8001434\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "5baba6122fd19598f6dba56815bea036ef45d51f10a9b3860fa887f289f26e76", "jawapan": "[{\"teks\": \"1529763-K\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"0198519303\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "5c08b1da004d45aeb3ee78a2d43a1dc2370aa36eaff3a636c1e7f3a5c61bef6a", "jawapan": "[{\"teks\": \"260729-17-9560\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"394337-T\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "5c5a1b49eef8a10a1e377fe192eb335433ecd3e19c516db224afe4188b479d0c", "jawapan": "[{\"teks\": \"201006627238\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"012 3917883\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "5c66f6cf4713966f1146fd5f89f00806522fbfda7b0baa2745179dc9a9277920", "jawapan": "[{\"teks\": \"198004389793\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"019 835 0155\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "5d8fa4d028c1e345a1178f2987495296ccf19ad594eea038d31e40bf77fa3d16", "jawapan": "[{\"teks\": \"940811 28 2000\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"229701-H\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"251229-638-5858\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "5da90d18d9adfa76bd9188a848e0d853940694119c443d28850a7817f49e03ba", "jawapan": "[{\"teks\": \"10225400390476\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"906456-K\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"04569776\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "5e7decf9bf30ce4f3a5a2c91d39d654e13f8f4a35a381576ee7c28a50b4bd6cc", "jawapan": "[{\"teks\": \"566968-F\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"481668171799\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "5eb0e4bc276a84ce7b434169bdf52cacf06e5d465da10b1b57377d347e18432b", "jawapan": "[{\"teks\": \"03835122\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "5ec3242d080bd2240635c1cdf38d483007fbbbd110bff7c6eac0d586dac4fb2e", "jawapan": "[{\"teks\": \"250131-161-7337\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"426197-W\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"110322346557\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "5ecc5e8c604de9499152c361afac2ce1dfe2e48839b2204f0de4afca77139816", "jawapan": "[]"}
+{"kunci": "5edccd2cc25502605f71128ef89925ce1de78e29b5723ff90ef479a45dc2c2a3", "jawapan": "[{\"teks\": \"017-698 8843\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "5eec85b77a30b9ea4c31735cfddc3298e081c079bfed50bf144397c2efe8e4a8", "jawapan": "[{\"teks\": \"413965-K\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "5f2b396cfc572cf0dc72dc6ac9f07cc044be8a568b1077042c7aa33022484360", "jawapan": "[]"}
+{"kunci": "5f9a7e665d3892a86c20ed5719a3b606073b9b0626df175dd149b1024d44ea82", "jawapan": "[{\"teks\": \"465238-G\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "5fb0490735f035ddcd1d8e4ba1a3a001cadbaf7e61044770310f2ec65584a36c", "jawapan": "[{\"teks\": \"019-9328036\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "5fb1d74adb824d66baa51d84cda871820f4ee20752a49e5d2522e092fbb10b5f", "jawapan": "[{\"teks\": \"06-339 0024\", \"entiti\": \"MY_PHONE\"}, {\"teks\": \"860813-13-0439\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "60286b4c072d3c52fca1109771e935d06e83afcd245da3e23cf00f0ae7665a02", "jawapan": "[{\"teks\": \"790311-94-1960\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"602938-C\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "6094f2b0ad275f9f91bc1dffe029b1ca0427f485cb5a5bf70c1e40fc526ceac7", "jawapan": "[\n  {\"teks\": \"920926-32-6915\", \"entiti\": \"MY_NRIC\"},\n  {\"teks\": \"+60-10903 4524\", \"entiti\": \"MY_PHONE\"}\n]"}
+{"kunci": "6101376a340bc2b0e4f8e46b29dedf4e87c1ada5e5d2a8ce7ba1cf170ac23104", "jawapan": "[{\"teks\": \"100221 11 4060\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "6109bb1dc0afe5437d834ed79e30640d044c270986310aaa8017020357ac7d61", "jawapan": "[{\"teks\": \"203455-D\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "611a5e98e212e5b295c169b2ca4c7490733501a3cdf18035c4c38c990bf597a8", "jawapan": "[{\"teks\": \"420313828416\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"66642-M\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"251205-335-2493\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "61409b86f0a8de82092859b0ff8ed10d6b05189a2c50ff5373cfd136033cb8fe", "jawapan": "[]"}
+{"kunci": "614b56a2e6ec17ff47fe1553611a1c1112c1f52ebf601c91c11c84425f16c6d7", "jawapan": "[]"}
+{"kunci": "6161b0393215a304ddb9bd06705a14ce7777ce41e11002b3ab2556818f0cc00e", "jawapan": "[{\"teks\": \"930619-31-2312\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"+6016-671 2633\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "616910e5df7ca4e3deedd02c602198ce79263c1117b63c90fb3e0f10163bb25e", "jawapan": "[{\"teks\": \"201305383322\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"03-8857 0210\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "618261641c75e1625e64ef8af358ec362fa3efe830744590aee14ab890622aea", "jawapan": "[{\"teks\": \"012-474 5895\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "61ba7f22c93d4ebdbbf662485e0b513373287f07058ab55e45fad794787600a0", "jawapan": "[{\"teks\": \"42968-A\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"260202-869-1042\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "61f0e96ba07cfa88fd55b587fb63e10db8c63013045a17d39f196575839f6969", "jawapan": "[{\"teks\": \"03-149 22\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "62484623d2f32012daee5170a3ed5f704cce6a70e5de24ae74f5175437a9f491", "jawapan": "[{\"teks\": \"582580-W\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "624846e14b5373d2d02d4b8a2cda4d7b3a8f37ea4b15c870095d059b0c5f83cd", "jawapan": "[{\"teks\": \"901315-E\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"260612-236-0189\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "62505cdfc9642bed9e579d9b445e34fa36c0d63d24386339d65fd82bf5bbaf40", "jawapan": "[{\"teks\": \"920822329262\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "62669189602adf00ded8c3992eca682438b4eb28bc61afbcc52f9b15722a6acd", "jawapan": "[\n  {\"teks\": \"111015 12 8427\", \"entiti\": \"MY_NRIC\"},\n  {\"teks\": \"69123-C\", \"entiti\": \"MY_SSM\"},\n  {\"teks\": \"02459850\", \"entiti\": \"MY_PHONE\"}\n]"}
+{"kunci": "62be82163512e556533b74c257029ed65e791b64ad58b87d8fb4169e3476a793", "jawapan": "[{\"teks\": \"201504341262\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"03-6189 6891\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "632541d8362e518ea4be53d1dde69224b20edc2c98c00cfa9380c2429dd7f824", "jawapan": "[{\"teks\": \"196802171482\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "6326f7e99529aaf2219e4fe00c7bde056af1b668489bb3a1e1f82b48d5a072ba", "jawapan": "[{\"teks\": \"610308-M\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "6406b7dbaa730eb22dec525aea3d2ddf9c4b9c41de88c67a03909727fbfd9c36", "jawapan": "[{\"teks\": \"490525 49 9073\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"702328-P\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "641a29937b7e9170da2ef3a6b43c4477ec2c95400dbb46ae10455bb6dd95fcc6", "jawapan": "[]"}
+{"kunci": "6422dae520369ee17adf422c6651ef1dbf44c31ced594722551d364075db2316", "jawapan": "[{\"teks\": \"931222-06-4651\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"018-9217757\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "642c1d4a0c16396eb4e597ebc0bc36982080b1754992d3d803c7a4365b18e48f", "jawapan": "[{\"teks\": \"566169-V\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"0196506292\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "64313d850b638a530fdb0384ce64b1083259b4d0514894843920f843f4f147c2", "jawapan": "[{\"teks\": \"570429 92 0615\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"890765-T\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "64c85b813fa35083732e1896766f68753f151fac31070229ba828e92cf6ce158", "jawapan": "[{\"teks\": \"890511-01-7651\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "64cfaf91b0c41f1319b384782ae2e98ede5a5e1012c060f689a843b077dc2cb6", "jawapan": "[{\"teks\": \"196103040694\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"018238 5433\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "664e6a5e7782682fe6c94c76cdf6759ff80828ff3b9ab469e07336e8b237e7c9", "jawapan": "[{\"teks\": \"930818 12 3830\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"199502226353\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "666af5238e733b494b785079c916a36990e17f7dd93afb186d17fba693084049", "jawapan": "[{\"teks\": \"774262-E\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "66829e68a81cb78edbe0498a0bb8f5b3deaf58ba669cca78282c118fbd88f828", "jawapan": "[{\"teks\": \"406627-A\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"+60-13 8713251\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "66a8643d9e10996ccf83f1c01105b4d4913987310cfcbcae15b98decb7f50dc5", "jawapan": "[{\"teks\": \"09310685\", \"entiti\": \"MY_PHONE\"}, {\"teks\": \"18315-C\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "66ade9e089856d47bb890e72475be8e7c2949cf09d919ecdad714525d946c878", "jawapan": "[{\"teks\": \"275540-B\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "66c1cd9deb0e03b87d108c518eda5224f542e240a7d0db4be2e12a298b137803", "jawapan": "[{\"teks\": \"810810-U\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"016-631 108831\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "66c5a8b188d0e81459c822649d5078f5f10dfc7477b0e00492d630387848dec0", "jawapan": "[{\"teks\": \"910163-U\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"837091271616\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"018-34442\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "66c6dbfd4741958a61ec71c85d38b994bc53c7cc466ef4b203d00fa8390b9ecd", "jawapan": "[{\"teks\": \"417557325684\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"201503825593\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "6735f58bbe3f475196d9a2f1d0ebbf77ee9d5d55fc33123099a80eb5635bebb5", "jawapan": "[{\"teks\": \"014 6075195\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "6744cd121f4ffcc01f7157b00789a7f0f03a9c2ec7b0eea25c13f9a0c6171e88", "jawapan": "[{\"teks\": \"202403595059\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"201802749799\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"03-2683 5495\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "67c53c983890897e45d7ea64b227f9f1b20e758d08fa2c39c42a10aada245324", "jawapan": "[\n  {\"teks\": \"198401433029\", \"entiti\": \"MY_SSM\"},\n  {\"teks\": \"+6012 5827708\", \"entiti\": \"MY_PHONE\"}\n]"}
+{"kunci": "67cb1fe36d045ddfb7691193db9ce7c1439fb16ed09268d78f924f12f227fe46", "jawapan": "[{\"teks\": \"640715993161\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"03-8496 9375\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "67fcd76dd2a9344e56bed05de610b013f9604dcf88b268f3b0b316e275628325", "jawapan": "[{\"teks\": \"198406058825\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"202608136718\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "684cf48392e7eba037ad03aeac2a2441d45ae9d07b443a5b9733c12d9c251b57", "jawapan": "[{\"teks\": \"900131 64 0814\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "6855b88ab1489c5e33bfb6082659a5fcc1152293b194a15dbf81745b29d55109", "jawapan": "[{\"teks\": \"450421618340\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"012-516 9810\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "68673c24fe85536608a79f9106444b328d9b0147f50b8819992b49818ee7661c", "jawapan": "[{\"teks\": \"+6013607 2052\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "68af9a2bf405bfbb869d6ec0a9f94523676b9cd50fc8b3c6ae4af36aca33b05b", "jawapan": "[{\"teks\": \"720115765500\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "68d4ea8b729f4b93367d339fc2e32797c7548baafe8221eadbad09ca1ddb5954", "jawapan": "[{\"teks\": \"125644-X\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"500606-65-3285\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "69b326e011a339dec9f6d1a4aa58d368fe6031bf0452386d7d913d2dfe054fe7", "jawapan": "[\n  {\"teks\": \"331830-T\", \"entiti\": \"MY_SSM\"},\n  {\"teks\": \"03-653 82\", \"entiti\": \"MY_PHONE\"}\n]"}
+{"kunci": "69cbb01fa18ca5f2f40eb3abf2d79f93b1f1601677fd111faf62ef0b54c0ec2e", "jawapan": "[]"}
+{"kunci": "6a47b81077e636bc10d6cb6174cf3f7ff4eea66c3e949af6bf553a172edbe431", "jawapan": "[]"}
+{"kunci": "6a75b5fdf6db0f51752c2425aea95bbe91d5a5c9e438d2d061f13a5de72ab284", "jawapan": "[]"}
+{"kunci": "6ae83624c3146af571a00621e274a9dffd4028e923da8660c4b73401a6e8f195", "jawapan": "[{\"teks\": \"198704596188\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"690226026230\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "6bae3a483cd35e12f5b7254eb540e8fc7fd0a48ec95cc49d42a35259f96b07c8", "jawapan": "[{\"teks\": \"671216-76-5122\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"018-235 8798\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "6bff811c9944093d83fa08bc4cfe30deab96cbf0d020066d61768ce9125da706", "jawapan": "[{\"teks\": \"07499803\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "6c5f33b88120a8e9000d9e578965fd52ccd2af9f340ff3846f85031133a17396", "jawapan": "[{\"teks\": \"930605 43 8172\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"05-934 1658\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "6c86f9b9b8cd2758d51a6638525dca7bc49d3626a7c81549f771a3d5e83bb9cc", "jawapan": "[{\"teks\": \"197802473875\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"017-772 6070\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "6cca33c6dc9e336f79337bdb4e5ece47513e7832a7542d5fc03bbed0a094dd29", "jawapan": "[{\"teks\": \"019-770 0124\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "6cd7617c774066f05ab298b05a54e60882b56000a5421e689decce42db4f3e47", "jawapan": "[]"}
+{"kunci": "6d1a3f99e2154327d2b54ac37a846328fbf12ea0d1f14de0c1516d5b7109973f", "jawapan": "[]"}
+{"kunci": "6db8193f217ddb4a708832026af3c310778cf54d03ff52bac9b3387acd949857", "jawapan": "[{\"teks\": \"250630-355-7828\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"537034-T\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"012-93957\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "6dd7e34e130c33320bd5d518640f3b8c53786301c5c0697802ef1a36124a3643", "jawapan": "[{\"teks\": \"587636-P\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"05552409\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "6edc78f7a7c62456c4102c3e77b7fcd3c4a54616ee129217920d4c0d86f105ae", "jawapan": "[\n  {\"teks\": \"010-792 567017\", \"entiti\": \"MY_PHONE\"}\n]"}
+{"kunci": "6efb7d93afa11c1002af9641210ceaa50484bb790f3c354d19b73e4fe85f1be2", "jawapan": "[{\"teks\": \"771220 31 8941\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "6f299b3412e4acb48fd9b17bf57cf977325f7b8c077eaa4de054a34b3000e03f", "jawapan": "[{\"teks\": \"751208573810\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"197101125699\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"03-6655 9263\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "6f42b4489fc3fd21b1246e501a2ebe12a2c5623c1948762c886290772af4a4f5", "jawapan": "[{\"teks\": \"010 9880023\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "7053d354626c3785eb023feff105ab69bb7a727680303289518a79df285dba52", "jawapan": "[{\"teks\": \"480427750609\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"384323-A\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"551117143953\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"260428\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "70a9b8d7093aaefc5bf0699c9d7001ae539a20b7130e9d675705346e0006edc7", "jawapan": "[]"}
+{"kunci": "714ed0607e6eaf576d6ebbb90c8cf245f7cbaf98a4ea17c7e2907c9966517410", "jawapan": "[{\"teks\": \"340510-B\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "71ce6c54787ef03a7078a0377e3e48e5b5f9cda17e7bc8a90aa1b2fce454bc45", "jawapan": "[{\"teks\": \"198102070554\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"012 617 8186\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "71ff0d77f5b4ca0f5ac6f2d3fd54764f9525e28099caae94c523f0909955d900", "jawapan": "[{\"teks\": \"040428646070\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"016857 8756\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "721ca474d400d80901086958cb37b5048683fbe0da6b7910b59f7555c62ffd0e", "jawapan": "[{\"teks\": \"0145121350\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "724da26e8ba68929fafdf6c0c307fc2ba4b9695896469a6eb385702691d1db45", "jawapan": "[{\"teks\": \"013 918 9366\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "726b18a78c44bf66d962e3eae66be20e509a647d985cda24d55ae837d28455d5", "jawapan": "[{\"teks\": \"010-400 291494\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "7288a85fe1ed95b7515a7387714680741201045bc4ceb89e7f63159f1581948a", "jawapan": "[\n  {\"teks\": \"202403896407\", \"entiti\": \"MY_NRIC\"},\n  {\"teks\": \"202002596383\", \"entiti\": \"MY_NRIC\"},\n  {\"teks\": \"992026-B\", \"entiti\": \"MY_SSM\"}\n]"}
+{"kunci": "729279158f476b439d8afe716ef0d9131275142bba97c3eb647c9fc77f23ff01", "jawapan": "[{\"teks\": \"050204 92 5538\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"484546-C\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "72a50cf9ab8bcbdd7b020c77c3b7a257d14aaeba87b15adf19dccf0f2b6200ad", "jawapan": "[{\"teks\": \"021229 98 2771\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"201304177581\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "72c4ffbf76b37d731955898574298907823d1c0f31c3a8a4d1cefc5cf247abfc", "jawapan": "[]"}
+{"kunci": "72c511418309d55e1055ba550011a426eb3937420d4dd06f8eb37e144496a4e8", "jawapan": "[{\"teks\": \"260728-922-6222\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"03-488 51\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "72d88f6347e8e3570f93e6a4005eabd91f87853132579543c1603835127df332", "jawapan": "[{\"teks\": \"202306507921\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"011-28348992\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "737897a87b957ea65d384d9e09edb153addf047de42f274e77871fce8eb76d0d", "jawapan": "[{\"teks\": \"197804617523\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"016968 0894\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "73d7b2468638028808fb508c8ce2be885c3d5071cfe28d28e12f1609ce31bc70", "jawapan": "[{\"teks\": \"450620634730\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "74056da21ce38f2eff38db326ba96cbb8add4ff82de36fa27ba41f60a6c08036", "jawapan": "[{\"teks\": \"172345-W\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"314805-X\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "74215f270e1c4d17a5d0e2ca70c50c935cfd2664f665d2d8ca4826ba34ce0ba1", "jawapan": "[{\"teks\": \"111109-84-4418\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"05-593 4695\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "742723a36e03cc1970c2d33cf623917c45cfe5c38b2c3545bf4dee03510e7d78", "jawapan": "[{\"teks\": \"764338-W\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "742a793e7ee5bf4df73fb6d1d6bef5e57f55d1bde220e71a4ad15363a266d5b8", "jawapan": "[]"}
+{"kunci": "7438cc4c8a49dff7205c1b86121facef08557d44f502ceca00a2db2806864aef", "jawapan": "[{\"teks\": \"744975-K\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"010-31459\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "744b0d201c1a23de435c7d4b1fa16b4691d1e20d2a2a147f60e74bba81ebd734", "jawapan": "[{\"teks\": \"953926-03-2721\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"811731-B\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "75141271ae652f72fb52b2410ff0f81dbd2399aca7c2aacf9a71748d8a081392", "jawapan": "[]"}
+{"kunci": "751b2365f6664b354875288e3d3f663a19e71d1210d198cb9e6a0cb61a5a4464", "jawapan": "[{\"teks\": \"870217-69-7594\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"03-121 28\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "75476cbc4b857bf4ce2282796e860c5df7d562e39967229d2eb4e0f677f89a53", "jawapan": "[{\"teks\": \"810706854860\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"199901057704\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "755d66a2f85db4f02f2d2e117f44777a84fdca8b8472289642d70c8f88d7b002", "jawapan": "[{\"teks\": \"031114-88-9160\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"0172662408\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "75bf758fde61a07f2a2a0c5907b6c57317acc2a5af84d28e4f87128a85e1d803", "jawapan": "[{\"teks\": \"03987980\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "75ddd1fa23852ecda3eb844d4a7e6fc1ff0f95cef5ea1af54d3ae7873e7723e3", "jawapan": "[{\"teks\": \"637650-F\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"800531526470\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"017 5084974\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "76094790f4297817a6c499bb3a1c27509ad0c4aa486033b9eac88ff07123c443", "jawapan": "[{\"teks\": \"378871-F\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "7683d6a17807f93607486f3d406089c177cad6500e6a12d7dc87b89c8fdc7e5a", "jawapan": "[{\"teks\": \"960219-21-0235\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"703587-G\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"250727-73-2603\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "76ee4b4f510bdc638264bb98dd9ae38cff104fef95c6d39674ef36242a6c3fc6", "jawapan": "[{\"teks\": \"250529-154-5889\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "77202769a265664d653acce9671b9b8519e7cd9207bb166dc3c3520f5ca8df0d", "jawapan": "[{\"teks\": \"012-868 2622\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "773c33a1dfd6f3c2a7fbe5cc110ef1d7ecdbd4ea0c80e5b7d29574f61279124a", "jawapan": "[{\"teks\": \"508577-T\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "77c55ef599106246f9f057e543d15eea0d458bd250f3f1af855d8b41714012f6", "jawapan": "[{\"teks\": \"250207-940-9972\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"318234-P\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"940-9972\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "780a2b31b993b39c46f7e9c2bb7430b8a33a914335757098d7d66be4e06ff88b", "jawapan": "[{\"teks\": \"04-920 3107\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "78b8bfb3f526ebff10d77e0aafc9e1c86b2af8828b32cf484fd05d4006c5cdc0", "jawapan": "[{\"teks\": \"260517-492-5146\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"211758-D\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "792ceceaf54e3489c7a83826c52fa8e54b8e9eb6b2ceb65c96ed9ebf86e9cdb1", "jawapan": "[{\"teks\": \"250620-467-5592\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "7946cd877faba17e4c2e05194aa5aa0547e9f10e8337673105782b9418f23493", "jawapan": "[{\"teks\": \"015-440 9951\", \"entiti\": \"MY_PHONE\"}, {\"teks\": \"010326 3642\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "797031c55a1788c2ffb75ba8ba68b74cf0b6562442a6c9de96064d5dddb4d94a", "jawapan": "[{\"teks\": \"121105891863\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"04601271\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "79839163090bf17d4ed0f6b8c732b643aaebbfa2ad23b17f0273d1d52de33a24", "jawapan": "[{\"teks\": \"196801932444\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"+6010-8364122\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "79c75bec0e36157bec2ebb39cab59233bb0f616b221ad9cb236a7ac771c07099", "jawapan": "[{\"teks\": \"872458-D\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "7a25102797fa653cb696e1d343f0cffdf34bc9495ab829ba3e068f479ad0dd35", "jawapan": "[]"}
+{"kunci": "7a33bfe190cc27f5dbf5138a4f7a9913a15ff9c82b6e8c3c273a82bce08cb83e", "jawapan": "[{\"teks\": \"196804725851\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "7a7dea94c143d2c25cadb3a70858d1c95b9a07c261e12fc5a6fe38ecb1fdfa69", "jawapan": "[{\"teks\": \"1423893-U\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"010 281 2787\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "7ab3f3e054119dfdc25c5ddfdf7635d68dea73ce15c515955a6210da295a7189", "jawapan": "[{\"teks\": \"342153-A\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"260312-593-1527\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "7b0710140e3354a7aadc102ee4c17824407cf5ecc853502f7212ebec8b79374e", "jawapan": "[{\"teks\": \"199006042406\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"018-5701357\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "7b2fbe6cc43fb514c6a7ee393eafe86fb81f48e46ac624c71fbb7605e850d80d", "jawapan": "[{\"teks\": \"019 805 2715\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "7b471f5ff88a1ae17fae7a2643343633ae323e26f413dcd632b30b5948be0a75", "jawapan": "[{\"teks\": \"99297-V\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"03-436 22\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "7b78063b9e33d8959b38ef18aa368fcfdf5ba127235d310a4ea9aff3bd7e7b6a", "jawapan": "[{\"teks\": \"235339-K\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "7bb3cff282a17dc8bdcae8462d849fba8e621098e462e4921bec71e10ea539f6", "jawapan": "[{\"teks\": \"840924 90 2462\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "7c2e8eb449aef6fc397f3e578846ffff0a738e0f2e6098067bb1ac436df0038f", "jawapan": "[{\"teks\": \"836074-G\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"428737-P\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "7c459b1b24bf95c5075ca5ca41c896f1cdd44d63ed246d54dccaae4e74a4ef98", "jawapan": "[{\"teks\": \"202103811581\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"202205545742\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "7cc395b28643fc7928c9c34042d9922256ddeb66e5053ff51814429692b12ec0", "jawapan": "[{\"teks\": \"812186-V\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"02895376\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "7d1dea879c429e241e144f4acdf08e90c2eb9cffd079b504babd0ed787642c06", "jawapan": "[{\"teks\": \"907979-X\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"07655722\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "7d1df51e1f137e19b6e9be0e4b136819cf2dab4c3f0882b23b14f86ddb38ca9d", "jawapan": "[\n  {\"teks\": \"851010066226\", \"entiti\": \"MY_NRIC\"},\n  {\"teks\": \"481218-G\", \"entiti\": \"MY_SSM\"},\n  {\"teks\": \"532523-03-1038\", \"entiti\": \"MY_NRIC\"}\n]"}
+{"kunci": "7d4b69efceadf4aaf9b2ff8fd71d56c6fbb42ca5d87bf80da7bce42d5a7f68c1", "jawapan": "[{\"teks\": \"017-539 5882\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "7d4bac8ef95a45bd74c26a23ef4dd4394dd05a4b0a7085795f1fb9bf990cb169", "jawapan": "[{\"teks\": \"015-408 8598\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "7dafac50a8b4e17b7e8d4c5d92f7809cf3428b8afe55ea890d85e8be3cc8920f", "jawapan": "[{\"teks\": \"498911-T\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"+60-12-9050849\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "7e2d278a2b46aa03a76f7ed4727f776b6e7de501df14280dbd94c6f287149395", "jawapan": "[{\"teks\": \"760858-T\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "7e3b0b9c704362c47c7e918e35f8ac2a0e37d2b33515b37630324d5d6034de4b", "jawapan": "[{\"teks\": \"530918 45 0067\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "7e7c783f19f21246eccad51f0c0cfd84fa78db026f3008d11050fb88dcaf509a", "jawapan": "[{\"teks\": \"5680515839\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"+601135572486\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "7eba5babedc7427f8828cf700e5f21c96ea4b913e89d9bf8fe5d16eaed30b89e", "jawapan": "[{\"teks\": \"013376 3979\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "7efd6ca139df374e7fc66fee33c980f47fa8cad7cb2f7eddef8d0e7e4fcc0815", "jawapan": "[{\"teks\": \"329122-13-1612\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "7fa78efec501b91f706a2b5a2c93f2c65b9e11b2b320165623987b6693ecc52c", "jawapan": "[{\"teks\": \"730120589457\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"0197656655\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "7fb18c834ec17a14b331ce293783109d29945f6b4c00859ad91addbb3dada269", "jawapan": "[{\"teks\": \"197702825298\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"04-925 3871\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "8018e6a1d2d6eb53e41fbaf64877fddc821ad1bf3a8e949f52f9b16d99d59602", "jawapan": "[]"}
+{"kunci": "8030d5cffdafd2c51df46774affa94108366bb122f22578e44b19b63d74413ca", "jawapan": "[]"}
+{"kunci": "80fc17511cde26d013d3cf41da68a2933efb76b85b0ac3385673ec6cb4584379", "jawapan": "[{\"teks\": \"720407 13 2100\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"03-7161 8306\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "816bf8afb41b724f14a6b8cf68068e8ddf05d228d453a39a9524457e9f2cf319", "jawapan": "[{\"teks\": \"850531-40-2796\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "8181de23311da0a360f4124d2f86ce98ba0d0876c15fe0f5cb18a22151e7dd20", "jawapan": "[{\"teks\": \"771210-92-0670\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"1019045-H\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "81b2ca9113755a45c42fe22d22df8e3756bddb751cd5c18e3ab3123775cc23b3", "jawapan": "[]"}
+{"kunci": "823990d927c611990e71bba3de57e578d09f5baee2cce0651125c46487077350", "jawapan": "[{\"teks\": \"930121098440\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"05-385 7577\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "824535a604de56f797d18b276d6b43e0d5a9c64406c92fceb9ded65eb2fa32ca", "jawapan": "[{\"teks\": \"791635-D\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"019-111 803477\", \"entiti\": \"MY_PHONE\"}, {\"teks\": \"880719830780\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "82548cb79854a108f5dd783a916d32249766869b9ad341104f834be2ac98d8db", "jawapan": "[{\"teks\": \"240130-P\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"+6018-802 5278\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "82d461dde0b62dc9be1a4c58a56a3b2e18fc4dc66e5b52eb88c679788015ff6f", "jawapan": "[{\"teks\": \"251109-498-9871\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"818563-H\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "8397c8ba0443ea76f3c3cd7017677042929e5286adcef09c2a5b1d4bef8ca020", "jawapan": "[{\"teks\": \"583860-E\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "84152b2eeb07ea0303eb27b39ca015138708f86697eef4c650eed385679a1716", "jawapan": "[{\"teks\": \"202602286585\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"629170-U\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "8415af09df9dd1b22152c803c384237b79b5025b863714b4c575cc9fd6082f6e", "jawapan": "[{\"teks\": \"631105886985\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"03-393 53\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "84523d02409d35626eccb3214e92c5dea77213d241e2b4d5676af99b13709609", "jawapan": "[{\"teks\": \"017-24540\", \"entiti\": \"MY_PHONE\"}, {\"teks\": \"0142194905\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "845ee3f6f5d6d13455326158b8576e3e021f0b6c41d835bfbe31803614a94fa6", "jawapan": "[]"}
+{"kunci": "8473b3a1085c351776a13b3bbbcaae394c112ce7f31e83458ff9309b4cbae1b7", "jawapan": "[{\"teks\": \"990202-X\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "84878eb831e8207b6506ab8b373710ad7cf1d9af5e3be3f6411fb380c0e3f6d9", "jawapan": "[{\"teks\": \"100531-60-7733\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"016-3930241\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "849eb1dc9915c82240d272bda34f80a1b51bc2ce62c4adf788f6e241926a21c0", "jawapan": "[]"}
+{"kunci": "84ad4ed0ccd7cf70f8183ad3d9e68acc8262536904eb2d4e43906916173ce03c", "jawapan": "[{\"teks\": \"931948-F\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"09441899\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "84fbc73d958b67a94440b7d0886893c3dc88f463057216c4b0553426d0ad096b", "jawapan": "[{\"teks\": \"+60-14 781 4556\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "85c23bd0e4b16b0620038fcd569e64049f2a0a3e5355cb81895ea948154de928", "jawapan": "[{\"teks\": \"000112-12-1608\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "85c86765c18c325a1b2bdcedefb2aa0c2927c26dbe04d119f1a33f73fc77259f", "jawapan": "[{\"teks\": \"857888-P\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "862d98ae5e9d15af19d7fc3adcc3667603e695b2b21e0cea84327ccd870346f7", "jawapan": "[{\"teks\": \"03-847 24\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "86323d70e782ca93648f29b5a91857d3bba5ed7e6498285f0238e9736c8f799f", "jawapan": "[]"}
+{"kunci": "8637e812a5dbaf10ade3c8e4ebc47cef50258cc665f41337aeb81eac1cee4c1c", "jawapan": "[{\"teks\": \"920313-68-7137\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"016-584 0336\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "866531ddf813d9134899ccaf793529cb26f4c8afac9177e6631f2520caf173f4", "jawapan": "[{\"teks\": \"980518-81-0522\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"03-440 27\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "866f2ac82fd353e5b92b167cbc1747982a16e3f81c563f8302e1334c9276abc9", "jawapan": "[{\"teks\": \"110915 71 0483\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "86911180fb52076ddb85c681c154af53297777de7a4e5cd51356de830e1c60da", "jawapan": "[]"}
+{"kunci": "869abdb60f75d1a639d47cd6cfebae2d4a909021f2ebd0350e81ecca3a7cb019", "jawapan": "[]"}
+{"kunci": "86c2cd9b54bc337561f6587339a9fd067675aba868485d1bdc45e9d3605acc45", "jawapan": "[{\"teks\": \"530422 13 0563\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"197404577090\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"0164768466\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "86fca74ff88de5fb0898cbf762ee2a465de894751beae79ea35544c8a677e380", "jawapan": "[{\"teks\": \"691026-33-3725\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"012-8192105\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "874c11eac4354f42833b5c4dbd37d8400ec3d21f96b1b8c0912d797da4a3099d", "jawapan": "[{\"teks\": \"771018 38 2364\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"263931-W\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"+60-19 709 5463\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "87596dbb625a5682140e77fbce2e20daccc1d1412b2b4ccb39ef00b52066d3aa", "jawapan": "[{\"teks\": \"250629-971-8133\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"285369-A\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"04235700\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "87a42f9e47a38bd8c0e5cdebe75fa03e98d12e0471fb909efd81311fd00fd983", "jawapan": "[{\"teks\": \"680740-K\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "87c2e767e94e3591c6c77a9221be23cfa5f0d283f7f21efa30d6902a411ab63a", "jawapan": "[{\"teks\": \"420801 75 2186\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"03-8544 2614\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "87d7c2ca066cb8e23bbf93b65df2dbb9bd0abde91f3d245c0a278b90707a3b92", "jawapan": "[{\"teks\": \"303703-M\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "8831e71c8f00b2812022b4d738710b80f1896f85d29c9bb20b8f2448b866083d", "jawapan": "[{\"teks\": \"510909 61 1282\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "88aa1af2a6e0ec77006fe7af81847694d4daf84b7619c4c7733cfacf027035f7", "jawapan": "[{\"teks\": \"510503 07 6424\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "88b896f0d4050132dc49d600cd2473b9c14a2f95b4d6bdf53a4bab1cbdf0e308", "jawapan": "[{\"teks\": \"710228-06-2822\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "890cfd08a380b1c09dc545ab0c2071c111a14ec4588b689aba75e6f1493ac5c3", "jawapan": "[{\"teks\": \"141502-G\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"28453-E\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "892e068d60d6565a699833e4056ec7781635e416cf2f3b3dec75db147d9c24e9", "jawapan": "[{\"teks\": \"103024-M\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "8943bdb35b2f1887c68cb3c83c46e98185006f9fe3b6b5c16f291243fc9d1f2d", "jawapan": "[{\"teks\": \"202102373086\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"629610-G\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "89ffa70db0ffc15090aafcf573251e9882806473c21b9f06435080b67b7df8c3", "jawapan": "[{\"teks\": \"790122-57-5244\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "8a01e51936af37c940880657f0dca50497b0bf70e90556089716466726ffc85f", "jawapan": "[{\"teks\": \"660916844194\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"+60 10-880 0788\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "8a474334240328ad340727424e0ff849f582ad53c6ecd704caddd18c113719d5", "jawapan": "[{\"teks\": \"03-8351 8634\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "8a84b2de1d7d397fa56b22387b5bab3fcf02d046f7b17048e894e80ccb12ff79", "jawapan": "[{\"teks\": \"590706-36-4298\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "8a8715b585f170bb74f66c2395b5ebbcfc6dc4126577a3511b72637f183ed9b5", "jawapan": "[{\"teks\": \"202304178146\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"556921-F\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"9116821245\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "8ba57c621411453bf82f3633dffdbd675ef5054003efbe6c3ba82c2834155d78", "jawapan": "[{\"teks\": \"930129626905\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"016 417 2573\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "8be348b29c78fb2222eca1e548913fedba6f21ec36c34960255b4e9088c432a8", "jawapan": "[{\"teks\": \"015-891 501477\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "8c03ea502c85084bf68c9509503dd2f071a43b56ae46b0a088ab628ac62a3ab6", "jawapan": "[{\"teks\": \"836889-W\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"010-857 321843\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "8c8d204fac9280d6d69f830925b58d7bfbac4929c21bc5d8b0d34c480603955e", "jawapan": "[]"}
+{"kunci": "8c8d8c9c02b41d13c4d356b269bf17912b084bfd9a1e3137f46b249e75414caa", "jawapan": "[{\"teks\": \"010-93993\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "8caec81cf9ab44d12bfa4cd118a9cb5664b885083b24b88af0253ffdf48355de", "jawapan": "[{\"teks\": \"610309284952\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "8cc3a227f4f04876d5a020a604b96c57e5856cd0b73b3b97cd7fcf42048a32d3", "jawapan": "[]"}
+{"kunci": "8d054791b41fd6216eb0e1024f6a94d1ab02095836aa5d9ff14ea324ca01b8b0", "jawapan": "[]"}
+{"kunci": "8d1a4b7b1d35bc06b35be1c7db69195321916b1610a42ff86c3c88cb3356c54a", "jawapan": "[{\"teks\": \"012305 7152\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "8d20976ebb0789f473b374ec9ac1779ce695d1df2ff9e0a74a0302288b4a56e1", "jawapan": "[{\"teks\": \"980422505474\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "8d3fa4d71d949a4b5d1b4d425e40a2271d52bb67091385aae756f15f44cfc4a0", "jawapan": "[{\"teks\": \"09952640\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "8d72eb487e6614786fb9b16a611601363ffe2df529cd7f15dffd6d0a2ca537d4", "jawapan": "[{\"teks\": \"1101536-B\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"013483 0240\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "8d9007f3ccc817631f27333bd050eaa9fe17393acc8df02b81a57f9d78dee7c4", "jawapan": "[{\"teks\": \"840430-36-3783\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"4929 5607 7857 6546\", \"entiti\": \"not valid, this seems to be a bank account number\"}, {\"teks\": \"840430 36 3783\", \"entiti\": \"MY_NRIC\"}] \n\nHowever, the correct response should be:\n[{\"teks\": \"840430 36 3783\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "8dd0b2ac002980454c7b0b088bf6dd7a1cfe5f307feaf46a659a9a61685c2de4", "jawapan": "[{\"teks\": \"201603322130\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"850712 26 8390\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "8e0736a2ef7cbd72bd2a6e04d8d6a04f5b41ce7a014b320d8b3f2864cdbc9358", "jawapan": "[{\"teks\": \"1439152-P\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"018 628 8505\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "8edd78711067a4602e784dfece5b7c8f94169147fd6dfa632055bf6d61de9451", "jawapan": "[{\"teks\": \"080523742271\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"295104-C\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"580418 61 5762\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "8f08a47bd26c8ef532e2987d3fab06869ef03e942627d474f6fb4de3ffea1f0d", "jawapan": "[{\"teks\": \"202505800078\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"136740-M\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "8fde38cfc4b11910938c100cf661954c76b9479944c074752470bfe037de0833", "jawapan": "[{\"teks\": \"400311-86-3524\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"197003819305\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"018380 4130\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "901661f8d53d40607c56761163041cf6313532d79cd1122f5c0a8157c2b9b641", "jawapan": "[{\"teks\": \"311291-P\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "90405db27fea648a6cca6bea2b31f4d16eeac2bedd68917869950bc93a4bbcd1", "jawapan": "[]"}
+{"kunci": "908f4ebe6d3285948c8a828b1476a903ffc12f1fc16afd1546913d12b379b8f9", "jawapan": "[]"}
+{"kunci": "9112569ea3f3168e2f5e968beed9333277bc0d1044cc7680e6f1fddedd3dffa1", "jawapan": "[{\"teks\": \"627753-W\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "912241697d3c1b53750e271e81a31f8eeef46ed0057c3f9d50fc99fd81b459ae", "jawapan": "[{\"teks\": \"+60-13-2609547\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "91390c506f971b984d4fcb8addadc5e580aeab6ac24111f83281555e7f4c1af4", "jawapan": "[{\"teks\": \"387782257274\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"597454-G\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "91a9d66528bcee52d5e18f65b27eb15a4f5b9df0533cfabd125448e742a9429b", "jawapan": "[{\"teks\": \"03-7600 3117\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "91c44f024c0e1e0148f065cc67c0c8af118fd1b0d9d259890d35a972f9671fb4", "jawapan": "[{\"teks\": \"1566152-D\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"03-6444 8723\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "9265544744e60b88392880954808b93a6d0b2b1b324f3cf545a2a912325bdc1d", "jawapan": "[]"}
+{"kunci": "92ee93b017e5e711efbe39db404f0d20d20c4711dd3877e614aa96b57ec3a147", "jawapan": "[{\"teks\": \"260810-787-6914\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"101319-B\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "931202da16d889ead2eb202ce2983d3bf3fae48a55191d40e8acff9a91516282", "jawapan": "[{\"teks\": \"196104636808\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"+60 17-814 4815\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "933d62023ff0bef9927b33456d78d4141c47f8c73d1555e50c2beeb66b45e3a8", "jawapan": "[]"}
+{"kunci": "93441096b045148897e9a84ef757d783913e79a0e0a9b6d8c56fdb4e750694fb", "jawapan": "[{\"teks\": \"920186-V\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "9354306a2c5c8433d25b0d1a73ac78f6df5e457cf0d0e360c82c4c5605410580", "jawapan": "[{\"teks\": \"510503 02 0122\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"017425 5132\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "93c29daa847d45f35b70280987e9aa5acfbe9e2170e14e13c082628496a7788d", "jawapan": "[{\"teks\": \"017-8671370\", \"entiti\": \"MY_PHONE\"}, {\"teks\": \"568201-G\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "9415811b5ce5c821c561260eecb3e4145fd53e8b8dbc454f1ded38b97702a6ea", "jawapan": "[]"}
+{"kunci": "9420881ddba17302cb64a73341d535a119d816a7972385fce53afc03638e12d5", "jawapan": "[]"}
+{"kunci": "9437dde0ede7662b5e55bd118c66c392c90cae289f592b3eb6257bb18fb6399a", "jawapan": "[{\"teks\": \"9671146187\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "94deaea75898e0460f7321aedfa5b474cf171b56fce9bbc5665ea4f6e35e648b", "jawapan": "[{\"teks\": \"260813-02-1693\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"012-2783318\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "95271823b9753af1d4f1d4d841a2a6b13f85d26ca9ef7dc462989b74c02f08ef", "jawapan": "[{\"teks\": \"+60 17 992 4427\", \"entiti\": \"MY_PHONE\"}, {\"teks\": \"0145934751\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "952cd52ea48705290e788c9bdd84aa22b826bee0c0654300b198d9ea6fb0b0df", "jawapan": "[{\"teks\": \"202105838638\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"018607 2371\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "953bf4317171a4552c0e0976ec559da0ffa7ca90bfa3f7614414c5c78dfb88c6", "jawapan": "[{\"teks\": \"080719334665\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"017598 1727\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "954cad489b24ab0b684c68a79ea2aaa3b01cd7f6c777ee6f64fce1a595e176df", "jawapan": "[]"}
+{"kunci": "963788ef150683857c5f29e6c98065cd3f75af93e6f89a90b0a81bbbe18e0ca9", "jawapan": "[{\"teks\": \"03-531 37\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "963e762cb8f360f6d375398c930cb9dc008a2df6c7d8d7151fef8afdd0bf9fe3", "jawapan": "[{\"teks\": \"710927246537\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"628027-U\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "96530b872170089a618553d5171fcae15f1d66b63cb24b344c7a80680454d8ea", "jawapan": "[{\"teks\": \"296402-X\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "966e77a0b9fb7e3c4d85bde2dd0c25ef6eac7cdaa6c81740fe7f4cb1c9b15b82", "jawapan": "[{\"teks\": \"041223-53-7179\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"1586329-G\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"014375 9712\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "967cc96895cfde415fe5b760c30f3494acdb96ee667034522c50914f212881c7", "jawapan": "[{\"teks\": \"201505829358\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"260103-02-5846\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "96cfc7e10a5065760ff704d0cfc1a2c0dde2dfccaf3dd63a85c2fdf1cb047aa5", "jawapan": "[{\"teks\": \"820329128780\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "96f2e6c05678c861f901cf3a22444295240c0c9659bfec188b5b47f11219a709", "jawapan": "[{\"teks\": \"03-2947 6443\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "9761081cde4ab3e9756daa8ce69ae369c4afb13b76782ba733641e275e6d6f71", "jawapan": "[{\"teks\": \"410622464976\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"104622-A\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "97922f095d91b72e2c2880dcba6a93414274e7c0ab54466d152970c336e9093b", "jawapan": "[{\"teks\": \"03-473 91\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "979614602cc0ba969f113cccea1d90fdd19cdd3fe0ca6cd6eccf3bc75efe249c", "jawapan": "[{\"teks\": \"0105847087\", \"entiti\": \"MY_PHONE\"}, {\"teks\": \"1012434-G\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"750313-69-7372\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "979b1a544a40761feea4f242323a7f5ea69e6a5b6959006a9de10b421170494c", "jawapan": "[{\"teks\": \"110925-48-0583\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "982f96e5899b79ea01266be7bfd4cb6f9f4bdfd288f1dad526fb7a98c89446e7", "jawapan": "[{\"teks\": \"1434679-X\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"05-602 5729\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "990f8df1269b621e620d5486864605dc029b03539abb27a83f74118558fd294d", "jawapan": "[{\"teks\": \"199405894523\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"012 7159489\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "99301a430abd3164e296ad0f69c031c18d38fc6ae51483ebef58f7570e47e3b8", "jawapan": "[]"}
+{"kunci": "994e8c15084f49459433757e984335c6c13f621e077ef913efdd2b101b7af8ab", "jawapan": "[]"}
+{"kunci": "996385da8c9349f53edc10585417c93c10d043230d567e3568882a9b7921f41b", "jawapan": "[{\"teks\": \"890814-97-2000\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"+60-18 6626968\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "9996df02a20f751ee172d893260b6ac65c6410568cd46a7219257bf9ba630b2f", "jawapan": "[{\"teks\": \"721207-84-0249\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"+60198256815\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "9a12db1fe1938b542c2876df90e939f9a01b62af7a1205939d439c8d760b8d26", "jawapan": "[{\"teks\": \"900827783361\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "9a1bc03ed6b37e1fdacba8c2615f8a82ed3537fae70e627dac7a51567e4eb1c9", "jawapan": "[{\"teks\": \"930830-14-3806\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"892968-C\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"+60-17 8639839\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "9a21f81a209391ddc5ad2f22de7d86eb1960b28df160048f75a32fa870a8c363", "jawapan": "[{\"teks\": \"696893-E\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "9a2e801b84a7409eba9c286f874ac9c7e6fb032209e0bd97995d7ffa664f42b2", "jawapan": "[{\"teks\": \"951104902108\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "9a96e5bdca92b8a62a81b53e10222777dea3467a9b806a0aad02e87e5183be10", "jawapan": "[{\"teks\": \"277374-G\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"201703354250\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "9af50aeb1088ceb1dd2adddcfccc18c503dd63d04f407e69f05ed3a7ac3c23d1", "jawapan": "[{\"teks\": \"970302-44-7618\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"714978-M\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "9b26d5f8ff65d86297a3b2318e33ad5120ae3cd23ef4278736cf57ef76a93343", "jawapan": "[{\"teks\": \"483261-W\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "9b9945b12d8cd392e0c7a7354aa48c19a0418f2e03d01161dcfb96d30200112e", "jawapan": "[{\"teks\": \"750821 05 2620\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"040929473792\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"011-40800104\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "9bcb30f4ec6757f37c715fef1eef24e8298b2ac0e6162cb0bdd1746157bb119e", "jawapan": "[{\"teks\": \"481076-A\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "9c1e2d761d5b0f0337796d6fb1cee20bf522294ccad083ecfec8e7603d86f34f", "jawapan": "[{\"teks\": \"013-8228617\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "9c37fbb9c0416ba7622ee701532387d4d2fe465f5fe6da870c44c8e13a26a41c", "jawapan": "[{\"teks\": \"651029089598\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"616582-G\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"260713\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "9c79bf64bd6e4d2b20f061b17e0366b73699afad7f3071fa6725d45d3d047fd5", "jawapan": "[{\"teks\": \"920305-76-8355\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"766826-07-5241\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"+60 1147792213\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "9cd20a28b84fb1568bc1786403d002df70b974b8ec193087946ec4375efff121", "jawapan": "[{\"teks\": \"661221896800\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"394452-M\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "9d163e1af77356a6559056c6ff141975f1acda7bd81fd5f78a5dc25a76f42386", "jawapan": "[{\"teks\": \"250704-797-6887\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "9d18aa5c73baed13ed67850654580c874f763515b7a2d0f50fea8042ff3e61ef", "jawapan": "[{\"teks\": \"197803513147\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"+60-17-9707511\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "9d2fb8bdafb07c4072cc4b7b587b3c6221b44f4097c2a41c94274ab845c30b6e", "jawapan": "[]"}
+{"kunci": "9d34d4a0242e18a3db1ce99bb8388b479181f194effe393fd3cf32298f53e6bb", "jawapan": "[{\"teks\": \"870413-72-3476\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"012 4754108\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "9d419e6f78de66d81337a8cb15d915df81e85e8d4c4b7113a3dada44c5ff4ec1", "jawapan": "[]"}
+{"kunci": "9df06bb0e01e9282cfa6ee060b56060f32a58ad13da21f8ec70acc659cd43d1f", "jawapan": "[]"}
+{"kunci": "9df0b7d11b43953a10d31843982e4b193246597b92396d0d0d402aba47bb71e0", "jawapan": "[]"}
+{"kunci": "9e7363d019b1289bf5e16dae873840fdf8e4894ab3263dea7a5fc48cfcf223c4", "jawapan": "[{\"teks\": \"653886-E\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"03-943 45\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "9ed8f20812ed7d9ed05cfb4c34d28fe582610befaec0738a25b44a3095146ec0", "jawapan": "[{\"teks\": \"470306308442\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"03-8907 3724\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "9ee73bd2d1f626f2dfde725aea0de31cf9aba9f00f638b5cd4b244eee60de885", "jawapan": "[{\"teks\": \"470625-10-3960\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"202606682425\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"016-433 0060\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "9f59a1bd2c34c478bbc03126178c1079801958372c2dc26e9433ac5d9188f6a0", "jawapan": "[{\"teks\": \"05699947\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "9fd198cc1bf65003a05c60703728e46d1f694a927f2a72f6b61f973ecdcf4704", "jawapan": "[{\"teks\": \"775308-H\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "9fd798b93704222f21893a61cf4f70841ca482503cb7e8ed930527b308b8ca0d", "jawapan": "[\n{\"teks\": \"450823 21 4720\", \"entiti\": \"MY_NRIC\"},\n{\"teks\": \"110108-60-2479\", \"entiti\": \"MY_NRIC\"},\n{\"teks\": \"011 4172 8984\", \"entiti\": \"MY_PHONE\"},\n{\"teks\": \"+60-14 352 8742\", \"entiti\": \"MY_PHONE\"}\n]"}
+{"kunci": "9feaef5e491712c4175f766aaec86232baec6fae6fad90d59b5c9f046a29888c", "jawapan": "[{\"teks\": \"960516386002\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "a01dee272713a65749a798fbb148965d484cb868683924a054169a52e62e31f3", "jawapan": "[{\"teks\": \"0163261187\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "a027dce7dcd90af6421ac7d7564e1528500f0eed8c9d3bcb8f300ea0b046a193", "jawapan": "[{\"teks\": \"880629058525\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"198005283033\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"012-2764141\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "a06d1700cc7805931a142dfebfad748b98fcb8272798eda0f580a7892444e733", "jawapan": "[{\"teks\": \"041008497720\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"+60 14-795 2783\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "a07196340cf072a07ab2f5b0ce6f92fd6fd307f4fe54bb8da667eeac55c813b8", "jawapan": "[\n  {\"teks\": \"250421-486-3409\", \"entiti\": \"MY_NRIC\"},\n  {\"teks\": \"015-180 8489\", \"entiti\": \"MY_PHONE\"},\n  {\"teks\": \"816387-C\", \"entiti\": \"MY_SSM\"}\n]"}
+{"kunci": "a0dafcde31f63eb94b01293470518e063492e28d0b5016369805e19d1d12adc6", "jawapan": "[{\"teks\": \"071225-59-8218\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"494751-M\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "a145fc1a84c6b373ea7ea8c0af2b50259e3cb02a99d1dcfa4dea2daca6d0b281", "jawapan": "[{\"teks\": \"570418-16-5929\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"+6011-60979377\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "a1a24873690fb9408935ff9f419c415723c9eb76c0e96356c38a8b468e07ccaa", "jawapan": "[{\"teks\": \"051226 37 8804\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"166864-B\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "a1d0a311fad70e3e3f131eb9630a121db0a5e2fc9bbe6c6d5ccc029e674e09ef", "jawapan": "[{\"teks\": \"013810 8265\", \"entiti\": \"MY_PHONE\"}, {\"teks\": \"540513-70-1776\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "a22ce64478e83db8f14dcf4b3cbb76ef11c20d47056be6a0d89715eda96af852", "jawapan": "[{\"teks\": \"011 10210939\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "a255902dca05f7cc36ca0759b4966956a218a5f5183b21e25f52e249bdeeaeb9", "jawapan": "[{\"teks\": \"202504943883\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "a2bf84bcb6b169db2390310f02a56f4e24de91d29eaf1548c3d8240f650d233d", "jawapan": "[{\"teks\": \"790515-95-5958\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "a326ce15b4a90afc6454aadae2d472a53a6bc5fc8996497ab4c7f9706aaf501b", "jawapan": "[{\"teks\": \"1136111-C\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "a37054437a3d251d0e042eda92414c9645af5e420569b6ce2578a68dbf9fe4ee", "jawapan": "[{\"teks\": \"738552-D\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "a3f029fb6d91bd9fdd264347f15df44f0cdec7b9786a9ee65e1e3a8f1ee20255", "jawapan": "[{\"teks\": \"740212-34-7441\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"07-710 5969\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "a4295f8fdd627114640834f5b8ca47e5877dae7306b2e62ac89628c4ddd2fa96", "jawapan": "[{\"teks\": \"940719360086\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"03-319 62\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "a45e088026ac50c5620e7ec4ac81ca80252117a806cbfaa77891b9beaaade6a1", "jawapan": "[{\"teks\": \"011205-03-2140\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "a47cf838d5d7e301294d6f3c19c277a615d5a81f9cad9d04cbc0ea55febe6728", "jawapan": "[{\"teks\": \"560906-08-4407\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"014-5151827\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "a528bd7020e17bd42270cd19776c6e3663789a11ce155b6d8acbd0eaf92a45ed", "jawapan": "[{\"teks\": \"37630-V\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "a558ad755c6c5388477b3f24f37f7fc3d36a431431446217d029e83134f37f06", "jawapan": "[{\"teks\": \"260602-425-7067\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"018-393 4490\", \"entiti\": \"MY_PHONE\"}, {\"teks\": \"950803994338\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"930610-18-5403\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "a58efd79a5edd1c9eb3cc6b1c122766415778f74f26db8e20cac85b141fb28fa", "jawapan": "[{\"teks\": \"760308 08 7740\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "a5c2ee272e177b10801706146ad57c9f1e46297efae041c5a47eaac71ef923ed", "jawapan": "[{\"teks\": \"560709 11 1620\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "a5d267abdecd5317a1072156280b8c2559b1b8eb0abcfb028b5fab5a0f317556", "jawapan": "[{\"teks\": \"100603 82 5349\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"+60-13 8319620\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "a60756388df6ea27179f5e39d6532952f8871b46ffe3dd35b7a06b0b570f90b5", "jawapan": "[{\"teks\": \"420804 79 4471\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"03-3806 9009\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "a6237c3a476356114490d5be063348a150115b7cf805f9acc086300ab9307d50", "jawapan": "[{\"teks\": \"127475-W\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"019 6375601\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "a6556eb22bfd22973c4d0db7201ba733cca88012f4525e20b00d66fc7de14413", "jawapan": "[{\"teks\": \"199503771590\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"430720 61 1563\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "a693c1a001ddf3932b2aef56820a1acfb386358095c12d8a0902b84f0af8bd3b", "jawapan": "[{\"teks\": \"820419-94-7164\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "a6d0a154748264c9398fc9a7391695d24b528044bf5fc5309cdc177da71d8872", "jawapan": "[{\"teks\": \"648766-X\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "a72b546b57cc67bf4767f85c2a23279c0682cb203b01c70dccf6ffb2b078e0d8", "jawapan": "[{\"teks\": \"+6017 8301077\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "a7a34a1c49960a1a9467ce3de372b0e39ac3cc37ef92b9f9ecdc573fb85306e7", "jawapan": "[{\"teks\": \"07-801 6474\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "a7aa7f51bb3a027d9be49d8de61e4a640df61c4990e692ba08bcdd2c7491faf4", "jawapan": "[{\"teks\": \"03-8318 6366\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "a7cffbb4819c692fd5be3c5f007e886eb7539b75b0e8fe16cf1de34fbf475a51", "jawapan": "[{\"teks\": \"200502814563\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"018-7180004\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "a7d6aed105518fa878ce2936a3253dddf9a9abcaeeec73a747cd9f028dd33d85", "jawapan": "[{\"teks\": \"680312-96-9379\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"419309-W\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "a810d4489daedbef81c0033a0ff78ed8f49525e75bedc0978cba236bf76b0d66", "jawapan": "[{\"teks\": \"531024602028\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"019-72465\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "a820000b9f5c09d16a5e5fa8ef9600ad803092fdc8969442d53a1ebdcdc47625", "jawapan": "[{\"teks\": \"788825-T\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"+6010-841 3294\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "a82f5e2b49bed790ecde3c360697c02dcf5774f5bcaeb76aa18f6843911f9a04", "jawapan": "[{\"teks\": \"196805631931\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"450620-98-9007\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "a8a200e437dd2f2bc6eacc011bf72db5c2aacf74ad1e92edea28b40a249a59c4", "jawapan": "[{\"teks\": \"03-220 71\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "a91bc121888b017848b1ec18fb2b8812ed78cf137dc8ee475ff252a71102e068", "jawapan": "[{\"teks\": \"777108-D\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"250513-269-8296\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "a95830072e87a153bd4562359349bad3cb893e98cee4fe6558041c07acb975b2", "jawapan": "[{\"teks\": \"670922-43-2582\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"7177179091\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "a97e74db1d2ae73b6c02a17282e7cf81774244e2058e5f5289ee5569e915757f", "jawapan": "[{\"teks\": \"250211-532-5788\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"115062-E\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "aaac10d7ba6e3f8c7ee2addd21d4b52a5c3d10bcb5971318c87736fc25599d15", "jawapan": "[{\"teks\": \"690814 27 4596\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"197002129768\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "aab5f99203e705a3ca1951c6c9617425d5f40b48d9000c4d47126fd3ffb512c1", "jawapan": "[{\"teks\": \"988214-M\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "aaf40037324b5f4faa7a231c21e943c2dbc22a20df40c1c03a4036f6b54e9a74", "jawapan": "[]"}
+{"kunci": "aafff9181d8760aa8ebedf59dd76a31d302915e8a65cbad80a593b14b2d7e9ff", "jawapan": "[{\"teks\": \"692530-A\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"013 882 3659\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "ab16625e785319de4e312075c460e2660ffc6f93dbcd1f5de9b5cf431bd7f7c0", "jawapan": "[{\"teks\": \"03-2268 7054\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "ab5ea20d7b6d45fa511a7478c51ba497b1ce39de6a4f3ee31956108de0f01af8", "jawapan": "[{\"teks\": \"1162406-X\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"019-224 0405\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "ab9ce66ebf6ad92ec56eda8fc72260c536cae9c9c3921ca5f6f6b2c188ed11a8", "jawapan": "[{\"teks\": \"98998-C\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "abbfda9a44fcfe4b6b4d304ee420f9d8c526d72644a19e52b4409e326ba3fcd7", "jawapan": "[{\"teks\": \"260621-197-7846\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"339711-T\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "ac7ca09a13a05dbc18a71035bc2e09a9b8ca3d1f6dd93027a0646ade071327e4", "jawapan": "[{\"teks\": \"696105-E\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"520525121608\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "ac7ce9569752cbee04088d8d9b6400a9f018bcef85d144791c4621ce0e4c19fb", "jawapan": "[{\"teks\": \"96709-P\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "accadd3d0d4535aaef40573cc222cba7f6cd5a6fa70e24588282732aa65246b7", "jawapan": "[{\"teks\": \"440124-72-0768\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"010-4398717\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "accd2b9795fa74789fdc3d8023f56e495256d423d1345d63659e40476a6abe7b", "jawapan": "[{\"teks\": \"030411-71-4329\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "acf9a3280ec945d4fe9220d316b6a3de843707a871afafac617cfb5050ed85a6", "jawapan": "[{\"teks\": \"197302397107\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "ad065085783cd7e140dbf8398644091653f51cf8ccd4dfa35a0db7079d5adc9a", "jawapan": "[{\"teks\": \"930962-E\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "ad0b509637aef04e463be6a4030516a9cbb7a79718aa8a00aba43fe815f4ebdd", "jawapan": "[]"}
+{"kunci": "ad86fcf29d15a6ceba0cf24d626488edfe6e4bbec31f3be05ee1542b0633fc07", "jawapan": "[{\"teks\": \"199904316278\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"012857 7557\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "adf04e9173fe83c2007056489252e6931b69f73d4638ca2740e52cab7464034d", "jawapan": "[{\"teks\": \"820326-58-1865\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"0182923539\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "adfd8bf946e816b018e4873b5e0906de1b59072c43623b5876e63573d81f77e6", "jawapan": "[{\"teks\": \"709414-06-6160\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "ae20c4beedcc437e074fad7fd7213648700ecbcbcb1ead0e1f56d898efa07d24", "jawapan": "[{\"teks\": \"196403897959\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"+60192336960\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "ae57790efc684c4d056d994ae478cdad9c5b0ed793af69870a5eff5156127679", "jawapan": "[{\"teks\": \"835943-X\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"05-691 4114\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "ae58ec50121df0dd1bb1229f7460d4642b99817c9e36668884c9ba79c1c00cb4", "jawapan": "[{\"teks\": \"260123-135-0780\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"261752-W\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "ae7134bdd9fd70370e0a63379990082a5ee8da377fc01f566493caf3daa5a17f", "jawapan": "[{\"teks\": \"200303428802\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"019 735 6723\", \"entiti\": \"MY_PHONE\"}, {\"teks\": \"829103-03-2726\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "ae73c163ac0e02886c5ebc98bd7bdfb6ddafb4c6c4ece199169e50865d20d325", "jawapan": "[{\"teks\": \"+6016-6102527\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "aedd3e60ae904c6301caa067b83122aa2ff95571f4c6912b356225b10842efe5", "jawapan": "[{\"teks\": \"130205563681\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"250815-710-1033\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "aeec72dc93531b13e06deeba0a0b23471b0b5cca800cdf0a18a3f7c33b314984", "jawapan": "[{\"teks\": \"402536-E\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"03-5746 0894\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "af60eb3335ffe2b60b7eb554c446bc3bd618fa311f7d630905aaf1a12d4c4a26", "jawapan": "[]"}
+{"kunci": "af9bc2e5b18e128f57fd3ec7a040d7131b9fc9075609437ecb06a3d4e0cf5c8f", "jawapan": "[{\"teks\": \"07-369 1594\", \"entiti\": \"MY_PHONE\"}, {\"teks\": \"202304423944\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"060714035556\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "b000a6f399d4908220cf93ff02e8709b6b2ea5917d4b36fb32577d10ad794c3e", "jawapan": "[{\"teks\": \"630924902109\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"03-6215 4526\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "b01e3f4a1c8d44c65c713fa2ae50c8f7b06dbfac2e3fe1dd425a303c0b1c27ba", "jawapan": "[{\"teks\": \"961121-72-3857\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"03-6292 3342\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "b05bafb6f8ab5c9a9dedaec3402a40ca94864919ea408b16add6019e63bb6ae6", "jawapan": "[{\"teks\": \"03-8780 7754\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "b1564f273c090234a71764ad10c8f0967d8bc3d3510c1a4275e974e1fdce3a2a", "jawapan": "[{\"teks\": \"79546-E\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "b18e622c95208b5584a9d3029568ff0f9dd5e7b901cf15d0e74c453f293250ba", "jawapan": "[{\"teks\": \"861523-W\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"03-615 26\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "b19f917c4357ade36a7c00117b79958329abb08de67a8f6ddf3b5a58f01c6992", "jawapan": "[{\"teks\": \"013665 2755\", \"entiti\": \"MY_PHONE\"}, {\"teks\": \"282915-14-5165\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "b1a3caaf4f23b9b601c26477102fed0f2f90c41c17d06af7500b99d75d02931b", "jawapan": "[{\"teks\": \"831211 72 3639\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"1199940-T\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "b1bf8cda34838efb0e505176a94c5f55ac7c718aa106750eeba79f952384c0a5", "jawapan": "[{\"teks\": \"560713-14-1785\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "b2374ea3b0fd42f1e93e40f9062318d99bd02c1e65e01fd4efb02b730a631e8c", "jawapan": "[{\"teks\": \"000609 03 7611\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"016-699 0748\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "b30e21643c625e059106eda477179776ade772a8193eec0155be04043140081f", "jawapan": "[{\"teks\": \"201604986068\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"010 454 3226\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "b34c1e44aa0316118e0cc7e56ac6ab964faee6873cd908c37ad4b4ce7c629252", "jawapan": "[{\"teks\": \"957140-P\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "b42e326b5fe1a6373826a0152b011611619eb25d990fcbeccbe32afa31d5e0c8", "jawapan": "[{\"teks\": \"811917-F\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"260110-636-7058\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "b441fbeb309f9aaf21ce9cfb72d9c4da7c8ecf585267f564fede21d9c7324eee", "jawapan": "[]"}
+{"kunci": "b48f8d2886e197eaf5d81fc46ef235774abefd77dc331558b9c6335c8097ca40", "jawapan": "[{\"teks\": \"420630 75 9674\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"374126-W\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"171815-03-7696\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "b4ad6ae6bf241c17ea2501e2ae89daf2ee1a0376ab4c7095e2355507b9d0b3f8", "jawapan": "[{\"teks\": \"630406 87 2889\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "b4d2b60388b914f6023cb66f4935228c35096bbb55e50ddda154f51613a54368", "jawapan": "[{\"teks\": \"590411 49 1402\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "b4de4653b3963a034340d53cbe311f1e9d21946836039720b17366cf1f69e226", "jawapan": "[{\"teks\": \"202305518724\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"012-8349437\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "b4dfb30bdcc0b46b83fb05d22389c6ca942940db0aa0912720f0203399ac418b", "jawapan": "[]"}
+{"kunci": "b4e1ea9b17fb9963658608fda8db997f521cd619c8cd7e6cfba810372bad9fe6", "jawapan": "[]"}
+{"kunci": "b5a997cc1ebe7aacec0f94bc2e719a0df3cbbbd741d6fdf362036f69eb3e0dc0", "jawapan": "[]"}
+{"kunci": "b5ddd67f3c584dca2f86f54f4c50c95e1aedf3efae9b6733c8207ea0fea005e1", "jawapan": "[{\"teks\": \"439281-M\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"08382971\", \"entiti\": \"MY_PHONE\"}, {\"teks\": \"260801-208-1649\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "b60c2132e8448e2d0dabe9d52d99cd944fe674416928e67327511fb46722652e", "jawapan": "[{\"teks\": \"201506391657\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"+60 11-53599025\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "b6a154a0f3cba563723efce61c205ac1bf9dc1465c161d98485c056cacab1ff5", "jawapan": "[{\"teks\": \"790806849648\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"169117-F\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"4133 4263 99\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"08-07-2025\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "b6ef2d7e07e9d52a1c7cdabb8a699a818868090996dba772fa3d1b82e05ae88c", "jawapan": "[{\"teks\": \"640602167726\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"013-506 7646\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "b7103a121bafc697a4374b2264ed2ab174eba36bd16754b9ec3ef1ac433ab6a5", "jawapan": "[{\"teks\": \"03716048\", \"entiti\": \"MY_PHONE\"}, {\"teks\": \"756323-E\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "b7168875249de6fd14e983af9e3db0e66ccfa7d030199112615e08439294f614", "jawapan": "[{\"teks\": \"111031613598\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"914207-D\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "b74e673a1ca811828720ae8703d215057aa0547433616ca8894be782aa571ebe", "jawapan": "[{\"teks\": \"202304326464\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"550723 85 0940\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "b794a24ad0a31eb0a4a58a7442eef5bc2b8774f3728b0db0c1e25195505ac4fd", "jawapan": "[{\"teks\": \"1558162-F\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"010 419 3328\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "b7a4395b515de0b543b1642c7cb5fb565fcf94cc47d30eab70b568b9c6a80b6a", "jawapan": "[{\"teks\": \"197801293346\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"012 6840902\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "b802b7468f7b0ed4bf90485fc1b6cf38f9c2494eeb6af60f2a1d9e8f51f4c186", "jawapan": "[{\"teks\": \"561122 40 9337\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "b816d14ef040e8946aa0be260583d343d640267eff825e8bbda281088ad5afa6", "jawapan": "[{\"teks\": \"865114-V\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "b88d0d161cda1f215dc8f2bd9c55c7e02a62a92ad3d92ff9842a7f601fe81fdb", "jawapan": "[{\"teks\": \"851228078622\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"610217863705\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"013-741 1505\", \"entiti\": \"MY_PHONE\"}, {\"teks\": \"+60-19 689 4258\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "b89c5adef6246a5c38ce48454124cd3d5ea5817a893c5a454dcba26c76db051e", "jawapan": "[{\"teks\": \"410201-04-4173\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"03-9537 5568\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "b8f8079495e6768bb7b078070c0cc0e48a3558783ab8a81320c1cb9de7c0ec8e", "jawapan": "[]"}
+{"kunci": "b92cf3fbad66b2ed9f71b06a26eb3097b08ff4075214b1469552eb0ac938b6bc", "jawapan": "[]"}
+{"kunci": "b99d5ad1741f4214f975cec0c9a42264943b81ed7a0d41e498b366124ade2614", "jawapan": "[]"}
+{"kunci": "ba5994816bded14a602e60c0ca7ebbd50dfff0334a12a8f9729fd5ac29f6d25b", "jawapan": "[{\"teks\": \"110629 89 9525\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "bac3b1aaf51704ebdc318a73cb0146e27c2d0afbfa4ff85c56680bf55effc12f", "jawapan": "[{\"teks\": \"900722 10 0805\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "bad5c133d91684f1c813165beccc03c944613a5eacb000930825f0b99fc51b25", "jawapan": "[{\"teks\": \"400130-91-1568\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"03-8984 7572\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "bad9a435336c2d319300dd7baf07456ec6c35785cada433160c9ff747bb85dfc", "jawapan": "[{\"teks\": \"481116095017\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"505436-E\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"013684 8703\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "baf918ffd5251932613780c1b0704f3d0e42fdd78091130c34b7e1a193b68478", "jawapan": "[{\"teks\": \"+6018-591 4828\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "bbb65900116e9bd405cbc65cdc9d3268b23e30e0b2fa098684fefc2d681bb25f", "jawapan": "[]"}
+{"kunci": "bc46885d7d7e22922cb748216fc07f1049e8dbae0a5e30d03de739c9e85c56a0", "jawapan": "[{\"teks\": \"510255-M\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"016 9365150\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "bca5585efcbe984452a5471761b14af410558c9b0b2bf99f38f5ae2faddacad9", "jawapan": "[{\"teks\": \"050405 98 9969\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"017-256 8307\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "bccc7cfc3677ca28410c8aa6561ecd8aadbeec179cfdcea6c7243adabfcf7a92", "jawapan": "[{\"teks\": \"894151-T\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"+60-19-3321811\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "bd067267afd4964e99e74da2dfcd0cf86497446a569fbe65f11d652ff91b19fd", "jawapan": "[{\"teks\": \"202605847735\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"390704-A\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "bd1cfeb8de7e453ee47cba758958d3e9823374a33e27c5d9e23764b5643a071f", "jawapan": "[]"}
+{"kunci": "bd277c73ede3995a432ce5a44bdd2fabc7a8b353cdbe39585a48a985fb56e7f0", "jawapan": "[{\"teks\": \"191933-U\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "bd875381ec86ca8a0fe864894f4de4f0b813b5f9b7a01db8b380806527395fd3", "jawapan": "[{\"teks\": \"740280-C\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "bddfd45e38832e96d81d8c7a1cb95aa5abead7892a1e54916866cf1408e6f8b9", "jawapan": "[]"}
+{"kunci": "be293dbe2d79041621aefa7d25092d5c1ed062b667c957241c2e90634b551c06", "jawapan": "[{\"teks\": \"715723-13-7159\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "be466b4f9eba4947e9b2a2906edd7a9f286e327563278bfabb890bb8633c50ea", "jawapan": "[]"}
+{"kunci": "be4bb9167b03e179a1dbd390e8e243f803cc447cebe6c01912381405f47777ce", "jawapan": "[{\"teks\": \"660106-37-1432\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "beae61bad5cc669a47d0ad35650bd8187175bc0e3efb8bfa014490b14f07786e", "jawapan": "[{\"teks\": \"020126-53-8952\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"017 290 3587\", \"entiti\": \"MY_PHONE\"}, {\"teks\": \"199203514378\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "bebb9fccc72f83ba3e89c7fec951b71c38ee292abfb525ee048a4132b1e7a725", "jawapan": "[{\"teks\": \"961026-29-3679\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "bee0d4909d4294e591b75e6f005527133bced767cde9bb768a6d6f48d27aa078", "jawapan": "[{\"teks\": \"001002 89 8634\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"670831566135\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"017 668 7958\", \"entiti\": \"MY_PHONE\"}, {\"teks\": \"010-914 3619\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "bf19d34d4fb43458d50d40c480b4823c6dba5c53fc007342bb3225d6f5232bb6", "jawapan": "[{\"teks\": \"974116-T\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"435933-U\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "bf3ae9a7b43830e3bd61048519c6999d030f814938a3fc812ae45e7167473f50", "jawapan": "[{\"teks\": \"540916-95-4293\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"479445-T\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "bf6c7f5f43cf6f642785bbda09dbcdc4b3808ffdf9dd4c0e786d27fa236cafa4", "jawapan": "[{\"teks\": \"760611-63-3404\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "bfec859ac8a62c354931f91021ba771ef481d0c0dfdd9e6be4744dfd1ce4278d", "jawapan": "[]"}
+{"kunci": "bff836bfbcbb3f8fdca3a115afc2286b06836809a48b6734d5236e844d6f05c4", "jawapan": "[{\"teks\": \"041121-82-1073\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"+6013 4862615\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "c0148e2034578dc744933edfbba1dbb0578d819ec23187faf91387523b52d3d4", "jawapan": "[]"}
+{"kunci": "c026292fef01b29e90946220078bb1bdb3f40aaac836eb8aa1adb16720324b4e", "jawapan": "[\n  {\"teks\": \"480106 65 2020\", \"entiti\": \"MY_NRIC\"},\n  {\"teks\": \"+6010 9374554\", \"entiti\": \"MY_PHONE\"}\n]"}
+{"kunci": "c027a09509dd4a5a64636ed2d1665b6366e1919cc6642cdf01f872ac4ad7f20e", "jawapan": "[{\"teks\": \"421795-T\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "c06a29cdf1127648b75b33583578552ce632496f33beca437906ebc09c4b6b25", "jawapan": "[{\"teks\": \"841647-K\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "c0f6490bc4143ad559ceba03643662e66fd622ac26343dcea4b858a916229c22", "jawapan": "[{\"teks\": \"013-66010\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "c1203c60c170f7de15d3a2b17ca8398f5ab170b7be3086c2b828f9691096c259", "jawapan": "[{\"teks\": \"250325-336-7136\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "c12ef4094f824e4db144157be13cfd13cf85f2c7f4d7fc65f237fc42e67be93f", "jawapan": "[{\"teks\": \"01115184250\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "c18ab39ca1f4ab0edcc03bcae167d7e36bd5636989c7647a6e5dd0949fa1cf2a", "jawapan": "[{\"teks\": \"461861-C\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "c275a801ee05b06282c0e74daf794dca91d13676ce09104e31877983848fb8a2", "jawapan": "[{\"teks\": \"807993-T\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "c293e27f1aa17ed2d49406a659905b70a8a5387a29e47d1fd47d787570db3b07", "jawapan": "[]"}
+{"kunci": "c29a67b97cf3329d79f18620385b0069a6fdbfb2c8898c263b6dac90d777279d", "jawapan": "[{\"teks\": \"1079364-T\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"530625 75 4664\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"03-2624 2768\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "c35953d11dd563d0bc3fb572260f0efe11b7d9ded7f6d243d6c768927e95fc08", "jawapan": "[]"}
+{"kunci": "c359febea1ce8f3f3c966080d8286d8583c22192a698a444d723103faaa12d6a", "jawapan": "[{\"teks\": \"812915-W\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"+6016-9193961\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "c35d630be6845f3856279233efb9fe47c93beaff55e5610770319d690e6f5533", "jawapan": "[{\"teks\": \"353124-05-8564\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "c3a2f0e8e7e074579d2f0530732a9d5e2330b639ef550e551be9e8b02ba11745", "jawapan": "[{\"teks\": \"198505520089\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"590819027278\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "c45cd24937100be942ba37146d053d3ca5c0633edb6d18f32a1b6ca6ddfce716", "jawapan": "[{\"teks\": \"420203046581\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"249454-K\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"930712554667\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "c484039e139f0a7c90a74cb981a1ed1c82e2bc4b33ecf8b8287b9a6f0829ad28", "jawapan": "[]"}
+{"kunci": "c4dd867bb72ccb7b6e810e0266981c5baa929cfaea42412f1dd60fcb8cb73f22", "jawapan": "[{\"teks\": \"394522-E\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"04-403 8500\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "c5247f141381e186fc87fa11c51219c0046452b18c9b607f36219c8f94204359", "jawapan": "[{\"teks\": \"02502797\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "c541e2c6b5a64006e1fa182d100b408fafe9b9728811abe26ea30dfc508dad58", "jawapan": "[{\"teks\": \"202004431962\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"250116-62-8495\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"666282057766\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "c5c06b9d459449552ea6389f80357dd617f40de7dad13a5d0aac2a3e8858c7a7", "jawapan": "[{\"teks\": \"971912-02-9896\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "c600a1d17aab52eed65c1e325736592194de980ff8cc544382b5e8ac7ff0d784", "jawapan": "[]"}
+{"kunci": "c6041d7fa5df5d2b25c469c0d72c0d29d7a949548691f7ed8b137c865dfb3933", "jawapan": "[{\"teks\": \"652386124847\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"532802-C\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"226005207913\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "c6190d5b96535e7878a8c0d94e464866f51dc77f67d59538b52ac67e9ad2f6f3", "jawapan": "[{\"teks\": \"991118-09-3922\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"570311-18-6947\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "c6612ebc92112ee136a851b9ded08223b62e76880b2b10ba01b161b673a13c7c", "jawapan": "[{\"teks\": \"450322 33 8143\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"197304832424\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "c67c7a9e891e9e9442d2492030ebe7771fbc4f17634ce22fe79475c925bde893", "jawapan": "[{\"teks\": \"940626018876\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "c6a0cf94b3ce2fe26526b3253cac1f115660e5e9506cd9e341560993951bb176", "jawapan": "[{\"teks\": \"691117673112\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"370502-G\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "c747286c74c4799d0f19c7399cce1c3aa97b89780057dc765f548c9cf6ad239f", "jawapan": "[{\"teks\": \"198325-13-0855\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "c76446b4ddbf3b5d669c53f04b4c37552431dd54dc2c1dcd8be5020e29c10a98", "jawapan": "[{\"teks\": \"570112-44-6754\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "c785c963fef33bf0d37fd4ba8ccc57c1e67e4ddde7ae0a9333c9aa8c6f4f4274", "jawapan": "[{\"teks\": \"680116 61 7190\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "c7f42443fd095e0bc563f135512afd4c6aeb466ca11a3178269bedc6f37a58da", "jawapan": "[{\"teks\": \"400225-66-3887\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "c826e0da615dc2ec600485296edd59f72d15f93f6ded13f1d645706452f28b43", "jawapan": "[{\"teks\": \"888514-16-5247\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "c82bb0754baaf0a06089d727a1c712a868a97e311ec22ab8c6e9dbac2486042d", "jawapan": "[]"}
+{"kunci": "c8491dc69ea3cd373550f9f6e2b2560dc9b4c44aa38f36add5d56e3941bf9f9c", "jawapan": "[{\"teks\": \"894215-P\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"016-8415048\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "c8536fefba0c620ef01b0d1725866482027a00830fbdd860084050bcae49c186", "jawapan": "[{\"teks\": \"0179972770\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "c887b8d7735d929961500662c0f7d8164a1ddbd24d0b045596e78a3d4acc0a7d", "jawapan": "[{\"teks\": \"159156-G\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"014-608 110908\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "c90d3c84bc76caacea5893c271da27df49b8a7e173fdbbdbb310dce154dc185f", "jawapan": "[{\"teks\": \"950218-96-5609\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"+60 12 504 7988\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "c91b6be5743a1dd0bb8bb12204252a21e9caa1107ce941b187159612ccc19e3a", "jawapan": "[]"}
+{"kunci": "c91eaeeb890854755c00facb52ed666e1ae9ac20199b7b502536a423c4e27734", "jawapan": "[{\"teks\": \"011-327 397837\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "ca3e8fd4536f9ab93711ee64a8a5619be0e0c9e4fb511746d73b5a03af78a46f", "jawapan": "[{\"teks\": \"141995309703\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"542292-K\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "ca54b01aa1587446d2c0eeeaef71a7a037d74ee2fc43faa092ed86164877d4f0", "jawapan": "[{\"teks\": \"870415529122\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"149309-M\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"250727-602-3233\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "ca6151c7d6bc98ebd7ac3d2c8047650d592d570c305d0fc1679916853902193a", "jawapan": "[{\"teks\": \"260101-205-9170\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "ca911468d50dea7afdfefa684f1906249df9938ae21605cd3b790787e08edd84", "jawapan": "[{\"teks\": \"012-4690118\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "cad515bc99c85d32760a5072557e8f50443701845df0d758f009235d29ef2c8e", "jawapan": "[{\"teks\": \"720429144672\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"016-86346\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "cad703acd31ae8de1c62f59c280c832385042fa20e02ae2f0319a14bbca2ab21", "jawapan": "[{\"teks\": \"251225-987-3611\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "cb08a8a5af0a01938daf2da82c4fba9121623e58a2e5b101fc834e22ff555eea", "jawapan": "[{\"teks\": \"237722-G\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"601223558907\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "cb0e58c0f90cdcc2dee270f82962a46a00392447f69b7773199f523b080b1d7c", "jawapan": "[{\"teks\": \"03-200 55\", \"entiti\": \"MY_PHONE\"}, {\"teks\": \"09-791 3627\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "cb3d29c577a0101971a41894ff94579b0da8c3b32afbefadb59b9ee1833da953", "jawapan": "[\n  {\"teks\": \"950320 27 0650\", \"entiti\": \"MY_NRIC\"},\n  {\"teks\": \"04-576 8636\", \"entiti\": \"MY_PHONE\"},\n  {\"teks\": \"001102394753\", \"entiti\": \"MY_NRIC\"},\n  {\"teks\": \"017443 0795\", \"entiti\": \"MY_PHONE\"}\n]"}
+{"kunci": "cbdf48e76bf75826a097d17f52a292117c48dbdf8035b28ee8e6ad6db2a40046", "jawapan": "[]"}
+{"kunci": "ccb1236603592a5b3c998f5baa587ad46e5c579add194327420d13126c843979", "jawapan": "[{\"teks\": \"060201-26-7280\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"017-638 9768\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "cdc9d8c355d5b4e8eae50053ea3fc7a38963e2584ae0c98c21589c262367733d", "jawapan": "[{\"teks\": \"199805508234\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"950322-32-0298\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "cdd8a4d04e679052381f9f3c2a422ba37280b63e0a55e4f33a589849e5f5b590", "jawapan": "[{\"teks\": \"414156-U\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"010597 5656\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "cdf307a35156f9e81db6301df1c06eb2d80d6c10fa7a29d370cd74cdd32bf8d2", "jawapan": "[{\"teks\": \"520118-61-4729\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "cdfe539aff39ef6922fcdcd700496a626a34f1c7a3e7618a44e167d60b4f9042", "jawapan": "[{\"teks\": \"018-545 833057\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "ce1a9929a23127e397e49f6b76fbcb443704081082feb227576f1707ada72abe", "jawapan": "[{\"teks\": \"561119146621\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"014 7346880\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "ce2b00179e5047f257a9919d26e0ec467bbaeb8bf6913eff6366934107bdabc6", "jawapan": "[{\"teks\": \"020106595268\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"+6016 280 8749\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "ceb8c5a4cfd0d85fc043d103931bcf2a3e68ce5d733e3942c564cba09ce9153b", "jawapan": "[]"}
+{"kunci": "cf57935d443fc94757f4737d9c4ee3d7d58f525931d9d70ad8481199a6774d30", "jawapan": "[\n  {\"teks\": \"480617-56-1927\", \"entiti\": \"MY_NRIC\"},\n  {\"teks\": \"430507359219\", \"entiti\": \"MY_NRIC\"},\n  {\"teks\": \"07-780 1113\", \"entiti\": \"MY_PHONE\"},\n  {\"teks\": \"07-500 2614\", \"entiti\": \"MY_PHONE\"}\n]"}
+{"kunci": "cf81a2998f4c009665f22bf3452ce42ffc5cf51e5184e83cd71a36cf12b9fa7b", "jawapan": "[{\"teks\": \"699373-W\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "cf955eb00b0513867efb94b22d9672c81dd51aeaf5d511290d28938eee8ddb5c", "jawapan": "[{\"teks\": \"199104773651\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "cfde4da87d9a865e7808a90790e75dcde60fc01cca3054e0af1ba18a54eb54a2", "jawapan": "[{\"teks\": \"129491-F\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "cff3254e362bc34c05b844cc0dd48228d526c2e277a2e99febc501e12879399b", "jawapan": "[{\"teks\": \"81318-X\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"940107886837\", \"entiti\": \"NOT_RELEVANT\"}, {\"teks\": \"260320\", \"entiti\": \"NOT_RELEVANT\"}, {\"teks\": \"202105272023\", \"entiti\": \"NOT_RELEVANT\"}, {\"teks\": \"464724-04-0102\", \"entiti\": \"MY_NRIC\"}] \n\nHowever, since \"940107886837\", \"260320\", and \"202105272023\" are not the required identifiers and \"464724-04-0102\" seems to be an order number, the correct response should be:\n\n[{\"teks\": \"81318-X\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "cff7d0bfa5b9a857263f690f18cec9773f90a4a7c07f275a81ff91a1678ce382", "jawapan": "[{\"teks\": \"260626-824-1405\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "d0c2877de3df1aca8247bf30d0fe88a0f6cf5de83d6f5072dda016fb3c05c512", "jawapan": "[{\"teks\": \"580814886679\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"368162-K\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "d12521ea4e6d2ef783ff2bf37e975fc11e424bf60508308a9803906c5bc1d628", "jawapan": "[{\"teks\": \"473544-C\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "d131cdd2bafe26191339b483f2eca7cabf883194f60459e0dc5fcb92f0cd8cfa", "jawapan": "[{\"teks\": \"970212-12-0790\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"1508408-H\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "d19fb77eb0ee96e7ed61f8b8cc02d731d0d98c9d7e8bc7efcab6ff081ff9e4af", "jawapan": "[{\"teks\": \"873813-12-7458\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"279429-T\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"080617135863\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "d1de2e14158fe80e16d1bda3c0972e2bb99a9a74e1dd0d0cd682da5247fa4a67", "jawapan": "[{\"teks\": \"1233361-W\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"014 2325627\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "d1e0259f58bbfcdd1e4b57cb72431691969d8ad4feaed191d7eeeed69c459a60", "jawapan": "[]"}
+{"kunci": "d290545bf9ab8c3bf04bc4599f6038bd2caed3e84e51470a9523da606f47cc60", "jawapan": "[{\"teks\": \"750901213505\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"012-434 5719\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "d2ad6e1b457684fcc837a7ef3c073f924e63b955df50b8b6eba3441330901b9e", "jawapan": "[{\"teks\": \"060227-64-2245\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"+60-17-919 8943\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "d38e0c748efb1211de03ab8286230d8799a6fa16bf474c837097dd98cf4324c2", "jawapan": "[{\"teks\": \"571519-T\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "d3bd4c250c7f421373c731f7733278a878b8c9f3dfa252dcf0b728d104bd58cc", "jawapan": "[]"}
+{"kunci": "d3dd89032466230bb6655b9494988c83ecbb305e6810a3ee16189d768ac3fa15", "jawapan": "[{\"teks\": \"797329-F\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "d3f874fbdccf5c3bead45c453dfbe46055128c78c65548ce99319336db0f5c93", "jawapan": "[{\"teks\": \"411226-49-0053\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"03-7760 4893\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "d4e4cd8fb37bda1bfcd6db7f9eacde62c3159270380c7b075414fcac50d8dfca", "jawapan": "[{\"teks\": \"1432322-T\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"+60 194066243\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "d52ed6a86cda473131c06d72cb76c8f690e0dcf35ddc7785a82811ad601d81d5", "jawapan": "[{\"teks\": \"+60132694741\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "d546752ee67a5474a218155408862ec5e1869b7994194b60bbb9de1b52a62209", "jawapan": "[{\"teks\": \"251107-434-3093\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"175780-G\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "d54e9a6ec9bbbf7011ce37f70e246af30a9a0fb71491954766bac4e3ac42d680", "jawapan": "[{\"teks\": \"410207 83 2566\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"014-889 0230\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "d576a1f5f32379d9a65840a702887f69b1f35b8da6805470e27c844ff09898a8", "jawapan": "[{\"teks\": \"019 2012845\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "d5c6705b7fd1781bf1863307733a6392dbb93f31185596f3367f56c85bfe2bd1", "jawapan": "[]"}
+{"kunci": "d5da3a5b8040ceaebd648d2d5db4843577c8e98d480a39835c8e6ddcc2ce1f8f", "jawapan": "[{\"teks\": \"866203-V\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "d6a663b853fc049b15c1595485d7dd1d071d9a8927d6b81aa8f1a67a6228e7ad", "jawapan": "[{\"teks\": \"019 667 9027\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "d72d103c9e4f90b3e199eea2d55ddde2844e31d93509540ef7a176a950307255", "jawapan": "[]"}
+{"kunci": "d75b3d32ecaf0d0912fd70123be25943bc301dc276a0c7edd7797b5be0f3c9f5", "jawapan": "[]"}
+{"kunci": "d7ab9e13623c6b08b33a752393087ab488cf92ed7f59b0d50223cc1788fa39e9", "jawapan": "[{\"teks\": \"896885-C\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"988921725816\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"251119-67-4163\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "d7de7271f83c0f9b648c4e98927ee8a17d036bab0284f14b8a50d201e9053cb2", "jawapan": "[{\"teks\": \"260811-96-0216\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "d832a3949cdd409c357920f9d31afea9192e3aa76714a73f74feffe71724d84c", "jawapan": "[]"}
+{"kunci": "d86ddd0b89f0afbc3f23dc8ba7a93abab12f18e91ff799cf92ea2661ea513b7f", "jawapan": "[{\"teks\": \"960430 36 0026\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "d8a094eafeed9ab75367b088d2ba8fcd915d09b6f62fdcd57359f9fe34aa87ff", "jawapan": "[{\"teks\": \"202501078821\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"01111030001\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "d95b7c300cfc714279de333b10b7aeb54e185ae75c1b338aea089ee92518e6ed", "jawapan": "[{\"teks\": \"151071-T\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"882570-P\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "d96f311e7618b5066b5f6646051e845f4870446bb93ac568fc502b1fd2d360c6", "jawapan": "[]"}
+{"kunci": "d972b90c2fcaf03603816c3188f41c71ebf224bdeb2547a8cbc9a88b68278d39", "jawapan": "[{\"teks\": \"920624-91-0070\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "d9aa399b933e48075080e734651db11e94d2fc03c6025169f75c992848d76710", "jawapan": "[{\"teks\": \"121018471747\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"727790-A\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"8819357364\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "d9bbcf93d158c633ad36cae649fc894273974b0efbd9ed39e127926c7432dceb", "jawapan": "[{\"teks\": \"717471-K\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"251001-399-9624\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "d9bc21c0ae3646b1b813f6c74c0cd93a16a619865b30bac3948976a4e4176457", "jawapan": "[{\"teks\": \"420117-49-9862\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"367193-W\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "d9cd8b1d77642e95034f5f983ae685139f84345ee3308f0c0f7cf9bf1d52e193", "jawapan": "[{\"teks\": \"618829-E\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "d9e11a6b3bdcebbf1ff71030ee240d7443775109cfa9c076dc32e65323376d8e", "jawapan": "[{\"teks\": \"913825-T\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"017-6888314\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "da04df40764cd526f7be9e0332b15af562125bb116f58f14a0002b080378869e", "jawapan": "[{\"teks\": \"430320880058\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "da70f0f1d4b844f77e9d428010593998e1e7fd00af38f02393e17002c0adc69b", "jawapan": "[{\"teks\": \"198004075282\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"016979 7493\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "da85e9f313dca41a2539e080bf5164b2b62bd1c45ea827a3b7d96c1b5f1794a0", "jawapan": "[{\"teks\": \"871031 79 9114\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"199306447232\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "daccae7cc0d2ea6965ae9e23b935ce5a5853e0a8fe9f2db6cbfa7ccbb831b5bb", "jawapan": "[{\"teks\": \"1025489-M\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"+6012-2383519\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "dadb10762e18ec5d29a92b13d4a5c7718c00b3ed23288e7abe45c17428dc6396", "jawapan": "[{\"teks\": \"000531235998\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "daefd2ef4665c1d3be4ff1be07ff5d363af1ddbb38ea344650b7b06efac9ec42", "jawapan": "[{\"teks\": \"950624134118\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"+60 16530 7729\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "db07826d67dd70473974c1b42f139e77469ed7cd1684e632a846cdc2ddbc1909", "jawapan": "[{\"teks\": \"931101-58-7072\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "db851c71fc80ff01b445b592604437e1c39b9f15f1673f070255575a499efa6b", "jawapan": "[{\"teks\": \"020202908472\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"012 948 0265\", \"entiti\": \"MY_PHONE\"}, {\"teks\": \"202103994925\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "db9ecd3a3d849521fafadb08dbcde6af026c90312130724bae8af2a2655c6b27", "jawapan": "[{\"teks\": \"779352-C\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "db9f901cbd887ad5ea3382a0a933365ca5da96a45f82b8a8b949c39c28e90db4", "jawapan": "[]"}
+{"kunci": "dbdf4239a012dd9cb3322baf7935993f6eca8b203cf833ccb71b6298f263a512", "jawapan": "[{\"teks\": \"484202-10-2977\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"879083-C\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "dbfbf1e18e8b04382dee11d9525a6c2762fb8b7b84f82cea795b4af38959982b", "jawapan": "[{\"teks\": \"377427-11-8696\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"709653-U\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "dc16831237113ebcf211ba0a2cd21c6bd15c494913dc85a93367718fbdbaabcf", "jawapan": "[{\"teks\": \"600229 37 6776\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"016-641 8768\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "dc7fd5673827a8d1f6b3d1ab0a16d2c93f2ba823213e216ba8113991c08a9eeb", "jawapan": "[{\"teks\": \"532913-K\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"+60 14-7751705\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "dca31f1d25613e472afba38a597a154d6344061b9e2f9979cb44005be028c8ce", "jawapan": "[{\"teks\": \"423954-D\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "dca4fb1a23eab5b2c8b0e616e12362cb783ec765dadc756238ef1f4cf371df14", "jawapan": "[{\"teks\": \"+60 113616 4967\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "dcd3c14ca22d517c75feaab2936520d762b074ae67e388554402abf1b7744d76", "jawapan": "[{\"teks\": \"560702 49 3801\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "dcda87bd9afe58c873b56f9999d7b9bd74a04a7c1c42a3d90f9d79511aae3d6c", "jawapan": "[{\"teks\": \"090820 10 7401\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"328832-X\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "ddec447b0f706cca88f2b91d2ac0812490fda189ccd798981b5156cb7ddc30c4", "jawapan": "[{\"teks\": \"01110866231\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "de1e2c43d13a25b432794f244792b8e68addacb380d2d9fa0bdae61d50fb9ad2", "jawapan": "[]"}
+{"kunci": "df1123323ce0dddc5f11572fa6a6f81d79bf604d1198f20d55c06f5a5c2df9cc", "jawapan": "[]"}
+{"kunci": "df20ac48b825766f235bcfeedd2ec6217aec8f7670333213ab7e74d11a38e5bb", "jawapan": "[{\"teks\": \"530817793658\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "df4b5f9d0f5a5167a38ba68536f8324ef1a257f286408c991d19f70d652d774c", "jawapan": "[{\"teks\": \"202504214878\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"11134-P\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "df837706a81dc34b73f78838b54bb4bcd35eadff81b2dbd5979946cd93b326b2", "jawapan": "[{\"teks\": \"540519499797\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"010 648 1082\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "dfa9f26bdad1a075852a3b96beb024e95f32a18818396f002d3ee5e2e76523d7", "jawapan": "[{\"teks\": \"540208358202\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"+60 199038918\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "dfd2796d2a03efa6629ce745a7f0fb561d173a732a4f201b6e076af52ee28a5c", "jawapan": "[{\"teks\": \"750129-15-0676\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"016-6131601\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "e0db563cdd80075308a74d26c2d0ead1b20830f585cb54e9d1d3d748f89533ed", "jawapan": "[{\"teks\": \"985352-X\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "e1acf14cae11179ea58e119a79ae7479f9fa5f26710fff47858d743831a2c901", "jawapan": "[{\"teks\": \"955669-P\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"830612-48-9635\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"507212-13-6294\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "e236447b00f97b9b0365fad8334c807d8350bcd3f7470edc552b868c5b1a486c", "jawapan": "[{\"teks\": \"030413-60-0439\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"198104372696\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"+6016-9678177\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "e236e3a17916caaca501c76fa1c7e65a2224652da3e4b9b7cea6b04d4ee25bdc", "jawapan": "[]"}
+{"kunci": "e25647de15e997943c98a46e5e8b9ecc85d0656bc0c044b23ac58d802dee1556", "jawapan": "[{\"teks\": \"820811-54-9161\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "e25cbfad0ba9718e4f5a58242d1ab512d22acbe48b0a110cfa9e117d417ea1c7", "jawapan": "[]"}
+{"kunci": "e2609b81646542faf9e7eb641e7af32a88588c6018294dbdfdd0ee85bebaa0cf", "jawapan": "[{\"teks\": \"1459404-M\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"+60165101867\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "e2988b86a2ad7ccc3f5300690472a073af46823628df8e4aa46f742590b8356b", "jawapan": "[{\"teks\": \"500728-31-5293\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"427287665394\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"09-250 6674\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "e2dfed120a54f316cc7638434c0f21df63c8e99af43c96f59b73c617824209f6", "jawapan": "[{\"teks\": \"820823 89 5987\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"05-325 1861\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "e2e6d773438252031c17bdf303299215430c6ce9fd8f5c6426d6015338c6331e", "jawapan": "[\n  {\"teks\": \"250727-609-1625\", \"entiti\": \"MY_NRIC\"},\n  {\"teks\": \"200204594481\", \"entiti\": \"MY_SSM\"},\n  {\"teks\": \"010 5635243\", \"entiti\": \"MY_PHONE\"}\n]"}
+{"kunci": "e3196bd3c2689214b711dce9a77d9f844f4ba42ed690be6678ea24703abd7bb7", "jawapan": "[{\"teks\": \"012-176 885645\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "e334174891e63f9dcb090b6c6bb475a5a727bd32eee1a68cf162d02a6f329db1", "jawapan": "[{\"teks\": \"+60 19 522 4158\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "e3621737310f690558f9a6c8c60eedc98fec56d44278ac3e326ebb199569e834", "jawapan": "[{\"teks\": \"+60 124679839\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "e3f7b08fe0b6ab03288f94a385a2d3a629c554c8d6bd092c91f1b52ca9c7d926", "jawapan": "[{\"teks\": \"010824658610\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"583363-W\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "e4283ecd594c7677f0f294942efbb94214a69e8442afb15048050664c0590286", "jawapan": "[{\"teks\": \"011-4652 2701\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "e43365420cc113c214520a065628d8eb69e4bcd98bcee789f4acadb03313a31f", "jawapan": "[{\"teks\": \"400804676493\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"04-290 2238\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "e48376a64aa6966a7a62de1b1a3c39106bf934cd138b1ffe86f63760ba7670ac", "jawapan": "[{\"teks\": \"711101 59 3191\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "e4cf118da6616cf0cd1695b310d6cdf48fa0ac6012748cf3cffc47830cd973dd", "jawapan": "[{\"teks\": \"980416-75-0199\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"013 686 7500\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "e55a4e1cddc4b5997404a327c7deee1415edf599ba58f9f2592df16c68dbf17d", "jawapan": "[]"}
+{"kunci": "e55bb35a02e85baf9ecb9b5b9249be443fc44f8a7c31b5b3526b379f33cf8fae", "jawapan": "[{\"teks\": \"937851-D\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"680412311162\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "e5a58c98345718f4c3e2ebd88586a0497a36e539a364ac78612ade24afa37cc2", "jawapan": "[{\"teks\": \"103338-D\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "e5ab09ce27c4063d0b2254d817c46ea862f8a18f6a31d7901ff25732ae219e79", "jawapan": "[{\"teks\": \"202602992908\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"544532-U\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "e6817f84d1122db2b032beacd48df52fb8b40b7012d807d1dba8142bed8025d4", "jawapan": "[]"}
+{"kunci": "e697cc6cedf42745f3eb75b8ee94aab3fea874a862d053bfe4308c88529e21b5", "jawapan": "[]"}
+{"kunci": "e6a88ac2701caa3c976e401b70c9e9081bc3b815d9d4fd2a3258a01a0c7365c3", "jawapan": "[{\"teks\": \"260044-C\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "e7280dfcc247d87262bd7a97bc9c3514052179d95386425fbe7bcbd2e34d891c", "jawapan": "[{\"teks\": \"960816-80-1725\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"466034-H\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "e7bd6b63e281a6438b95d446024a607cc8c4958c7b9433f32429db4353e655a2", "jawapan": "[{\"teks\": \"010530-30-7325\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"010384 0332\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "e88edc8d49f03b411f019fd9da534cc4e43b2904f0f36bc9e4b01fde60fdc3ed", "jawapan": "[]"}
+{"kunci": "e90c0da81bd493919c432c98ac841db93b9a4fadee63f8e087dee052c34b6a0e", "jawapan": "[{\"teks\": \"200401480757\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"+60-10412 8659\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "e98e700d027e7f4cbd65ee78c2ddf256399e8a2064d8f7948264bc6e42073687", "jawapan": "[{\"teks\": \"377932-G\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "e98f9755e68a3138e589e3cc59f3c23b192ada5073ae868acb0518e5e1246359", "jawapan": "[]"}
+{"kunci": "ea294760b7ee85c62b7264fa506902697e05bb0d818f4a43883065b3b05d0bef", "jawapan": "[{\"teks\": \"016-209 384333\", \"entiti\": \"MY_PHONE\"}, {\"teks\": \"79540-E\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "ea721e845186efd8769669fceb487031bb3480b9c3931053d40aaf6c5e18af3f", "jawapan": "[{\"teks\": \"197504317824\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"012-6530544\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "eb02a19956f705d42041a9328d4935303bac6b5b0416a6adc6ded26bc2ad2c67", "jawapan": "[{\"teks\": \"680201223519\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"0111976 0573\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "eba8a221c9c17120a6b9b7137eb6c4da5d786447cd7b1ec3b8ced334c3d25305", "jawapan": "[{\"teks\": \"751218108761\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"379810-G\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "ec066fe1f4ddfb2bff05a27c1ee8a7de70aa25f964c9f5e9c951ce2b5e93f1b4", "jawapan": "[{\"teks\": \"419903-K\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "ec204259b0a51429b884b2e572c4af123fcfed56baf53815d3a769669e039391", "jawapan": "[{\"teks\": \"010-53024\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "ec26e12188c1e14e3a91d68e74be642372c4f9b5308231644cba261e92d9719f", "jawapan": "[{\"teks\": \"793398-V\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"05901525\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "ec3050f08547f70840a84512a62e8cd3cb365a0ebad5c3dda9f607329498dc52", "jawapan": "[{\"teks\": \"56809-U\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"03-676 83\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "ecab328ca59dbb111ce21b73c8938074ed0a2a232571db7b32551f4e25617682", "jawapan": "[{\"teks\": \"900624279242\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"250707-538-5945\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "ecb2786863f607655a2375df1b2e9d08c34bed721380a7518431cad8b293c9db", "jawapan": "[]"}
+{"kunci": "ecb3aa92f0fb7f2adff5e09ccdf9330593380fc70716862baed80e1df77359b6", "jawapan": "[{\"teks\": \"344448-X\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "ecef7a49196d40d34b1822989080cc974c836ce2c5a9257db69ea0ff526a5a6e", "jawapan": "[{\"teks\": \"197706506579\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"016 628 0782\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "ed01c129e4827ee3a6710cf7278e8574b06f1df69b13da1b15c133f794dcdf33", "jawapan": "[{\"teks\": \"71271-D\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "ed38d9fc26255c9c6dd12395fde6c9cfeeb5dfa399945769ee2ddf5cb3fad504", "jawapan": "[{\"teks\": \"040615726388\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "ed5e9038d99752c21dcf8b174d8f2b3ae70cf22fc8dfdcbf6cbdbb924ebb9574", "jawapan": "[{\"teks\": \"510218-14-2031\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "edb621dc28073824d1ec4b4919566d539a4a33d1c259ce208af1573045c2e409", "jawapan": "[{\"teks\": \"923562-T\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"260809-804-2256\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "ede356a19f82f63828e7617300eeacf165ddfba749e5541c8f2072006c1967d5", "jawapan": "[]"}
+{"kunci": "ee1f6df57f91b5875fb04bdcc730c37f2f95e73b015f92e3164e83bba36c5caf", "jawapan": "[{\"teks\": \"961646-K\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"019-445 6938\", \"entiti\": \"MY_PHONE\"}, {\"teks\": \"610918746076\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"121102564923\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "ee9bec0b31f9c5ba6fa939c1b7976c3385119044fa513ec0d9d96eb2d9fd9856", "jawapan": "[{\"teks\": \"266643-C\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "eedf4de8ee712ae793d2c71247f8f504985b094313cf1a0371cfc237cda07e46", "jawapan": "[{\"teks\": \"977289-H\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "ef9525942af3e1b933f09a7673208411597b19d59b48752ea5c7638b84cfe80f", "jawapan": "[{\"teks\": \"201902161909\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"09-503 5602\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "efac7de61d398d089fdb152433f98ef9f8047c8ab6c51eb04191a22e37fcd359", "jawapan": "[]"}
+{"kunci": "efc3499db95db225b14a95d5a167b90f36e423e8cf80086a95baa653b89f2cd5", "jawapan": "[{\"teks\": \"710813 03 6534\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"201502857127\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "efd44c3138eae254411cfe6b5424dab4beee97b44f97f03a5c7dcc8549a12e0c", "jawapan": "[{\"teks\": \"90501-C\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "efe9a8e01713895349014a039b23f2df2bfccd5288f0702da38512a3ac12444a", "jawapan": "[{\"teks\": \"197705004750\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"016-861 0270\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "f04b8bd8c6c89d8b48b8acb2826a2cc8a18183dc90b63cdbfbafbb8b690a365e", "jawapan": "[]"}
+{"kunci": "f0688df9efab5b3705b20521db006ac4da1051fbd0c9d5c4fe4f85578cee9212", "jawapan": "[{\"teks\": \"196406433100\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "f0c10c4e63a88905d73c5f2b0dadd5c920348d78814bd5d731847cbd418221bd", "jawapan": "[{\"teks\": \"010110-39-6955\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"197903203806\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"0127806514\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "f1447997b98585d9f384773ae339bee0938e7c98d046b76d0f5f5d4734b1f5b7", "jawapan": "[{\"teks\": \"198705049775\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"017209 9625\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "f16ed23e6954e646f8c7878960b92f18aaedd67eff9249ae1e781fc5cdd864cd", "jawapan": "[{\"teks\": \"265353-C\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"011 2065 8958\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "f1d05747a3ec7d5b94adf46848c770d8ef1c401feb330b99045b57b21749a947", "jawapan": "[{\"teks\": \"061217-39-8952\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "f1e9b7bc2d306b0d64330072a394134e7c11db14460aeb54af2fdadad39dd0fc", "jawapan": "[\n  {\"teks\": \"081011334596\", \"entiti\": \"MY_NRIC\"},\n  {\"teks\": \"745293-A\", \"entiti\": \"MY_SSM\"}\n]"}
+{"kunci": "f2006ad9510aa6e56bc0a6cb90c45c6737826564d1111117cf9082abc6e087ad", "jawapan": "[{\"teks\": \"490852-H\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "f22e21688082333490ce54d3fb8ddd5e753e852ce0fc9db613b56c8ff1130384", "jawapan": "[{\"teks\": \"760323467563\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"018-375 7533\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "f24929746f2dd39e6b9b504e77beef7abbc936e43fda62bb7a3d5e6ededbd693", "jawapan": "[{\"teks\": \"450508268488\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"0115334 5742\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "f2b088ed673821eb73851f69e5c8dedbc057a7924a83d9f219699ab36151d912", "jawapan": "[{\"teks\": \"1083718-F\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"09-785 9575\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "f3097f979d7137bcdbe63d5e087ae32448a16ba94f3a58847595af6dc160c800", "jawapan": "[{\"teks\": \"+60-14996 0567\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "f309a01a461ed290f3e9e65d81b89c4c3dbe9d1b379f6cf6eea95455c9ed9a1c", "jawapan": "[{\"teks\": \"841231-59-2068\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "f453a6b62c45e96417fc5654760126a3a558166e909fd17efb6385e62ce1e117", "jawapan": "[]"}
+{"kunci": "f4633c1c709220ddd2cc24631dca7b571a36edfd0ab2b711141c2c2cf18bc8f3", "jawapan": "[{\"teks\": \"619332-M\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "f4c6601ea8c0268c474b2b04cab4eaff94d8a06f37cc05d4c1ea6a045a886983", "jawapan": "[{\"teks\": \"910104455784\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"470258-K\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"3182751460\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "f502d582072873d49f264a824a0c1fe633601c085156d7167b40f87034ba9e6a", "jawapan": "[{\"teks\": \"450428 52 4346\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"761208124306\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"04-294 0589\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "f52a00ea53649c09d04e9d7784c1326cad497ed11d42b4265ac2633d465dfdba", "jawapan": "[]"}
+{"kunci": "f56bd1970b96046e40e1e5a2ea6bb2f7e7c4dee6bf0ddd57fe91a2a10ab4f86e", "jawapan": "[{\"teks\": \"1482526-H\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"+60146581397\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "f585ab41abc368257a6ab365572c52d232de6cb5a34183c9159e9407a174c56c", "jawapan": "[{\"teks\": \"120329 72 0311\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "f58b7db9e555dfd50f7379fa6414bc873fd9587cafecfeb20f1183e2c5cf2055", "jawapan": "[{\"teks\": \"820109 68 0774\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "f5ae45ede70a69604648b0547cfad05f2afb710b47e132a8f618b864add9d2f2", "jawapan": "[{\"teks\": \"740810-95-0117\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"548613-K\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "f63ae900f4d15d95d3b900185f9b70a2692b485a1812df1932ccdf0be6563b2f", "jawapan": "[{\"teks\": \"050525-06-1817\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"196604003195\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"014 594 5252\", \"entiti\": \"MY_PHONE\"}, {\"teks\": \"683619-05-3539\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "f69f8a6f54f715be72e44b6de0c83068f50716b58a2e12371ad7a814c0a9439b", "jawapan": "[{\"teks\": \"670108-03-6858\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "f6beb2d2f0462226c70cd11014dfaf490007b4103723e649c2146c6adb97fb1d", "jawapan": "[]"}
+{"kunci": "f71bed2b98cfeafd733e67854c49e3da7096bf7e6fe322d720bea507ae1c9b8a", "jawapan": "[{\"teks\": \"713949-C\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "f7c8b63026663e6a526a3f8c1881993dcee55f67d8910d3f7387c48b2b5ed022", "jawapan": "[{\"teks\": \"900635-C\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"250129-02-0771\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"019-11323\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "f87427e5a5a821cafec86557c778d0792497c69b9a98a85724657313347dce00", "jawapan": "[{\"teks\": \"019292 0931\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "f8e07ca72d6ca2c420790931a6b192966b61f1237d8ac28ee0a68094023ddcdc", "jawapan": "[]"}
+{"kunci": "f9d6798f918bb06661fcabd228cac864937e9d5944b7bbb6f05fb0dd5b7fc9c7", "jawapan": "[{\"teks\": \"260602-369-2397\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"323089-B\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"710603\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "f9e82ed8d5c7797aca221cc7719e2f0b65d57d39752feaa0a79dc5828975b422", "jawapan": "[{\"teks\": \"250605-725-8019\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"548935-P\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "fa0daa073c25553d388513feba60352c03410d3723b5dc7645f7a79ba14b26aa", "jawapan": "[{\"teks\": \"88107-K\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"019 410 3580\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "fa561bc1804c68cce125d2a8cc81c6a6cade92d757db7bd127698393a556249e", "jawapan": "[{\"teks\": \"238664-V\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "fa879e174ee67519065f47ba7d0255b28e84bce12cff0292f3bc02770ebe486b", "jawapan": "[{\"teks\": \"457818-12-7962\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"326743-H\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "fa90313f8f3fe82cf9e6e4f69e161ed853f46077061b5d3395983b65073dc26b", "jawapan": "[{\"teks\": \"909411-H\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "fa974258b81fa7ec4f4424a0573f04c546411d9c5a438b667a85e5bd08649a42", "jawapan": "[]"}
+{"kunci": "faa03b09df454dc797e69aabbec2323638c99b79ebf7aabc5035709b587cc843", "jawapan": "[{\"teks\": \"571004 54 6628\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"+60-16608 5790\", \"entiti\": \"MY_PHONE\"}, {\"teks\": \"884024-M\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "faa68686f8062ed13f26de0d198568d6fb76569d6b24f32e3405aedcc0f0df7f", "jawapan": "[{\"teks\": \"611770-A\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "fb0e2b15709b9b189cd4d6acb34ac3453a0b8e9239caa11bab0dc7721526411a", "jawapan": "[{\"teks\": \"199002650310\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"03-7718 0988\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "fb872ed9be53588f5928f3e69b0b8f082eafbf80b9617a042be714362b72fadf", "jawapan": "[{\"teks\": \"202603778703\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"491000-K\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"260821-559-3767\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "fc668845eda45b9d099874a50f3284973f737ffa6e7ac913d61d13a58409d189", "jawapan": "[{\"teks\": \"015-726 8217\", \"entiti\": \"MY_PHONE\"}, {\"teks\": \"620915520357\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "fc74c4108d60ca1000d1da22356f887770cb0eeadfd681e0d332b32d6c5be322", "jawapan": "[{\"teks\": \"831001-41-0332\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"972912-13-7211\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "fcae3ad7dfea035838b1b46d155c75c2ecbe18ed8acaf86364d379f7cd4cdc6a", "jawapan": "[{\"teks\": \"850511-56-5538\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"014-7522634\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "fd18bd134fb7e7828bea822f3f6547d09b820e47f5b756eb3562851c6c06aefb", "jawapan": "[{\"teks\": \"198304173947\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"841022827395\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "fd27a45034bb649898b9b411603185ba5bcee0f425ac76272cc54efaac6b452b", "jawapan": "[{\"teks\": \"787330-U\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "fd61a127af6919a37a611ab708bd2755cf671c3f44b5554f851fde68aad7bcc4", "jawapan": "[{\"teks\": \"793512-W\", \"entiti\": \"MY_SSM\"}]"}
+{"kunci": "fd8f2c531183e631181ac8b9859653eba0d44575f6b590428992ac9ea6e4cefa", "jawapan": "[]"}
+{"kunci": "fdc45a38824b8f2fba5be607ec5f4e80279551bfac9fdae3fb9e15d932589d1a", "jawapan": "[{\"teks\": \"03-8086 7426\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "fdffd6f20fcfaf032fe429f7d9addcbab98f398db9cb5c8eb6b31dc99dbde633", "jawapan": "[{\"teks\": \"1562139-A\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"03-9353 0454\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "fec1122b128d23144403175472940d10ce865531c543ef4b6c3f6a738ac6e814", "jawapan": "[{\"teks\": \"0143483444\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "fef135e223b79d0845e17d151ae85dfd368d056b12abe0b4a044afbf118b9983", "jawapan": "[{\"teks\": \"670401420559\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"763218-P\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"990614-96-8113\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "ff0c08631ab531d72d8f8c42695ae3cb9fae1f0b03c227cc12b5c7e3ed7c7b15", "jawapan": "[{\"teks\": \"852291-T\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"013-947 9289\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "ff21a05ae48d6f658459408533f50b7ac78435b542c3bf7238b82dd8f7da67af", "jawapan": "[]"}
+{"kunci": "ff812df5f964e5a3f66d63e210f8942ef3b398e8d1438cf0a9043fd6823f01ed", "jawapan": "[{\"teks\": \"201301395946\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"0127819349\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "ffb95e8448520742ffd228d3ec553a62f3f9a36d638026f70842ede88e9088f4", "jawapan": "[{\"teks\": \"830312-18-2928\", \"entiti\": \"MY_NRIC\"}]"}
+{"kunci": "ffe91f5cb2be717150c27f8548f8793b89f75a7293fce96596271acd26e4ae11", "jawapan": "[{\"teks\": \"0195462465\", \"entiti\": \"MY_PHONE\"}, {\"teks\": \"03-6748 6893\", \"entiti\": \"MY_PHONE\"}]"}

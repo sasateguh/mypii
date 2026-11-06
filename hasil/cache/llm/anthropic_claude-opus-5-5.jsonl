@@ -1,0 +1,5 @@
+{"kunci": "357b59a0a445e6764d0fe3e3372abddf59b309cc3929db4e7a222e2952942d61", "jawapan": "[{\"teks\": \"03-2088 4030\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "3659937ed08d3ad9e1d5cfce00dfacee3e1b570171f75ec9f7dd977156d2226d", "jawapan": "[{\"teks\": \"990612-H\", \"entiti\": \"MY_SSM\"}, {\"teks\": \"620612-52-6904\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"013-6407081\", \"entiti\": \"MY_PHONE\"}]"}
+{"kunci": "5402fe96b08f5b694d6681f863881a515d569eadfef4a0495c9e3f82f64f32a0", "jawapan": "[]"}
+{"kunci": "c420377f64281e985e025a6f4aa8349aad5c5f4b7434ba7f35b2d521d389fa09", "jawapan": "[]"}
+{"kunci": "d0ae4eba828a04bfe4d39a1f4059af4d6632c6a5c97632ebad0c56ec08596571", "jawapan": "```json\n[{\"teks\": \"110228066646\", \"entiti\": \"MY_NRIC\"}, {\"teks\": \"+60 19 841 0552\", \"entiti\": \"MY_PHONE\"}]\n```"}

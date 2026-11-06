@@ -1,0 +1,752 @@
+# Dijana 2026-10-30 oleh `python -m mypii.jana.templat_llm --sasaran latih` (model: ag/gemini-3.8-flash). JANGAN sunting tangan.
+genre:
+  penyata_bank:
+  - 'Penyata Akaun Simpanan {SYARIKAT}
+
+    Nama Pemegang: {NAMA}
+
+    No. Kad Pengenalan: {MY_NRIC}
+
+    Cawangan: {BANDAR}
+
+    Catatan: Pindahan Masuk (Ref: {NEG}) pada {TARIKH}'
+  - 'Pemberitahuan Pemotongan Pembiayaan
+
+    Nama Pelanggan: {NAMA}
+
+    No. KP: {MY_NRIC}
+
+    No. Tel: {MY_PHONE}
+
+    No. Akaun: {NEG_AKAUN}
+
+    Cawangan: {BANDAR}
+
+    Tarikh: {TARIKH}'
+  keahlian:
+  - 'Pendaftaran Gimnasium {SYARIKAT} cawangan {BANDAR}.
+
+    Nama Pemohon: {NAMA}
+
+    No. Kad Pengenalan: {MY_NRIC}
+
+    No. Telefon: {MY_PHONE}
+
+    Pelan Langganan: Bulanan (Pakej {NEG_KOD})
+
+    Tarikh Mula: {TARIKH}'
+  - 'Pengesahan Pembaharuan Pas Gimnasium {SYARIKAT}
+
+    No. Keahlian: {NEG_AHLI}
+
+    Resit Bayaran: {NEG_INVOIS}
+
+    Akaun Autodebit: {NEG_AKAUN}
+
+    Masa Transaksi: {NEG_TARIKH}
+
+    Sila bawa pas fizikal lama untuk pengaktifan cip RFID di kaunter.'
+  - 'Borang Gantian Kad Kelab Rekreasi {SYARIKAT}
+
+    Saya, {NAMA} (No. MyKad: {MY_NRIC}), memohon penggantian kad keahlian no. {NEG_AHLI} yang hilang pada {TARIKH}.
+
+    Bayaran denda RM 20 telah dibuat melalui rujukan {NEG}.'
+  - 'Koperasi {SYARIKAT} Berhad - Notis Pengambilan Dividen
+
+    Ahli bernombor akaun koperasi {NEG_AHLI} boleh menyemak kelayakan dividen.
+
+    Pindahan akan dikreditkan terus ke akaun bank {NEG_AKAUN}.
+
+    No. Rujukan Baucar: {NEG_INVOIS} (Kod Fail: {NEG_KOD}).
+
+    Talian pertanyaan: {NEG_TEL}.'
+  - 'Permohonan Keahlian Koperasi Belia {BANDAR}
+
+    Nama: {NAMA}
+
+    No. Telefon Bimbit: {MY_PHONE}
+
+    Yuran pendaftaran RM 50 telah disahkan di bawah rujukan transaksi {NEG_INVOIS}.
+
+    Permohonan diluluskan pada {TARIKH}.'
+  - 'Pusat Kebugaran {SYARIKAT} ({BANDAR})
+
+    Slip Penerimaan Yuran Keahlian Tahunan
+
+    ID Pelanggan: {NEG_AHLI}
+
+    Rujukan Bil: {NEG_INVOIS}
+
+    Waktu Cetakan: {NEG_TARIKH}
+
+    Status: Aktif sehingga {TARIKH}.'
+  - 'Borang Pendaftaran Kelab Sukan {BANDAR}
+
+    Pemohon: {NAMA}
+
+    No. K/P: {MY_NRIC}
+
+    No. Ahli Baharu: {NEG_AHLI}
+
+    Yuran keahlian RM 30 telah dimasukkan ke akaun {NEG_AKAUN} pada {TARIKH}.'
+  polisi_takaful:
+  - 'PENGESAHAN PERUBAHAN PENAMA TAKAFUL KELUARGA
+
+    Nama Pemegang Polisi: {NAMA}
+
+    No. K/P: {MY_NRIC}
+
+    No. Sijil: {NEG_AHLI}
+
+    Penama baharu telah berjaya didaftarkan pada {TARIKH}. Sila hubungi talian {MY_PHONE} sekiranya terdapat sebarang percanggahan maklumat.'
+  - 'PERINGATAN PEMBAHARUAN SIJIL TAKAFUL
+
+    No. Polisi: {NEG_AHLI}
+
+    Kod Pelan: {NEG_KOD}
+
+    Sijil anda akan tamat tempoh pada {TARIKH}. Sila pastikan baki akaun bank {NEG_AKAUN} mencukupi untuk potongan auto-debit bagi mengelakkan perlindungan luput. Rujukan transaksi: {NEG}.'
+  - '{SYARIKAT} ({MY_SSM})
+
+    Notis Pembaharuan Skim Takaful Berkelompok
+
+    Perhatian: {NAMA} (No. K/P: {MY_NRIC})
+
+    Sila ambil perhatian bahawa pelan perlindungan staf ({NEG_KOD}) di cawangan {BANDAR} perlu diperbaharui sebelum {TARIKH}. Sila semak invois {NEG_INVOIS}.'
+  - 'NOTIS PERINGATAN SUMBANGAN TAKAFUL
+
+    No. Sijil Takaful: {NEG_AHLI}
+
+    No. Rujukan Bil: {NEG_INVOIS}
+
+    Tarikh Akhir Bayaran: {TARIKH}
+
+    Sumbangan bulanan bagi pelan {NEG_KOD} masih belum diterima setakat {NEG_TARIKH}. Bayaran boleh dibuat secara dalam talian ke akaun {NEG_AKAUN}.'
+  - 'Peringatan Mesra {SYARIKAT}: Polisi kenderaan anda {NEG_AHLI} akan tamat pada {TARIKH}. Lindungi kenderaan anda dan nikmati diskaun NCD 55%. Hubungi ejen sah kami di talian {MY_PHONE} atau layari portal perkhidmatan pelanggan.'
+  - 'Penyata Caruman Takaful Berkala
+
+    Pelan: Pelindung Hayat ({NEG_KOD})
+
+    No. Akaun Pelaburan: {NEG_AKAUN}
+
+    No. Rujukan Induk: {NEG}
+
+    Resit caruman terdahulu: {NEG_INVOIS} bertarikh {TARIKH}. Sila semak penyata caruman bertarikh {NEG_TARIKH} di portal rasmi.'
+  - 'Borang Kemas Kini Pewaris / Wasi bagi {SYARIKAT} ({MY_SSM_LAMA})
+
+    Nama Peserta: {NAMA}
+
+    No. Kad Pengenalan: {MY_NRIC}
+
+    No. Rujukan: {NEG}
+
+    Permohonan penukaran penama bagi sijil {NEG_AHLI} di cawangan {BANDAR} telah diterima dan sedang diproses dalam 3 hari bekerja.'
+  - '{SYARIKAT}: Amaran Tempoh Tangguh Sijil {NEG_AHLI}.
+
+    Pelanggan yang dihargai {NAMA} ({MY_NRIC}), sumbangan perlindungan takaful anda tertunggak 30 hari. Hubungi khidmat pelanggan di {MY_PHONE} sebelum {TARIKH} bagi mengelakkan sijil terbatal.'
+  tempahan_hotel:
+  - 'Pengesahan Tempahan Bilik - {SYARIKAT} {BANDAR}
+
+    Nama Tetamu: {NAMA}
+
+    No. KP: {MY_NRIC}
+
+    No. Telefon: {MY_PHONE}
+
+    Tarikh Daftar Masuk: {TARIKH}
+
+    No. Rujukan: {NEG}
+
+    Sila tunjukkan slip ini semasa mendaftar masuk.'
+  - 'Resit Rasmi Tempahan Homestay {BANDAR}
+
+    No. Invois: {NEG_INVOIS}
+
+    Bayaran telah diterima ke akaun {NEG_AKAUN} pada {NEG_TARIKH}.
+
+    Kod Pakej: Bilik Deluxe ({NEG_KOD})
+
+    Terima kasih kerana memilih perkhidmatan {SYARIKAT}.'
+  - 'Pakej Percutian Pulau oleh {SYARIKAT} (No. SSM: {MY_SSM})
+
+    Ketua Rombongan: {NAMA}
+
+    Hubungi penyelaras di talian {MY_PHONE} untuk urusan bot.
+
+    Status tempahan: Disahkan ({NEG}). Sila bawa baucar ini ke jeti.'
+  - 'Baucar Ganjaran Penginapan {SYARIKAT}
+
+    No. Keahlian: {NEG_AHLI}
+
+    Kod Diskaun: ({NEG_KOD})
+
+    No. Rujukan: {NEG}
+
+    Nikmati diskaun 15% untuk penginapan di cawangan {BANDAR} sah sehingga {TARIKH}.'
+  - 'Pemberitahuan Tempahan Atas Talian - {SYARIKAT}
+
+    No. Transaksi: {NEG_INVOIS}
+
+    Masa Transaksi: {NEG_TARIKH}
+
+    Kaedah Bayaran: Akaun Bank {NEG_AKAUN}
+
+    No. Khidmat Pelanggan: {NEG_TEL}
+
+    Status: Selesai untuk destinasi {BANDAR}.'
+  - 'Salam mesra {NAMA}, tempahan chalet anda di {BANDAR} bagi {TARIKH} telah disahkan.
+
+    Sila semak maklumat:
+
+    No. KP: {MY_NRIC}
+
+    No. Telefon: {MY_PHONE}
+
+    Kod rujukan daftar masuk: {NEG}.'
+  - 'Invois Tempahan Korporat
+
+    Dikeluarkan oleh: {SYARIKAT} (SSM: {MY_SSM})
+
+    Pegawai Penyelaras: {NAMA}
+
+    No. Hubungan: {MY_PHONE}
+
+    Pakej Seminar 2 Hari 1 Malam di {BANDAR}.
+
+    No. Invois: {NEG_INVOIS}.'
+  servis_kenderaan:
+  - '{SYARIKAT} ({BANDAR})
+
+    Kad Servis Pelanggan
+
+    Nama: {NAMA}
+
+    No. K/P: {MY_NRIC}
+
+    No. Telefon: {MY_PHONE}
+
+    Catatan: Penukaran minyak enjin dan penapis minyak selesai pada {TARIKH}.'
+  - 'Pesanan Alat Ganti - {SYARIKAT}
+
+    No. Invois: {NEG_INVOIS}
+
+    Item: Pad Brek Depan ({NEG_KOD}) x 2 set
+
+    Sila buat bayaran baki ke akaun semasa {NEG_AKAUN} sebelum tarikh serahan {TARIKH}. Terima kasih.'
+  - 'Peringatan Pembaharuan Cukai Jalan & Insurans Kenderaan
+
+    Pelanggan yang dihormati {NAMA}, polisi kenderaan anda ({NEG_AHLI}) di {SYARIKAT} bakal tamat pada {TARIKH}.
+
+    Sila balas WhatsApp ke talian {MY_PHONE} untuk sebut harga pembaharuan segera.'
+  - 'Pusat Servis Kenderaan {SYARIKAT}, {BANDAR}
+
+    No. Rujukan Servis: {NEG}
+
+    No. Keahlian Kelab: {NEG_AHLI}
+
+    Status: Pemasangan palam pencucuh ({NEG_KOD}) disahkan siap pada {NEG_TARIKH}.
+
+    Jaminan servis sah selama 3 bulan.'
+  - 'Resit Rasmi Bengkel: {SYARIKAT} (No. Pendaftaran: {MY_SSM})
+
+    Cawangan: {BANDAR}
+
+    Sebarang pertanyaan tentang pembaikan kotak gear, sila hubungi meja bantuan di {MY_PHONE}.
+
+    Terima kasih atas kunjungan anda pada {TARIKH}.'
+  - 'Borang Tuntutan Waranti Alat Ganti
+
+    Pembekal: {SYARIKAT}
+
+    No. Tuntutan: {NEG}
+
+    No. Bil Pembelian: {NEG_INVOIS}
+
+    No. Dihubungi Tidak Sah: {NEG_TEL}
+
+    Bayaran pampasan akan disalurkan terus ke nombor akaun {NEG_AKAUN}.'
+  - 'Sebut Harga Baik Pulih Enjin
+
+    {SYARIKAT} (No. Syarikat: {MY_SSM_LAMA})
+
+    No. Sebut Harga: {NEG_INVOIS}
+
+    Untuk kelulusan kerja baik pulih, sila sahkan melalui SMS ke {MY_PHONE} selewat-lewatnya pada {TARIKH}.'
+  bil_utiliti:
+  - 'PENYATA BIL ELEKTRIK - {SYARIKAT}
+
+    Nama Pelanggan: {NAMA}
+
+    No. K/P: {MY_NRIC}
+
+    No. Akaun: {NEG_AKAUN}
+
+    No. Invois: {NEG_INVOIS}
+
+    Tarikh Bil: {TARIKH}
+
+    Alamat Premis: Cawangan {BANDAR}. Sila jelaskan baki tertunggak sebanyak RM 145 sebelum pemotongan dibuat.'
+  - 'NOTIS PERINGATAN BEKALAN AIR
+
+    Penyedia: {SYARIKAT} ({BANDAR})
+
+    No. Akaun Bekalan: {NEG_AKAUN}
+
+    No. Rujukan Bil: {NEG_INVOIS}
+
+    Kod Tarif: {NEG_KOD}
+
+    Tarikh Cetakan: {NEG_TARIKH}
+
+    Baki semasa adalah RM 88. Sila buat bayaran segera melalui portal rasmi untuk mengelakkan gangguan bekalan.'
+  - 'NOTIS PEMOTONGAN PERKHIDMATAN JALUR LEBAR
+
+    Pelanggan yang dihormati {NAMA}, akaun internet anda ({NEG_AKAUN}) telah digantung berkuat kuasa {TARIKH}.
+
+    Sila hubungi talian sokongan di {MY_PHONE} atau layari cawangan {SYARIKAT} terdekat untuk mengaktifkan semula perkhidmatan anda.'
+  - 'RESIT BAYARAN UTILITI (SALINAN PELANGGAN)
+
+    {SYARIKAT}
+
+    No. Transaksi: {NEG_INVOIS}
+
+    No. Akaun Utiliti: {NEG_AKAUN}
+
+    Ref Kelulusan: {NEG}
+
+    Tarikh/Masa: {NEG_TARIKH}
+
+    Jumlah Bayaran: RM 50 (Tunai)
+
+    Terima kasih atas bayaran anda.'
+  - 'INVOIS CUKAI UTILITI KOMERSIAL
+
+    Nama Syarikat: {SYARIKAT}
+
+    No. Pendaftaran Perniagaan: {MY_SSM}
+
+    Lokasi Premis: Kawasan Perindustrian, {BANDAR}
+
+    No. Invois: {NEG_INVOIS}
+
+    Tarikh Bil: {TARIKH}
+
+    Jumlah Perlu Dibayar: RM 420.'
+  - 'PENYATA BACAAN METER AIR - {SYARIKAT}
+
+    No. Meter: ({NEG_KOD})
+
+    No. Kontrak: {NEG_AKAUN}
+
+    No. Keahlian Rebat: {NEG_AHLI}
+
+    Hubungi talian aduan: {NEG_TEL}
+
+    Bacaan semasa menunjukkan penggunaan 32 meter padu. Sila pastikan punca paip tidak bocor.'
+  - 'BIL PEMBENTUNGAN DAN RAWATAN SISA
+
+    Pengendali: {SYARIKAT} (No. Syarikat: {MY_SSM_LAMA})
+
+    Nama Pemilik: {NAMA}
+
+    No. Akaun Pembentungan: {NEG_AKAUN}
+
+    Tarikh Akhir Bayaran: {TARIKH}
+
+    Sebarang pertanyaan sila hubungi pegawai khidmat pelanggan di {MY_PHONE}.'
+  - 'PERINGATAN TERAKHIR SEBELUM TINDAKAN UNDANG-UNDANG
+
+    Kepada: {NAMA} (No. K/P: {MY_NRIC})
+
+    Daripada: Bahagian Kutipan Hasil, {SYARIKAT}, {BANDAR}
+
+    No. Rujukan Tindakan: {NEG_INVOIS}
+
+    Baki tertunggak sebanyak RM 310 bagi perkhidmatan gentian optik mesti dijelaskan selewat-lewatnya {TARIKH}.'
+  pesanan_online:
+  - 'Salam, saya {NAMA} ingin memohon pemulangan barang bagi pesanan #{NEG}. Barang diterima dalam keadaan rosak pada {TARIKH}. Sila hubungi saya di {MY_PHONE} untuk urusan pengambilan semula kurier di {BANDAR}.'
+  - 'Hai admin, bayaran balik untuk pesanan #{NEG} masih belum dimasukkan ke akaun bank {NEG_AKAUN}. Saya semak status transaksi pada {NEG_TARIKH} bagi item kod ({NEG_KOD}) masih lagi tertangguh. Boleh tolong semak?'
+  - 'Pengesahan Pemulangan: Pelanggan {NAMA} telah memohon pertukaran saiz bagi pesanan {NEG}.
+
+    No. Kad Pengenalan: {MY_NRIC}
+
+    Nombor telefon: {MY_PHONE}
+
+    Alamat penghantaran semula: cawangan {SYARIKAT} {BANDAR}.'
+  - 'Pesanan anda {NEG} telah disahkan oleh {SYARIKAT}.
+
+    No. Invois: {NEG_INVOIS}
+
+    No. Ahli: {NEG_AHLI}
+
+    Bungkusan dijadualkan tiba di {BANDAR} dalam tempoh 3 hari bekerja. Terima kasih kerana membeli-belah dengan kami!'
+  - 'Resit Rasmi {SYARIKAT} (No. SSM: {MY_SSM})
+
+    Terima kasih {NAMA} atas pembelian anda.
+
+    No. Invois: {NEG_INVOIS}
+
+    Sebarang urusan pemulangan atau bayaran balik, sila hubungi talian sokongan kami di {MY_PHONE}.'
+  - Hi, pesanan {NEG} untuk produk ({NEG_KOD}) masih belum sampai. Semakan tracking {NEG_INVOIS} menunjukkan percubaan gagal ke nombor {NEG_TEL}. Boleh tolong kemas kini alamat penerima di {BANDAR}?
+  - 'Borang Bayaran Balik {SYARIKAT} ({MY_SSM_LAMA})
+
+    Nama: {NAMA}
+
+    No. MyKad: {MY_NRIC}
+
+    No. Akaun: {NEG_AKAUN}
+
+    Tuntutan diterima dan pemulangan wang akan diproses ke akaun anda dalam tempoh 2 hari bekerja.'
+  - Salam {SYARIKAT}, saya nak batalkan pesanan {NEG}. Saya terlupa masukkan no keahlian {NEG_AHLI} semasa membuat pembayaran. Nombor telefon saya yang berdaftar dalam aplikasi ialah {MY_PHONE}. Harap maklum.
+  farmasi:
+  - 'Pesakit: {NAMA}
+
+    No. K/P: {MY_NRIC}
+
+    Klinik Panel: {SYARIKAT}, {BANDAR}
+
+    Ubat: Metformin 500mg, Amlodipine 10mg (bekalan 30 hari).
+
+    Sila hubungi {MY_PHONE} jika terdapat sebarang pertanyaan berkaitan dos ubat.'
+  - 'Pesanan Farmasi {SYARIKAT}
+
+    No. Pesanan: {NEG_INVOIS} | Tarikh: {NEG_TARIKH}
+
+    Kod Item: Paracetamol 500mg ({NEG_KOD}) x 50 kotak
+
+    Pembayaran melalui akaun perniagaan: {NEG_AKAUN}
+
+    Rujukan Penghantaran: {NEG}'
+  - '{SYARIKAT}: Pesanan ubat ulangan anda telah sedia untuk diambil di cawangan {BANDAR}.
+
+    Nama Penerima: {NAMA}
+
+    No. Kad Pengenalan: {MY_NRIC}
+
+    No. Rujukan Preskripsi: {NEG}
+
+    Tarikh luput pengambilan: {TARIKH}.'
+  - 'Resit Tuntutan Farmasi Panel
+
+    No. Invois: {NEG_INVOIS}
+
+    No. Polisi Insurans / Ahli: {NEG_AHLI}
+
+    Item: Ubat batuk ({NEG_KOD}) x 2 botol
+
+    Status: Diluluskan di bawah pelan panel {SYARIKAT}.
+
+    Talian pertanyaan panel: {NEG_TEL}'
+  - 'SURAT PENGESAHAN KLINIK PANEL
+
+    Kepada: Farmasi {SYARIKAT}, {BANDAR}
+
+    Dengan ini disahkan bahawa penama {NAMA} (No. K/P: {MY_NRIC}) adalah kakitangan syarikat di bawah no pendaftaran {MY_SSM}.
+
+    Sila bekalkan ubat darah tinggi bagi tempoh 60 hari.'
+  - 'Invois Pembekal Farmaseutikal: {SYARIKAT}
+
+    Cawangan: {BANDAR}
+
+    No. Invois: {NEG_INVOIS} | Masa: {NEG_TARIKH}
+
+    No. Ahli Farmasi: {NEG_AHLI}
+
+    Kod Stok: {NEG_KOD} (Amoxicillin 250mg)
+
+    Sila jelaskan baki ke akaun bank: {NEG_AKAUN}.'
+  - 'Salam sejahtera encik {NAMA}, ubat pesanan khas anda di Farmasi {SYARIKAT} {BANDAR} telah sampai. Sila bawa preskripsi asal semasa mengambil ubat. Sebarang pertanyaan boleh hubungi {MY_PHONE}. Rujukan pesanan: {NEG}.'
+  majlis:
+  - 'Borang Pengesahan Kehadiran Majlis Perkahwinan
+
+    Nama Tetamu: {NAMA}
+
+    No. Kad Pengenalan: {MY_NRIC}
+
+    No. Telefon: {MY_PHONE}
+
+    Lokasi: Dewan Komuniti, {BANDAR}
+
+    Tarikh: {TARIKH}
+
+    Sila maklumkan bilangan pax selewat-lewatnya 3 hari sebelum majlis.'
+  - 'Pengesahan Tempahan Katering Pakej Melur ({NEG_KOD})
+
+    No. Invois: {NEG_INVOIS}
+
+    Bayaran deposit sebanyak 50% telah dikreditkan ke akaun perniagaan {NEG_AKAUN}.
+
+    Tarikh transaksi: {NEG_TARIKH}.
+
+    Baki bayaran perlu diselesaikan 7 hari sebelum acara.'
+  - 'Perjanjian Sewaan Kanopi & Katering Majlis
+
+    Pihak Penyedia: {SYARIKAT} (No. Pendaftaran: {MY_SSM})
+
+    Pelanggan: {NAMA}
+
+    Tarikh Acara: {TARIKH}
+
+    Sebarang pertanyaan atau pindaan sajian boleh terus hubungi wakil kami di {MY_PHONE}.'
+  - 'Resit Rasmi Tempahan Dewan Banquet Majlis
+
+    No. Rujukan Tempahan: {NEG}
+
+    No. Keahlian Kelab: {NEG_AHLI}
+
+    Sila kemukakan slip ini semasa sesi raptai pada {NEG_TARIKH}.
+
+    Untuk bantuan teknikal sistem tempahan, sila hubungi talian sokongan tapak {NEG_TEL}.'
+  - 'Sebutharga Katering Majlis Aqiqah & Kesyukuran
+
+    Disediakan oleh: {SYARIKAT} ({MY_SSM_LAMA})
+
+    Untuk: En/Puan {NAMA}
+
+    Tempat Majlis: {BANDAR}
+
+    Tarikh: {TARIKH}
+
+    Sila hubungi {MY_PHONE} untuk pengesahan set menu 5 jenis lauk pilihan.'
+  - 'Sistem Tempahan Logistik Majlis - Status Peralatan
+
+    Kod Item: Pakej PA Sistem ({NEG_KOD})
+
+    No. Pesanan: {NEG_INVOIS}
+
+    Cagaran keselamatan telah dipindahkan ke akaun {NEG_AKAUN} pada {NEG_TARIKH}.
+
+    Status: Tempahan disahkan untuk 150 kerusi dan 15 meja bulat.'
+  - 'Pengesahan RSVP Walimatulurus {NAMA}
+
+    Tarikh Majlis: {TARIKH}
+
+    Tempat: {BANDAR}
+
+    No. Kad Pengenalan Wakil Keluarga: {MY_NRIC}
+
+    Terima kasih atas kesudian hadir meraikan raja sehari bersama 2 orang tetamu.'
+  - 'Borang Tempahan Pakej Pelamin & Solekan Pengantin
+
+    Butik: {SYARIKAT}
+
+    Nama Pengantin: {NAMA}
+
+    No. Telefon Pengantin: {MY_PHONE}
+
+    No. Rujukan Tempahan: {NEG}
+
+    Baki bayaran hendaklah dijelaskan di cawangan {BANDAR} selewatnya {TARIKH}.'
+  derma_zakat:
+  - 'RESIT RASMI PUSAT ZAKAT ({BANDAR})
+
+    Nama Pembayar: {NAMA} (No. K/P: {MY_NRIC})
+
+    No. Telefon: {MY_PHONE} | Tarikh: {TARIKH}
+
+    Jenis Zakat: Zakat Pendapatan | Kaedah: FPX
+
+    Jumlah Diterima: RM 250 (No. Rujukan: {NEG})'
+  - 'BORANG AKUAN ZAKAT PERNIAGAAN
+
+    Syarikat Pembayar: {SYARIKAT}
+
+    No. Pendaftaran Syarikat: {MY_SSM}
+
+    Pegawai Dihubungi: {NAMA} ({MY_PHONE})
+
+    Jumlah Zakat Taksiran: RM 950
+
+    Lokasi: {BANDAR} | No. Resit Sementara: {NEG_INVOIS}'
+  - 'RESIT SUMBANGAN TABUNG INFAQ MASJID
+
+    No. Resit: {NEG_INVOIS}
+
+    Tarikh Transaksi: {NEG_TARIKH}
+
+    Saluran Bayaran: Pindahan Bank ke Akaun No: {NEG_AKAUN}
+
+    Jumlah Sumbangan: RM 150 untuk Tabung Kebajikan Fakir Miskin
+
+    Terima kasih atas infaq jariah anda.'
+  - 'BORANG IKRAR WAKAF BULANAN
+
+    No. Ahli Pewakaf: {NEG_AHLI}
+
+    Kategori Wakaf: Pembangunan Fasiliti ({NEG_KOD})
+
+    Kaedah Potongan: Debit Terus daripada Akaun Simpanan: {NEG_AKAUN}
+
+    Status Kelulusan: Sah (Rujukan Induk: {NEG})
+
+    Jumlah Potongan: RM 50 sebulan'
+  - 'BORANG TAJAAN PROGRAM IFTAR RAMADHAN
+
+    Nama Penaja: {SYARIKAT} (No. SSM Lama: {MY_SSM_LAMA})
+
+    No. Telefon Pejabat: {MY_PHONE}
+
+    Alamat Cawangan: {BANDAR}
+
+    Jumlah Tajaan: RM 500
+
+    No. Rujukan Projek: {NEG}'
+  - 'SLIP BAYARAN SUMBANGAN DERMA KILAT
+
+    No. Invois Derma: {NEG_INVOIS}
+
+    Tarikh Kemas Kini: {NEG_TARIKH}
+
+    Talian Khidmat Pelanggan Tidak Lengkap: {NEG_TEL}
+
+    Dana Tabung Bencana Banjir Daerah {BANDAR}
+
+    Kod Barangan Infaq: ({NEG_KOD}) - Makanan Kering'
+  - 'BAUCAR DERMA KEBAJIKAN ANAK YATIM
+
+    Penerima Manfaat: {NAMA} (No. Kad Pengenalan: {MY_NRIC})
+
+    Diserahkan oleh: {SYARIKAT} cawangan {BANDAR}
+
+    Jumlah Bantuan Persekolahan: RM 300
+
+    No. Baucar: {NEG_INVOIS} | Tarikh Serahan: {TARIKH}'
+  acara_sukan:
+  - 'Pengesahan Penebusan Kit Larian Komuniti {BANDAR}:
+
+    Sila bawa resit {NEG_INVOIS} dan tunjukkan kod bar item ({NEG_KOD}) di kaunter pada {TARIKH}.
+
+    No. Keahlian: {NEG_AHLI} | Kemas kini sistem pada {NEG_TARIKH}.'
+  - 'Borang Pendaftaran Kejohanan Badminton Tertutup:
+
+    Ketua Pasukan: {NAMA}
+
+    No. MyKad: {MY_NRIC}
+
+    Kelab Penaja: {SYARIKAT} ({MY_SSM})
+
+    Sebarang urusan sila hubungi talian urus setia di {MY_PHONE}.'
+  - 'Yuran Penyertaan Futsal Piala Komuniti {BANDAR}:
+
+    Bayaran hendaklah dibuat ke akaun rasmi pengelola: {NEG_AKAUN} ({SYARIKAT}).
+
+    No. Transaksi: {NEG} | Polisi insurans: {NEG_AHLI}.
+
+    Hubungi talian teknikal: {NEG_TEL}.'
+  - 'Slip Pelepasan Marathon {BANDAR}
+
+    Peserta: {NAMA} ({MY_NRIC})
+
+    Kategori: 21km Veteran
+
+    No. Pendaftaran: {NEG} | Resit: {NEG_INVOIS}
+
+    Sila kemukakan slip ini semasa sesi pengambilan kemeja dan bib pada {TARIKH}.'
+  - 'Log Pemulangan Cip Masa Acara Berbasikal {BANDAR}:
+
+    Kod Tag ({NEG_KOD}) diterima pada {NEG_TARIKH}.
+
+    No. Siri Peralatan: {NEG}
+
+    Deposit keselamatan akan dipulangkan ke akaun bank {NEG_AKAUN} dalam tempoh 3 hari bekerja.'
+  - 'Liga Bola Sepak Amatur Anjuran {SYARIKAT} ({MY_SSM_LAMA}):
+
+    Pengurus Pasukan: {NAMA}
+
+    No. Telefon: {MY_PHONE}
+
+    Yuran telah disahkan melalui rujukan {NEG_INVOIS}. Perlawanan sulung berlangsung di {BANDAR} pada {TARIKH}.'
+  - 'Borang Pelepasan Tanggungan Kejohanan Boling {BANDAR}:
+
+    Saya, {NAMA}, No. Kad Pengenalan: {MY_NRIC}, mengesahkan penyertaan ini.
+
+    Waris kecemasan: {MY_PHONE}
+
+    No. Polisi Kemalangan Kelompok: {NEG_AHLI}.'
+  pembekal_b2b:
+  - 'SEBUTHARGA PEMBEKALAN PERABOT PEJABAT
+
+    Daripada: {SYARIKAT} (No. Pendaftaran: {MY_SSM})
+
+    Kepada: {SYARIKAT}, {BANDAR}
+
+    Pegawai Dihubungi: {NAMA} ({MY_PHONE})
+
+    Tarikh: {TARIKH}
+
+    Sila rujuk lampiran bagi perincian harga barangan bekalan.'
+  - 'PESANAN PEMBELIAN (PO): {NEG}
+
+    No. Invois Rujukan: {NEG_INVOIS}
+
+    Item: Alat Ganti Model X ({NEG_KOD}) - 50 unit
+
+    Sila buat bayaran terus ke akaun pembekal {NEG_AKAUN} sebelum tarikh luput polisi pembekal {NEG_AHLI}.
+
+    Penghantaran dijadualkan pada {NEG_TARIKH} ke cawangan {BANDAR}.'
+  - 'DOKUMEN TENDER BEKALAN MAKANAN BERMASAK
+
+    Kontraktor: {SYARIKAT} (No. Syarikat: {MY_SSM_LAMA})
+
+    Penama Utama / Pengarah: {NAMA}
+
+    No. Kad Pengenalan: {MY_NRIC}
+
+    Alamat Operasi: {BANDAR}
+
+    Sebarang pertanyaan tender sila hubungi pejabat urusan kami.'
+  - 'NOTA PENGHANTARAN BEKALAN BAHAN BINAAN
+
+    Rujukan Pesanan: {NEG}
+
+    Kod Produk: Simen Portland ({NEG_KOD})
+
+    No. Akaun Pengebilan: {NEG_AKAUN}
+
+    Status: Selesai dihantar pada {NEG_TARIKH} di tapak projek {BANDAR}.
+
+    Nombor rujukan jaminan kargo: {NEG_AHLI}.'
+  - 'BORANG PENDAFTARAN VENDOR BARU
+
+    Nama Syarikat: {SYARIKAT}
+
+    Wakil Sah: {NAMA} (No. K/P: {MY_NRIC})
+
+    No. Telefon Bimbit: {MY_PHONE}
+
+    No. Akaun Bank: {NEG_AKAUN}
+
+    Tarikh Pendaftaran: {TARIKH} di {BANDAR}.'
+  - 'SEBUTHARGA RASMI PERALATAN IT
+
+    No. Sebutharga: {NEG_INVOIS}
+
+    Untuk perhatian: Jabatan Perolehan, {SYARIKAT}, {BANDAR}
+
+    Butiran: Pelayan Rak ({NEG_KOD}) sebanyak 3 unit.
+
+    Bayaran deposit hendaklah dipindahkan ke akaun pembekal di {NEG_AKAUN}.
+
+    Bagi pertanyaan pantas hubungi sambungan stor: {NEG_TEL}.'
+  - 'PENGESAHAN PENERIMAAN PESANAN SERVIS
+
+    Pembekal: {SYARIKAT} ({MY_SSM})
+
+    Pegawai Operasi: {NAMA}
+
+    Hubungi: {MY_PHONE}
+
+    No. Kontrak: {NEG}
+
+    Kami bersetuju membekalkan perkhidmatan selenggara mesin di premis {SYARIKAT} bermula {TARIKH}.'
+  - 'PESANAN BELIAN RASMI (PO)
+
+    Daripada: {SYARIKAT} ({MY_SSM_LAMA})
+
+    Kepada Pembekal: {SYARIKAT}, {BANDAR}
+
+    Pengurus Perolehan: {NAMA} | Tel: {MY_PHONE}
+
+    No. Pesanan: {NEG} | Rujukan Invois: {NEG_INVOIS}
+
+    Sila hantar barangan selewat-lewatnya pada {TARIKH}.'

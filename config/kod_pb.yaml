@@ -1,0 +1,94 @@
+# Sumber primer: https://www.jpn.gov.my/my/kod-negeri , https://www.jpn.gov.my/my/kod-negara (diperiksa 2026-10-28)
+# Sokongan sekunder: https://en.wikipedia.org/wiki/Malaysian_identity_card (memetik dua laman JPN yang sama; jadual sepadan sepenuhnya)
+# Nota: senarai JPN kod-negara memetakan BANYAK negara ke satu kod serantau (83-93); nama di sini = ringkasan rantau.
+# Nota: JPN menyenaraikan BYELORUSSIA -> 64 dan ARMENIA -> 86 (kemungkinan salah taip JPN; tidak menjejas set kod sah).
+kod:
+  "01": {nama: "Johor", jenis: negeri, disahkan: true, sumber: "JPN kod-negeri"}
+  "02": {nama: "Kedah", jenis: negeri, disahkan: true, sumber: "JPN kod-negeri"}
+  "03": {nama: "Kelantan", jenis: negeri, disahkan: true, sumber: "JPN kod-negeri"}
+  "04": {nama: "Melaka", jenis: negeri, disahkan: true, sumber: "JPN kod-negeri"}
+  "05": {nama: "Negeri Sembilan", jenis: negeri, disahkan: true, sumber: "JPN kod-negeri"}
+  "06": {nama: "Pahang", jenis: negeri, disahkan: true, sumber: "JPN kod-negeri"}
+  "07": {nama: "Pulau Pinang", jenis: negeri, disahkan: true, sumber: "JPN kod-negeri"}
+  "08": {nama: "Perak", jenis: negeri, disahkan: true, sumber: "JPN kod-negeri"}
+  "09": {nama: "Perlis", jenis: negeri, disahkan: true, sumber: "JPN kod-negeri"}
+  "10": {nama: "Selangor", jenis: negeri, disahkan: true, sumber: "JPN kod-negeri"}
+  "11": {nama: "Terengganu", jenis: negeri, disahkan: true, sumber: "JPN kod-negeri"}
+  "12": {nama: "Sabah", jenis: negeri, disahkan: true, sumber: "JPN kod-negeri"}
+  "13": {nama: "Sarawak", jenis: negeri, disahkan: true, sumber: "JPN kod-negeri"}
+  "14": {nama: "WP Kuala Lumpur", jenis: negeri, disahkan: true, sumber: "JPN kod-negeri"}
+  "15": {nama: "WP Labuan", jenis: negeri, disahkan: true, sumber: "JPN kod-negeri"}
+  "16": {nama: "WP Putrajaya", jenis: negeri, disahkan: true, sumber: "JPN kod-negeri"}
+  "21": {nama: "Johor", jenis: negeri, disahkan: true, sumber: "JPN kod-negeri"}
+  "22": {nama: "Johor", jenis: negeri, disahkan: true, sumber: "JPN kod-negeri"}
+  "23": {nama: "Johor", jenis: negeri, disahkan: true, sumber: "JPN kod-negeri"}
+  "24": {nama: "Johor", jenis: negeri, disahkan: true, sumber: "JPN kod-negeri"}
+  "25": {nama: "Kedah", jenis: negeri, disahkan: true, sumber: "JPN kod-negeri"}
+  "26": {nama: "Kedah", jenis: negeri, disahkan: true, sumber: "JPN kod-negeri"}
+  "27": {nama: "Kedah", jenis: negeri, disahkan: true, sumber: "JPN kod-negeri"}
+  "28": {nama: "Kelantan", jenis: negeri, disahkan: true, sumber: "JPN kod-negeri"}
+  "29": {nama: "Kelantan", jenis: negeri, disahkan: true, sumber: "JPN kod-negeri"}
+  "30": {nama: "Melaka", jenis: negeri, disahkan: true, sumber: "JPN kod-negeri"}
+  "31": {nama: "Negeri Sembilan", jenis: negeri, disahkan: true, sumber: "JPN kod-negeri"}
+  "32": {nama: "Pahang", jenis: negeri, disahkan: true, sumber: "JPN kod-negeri"}
+  "33": {nama: "Pahang", jenis: negeri, disahkan: true, sumber: "JPN kod-negeri"}
+  "34": {nama: "Pulau Pinang", jenis: negeri, disahkan: true, sumber: "JPN kod-negeri"}
+  "35": {nama: "Pulau Pinang", jenis: negeri, disahkan: true, sumber: "JPN kod-negeri"}
+  "36": {nama: "Perak", jenis: negeri, disahkan: true, sumber: "JPN kod-negeri"}
+  "37": {nama: "Perak", jenis: negeri, disahkan: true, sumber: "JPN kod-negeri"}
+  "38": {nama: "Perak", jenis: negeri, disahkan: true, sumber: "JPN kod-negeri"}
+  "39": {nama: "Perak", jenis: negeri, disahkan: true, sumber: "JPN kod-negeri"}
+  "40": {nama: "Perlis", jenis: negeri, disahkan: true, sumber: "JPN kod-negeri"}
+  "41": {nama: "Selangor", jenis: negeri, disahkan: true, sumber: "JPN kod-negeri"}
+  "42": {nama: "Selangor", jenis: negeri, disahkan: true, sumber: "JPN kod-negeri"}
+  "43": {nama: "Selangor", jenis: negeri, disahkan: true, sumber: "JPN kod-negeri"}
+  "44": {nama: "Selangor", jenis: negeri, disahkan: true, sumber: "JPN kod-negeri"}
+  "45": {nama: "Terengganu", jenis: negeri, disahkan: true, sumber: "JPN kod-negeri"}
+  "46": {nama: "Terengganu", jenis: negeri, disahkan: true, sumber: "JPN kod-negeri"}
+  "47": {nama: "Sabah", jenis: negeri, disahkan: true, sumber: "JPN kod-negeri"}
+  "48": {nama: "Sabah", jenis: negeri, disahkan: true, sumber: "JPN kod-negeri"}
+  "49": {nama: "Sabah", jenis: negeri, disahkan: true, sumber: "JPN kod-negeri"}
+  "50": {nama: "Sarawak", jenis: negeri, disahkan: true, sumber: "JPN kod-negeri"}
+  "51": {nama: "Sarawak", jenis: negeri, disahkan: true, sumber: "JPN kod-negeri"}
+  "52": {nama: "Sarawak", jenis: negeri, disahkan: true, sumber: "JPN kod-negeri"}
+  "53": {nama: "Sarawak", jenis: negeri, disahkan: true, sumber: "JPN kod-negeri"}
+  "54": {nama: "WP Kuala Lumpur", jenis: negeri, disahkan: true, sumber: "JPN kod-negeri"}
+  "55": {nama: "WP Kuala Lumpur", jenis: negeri, disahkan: true, sumber: "JPN kod-negeri"}
+  "56": {nama: "WP Kuala Lumpur", jenis: negeri, disahkan: true, sumber: "JPN kod-negeri"}
+  "57": {nama: "WP Kuala Lumpur", jenis: negeri, disahkan: true, sumber: "JPN kod-negeri"}
+  "58": {nama: "WP Labuan", jenis: negeri, disahkan: true, sumber: "JPN kod-negeri"}
+  "59": {nama: "Negeri Sembilan", jenis: negeri, disahkan: true, sumber: "JPN kod-negeri"}
+  "60": {nama: "Brunei", jenis: luar_negara, disahkan: true, sumber: "JPN kod-negara"}
+  "61": {nama: "Indonesia", jenis: luar_negara, disahkan: true, sumber: "JPN kod-negara"}
+  "62": {nama: "Kemboja/Kampuchea", jenis: luar_negara, disahkan: true, sumber: "JPN kod-negara"}
+  "63": {nama: "Laos", jenis: luar_negara, disahkan: true, sumber: "JPN kod-negara"}
+  "64": {nama: "Myanmar/Burma", jenis: luar_negara, disahkan: true, sumber: "JPN kod-negara"}
+  "65": {nama: "Filipina", jenis: luar_negara, disahkan: true, sumber: "JPN kod-negara"}
+  "66": {nama: "Singapura", jenis: luar_negara, disahkan: true, sumber: "JPN kod-negara"}
+  "67": {nama: "Thailand", jenis: luar_negara, disahkan: true, sumber: "JPN kod-negara"}
+  "68": {nama: "Vietnam", jenis: luar_negara, disahkan: true, sumber: "JPN kod-negara"}
+  "71": {nama: "Luar Negara", jenis: luar_negara, disahkan: true, sumber: "JPN kod-negara"}
+  "72": {nama: "Luar Negara", jenis: luar_negara, disahkan: true, sumber: "JPN kod-negara"}
+  "74": {nama: "China", jenis: luar_negara, disahkan: true, sumber: "JPN kod-negara"}
+  "75": {nama: "India", jenis: luar_negara, disahkan: true, sumber: "JPN kod-negara"}
+  "76": {nama: "Pakistan", jenis: luar_negara, disahkan: true, sumber: "JPN kod-negara"}
+  "77": {nama: "Arab Saudi", jenis: luar_negara, disahkan: true, sumber: "JPN kod-negara"}
+  "78": {nama: "Sri Lanka", jenis: luar_negara, disahkan: true, sumber: "JPN kod-negara"}
+  "79": {nama: "Bangladesh", jenis: luar_negara, disahkan: true, sumber: "JPN kod-negara"}
+  "82": {nama: "Negeri Tidak Diketahui", jenis: tidak_diketahui, disahkan: true, sumber: "JPN kod-negeri"}
+  "83": {nama: "Asia Pasifik (Australia, NZ, PNG, Fiji...)", jenis: luar_negara, disahkan: true, sumber: "JPN kod-negara"}
+  "84": {nama: "Amerika Selatan", jenis: luar_negara, disahkan: true, sumber: "JPN kod-negara"}
+  "85": {nama: "Afrika", jenis: luar_negara, disahkan: true, sumber: "JPN kod-negara"}
+  "86": {nama: "Eropah Barat", jenis: luar_negara, disahkan: true, sumber: "JPN kod-negara"}
+  "87": {nama: "Britain/Ireland", jenis: luar_negara, disahkan: true, sumber: "JPN kod-negara"}
+  "88": {nama: "Timur Tengah", jenis: luar_negara, disahkan: true, sumber: "JPN kod-negara"}
+  "89": {nama: "Timur Jauh (Jepun, Korea, Taiwan)", jenis: luar_negara, disahkan: true, sumber: "JPN kod-negara"}
+  "90": {nama: "Caribbean/Amerika Tengah", jenis: luar_negara, disahkan: true, sumber: "JPN kod-negara"}
+  "91": {nama: "Amerika Utara", jenis: luar_negara, disahkan: true, sumber: "JPN kod-negara"}
+  "92": {nama: "Eropah Timur", jenis: luar_negara, disahkan: true, sumber: "JPN kod-negara"}
+  "93": {nama: "Lain-lain wilayah", jenis: luar_negara, disahkan: true, sumber: "JPN kod-negara"}
+  "98": {nama: "Tanpa Negara (Stateless Art.1/1954)", jenis: khas, disahkan: true, sumber: "JPN kod-negara"}
+  "99": {nama: "Mekah/Pelarian/PBB/Maklumat Tiada/Tidak Dinyatakan", jenis: khas, disahkan: true, sumber: "JPN kod-negara"}
+tidak_sah: ["00", "17", "18", "19", "20", "69", "70", "73", "80", "81", "94", "95", "96", "97"]   # tiada dalam mana-mana senarai JPN; Wikipedia tanda N/a sama
+jantina: {ganjil: lelaki, genap: perempuan, disahkan: false}  # tiada dokumen JPN; hanya Borneo Post 2017 (wanita dgn digit akhir ganjil perlu dibetulkan) + amalan umum
+semak_digit: tiada  # tiada sumber rasmi menyebut checksum; JPN kata nombor dijana sistem 'formula tertentu' (tidak diterbitkan); Wikipedia tiada sebutan

@@ -1,0 +1,330 @@
+{
+  "alfa": 0.05,
+  "lejar_usd_selepas": 5.535451,
+  "pelaksana": "ejen autopilot mypii-ujian atas kebenaran pemilik 3 Nov 2026",
+  "sha": "e846e49750ab0cabb4de3da00eea9929ac2d862e",
+  "split": {
+    "ujian": {
+      "dokumen": 1000,
+      "eksplorasi": {
+        "llm:cf/@cf/mistralai/mistral-small-3.1-24b-instruct": {
+          "atas": 0.1029,
+          "bawah": 0.0738,
+          "delta": 0.0886,
+          "p_bootstrap": 0.0,
+          "p_rawak": 0.001
+        },
+        "llm:rv/zai-org/GLM-5.3-Flash": {
+          "atas": 0.0302,
+          "bawah": 0.0133,
+          "delta": 0.0216,
+          "p_bootstrap": 0.0,
+          "p_rawak": 0.001
+        }
+      },
+      "f1": {
+        "llm:anthropic/claude-haiku-5-5": {
+          "atas": 0.9737,
+          "bawah": 0.9562,
+          "f1": 0.9652
+        },
+        "llm:anthropic/claude-sonnet-5-5": {
+          "atas": 0.9872,
+          "bawah": 0.9759,
+          "f1": 0.9818
+        },
+        "llm:cf/@cf/meta/llama-3.3-70b-instruct-fp8-fast": {
+          "atas": 0.8692,
+          "bawah": 0.8318,
+          "f1": 0.8517
+        },
+        "llm:cf/@cf/mistralai/mistral-small-3.1-24b-instruct": {
+          "atas": 0.9189,
+          "bawah": 0.8899,
+          "f1": 0.9047
+        },
+        "llm:rv/deepseek-ai/DeepSeek-V4.1-Flash": {
+          "atas": 0.945,
+          "bawah": 0.9241,
+          "f1": 0.9349
+        },
+        "llm:rv/zai-org/GLM-5.3-Flash": {
+          "atas": 0.9786,
+          "bawah": 0.9642,
+          "f1": 0.9717
+        },
+        "mypii": {
+          "atas": 0.9966,
+          "bawah": 0.9898,
+          "f1": 0.9933
+        },
+        "pii-guard": {
+          "atas": 0.8583,
+          "bawah": 0.8274,
+          "f1": 0.843
+        },
+        "presidio-asal": {
+          "atas": 0.5439,
+          "bawah": 0.5067,
+          "f1": 0.5255
+        }
+      },
+      "hipotesis": {
+        "H2a": {
+          "atas": 0.4864,
+          "bawah": 0.4494,
+          "delta": 0.4678,
+          "disokong": true,
+          "p_holm_bootstrap": 0.0,
+          "p_holm_rawak": 0.006,
+          "sistem": "presidio-asal"
+        },
+        "H2b": {
+          "atas": 0.1656,
+          "bawah": 0.1354,
+          "delta": 0.1503,
+          "disokong": true,
+          "p_holm_bootstrap": 0.0,
+          "p_holm_rawak": 0.006,
+          "sistem": "pii-guard"
+        },
+        "H2c": {
+          "atas": 0.1619,
+          "bawah": 0.1245,
+          "delta": 0.1416,
+          "disokong": true,
+          "p_holm_bootstrap": 0.0,
+          "p_holm_rawak": 0.006,
+          "sistem": "llm:cf/@cf/meta/llama-3.3-70b-instruct-fp8-fast"
+        },
+        "H2d": {
+          "atas": 0.0698,
+          "bawah": 0.0477,
+          "delta": 0.0584,
+          "disokong": true,
+          "p_holm_bootstrap": 0.0,
+          "p_holm_rawak": 0.006,
+          "sistem": "llm:rv/deepseek-ai/DeepSeek-V4.1-Flash"
+        },
+        "H2e": {
+          "atas": 0.0184,
+          "bawah": 0.0046,
+          "delta": 0.0115,
+          "disokong": true,
+          "p_holm_bootstrap": 0.002,
+          "p_holm_rawak": 0.006,
+          "sistem": "llm:anthropic/claude-sonnet-5-5"
+        },
+        "H2f": {
+          "atas": 0.0378,
+          "bawah": 0.0189,
+          "delta": 0.0281,
+          "disokong": true,
+          "p_holm_bootstrap": 0.0,
+          "p_holm_rawak": 0.006,
+          "sistem": "llm:anthropic/claude-haiku-5-5"
+        }
+      },
+      "kunci": "semua|*",
+      "llm": {
+        "llm:anthropic/claude-haiku-5-5": {
+          "dokumen": 1000,
+          "gagal": 0,
+          "panggilan": 1000,
+          "rosak": 2
+        },
+        "llm:anthropic/claude-sonnet-5-5": {
+          "dokumen": 1000,
+          "gagal": 0,
+          "panggilan": 1000,
+          "rosak": 0
+        },
+        "llm:cf/@cf/meta/llama-3.3-70b-instruct-fp8-fast": {
+          "dokumen": 1000,
+          "gagal": 0,
+          "panggilan": 1000,
+          "rosak": 0
+        },
+        "llm:cf/@cf/mistralai/mistral-small-3.1-24b-instruct": {
+          "dokumen": 1000,
+          "gagal": 0,
+          "panggilan": 1000,
+          "rosak": 0
+        },
+        "llm:rv/deepseek-ai/DeepSeek-V4.1-Flash": {
+          "dokumen": 1000,
+          "gagal": 0,
+          "panggilan": 1000,
+          "rosak": 0
+        },
+        "llm:rv/zai-org/GLM-5.3-Flash": {
+          "dokumen": 1000,
+          "gagal": 0,
+          "panggilan": 1000,
+          "rosak": 0
+        }
+      }
+    },
+    "ujian2": {
+      "dokumen": 1000,
+      "eksplorasi": {
+        "llm:cf/@cf/mistralai/mistral-small-3.1-24b-instruct": {
+          "atas": 0.1306,
+          "bawah": 0.0882,
+          "delta": 0.1097,
+          "p_bootstrap": 0.0,
+          "p_rawak": 0.001
+        },
+        "llm:rv/zai-org/GLM-5.3-Flash": {
+          "atas": 0.1138,
+          "bawah": 0.0737,
+          "delta": 0.0933,
+          "p_bootstrap": 0.0,
+          "p_rawak": 0.001
+        }
+      },
+      "f1": {
+        "llm:anthropic/claude-haiku-5-5": {
+          "atas": 0.8906,
+          "bawah": 0.8519,
+          "f1": 0.8725
+        },
+        "llm:anthropic/claude-sonnet-5-5": {
+          "atas": 0.9011,
+          "bawah": 0.8671,
+          "f1": 0.8847
+        },
+        "llm:cf/@cf/meta/llama-3.3-70b-instruct-fp8-fast": {
+          "atas": 0.6975,
+          "bawah": 0.6413,
+          "f1": 0.6705
+        },
+        "llm:cf/@cf/mistralai/mistral-small-3.1-24b-instruct": {
+          "atas": 0.8503,
+          "bawah": 0.8097,
+          "f1": 0.8307
+        },
+        "llm:rv/deepseek-ai/DeepSeek-V4.1-Flash": {
+          "atas": 0.7583,
+          "bawah": 0.7053,
+          "f1": 0.7318
+        },
+        "llm:rv/zai-org/GLM-5.3-Flash": {
+          "atas": 0.8659,
+          "bawah": 0.8261,
+          "f1": 0.8471
+        },
+        "mypii": {
+          "atas": 0.9519,
+          "bawah": 0.9278,
+          "f1": 0.9404
+        },
+        "pii-guard": {
+          "atas": 0.8042,
+          "bawah": 0.7585,
+          "f1": 0.7817
+        },
+        "presidio-asal": {
+          "atas": 0.4436,
+          "bawah": 0.3929,
+          "f1": 0.4185
+        }
+      },
+      "hipotesis": {
+        "H1a": {
+          "atas": 0.5487,
+          "bawah": 0.4953,
+          "delta": 0.5219,
+          "disokong": true,
+          "p_holm_bootstrap": 0.0,
+          "p_holm_rawak": 0.006,
+          "sistem": "presidio-asal"
+        },
+        "H1b": {
+          "atas": 0.1845,
+          "bawah": 0.134,
+          "delta": 0.1587,
+          "disokong": true,
+          "p_holm_bootstrap": 0.0,
+          "p_holm_rawak": 0.006,
+          "sistem": "pii-guard"
+        },
+        "H1c": {
+          "atas": 0.2971,
+          "bawah": 0.2421,
+          "delta": 0.2699,
+          "disokong": true,
+          "p_holm_bootstrap": 0.0,
+          "p_holm_rawak": 0.006,
+          "sistem": "llm:cf/@cf/meta/llama-3.3-70b-instruct-fp8-fast"
+        },
+        "H1d": {
+          "atas": 0.2344,
+          "bawah": 0.1828,
+          "delta": 0.2086,
+          "disokong": true,
+          "p_holm_bootstrap": 0.0,
+          "p_holm_rawak": 0.006,
+          "sistem": "llm:rv/deepseek-ai/DeepSeek-V4.1-Flash"
+        },
+        "H1e": {
+          "atas": 0.0742,
+          "bawah": 0.0386,
+          "delta": 0.0557,
+          "disokong": true,
+          "p_holm_bootstrap": 0.0,
+          "p_holm_rawak": 0.006,
+          "sistem": "llm:anthropic/claude-sonnet-5-5"
+        },
+        "H1f": {
+          "atas": 0.0886,
+          "bawah": 0.0483,
+          "delta": 0.0679,
+          "disokong": true,
+          "p_holm_bootstrap": 0.0,
+          "p_holm_rawak": 0.006,
+          "sistem": "llm:anthropic/claude-haiku-5-5"
+        }
+      },
+      "kunci": "semua|*",
+      "llm": {
+        "llm:anthropic/claude-haiku-5-5": {
+          "dokumen": 1000,
+          "gagal": 0,
+          "panggilan": 1000,
+          "rosak": 0
+        },
+        "llm:anthropic/claude-sonnet-5-5": {
+          "dokumen": 1000,
+          "gagal": 0,
+          "panggilan": 1000,
+          "rosak": 0
+        },
+        "llm:cf/@cf/meta/llama-3.3-70b-instruct-fp8-fast": {
+          "dokumen": 1000,
+          "gagal": 0,
+          "panggilan": 1000,
+          "rosak": 1
+        },
+        "llm:cf/@cf/mistralai/mistral-small-3.1-24b-instruct": {
+          "dokumen": 1000,
+          "gagal": 0,
+          "panggilan": 1000,
+          "rosak": 0
+        },
+        "llm:rv/deepseek-ai/DeepSeek-V4.1-Flash": {
+          "dokumen": 1000,
+          "gagal": 0,
+          "panggilan": 1000,
+          "rosak": 0
+        },
+        "llm:rv/zai-org/GLM-5.3-Flash": {
+          "dokumen": 1000,
+          "gagal": 0,
+          "panggilan": 1000,
+          "rosak": 0
+        }
+      }
+    }
+  }
+}

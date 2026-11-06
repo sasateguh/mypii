@@ -1,0 +1,29 @@
+{
+  "upload_type": "software",
+  "title": "MyPII: Malaysian PII recognizers for Presidio and the MyPII-Bench synthetic benchmark",
+  "description": "MyPII is a set of Malaysian PII recognizers for Presidio. It detects MyKad (NRIC) numbers, SSM company registration numbers and Malaysian phone numbers in Malay, English and Manglish text. It runs entirely on the local machine (rules, validation and a small logistic-regression context classifier; no external API), so text never leaves the machine and every decision can be audited. The repository also ships MyPII-Bench, a synthetic benchmark with machine-generated labels for evaluating recognizers like these.",
+  "creators": [
+    {
+      "name": "Malib, Aiman",
+      "orcid": "0009-0000-1719-9800",
+      "affiliation": "Sasa Teguh"
+    }
+  ],
+  "version": "1.0.0",
+  "license": "MIT",
+  "access_right": "open",
+  "keywords": [
+    "privacy",
+    "nlp",
+    "benchmark",
+    "synthetic-data",
+    "named-entity-recognition",
+    "pii",
+    "data-privacy",
+    "anonymization",
+    "pii-detection",
+    "malaysia",
+    "presidio",
+    "phone-numbers"
+  ]
+}

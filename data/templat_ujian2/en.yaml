@@ -1,0 +1,207 @@
+# Dijana 2026-10-30 oleh `python -m mypii.jana.templat_llm --sasaran ujian2` (model: cbcn/kimi-k3). JANGAN sunting tangan.
+# DIMETERAI (PELAN-B B1): jangan buka, jangan sunting — gerbang menolak sebarang perubahan.
+genre:
+  tuntutan_insurans:
+  - 'MOTOR CLAIM FORM
+
+    Claimant: {NAMA} | NRIC: {MY_NRIC} | Tel: {MY_PHONE}
+
+    Policy No: {NEG} | Vehicle Reg: {NEG_KOD} | Accident Date: {TARIKH}, {BANDAR}
+
+    Insurer: {SYARIKAT} ({MY_SSM})'
+  - Hi, I'm {NAMA}, following up on my medical claim ref {NEG_INVOIS} submitted on {TARIKH}. Kindly call me back at {MY_PHONE} regarding the reimbursement to account {NEG_AKAUN}. Thank you.
+  - Dear Sir/Madam, I wish to dispute the rejected claim {NEG}. My policy was issued by {SYARIKAT} on {NEG_TARIKH} for invoice {NEG_INVOIS}. Please review urgently.
+  - 'Claim Status Update: Your travel claim {NEG_INVOIS} for flight delay on {NEG_TARIKH} is under review. Product code {NEG_KOD}. For enquiries quote ref {NEG}. Hotline: {NEG_TEL}.'
+  - 'FLOOD DAMAGE CLAIM
+
+    Policyholder: {NAMA}, {BANDAR}
+
+    Contact: {MY_PHONE} | Email on file
+
+    Bank Account for payout: {NEG_AKAUN}
+
+    Date of incident: {TARIKH}'
+  - 'To whom it may concern, enclosed is my worker compensation claim. Employer: {SYARIKAT}, SSM {MY_SSM}. Employee NRIC: {MY_NRIC}. Injury occurred at site in {BANDAR} on {TARIKH}.'
+  - 'Reminder: Claim ref {NEG} lodged on {NEG_TARIKH} is still pending after 3 weeks. Contact number on file appears invalid ({NEG_TEL}). Kindly update via branch counter, {BANDAR}.'
+  permohonan_pinjaman:
+  - 'LOAN APPLICATION FORM
+
+    Name: {NAMA}
+
+    NRIC: {MY_NRIC}
+
+    Contact: {MY_PHONE}
+
+    Loan amount requested: RM50,000 for home renovation in {BANDAR}.'
+  - 'Dear Sir/Madam,
+
+    I, {NAMA} (NRIC {MY_NRIC}), would like to apply for a personal loan. Kindly contact me at {MY_PHONE} to discuss the repayment terms.
+
+    Regards, submitted on {TARIKH}.'
+  - 'BUSINESS FINANCING ENQUIRY
+
+    Company: {SYARIKAT}
+
+    SSM No: {MY_SSM}
+
+    Contact Person: {NAMA} ({MY_PHONE})
+
+    We seek working capital financing for our outlet in {BANDAR}.'
+  - 'Application Ref: {NEG}
+
+    Applicant: {NAMA}, NRIC {MY_NRIC}
+
+    Employer: {SYARIKAT} (Reg. {MY_SSM_LAMA})
+
+    Purpose: motorcycle purchase. Date: {TARIKH}.'
+  - Hi, I'm {NAMA} from {BANDAR}. My number is {MY_PHONE}. Interested in a small business loan for my kedai runcit. Please call me back after 3pm. Thanks!
+  - 'PERSONAL LOAN ENQUIRY — Reference {NEG_INVOIS}
+
+    Enquiry logged on {NEG_TARIKH}. Customer reachable via branch line {NEG_TEL} (incomplete). Product of interest: {NEG_KOD}. Awaiting full application form.'
+  - 'Dear {SYARIKAT} Credit Team,
+
+    We wish to enquire about invoice financing for order {NEG} and account {NEG_AKAUN}. Kindly advise on eligibility before {NEG_TARIKH}.
+
+    Thank you.'
+  - Financing enquiry received at {BANDAR} branch on {TARIKH}. Caller left partial contact {NEG_TEL}; tracking no {NEG_INVOIS}. Follow up regarding product code {NEG_KOD} within 2 working days.
+  pendaftaran_sekolah:
+  - 'Kindergarten Registration Form
+
+    Child''s Name: {NAMA}
+
+    MyKid No.: {MY_NRIC}
+
+    Parent''s Phone: {MY_PHONE}
+
+    Date of Birth: {TARIKH}'
+  - 'Dear Parent/Guardian,
+
+    Please settle Term 2 tuition fees for {NAMA} before {TARIKH}. Payment to account no. {NEG_AKAUN} ({SYARIKAT}). Kindly WhatsApp the receipt to {MY_PHONE}.'
+  - 'NOTICE: Registration of New Pupils
+
+    Parents registering at {BANDAR} branch must bring a copy of the child''s MyKad ({MY_NRIC}) and the completed form ref. {NEG} to the office by {TARIKH}.'
+  - 'Fee Reminder — Ref. {NEG_INVOIS}
+
+    Outstanding balance for semester ending {NEG_TARIKH} must be cleared within 7 days. Quote reference {NEG} when paying. No personal details required.'
+  - 'Tuition Centre Partnership Notice
+
+    {SYARIKAT} (SSM: {MY_SSM}) is now managing enrolment for the {BANDAR} branch. For enquiries, contact the registrar {NAMA} at {MY_PHONE} during office hours.'
+  - 'Uniform Order Form
+
+    Order code: {NEG_KOD} | Batch: {NEG_TARIKH}
+
+    Sizes available: S, M, L. Collection at the school office, counter 2. Incomplete contact line on file: {NEG_TEL} — please update at the counter.'
+  - 'Parent-Teacher Day Appointment
+
+    Dear {NAMA}, your slot is confirmed on {TARIKH}. A reminder SMS will be sent to {MY_PHONE}. If the number is wrong, call the school office before noon.'
+  kurier:
+  - 'POS NOTICE: Hi {NAMA}, your parcel {NEG_INVOIS} could not be delivered to {BANDAR} today ({TARIKH}). Re-delivery scheduled in 2 working days. Track at {SYARIKAT} portal.'
+  - Hi {NAMA}! This is your rider from {SYARIKAT}. I'm outside your address in {BANDAR} now. Please call me back at {MY_PHONE} to collect parcel {NEG_INVOIS}.
+  - 'FAILED DELIVERY ({TARIKH}): Consignment {NEG_INVOIS} for {NAMA} returned to {BANDAR} depot. Kindly verify your MyKad {MY_NRIC} and contact {MY_PHONE} to reschedule within 3 days.'
+  - 'Dear {NAMA}, e-COD notice from {SYARIKAT}: order {NEG} (item code {NEG_KOD}) arrived at our {BANDAR} hub on {NEG_TARIKH}. Payment via account {NEG_AKAUN}. Call {NEG_TEL} for enquiries.'
+  - '{SYARIKAT} (SSM {MY_SSM}, old reg {MY_SSM_LAMA}) — Pickup confirmation: {NAMA}, your parcel {NEG_INVOIS} will be collected from {BANDAR} on {TARIKH}. Rider will WhatsApp {MY_PHONE} before arrival.'
+  - 'Reminder {NEG_TARIKH}: parcel {NEG_INVOIS} (ref {NEG}, serial {NEG_KOD}) awaiting pickup at {BANDAR} point for 5 days. Uncollected items returned to sender.'
+  - Hi {NAMA}, we attempted delivery of {NEG_INVOIS} twice at {BANDAR}. For identity verification please confirm NRIC {MY_NRIC} when collecting. — {SYARIKAT} Customer Care
+  sewa_rumah:
+  - 'FOR RENT: Single room, {BANDAR}. RM450/month, utilities included. Contact {NAMA} at {MY_PHONE}. Available {TARIKH}.'
+  - 'TENANCY AGREEMENT excerpt: Landlord {NAMA} (NRIC: {MY_NRIC}) hereby leases the unit at {BANDAR} to tenant {NAMA} (NRIC: {MY_NRIC}) for a term of 12 months commencing {TARIKH}. Monthly rental RM850 payable to account {NEG_AKAUN}.'
+  - Hi {NAMA}, this is the agent from {SYARIKAT} ({MY_SSM}). Viewing for the {BANDAR} double storey on {TARIKH} at 10am. Kindly confirm by replying or call {MY_PHONE}.
+  - 'Receipt: Received RM500 booking deposit from {NAMA} ({MY_PHONE}) for unit {NEG_KOD}, {BANDAR}. Invoice no. {NEG_INVOIS} dated {NEG_TARIKH}. Agent: {SYARIKAT} ({MY_SSM_LAMA}).'
+  - 'Landlord chat: "{NAMA}, rent for this month dah overdue. Please bank in to {NEG_AKAUN} before {TARIKH}. If any problem call me {MY_PHONE}."'
+  - 'Notice to tenant: As per agreement dated {NEG_TARIKH}, your tenancy ref {NEG} for premises in {BANDAR} will expire in 2 months. Kindly settle outstanding utilities bill ref {NEG_INVOIS}. Management office contact: {NEG_TEL} (temporarily unreachable).'
+  - Hi, I'm {NAMA} (IC {MY_NRIC}), interested in the studio unit at {BANDAR} listed under {SYARIKAT}. I work nearby, budget RM700. Can I arrange viewing this weekend? My number {MY_PHONE}.
+  jual_beli:
+  - 'Chat:
+
+    Buyer: Hi, sofa still available?
+
+    Seller: Yes boss, RM 250 only. Can deliver {BANDAR} area.
+
+    Buyer: OK, my number {MY_PHONE}, name {NAMA}.
+
+    Seller: Noted, will come {TARIKH} evening.'
+  - 'WTS: iPhone second-hand, condition 9/10, battery health 88%. COD only at {BANDAR}. Serious buyer PM {MY_PHONE}. Receipt ref {NEG_INVOIS} included for warranty record.'
+  - 'Buyer: Bang, TV cabinet RM 180 can?
+
+    Seller: Last price RM 200, self pickup {BANDAR}.
+
+    Buyer: Deal. Order no {NEG}, I bank in to acc {NEG_AKAUN} ya.
+
+    Seller: Got it, tq!'
+  - 'FOR SALE: Dining table set, 6 chairs, solid wood. RM 350. Registered seller under {SYARIKAT}, SSM {MY_SSM_LAMA}. Contact {MY_PHONE} after 6pm, area {BANDAR}.'
+  - Car for sale, accident-free. Owner {NAMA}, IC {MY_NRIC} for ownership transfer at JPJ {BANDAR}. View car on {TARIKH}. Call {MY_PHONE}, no lowballers please.
+  - 'Seller: Sofa set already sold bro, sorry.
+
+    Buyer: Aiyo, my last msg got typo, number was {NEG_TEL}. Anyway thanks.
+
+    Seller: No problem, next stock ref {NEG} coming soon.'
+  laporan_polis:
+  - 'POLICE REPORT
+
+    I, {NAMA}, holder of MyKad No. {MY_NRIC}, residing in {BANDAR}, hereby report that I lost my wallet containing my MyKad and ATM card on {TARIKH} near the morning market. Contact: {MY_PHONE}.'
+  - 'LOST ITEM REPORT
+
+    Complainant: {NAMA}
+
+    Date: {TARIKH}
+
+    Item lost: one black handbag containing staff pass of {SYARIKAT} (SSM {MY_SSM}). Last seen at a food court in {BANDAR}.'
+  - 'STATEMENT
+
+    On {TARIKH} I, {NAMA}, NRIC {MY_NRIC}, was involved in a minor accident at Jalan {BANDAR}. The other driver gave phone no. {MY_PHONE}. Police report lodged for insurance claim purposes.'
+  - 'REPORT OF MISSING DOCUMENT
+
+    I wish to report that my company''s certificate of incorporation under {SYARIKAT}, old registration no. {MY_SSM_LAMA}, went missing on {TARIKH} while in transit in {BANDAR}. Kindly contact {MY_PHONE} if found.'
+  - 'INCIDENT REPORT — SNATCH THEFT
+
+    On {TARIKH} at about noon, an unknown person on a motorcycle snatched my phone bag near the bus stop in {BANDAR}. Lost items include one mobile phone (serial code {NEG_KOD}) and receipt no. {NEG_INVOIS}. Reference file: {NEG}.'
+  - 'LOST BANK DOCUMENT
+
+    I, {NAMA}, report the loss of a bank statement for account no. {NEG_AKAUN} dated {NEG_TARIKH}, believed dropped at a parking area in {BANDAR} on {TARIKH}. No money is involved; report made for record only.'
+  - 'POLICE REPORT (EMPLOYMENT MATTERS)
+
+    I, {NAMA}, NRIC {MY_NRIC}, employed by {SYARIKAT} (SSM {MY_SSM}), report that my employer-issued access card was lost on {TARIKH} in {BANDAR}. Company contact line: {MY_PHONE}. Report ref {NEG}.'
+  - 'FOUND ITEM SURRENDER STATEMENT
+
+    On {TARIKH} I handed over a parcel found at a petrol station in {BANDAR}, tracking no. {NEG_INVOIS}, addressed care of {SYARIKAT}. A half-torn label showed an incomplete contact number {NEG_TEL}. File reference {NEG}.'
+  hr_pekerja:
+  - 'HR Onboarding Form — {SYARIKAT} (Co. Reg. {MY_SSM})
+
+    Employee: {NAMA}
+
+    NRIC: {MY_NRIC}
+
+    Contact: {MY_PHONE}
+
+    Start date: {TARIKH}, {BANDAR} branch'
+  - 'Payslip note — salary for {NAMA} credited to account {NEG_AKAUN} on {NEG_TARIKH}. Keep payslip {NEG_INVOIS} for your records. Payroll query ref: {NEG}.'
+  - 'Dear HR,
+
+    I, {NAMA} (NRIC {MY_NRIC}), hereby resign from {SYARIKAT} effective {TARIKH}. Please post my final documents to {BANDAR}. I remain reachable at {MY_PHONE}.
+
+    Thank you for everything.'
+  - 'HR memo: kindly return access card {NEG_KOD} and uniform before {TARIKH}. For clearance call ext {NEG_TEL}. Ref no: {NEG}.'
+  - 'Exit clearance done: asset tag {NEG_KOD} collected, invoice {NEG_INVOIS} settled, claim form {NEG} filed by {NEG_TARIKH}. Note: HR line {NEG_TEL} unreachable, retry tomorrow.'
+  - 'Salary Bank Form: I, {NAMA}, MyKad {MY_NRIC}, authorise {SYARIKAT} to credit wages into account {NEG_AKAUN}. Tel: {MY_PHONE}. Signed at {BANDAR} on {TARIKH}.'
+  pusat_panggilan:
+  - 'Agent: Thank you for calling {SYARIKAT}. May I have your full name?
+
+    Caller: {NAMA}, from {BANDAR}.
+
+    Agent: Noted. Please verify your NRIC, {NAMA}.
+
+    Caller: {MY_NRIC}.'
+  - 'Chat log {TARIKH}: Customer from {BANDAR} asked to update business registration for {SYARIKAT}. Provided SSM number {MY_SSM}. Agent advised processing takes a few working days.'
+  - 'Complaint ref {NEG}: Delivery of order with serial {NEG_KOD} to {BANDAR} delayed. Tracking {NEG_INVOIS} shows no update since {NEG_TARIKH}. Escalated to logistics team.'
+  - 'Billing query: Customer disputes charge on account {NEG_AKAUN}, invoice {NEG_INVOIS}. Contact number on record appears invalid ({NEG_TEL}). Email follow-up sent on {NEG_TARIKH}.'
+  - 'Voicemail transcript: "Hi, this is {NAMA}. Please call me back at {MY_PHONE} regarding my MyKad verification, number {MY_NRIC}, before {TARIKH}. Thanks."'
+  - 'Case summary: Caller reached wrong line — asked about product code {NEG_KOD} warranty and invoice {NEG_INVOIS}. No personal details collected. Reference {NEG} logged, timestamp {NEG_TARIKH}.'
+  media_sosial:
+  - Hi admin, please share. I'm {NAMA}, selling homemade kuih from {BANDAR}. Orders open till {TARIKH}. WhatsApp {MY_PHONE} to book, limited slots only!
+  - Lost my wallet near the pasar malam in {BANDAR} last night. MyKad inside under {NAMA}, number {MY_NRIC}. Please PM me if found, reward for honest finder. Shared {NEG_TARIKH}.
+  - 'PSA: dealing with {SYARIKAT} (SSM {MY_SSM}) was a nightmare. Paid deposit on {TARIKH} for order {NEG}, no delivery, no refund. Be careful guys.'
+  - Contractor wanted for kitchen reno in {BANDAR}. Called the number on their flyer {NEG_TEL} but no answer. Anyone worked with {SYARIKAT}? Their old reg {MY_SSM_LAMA} checks out but want real reviews first.
+  - Selling preloved stroller, good condition, self pickup {BANDAR}. Item code {NEG_KOD}, tracking from previous post {NEG_INVOIS}. PM me for pics. Posted {NEG_TARIKH}.
+  - Hello neighbours! Bank transfer went to wrong account {NEG_AKAUN} on {NEG_TARIKH}, reference {NEG}. Already reported, just warning others to double check before sending. Small kampung spirit needed!
+  - To confirm your booking with {SYARIKAT}, kindly send full name, IC number {MY_NRIC} and contact {MY_PHONE}. Our admin {NAMA} will reply within a day. Appointment date {TARIKH}.
+  - 'URGENT: parcel stuck since {NEG_TARIKH}, tracking {NEG_INVOIS}. Called {SYARIKAT} twice, no update. Reference {NEG}. Anyone else in {BANDAR} facing this? So frustrating!'
