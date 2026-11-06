@@ -1,5 +1,7 @@
 # MyPII
 
+[![PyPI](https://img.shields.io/pypi/v/mypii)](https://pypi.org/project/mypii/) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24014252.svg)](https://doi.org/10.5281/zenodo.24014252)
+
 **BM** · MyPII mengesan nombor MyKad, nombor pendaftaran SSM dan nombor telefon Malaysia dalam teks BM, EN dan Manglish, sebagai
 pengecam tambahan untuk [Presidio](https://github.com/data-privacy-stack/presidio). Ia berjalan sepenuhnya pada mesin anda: peraturan,
 pengesahan (tarikh lahir dan kod tempat lahir JPN, format SSM, libphonenumber) dan satu pengelas konteks kecil (regresi logistik,
@@ -202,9 +204,11 @@ Split `dev`, 1000 dokumen / documents, padanan tepat / exact match, `semua|*`. S
 ## Petik / Cite
 
 **BM** · Metadata petikan ada dalam [`CITATION.cff`](CITATION.cff) (GitHub memaparkannya sebagai "Cite this repository"). DOI Zenodo
-ditambah di sini selepas keluaran pertama.
-**EN** · Citation metadata lives in [`CITATION.cff`](CITATION.cff) (GitHub shows it as "Cite this repository"). The Zenodo DOI is
-added here after the first release.
+semua versi: [10.5281/zenodo.24014252](https://doi.org/10.5281/zenodo.24014252); versi 1.0.0:
+[10.5281/zenodo.24014253](https://doi.org/10.5281/zenodo.24014253).
+**EN** · Citation metadata lives in [`CITATION.cff`](CITATION.cff) (GitHub shows it as "Cite this repository"). Zenodo DOI for
+all versions: [10.5281/zenodo.24014252](https://doi.org/10.5281/zenodo.24014252); version 1.0.0:
+[10.5281/zenodo.24014253](https://doi.org/10.5281/zenodo.24014253).
 
 ## Lesen / License
 
