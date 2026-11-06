@@ -218,3 +218,11 @@ dasar boleh dijana semula tanpa kunci API ([`docs/PROVENANS.md`](https://github.
 Code: MIT ([`LICENSE`](https://github.com/sasateguh/mypii/blob/main/LICENSE)). Dataset (`data/`): CC-BY-4.0. © 2026 Aiman Malib (Sasa Teguh).
 
 Made by [Aiman Malib](https://aimanmalib.com) at [Sasa Teguh](https://sasateguh.com), Malaysia.
+
+## Work with Sasa Teguh
+
+[![Work with Sasa Teguh: book a call](https://raw.githubusercontent.com/sasateguh/.github/main/assets/work-with-sasa-teguh.png)](https://sasateguh.com/book)
+
+This project is built and maintained by [Sasa Teguh](https://sasateguh.com), a studio in Malaysia. We build websites that are found on Google and in AI answers, and we set up systems like this one for businesses.
+
+[Book a call](https://sasateguh.com/book) · hello@sasateguh.com · [More from Sasa Teguh](https://github.com/sasateguh)
