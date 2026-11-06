@@ -1,6 +1,6 @@
 [project]
 name = "mypii"
-version = "1.0.0"
+version = "1.0.1"
 description = "Malaysian PII recognizers (MyKad, SSM, phone) for Presidio, plus the MyPII-Bench synthetic BM/EN/Manglish benchmark"
 readme = "README.md"
 license = "MIT"

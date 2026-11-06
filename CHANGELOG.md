@@ -6,6 +6,16 @@ dan versi ikut [Semantic Versioning](https://semver.org/). Keputusan reka bentuk
 [Keep a Changelog 1.1.0](https://keepachangelog.com/en/1.1.0/) and versions follow [Semantic Versioning](https://semver.org/).
 Full design decisions live in `docs/adr/`.
 
+## [1.0.1] - 2026-11-06
+
+Dokumentasi sahaja; pengecam v2 tidak berubah. / Documentation only; recognizer v2 is unchanged.
+
+### Changed
+
+- README follows the Sasa Teguh open-source layout: logo, CI, PyPI, DOI and licence badges, English first and a complete Malay
+  section at the end, and a "Work with Sasa Teguh" section.
+- README links are absolute, so they work on the PyPI project page; the Zenodo DOI is in the README and `CITATION.cff`.
+
 ## [1.0.0] - 2026-11-06
 
 Keluaran awam pertama; membawa pengecam v2. / First public release; ships recognizer v2.
