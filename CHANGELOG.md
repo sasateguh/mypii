@@ -8,8 +8,7 @@ Full design decisions live in `docs/adr/`.
 
 ## [1.0.2] - 2026-11-14
 
-Dokumentasi sahaja; pengecam v2 dan data penanda aras tidak berubah. / Documentation only; recognizer v2 and the benchmark data are
-unchanged.
+Kod pakej, pengecam v2 dan data penanda aras tidak berubah. / The package code, recognizer v2 and the benchmark data are unchanged.
 
 ### Fixed
 
@@ -17,6 +16,12 @@ unchanged.
   [0.027, 0.113] on `dev` and 0.167 [0.113, 0.227] on `ujian2`. Earlier text gave only the `dev` figure for the whole sample.
 - The limitations now say the Claude family appears in four places: the held-out `ujian` templates were also written with the
   Claude development agent, and Claude Haiku and Claude Sonnet are comparators on `ujian`.
+
+### Changed
+
+- The label-review server image (`deploy/iaa/`) applies Debian security updates at build time and pulls the latest base image
+  ([ADR-015](https://github.com/sasateguh/mypii/blob/main/docs/adr/015-iaa-semakan-label.md), addendum of 10 November 2026);
+  `tests/test_iaa_imej.py` checks the build order.
 
 ### Added
 

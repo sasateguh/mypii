@@ -67,7 +67,7 @@ return other types (for example `UK_NHS`, `DATE_TIME`) on the same numbers.
 
 ## Results
 
-Exact-match micro F1, all entities. Releases 1.0.x ship recognizer **v2** (1.0.1 and 1.0.2 changed the documentation only).
+Exact-match micro F1, all entities. Releases 1.0.x ship recognizer **v2** (1.0.1 and 1.0.2 did not change the recognizer).
 
 | Split | Text | MyPII v1 | MyPII v2 (1.0.x) | Claude Haiku 5.5 | Claude Sonnet 5.5 | Stock Presidio |
 |---|---|---|---|---|---|---|
