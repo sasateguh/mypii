@@ -4,6 +4,12 @@
 # menarik presidio (pengecam). Data (bundel, SQLite, token) = bind ~/ops/mypii/iaa → /data, bukan dalam imej.
 FROM python:3.12-slim
 ENV PYTHONDONTWRITEBYTECODE=1 PYTHONUNBUFFERED=1 MYPII_IAA_FOLDER=/data
+# ADR-015 (Perisai SM-01): `apt-get upgrade` supaya tampalan keselamatan Debian (zlib1g, apt …) masuk walaupun imej
+# asas `-slim` terkini belum dibina semula. TAMPALAN_OS = tarikh UTC dari deploy.sh: memecah cache pembina (Depot)
+# setiap hari — tanpanya lapisan apt bercache tidak pernah menarik tampalan baharu.
+ARG TAMPALAN_OS=0
+RUN echo "tampalan-os ${TAMPALAN_OS}" && apt-get update && apt-get upgrade -y \
+ && rm -rf /var/lib/apt/lists/*
 # Versi sama uv.lock (stdlib selain ini; tiada kebergantungan baharu).
 RUN pip install --no-cache-dir pyyaml==6.0.3 \
  && useradd --uid 10001 --no-create-home --shell /usr/sbin/nologin iaa

@@ -130,7 +130,7 @@ img="$NAME:$sha"
 lama=$(docker inspect -f '{{.Config.Image}}' "$NAME" 2>/dev/null || true)
 sedia_data
 say "bina $img dari $ref"
-git -C "$REPO" archive --format=tar "$sha" | "$HOME/bin/bina-imej.sh" -f deploy/iaa/Dockerfile -t "$img" -
+git -C "$REPO" archive --format=tar "$sha" | "$HOME/bin/bina-imej.sh" --pull --build-arg TAMPALAN_OS="$(date -u +%F)" -f deploy/iaa/Dockerfile -t "$img" -
 traefik
 jalan "$img"
 if sihat_tempatan && sihat_awam; then

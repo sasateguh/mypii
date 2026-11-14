@@ -6,6 +6,23 @@ dan versi ikut [Semantic Versioning](https://semver.org/). Keputusan reka bentuk
 [Keep a Changelog 1.1.0](https://keepachangelog.com/en/1.1.0/) and versions follow [Semantic Versioning](https://semver.org/).
 Full design decisions live in `docs/adr/`.
 
+## [1.0.2] - 2026-11-14
+
+Dokumentasi sahaja; pengecam v2 dan data penanda aras tidak berubah. / Documentation only; recognizer v2 and the benchmark data are
+unchanged.
+
+### Fixed
+
+- The label-review figure for documents with unlabelled PII now gives both halves of the 300-document sample: 0.067
+  [0.027, 0.113] on `dev` and 0.167 [0.113, 0.227] on `ujian2`. Earlier text gave only the `dev` figure for the whole sample.
+- The limitations now say the Claude family appears in four places: the held-out `ujian` templates were also written with the
+  Claude development agent, and Claude Haiku and Claude Sonnet are comparators on `ujian`.
+
+### Added
+
+- MyPII-Bench is also on Hugging Face as [`sasateguh/mypii-bench`](https://huggingface.co/datasets/sasateguh/mypii-bench), with
+  the same data files, a dataset card and its own DOI, [10.57967/hf/11626](https://doi.org/10.57967/hf/11626).
+
 ## [1.0.1] - 2026-11-06
 
 Dokumentasi sahaja; pengecam v2 tidak berubah. / Documentation only; recognizer v2 is unchanged.

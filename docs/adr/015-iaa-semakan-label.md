@@ -138,3 +138,20 @@ pelawat tanpa pautan lengkap mendapat badan teknikal.
 
 **Undur.** Halaman: `deploy/iaa/deploy.sh --undur` · tutup: `docker rm -f mypii-iaa` + buang `/traefik/dynamic/semak-mypii.yaml` + rekod
 DNS (ID di atas). Pencetus: buang baris cron `# IAA-MYPII`. Kod: `git revert`. Pindaan PRA-DAFTAR TIDAK diundur (tambah-sahaja).
+
+## Tampalan OS — Perisai SM-01 (PELAN-perisai-tidak-lulus-mypii-iaa, 10 Nov 2026)
+
+- **Masalah.** Perisai menolak imej `mypii-iaa:7d3fd6d6c007` (SM-01, Tinggi): zlib1g `1:1.3.dfsg+really1.3.1-1+b1` dan apt `3.0.3`
+  ketinggalan tampalan Debian. Diukur 10 Nov: `python:3.12-slim` terkini masih membawa zlib1g `+b1`, jadi pin/tarik asas sahaja tidak cukup.
+- **Keputusan.** `deploy/iaa/Dockerfile`: `ARG TAMPALAN_OS=0` + `RUN echo "tampalan-os ${TAMPALAN_OS}" && apt-get update && apt-get upgrade -y
+  && rm -rf /var/lib/apt/lists/*` selepas `FROM`, sebelum `pip install`/`USER`. `deploy.sh` memanggil `bina-imej.sh --pull --build-arg
+  TAMPALAN_OS="$(date -u +%F)"`: `--pull` mengambil asas terkini, tarikh UTC memecah cache lapisan apt sekali sehari (ARG dirujuk dalam
+  `RUN`; ARG yang tidak dirujuk tidak memecah cache). Corak sama `~/jawi-llm-penilaian` D16 (asas sama, Perisai LULUS).
+- **Ujian.** `tests/test_iaa_imej.py` (urutan FROM < ARG < upgrade < pip/USER; deploy.sh satu panggilan bina dengan `--pull` + tarikh dikira);
+  merah atas Dockerfile/deploy.sh lama.
+- **Kos.** Lapisan apt + pip dibina semula sekali sehari bila deploy; tiada perubahan kod/teks halaman. Tiada pakej baharu dipasang
+  (`upgrade`, bukan `install`).
+- **Undur.** `deploy/iaa/deploy.sh --undur` (imej lama dipegang), atau `git revert` komit ini + `deploy.sh`.
+- **Hasil (P2, 10 Nov 2026).** `deploy.sh` @ origin/main `2d97a8a` → `mypii-iaa:2d97a8a3e786` healthy; zlib1g
+  `1:1.3.dfsg+really1.3.1-1+deb13u1`, apt `3.0.4`; `/sihat` 200. `perisai imbas mypii-iaa` = LULUS (larian `20261110T234006Z-mypii-iaa`),
+  `perisai gerbang` sekat `-`. Imej undur dipegang: `mypii-iaa:7d3fd6d6c007`.
