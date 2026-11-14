@@ -1,0 +1,1000 @@
+{"id": "mypii-u3-00000", "spans": []}
+{"id": "mypii-u3-00001", "spans": [{"mula": 170, "tamat": 185, "label": "phone number", "teks": "+60 89 \n974 444", "skor": 0.9993979930877686}]}
+{"id": "mypii-u3-00002", "spans": []}
+{"id": "mypii-u3-00003", "spans": [{"mula": 70, "tamat": 83, "label": "phone number", "teks": "010\n  5975730", "skor": 0.9945083260536194}]}
+{"id": "mypii-u3-00004", "spans": [{"mula": 182, "tamat": 194, "label": "phone number", "teks": "018 786 0033", "skor": 0.9994990825653076}]}
+{"id": "mypii-u3-00005", "spans": []}
+{"id": "mypii-u3-00006", "spans": []}
+{"id": "mypii-u3-00007", "spans": []}
+{"id": "mypii-u3-00008", "spans": [{"mula": 234, "tamat": 246, "label": "phone number", "teks": "03-4115 8589", "skor": 0.9960218071937561}]}
+{"id": "mypii-u3-00009", "spans": [{"mula": 176, "tamat": 190, "label": "phone number", "teks": "+60 83 527 157", "skor": 0.9995373487472534}]}
+{"id": "mypii-u3-00010", "spans": []}
+{"id": "mypii-u3-00011", "spans": []}
+{"id": "mypii-u3-00012", "spans": []}
+{"id": "mypii-u3-00013", "spans": []}
+{"id": "mypii-u3-00014", "spans": [{"mula": 215, "tamat": 226, "label": "phone number", "teks": "016 3668813", "skor": 0.9947362542152405}]}
+{"id": "mypii-u3-00015", "spans": []}
+{"id": "mypii-u3-00016", "spans": [{"mula": 194, "tamat": 205, "label": "phone number", "teks": "082 859 0O3", "skor": 0.9994733929634094}]}
+{"id": "mypii-u3-00017", "spans": [{"mula": 91, "tamat": 103, "label": "registration number", "teks": "202305842360", "skor": 0.7227504849433899}, {"mula": 158, "tamat": 170, "label": "phone number", "teks": "+6089-703529", "skor": 0.9957829713821411}]}
+{"id": "mypii-u3-00018", "spans": []}
+{"id": "mypii-u3-00019", "spans": [{"mula": 207, "tamat": 218, "label": "phone number", "teks": "082-269 739", "skor": 0.997306227684021}]}
+{"id": "mypii-u3-00020", "spans": [{"mula": 272, "tamat": 284, "label": "phone number", "teks": "+60199577399", "skor": 0.9987708926200867}]}
+{"id": "mypii-u3-00021", "spans": [{"mula": 220, "tamat": 231, "label": "phone number", "teks": "013969 3095", "skor": 0.9973267316818237}]}
+{"id": "mypii-u3-00022", "spans": []}
+{"id": "mypii-u3-00023", "spans": [{"mula": 154, "tamat": 165, "label": "phone number", "teks": "012-351O916", "skor": 0.992060661315918}]}
+{"id": "mypii-u3-00024", "spans": [{"mula": 102, "tamat": 114, "label": "phone number", "teks": "03-5579 9257", "skor": 0.9984776377677917}]}
+{"id": "mypii-u3-00025", "spans": []}
+{"id": "mypii-u3-00026", "spans": []}
+{"id": "mypii-u3-00027", "spans": []}
+{"id": "mypii-u3-00028", "spans": [{"mula": 95, "tamat": 106, "label": "phone number", "teks": "084-221 961", "skor": 0.9985163807868958}]}
+{"id": "mypii-u3-00029", "spans": []}
+{"id": "mypii-u3-00030", "spans": []}
+{"id": "mypii-u3-00031", "spans": [{"mula": 140, "tamat": 152, "label": "phone number", "teks": "03-5849 6B33", "skor": 0.9940528273582458}]}
+{"id": "mypii-u3-00032", "spans": [{"mula": 287, "tamat": 298, "label": "phone number", "teks": "010697 4195", "skor": 0.9126409888267517}]}
+{"id": "mypii-u3-00033", "spans": [{"mula": 193, "tamat": 208, "label": "phone number", "teks": "250906-392-1230", "skor": 0.7597067356109619}, {"mula": 239, "tamat": 248, "label": "phone number", "teks": "03-540 90", "skor": 0.9482740759849548}]}
+{"id": "mypii-u3-00034", "spans": []}
+{"id": "mypii-u3-00035", "spans": [{"mula": 155, "tamat": 167, "label": "registration number", "teks": "201504336418", "skor": 0.7770056128501892}, {"mula": 212, "tamat": 223, "label": "phone number", "teks": "017\n8106899", "skor": 0.9305568337440491}]}
+{"id": "mypii-u3-00036", "spans": [{"mula": 147, "tamat": 161, "label": "phone number", "teks": "019-373 220395", "skor": 0.9205273985862732}]}
+{"id": "mypii-u3-00037", "spans": [{"mula": 201, "tamat": 212, "label": "phone number", "teks": "084 365 962", "skor": 0.9434868693351746}]}
+{"id": "mypii-u3-00038", "spans": []}
+{"id": "mypii-u3-00039", "spans": [{"mula": 133, "tamat": 149, "label": "phone number", "teks": "1056 9226 8012 6", "skor": 0.8130321502685547}]}
+{"id": "mypii-u3-00040", "spans": [{"mula": 239, "tamat": 258, "label": "identity card number", "teks": "kad pengenalan asal", "skor": 0.8316713571548462}]}
+{"id": "mypii-u3-00041", "spans": [{"mula": 49, "tamat": 66, "label": "registration number", "teks": "NRIC 950226434S09", "skor": 0.5766698122024536}]}
+{"id": "mypii-u3-00042", "spans": []}
+{"id": "mypii-u3-00043", "spans": []}
+{"id": "mypii-u3-00044", "spans": [{"mula": 245, "tamat": 257, "label": "phone number", "teks": "+6089-888175", "skor": 0.9986029267311096}]}
+{"id": "mypii-u3-00045", "spans": [{"mula": 222, "tamat": 236, "label": "phone number", "teks": "+6013 975 2331", "skor": 0.9994639754295349}]}
+{"id": "mypii-u3-00046", "spans": []}
+{"id": "mypii-u3-00047", "spans": []}
+{"id": "mypii-u3-00048", "spans": [{"mula": 147, "tamat": 158, "label": "phone number", "teks": "089 464 311", "skor": 0.9990721940994263}]}
+{"id": "mypii-u3-00049", "spans": [{"mula": 107, "tamat": 116, "label": "phone number", "teks": "015-59158", "skor": 0.9606168866157532}]}
+{"id": "mypii-u3-00050", "spans": []}
+{"id": "mypii-u3-00051", "spans": [{"mula": 108, "tamat": 119, "label": "phone number", "teks": "06-334 8l20", "skor": 0.9916667342185974}, {"mula": 180, "tamat": 192, "label": "registration number", "teks": "2O2206054027", "skor": 0.7763171195983887}]}
+{"id": "mypii-u3-00052", "spans": [{"mula": 118, "tamat": 130, "label": "phone number", "teks": "+6085-267678", "skor": 0.9401714205741882}, {"mula": 147, "tamat": 160, "label": "phone number", "teks": "019\n  9074817", "skor": 0.8412104845046997}]}
+{"id": "mypii-u3-00053", "spans": [{"mula": 106, "tamat": 118, "label": "phone number", "teks": "085 \n652 300", "skor": 0.9953871369361877}]}
+{"id": "mypii-u3-00054", "spans": [{"mula": 92, "tamat": 104, "label": "phone number", "teks": "013-772 15S3", "skor": 0.9973598122596741}]}
+{"id": "mypii-u3-00055", "spans": []}
+{"id": "mypii-u3-00056", "spans": [{"mula": 233, "tamat": 241, "label": "registration number", "teks": "944474-H", "skor": 0.9808427691459656}]}
+{"id": "mypii-u3-00057", "spans": [{"mula": 224, "tamat": 235, "label": "phone number", "teks": "019-5S64472", "skor": 0.9984896183013916}]}
+{"id": "mypii-u3-00058", "spans": [{"mula": 99, "tamat": 111, "label": "registration number", "teks": "202305313680", "skor": 0.7873544096946716}, {"mula": 148, "tamat": 159, "label": "phone number", "teks": "084-706 5l9", "skor": 0.9684485197067261}]}
+{"id": "mypii-u3-00059", "spans": [{"mula": 240, "tamat": 251, "label": "phone number", "teks": "086-438 370", "skor": 0.9947825074195862}]}
+{"id": "mypii-u3-00060", "spans": [{"mula": 66, "tamat": 79, "label": "identity card number", "teks": "100325\n916465", "skor": 0.5102164149284363}, {"mula": 98, "tamat": 109, "label": "phone number", "teks": "016 8703011", "skor": 0.995051920413971}]}
+{"id": "mypii-u3-00061", "spans": [{"mula": 101, "tamat": 112, "label": "phone number", "teks": "0B8 437 041", "skor": 0.996857762336731}]}
+{"id": "mypii-u3-00062", "spans": []}
+{"id": "mypii-u3-00063", "spans": []}
+{"id": "mypii-u3-00064", "spans": [{"mula": 191, "tamat": 200, "label": "phone number", "teks": "017-76759", "skor": 0.9849099516868591}]}
+{"id": "mypii-u3-00065", "spans": [{"mula": 244, "tamat": 253, "label": "phone number", "teks": "03-946 56", "skor": 0.9962659478187561}]}
+{"id": "mypii-u3-00066", "spans": []}
+{"id": "mypii-u3-00067", "spans": [{"mula": 89, "tamat": 102, "label": "phone number", "teks": "014 223 \n5492", "skor": 0.9981635212898254}]}
+{"id": "mypii-u3-00068", "spans": []}
+{"id": "mypii-u3-00069", "spans": []}
+{"id": "mypii-u3-00070", "spans": [{"mula": 119, "tamat": 138, "label": "identity card number", "teks": "IC 931016\n  59 4870", "skor": 0.5205538868904114}, {"mula": 145, "tamat": 157, "label": "phone number", "teks": "016-765 3062", "skor": 0.9976314306259155}]}
+{"id": "mypii-u3-00071", "spans": [{"mula": 92, "tamat": 104, "label": "registration number", "teks": "2O1204048547", "skor": 0.9533565640449524}, {"mula": 161, "tamat": 172, "label": "phone number", "teks": "0l0328 2409", "skor": 0.9980777502059937}]}
+{"id": "mypii-u3-00072", "spans": []}
+{"id": "mypii-u3-00073", "spans": []}
+{"id": "mypii-u3-00074", "spans": [{"mula": 140, "tamat": 151, "label": "phone number", "teks": "016363\n3645", "skor": 0.9980770349502563}]}
+{"id": "mypii-u3-00075", "spans": []}
+{"id": "mypii-u3-00076", "spans": [{"mula": 67, "tamat": 79, "label": "phone number", "teks": "(088) 906031", "skor": 0.9980886578559875}]}
+{"id": "mypii-u3-00077", "spans": []}
+{"id": "mypii-u3-00078", "spans": []}
+{"id": "mypii-u3-00079", "spans": [{"mula": 195, "tamat": 209, "label": "phone number", "teks": "+60 13 2670840", "skor": 0.9990708827972412}]}
+{"id": "mypii-u3-00080", "spans": []}
+{"id": "mypii-u3-00081", "spans": []}
+{"id": "mypii-u3-00082", "spans": []}
+{"id": "mypii-u3-00083", "spans": [{"mula": 159, "tamat": 173, "label": "phone number", "teks": "030705 59 3076", "skor": 0.8969619870185852}]}
+{"id": "mypii-u3-00084", "spans": []}
+{"id": "mypii-u3-00085", "spans": []}
+{"id": "mypii-u3-00086", "spans": []}
+{"id": "mypii-u3-00087", "spans": []}
+{"id": "mypii-u3-00088", "spans": []}
+{"id": "mypii-u3-00089", "spans": [{"mula": 208, "tamat": 219, "label": "phone number", "teks": "0B9-908 231", "skor": 0.9664348363876343}]}
+{"id": "mypii-u3-00090", "spans": [{"mula": 187, "tamat": 196, "label": "phone number", "teks": "018-88872", "skor": 0.9862303137779236}]}
+{"id": "mypii-u3-00091", "spans": []}
+{"id": "mypii-u3-00092", "spans": [{"mula": 140, "tamat": 151, "label": "phone number", "teks": "083-584 533", "skor": 0.9682497382164001}]}
+{"id": "mypii-u3-00093", "spans": []}
+{"id": "mypii-u3-00094", "spans": []}
+{"id": "mypii-u3-00095", "spans": []}
+{"id": "mypii-u3-00096", "spans": [{"mula": 127, "tamat": 138, "label": "phone number", "teks": "010-7816l26", "skor": 0.9931272268295288}]}
+{"id": "mypii-u3-00097", "spans": [{"mula": 73, "tamat": 86, "label": "phone number", "teks": "017\n  5699827", "skor": 0.9939879179000854}]}
+{"id": "mypii-u3-00098", "spans": []}
+{"id": "mypii-u3-00099", "spans": [{"mula": 96, "tamat": 106, "label": "phone number", "teks": "0148353742", "skor": 0.9921143054962158}]}
+{"id": "mypii-u3-00100", "spans": [{"mula": 232, "tamat": 240, "label": "phone number", "teks": "05367182", "skor": 0.9985255599021912}]}
+{"id": "mypii-u3-00101", "spans": [{"mula": 197, "tamat": 207, "label": "registration number", "teks": "9859575238", "skor": 0.6481273770332336}]}
+{"id": "mypii-u3-00102", "spans": [{"mula": 128, "tamat": 145, "label": "identity card number", "teks": "IC 720405-91-8519", "skor": 0.5295724868774414}, {"mula": 152, "tamat": 164, "label": "phone number", "teks": "017 694 9834", "skor": 0.9982750415802002}]}
+{"id": "mypii-u3-00103", "spans": [{"mula": 186, "tamat": 194, "label": "phone number", "teks": "02864609", "skor": 0.9636048674583435}]}
+{"id": "mypii-u3-00104", "spans": [{"mula": 159, "tamat": 171, "label": "phone number", "teks": "+60B2-453599", "skor": 0.9973124265670776}]}
+{"id": "mypii-u3-00105", "spans": [{"mula": 56, "tamat": 72, "label": "identity card number", "teks": "IC: 410712544569", "skor": 0.5687834024429321}, {"mula": 229, "tamat": 241, "label": "phone number", "teks": "011 29619286", "skor": 0.9925941824913025}]}
+{"id": "mypii-u3-00106", "spans": []}
+{"id": "mypii-u3-00107", "spans": [{"mula": 136, "tamat": 148, "label": "identity card number", "teks": "460522S46709", "skor": 0.5559414029121399}, {"mula": 154, "tamat": 165, "label": "phone number", "teks": "0l6-3206541", "skor": 0.9991365075111389}]}
+{"id": "mypii-u3-00108", "spans": []}
+{"id": "mypii-u3-00109", "spans": []}
+{"id": "mypii-u3-00110", "spans": [{"mula": 184, "tamat": 195, "label": "phone number", "teks": "088 804 820", "skor": 0.9990561604499817}]}
+{"id": "mypii-u3-00111", "spans": [{"mula": 91, "tamat": 103, "label": "registration number", "teks": "202506332249", "skor": 0.7912421822547913}, {"mula": 143, "tamat": 155, "label": "phone number", "teks": "+6083-494404", "skor": 0.9798070192337036}]}
+{"id": "mypii-u3-00112", "spans": []}
+{"id": "mypii-u3-00113", "spans": [{"mula": 188, "tamat": 200, "label": "phone number", "teks": "(086) 984541", "skor": 0.9988565444946289}]}
+{"id": "mypii-u3-00114", "spans": [{"mula": 205, "tamat": 216, "label": "phone number", "teks": "089-263 580", "skor": 0.9979377388954163}]}
+{"id": "mypii-u3-00115", "spans": [{"mula": 274, "tamat": 288, "label": "phone number", "teks": "017\n  802 2791", "skor": 0.9982532858848572}]}
+{"id": "mypii-u3-00116", "spans": [{"mula": 53, "tamat": 68, "label": "registration number", "teks": "2024\n  05698190", "skor": 0.6405771970748901}, {"mula": 224, "tamat": 236, "label": "phone number", "teks": "012 785 8411", "skor": 0.9271586537361145}]}
+{"id": "mypii-u3-00117", "spans": [{"mula": 54, "tamat": 68, "label": "registration number", "teks": "970511-39-0627", "skor": 0.8231370449066162}, {"mula": 74, "tamat": 86, "label": "phone number", "teks": "03-9039 3375", "skor": 0.9959216117858887}]}
+{"id": "mypii-u3-00118", "spans": [{"mula": 245, "tamat": 253, "label": "registration number", "teks": "930950-D", "skor": 0.977803111076355}]}
+{"id": "mypii-u3-00119", "spans": [{"mula": 104, "tamat": 116, "label": "phone number", "teks": "(085) 543222", "skor": 0.9988368153572083}, {"mula": 171, "tamat": 183, "label": "registration number", "teks": "202306671758", "skor": 0.5262360572814941}]}
+{"id": "mypii-u3-00120", "spans": []}
+{"id": "mypii-u3-00121", "spans": [{"mula": 82, "tamat": 91, "label": "registration number", "teks": "1228979-B", "skor": 0.6851977109909058}, {"mula": 222, "tamat": 234, "label": "phone number", "teks": "010 684 5162", "skor": 0.9931371212005615}]}
+{"id": "mypii-u3-00122", "spans": [{"mula": 108, "tamat": 120, "label": "phone number", "teks": "03-4034 8085", "skor": 0.9981076717376709}]}
+{"id": "mypii-u3-00123", "spans": []}
+{"id": "mypii-u3-00124", "spans": [{"mula": 129, "tamat": 139, "label": "phone number", "teks": "0195814925", "skor": 0.9923237562179565}]}
+{"id": "mypii-u3-00125", "spans": []}
+{"id": "mypii-u3-00126", "spans": [{"mula": 156, "tamat": 167, "label": "phone number", "teks": "086 351 936", "skor": 0.9991375207901001}]}
+{"id": "mypii-u3-00127", "spans": [{"mula": 118, "tamat": 132, "label": "registration number", "teks": "090215-83-9846", "skor": 0.5469974279403687}, {"mula": 183, "tamat": 191, "label": "phone number", "teks": "06759766", "skor": 0.9939345717430115}]}
+{"id": "mypii-u3-00128", "spans": [{"mula": 74, "tamat": 86, "label": "phone number", "teks": "+6085\n397403", "skor": 0.9985634684562683}]}
+{"id": "mypii-u3-00129", "spans": [{"mula": 116, "tamat": 127, "label": "phone number", "teks": "083-428 273", "skor": 0.9868818521499634}]}
+{"id": "mypii-u3-00130", "spans": []}
+{"id": "mypii-u3-00131", "spans": []}
+{"id": "mypii-u3-00132", "spans": [{"mula": 87, "tamat": 99, "label": "registration number", "teks": "2014063189S9", "skor": 0.7763976454734802}, {"mula": 143, "tamat": 154, "label": "phone number", "teks": "083 502 921", "skor": 0.9993388056755066}]}
+{"id": "mypii-u3-00133", "spans": []}
+{"id": "mypii-u3-00134", "spans": []}
+{"id": "mypii-u3-00135", "spans": []}
+{"id": "mypii-u3-00136", "spans": [{"mula": 114, "tamat": 125, "label": "phone number", "teks": "086-349 325", "skor": 0.9810458421707153}]}
+{"id": "mypii-u3-00137", "spans": [{"mula": 122, "tamat": 139, "label": "registration number", "teks": "Reg. 201804735397", "skor": 0.8386124968528748}, {"mula": 189, "tamat": 200, "label": "phone number", "teks": "083-4O5 534", "skor": 0.9912860989570618}]}
+{"id": "mypii-u3-00138", "spans": []}
+{"id": "mypii-u3-00139", "spans": []}
+{"id": "mypii-u3-00140", "spans": [{"mula": 88, "tamat": 100, "label": "registration number", "teks": "201405354653", "skor": 0.7947728633880615}, {"mula": 146, "tamat": 161, "label": "phone number", "teks": "+60 19 6O3 0693", "skor": 0.9998114705085754}]}
+{"id": "mypii-u3-00141", "spans": [{"mula": 98, "tamat": 113, "label": "phone number", "teks": "+60 17-791 4111", "skor": 0.9994997978210449}]}
+{"id": "mypii-u3-00142", "spans": []}
+{"id": "mypii-u3-00143", "spans": [{"mula": 133, "tamat": 145, "label": "phone number", "teks": "015-641 1975", "skor": 0.97328782081604}]}
+{"id": "mypii-u3-00144", "spans": [{"mula": 159, "tamat": 173, "label": "phone number", "teks": "+60 88 249 116", "skor": 0.999211311340332}]}
+{"id": "mypii-u3-00145", "spans": [{"mula": 237, "tamat": 246, "label": "phone number", "teks": "018-71989", "skor": 0.7151811122894287}]}
+{"id": "mypii-u3-00146", "spans": []}
+{"id": "mypii-u3-00147", "spans": []}
+{"id": "mypii-u3-00148", "spans": [{"mula": 61, "tamat": 73, "label": "registration number", "teks": "20l205308613", "skor": 0.9255813956260681}]}
+{"id": "mypii-u3-00149", "spans": []}
+{"id": "mypii-u3-00150", "spans": [{"mula": 168, "tamat": 182, "label": "identity card number", "teks": "480131 50 7353", "skor": 0.9363344311714172}, {"mula": 231, "tamat": 242, "label": "phone number", "teks": "01167002054", "skor": 0.999639630317688}]}
+{"id": "mypii-u3-00151", "spans": []}
+{"id": "mypii-u3-00152", "spans": [{"mula": 195, "tamat": 207, "label": "phone number", "teks": "+6084-833067", "skor": 0.9990437626838684}]}
+{"id": "mypii-u3-00153", "spans": [{"mula": 194, "tamat": 206, "label": "phone number", "teks": "(085) 528360", "skor": 0.9987049102783203}]}
+{"id": "mypii-u3-00154", "spans": [{"mula": 153, "tamat": 165, "label": "phone number", "teks": "(0B8) 746493", "skor": 0.9734594821929932}]}
+{"id": "mypii-u3-00155", "spans": [{"mula": 121, "tamat": 132, "label": "phone number", "teks": "09-661 06l9", "skor": 0.9871416091918945}]}
+{"id": "mypii-u3-00156", "spans": [{"mula": 193, "tamat": 204, "label": "phone number", "teks": "0l7 2343117", "skor": 0.9915105104446411}]}
+{"id": "mypii-u3-00157", "spans": [{"mula": 102, "tamat": 114, "label": "registration number", "teks": "2O1206092461", "skor": 0.9640650749206543}, {"mula": 170, "tamat": 180, "label": "phone number", "teks": "0l96422818", "skor": 0.997127115726471}]}
+{"id": "mypii-u3-00158", "spans": []}
+{"id": "mypii-u3-00159", "spans": [{"mula": 63, "tamat": 75, "label": "registration number", "teks": "12O922913496", "skor": 0.6399120092391968}, {"mula": 86, "tamat": 96, "label": "phone number", "teks": "010B463737", "skor": 0.9907442927360535}]}
+{"id": "mypii-u3-00160", "spans": []}
+{"id": "mypii-u3-00161", "spans": [{"mula": 221, "tamat": 237, "label": "registration number", "teks": "slip pendaftaran", "skor": 0.6653907895088196}]}
+{"id": "mypii-u3-00162", "spans": [{"mula": 70, "tamat": 82, "label": "registration number", "teks": "981204068459", "skor": 0.6351466774940491}, {"mula": 170, "tamat": 183, "label": "phone number", "teks": "+60 186090241", "skor": 0.998833954334259}]}
+{"id": "mypii-u3-00163", "spans": []}
+{"id": "mypii-u3-00164", "spans": []}
+{"id": "mypii-u3-00165", "spans": []}
+{"id": "mypii-u3-00166", "spans": []}
+{"id": "mypii-u3-00167", "spans": []}
+{"id": "mypii-u3-00168", "spans": []}
+{"id": "mypii-u3-00169", "spans": [{"mula": 58, "tamat": 70, "label": "registration number", "teks": "201305620985", "skor": 0.6048222184181213}, {"mula": 219, "tamat": 231, "label": "phone number", "teks": "03-7673 6598", "skor": 0.997714638710022}]}
+{"id": "mypii-u3-00170", "spans": []}
+{"id": "mypii-u3-00171", "spans": [{"mula": 224, "tamat": 243, "label": "identity card number", "teks": "kad pengenalan asal", "skor": 0.8534484505653381}]}
+{"id": "mypii-u3-00172", "spans": []}
+{"id": "mypii-u3-00173", "spans": [{"mula": 220, "tamat": 236, "label": "registration number", "teks": "slip pendaftaran", "skor": 0.6792898178100586}]}
+{"id": "mypii-u3-00174", "spans": []}
+{"id": "mypii-u3-00175", "spans": [{"mula": 227, "tamat": 246, "label": "identity card number", "teks": "kad pengenalan asal", "skor": 0.8436105251312256}]}
+{"id": "mypii-u3-00176", "spans": []}
+{"id": "mypii-u3-00177", "spans": []}
+{"id": "mypii-u3-00178", "spans": [{"mula": 117, "tamat": 129, "label": "phone number", "teks": "019-500\n7992", "skor": 0.9977043271064758}]}
+{"id": "mypii-u3-00179", "spans": [{"mula": 161, "tamat": 171, "label": "phone number", "teks": "01469B0338", "skor": 0.9982824325561523}]}
+{"id": "mypii-u3-00180", "spans": []}
+{"id": "mypii-u3-00181", "spans": []}
+{"id": "mypii-u3-00182", "spans": [{"mula": 147, "tamat": 162, "label": "phone number", "teks": "+60 12-992 7514", "skor": 0.9994950294494629}]}
+{"id": "mypii-u3-00183", "spans": []}
+{"id": "mypii-u3-00184", "spans": []}
+{"id": "mypii-u3-00185", "spans": [{"mula": 200, "tamat": 214, "label": "phone number", "teks": "+60 87 247 260", "skor": 0.9995980858802795}]}
+{"id": "mypii-u3-00186", "spans": []}
+{"id": "mypii-u3-00187", "spans": [{"mula": 101, "tamat": 113, "label": "phone number", "teks": "05082026-630", "skor": 0.808245837688446}]}
+{"id": "mypii-u3-00188", "spans": [{"mula": 110, "tamat": 123, "label": "phone number", "teks": "011 \n11944617", "skor": 0.9943273663520813}]}
+{"id": "mypii-u3-00189", "spans": []}
+{"id": "mypii-u3-00190", "spans": [{"mula": 131, "tamat": 143, "label": "phone number", "teks": "010 521 39S1", "skor": 0.9980156421661377}]}
+{"id": "mypii-u3-00191", "spans": []}
+{"id": "mypii-u3-00192", "spans": [{"mula": 92, "tamat": 104, "label": "registration number", "teks": "202005876997", "skor": 0.8519992232322693}, {"mula": 137, "tamat": 148, "label": "phone number", "teks": "087 228 115", "skor": 0.9931843876838684}]}
+{"id": "mypii-u3-00193", "spans": []}
+{"id": "mypii-u3-00194", "spans": [{"mula": 258, "tamat": 270, "label": "phone number", "teks": "03-3048 2635", "skor": 0.9983959794044495}]}
+{"id": "mypii-u3-00195", "spans": []}
+{"id": "mypii-u3-00196", "spans": [{"mula": 87, "tamat": 99, "label": "phone number", "teks": "(083) 240079", "skor": 0.9990673661231995}]}
+{"id": "mypii-u3-00197", "spans": []}
+{"id": "mypii-u3-00198", "spans": [{"mula": 138, "tamat": 147, "label": "phone number", "teks": "03-685 55", "skor": 0.9909163117408752}]}
+{"id": "mypii-u3-00199", "spans": []}
+{"id": "mypii-u3-00200", "spans": [{"mula": 240, "tamat": 254, "label": "phone number", "teks": "012-676 181728", "skor": 0.8090811371803284}]}
+{"id": "mypii-u3-00201", "spans": []}
+{"id": "mypii-u3-00202", "spans": [{"mula": 252, "tamat": 260, "label": "registration number", "teks": "697602-F", "skor": 0.9721882343292236}]}
+{"id": "mypii-u3-00203", "spans": [{"mula": 81, "tamat": 90, "label": "registration number", "teks": "1343402-M", "skor": 0.6537646055221558}, {"mula": 219, "tamat": 233, "label": "phone number", "teks": "+60 14-8539050", "skor": 0.9925318360328674}]}
+{"id": "mypii-u3-00204", "spans": []}
+{"id": "mypii-u3-00205", "spans": []}
+{"id": "mypii-u3-00206", "spans": [{"mula": 246, "tamat": 259, "label": "phone number", "teks": "+6019 2438032", "skor": 0.9985529780387878}]}
+{"id": "mypii-u3-00207", "spans": []}
+{"id": "mypii-u3-00208", "spans": [{"mula": 130, "tamat": 147, "label": "registration number", "teks": "Reg. 201905248825", "skor": 0.8590531945228577}, {"mula": 197, "tamat": 207, "label": "phone number", "teks": "088-315253", "skor": 0.9979457259178162}]}
+{"id": "mypii-u3-00209", "spans": [{"mula": 161, "tamat": 173, "label": "phone number", "teks": "03-7717 0045", "skor": 0.9985560774803162}]}
+{"id": "mypii-u3-00210", "spans": []}
+{"id": "mypii-u3-00211", "spans": [{"mula": 102, "tamat": 117, "label": "phone number", "teks": "260418-767-5078", "skor": 0.6269406080245972}]}
+{"id": "mypii-u3-00212", "spans": [{"mula": 239, "tamat": 253, "label": "phone number", "teks": "017-895 563022", "skor": 0.9978551268577576}]}
+{"id": "mypii-u3-00213", "spans": [{"mula": 178, "tamat": 192, "label": "phone number", "teks": "018-837 298051", "skor": 0.9940663576126099}]}
+{"id": "mypii-u3-00214", "spans": []}
+{"id": "mypii-u3-00215", "spans": [{"mula": 68, "tamat": 80, "label": "registration number", "teks": "2012066591O4", "skor": 0.8962346315383911}]}
+{"id": "mypii-u3-00216", "spans": [{"mula": 248, "tamat": 262, "label": "phone number", "teks": "018-165 754325", "skor": 0.7903232574462891}]}
+{"id": "mypii-u3-00217", "spans": [{"mula": 106, "tamat": 120, "label": "phone number", "teks": "+60 16-24677S6", "skor": 0.9988059997558594}]}
+{"id": "mypii-u3-00218", "spans": []}
+{"id": "mypii-u3-00219", "spans": [{"mula": 155, "tamat": 167, "label": "phone number", "teks": "015-852 7882", "skor": 0.9894750118255615}]}
+{"id": "mypii-u3-00220", "spans": []}
+{"id": "mypii-u3-00221", "spans": [{"mula": 80, "tamat": 94, "label": "registration number", "teks": "72O514 30 6920", "skor": 0.7351148128509521}, {"mula": 107, "tamat": 119, "label": "phone number", "teks": "013 412 32S8", "skor": 0.9958426356315613}]}
+{"id": "mypii-u3-00222", "spans": [{"mula": 92, "tamat": 104, "label": "phone number", "teks": "+6086-870052", "skor": 0.9988967180252075}]}
+{"id": "mypii-u3-00223", "spans": [{"mula": 152, "tamat": 164, "label": "phone number", "teks": "0114691 1943", "skor": 0.9962478280067444}]}
+{"id": "mypii-u3-00224", "spans": []}
+{"id": "mypii-u3-00225", "spans": [{"mula": 227, "tamat": 239, "label": "phone number", "teks": "011 75600360", "skor": 0.998101532459259}]}
+{"id": "mypii-u3-00226", "spans": []}
+{"id": "mypii-u3-00227", "spans": [{"mula": 192, "tamat": 202, "label": "phone number", "teks": "0172273857", "skor": 0.9965499639511108}]}
+{"id": "mypii-u3-00228", "spans": []}
+{"id": "mypii-u3-00229", "spans": []}
+{"id": "mypii-u3-00230", "spans": []}
+{"id": "mypii-u3-00231", "spans": [{"mula": 178, "tamat": 191, "label": "phone number", "teks": "+6013 7157285", "skor": 0.9996737241744995}]}
+{"id": "mypii-u3-00232", "spans": []}
+{"id": "mypii-u3-00233", "spans": []}
+{"id": "mypii-u3-00234", "spans": [{"mula": 112, "tamat": 126, "label": "phone number", "teks": "+60-10 5994823", "skor": 0.9993927478790283}]}
+{"id": "mypii-u3-00235", "spans": [{"mula": 206, "tamat": 220, "label": "phone number", "teks": "031113 62 1892", "skor": 0.8337848782539368}]}
+{"id": "mypii-u3-00236", "spans": []}
+{"id": "mypii-u3-00237", "spans": []}
+{"id": "mypii-u3-00238", "spans": [{"mula": 102, "tamat": 114, "label": "phone number", "teks": "0l2 245 3264", "skor": 0.9964025020599365}]}
+{"id": "mypii-u3-00239", "spans": [{"mula": 158, "tamat": 169, "label": "phone number", "teks": "082 271 394", "skor": 0.9975445866584778}]}
+{"id": "mypii-u3-00240", "spans": []}
+{"id": "mypii-u3-00241", "spans": []}
+{"id": "mypii-u3-00242", "spans": []}
+{"id": "mypii-u3-00243", "spans": [{"mula": 139, "tamat": 151, "label": "phone number", "teks": "+6087-433345", "skor": 0.9988195300102234}]}
+{"id": "mypii-u3-00244", "spans": [{"mula": 184, "tamat": 195, "label": "phone number", "teks": "082 895 021", "skor": 0.9990347623825073}]}
+{"id": "mypii-u3-00245", "spans": []}
+{"id": "mypii-u3-00246", "spans": [{"mula": 151, "tamat": 163, "label": "phone number", "teks": "+6086-211766", "skor": 0.9989249110221863}]}
+{"id": "mypii-u3-00247", "spans": []}
+{"id": "mypii-u3-00248", "spans": [{"mula": 78, "tamat": 90, "label": "registration number", "teks": "201506485978", "skor": 0.7926673889160156}, {"mula": 145, "tamat": 156, "label": "phone number", "teks": "088 265 152", "skor": 0.9991310238838196}]}
+{"id": "mypii-u3-00249", "spans": [{"mula": 161, "tamat": 173, "label": "identity card number", "teks": "730714988708", "skor": 0.9203253388404846}, {"mula": 222, "tamat": 234, "label": "phone number", "teks": "016 689 2971", "skor": 0.9996720552444458}]}
+{"id": "mypii-u3-00250", "spans": [{"mula": 143, "tamat": 151, "label": "phone number", "teks": "06462728", "skor": 0.996788740158081}]}
+{"id": "mypii-u3-00251", "spans": [{"mula": 86, "tamat": 99, "label": "phone number", "teks": "016 271 \n6470", "skor": 0.9984574317932129}, {"mula": 152, "tamat": 166, "label": "registration number", "teks": "202106 \n878486", "skor": 0.8227613568305969}]}
+{"id": "mypii-u3-00252", "spans": [{"mula": 73, "tamat": 86, "label": "phone number", "teks": "05\n  380 2532", "skor": 0.9987040758132935}]}
+{"id": "mypii-u3-00253", "spans": [{"mula": 102, "tamat": 117, "label": "phone number", "teks": "250724-509-0277", "skor": 0.8409975171089172}]}
+{"id": "mypii-u3-00254", "spans": []}
+{"id": "mypii-u3-00255", "spans": [{"mula": 138, "tamat": 151, "label": "phone number", "teks": "+6089 \n681723", "skor": 0.9993263483047485}]}
+{"id": "mypii-u3-00256", "spans": [{"mula": 261, "tamat": 272, "label": "phone number", "teks": "05-354 3586", "skor": 0.9965625405311584}]}
+{"id": "mypii-u3-00257", "spans": []}
+{"id": "mypii-u3-00258", "spans": [{"mula": 187, "tamat": 199, "label": "phone number", "teks": "017 919 1302", "skor": 0.9984146356582642}]}
+{"id": "mypii-u3-00259", "spans": [{"mula": 121, "tamat": 138, "label": "registration number", "teks": "Reg. 202505074232", "skor": 0.863538920879364}, {"mula": 188, "tamat": 199, "label": "phone number", "teks": "084-787 253", "skor": 0.9952816367149353}]}
+{"id": "mypii-u3-00260", "spans": [{"mula": 195, "tamat": 203, "label": "phone number", "teks": "05526902", "skor": 0.9923921227455139}]}
+{"id": "mypii-u3-00261", "spans": [{"mula": 240, "tamat": 254, "label": "phone number", "teks": "017-940 574741", "skor": 0.997978150844574}]}
+{"id": "mypii-u3-00262", "spans": [{"mula": 56, "tamat": 71, "label": "registration number", "teks": "2012\n  06285463", "skor": 0.701816976070404}, {"mula": 229, "tamat": 243, "label": "phone number", "teks": "+60-13-2276569", "skor": 0.7067833542823792}]}
+{"id": "mypii-u3-00263", "spans": []}
+{"id": "mypii-u3-00264", "spans": [{"mula": 199, "tamat": 210, "label": "phone number", "teks": "01170891940", "skor": 0.9986701011657715}]}
+{"id": "mypii-u3-00265", "spans": [{"mula": 90, "tamat": 104, "label": "phone number", "teks": "+60 88 642 982", "skor": 0.9996320009231567}]}
+{"id": "mypii-u3-00266", "spans": [{"mula": 96, "tamat": 108, "label": "phone number", "teks": "018 \n6409013", "skor": 0.9975181818008423}]}
+{"id": "mypii-u3-00267", "spans": []}
+{"id": "mypii-u3-00268", "spans": [{"mula": 220, "tamat": 236, "label": "registration number", "teks": "slip pendaftaran", "skor": 0.6689733862876892}]}
+{"id": "mypii-u3-00269", "spans": []}
+{"id": "mypii-u3-00270", "spans": [{"mula": 181, "tamat": 193, "label": "phone number", "teks": "(085) 551824", "skor": 0.9996814727783203}]}
+{"id": "mypii-u3-00271", "spans": [{"mula": 114, "tamat": 126, "label": "phone number", "teks": "011-49945B27", "skor": 0.9260110259056091}]}
+{"id": "mypii-u3-00272", "spans": []}
+{"id": "mypii-u3-00273", "spans": []}
+{"id": "mypii-u3-00274", "spans": []}
+{"id": "mypii-u3-00275", "spans": [{"mula": 195, "tamat": 207, "label": "phone number", "teks": "015-989 2163", "skor": 0.9970453381538391}]}
+{"id": "mypii-u3-00276", "spans": []}
+{"id": "mypii-u3-00277", "spans": []}
+{"id": "mypii-u3-00278", "spans": [{"mula": 95, "tamat": 107, "label": "registration number", "teks": "201206545484", "skor": 0.7522431015968323}, {"mula": 149, "tamat": 163, "label": "phone number", "teks": "+60 83 2S0 090", "skor": 0.9987258315086365}]}
+{"id": "mypii-u3-00279", "spans": [{"mula": 63, "tamat": 75, "label": "identity card number", "teks": "420131430963", "skor": 0.806938111782074}]}
+{"id": "mypii-u3-00280", "spans": []}
+{"id": "mypii-u3-00281", "spans": []}
+{"id": "mypii-u3-00282", "spans": [{"mula": 271, "tamat": 282, "label": "phone number", "teks": "087-738 444", "skor": 0.9932708144187927}]}
+{"id": "mypii-u3-00283", "spans": []}
+{"id": "mypii-u3-00284", "spans": []}
+{"id": "mypii-u3-00285", "spans": [{"mula": 236, "tamat": 250, "label": "phone number", "teks": "012-640 314435", "skor": 0.995341420173645}]}
+{"id": "mypii-u3-00286", "spans": [{"mula": 113, "tamat": 128, "label": "phone number", "teks": "250124-182-3993", "skor": 0.9657821655273438}]}
+{"id": "mypii-u3-00287", "spans": []}
+{"id": "mypii-u3-00288", "spans": [{"mula": 240, "tamat": 254, "label": "phone number", "teks": "010-313 556140", "skor": 0.8291917443275452}]}
+{"id": "mypii-u3-00289", "spans": [{"mula": 249, "tamat": 260, "label": "phone number", "teks": "0B5-271 440", "skor": 0.9797333478927612}]}
+{"id": "mypii-u3-00290", "spans": []}
+{"id": "mypii-u3-00291", "spans": [{"mula": 62, "tamat": 78, "label": "identity card number", "teks": "930322-37\n  1307", "skor": 0.8379852771759033}]}
+{"id": "mypii-u3-00292", "spans": []}
+{"id": "mypii-u3-00293", "spans": [{"mula": 206, "tamat": 217, "label": "phone number", "teks": "082 250 926", "skor": 0.99869304895401}]}
+{"id": "mypii-u3-00294", "spans": [{"mula": 100, "tamat": 111, "label": "phone number", "teks": "0B6-544 383", "skor": 0.9958181977272034}]}
+{"id": "mypii-u3-00295", "spans": [{"mula": 78, "tamat": 92, "label": "phone number", "teks": "+60-10-91497l9", "skor": 0.9985550045967102}]}
+{"id": "mypii-u3-00296", "spans": [{"mula": 158, "tamat": 172, "label": "phone number", "teks": "018-799 187928", "skor": 0.6684344410896301}]}
+{"id": "mypii-u3-00297", "spans": [{"mula": 95, "tamat": 107, "label": "registration number", "teks": "20190S589675", "skor": 0.9640759229660034}, {"mula": 162, "tamat": 174, "label": "phone number", "teks": "0l7-430 8714", "skor": 0.9975670576095581}]}
+{"id": "mypii-u3-00298", "spans": [{"mula": 156, "tamat": 167, "label": "phone number", "teks": "0B3 526 829", "skor": 0.9910382032394409}]}
+{"id": "mypii-u3-00299", "spans": []}
+{"id": "mypii-u3-00300", "spans": []}
+{"id": "mypii-u3-00301", "spans": []}
+{"id": "mypii-u3-00302", "spans": []}
+{"id": "mypii-u3-00303", "spans": [{"mula": 99, "tamat": 111, "label": "registration number", "teks": "202404155492", "skor": 0.8364989161491394}, {"mula": 153, "tamat": 165, "label": "phone number", "teks": "(087) 775440", "skor": 0.9953634738922119}]}
+{"id": "mypii-u3-00304", "spans": []}
+{"id": "mypii-u3-00305", "spans": [{"mula": 139, "tamat": 153, "label": "phone number", "teks": "019-164 599760", "skor": 0.9933162331581116}]}
+{"id": "mypii-u3-00306", "spans": []}
+{"id": "mypii-u3-00307", "spans": []}
+{"id": "mypii-u3-00308", "spans": [{"mula": 140, "tamat": 152, "label": "registration number", "teks": "202104962916", "skor": 0.713548481464386}, {"mula": 197, "tamat": 209, "label": "phone number", "teks": "+60146575944", "skor": 0.8105898499488831}]}
+{"id": "mypii-u3-00309", "spans": []}
+{"id": "mypii-u3-00310", "spans": [{"mula": 226, "tamat": 245, "label": "identity card number", "teks": "kad pengenalan asal", "skor": 0.8432687520980835}]}
+{"id": "mypii-u3-00311", "spans": [{"mula": 69, "tamat": 81, "label": "registration number", "teks": "201606207038", "skor": 0.8379742503166199}]}
+{"id": "mypii-u3-00312", "spans": [{"mula": 223, "tamat": 242, "label": "identity card number", "teks": "kad pengenalan asal", "skor": 0.8374089002609253}]}
+{"id": "mypii-u3-00313", "spans": [{"mula": 55, "tamat": 68, "label": "registration number", "teks": "201705\n354385", "skor": 0.74605393409729}, {"mula": 230, "tamat": 241, "label": "phone number", "teks": "0l6-7151043", "skor": 0.7622547149658203}]}
+{"id": "mypii-u3-00314", "spans": [{"mula": 98, "tamat": 109, "label": "phone number", "teks": "016 4636619", "skor": 0.9900383949279785}]}
+{"id": "mypii-u3-00315", "spans": []}
+{"id": "mypii-u3-00316", "spans": [{"mula": 235, "tamat": 247, "label": "phone number", "teks": "015-970 6575", "skor": 0.8165647983551025}]}
+{"id": "mypii-u3-00317", "spans": [{"mula": 207, "tamat": 218, "label": "phone number", "teks": "087 473 299", "skor": 0.8969393968582153}]}
+{"id": "mypii-u3-00318", "spans": [{"mula": 90, "tamat": 104, "label": "identity card number", "teks": "48020479 \n4239", "skor": 0.8187851905822754}, {"mula": 118, "tamat": 132, "label": "phone number", "teks": "+60\n18-2156766", "skor": 0.999616265296936}]}
+{"id": "mypii-u3-00319", "spans": []}
+{"id": "mypii-u3-00320", "spans": [{"mula": 136, "tamat": 144, "label": "phone number", "teks": "03709185", "skor": 0.8986672759056091}]}
+{"id": "mypii-u3-00321", "spans": [{"mula": 170, "tamat": 185, "label": "phone number", "teks": "+60 19 625 7724", "skor": 0.9997289776802063}]}
+{"id": "mypii-u3-00322", "spans": []}
+{"id": "mypii-u3-00323", "spans": []}
+{"id": "mypii-u3-00324", "spans": [{"mula": 154, "tamat": 163, "label": "phone number", "teks": "03-463 52", "skor": 0.986301064491272}]}
+{"id": "mypii-u3-00325", "spans": []}
+{"id": "mypii-u3-00326", "spans": [{"mula": 109, "tamat": 123, "label": "registration number", "teks": "981114 68 9187", "skor": 0.5709390640258789}, {"mula": 174, "tamat": 183, "label": "phone number", "teks": "03-535 91", "skor": 0.996021568775177}]}
+{"id": "mypii-u3-00327", "spans": []}
+{"id": "mypii-u3-00328", "spans": [{"mula": 189, "tamat": 201, "label": "phone number", "teks": "03062025-055", "skor": 0.716087818145752}, {"mula": 232, "tamat": 244, "label": "phone number", "teks": "015-109 5468", "skor": 0.957334578037262}]}
+{"id": "mypii-u3-00329", "spans": [{"mula": 43, "tamat": 60, "label": "identity card number", "teks": "IC: 46092209\n6148", "skor": 0.615161657333374}, {"mula": 217, "tamat": 227, "label": "phone number", "teks": "0139516935", "skor": 0.6080239415168762}]}
+{"id": "mypii-u3-00330", "spans": [{"mula": 113, "tamat": 123, "label": "phone number", "teks": "087-371178", "skor": 0.9984976053237915}]}
+{"id": "mypii-u3-00331", "spans": []}
+{"id": "mypii-u3-00332", "spans": []}
+{"id": "mypii-u3-00333", "spans": []}
+{"id": "mypii-u3-00334", "spans": []}
+{"id": "mypii-u3-00335", "spans": []}
+{"id": "mypii-u3-00336", "spans": []}
+{"id": "mypii-u3-00337", "spans": [{"mula": 277, "tamat": 289, "label": "phone number", "teks": "+6088-952885", "skor": 0.9982627034187317}]}
+{"id": "mypii-u3-00338", "spans": [{"mula": 245, "tamat": 253, "label": "registration number", "teks": "729855-G", "skor": 0.9729357361793518}]}
+{"id": "mypii-u3-00339", "spans": [{"mula": 140, "tamat": 154, "label": "phone number", "teks": "070204 90 4757", "skor": 0.8422220349311829}]}
+{"id": "mypii-u3-00340", "spans": [{"mula": 77, "tamat": 89, "label": "phone number", "teks": "(0B2) 414090", "skor": 0.9897054433822632}]}
+{"id": "mypii-u3-00341", "spans": [{"mula": 92, "tamat": 104, "label": "phone number", "teks": "+6086-34l991", "skor": 0.9941664934158325}]}
+{"id": "mypii-u3-00342", "spans": [{"mula": 103, "tamat": 114, "label": "phone number", "teks": "04-306 4919", "skor": 0.9903969764709473}]}
+{"id": "mypii-u3-00343", "spans": []}
+{"id": "mypii-u3-00344", "spans": []}
+{"id": "mypii-u3-00345", "spans": [{"mula": 232, "tamat": 246, "label": "phone number", "teks": "019-718 596539", "skor": 0.998497724533081}]}
+{"id": "mypii-u3-00346", "spans": [{"mula": 90, "tamat": 101, "label": "phone number", "teks": "082-250 497", "skor": 0.9972741007804871}]}
+{"id": "mypii-u3-00347", "spans": [{"mula": 71, "tamat": 85, "label": "registration number", "teks": "030419 40 9839", "skor": 0.5723605751991272}, {"mula": 174, "tamat": 184, "label": "phone number", "teks": "089-535533", "skor": 0.9955820441246033}]}
+{"id": "mypii-u3-00348", "spans": []}
+{"id": "mypii-u3-00349", "spans": [{"mula": 183, "tamat": 195, "label": "phone number", "teks": "015-825 6204", "skor": 0.9547150135040283}]}
+{"id": "mypii-u3-00350", "spans": [{"mula": 133, "tamat": 144, "label": "phone number", "teks": "082-458 537", "skor": 0.9970478415489197}]}
+{"id": "mypii-u3-00351", "spans": [{"mula": 241, "tamat": 253, "label": "phone number", "teks": "015-983 2664", "skor": 0.997569739818573}]}
+{"id": "mypii-u3-00352", "spans": []}
+{"id": "mypii-u3-00353", "spans": [{"mula": 114, "tamat": 127, "label": "phone number", "teks": "010\n  2018441", "skor": 0.9927377104759216}]}
+{"id": "mypii-u3-00354", "spans": [{"mula": 79, "tamat": 91, "label": "registration number", "teks": "201506B40239", "skor": 0.8100393414497375}, {"mula": 153, "tamat": 166, "label": "phone number", "teks": "+6013287 7698", "skor": 0.9996893405914307}]}
+{"id": "mypii-u3-00355", "spans": []}
+{"id": "mypii-u3-00356", "spans": [{"mula": 65, "tamat": 77, "label": "phone number", "teks": "(084) 788905", "skor": 0.9989938139915466}]}
+{"id": "mypii-u3-00357", "spans": []}
+{"id": "mypii-u3-00358", "spans": []}
+{"id": "mypii-u3-00359", "spans": [{"mula": 71, "tamat": 83, "label": "registration number", "teks": "201206419S73", "skor": 0.8382567763328552}]}
+{"id": "mypii-u3-00360", "spans": []}
+{"id": "mypii-u3-00361", "spans": [{"mula": 97, "tamat": 112, "label": "phone number", "teks": "+60-14-604 7953", "skor": 0.999409556388855}]}
+{"id": "mypii-u3-00362", "spans": []}
+{"id": "mypii-u3-00363", "spans": [{"mula": 246, "tamat": 255, "label": "phone number", "teks": "03-397 95", "skor": 0.9966176152229309}]}
+{"id": "mypii-u3-00364", "spans": []}
+{"id": "mypii-u3-00365", "spans": [{"mula": 70, "tamat": 82, "label": "registration number", "teks": "880418059838", "skor": 0.6500718593597412}, {"mula": 170, "tamat": 184, "label": "phone number", "teks": "+6014-321 1200", "skor": 0.998594343662262}]}
+{"id": "mypii-u3-00366", "spans": []}
+{"id": "mypii-u3-00367", "spans": [{"mula": 138, "tamat": 147, "label": "phone number", "teks": "03-919 98", "skor": 0.9877086877822876}]}
+{"id": "mypii-u3-00368", "spans": [{"mula": 234, "tamat": 253, "label": "identity card number", "teks": "kad pengenalan asal", "skor": 0.8422931432723999}]}
+{"id": "mypii-u3-00369", "spans": []}
+{"id": "mypii-u3-00370", "spans": []}
+{"id": "mypii-u3-00371", "spans": []}
+{"id": "mypii-u3-00372", "spans": []}
+{"id": "mypii-u3-00373", "spans": []}
+{"id": "mypii-u3-00374", "spans": [{"mula": 194, "tamat": 206, "label": "phone number", "teks": "0l4-315 8644", "skor": 0.9894055724143982}]}
+{"id": "mypii-u3-00375", "spans": [{"mula": 245, "tamat": 256, "label": "phone number", "teks": "083 282 009", "skor": 0.999277651309967}]}
+{"id": "mypii-u3-00376", "spans": [{"mula": 153, "tamat": 165, "label": "phone number", "teks": "(083) 524450", "skor": 0.9995681643486023}]}
+{"id": "mypii-u3-00377", "spans": [{"mula": 128, "tamat": 140, "label": "phone number", "teks": "(084) 355012", "skor": 0.9995607733726501}]}
+{"id": "mypii-u3-00378", "spans": []}
+{"id": "mypii-u3-00379", "spans": []}
+{"id": "mypii-u3-00380", "spans": [{"mula": 139, "tamat": 151, "label": "phone number", "teks": "+6085-673202", "skor": 0.9814019799232483}]}
+{"id": "mypii-u3-00381", "spans": [{"mula": 103, "tamat": 116, "label": "phone number", "teks": "0l1 2429 5036", "skor": 0.9962420463562012}]}
+{"id": "mypii-u3-00382", "spans": [{"mula": 206, "tamat": 218, "label": "phone number", "teks": "015-755 9276", "skor": 0.9826151132583618}]}
+{"id": "mypii-u3-00383", "spans": [{"mula": 194, "tamat": 208, "label": "phone number", "teks": "+60 83 557 575", "skor": 0.9975087642669678}]}
+{"id": "mypii-u3-00384", "spans": [{"mula": 196, "tamat": 207, "label": "phone number", "teks": "087 372 694", "skor": 0.9989503026008606}]}
+{"id": "mypii-u3-00385", "spans": [{"mula": 214, "tamat": 224, "label": "phone number", "teks": "0B3-590598", "skor": 0.992798924446106}]}
+{"id": "mypii-u3-00386", "spans": [{"mula": 237, "tamat": 247, "label": "phone number", "teks": "089-362359", "skor": 0.9990617632865906}]}
+{"id": "mypii-u3-00387", "spans": [{"mula": 224, "tamat": 240, "label": "identity card number", "teks": "440824\n  33-8968", "skor": 0.9184080958366394}, {"mula": 260, "tamat": 272, "label": "phone number", "teks": "03-4131 2569", "skor": 0.9989417195320129}]}
+{"id": "mypii-u3-00388", "spans": [{"mula": 185, "tamat": 199, "label": "phone number", "teks": "019-208 380699", "skor": 0.991374671459198}]}
+{"id": "mypii-u3-00389", "spans": [{"mula": 203, "tamat": 214, "label": "phone number", "teks": "089 775 842", "skor": 0.9352861642837524}]}
+{"id": "mypii-u3-00390", "spans": [{"mula": 147, "tamat": 161, "label": "phone number", "teks": "+60 82 268 155", "skor": 0.9993956089019775}]}
+{"id": "mypii-u3-00391", "spans": [{"mula": 132, "tamat": 141, "label": "phone number", "teks": "03-431 46", "skor": 0.9966428279876709}]}
+{"id": "mypii-u3-00392", "spans": [{"mula": 203, "tamat": 213, "label": "registration number", "teks": "4176096815", "skor": 0.5689846873283386}]}
+{"id": "mypii-u3-00393", "spans": [{"mula": 194, "tamat": 203, "label": "phone number", "teks": "011-74729", "skor": 0.9739618897438049}]}
+{"id": "mypii-u3-00394", "spans": []}
+{"id": "mypii-u3-00395", "spans": []}
+{"id": "mypii-u3-00396", "spans": [{"mula": 138, "tamat": 152, "label": "phone number", "teks": "+60 86\n930 225", "skor": 0.9960709810256958}]}
+{"id": "mypii-u3-00397", "spans": [{"mula": 200, "tamat": 210, "label": "registration number", "teks": "4778973835", "skor": 0.6930187344551086}]}
+{"id": "mypii-u3-00398", "spans": [{"mula": 86, "tamat": 98, "label": "registration number", "teks": "198701606823", "skor": 0.6852062940597534}]}
+{"id": "mypii-u3-00399", "spans": []}
+{"id": "mypii-u3-00400", "spans": []}
+{"id": "mypii-u3-00401", "spans": [{"mula": 231, "tamat": 240, "label": "phone number", "teks": "03-475 74", "skor": 0.997865617275238}]}
+{"id": "mypii-u3-00402", "spans": []}
+{"id": "mypii-u3-00403", "spans": [{"mula": 121, "tamat": 138, "label": "registration number", "teks": "Reg. 201905163405", "skor": 0.8699460625648499}, {"mula": 188, "tamat": 200, "label": "phone number", "teks": "+6082-230516", "skor": 0.9973377585411072}]}
+{"id": "mypii-u3-00404", "spans": []}
+{"id": "mypii-u3-00405", "spans": [{"mula": 232, "tamat": 241, "label": "phone number", "teks": "016-45716", "skor": 0.9986345171928406}]}
+{"id": "mypii-u3-00406", "spans": [{"mula": 91, "tamat": 103, "label": "phone number", "teks": "(084) 803079", "skor": 0.9990025162696838}]}
+{"id": "mypii-u3-00407", "spans": []}
+{"id": "mypii-u3-00408", "spans": [{"mula": 186, "tamat": 196, "label": "phone number", "teks": "085-415168", "skor": 0.9969934225082397}]}
+{"id": "mypii-u3-00409", "spans": []}
+{"id": "mypii-u3-00410", "spans": [{"mula": 76, "tamat": 88, "label": "registration number", "teks": "201504656164", "skor": 0.5264396071434021}]}
+{"id": "mypii-u3-00411", "spans": [{"mula": 89, "tamat": 100, "label": "phone number", "teks": "0l8 2648643", "skor": 0.9897018671035767}]}
+{"id": "mypii-u3-00412", "spans": [{"mula": 110, "tamat": 125, "label": "phone number", "teks": "250404-933-1327", "skor": 0.8670133948326111}]}
+{"id": "mypii-u3-00413", "spans": []}
+{"id": "mypii-u3-00414", "spans": []}
+{"id": "mypii-u3-00415", "spans": []}
+{"id": "mypii-u3-00416", "spans": []}
+{"id": "mypii-u3-00417", "spans": []}
+{"id": "mypii-u3-00418", "spans": [{"mula": 55, "tamat": 68, "label": "registration number", "teks": "2012\n06548757", "skor": 0.6800002455711365}, {"mula": 225, "tamat": 238, "label": "phone number", "teks": "+6019-5252377", "skor": 0.7480878233909607}]}
+{"id": "mypii-u3-00419", "spans": [{"mula": 193, "tamat": 204, "label": "phone number", "teks": "01B301 1473", "skor": 0.9936466217041016}]}
+{"id": "mypii-u3-00420", "spans": [{"mula": 183, "tamat": 195, "label": "phone number", "teks": "+6084-646367", "skor": 0.9957376718521118}]}
+{"id": "mypii-u3-00421", "spans": [{"mula": 65, "tamat": 77, "label": "registration number", "teks": "2O1706529267", "skor": 0.9134623408317566}]}
+{"id": "mypii-u3-00422", "spans": []}
+{"id": "mypii-u3-00423", "spans": [{"mula": 62, "tamat": 74, "label": "registration number", "teks": "201206435O65", "skor": 0.8852274417877197}]}
+{"id": "mypii-u3-00424", "spans": []}
+{"id": "mypii-u3-00425", "spans": []}
+{"id": "mypii-u3-00426", "spans": [{"mula": 56, "tamat": 70, "label": "identity card number", "teks": "040810 13 2267", "skor": 0.8818903565406799}]}
+{"id": "mypii-u3-00427", "spans": [{"mula": 236, "tamat": 250, "label": "phone number", "teks": "019-434 677660", "skor": 0.9969204664230347}]}
+{"id": "mypii-u3-00428", "spans": [{"mula": 73, "tamat": 86, "label": "phone number", "teks": "088 588\n  399", "skor": 0.9982740879058838}]}
+{"id": "mypii-u3-00429", "spans": [{"mula": 85, "tamat": 98, "label": "phone number", "teks": "089-301\n  624", "skor": 0.9983088970184326}]}
+{"id": "mypii-u3-00430", "spans": []}
+{"id": "mypii-u3-00431", "spans": []}
+{"id": "mypii-u3-00432", "spans": [{"mula": 93, "tamat": 105, "label": "registration number", "teks": "201003861502", "skor": 0.8739650249481201}, {"mula": 153, "tamat": 167, "label": "identity card number", "teks": "110928-98-1350", "skor": 0.7497774958610535}]}
+{"id": "mypii-u3-00433", "spans": []}
+{"id": "mypii-u3-00434", "spans": []}
+{"id": "mypii-u3-00435", "spans": [{"mula": 87, "tamat": 99, "label": "phone number", "teks": "03-3190 8394", "skor": 0.9983129501342773}]}
+{"id": "mypii-u3-00436", "spans": []}
+{"id": "mypii-u3-00437", "spans": []}
+{"id": "mypii-u3-00438", "spans": [{"mula": 180, "tamat": 188, "label": "phone number", "teks": "08812981", "skor": 0.8975707292556763}]}
+{"id": "mypii-u3-00439", "spans": []}
+{"id": "mypii-u3-00440", "spans": []}
+{"id": "mypii-u3-00441", "spans": [{"mula": 101, "tamat": 112, "label": "phone number", "teks": "088-353 869", "skor": 0.8712937235832214}, {"mula": 129, "tamat": 144, "label": "phone number", "teks": "+6013 \n735 5720", "skor": 0.9909674525260925}]}
+{"id": "mypii-u3-00442", "spans": [{"mula": 205, "tamat": 217, "label": "phone number", "teks": "+6085-623106", "skor": 0.9991034865379333}]}
+{"id": "mypii-u3-00443", "spans": [{"mula": 237, "tamat": 246, "label": "phone number", "teks": "03-169 37", "skor": 0.9958980679512024}]}
+{"id": "mypii-u3-00444", "spans": [{"mula": 163, "tamat": 172, "label": "phone number", "teks": "03-651 46", "skor": 0.9818648099899292}]}
+{"id": "mypii-u3-00445", "spans": [{"mula": 89, "tamat": 101, "label": "phone number", "teks": "018978 \n3611", "skor": 0.9971678853034973}]}
+{"id": "mypii-u3-00446", "spans": []}
+{"id": "mypii-u3-00447", "spans": []}
+{"id": "mypii-u3-00448", "spans": [{"mula": 87, "tamat": 99, "label": "phone number", "teks": "013 392 7655", "skor": 0.9985087513923645}]}
+{"id": "mypii-u3-00449", "spans": []}
+{"id": "mypii-u3-00450", "spans": [{"mula": 156, "tamat": 170, "label": "phone number", "teks": "090201 90 7312", "skor": 0.9011982083320618}]}
+{"id": "mypii-u3-00451", "spans": [{"mula": 81, "tamat": 93, "label": "phone number", "teks": "019-458 1025", "skor": 0.9990430474281311}]}
+{"id": "mypii-u3-00452", "spans": []}
+{"id": "mypii-u3-00453", "spans": [{"mula": 197, "tamat": 206, "label": "phone number", "teks": "014-34718", "skor": 0.9963170289993286}]}
+{"id": "mypii-u3-00454", "spans": [{"mula": 78, "tamat": 94, "label": "phone number", "teks": "+60\n  18 2347475", "skor": 0.9991294741630554}]}
+{"id": "mypii-u3-00455", "spans": [{"mula": 204, "tamat": 215, "label": "phone number", "teks": "013965 4811", "skor": 0.9975324869155884}]}
+{"id": "mypii-u3-00456", "spans": [{"mula": 230, "tamat": 249, "label": "identity card number", "teks": "kad pengenalan asal", "skor": 0.8433811664581299}]}
+{"id": "mypii-u3-00457", "spans": [{"mula": 94, "tamat": 109, "label": "phone number", "teks": "+6012\n  3576516", "skor": 0.9914460182189941}, {"mula": 221, "tamat": 235, "label": "phone number", "teks": "+60 87 233 180", "skor": 0.5862792730331421}]}
+{"id": "mypii-u3-00458", "spans": [{"mula": 77, "tamat": 93, "label": "phone number", "teks": "+60 84\n  421 316", "skor": 0.9995874762535095}]}
+{"id": "mypii-u3-00459", "spans": []}
+{"id": "mypii-u3-00460", "spans": []}
+{"id": "mypii-u3-00461", "spans": [{"mula": 182, "tamat": 193, "label": "phone number", "teks": "014-5713953", "skor": 0.9982970356941223}]}
+{"id": "mypii-u3-00462", "spans": [{"mula": 88, "tamat": 102, "label": "registration number", "teks": "0B0412 23 9818", "skor": 0.7989389300346375}, {"mula": 115, "tamat": 129, "label": "phone number", "teks": "+60l3-886 5475", "skor": 0.9969246983528137}]}
+{"id": "mypii-u3-00463", "spans": []}
+{"id": "mypii-u3-00464", "spans": []}
+{"id": "mypii-u3-00465", "spans": []}
+{"id": "mypii-u3-00466", "spans": []}
+{"id": "mypii-u3-00467", "spans": []}
+{"id": "mypii-u3-00468", "spans": [{"mula": 139, "tamat": 151, "label": "phone number", "teks": "015-932 2979", "skor": 0.9881248474121094}]}
+{"id": "mypii-u3-00469", "spans": [{"mula": 97, "tamat": 108, "label": "phone number", "teks": "04-679 1B74", "skor": 0.9944513440132141}]}
+{"id": "mypii-u3-00470", "spans": [{"mula": 124, "tamat": 136, "label": "registration number", "teks": "202305361748", "skor": 0.8541013598442078}, {"mula": 186, "tamat": 198, "label": "phone number", "teks": "+6082-250064", "skor": 0.9972403049468994}]}
+{"id": "mypii-u3-00471", "spans": []}
+{"id": "mypii-u3-00472", "spans": [{"mula": 152, "tamat": 163, "label": "phone number", "teks": "082 403 681", "skor": 0.9992377758026123}]}
+{"id": "mypii-u3-00473", "spans": []}
+{"id": "mypii-u3-00474", "spans": [{"mula": 97, "tamat": 109, "label": "registration number", "teks": "2021O4281945", "skor": 0.9399294257164001}, {"mula": 166, "tamat": 177, "label": "phone number", "teks": "010-3775B44", "skor": 0.9973939657211304}]}
+{"id": "mypii-u3-00475", "spans": [{"mula": 103, "tamat": 115, "label": "registration number", "teks": "202O04248987", "skor": 0.9524160027503967}, {"mula": 164, "tamat": 175, "label": "phone number", "teks": "084 6S1 271", "skor": 0.9982309937477112}]}
+{"id": "mypii-u3-00476", "spans": [{"mula": 259, "tamat": 272, "label": "phone number", "teks": "+6010947 8796", "skor": 0.9990074038505554}]}
+{"id": "mypii-u3-00477", "spans": []}
+{"id": "mypii-u3-00478", "spans": []}
+{"id": "mypii-u3-00479", "spans": [{"mula": 173, "tamat": 184, "label": "phone number", "teks": "0B4 651 227", "skor": 0.988174557685852}]}
+{"id": "mypii-u3-00480", "spans": [{"mula": 102, "tamat": 113, "label": "phone number", "teks": "07-729 9298", "skor": 0.9942759871482849}, {"mula": 168, "tamat": 180, "label": "registration number", "teks": "2025046B3166", "skor": 0.7351030111312866}]}
+{"id": "mypii-u3-00481", "spans": [{"mula": 230, "tamat": 245, "label": "phone number", "teks": "+60-14 809 4950", "skor": 0.9988563060760498}]}
+{"id": "mypii-u3-00482", "spans": []}
+{"id": "mypii-u3-00483", "spans": [{"mula": 220, "tamat": 236, "label": "registration number", "teks": "slip pendaftaran", "skor": 0.6645879149436951}]}
+{"id": "mypii-u3-00484", "spans": []}
+{"id": "mypii-u3-00485", "spans": [{"mula": 199, "tamat": 211, "label": "phone number", "teks": "015-421 9380", "skor": 0.9966476559638977}]}
+{"id": "mypii-u3-00486", "spans": []}
+{"id": "mypii-u3-00487", "spans": [{"mula": 249, "tamat": 258, "label": "phone number", "teks": "03-999 85", "skor": 0.8208945393562317}]}
+{"id": "mypii-u3-00488", "spans": [{"mula": 134, "tamat": 146, "label": "registration number", "teks": "2025044090l4", "skor": 0.8785029649734497}, {"mula": 152, "tamat": 163, "label": "phone number", "teks": "0l3-8427580", "skor": 0.9982560276985168}]}
+{"id": "mypii-u3-00489", "spans": [{"mula": 139, "tamat": 150, "label": "phone number", "teks": "086 384 091", "skor": 0.996170699596405}]}
+{"id": "mypii-u3-00490", "spans": [{"mula": 159, "tamat": 172, "label": "phone number", "teks": "086\n  394 268", "skor": 0.9987623691558838}]}
+{"id": "mypii-u3-00491", "spans": []}
+{"id": "mypii-u3-00492", "spans": []}
+{"id": "mypii-u3-00493", "spans": [{"mula": 204, "tamat": 214, "label": "phone number", "teks": "084-609061", "skor": 0.9779350161552429}]}
+{"id": "mypii-u3-00494", "spans": []}
+{"id": "mypii-u3-00495", "spans": []}
+{"id": "mypii-u3-00496", "spans": []}
+{"id": "mypii-u3-00497", "spans": []}
+{"id": "mypii-u3-00498", "spans": []}
+{"id": "mypii-u3-00499", "spans": []}
+{"id": "mypii-u3-00500", "spans": [{"mula": 81, "tamat": 95, "label": "phone number", "teks": "+60 83 589 642", "skor": 0.9995182752609253}]}
+{"id": "mypii-u3-00501", "spans": [{"mula": 198, "tamat": 210, "label": "phone number", "teks": "015-719 3277", "skor": 0.9711201786994934}]}
+{"id": "mypii-u3-00502", "spans": [{"mula": 80, "tamat": 92, "label": "registration number", "teks": "201704157607", "skor": 0.8872963786125183}, {"mula": 144, "tamat": 155, "label": "phone number", "teks": "07-576 8730", "skor": 0.9988511800765991}]}
+{"id": "mypii-u3-00503", "spans": [{"mula": 85, "tamat": 96, "label": "phone number", "teks": "0l9-4775696", "skor": 0.9956323504447937}]}
+{"id": "mypii-u3-00504", "spans": []}
+{"id": "mypii-u3-00505", "spans": [{"mula": 233, "tamat": 244, "label": "phone number", "teks": "016638 7333", "skor": 0.9965698719024658}]}
+{"id": "mypii-u3-00506", "spans": []}
+{"id": "mypii-u3-00507", "spans": [{"mula": 160, "tamat": 172, "label": "identity card number", "teks": "861l29015759", "skor": 0.9446866512298584}, {"mula": 221, "tamat": 233, "label": "phone number", "teks": "03-3634 5926", "skor": 0.9996695518493652}]}
+{"id": "mypii-u3-00508", "spans": [{"mula": 94, "tamat": 106, "label": "phone number", "teks": "016 \n7228655", "skor": 0.9962891340255737}, {"mula": 156, "tamat": 170, "label": "registration number", "teks": "2018 \n01682367", "skor": 0.7807313203811646}]}
+{"id": "mypii-u3-00509", "spans": [{"mula": 233, "tamat": 241, "label": "registration number", "teks": "731330-W", "skor": 0.9776217937469482}]}
+{"id": "mypii-u3-00510", "spans": []}
+{"id": "mypii-u3-00511", "spans": [{"mula": 196, "tamat": 211, "label": "phone number", "teks": "251213-996-7601", "skor": 0.5851041674613953}, {"mula": 242, "tamat": 251, "label": "phone number", "teks": "03-388 48", "skor": 0.9377405643463135}]}
+{"id": "mypii-u3-00512", "spans": [{"mula": 235, "tamat": 251, "label": "registration number", "teks": "slip pendaftaran", "skor": 0.6095276474952698}]}
+{"id": "mypii-u3-00513", "spans": []}
+{"id": "mypii-u3-00514", "spans": [{"mula": 137, "tamat": 148, "label": "phone number", "teks": "085 \n257892", "skor": 0.9957321286201477}]}
+{"id": "mypii-u3-00515", "spans": [{"mula": 234, "tamat": 244, "label": "phone number", "teks": "082-700722", "skor": 0.9967207312583923}]}
+{"id": "mypii-u3-00516", "spans": [{"mula": 87, "tamat": 99, "label": "phone number", "teks": "(082) 864921", "skor": 0.999481737613678}]}
+{"id": "mypii-u3-00517", "spans": [{"mula": 136, "tamat": 148, "label": "phone number", "teks": "015-363 2861", "skor": 0.9964746832847595}]}
+{"id": "mypii-u3-00518", "spans": []}
+{"id": "mypii-u3-00519", "spans": [{"mula": 179, "tamat": 191, "label": "phone number", "teks": "(082) 819873", "skor": 0.9983857870101929}]}
+{"id": "mypii-u3-00520", "spans": []}
+{"id": "mypii-u3-00521", "spans": []}
+{"id": "mypii-u3-00522", "spans": []}
+{"id": "mypii-u3-00523", "spans": [{"mula": 255, "tamat": 268, "label": "phone number", "teks": "+60 165737352", "skor": 0.9991268515586853}]}
+{"id": "mypii-u3-00524", "spans": [{"mula": 77, "tamat": 85, "label": "registration number", "teks": "238939-H", "skor": 0.6076727509498596}, {"mula": 224, "tamat": 235, "label": "phone number", "teks": "010 3309843", "skor": 0.9907292723655701}]}
+{"id": "mypii-u3-00525", "spans": []}
+{"id": "mypii-u3-00526", "spans": [{"mula": 224, "tamat": 243, "label": "identity card number", "teks": "kad pengenalan asal", "skor": 0.8386865258216858}]}
+{"id": "mypii-u3-00527", "spans": []}
+{"id": "mypii-u3-00528", "spans": [{"mula": 105, "tamat": 115, "label": "phone number", "teks": "0B7-432787", "skor": 0.9950883984565735}]}
+{"id": "mypii-u3-00529", "spans": []}
+{"id": "mypii-u3-00530", "spans": []}
+{"id": "mypii-u3-00531", "spans": [{"mula": 158, "tamat": 173, "label": "phone number", "teks": "+60 18-4O2 2794", "skor": 0.9992914199829102}]}
+{"id": "mypii-u3-00532", "spans": [{"mula": 96, "tamat": 108, "label": "phone number", "teks": "0l0 926 1638", "skor": 0.9967625141143799}]}
+{"id": "mypii-u3-00533", "spans": [{"mula": 177, "tamat": 189, "label": "phone number", "teks": "(084) 758191", "skor": 0.9992988109588623}]}
+{"id": "mypii-u3-00534", "spans": []}
+{"id": "mypii-u3-00535", "spans": []}
+{"id": "mypii-u3-00536", "spans": [{"mula": 139, "tamat": 148, "label": "phone number", "teks": "016-65375", "skor": 0.9672137498855591}]}
+{"id": "mypii-u3-00537", "spans": []}
+{"id": "mypii-u3-00538", "spans": [{"mula": 87, "tamat": 101, "label": "phone number", "teks": "+60 17 39B6475", "skor": 0.999498724937439}]}
+{"id": "mypii-u3-00539", "spans": [{"mula": 184, "tamat": 195, "label": "phone number", "teks": "05-606 2289", "skor": 0.9982379674911499}]}
+{"id": "mypii-u3-00540", "spans": []}
+{"id": "mypii-u3-00541", "spans": [{"mula": 226, "tamat": 245, "label": "identity card number", "teks": "kad pengenalan asal", "skor": 0.8463534116744995}]}
+{"id": "mypii-u3-00542", "spans": [{"mula": 229, "tamat": 241, "label": "phone number", "teks": "+6086-301721", "skor": 0.9969754219055176}]}
+{"id": "mypii-u3-00543", "spans": [{"mula": 88, "tamat": 99, "label": "phone number", "teks": "0l0-5610659", "skor": 0.9926882982254028}]}
+{"id": "mypii-u3-00544", "spans": [{"mula": 144, "tamat": 156, "label": "phone number", "teks": "(086) 599006", "skor": 0.9987196922302246}]}
+{"id": "mypii-u3-00545", "spans": [{"mula": 204, "tamat": 215, "label": "phone number", "teks": "083-204 972", "skor": 0.9929566383361816}]}
+{"id": "mypii-u3-00546", "spans": [{"mula": 254, "tamat": 267, "label": "phone number", "teks": "011-2834 8250", "skor": 0.9639825820922852}]}
+{"id": "mypii-u3-00547", "spans": []}
+{"id": "mypii-u3-00548", "spans": [{"mula": 238, "tamat": 252, "label": "phone number", "teks": "+60-10685 5672", "skor": 0.999200165271759}]}
+{"id": "mypii-u3-00549", "spans": [{"mula": 176, "tamat": 187, "label": "phone number", "teks": "013 8957639", "skor": 0.9974473714828491}]}
+{"id": "mypii-u3-00550", "spans": []}
+{"id": "mypii-u3-00551", "spans": [{"mula": 110, "tamat": 121, "label": "phone number", "teks": "083 317 603", "skor": 0.9981984496116638}]}
+{"id": "mypii-u3-00552", "spans": [{"mula": 235, "tamat": 244, "label": "phone number", "teks": "03-830 62", "skor": 0.9715903401374817}]}
+{"id": "mypii-u3-00553", "spans": [{"mula": 48, "tamat": 60, "label": "identity card number", "teks": "790927594690", "skor": 0.6213910579681396}, {"mula": 217, "tamat": 231, "label": "phone number", "teks": "+6013 598 9891", "skor": 0.9994018077850342}]}
+{"id": "mypii-u3-00554", "spans": []}
+{"id": "mypii-u3-00555", "spans": [{"mula": 70, "tamat": 81, "label": "phone number", "teks": "07\n808 8152", "skor": 0.9975261092185974}]}
+{"id": "mypii-u3-00556", "spans": [{"mula": 122, "tamat": 134, "label": "registration number", "teks": "201806364315", "skor": 0.8209454417228699}, {"mula": 184, "tamat": 196, "label": "phone number", "teks": "+6088-546738", "skor": 0.9967987537384033}]}
+{"id": "mypii-u3-00557", "spans": []}
+{"id": "mypii-u3-00558", "spans": []}
+{"id": "mypii-u3-00559", "spans": []}
+{"id": "mypii-u3-00560", "spans": []}
+{"id": "mypii-u3-00561", "spans": [{"mula": 105, "tamat": 120, "label": "phone number", "teks": "260313-466-5335", "skor": 0.9300825595855713}]}
+{"id": "mypii-u3-00562", "spans": [{"mula": 83, "tamat": 95, "label": "phone number", "teks": "(085) 736291", "skor": 0.9989235997200012}]}
+{"id": "mypii-u3-00563", "spans": []}
+{"id": "mypii-u3-00564", "spans": [{"mula": 130, "tamat": 142, "label": "phone number", "teks": "+6083-572663", "skor": 0.9981003403663635}]}
+{"id": "mypii-u3-00565", "spans": [{"mula": 128, "tamat": 139, "label": "phone number", "teks": "05-720\n9140", "skor": 0.9922749400138855}]}
+{"id": "mypii-u3-00566", "spans": []}
+{"id": "mypii-u3-00567", "spans": []}
+{"id": "mypii-u3-00568", "spans": []}
+{"id": "mypii-u3-00569", "spans": []}
+{"id": "mypii-u3-00570", "spans": []}
+{"id": "mypii-u3-00571", "spans": [{"mula": 105, "tamat": 118, "label": "phone number", "teks": "017\n  6856051", "skor": 0.9941032528877258}]}
+{"id": "mypii-u3-00572", "spans": [{"mula": 245, "tamat": 257, "label": "phone number", "teks": "(086) 957423", "skor": 0.9987548589706421}]}
+{"id": "mypii-u3-00573", "spans": []}
+{"id": "mypii-u3-00574", "spans": []}
+{"id": "mypii-u3-00575", "spans": []}
+{"id": "mypii-u3-00576", "spans": [{"mula": 208, "tamat": 221, "label": "phone number", "teks": "011 1607 9503", "skor": 0.997654378414154}]}
+{"id": "mypii-u3-00577", "spans": [{"mula": 178, "tamat": 186, "label": "phone number", "teks": "06531535", "skor": 0.9956626296043396}]}
+{"id": "mypii-u3-00578", "spans": [{"mula": 69, "tamat": 83, "label": "identity card number", "teks": "681007 \n845053", "skor": 0.6076400279998779}, {"mula": 102, "tamat": 114, "label": "phone number", "teks": "03-9213 3267", "skor": 0.995272696018219}]}
+{"id": "mypii-u3-00579", "spans": [{"mula": 70, "tamat": 82, "label": "registration number", "teks": "2O2606155926", "skor": 0.8177363872528076}]}
+{"id": "mypii-u3-00580", "spans": []}
+{"id": "mypii-u3-00581", "spans": [{"mula": 73, "tamat": 82, "label": "registration number", "teks": "1555476-U", "skor": 0.6823002099990845}, {"mula": 195, "tamat": 206, "label": "phone number", "teks": "018595 7984", "skor": 0.9895731806755066}]}
+{"id": "mypii-u3-00582", "spans": [{"mula": 192, "tamat": 200, "label": "phone number", "teks": "09960233", "skor": 0.9951763153076172}]}
+{"id": "mypii-u3-00583", "spans": []}
+{"id": "mypii-u3-00584", "spans": []}
+{"id": "mypii-u3-00585", "spans": [{"mula": 165, "tamat": 179, "label": "identity card number", "teks": "84l212 51 7592", "skor": 0.9323011636734009}, {"mula": 228, "tamat": 239, "label": "phone number", "teks": "019 71495B0", "skor": 0.9997696280479431}]}
+{"id": "mypii-u3-00586", "spans": [{"mula": 277, "tamat": 288, "label": "phone number", "teks": "019-5457042", "skor": 0.9459856152534485}]}
+{"id": "mypii-u3-00587", "spans": []}
+{"id": "mypii-u3-00588", "spans": [{"mula": 170, "tamat": 184, "label": "identity card number", "teks": "900l05 26 1450", "skor": 0.9338072538375854}, {"mula": 233, "tamat": 244, "label": "phone number", "teks": "088\n326 784", "skor": 0.9998409748077393}]}
+{"id": "mypii-u3-00589", "spans": [{"mula": 222, "tamat": 238, "label": "registration number", "teks": "slip pendaftaran", "skor": 0.6850472688674927}]}
+{"id": "mypii-u3-00590", "spans": [{"mula": 135, "tamat": 147, "label": "phone number", "teks": "0l7 790 2274", "skor": 0.9953666925430298}]}
+{"id": "mypii-u3-00591", "spans": []}
+{"id": "mypii-u3-00592", "spans": [{"mula": 96, "tamat": 108, "label": "registration number", "teks": "201805254197", "skor": 0.797664999961853}, {"mula": 148, "tamat": 160, "label": "phone number", "teks": "(083) 563493", "skor": 0.9951502680778503}]}
+{"id": "mypii-u3-00593", "spans": []}
+{"id": "mypii-u3-00594", "spans": []}
+{"id": "mypii-u3-00595", "spans": [{"mula": 77, "tamat": 89, "label": "phone number", "teks": "(084) 605608", "skor": 0.999016523361206}]}
+{"id": "mypii-u3-00596", "spans": [{"mula": 79, "tamat": 93, "label": "phone number", "teks": "+6088\n  850651", "skor": 0.9963051080703735}]}
+{"id": "mypii-u3-00597", "spans": []}
+{"id": "mypii-u3-00598", "spans": [{"mula": 73, "tamat": 85, "label": "registration number", "teks": "2O1404902645", "skor": 0.925501823425293}]}
+{"id": "mypii-u3-00599", "spans": []}
+{"id": "mypii-u3-00600", "spans": [{"mula": 107, "tamat": 116, "label": "phone number", "teks": "03-310 24", "skor": 0.9545202851295471}]}
+{"id": "mypii-u3-00601", "spans": [{"mula": 250, "tamat": 258, "label": "registration number", "teks": "453906-T", "skor": 0.9704685807228088}]}
+{"id": "mypii-u3-00602", "spans": []}
+{"id": "mypii-u3-00603", "spans": []}
+{"id": "mypii-u3-00604", "spans": [{"mula": 136, "tamat": 146, "label": "phone number", "teks": "082-315832", "skor": 0.9781278967857361}]}
+{"id": "mypii-u3-00605", "spans": [{"mula": 144, "tamat": 152, "label": "phone number", "teks": "02761343", "skor": 0.9455541968345642}]}
+{"id": "mypii-u3-00606", "spans": []}
+{"id": "mypii-u3-00607", "spans": [{"mula": 139, "tamat": 153, "label": "phone number", "teks": "010-958 579250", "skor": 0.9890561103820801}]}
+{"id": "mypii-u3-00608", "spans": []}
+{"id": "mypii-u3-00609", "spans": [{"mula": 179, "tamat": 188, "label": "phone number", "teks": "013-83609", "skor": 0.9893550872802734}]}
+{"id": "mypii-u3-00610", "spans": [{"mula": 118, "tamat": 134, "label": "phone number", "teks": "+60-16356\n  4262", "skor": 0.9991662502288818}]}
+{"id": "mypii-u3-00611", "spans": [{"mula": 133, "tamat": 141, "label": "phone number", "teks": "07352182", "skor": 0.9880905151367188}]}
+{"id": "mypii-u3-00612", "spans": []}
+{"id": "mypii-u3-00613", "spans": []}
+{"id": "mypii-u3-00614", "spans": [{"mula": 88, "tamat": 98, "label": "phone number", "teks": "013898O072", "skor": 0.9941195249557495}]}
+{"id": "mypii-u3-00615", "spans": [{"mula": 131, "tamat": 139, "label": "phone number", "teks": "09570789", "skor": 0.9651039242744446}]}
+{"id": "mypii-u3-00616", "spans": []}
+{"id": "mypii-u3-00617", "spans": [{"mula": 87, "tamat": 100, "label": "registration number", "teks": "1987\n03829375", "skor": 0.6682416796684265}]}
+{"id": "mypii-u3-00618", "spans": [{"mula": 257, "tamat": 271, "label": "phone number", "teks": "011-853 700927", "skor": 0.9637801051139832}]}
+{"id": "mypii-u3-00619", "spans": [{"mula": 146, "tamat": 157, "label": "phone number", "teks": "089-523 244", "skor": 0.9962298274040222}]}
+{"id": "mypii-u3-00620", "spans": [{"mula": 78, "tamat": 91, "label": "phone number", "teks": "03-2921 \n3732", "skor": 0.9960736036300659}]}
+{"id": "mypii-u3-00621", "spans": [{"mula": 176, "tamat": 188, "label": "phone number", "teks": "+60143169938", "skor": 0.9991251826286316}]}
+{"id": "mypii-u3-00622", "spans": [{"mula": 87, "tamat": 99, "label": "registration number", "teks": "20130624O762", "skor": 0.7863118648529053}, {"mula": 151, "tamat": 162, "label": "phone number", "teks": "085-787 019", "skor": 0.998195469379425}]}
+{"id": "mypii-u3-00623", "spans": []}
+{"id": "mypii-u3-00624", "spans": []}
+{"id": "mypii-u3-00625", "spans": []}
+{"id": "mypii-u3-00626", "spans": []}
+{"id": "mypii-u3-00627", "spans": [{"mula": 133, "tamat": 145, "label": "phone number", "teks": "015-422 3574", "skor": 0.9888324737548828}]}
+{"id": "mypii-u3-00628", "spans": [{"mula": 221, "tamat": 233, "label": "identity card number", "teks": "930104582408", "skor": 0.9214638471603394}, {"mula": 253, "tamat": 265, "label": "phone number", "teks": "012 794 4131", "skor": 0.9991130232810974}]}
+{"id": "mypii-u3-00629", "spans": []}
+{"id": "mypii-u3-00630", "spans": []}
+{"id": "mypii-u3-00631", "spans": []}
+{"id": "mypii-u3-00632", "spans": []}
+{"id": "mypii-u3-00633", "spans": [{"mula": 86, "tamat": 98, "label": "phone number", "teks": "0l0-767 8990", "skor": 0.9953362345695496}]}
+{"id": "mypii-u3-00634", "spans": [{"mula": 141, "tamat": 149, "label": "phone number", "teks": "08375016", "skor": 0.8623477816581726}]}
+{"id": "mypii-u3-00635", "spans": [{"mula": 270, "tamat": 281, "label": "phone number", "teks": "09-862 1050", "skor": 0.9970937967300415}]}
+{"id": "mypii-u3-00636", "spans": [{"mula": 157, "tamat": 169, "label": "phone number", "teks": "+6084-511469", "skor": 0.9983407258987427}]}
+{"id": "mypii-u3-00637", "spans": [{"mula": 299, "tamat": 314, "label": "phone number", "teks": "+60 19-333 4471", "skor": 0.9994416832923889}]}
+{"id": "mypii-u3-00638", "spans": [{"mula": 175, "tamat": 187, "label": "phone number", "teks": "(082) 662455", "skor": 0.9995725750923157}]}
+{"id": "mypii-u3-00639", "spans": []}
+{"id": "mypii-u3-00640", "spans": []}
+{"id": "mypii-u3-00641", "spans": [{"mula": 287, "tamat": 302, "label": "phone number", "teks": "+60 11 24989263", "skor": 0.9993017911911011}]}
+{"id": "mypii-u3-00642", "spans": [{"mula": 197, "tamat": 209, "label": "phone number", "teks": "015-509 3972", "skor": 0.9965988993644714}]}
+{"id": "mypii-u3-00643", "spans": [{"mula": 205, "tamat": 219, "label": "phone number", "teks": "+60-12754 2051", "skor": 0.9989689588546753}]}
+{"id": "mypii-u3-00644", "spans": [{"mula": 114, "tamat": 125, "label": "phone number", "teks": "084-678 477", "skor": 0.9818570017814636}]}
+{"id": "mypii-u3-00645", "spans": []}
+{"id": "mypii-u3-00646", "spans": []}
+{"id": "mypii-u3-00647", "spans": []}
+{"id": "mypii-u3-00648", "spans": [{"mula": 206, "tamat": 217, "label": "phone number", "teks": "082-516 060", "skor": 0.9933178424835205}]}
+{"id": "mypii-u3-00649", "spans": [{"mula": 101, "tamat": 116, "label": "phone number", "teks": "250727-765-9456", "skor": 0.9392706155776978}]}
+{"id": "mypii-u3-00650", "spans": [{"mula": 226, "tamat": 242, "label": "registration number", "teks": "slip pendaftaran", "skor": 0.6680085062980652}]}
+{"id": "mypii-u3-00651", "spans": []}
+{"id": "mypii-u3-00652", "spans": [{"mula": 103, "tamat": 119, "label": "phone number", "teks": "+60 \n10 459 6320", "skor": 0.9992591738700867}, {"mula": 170, "tamat": 183, "label": "registration number", "teks": "2017\n04857909", "skor": 0.7754084467887878}]}
+{"id": "mypii-u3-00653", "spans": []}
+{"id": "mypii-u3-00654", "spans": [{"mula": 140, "tamat": 151, "label": "phone number", "teks": "084-801 654", "skor": 0.9977535605430603}]}
+{"id": "mypii-u3-00655", "spans": [{"mula": 194, "tamat": 206, "label": "phone number", "teks": "+6084-690636", "skor": 0.9991206526756287}]}
+{"id": "mypii-u3-00656", "spans": []}
+{"id": "mypii-u3-00657", "spans": [{"mula": 145, "tamat": 159, "label": "phone number", "teks": "+60 12369 9923", "skor": 0.999525785446167}]}
+{"id": "mypii-u3-00658", "spans": []}
+{"id": "mypii-u3-00659", "spans": [{"mula": 100, "tamat": 112, "label": "registration number", "teks": "2O1804232697", "skor": 0.9626018404960632}, {"mula": 171, "tamat": 184, "label": "phone number", "teks": "+60l9 2005296", "skor": 0.998737633228302}]}
+{"id": "mypii-u3-00660", "spans": [{"mula": 72, "tamat": 86, "label": "phone number", "teks": "+60 89 219 531", "skor": 0.9991092085838318}]}
+{"id": "mypii-u3-00661", "spans": []}
+{"id": "mypii-u3-00662", "spans": [{"mula": 76, "tamat": 88, "label": "phone number", "teks": "+6O88-798083", "skor": 0.9984001517295837}]}
+{"id": "mypii-u3-00663", "spans": []}
+{"id": "mypii-u3-00664", "spans": [{"mula": 90, "tamat": 100, "label": "phone number", "teks": "089\n342363", "skor": 0.9982153177261353}]}
+{"id": "mypii-u3-00665", "spans": [{"mula": 85, "tamat": 95, "label": "phone number", "teks": "086-365693", "skor": 0.998530387878418}]}
+{"id": "mypii-u3-00666", "spans": []}
+{"id": "mypii-u3-00667", "spans": [{"mula": 190, "tamat": 201, "label": "phone number", "teks": "250719 0752", "skor": 0.7174134850502014}]}
+{"id": "mypii-u3-00668", "spans": [{"mula": 252, "tamat": 260, "label": "registration number", "teks": "822060-D", "skor": 0.9670654535293579}]}
+{"id": "mypii-u3-00669", "spans": [{"mula": 191, "tamat": 201, "label": "phone number", "teks": "0108357395", "skor": 0.9970223307609558}]}
+{"id": "mypii-u3-00670", "spans": []}
+{"id": "mypii-u3-00671", "spans": [{"mula": 110, "tamat": 121, "label": "phone number", "teks": "0B3 372 295", "skor": 0.5664766430854797}, {"mula": 138, "tamat": 150, "label": "phone number", "teks": "010 \n8153048", "skor": 0.9748374819755554}]}
+{"id": "mypii-u3-00672", "spans": []}
+{"id": "mypii-u3-00673", "spans": [{"mula": 135, "tamat": 147, "label": "phone number", "teks": "015-175 4423", "skor": 0.9369033575057983}]}
+{"id": "mypii-u3-00674", "spans": [{"mula": 60, "tamat": 72, "label": "registration number", "teks": "2025041797O3", "skor": 0.899931788444519}]}
+{"id": "mypii-u3-00675", "spans": [{"mula": 61, "tamat": 73, "label": "registration number", "teks": "2O1505331779", "skor": 0.9358327388763428}]}
+{"id": "mypii-u3-00676", "spans": []}
+{"id": "mypii-u3-00677", "spans": [{"mula": 88, "tamat": 100, "label": "registration number", "teks": "197002065020", "skor": 0.8642036318778992}, {"mula": 156, "tamat": 168, "label": "identity card number", "teks": "690712090491", "skor": 0.7307315468788147}]}
+{"id": "mypii-u3-00678", "spans": []}
+{"id": "mypii-u3-00679", "spans": []}
+{"id": "mypii-u3-00680", "spans": [{"mula": 136, "tamat": 145, "label": "phone number", "teks": "012-37174", "skor": 0.9891246557235718}]}
+{"id": "mypii-u3-00681", "spans": []}
+{"id": "mypii-u3-00682", "spans": [{"mula": 195, "tamat": 207, "label": "phone number", "teks": "011 18572961", "skor": 0.9893542528152466}]}
+{"id": "mypii-u3-00683", "spans": []}
+{"id": "mypii-u3-00684", "spans": []}
+{"id": "mypii-u3-00685", "spans": []}
+{"id": "mypii-u3-00686", "spans": [{"mula": 98, "tamat": 111, "label": "phone number", "teks": "+6083 \n274542", "skor": 0.9981850981712341}]}
+{"id": "mypii-u3-00687", "spans": [{"mula": 163, "tamat": 177, "label": "phone number", "teks": "010918 68 4945", "skor": 0.6086812615394592}]}
+{"id": "mypii-u3-00688", "spans": []}
+{"id": "mypii-u3-00689", "spans": [{"mula": 84, "tamat": 96, "label": "phone number", "teks": "+6089-504113", "skor": 0.9982156753540039}]}
+{"id": "mypii-u3-00690", "spans": [{"mula": 80, "tamat": 92, "label": "phone number", "teks": "+6086-4560l6", "skor": 0.9983331561088562}]}
+{"id": "mypii-u3-00691", "spans": []}
+{"id": "mypii-u3-00692", "spans": [{"mula": 199, "tamat": 213, "label": "phone number", "teks": "015-181 640572", "skor": 0.9648342728614807}]}
+{"id": "mypii-u3-00693", "spans": []}
+{"id": "mypii-u3-00694", "spans": [{"mula": 68, "tamat": 84, "label": "identity card number", "teks": "640627\n  65-8052", "skor": 0.7382740378379822}, {"mula": 176, "tamat": 189, "label": "phone number", "teks": "019\n  7758166", "skor": 0.9982165694236755}]}
+{"id": "mypii-u3-00695", "spans": [{"mula": 161, "tamat": 173, "label": "phone number", "teks": "(082) 260600", "skor": 0.9990861415863037}]}
+{"id": "mypii-u3-00696", "spans": []}
+{"id": "mypii-u3-00697", "spans": []}
+{"id": "mypii-u3-00698", "spans": []}
+{"id": "mypii-u3-00699", "spans": []}
+{"id": "mypii-u3-00700", "spans": [{"mula": 131, "tamat": 140, "label": "phone number", "teks": "03-131 87", "skor": 0.9872688055038452}]}
+{"id": "mypii-u3-00701", "spans": []}
+{"id": "mypii-u3-00702", "spans": []}
+{"id": "mypii-u3-00703", "spans": []}
+{"id": "mypii-u3-00704", "spans": []}
+{"id": "mypii-u3-00705", "spans": []}
+{"id": "mypii-u3-00706", "spans": [{"mula": 199, "tamat": 211, "label": "phone number", "teks": "016 2S7 2430", "skor": 0.997895359992981}]}
+{"id": "mypii-u3-00707", "spans": []}
+{"id": "mypii-u3-00708", "spans": [{"mula": 93, "tamat": 105, "label": "phone number", "teks": "084 \n401 079", "skor": 0.9987310767173767}, {"mula": 153, "tamat": 167, "label": "registration number", "teks": "2019 \n04461716", "skor": 0.6813738346099854}]}
+{"id": "mypii-u3-00709", "spans": [{"mula": 79, "tamat": 95, "label": "identity card number", "teks": "540523\n  84-2124", "skor": 0.8893274664878845}, {"mula": 109, "tamat": 120, "label": "phone number", "teks": "05\n877 6745", "skor": 0.9990013241767883}]}
+{"id": "mypii-u3-00710", "spans": []}
+{"id": "mypii-u3-00711", "spans": []}
+{"id": "mypii-u3-00712", "spans": []}
+{"id": "mypii-u3-00713", "spans": [{"mula": 103, "tamat": 111, "label": "phone number", "teks": "07506206", "skor": 0.9088499546051025}]}
+{"id": "mypii-u3-00714", "spans": []}
+{"id": "mypii-u3-00715", "spans": [{"mula": 186, "tamat": 194, "label": "phone number", "teks": "06112786", "skor": 0.9636191129684448}]}
+{"id": "mypii-u3-00716", "spans": [{"mula": 209, "tamat": 223, "label": "phone number", "teks": "+60 86 549\n643", "skor": 0.9993448853492737}]}
+{"id": "mypii-u3-00717", "spans": []}
+{"id": "mypii-u3-00718", "spans": [{"mula": 176, "tamat": 188, "label": "phone number", "teks": "015-364 2000", "skor": 0.9937177896499634}]}
+{"id": "mypii-u3-00719", "spans": [{"mula": 54, "tamat": 66, "label": "identity card number", "teks": "490118663876", "skor": 0.836258053779602}]}
+{"id": "mypii-u3-00720", "spans": [{"mula": 152, "tamat": 166, "label": "phone number", "teks": "011-386 834484", "skor": 0.9922653436660767}]}
+{"id": "mypii-u3-00721", "spans": [{"mula": 243, "tamat": 252, "label": "phone number", "teks": "012-61120", "skor": 0.9968584775924683}]}
+{"id": "mypii-u3-00722", "spans": [{"mula": 272, "tamat": 283, "label": "phone number", "teks": "083-498 433", "skor": 0.994752049446106}]}
+{"id": "mypii-u3-00723", "spans": [{"mula": 96, "tamat": 108, "label": "phone number", "teks": "016-486 2370", "skor": 0.9941490888595581}]}
+{"id": "mypii-u3-00724", "spans": [{"mula": 171, "tamat": 188, "label": "phone number", "teks": "9894 6370 1135 64", "skor": 0.5385854244232178}]}
+{"id": "mypii-u3-00725", "spans": []}
+{"id": "mypii-u3-00726", "spans": [{"mula": 127, "tamat": 146, "label": "registration number", "teks": "Reg. 199301 \n863859", "skor": 0.7918381094932556}, {"mula": 196, "tamat": 209, "label": "phone number", "teks": "082 607\n  875", "skor": 0.9975583553314209}]}
+{"id": "mypii-u3-00727", "spans": []}
+{"id": "mypii-u3-00728", "spans": [{"mula": 74, "tamat": 89, "label": "phone number", "teks": "+6017\n  2913926", "skor": 0.9985870122909546}]}
+{"id": "mypii-u3-00729", "spans": [{"mula": 67, "tamat": 82, "label": "registration number", "teks": "971127 56 \n1890", "skor": 0.5931945443153381}, {"mula": 92, "tamat": 103, "label": "phone number", "teks": "084 \n418937", "skor": 0.9973210692405701}]}
+{"id": "mypii-u3-00730", "spans": []}
+{"id": "mypii-u3-00731", "spans": [{"mula": 120, "tamat": 136, "label": "phone number", "teks": "+60 19\n  7230932", "skor": 0.998985230922699}]}
+{"id": "mypii-u3-00732", "spans": []}
+{"id": "mypii-u3-00733", "spans": []}
+{"id": "mypii-u3-00734", "spans": []}
+{"id": "mypii-u3-00735", "spans": [{"mula": 186, "tamat": 200, "label": "phone number", "teks": "+60 88 410 059", "skor": 0.9994149208068848}]}
+{"id": "mypii-u3-00736", "spans": [{"mula": 62, "tamat": 76, "label": "identity card number", "teks": "630924-41-8215", "skor": 0.8121739029884338}]}
+{"id": "mypii-u3-00737", "spans": [{"mula": 240, "tamat": 254, "label": "phone number", "teks": "012-736 889736", "skor": 0.9913995265960693}]}
+{"id": "mypii-u3-00738", "spans": [{"mula": 229, "tamat": 237, "label": "phone number", "teks": "04575779", "skor": 0.9963299632072449}]}
+{"id": "mypii-u3-00739", "spans": [{"mula": 116, "tamat": 127, "label": "phone number", "teks": "089 371 610", "skor": 0.9642470479011536}, {"mula": 144, "tamat": 156, "label": "phone number", "teks": "017-432\n8858", "skor": 0.9285894632339478}]}
+{"id": "mypii-u3-00740", "spans": [{"mula": 199, "tamat": 210, "label": "phone number", "teks": "089-606 782", "skor": 0.9910137057304382}]}
+{"id": "mypii-u3-00741", "spans": [{"mula": 199, "tamat": 211, "label": "phone number", "teks": "+6086-263030", "skor": 0.9970034956932068}]}
+{"id": "mypii-u3-00742", "spans": [{"mula": 177, "tamat": 189, "label": "phone number", "teks": "(083) 289565", "skor": 0.9983793497085571}]}
+{"id": "mypii-u3-00743", "spans": [{"mula": 99, "tamat": 111, "label": "registration number", "teks": "201404885606", "skor": 0.8616940379142761}, {"mula": 145, "tamat": 157, "label": "phone number", "teks": "+6083-255151", "skor": 0.9836812019348145}]}
+{"id": "mypii-u3-00744", "spans": []}
+{"id": "mypii-u3-00745", "spans": [{"mula": 135, "tamat": 147, "label": "phone number", "teks": "015-698 5321", "skor": 0.9916890263557434}]}
+{"id": "mypii-u3-00746", "spans": []}
+{"id": "mypii-u3-00747", "spans": [{"mula": 182, "tamat": 194, "label": "phone number", "teks": "03-5182 8193", "skor": 0.9987665414810181}]}
+{"id": "mypii-u3-00748", "spans": [{"mula": 84, "tamat": 93, "label": "registration number", "teks": "1234579-U", "skor": 0.5557709336280823}, {"mula": 223, "tamat": 236, "label": "phone number", "teks": "011 7447 7851", "skor": 0.9962511658668518}]}
+{"id": "mypii-u3-00749", "spans": []}
+{"id": "mypii-u3-00750", "spans": [{"mula": 147, "tamat": 159, "label": "registration number", "teks": "201305380497", "skor": 0.6660149097442627}, {"mula": 204, "tamat": 218, "label": "phone number", "teks": "+6013 \n7942361", "skor": 0.8565471172332764}]}
+{"id": "mypii-u3-00751", "spans": []}
+{"id": "mypii-u3-00752", "spans": []}
+{"id": "mypii-u3-00753", "spans": []}
+{"id": "mypii-u3-00754", "spans": [{"mula": 92, "tamat": 107, "label": "phone number", "teks": "+6019281\n  4133", "skor": 0.994763195514679}]}
+{"id": "mypii-u3-00755", "spans": [{"mula": 183, "tamat": 191, "label": "phone number", "teks": "04863073", "skor": 0.9166284799575806}]}
+{"id": "mypii-u3-00756", "spans": []}
+{"id": "mypii-u3-00757", "spans": [{"mula": 178, "tamat": 192, "label": "phone number", "teks": "+60 84 426 078", "skor": 0.999659538269043}]}
+{"id": "mypii-u3-00758", "spans": [{"mula": 232, "tamat": 248, "label": "registration number", "teks": "slip pendaftaran", "skor": 0.5943648815155029}]}
+{"id": "mypii-u3-00759", "spans": [{"mula": 196, "tamat": 207, "label": "phone number", "teks": "250113 0301", "skor": 0.7140015363693237}, {"mula": 238, "tamat": 250, "label": "phone number", "teks": "015-745 9110", "skor": 0.9648607969284058}]}
+{"id": "mypii-u3-00760", "spans": []}
+{"id": "mypii-u3-00761", "spans": []}
+{"id": "mypii-u3-00762", "spans": [{"mula": 227, "tamat": 239, "label": "phone number", "teks": "015-905 1201", "skor": 0.9969527721405029}]}
+{"id": "mypii-u3-00763", "spans": []}
+{"id": "mypii-u3-00764", "spans": [{"mula": 184, "tamat": 196, "label": "phone number", "teks": "015-107 1447", "skor": 0.9850308895111084}]}
+{"id": "mypii-u3-00765", "spans": [{"mula": 96, "tamat": 111, "label": "registration number", "teks": "198203\n  527326", "skor": 0.8130089640617371}, {"mula": 163, "tamat": 177, "label": "identity card number", "teks": "600312 41 4263", "skor": 0.5618858933448792}]}
+{"id": "mypii-u3-00766", "spans": [{"mula": 157, "tamat": 171, "label": "phone number", "teks": "03\n  5740 7958", "skor": 0.9982423782348633}]}
+{"id": "mypii-u3-00767", "spans": []}
+{"id": "mypii-u3-00768", "spans": []}
+{"id": "mypii-u3-00769", "spans": []}
+{"id": "mypii-u3-00770", "spans": []}
+{"id": "mypii-u3-00771", "spans": [{"mula": 197, "tamat": 209, "label": "phone number", "teks": "(084) 663967", "skor": 0.9915592074394226}]}
+{"id": "mypii-u3-00772", "spans": [{"mula": 184, "tamat": 192, "label": "phone number", "teks": "06900442", "skor": 0.9061926603317261}]}
+{"id": "mypii-u3-00773", "spans": [{"mula": 239, "tamat": 248, "label": "phone number", "teks": "03-606 24", "skor": 0.8556520342826843}]}
+{"id": "mypii-u3-00774", "spans": []}
+{"id": "mypii-u3-00775", "spans": []}
+{"id": "mypii-u3-00776", "spans": [{"mula": 234, "tamat": 244, "label": "phone number", "teks": "085-790758", "skor": 0.9975111484527588}]}
+{"id": "mypii-u3-00777", "spans": [{"mula": 189, "tamat": 199, "label": "phone number", "teks": "0127556099", "skor": 0.9907348155975342}]}
+{"id": "mypii-u3-00778", "spans": []}
+{"id": "mypii-u3-00779", "spans": []}
+{"id": "mypii-u3-00780", "spans": [{"mula": 181, "tamat": 193, "label": "phone number", "teks": "+6085-5724O0", "skor": 0.9961878657341003}]}
+{"id": "mypii-u3-00781", "spans": [{"mula": 139, "tamat": 147, "label": "phone number", "teks": "08354603", "skor": 0.9793310761451721}]}
+{"id": "mypii-u3-00782", "spans": [{"mula": 96, "tamat": 108, "label": "phone number", "teks": "+60195238509", "skor": 0.9973006844520569}]}
+{"id": "mypii-u3-00783", "spans": []}
+{"id": "mypii-u3-00784", "spans": [{"mula": 186, "tamat": 198, "label": "phone number", "teks": "(088) 549697", "skor": 0.9989871382713318}]}
+{"id": "mypii-u3-00785", "spans": []}
+{"id": "mypii-u3-00786", "spans": []}
+{"id": "mypii-u3-00787", "spans": []}
+{"id": "mypii-u3-00788", "spans": []}
+{"id": "mypii-u3-00789", "spans": [{"mula": 93, "tamat": 105, "label": "registration number", "teks": "2016049B6555", "skor": 0.9381074905395508}, {"mula": 168, "tamat": 178, "label": "phone number", "teks": "01B2029369", "skor": 0.996036946773529}]}
+{"id": "mypii-u3-00790", "spans": [{"mula": 95, "tamat": 107, "label": "phone number", "teks": "0l2-774 3045", "skor": 0.9968159794807434}]}
+{"id": "mypii-u3-00791", "spans": []}
+{"id": "mypii-u3-00792", "spans": []}
+{"id": "mypii-u3-00793", "spans": [{"mula": 77, "tamat": 93, "label": "phone number", "teks": "+60 16 \n661 5008", "skor": 0.9997718930244446}]}
+{"id": "mypii-u3-00794", "spans": []}
+{"id": "mypii-u3-00795", "spans": []}
+{"id": "mypii-u3-00796", "spans": [{"mula": 109, "tamat": 123, "label": "phone number", "teks": "960818 61 8276", "skor": 0.7153860926628113}]}
+{"id": "mypii-u3-00797", "spans": []}
+{"id": "mypii-u3-00798", "spans": [{"mula": 131, "tamat": 143, "label": "registration number", "teks": "2O2006082212", "skor": 0.8505971431732178}, {"mula": 149, "tamat": 161, "label": "phone number", "teks": "(082) 2O4617", "skor": 0.999000608921051}]}
+{"id": "mypii-u3-00799", "spans": [{"mula": 293, "tamat": 304, "label": "phone number", "teks": "085-480 300", "skor": 0.9943576455116272}]}
+{"id": "mypii-u3-00800", "spans": [{"mula": 139, "tamat": 147, "label": "phone number", "teks": "03461161", "skor": 0.9658411145210266}]}
+{"id": "mypii-u3-00801", "spans": []}
+{"id": "mypii-u3-00802", "spans": [{"mula": 211, "tamat": 222, "label": "phone number", "teks": "087-732 4B3", "skor": 0.9971275925636292}]}
+{"id": "mypii-u3-00803", "spans": [{"mula": 106, "tamat": 120, "label": "registration number", "teks": "050113 98 7191", "skor": 0.6638878583908081}, {"mula": 171, "tamat": 180, "label": "phone number", "teks": "016-46164", "skor": 0.9959136843681335}]}
+{"id": "mypii-u3-00804", "spans": []}
+{"id": "mypii-u3-00805", "spans": [{"mula": 60, "tamat": 72, "label": "registration number", "teks": "1969O1242410", "skor": 0.8603175282478333}]}
+{"id": "mypii-u3-00806", "spans": []}
+{"id": "mypii-u3-00807", "spans": []}
+{"id": "mypii-u3-00808", "spans": [{"mula": 107, "tamat": 119, "label": "phone number", "teks": "015-824 9651", "skor": 0.982971727848053}]}
+{"id": "mypii-u3-00809", "spans": [{"mula": 214, "tamat": 226, "label": "identity card number", "teks": "590516634843", "skor": 0.8901238441467285}, {"mula": 246, "tamat": 257, "label": "phone number", "teks": "09-955 1626", "skor": 0.9985771179199219}]}
+{"id": "mypii-u3-00810", "spans": [{"mula": 191, "tamat": 203, "label": "phone number", "teks": "03-9028 3282", "skor": 0.996915340423584}]}
+{"id": "mypii-u3-00811", "spans": [{"mula": 202, "tamat": 218, "label": "phone number", "teks": "+60\n  14216 1205", "skor": 0.9996597766876221}]}
+{"id": "mypii-u3-00812", "spans": [{"mula": 216, "tamat": 228, "label": "phone number", "teks": "019-484 0999", "skor": 0.9977169036865234}]}
+{"id": "mypii-u3-00813", "spans": [{"mula": 79, "tamat": 90, "label": "phone number", "teks": "018-2867661", "skor": 0.9973740577697754}]}
+{"id": "mypii-u3-00814", "spans": []}
+{"id": "mypii-u3-00815", "spans": [{"mula": 180, "tamat": 189, "label": "phone number", "teks": "03-800 10", "skor": 0.9899781942367554}]}
+{"id": "mypii-u3-00816", "spans": []}
+{"id": "mypii-u3-00817", "spans": [{"mula": 234, "tamat": 242, "label": "phone number", "teks": "02570576", "skor": 0.7278218269348145}]}
+{"id": "mypii-u3-00818", "spans": []}
+{"id": "mypii-u3-00819", "spans": []}
+{"id": "mypii-u3-00820", "spans": [{"mula": 56, "tamat": 68, "label": "registration number", "teks": "420522892193", "skor": 0.7194741368293762}, {"mula": 74, "tamat": 85, "label": "phone number", "teks": "083-284 728", "skor": 0.9978047013282776}]}
+{"id": "mypii-u3-00821", "spans": []}
+{"id": "mypii-u3-00822", "spans": [{"mula": 244, "tamat": 256, "label": "phone number", "teks": "015-755 6421", "skor": 0.8231345415115356}]}
+{"id": "mypii-u3-00823", "spans": [{"mula": 88, "tamat": 100, "label": "registration number", "teks": "198301397554", "skor": 0.6873911619186401}]}
+{"id": "mypii-u3-00824", "spans": [{"mula": 97, "tamat": 107, "label": "phone number", "teks": "0175697073", "skor": 0.9709175229072571}]}
+{"id": "mypii-u3-00825", "spans": [{"mula": 264, "tamat": 275, "label": "phone number", "teks": "082 322 392", "skor": 0.99806147813797}]}
+{"id": "mypii-u3-00826", "spans": []}
+{"id": "mypii-u3-00827", "spans": [{"mula": 135, "tamat": 147, "label": "registration number", "teks": "199302249790", "skor": 0.8134140968322754}, {"mula": 197, "tamat": 207, "label": "phone number", "teks": "088-235700", "skor": 0.9980530738830566}]}
+{"id": "mypii-u3-00828", "spans": []}
+{"id": "mypii-u3-00829", "spans": []}
+{"id": "mypii-u3-00830", "spans": []}
+{"id": "mypii-u3-00831", "spans": []}
+{"id": "mypii-u3-00832", "spans": []}
+{"id": "mypii-u3-00833", "spans": []}
+{"id": "mypii-u3-00834", "spans": [{"mula": 81, "tamat": 92, "label": "phone number", "teks": "014-8114303", "skor": 0.9993250370025635}]}
+{"id": "mypii-u3-00835", "spans": [{"mula": 58, "tamat": 74, "label": "registration number", "teks": "651225\n  23-3951", "skor": 0.5220310091972351}, {"mula": 84, "tamat": 98, "label": "phone number", "teks": "011 \n1608 9208", "skor": 0.9962712526321411}]}
+{"id": "mypii-u3-00836", "spans": []}
+{"id": "mypii-u3-00837", "spans": [{"mula": 90, "tamat": 102, "label": "registration number", "teks": "201801136837", "skor": 0.8799487948417664}, {"mula": 153, "tamat": 167, "label": "identity card number", "teks": "571123-07-7794", "skor": 0.6810427904129028}]}
+{"id": "mypii-u3-00838", "spans": [{"mula": 137, "tamat": 148, "label": "phone number", "teks": "017-2545873", "skor": 0.9966450333595276}]}
+{"id": "mypii-u3-00839", "spans": []}
+{"id": "mypii-u3-00840", "spans": [{"mula": 179, "tamat": 190, "label": "phone number", "teks": "09-423 0525", "skor": 0.9929078817367554}]}
+{"id": "mypii-u3-00841", "spans": [{"mula": 201, "tamat": 215, "label": "registration number", "teks": "532402-03-0031", "skor": 0.6555477380752563}]}
+{"id": "mypii-u3-00842", "spans": []}
+{"id": "mypii-u3-00843", "spans": [{"mula": 59, "tamat": 73, "label": "registration number", "teks": "2016 \n05581396", "skor": 0.7395547032356262}, {"mula": 232, "tamat": 242, "label": "phone number", "teks": "0196505561", "skor": 0.8987822532653809}]}
+{"id": "mypii-u3-00844", "spans": [{"mula": 202, "tamat": 212, "label": "phone number", "teks": "013B347118", "skor": 0.9916058778762817}]}
+{"id": "mypii-u3-00845", "spans": []}
+{"id": "mypii-u3-00846", "spans": [{"mula": 131, "tamat": 139, "label": "phone number", "teks": "04832518", "skor": 0.8885504007339478}]}
+{"id": "mypii-u3-00847", "spans": []}
+{"id": "mypii-u3-00848", "spans": [{"mula": 206, "tamat": 220, "label": "registration number", "teks": "920112-17-2762", "skor": 0.5194075107574463}]}
+{"id": "mypii-u3-00849", "spans": [{"mula": 235, "tamat": 243, "label": "registration number", "teks": "943019-K", "skor": 0.9797537922859192}]}
+{"id": "mypii-u3-00850", "spans": []}
+{"id": "mypii-u3-00851", "spans": []}
+{"id": "mypii-u3-00852", "spans": [{"mula": 221, "tamat": 237, "label": "registration number", "teks": "slip pendaftaran", "skor": 0.6462745070457458}]}
+{"id": "mypii-u3-00853", "spans": [{"mula": 242, "tamat": 251, "label": "phone number", "teks": "03-391 41", "skor": 0.9637181758880615}]}
+{"id": "mypii-u3-00854", "spans": [{"mula": 147, "tamat": 161, "label": "phone number", "teks": "+60 88 384 437", "skor": 0.998916506767273}]}
+{"id": "mypii-u3-00855", "spans": []}
+{"id": "mypii-u3-00856", "spans": [{"mula": 95, "tamat": 108, "label": "phone number", "teks": "03-6490 \n6779", "skor": 0.9944753050804138}, {"mula": 165, "tamat": 178, "label": "registration number", "teks": "2012\n06227448", "skor": 0.8002749085426331}]}
+{"id": "mypii-u3-00857", "spans": []}
+{"id": "mypii-u3-00858", "spans": []}
+{"id": "mypii-u3-00859", "spans": []}
+{"id": "mypii-u3-00860", "spans": []}
+{"id": "mypii-u3-00861", "spans": []}
+{"id": "mypii-u3-00862", "spans": [{"mula": 89, "tamat": 104, "label": "phone number", "teks": "+60-16 245 3071", "skor": 0.9990952014923096}]}
+{"id": "mypii-u3-00863", "spans": [{"mula": 161, "tamat": 172, "label": "phone number", "teks": "082 366 255", "skor": 0.9970212578773499}]}
+{"id": "mypii-u3-00864", "spans": [{"mula": 181, "tamat": 195, "label": "phone number", "teks": "+60 89 323 272", "skor": 0.998823344707489}]}
+{"id": "mypii-u3-00865", "spans": []}
+{"id": "mypii-u3-00866", "spans": []}
+{"id": "mypii-u3-00867", "spans": [{"mula": 92, "tamat": 102, "label": "phone number", "teks": "087-707B33", "skor": 0.9949963092803955}, {"mula": 155, "tamat": 167, "label": "registration number", "teks": "1982031551B2", "skor": 0.7307600378990173}]}
+{"id": "mypii-u3-00868", "spans": [{"mula": 107, "tamat": 118, "label": "phone number", "teks": "260227 0713", "skor": 0.9447958469390869}]}
+{"id": "mypii-u3-00869", "spans": []}
+{"id": "mypii-u3-00870", "spans": [{"mula": 90, "tamat": 100, "label": "phone number", "teks": "083-480408", "skor": 0.9953489899635315}]}
+{"id": "mypii-u3-00871", "spans": [{"mula": 101, "tamat": 113, "label": "phone number", "teks": "(082) 600455", "skor": 0.9613875150680542}, {"mula": 130, "tamat": 144, "label": "phone number", "teks": "03-6060\n  5437", "skor": 0.8856779336929321}]}
+{"id": "mypii-u3-00872", "spans": [{"mula": 171, "tamat": 183, "label": "phone number", "teks": "+6087\n795205", "skor": 0.9993164539337158}]}
+{"id": "mypii-u3-00873", "spans": []}
+{"id": "mypii-u3-00874", "spans": [{"mula": 185, "tamat": 199, "label": "phone number", "teks": "015-442 840070", "skor": 0.9910099506378174}]}
+{"id": "mypii-u3-00875", "spans": []}
+{"id": "mypii-u3-00876", "spans": [{"mula": 185, "tamat": 195, "label": "phone number", "teks": "089-257487", "skor": 0.9988049268722534}]}
+{"id": "mypii-u3-00877", "spans": []}
+{"id": "mypii-u3-00878", "spans": [{"mula": 187, "tamat": 199, "label": "phone number", "teks": "(089) 540446", "skor": 0.9993160963058472}]}
+{"id": "mypii-u3-00879", "spans": []}
+{"id": "mypii-u3-00880", "spans": [{"mula": 64, "tamat": 76, "label": "phone number", "teks": "+6089-631063", "skor": 0.9977036118507385}]}
+{"id": "mypii-u3-00881", "spans": [{"mula": 90, "tamat": 101, "label": "phone number", "teks": "06-623 7S79", "skor": 0.9892714023590088}, {"mula": 153, "tamat": 165, "label": "registration number", "teks": "2016O4971339", "skor": 0.7215802073478699}]}
+{"id": "mypii-u3-00882", "spans": [{"mula": 107, "tamat": 119, "label": "registration number", "teks": "450519152117", "skor": 0.5216657519340515}, {"mula": 171, "tamat": 179, "label": "phone number", "teks": "09130177", "skor": 0.9941950440406799}]}
+{"id": "mypii-u3-00883", "spans": []}
+{"id": "mypii-u3-00884", "spans": [{"mula": 213, "tamat": 227, "label": "identity card number", "teks": "890810 24 7795", "skor": 0.9530556201934814}, {"mula": 247, "tamat": 258, "label": "phone number", "teks": "04-862 7366", "skor": 0.9987592697143555}]}
+{"id": "mypii-u3-00885", "spans": [{"mula": 52, "tamat": 64, "label": "identity card number", "teks": "110203016328", "skor": 0.8223885297775269}]}
+{"id": "mypii-u3-00886", "spans": [{"mula": 204, "tamat": 218, "label": "phone number", "teks": "+60 88 964 918", "skor": 0.9987949132919312}]}
+{"id": "mypii-u3-00887", "spans": []}
+{"id": "mypii-u3-00888", "spans": [{"mula": 89, "tamat": 101, "label": "phone number", "teks": "082 741 \n172", "skor": 0.9983440637588501}]}
+{"id": "mypii-u3-00889", "spans": [{"mula": 95, "tamat": 107, "label": "registration number", "teks": "2O2006277652", "skor": 0.506917417049408}, {"mula": 145, "tamat": 156, "label": "phone number", "teks": "010-3O40999", "skor": 0.9875204563140869}]}
+{"id": "mypii-u3-00890", "spans": []}
+{"id": "mypii-u3-00891", "spans": [{"mula": 242, "tamat": 250, "label": "registration number", "teks": "179383-G", "skor": 0.9727616310119629}]}
+{"id": "mypii-u3-00892", "spans": [{"mula": 172, "tamat": 186, "label": "phone number", "teks": "+60 84 243 177", "skor": 0.9986518025398254}]}
+{"id": "mypii-u3-00893", "spans": []}
+{"id": "mypii-u3-00894", "spans": [{"mula": 219, "tamat": 238, "label": "identity card number", "teks": "kad pengenalan asal", "skor": 0.8423942923545837}]}
+{"id": "mypii-u3-00895", "spans": []}
+{"id": "mypii-u3-00896", "spans": [{"mula": 135, "tamat": 143, "label": "phone number", "teks": "07198981", "skor": 0.9957361221313477}]}
+{"id": "mypii-u3-00897", "spans": [{"mula": 230, "tamat": 241, "label": "phone number", "teks": "088-449 756", "skor": 0.9981901049613953}]}
+{"id": "mypii-u3-00898", "spans": [{"mula": 62, "tamat": 74, "label": "registration number", "teks": "202305528100", "skor": 0.8878320455551147}]}
+{"id": "mypii-u3-00899", "spans": []}
+{"id": "mypii-u3-00900", "spans": [{"mula": 88, "tamat": 104, "label": "phone number", "teks": "+60 19316\n  6058", "skor": 0.9995162487030029}]}
+{"id": "mypii-u3-00901", "spans": []}
+{"id": "mypii-u3-00902", "spans": [{"mula": 210, "tamat": 221, "label": "phone number", "teks": "087-781 633", "skor": 0.9969185590744019}]}
+{"id": "mypii-u3-00903", "spans": []}
+{"id": "mypii-u3-00904", "spans": [{"mula": 238, "tamat": 252, "label": "phone number", "teks": "017-479 811531", "skor": 0.9978741407394409}]}
+{"id": "mypii-u3-00905", "spans": []}
+{"id": "mypii-u3-00906", "spans": [{"mula": 194, "tamat": 206, "label": "phone number", "teks": "(087) 462843", "skor": 0.9997424483299255}]}
+{"id": "mypii-u3-00907", "spans": []}
+{"id": "mypii-u3-00908", "spans": []}
+{"id": "mypii-u3-00909", "spans": [{"mula": 195, "tamat": 206, "label": "phone number", "teks": "085-450 944", "skor": 0.9972488284111023}]}
+{"id": "mypii-u3-00910", "spans": []}
+{"id": "mypii-u3-00911", "spans": []}
+{"id": "mypii-u3-00912", "spans": [{"mula": 95, "tamat": 106, "label": "phone number", "teks": "013231 2B00", "skor": 0.9915364980697632}, {"mula": 161, "tamat": 173, "label": "registration number", "teks": "2O1806898151", "skor": 0.734761655330658}]}
+{"id": "mypii-u3-00913", "spans": [{"mula": 240, "tamat": 249, "label": "phone number", "teks": "03-187 73", "skor": 0.8486897945404053}]}
+{"id": "mypii-u3-00914", "spans": []}
+{"id": "mypii-u3-00915", "spans": [{"mula": 72, "tamat": 83, "label": "phone number", "teks": "0B9 632 094", "skor": 0.9904620051383972}]}
+{"id": "mypii-u3-00916", "spans": []}
+{"id": "mypii-u3-00917", "spans": [{"mula": 243, "tamat": 253, "label": "phone number", "teks": "088-689926", "skor": 0.9989487528800964}]}
+{"id": "mypii-u3-00918", "spans": [{"mula": 148, "tamat": 162, "label": "phone number", "teks": "019-986 682337", "skor": 0.9434158205986023}]}
+{"id": "mypii-u3-00919", "spans": [{"mula": 219, "tamat": 230, "label": "phone number", "teks": "019-5202584", "skor": 0.9982853531837463}]}
+{"id": "mypii-u3-00920", "spans": []}
+{"id": "mypii-u3-00921", "spans": [{"mula": 209, "tamat": 221, "label": "phone number", "teks": "03-8734 7304", "skor": 0.9976986050605774}]}
+{"id": "mypii-u3-00922", "spans": [{"mula": 246, "tamat": 258, "label": "phone number", "teks": "088 \n970 531", "skor": 0.9982671737670898}]}
+{"id": "mypii-u3-00923", "spans": [{"mula": 191, "tamat": 206, "label": "phone number", "teks": "+60 17 8B0 7732", "skor": 0.9991484880447388}]}
+{"id": "mypii-u3-00924", "spans": []}
+{"id": "mypii-u3-00925", "spans": [{"mula": 308, "tamat": 320, "label": "phone number", "teks": "07-762 \n3032", "skor": 0.995672345161438}]}
+{"id": "mypii-u3-00926", "spans": []}
+{"id": "mypii-u3-00927", "spans": [{"mula": 157, "tamat": 169, "label": "phone number", "teks": "(089) 910609", "skor": 0.9995538592338562}]}
+{"id": "mypii-u3-00928", "spans": [{"mula": 188, "tamat": 203, "label": "phone number", "teks": "+6O11 2083 1196", "skor": 0.9969812035560608}]}
+{"id": "mypii-u3-00929", "spans": []}
+{"id": "mypii-u3-00930", "spans": [{"mula": 131, "tamat": 143, "label": "registration number", "teks": "20O903947596", "skor": 0.7969177961349487}, {"mula": 149, "tamat": 161, "label": "phone number", "teks": "03-5629 88l3", "skor": 0.9977117776870728}]}
+{"id": "mypii-u3-00931", "spans": []}
+{"id": "mypii-u3-00932", "spans": [{"mula": 263, "tamat": 275, "label": "phone number", "teks": "016 359 6959", "skor": 0.9980630278587341}]}
+{"id": "mypii-u3-00933", "spans": [{"mula": 228, "tamat": 239, "label": "phone number", "teks": "088 723 070", "skor": 0.9983254075050354}]}
+{"id": "mypii-u3-00934", "spans": [{"mula": 116, "tamat": 129, "label": "phone number", "teks": "+6013 577S530", "skor": 0.9956955909729004}]}
+{"id": "mypii-u3-00935", "spans": [{"mula": 158, "tamat": 170, "label": "phone number", "teks": "011 24866656", "skor": 0.9980702996253967}]}
+{"id": "mypii-u3-00936", "spans": [{"mula": 214, "tamat": 225, "label": "phone number", "teks": "087-759 860", "skor": 0.9978633522987366}]}
+{"id": "mypii-u3-00937", "spans": [{"mula": 91, "tamat": 102, "label": "phone number", "teks": "0B3-459 119", "skor": 0.9917934536933899}]}
+{"id": "mypii-u3-00938", "spans": [{"mula": 195, "tamat": 207, "label": "phone number", "teks": "+6084-523273", "skor": 0.9992641806602478}]}
+{"id": "mypii-u3-00939", "spans": [{"mula": 59, "tamat": 73, "label": "phone number", "teks": "+60 84 648 589", "skor": 0.9986860156059265}]}
+{"id": "mypii-u3-00940", "spans": [{"mula": 109, "tamat": 119, "label": "phone number", "teks": "086-976232", "skor": 0.927298367023468}, {"mula": 136, "tamat": 147, "label": "phone number", "teks": "05-211\n0012", "skor": 0.8883224129676819}]}
+{"id": "mypii-u3-00941", "spans": []}
+{"id": "mypii-u3-00942", "spans": [{"mula": 229, "tamat": 240, "label": "phone number", "teks": "010234 8776", "skor": 0.9950894713401794}]}
+{"id": "mypii-u3-00943", "spans": [{"mula": 46, "tamat": 62, "label": "identity card number", "teks": "IC: 96020122S309", "skor": 0.5932900905609131}, {"mula": 219, "tamat": 232, "label": "phone number", "teks": "019781\n  7098", "skor": 0.8933711647987366}]}
+{"id": "mypii-u3-00944", "spans": []}
+{"id": "mypii-u3-00945", "spans": [{"mula": 182, "tamat": 194, "label": "phone number", "teks": "015-670 7032", "skor": 0.9942345023155212}]}
+{"id": "mypii-u3-00946", "spans": [{"mula": 88, "tamat": 100, "label": "phone number", "teks": "(088) 7S3646", "skor": 0.9984022974967957}]}
+{"id": "mypii-u3-00947", "spans": []}
+{"id": "mypii-u3-00948", "spans": []}
+{"id": "mypii-u3-00949", "spans": [{"mula": 85, "tamat": 96, "label": "phone number", "teks": "0l9-6572022", "skor": 0.9945717453956604}]}
+{"id": "mypii-u3-00950", "spans": [{"mula": 254, "tamat": 269, "label": "phone number", "teks": "+60 10 341 0328", "skor": 0.9995601773262024}]}
+{"id": "mypii-u3-00951", "spans": [{"mula": 147, "tamat": 163, "label": "phone number", "teks": "+6013 576\n  8741", "skor": 0.9994268417358398}]}
+{"id": "mypii-u3-00952", "spans": [{"mula": 188, "tamat": 197, "label": "phone number", "teks": "017-79676", "skor": 0.986339807510376}]}
+{"id": "mypii-u3-00953", "spans": []}
+{"id": "mypii-u3-00954", "spans": []}
+{"id": "mypii-u3-00955", "spans": []}
+{"id": "mypii-u3-00956", "spans": [{"mula": 251, "tamat": 264, "label": "phone number", "teks": "03 \n3299 9492", "skor": 0.9961205124855042}]}
+{"id": "mypii-u3-00957", "spans": [{"mula": 77, "tamat": 84, "label": "registration number", "teks": "57465-C", "skor": 0.5563476085662842}, {"mula": 217, "tamat": 228, "label": "phone number", "teks": "014 5014837", "skor": 0.9898098707199097}]}
+{"id": "mypii-u3-00958", "spans": [{"mula": 188, "tamat": 199, "label": "phone number", "teks": "089 728 138", "skor": 0.9973376393318176}]}
+{"id": "mypii-u3-00959", "spans": [{"mula": 190, "tamat": 202, "label": "phone number", "teks": "010 2B3 6426", "skor": 0.9944434762001038}]}
+{"id": "mypii-u3-00960", "spans": []}
+{"id": "mypii-u3-00961", "spans": []}
+{"id": "mypii-u3-00962", "spans": [{"mula": 233, "tamat": 252, "label": "identity card number", "teks": "kad pengenalan asal", "skor": 0.8233647346496582}]}
+{"id": "mypii-u3-00963", "spans": [{"mula": 102, "tamat": 114, "label": "phone number", "teks": "03-8313 8S84", "skor": 0.961840033531189}]}
+{"id": "mypii-u3-00964", "spans": [{"mula": 89, "tamat": 100, "label": "phone number", "teks": "0l9 8379463", "skor": 0.9960426092147827}]}
+{"id": "mypii-u3-00965", "spans": []}
+{"id": "mypii-u3-00966", "spans": []}
+{"id": "mypii-u3-00967", "spans": [{"mula": 97, "tamat": 108, "label": "phone number", "teks": "0B3 229 761", "skor": 0.9973764419555664}]}
+{"id": "mypii-u3-00968", "spans": [{"mula": 162, "tamat": 174, "label": "phone number", "teks": "(084) 709167", "skor": 0.9996305704116821}]}
+{"id": "mypii-u3-00969", "spans": [{"mula": 200, "tamat": 211, "label": "phone number", "teks": "086 271 499", "skor": 0.9952595829963684}]}
+{"id": "mypii-u3-00970", "spans": [{"mula": 83, "tamat": 95, "label": "phone number", "teks": "088 \n598 209", "skor": 0.9961507320404053}]}
+{"id": "mypii-u3-00971", "spans": [{"mula": 175, "tamat": 185, "label": "phone number", "teks": "084-339980", "skor": 0.9986159801483154}]}
+{"id": "mypii-u3-00972", "spans": [{"mula": 109, "tamat": 119, "label": "phone number", "teks": "018817B693", "skor": 0.9361104965209961}]}
+{"id": "mypii-u3-00973", "spans": [{"mula": 88, "tamat": 100, "label": "registration number", "teks": "202304368034", "skor": 0.8280741572380066}, {"mula": 148, "tamat": 160, "label": "phone number", "teks": "+6088-931232", "skor": 0.9955161213874817}]}
+{"id": "mypii-u3-00974", "spans": [{"mula": 84, "tamat": 98, "label": "phone number", "teks": "+6085\n  448974", "skor": 0.9983295798301697}]}
+{"id": "mypii-u3-00975", "spans": [{"mula": 148, "tamat": 158, "label": "phone number", "teks": "0175437863", "skor": 0.9881669878959656}]}
+{"id": "mypii-u3-00976", "spans": []}
+{"id": "mypii-u3-00977", "spans": []}
+{"id": "mypii-u3-00978", "spans": [{"mula": 103, "tamat": 117, "label": "phone number", "teks": "010-481 454402", "skor": 0.9447474479675293}]}
+{"id": "mypii-u3-00979", "spans": [{"mula": 111, "tamat": 121, "label": "phone number", "teks": "0B3-363351", "skor": 0.9394357800483704}]}
+{"id": "mypii-u3-00980", "spans": [{"mula": 193, "tamat": 207, "label": "phone number", "teks": "+60-16687\n8135", "skor": 0.995598316192627}]}
+{"id": "mypii-u3-00981", "spans": []}
+{"id": "mypii-u3-00982", "spans": [{"mula": 240, "tamat": 249, "label": "phone number", "teks": "017-12727", "skor": 0.6789489388465881}]}
+{"id": "mypii-u3-00983", "spans": [{"mula": 100, "tamat": 108, "label": "phone number", "teks": "06354621", "skor": 0.9555944800376892}]}
+{"id": "mypii-u3-00984", "spans": []}
+{"id": "mypii-u3-00985", "spans": [{"mula": 89, "tamat": 101, "label": "registration number", "teks": "201205154130", "skor": 0.8586337566375732}, {"mula": 149, "tamat": 161, "label": "identity card number", "teks": "990711712382", "skor": 0.8193881511688232}]}
+{"id": "mypii-u3-00986", "spans": [{"mula": 164, "tamat": 176, "label": "phone number", "teks": "03-9048 0305", "skor": 0.9964210987091064}]}
+{"id": "mypii-u3-00987", "spans": []}
+{"id": "mypii-u3-00988", "spans": [{"mula": 146, "tamat": 156, "label": "phone number", "teks": "089-342821", "skor": 0.8929383158683777}]}
+{"id": "mypii-u3-00989", "spans": [{"mula": 225, "tamat": 237, "label": "phone number", "teks": "010 587 3056", "skor": 0.9984546899795532}]}
+{"id": "mypii-u3-00990", "spans": []}
+{"id": "mypii-u3-00991", "spans": []}
+{"id": "mypii-u3-00992", "spans": []}
+{"id": "mypii-u3-00993", "spans": [{"mula": 208, "tamat": 222, "label": "identity card number", "teks": "540518 30 1740", "skor": 0.9460170865058899}, {"mula": 242, "tamat": 254, "label": "phone number", "teks": "03-9706 0712", "skor": 0.9981479644775391}]}
+{"id": "mypii-u3-00994", "spans": [{"mula": 213, "tamat": 224, "label": "phone number", "teks": "012-7454915", "skor": 0.9985077977180481}]}
+{"id": "mypii-u3-00995", "spans": []}
+{"id": "mypii-u3-00996", "spans": [{"mula": 109, "tamat": 120, "label": "phone number", "teks": "083 492 392", "skor": 0.9614586234092712}, {"mula": 137, "tamat": 152, "label": "phone number", "teks": "+60 18 \n7882084", "skor": 0.9787262678146362}]}
+{"id": "mypii-u3-00997", "spans": []}
+{"id": "mypii-u3-00998", "spans": []}
+{"id": "mypii-u3-00999", "spans": []}

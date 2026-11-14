@@ -79,3 +79,7 @@ tarikh	komit	dev_sha8	f1	status	baris_kod	keterangan
 2026-11-05T12:25:52Z	3a25786+	5109e59e	0.9981	ukur	+67/-11	P11 tala: pengelas konteks cara=ganti ambang=0.5 (semua entiti)
 2026-11-05T12:26:21Z	3a25786+	5109e59e	0.9981	ukur	+67/-11	P11 tala: pengelas konteks cara=ganti ambang=0.7 (semua entiti)
 2026-11-05T12:33:31Z	a8d773d	5109e59e	0.9981	simpan	+0/-0	P9–P11 disimpan a8d773d: pengecam v2 + pengelas konteks ganti@0.5
+2026-11-14T13:46:22Z	b6ebbc6+	531532cf	0.9506	ukur	+34/-6	PELAN-V21 P1: cara=frasa (positif p>=0.05, negatif sah p>=0.9, tiada p>=0.5, NRIC bersempang 0.3, SSM lama wajib frasa)
+2026-11-14T13:47:11Z	b6ebbc6+	5109e59e	0.9956	ukur	+34/-6	PELAN-V21 P1: cara=frasa (positif p>=0.05, negatif sah p>=0.9, tiada p>=0.5, NRIC bersempang 0.3, SSM lama wajib frasa)
+2026-11-14T14:14:54Z	6e982c9	5109e59e	0.9956	simpan	+0/-0	PELAN-V21 disimpan 6e982c9 (tag mypii-v21-beku): pengecam v2.1 cara=frasa
+2026-11-14T14:15:26Z	6e982c9+	531532cf	0.9506	simpan	+0/-0	PELAN-V21 disimpan 6e982c9 (tag mypii-v21-beku): pengecam v2.1 cara=frasa

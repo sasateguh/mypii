@@ -129,7 +129,7 @@ def test_prompt_v3_lengkap():
 
 def test_keluarga_b_kecuali_hanya_ujian3_dan_haiku_dilarang():
     """Pindaan 2026-11-05 (c): mistral/anthropic dibenarkan untuk ujian3 SAHAJA; Haiku (pembanding H4a) dilarang di mana-mana."""
-    assert K["keluarga_larangan_kecuali"] == {"ujian3": ["mistral", "anthropic"]}
+    assert K["keluarga_larangan_kecuali"] == {"ujian3": ["mistral", "anthropic"], "ujian4": ["qwen"]}   # ujian4: PELAN-V21
     mistral = P["ujian3"]["model"]
     with pytest.raises(SystemExit, match="larangan"):   # sama model, sasaran latih3 → tiada pengecualian
         templat_llm.semak_keluarga(K, {**P, "latih3": {**P["latih3"], "model": mistral}, "ujian3": {**P["ujian3"], "model": P["latih3"]["model"]}})
@@ -310,3 +310,23 @@ def test_main_v3_probe_rc3_bila_semua_gagal(akar, monkeypatch, capsys):
     assert templat_llm.main() == 3
     monkeypatch.setattr("sys.argv", ["t", "--sasaran", "latih", "--probe"])
     assert templat_llm.main() == 2
+
+
+def test_keluarga_ujian4_bebas_dan_bertindih_ditolak():
+    """PELAN-V21: keluarga SETIAP pasangan sasaran v3 bersilang kosong; qwen hanya dikecualikan untuk ujian4."""
+    templat_llm.semak_keluarga(K, P)
+    assert {K["keluarga"][m] for m in [P["ujian4"]["model"], *P["ujian4"]["sandaran"]]} == {"qwen", "apertus"}
+    with pytest.raises(SystemExit, match="larangan"):   # mistral (keluarga ujian3) bukan pengecualian ujian4
+        templat_llm.semak_keluarga(K, {**P, "ujian4": {**P["ujian4"], "sandaran": [P["ujian3"]["model"]]}})
+    with pytest.raises(SystemExit, match="keluarga latih3 dan ujian4 bertindih"):   # nvidia: tidak dilarang, tetapi milik latih3
+        templat_llm.semak_keluarga(K, {**P, "ujian4": {**P["ujian4"], "sandaran": [P["latih3"]["model"]]}})
+    with pytest.raises(SystemExit, match="larangan"):   # qwen sebagai penjana latih3 → tiada pengecualian
+        templat_llm.semak_keluarga(K, {**P, "latih3": {**P["latih3"], "model": P["ujian4"]["model"]}})
+
+
+def test_ambang_nisbah_negatif_ganti_setiap_sasaran():
+    """Pindaan 2026-11-14 (c): `min_nisbah_negatif` sasaran (ujian4 0.20) mengatasi lalai 0.25; sasaran lain tidak berubah."""
+    st = {"templat": 200, "bahasa": {b: {"genre": 10, "nisbah_negatif": 0.22} for b in K["bahasa"]}}
+    assert len(templat_llm.semak_ambang(st, K, K["sasaran"]["ujian3"])) == len(K["bahasa"])
+    assert templat_llm.semak_ambang(st, K, K["sasaran"]["ujian4"]) == []
+

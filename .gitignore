@@ -20,4 +20,13 @@ hasil/*
 !hasil/dev3-statistik.json
 # 6 Nov 2026: salinan arkib larian ujian muktamad (v1 ujian/ujian2 + v2 ujian3) — keputusan + ramalan + cache, MANIFEST.sha256
 !hasil/arkib/
+# Pindaan PRA-DAFTAR 2026-11-14: ramalan mentah model luar (bench awam sintetik) + ringkasan dikomit
+!hasil/luar/
+!hasil/luar/**
 !hasil/arkib/**
+# PELAN-V21: ramalan/statistik v2.1 atas dev/dev3 dikomit; ujian4 (sekali) KEKAL diabaikan sehingga disalin ke hasil/arkib/
+!hasil/v21/
+!hasil/v21/**
+hasil/v21/ujian4*
+hasil/v21/ramalan/ujian4*
+hasil/luar/ujian4*

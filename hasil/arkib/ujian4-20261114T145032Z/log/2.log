@@ -1,0 +1,20 @@
++ uv run --with modal==1.6.3 modal run scripts/luar_modal.py::main --model meddies --split ujian4 --benarkan-ujian
+Installed 29 packages in 105ms
+✓ Initialized. View run at 
+[disunting: URL ruang kerja Modal / Modal workspace URL redacted]
+✓ Created objects.
+├── ✓ Uploaded [disunting: laluan hos]/scripts/luar_modal.py
+├── ✓ Created Function meddies.
+├── ✓ Created Function gliner.
+├── ✓ Created Function pii_engineer.
+└── ✓ Created Function pii_engineer_probe.
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+
+[1ALoading weights:   0%|          | 0/151 [00:00<?, ?it/s]
+[1ALoading weights:  70%|██████▉   | 105/151 [00:00<00:00, 1049.51it/s]
+[1ALoading weights: 100%|██████████| 151/151 [00:00<00:00, 1095.65it/s]
+hasil/luar/ujian4-meddies.jsonl: 1000 dokumen · {'model': ['Meddies/meddies-pii-v2', '0e5361e4d47ba4a92e56f7635a65daac54fec791'], 'peranti': 'cuda', 'torch': '2.14.1+cu130'}
+Stopping app - local entrypoint completed.
+✓ App completed. View run at 
+[disunting: URL ruang kerja Modal / Modal workspace URL redacted]

@@ -31,14 +31,22 @@ def _git(*arg: str, cwd: Path) -> str:
 
 
 def ramal(dokumen: list[dict], akar: Path = konfig.AKAR) -> list[list[dict]]:
-    tag = konfig.utama()["nilai"]["v1"]["tag"]
+    return ramal_tag(dokumen, konfig.utama()["nilai"]["v1"]["tag"], akar)
+
+
+def tag_sistem(sistem: str) -> str | None:
+    """PELAN-V21: sistem beku → tag git (`nilai.sistem_beku`, cth `mypii-v2` → `mypii-v2-beku`); `mypii-v1` kekal `nilai.v1.tag`."""
+    return konfig.utama()["nilai"].get("sistem_beku", {}).get(sistem)
+
+
+def ramal_tag(dokumen: list[dict], tag: str, akar: Path = konfig.AKAR) -> list[list[dict]]:
     sha_tag = _git("rev-parse", f"{tag}^{{commit}}", cwd=akar)
-    with tempfile.TemporaryDirectory(prefix="mypii-v1-") as t:
+    with tempfile.TemporaryDirectory(prefix="mypii-beku-") as t:
         wt = Path(t) / "wt"
         _git("worktree", "add", "--detach", str(wt), sha_tag, cwd=akar)
         try:
             if _git("rev-parse", "HEAD", cwd=wt) != sha_tag:
-                raise SystemExit(f"mypii-v1: sha worktree ≠ tag {tag} ({sha_tag[:12]}) — enggan")
+                raise SystemExit(f"{tag}: sha worktree ≠ tag ({sha_tag[:12]}) — enggan")
             masuk, keluar = Path(t) / "dok.json", Path(t) / "ramalan.json"
             masuk.write_text(json.dumps([{"id": d["id"], "teks": d["teks"]} for d in dokumen]), encoding="utf-8")
             subprocess.run([sys.executable, "-c", _KOD, str(masuk), str(keluar)], cwd=wt, check=True,

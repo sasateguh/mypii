@@ -1,0 +1,1524 @@
+# Dijana 2026-11-14 oleh `python -m mypii.jana.templat_llm --sasaran ujian4` (model: modal/Qwen/Qwen3.8-27B-FP8). JANGAN sunting tangan.
+# DIMETERAI (PELAN-V2 P6): jangan buka, jangan sunting — gerbang menolak sebarang perubahan.
+pertama_melayu_l:
+- Zulhelmi
+- Nazim
+- Zahir
+- Mukhlis
+- Syahir
+- Zulfaizal
+- Rizwan
+- Zulhizam
+- Fadzil
+- Zulkarnain
+- Mahmood Ali
+- Omar Farooq
+- Pramod Kumar
+- Saddiq Adnan
+- Vijay Raj
+- Dzulhilmi
+- Kamaludin
+- Qaisar Amin
+- Ramli Abdul
+- Uthman Zain
+- Varun Kumar
+- Zulkefli
+- Husaini
+- Lazim
+- Mansor
+- Nasiruddin
+- Omar
+- Rahim
+- Sami
+- Usman
+- Vellu
+- Wahab
+- Zain
+- Hafizul
+- Jasim
+- Lukman
+- Pulakesi
+- Suhaimi
+- Tengku
+- Xavier
+- Yusuf
+- Adnan
+- Bilal
+- Daren
+- Ezuan
+- Hasnul
+- Johan
+- Mizan
+- Nordin
+- Qais
+- Ungku
+- Vikram
+- Yahya
+- Erwan
+- Ghani
+- Husain
+- Jibril
+- Ariff
+- Bahri
+- Basri
+- Candra
+- Dakwah
+- Darwish
+- Daud
+- Diaz
+- Din
+- Ezam
+- Firas
+- Gopal
+- Harun
+- Helmi
+- Husni
+- Izzuan
+- Jom
+- Junaidi
+- Kazim
+- Keane
+- Kieran
+- Kumar
+- Mahathir
+- Mak
+- Marzuki
+- Mehar
+- Miftah
+- Mikael
+- Mizal
+- Noh
+- Palan
+- Pak
+- Pas
+- Rafi
+- Rahmat
+- Ram
+- Rasyid
+- Sadiq
+- Sahil
+- Samsul
+- Sanjay
+- Shamil
+- Shazwan
+- Sri
+- Surya
+- Syaiful
+- Tien
+- Uthman
+- Vengadasalam
+- Vijay
+- Zawani
+- Zhafri
+- Zul
+- Muhaimin Zainal
+- Nizar Rahim
+- Pulak Chandra
+- Rafiqi Hamzah
+- Satria Bakti
+- Vijay Kumar
+- Yassin Ilyas
+- Mizanul Amin
+- Tengku Adnan
+- Ulul Arifin
+- Jaya Kumar
+- Ezzrin Nazif
+- Omar Faruq
+- Pancha Kumar
+- Rafiqul Islam
+- Vikram Raj
+- Chandra Sekhar
+- Jasimuddin
+- Mukhlis Azman
+- Nizamuddin
+- Prabhu Kumar
+pertama_melayu_p:
+- Eka Wati
+- Maimunah Zain
+- Talia Zafira
+- Diana Zulfa
+- Maya Zulfa
+- Fatinah Aisy
+- Dina Farhana
+- Umi Kalthum
+- Alia Aminah
+- Leena Raj
+- Umi Zainab
+- Omarah Amin
+- Yara Aminah
+- Zoya Raj
+- Alicia Zainal
+- Jasmine Amin
+- Kahina Raj
+- Lena Zainal
+- Chloe Jasmine
+- Ella Nazira
+- Gita Anjani
+- Kira Syazwina
+- Mira Farhana
+- Qara Afiqah
+- Talia Nurfazura
+- Umaiyah Kaila
+- Xylo Maya
+- Carmelita Rosni
+- Diana Faridah
+- Fira Zahrin
+- Omar Farhana
+- Qara Syazwina
+- Ella Safiyyah
+- Gita Lestari
+- Kahar Salmah
+- Mira Azzahra
+- Omar Salmah
+- Salmah Azzahra
+- Talia Huda
+- Ummu Salmah
+- Xena Salmah
+- Ella Salmah
+- Gita Azzahra
+- Mira Huda
+- Salmah Salmah
+- Ummu Huda
+- Vania Azzahra
+- Xena Huda
+- Cik Salmah
+- Ella Huda
+- Gita Salmah
+pertama_cina:
+- Gao Xiang
+- Hai Lin
+- Lan Hua
+- Nan Xiang
+- Cai Lin
+- Fu Sheng
+- Ke Qin
+- Mao Dong
+- Qiang Li
+- Rong Gui
+- Bu Lan
+- Luo Ping
+- Li Na
+- Sheng Jian
+- Guo Qiang
+- Zhong Hua
+- Chang Qing
+- Lan Qing
+- Guo Ping
+- Duo Duo
+- Di Xing
+- Fu Rong
+- Gang Li
+- Na Xiang
+- Qing Li
+- Nan Ching
+- Fang Ching
+- Bao Ching
+- Gao Ching
+- Qiang Ching
+- Cheng Lan
+pertama_inggeris:
+- Kevin
+- Terry
+- Nathan
+- Derek
+- Angela
+- Stefan
+- Carla
+- Peter
+- Diana
+- Simon
+- Andre
+- Tanya
+- Heidi
+- Beverly
+- Hendrick
+- Monica
+- Rodney
+- Clifford
+- Barbara
+- Helen
+- Marilyn
+- Arthur
+- Jean
+- Kenny
+- Steven
+- Xavier
+- Zachary
+- Aaron
+- David
+- Elena
+- Franklin
+- Katie
+- Lance
+- Quinn
+- Ulrich
+- William
+- Xenia
+- Yolanda
+- Zoe
+- Diane
+- Felix
+- Henry
+- Ingrid
+- Kristin
+- Roderick
+- Theodore
+- Ximena
+- Zoltan
+- Clare
+- Anne
+- John
+- Paul
+- Mark
+- Chris
+- Ryan
+- Keith
+- Renee
+- Trevor
+- Alice
+- Grant
+- Hugh
+- Megan
+- Ian
+- Joel
+- Kane
+- Liam
+- Neil
+- Owen
+- Andrew
+- Roger
+- Susan
+- James
+- Alan
+- Carol
+- Horace
+- Frank
+- Harry
+- George
+- Stuart
+- Douglas
+- Rex
+- Amelia
+- Warren
+- Hugo
+- Zack
+- Christopher
+- Evan
+- Felicity
+- Jasmine
+- Paula
+- Ross
+- Timothy
+- Walter
+- Xena
+- Bianca
+- Jodie
+- Lori
+- Murray
+- Osborne
+- Pamela
+- Rupert
+- Simone
+- Stephen
+- Geraldine
+- Catherine
+- Sophia
+- Frederick
+- Constance
+- Ralph
+- Mildred
+- Edith
+- Lucille
+- Martha
+- Chester
+- Ada
+- Lillian
+- Oscar
+- Edna
+pertama_india_l:
+- Vikram
+- Rajiv
+- Manoj
+- Vijay
+- Senthil
+- Kumar
+- Balaji
+- Ravi
+- Arul
+- Thirumalai
+- Kannan
+- Raman
+- Ravi Kumar
+- Vijayan
+- Kumarasamy
+- Balakumar
+- Ravikumar
+- Selvaraj
+- Thirunavukkarasu
+- Kannan Kumar
+- Ananth
+- Sivam
+- Vikraman
+- Manoj Kumar
+- Vijay Kumar
+- Senthil Kumar
+- Balaji Kumar
+- Arul Kumar
+- Thirumalai Kumar
+- Raman Kumar
+- Vijayan Kumar
+- Kumarasamy Kumar
+- Balakumar Kumar
+- Selvaraj Kumar
+- Thirunavukkarasu Kumar
+- Ananth Kumar
+- Sivam Kumar
+- Raj
+- Rajan
+- Venkat
+- Muthu
+- Sanjay
+- Kandasamy
+- Gopal
+- Krishna
+- Sivaraman
+- Prasanna
+- Srinivas
+- Rameshwar
+- Sankar
+- Thangaraj
+- Bala
+- Murali
+- Sridhar
+- Raghavan
+- Natarajan
+- Selvan
+- Sundar
+- Kiran
+- Naren
+- Vivek
+- Raghav
+- Nikhil
+- Aditya
+- Rohit
+- Amit
+- Manik
+- Rajkumar
+pertama_india_p:
+- Sureshni
+- Kumari
+- Chandrika
+- Dharmapriya
+- Ganeshwari
+- Jegan
+- Lakshminarayanan
+- Palani
+- Rajini
+- Sakthi
+- Thamilselvi
+- Xena
+- Yamini
+- Zainab
+- Asha
+- Bhaskar
+- Fathima
+- Girija
+- Ilayaraja
+- Lakshmanan
+- Omar
+- Ponnam
+- Tamil
+- Xavi
+- Arun
+- Bala
+- Durga
+- Fauzia
+- Hemal
+- Jaya
+- Kumar
+- Pooja
+- Ravi
+- Sakthivel
+- Vijay
+- Gitanjali
+- Kala
+- Manimekai
+- Priyanka
+- Rasmi
+- Saraswati
+- Vidhya
+- Wahida
+- Xiomara
+- Aarthi
+- Bhaskara
+- Dhanusha
+- Elavenil
+- Farhana
+- Keerthi
+- Leena
+- Nayana
+- Olympia
+- Radhika
+- Wasantha
+- Ximena
+- Yasoda
+- Zoya
+- Aruna
+- Chandni
+- Ezhil
+- Harleen
+- Jaspal
+- Kaur
+- Lila
+- Neha
+- Ojaswini
+- Parvati
+- Rina
+- Trisha
+- Vasuki
+- Xenia
+- Yashvi
+- Zaidah
+- Ananya
+- Swathi
+- Bhavana
+- Isha
+- Manju
+- Sowmya
+- Tamizh
+- Abhirami
+- Heena
+- Kanchi
+- Sangeeta
+- Thara
+- Unni
+- Waheeda
+- Ila
+- Madhu
+- Omka
+- Sri
+- Wanida
+- Yuvika
+- Bhagya
+- Deepika
+- Ishwari
+- Ela
+- Farida
+- Gita
+- Kiran
+- Nila
+- Osha
+- Ritu
+- Wanisha
+- Helen
+- Kathy
+- Mona
+- Nina
+- Paula
+- Tanya
+- Zoe
+- Beena
+- Ganeshini
+- Oshini
+- Rajni
+- Savithri
+- Thangam
+- Bindu
+- Mala
+- Namitha
+- Omni
+- Rani
+- Chandini
+- Ishita
+- Jyothi
+- Latika
+- Mamatha
+- Roshini
+- Unnati
+- Varsha
+- Yashodha
+- Balasubramani
+- Devaraj
+- Indra
+- Manickam
+- Owais
+- Perumal
+- Radhakrishnan
+- Thirumavalavan
+- Chidambaram
+- Eswar
+- Gopalan
+- Indrajit
+- Kandasamy
+- Mani
+- Om
+- Rajan
+- Thangaraj
+- Venkat
+- Anu
+- Chandra
+- Gopal
+- Ira
+- Neela
+- Venu
+pertama_iban_l:
+- Anang
+- Cikgu
+- Danang
+- Eko
+- Fandi
+- Hari
+- Iwan
+- Jali
+- Kari
+- Lanang
+- Makan
+- Nang
+- Ojang
+- Padi
+- Qari
+- Rang
+- Tana
+- Ugan
+- Vang
+- Wari
+- Xian
+- Zain
+- Adong
+- Berang
+- Cang
+- Dari
+- Engan
+- Fang
+- Igan
+- Jang
+- Mang
+- Niang
+- Pagang
+- Qiong
+- Uang
+- Viong
+- Wang
+- Xiong
+- Yiang
+- Ziang
+- Akan
+- Bakan
+- Can
+- Dakan
+- Ekan
+- Fakan
+- Gakan
+- Hakan
+- Ikan
+- Jakan
+- Kakan
+- Lakan
+- Nakan
+- Okan
+- Pakan
+- Qakan
+- Rakan
+- Sakan
+- Takan
+- Ukan
+- Vakan
+- Wakan
+- Xakan
+- Yakan
+- Zakan
+- Panyi
+- Rengga
+- Sikie
+- Tuan
+- Umpa
+- Vik
+- Wawan
+- Xavi
+- Beng
+- Cheng
+- Dino
+- Eka
+- Fak
+- Hak
+- Ian
+- Kam
+- Nam
+- Pan
+- Qun
+- Ram
+- Um
+- Van
+- Xun
+- Zan
+- Abe
+- Ben
+- Cen
+- Den
+- Eon
+- Fun
+- Gen
+- Hon
+- Ion
+- Ken
+- Lon
+- Mon
+- Non
+- Oon
+- Pon
+- Ron
+- Son
+- Ton
+- Won
+- Xon
+- Yon
+- Zon
+- Abi
+- Bui
+- Cui
+- Dui
+- Eui
+- Fui
+- Gui
+- Iui
+- Jui
+- Kui
+- Lui
+- Mui
+- Nui
+- Oui
+- Pui
+- Qui
+- Sui
+- Tui
+- Uui
+- Vui
+- Wui
+- Xui
+- Yui
+- Zui
+- Jako
+- Langit
+- Sangkulir
+- Rahmat
+- Din
+- Musa
+- Zainal
+- Haji
+- Kelingi
+- Rahim
+- Zahar
+- Kamit
+- Lukis
+- Penyanyi
+- Bukan
+- Nama
+- Siapa
+- Mana
+- Apakah
+- Bagaimana
+- Kenapa
+- Dimana
+- Bila
+- Apa
+- Jai Santok
+- Keningau Rungau
+- Lambai Sengau
+- Mangau Rungau
+- Nanga Rungau
+- Penan Rungau
+- Rajang Sengau
+- Santok Rungau
+- Teman Rungau
+- Umang Rungau
+- Veng Rungau
+- Xan Rungau
+- Yah Rungau
+- Zai Rungau
+- Anau Rungau
+- Bai Rungau
+- Cai Rungau
+- Dai Rungau
+- Ei Rungau
+- Fai Rungau
+- Gai Rungau
+- Hai Rungau
+- Iai Rungau
+- Jai Rungau
+- Mai Rungau
+- Nai Rungau
+- Oai Rungau
+- Pai Rungau
+- Qai Rungau
+- Rai Rungau
+- Sai Rungau
+- Uai Rungau
+- Vai Rungau
+- Xai Rungau
+- Yai Rungau
+- Ak Rungau
+- Bak Rungau
+- Cak Rungau
+- Dak Rungau
+- Ek Rungau
+- Fak Rungau
+- Gak Rungau
+- Hak Rungau
+- Ik Rungau
+- Jak Rungau
+- Kak Rungau
+- Lak Rungau
+- Mak Rungau
+- Nak Rungau
+- Ok Rungau
+- Pak Rungau
+- Qak Rungau
+- Rak Rungau
+- Sak Rungau
+- Tak Rungau
+- Uak Rungau
+- Vak Rungau
+- Wak Rungau
+- Xak Rungau
+- Yak Rungau
+- Zak Rungau
+- Onding
+- Sengau
+- Tengku
+- Sahat
+- Ongki
+- Rohit
+pertama_iban_p:
+- Talia Ranggah
+- Vania Batao
+- Wania Kenyiri
+- Yania Batao
+- Zania Ranggah
+- Adira Limban
+- Celia Ranggah
+- Elena Kenyiri
+- Gita Ranggah
+- Iris Kenyiri
+- Kira Ranggah
+- Mira Kenyiri
+- Ola Ranggah
+- Pia Batao
+- Quin Kenyiri
+- Tia Batao
+- Ula Kenyiri
+- Wala Ranggah
+- Xila Batao
+- Yola Kenyiri
+- Bina Batao
+- Cina Kenyiri
+- Eina Ranggah
+- Fina Batao
+- Gina Kenyiri
+- Iina Ranggah
+- Jina Batao
+- Kina Kenyiri
+- Nina Batao
+- Oina Kenyiri
+- Qina Ranggah
+- Rina Batao
+- Sina Kenyiri
+- Uina Ranggah
+- Vina Batao
+- Wina Kenyiri
+- Yina Ranggah
+- Zina Batao
+- Alia
+- Amira
+- Aniqah
+- Asyikin
+- Bilal
+- Cintya
+- Datin
+- Delia
+- Eira
+- Elia
+- Gita
+- Hanaa
+- Haneen
+- Huda
+- Iffah
+- Iskand
+- Jaya
+- Jazilah
+- Jihan
+- Jom
+- Kaila
+- Kam
+- Kira
+- Lara
+- Lia
+- Lir
+- Linaa
+- Luna
+- Luz
+- Lyra
+- Maiz
+- Mal
+- Mara
+- Mira
+- Miraq
+- Bintong
+- Cintia
+- Fana
+- Juita
+- Kasih
+- Nia
+- Oma
+- Pia
+- Qala
+- Rina
+- Umi
+- Wina
+- Zina
+- Bela
+- Citra
+- Dita
+- Eka
+- Fira
+- Gina
+- Hina
+- Ila
+- Kala
+- Lala
+- Nisa
+- Ola
+- Pola
+- Rila
+- Sula
+- Tila
+- Vila
+- Wira
+- Xena
+- Yola
+- Zola
+- Ara
+- Bila
+- Cila
+- Dila
+- Ela
+- Fila
+- Gila
+- Hila
+- Jila
+- Kila
+- Lila
+- Mila
+- Nila
+- Pila
+pertama_kadazan:
+- Bambai
+- Kobong
+- Lambong
+- Mangali
+- Nobong
+- Pogun
+- Tobong
+- Umbong
+- Veng
+- Xen
+- Zin
+- Ami
+- Beli
+- Cing
+- Deng
+- Eli
+- Gin
+- Jeng
+- Leng
+- Mak
+- Neng
+- Qin
+- Reng
+- Ung
+- Vong
+- Xan
+- Zan
+- Abai
+- Baki
+- Ciki
+- Doki
+- Eki
+- Fiki
+- Giki
+- Hiki
+- Iki
+- Jiki
+- Kiki
+- Liki
+- Miki
+- Niki
+- Oki
+- Piki
+- Qiki
+- Riki
+- Siki
+- Tiki
+- Uki
+- Viki
+- Wiki
+- Xiki
+- Yiki
+- Ziki
+- Agong
+- Bambam
+- Datu
+- Dion
+- Fen
+- Haji
+- Iben
+- Inon
+- Jaap
+- Kadai
+- Kam
+- Kien
+- Nga
+- Ngai
+- Nia
+- Nik
+- Nin
+- Nio
+- Noi
+- Nok
+- Kasing
+- Limbong
+- Ganong
+- Jahin
+- Kudus
+- Linau
+- Maring
+- Ningau
+- Olong
+- Patinggi
+- Quasah
+- Rahang
+- Sabah
+- Tobau
+- Ulu
+- Vilong
+- Wahang
+- Xingau
+- Yakob
+- Zingau
+- Bau
+- Kasim
+- Limbau
+- Dulung
+- Kundulung
+- Mangah
+- Tunah
+- Lingah
+- Kuning
+- Kundasang
+- Lahad
+- Gom
+- Machil
+- Beluran
+- Batu Caves
+- Lundu
+- Tobang
+- Lukis
+- Gundung
+- Sulau
+- Kamau
+- Rasak
+- Tambisan
+- Kotobangon
+- Mukil
+- Tongod
+- Gumalai
+- Penampang
+- Kota
+- Crocker
+- Trusmadi
+- Lokon
+- Siborong
+- Wongga
+- Tambon
+- Rangga
+- Sikie
+- Bingka
+- Lingga
+keluarga_cina:
+- Joo
+- Lui
+- Mak
+- Tee
+- Tsai
+- Tse
+- Tung
+- Yick
+- Yoong
+- Yuen
+- Yueh
+- Zhang
+- Chiu
+- Choi
+- Kwa
+- Lo
+- Loy
+- Ma
+- Mo
+- Nga
+- Teck
+- Tien
+- Yeung
+- Yok
+- Zhou
+- Pho
+- Tew
+- Chng
+- Kwek
+- Sng
+- Koo
+- Cheng
+- Kua
+- Lay
+- Too
+- Dai
+- Hu
+- Lu
+- Luo
+- Lyn
+- Nam
+- Pan
+- Siah
+- Thow
+- Tuan
+- Ung
+- Vas
+- Wu
+- Luk
+- Thean
+- Thian
+- Tsang
+- The
+- Theng
+- Thien
+- Thiam
+keluarga_kadazan:
+- Kundul
+- Tobin
+- Mangondin
+- Rungun
+- Kundasang
+- Mongin
+- Klias
+- Tambisan
+- Rungan
+- Gong
+- Kundal
+- Sutera
+- Nahod
+- Tobaw
+- Sibuga
+- Penampang
+- Lahad
+- Datu
+- Belud
+- Penyu
+- Kundang
+- Kunduan
+- Tambun
+- Kundur
+- Tambong
+- Kundan
+- Tambon
+- Kundar
+- Tambal
+- Tambak
+- Kundai
+- Tunggal
+- Kotut
+- Siborong
+- Sibuan
+- Pungit
+- Mongkol
+- Sibut
+- Tongkol
+- Kot
+- Sibulan
+- Puntang
+- Kotun
+- Sibong
+- Tungan
+- Kotol
+- Sibang
+- Sibolong
+- Kundung
+- Unding
+- Kundungan
+- Kinua
+- Kundua
+- Pinsane
+- Sipitang
+- Kinarut
+syarikat:
+- Cahaya Biru Sdn Bhd
+- Maju Sejahtera Enterprise
+- Putra Hijau Trading
+- Selamat Sentosa PLT
+- Bintang Emas Berhad
+- Rasa Manis Enterprise
+- Teras Hijau Sdn Bhd
+- Angka Empat Trading
+- Jaya Murni PLT
+- Batu Karang Berhad
+- Lestari Indah Enterprise
+- Selera Rakyat Trading
+- Ceria Ceria PLT
+- Mekar Bunga Berhad
+- Sinar Senja Enterprise
+- Kunci Emas Sdn Bhd
+- Duta Bahagia Trading
+- Rimba Hijau PLT
+- Benua Biru Berhad
+- Padi Emas Enterprise
+- Cahaya Fajar Sdn Bhd
+- Teras Emas Trading
+- Maju Jaya PLT
+- Selamat Sejahtera Berhad
+- Bintang Utara Enterprise
+- Rasa Asli Sdn Bhd
+- Ceria Ceria Berhad
+- Batu Karang PLT
+- Selera Rakyat Sdn Bhd
+- Ceria Ceria Trading
+- Klang Valley Bakers Sdn Bhd
+- Jaya Textiles Enterprise
+- Batu Caves Furniture Trading
+- Selangor Green Energy Berhad
+- Penang Marine Services Sdn Bhd
+- Sabah Timber Holdings PLT
+- Melaka Spice Traders Enterprise
+- Kuala Lumpur Auto Parts Sdn Bhd
+- Johor Agro Industries Berhad
+- Perak Metal Works Trading
+- Pahang Rubber Products Sdn Bhd
+- Kelantan Seafood Enterprise
+- Terengganu Oil Services Sdn Bhd
+- Sarawak Pulp & Paper Berhad
+- Negeri Sembilan Dairy Farm Sdn Bhd
+- W.P. Construction Sdn Bhd
+- Borneo Wildlife Tours Enterprise
+- East Coast Fishing Gear Trading
+- Central Region Logistics Berhad
+- North Coast Rice Mills Sdn Bhd
+- South West Tourism Services Sdn Bhd
+- Midland Valley Mining PLT
+- Highland Tea Estates Enterprise
+- Coastal Ship Repair Sdn Bhd
+- Urban Green Living Berhad
+- Rural Craft Industries Trading
+- Modern Medical Supplies Sdn Bhd
+- Classic Furniture Workshop Enterprise
+- Digital Print Hub Sdn Bhd
+- Fresh Produce Distribution Berhad
+- Heavy Machinery Rental Sdn Bhd
+- Light Industrial Components Trading
+- Premium Coffee Roasters Enterprise
+- Artisan Chocolate Factory Sdn Bhd
+- Eco-Friendly Packaging Berhad
+- Solar Panel Installation Sdn Bhd
+- Wind Energy Consulting PLT
+- Hydroponic Farming Systems Enterprise
+- Organic Herb Cultivation Sdn Bhd
+- Wildlife Conservation Trust Berhad
+- Marine Biotech Research Sdn Bhd
+- Agricultural Drone Services Enterprise
+- Smart Irrigation Tech Sdn Bhd
+- Biodegradable Material Lab PLT
+- Natural Fiber Textiles Trading
+- Sustainable Wood Products Sdn Bhd
+- Recycled Plastic Molding Enterprise
+- Clean Water Purification Berhad
+- Waste Management Solutions Sdn Bhd
+- Green Building Materials Trading
+- Energy Efficient Lighting Enterprise
+- Electric Vehicle Charging Sdn Bhd
+- Autonomous Transport Systems Berhad
+- Cloud Based Accounting Sdn Bhd
+- Cyber Security Audits Enterprise
+- Mobile App Development PLT
+- Digital Marketing Agency Sdn Bhd
+- Social Media Management Trading
+- E-Commerce Platform Services Enterprise
+- Cahaya Hijau Sdn Bhd
+- Suri Rumah PLT
+- Laju Express Trading
+- Mawar Emas Berhad
+- Duta Senang Sdn Bhd
+- Pusat Ilmu Enterprise
+- Rasa Sedap PLT
+- Teknik Pro Trading
+- Angka Prima Berhad
+- Bumi Subur Sdn Bhd
+- Citra Indah Enterprise
+- Duta Karya PLT
+- Estetika Home Trading
+- Fajar Baru Berhad
+- Gading Emas Sdn Bhd
+- Harmoni Life Enterprise
+- Iman Jaya PLT
+- Jalur Cepat Trading
+- Kembang Mata Berhad
+- Lestari Eco Sdn Bhd
+- Maju Jaya Enterprise
+- Nusa Indah PLT
+- Oasis Cool Trading
+- Puncak Tinggi Berhad
+- Qamar Purnama Sdn Bhd
+- Sedia Simpan PLT
+- Taman Rasa Trading
+- Unggas Premium Berhad
+- Vital Care Sdn Bhd
+- Wawasan Cerah Enterprise
+- Xpress Post PLT
+- Yakin Bina Trading
+- Zaman Baru Berhad
+- Amanah Group Sdn Bhd
+- Berkah Utama Enterprise
+- Cerdik Mind PLT
+- Dapur Rasa Trading
+- Elit Style Berhad
+- Fajar Baru Sdn Bhd
+- Gembira Jiwa Enterprise
+- Hijau Sejahtera PLT
+- Ilmu Kemas Trading
+- Jaya Sentosa Berhad
+- Kekal Abadi Sdn Bhd
+- Lama Baru Enterprise
+- Mega Star PLT
+- Nur Ilahi Trading
+- Optima Tech Berhad
+- Puri Rasa Sdn Bhd
+- Riang Ria Enterprise
+- Sri Melati PLT
+- Tinggi Cemerlang Trading
+- Ubat Sejahtera Berhad
+- Vibrant Art Sdn Bhd
+- Lembah Emas Sdn Bhd
+- Batu Hijau Enterprise
+- Mekar Indah Trading
+- Puncak Jaya Berhad
+- Seri Murni Sdn Bhd
+- Cahaya Baru Trading
+- Tirta Aman Berhad
+- Bintang Laut PLT
+- Hijau Subur Sdn Bhd
+- Kembang Wangi Enterprise
+- Lagi Makin Trading
+- Padi Emas Berhad
+- Seri Pagi PLT
+- Taman Indah Sdn Bhd
+- Udara Segar Enterprise
+- Vibrant Warna Trading
+- Wangi Harum Berhad
+- Xpress Logistik PLT
+- Yakin Jaya Sdn Bhd
+- Zainab Indah Enterprise
+- Amanah Setia Trading
+- Bahagia Selamanya Berhad
+- Ceria Gembira PLT
+- Damai Sejahtera Sdn Bhd
+- Elok Cantik Enterprise
+- Fajar Bahagia Trading
+- Gembira Hati Berhad
+- Harmoni Jiwa PLT
+- Indah Permai Sdn Bhd
+- Jaya Murni Enterprise
+- Kasih Sayang Trading
+- Lega Hati Berhad
+- Mega Sukses PLT
+- Nur Bahagia Sdn Bhd
+- Oleh Sengaja Enterprise
+- Panas Dingin Trading
+- Qariah Indah Berhad
+- Rindu Rindu PLT
+- Senang Hati Sdn Bhd
+- Tepi Pantai Enterprise
+- Umbrella Rindang Trading
+- Violet Bunga Berhad
+- Wajar Wajar PLT
+- Xtra Biasa Sdn Bhd
+- Yoyo Mainan Enterprise
+- Zebra Cross Trading
+- Andai Andai Berhad
+- Baka Baka PLT
+- Cikgu Guru Sdn Bhd
+- Dua Tiga Enterprise
+- Empat Lima Trading
+- Enam Tujuh Berhad
+- Lapan Sembilan PLT
+- Sepuluh Lapan Sdn Bhd
+- Sembilan Lapan Enterprise
+- Tiga Dua Trading
+- Satu Nol Berhad
+- Nol Satu PLT
+- Dua Satu Sdn Bhd
+- Cempaka Hijau Sdn Bhd
+- Laman Sedia Enterprise
+- Batu Api PLT
+- Seri Murni Berhad
+- Rimba Hijau Sdn Bhd
+- Nusa Bina Enterprise
+- Angin Sejuk PLT
+- Bumi Makmur Berhad
+- Kilau Mutiara Sdn Bhd
+- Tunas Hijau Enterprise
+- Gaya Modern Trading
+- Cahaya Fajar PLT
+- Warisan Tua Berhad
+- Simpang Empat Sdn Bhd
+- Bunga Melati Enterprise
+- Hujan Pagi Trading
+- Gunung Tinggi PLT
+- Sungai Jernih Berhad
+- Lembah Emas Enterprise
+- Pantai Indah Trading
+- Bulan Purnama PLT
+- Matahari Terbit Berhad
+- Awan Putih Sdn Bhd
+- Batu Karang Enterprise
+- Laut Dalam Trading
+- Pegunungan Hijau PLT
+- Tanah Merah Berhad
+- Seri Indah Sdn Bhd
+- Cinta Kasih Enterprise
+- Rasa Manis Trading
+- Dingin Sejuk PLT
+- Hangat Suami Berhad
+- Maju Jaya Sdn Bhd
+- Sedia Bina Enterprise
+- Tinggi Megah Trading
+- Lebar Luas PLT
+- Dalam Jernih Berhad
+- Ringkas Mudah Sdn Bhd
+- Cepat Tangkas Enterprise
+- Kuat Teguh Trading
+- Manis Gurih PLT
+- Cantik Gaya Sdn Bhd
+- Moden Klasik Enterprise
+- Tradisional Lama Trading
+- Baharu Inovatif PLT
+- Sedia Pakai Berhad
+- Mudah Pakai Sdn Bhd
+- Kuat Bina Enterprise
+- Cantik Rumah Trading
+- Selesa Duduk PLT
+- Tenang Tidur Berhad
+- Sedap Makan Sdn Bhd
+- Gizi Seimbang Enterprise
+- Kesihatan Baik Trading
+- Kuat Badan PLT
+- Jiwa Damai Berhad
+- Kawan Kawan Enterprise
+- Batu Cincin Trading
+- Rasa Manis Sdn Bhd
+- Laju Express PLT
+- Terang Bulan Berhad
+- Kembang Melati Enterprise
+- Satu Hati Trading
+- Cepat Tepat PLT
+- Rimba Hijau Berhad
+- Seri Wangi Enterprise
+- Maju Jaya Trading
+- Bahagia Selalu Sdn Bhd
+- Jaya Sentosa PLT
+- Cantik Mulia Berhad
+- Riang Gembira Enterprise
+- Manis Manis Trading
+- Selamat Sejahtera Sdn Bhd
+- Rasa Masin PLT
+- Terang Bening Berhad
+- Kawan Baik Enterprise
+- Batu Karang Trading
+- Rasa Asam Sdn Bhd
+- Laju Pandai PLT
+- Terang Cerdik Berhad
+- Kembang Mawar Enterprise
+- Satu Rasa Trading
+- Rimba Sunyi Sdn Bhd
+- Cepat Pandai PLT
+- Rimba Sunyi Berhad
+- Seri Indah Enterprise
+- Maju Maju Trading
+- Bahagia Bahagia Sdn Bhd
+- Jaya Jaya PLT
+- Cantik Cantik Berhad
+- Riang Riang Enterprise
+- Selamat Selamat Sdn Bhd
+- Rasa Rasa PLT
+- Terang Terang Berhad
+- Batu Batu Trading
+- Rasa Rasa Sdn Bhd
+- Laju Laju PLT
+- Kembang Kembang Enterprise
+- Satu Satu Trading
+- Rimba Rimba Sdn Bhd
+- Cepat Cepat PLT
+- Rimba Rimba Berhad
+- Seri Seri Enterprise
+bandar:
+- Gemas
+- Jengka
+- Sepang
+- Klang
+- Bukit Katil
+- Labu
+- Puchong
+- Putrajaya
+- Cyberjaya
+- Bangi
+- Semenyih
+- Gombak
+- Ampang
+- Cheras
+- Port Klang
+- Pandan
+- Kepong
+- Damansara
+- Temborong
+- Janda Baik
+- Lipat
+- Janda
+- Sungai Lembing
+- Pulau Indah
+- Selayang
+- Rembau
+- Tanjong Malim
+- Bagan Serai
+- Pangkor
+- Teluk Anum
+- Pasir Puteh
+- Balingian
+- Parit Sulong
+- Pengkalan Hulu
+- Johor Lama
+- Serian
+- Kotabaru
+- Pitas
+- Lipis
+- Teluk Kemang
+- Pengkalan Chepa
+- Sik
+- Bagan Datuk
+- Panchor
+- Pulau Pinang
+- Teluk Anson
+- Sungai Buloh
+- Bukit Kayu Hitam
+- Pengkalan Kubor
+- Pensiangan
+- Jempol
+- Temengor
+- Seberang Perai
+- Tanjung Sedili
+- Pulau Pangkor
+- Muallim
+- Keramat
+- Tanah Rata

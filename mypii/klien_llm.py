@@ -35,6 +35,21 @@ def hantar_9router(model: str, prompt: str, suhu: float) -> str:
         return json.loads(r.read())["choices"][0]["message"]["content"]
 
 
+def hantar_modal(model: str, prompt: str, suhu: float) -> str:
+    """PELAN-V21: `modal/<repo>` → pelayan vLLM SEMENTARA (`scripts/penjana_modal.py`, serasi-OpenAI). URL + kunci dari env yang
+    dinamakan dalam config `llm.modal` (tidak pernah dari repo, tidak dicetak). Badan tambahan (mod bukan-pemikiran) dari config."""
+    k = konfig.utama()["llm"]["modal"]
+    url, kunci = os.environ.get(k["url_env"][model], ""), os.environ.get(k["env_kunci"], "")
+    if not url or not kunci:
+        raise SystemExit(f"env {k['url_env'][model]} / {k['env_kunci']} tiada — mulakan `modal serve scripts/penjana_modal.py` dahulu")
+    badan = {"model": model, "stream": False, "temperature": suhu, "max_tokens": k["max_tokens"],
+             "messages": [{"role": "user", "content": prompt}], **k.get("badan", {})}
+    req = urllib.request.Request(url.rstrip("/") + "/v1/chat/completions", data=json.dumps(badan).encode(), method="POST",
+                                 headers={"Authorization": f"Bearer {kunci}", "Content-Type": "application/json"})
+    with urllib.request.urlopen(req, timeout=k["had_masa_saat"]) as r:   # 303 Modal (> 150 s) diikut urllib sebagai GET
+        return json.loads(r.read())["choices"][0]["message"]["content"]
+
+
 def json_dari(teks: str):
     """JSON pertama dalam jawapan (model kadang membalut dengan ```json atau ayat)."""
     teks = re.sub(r"```(?:json)?", "", teks)

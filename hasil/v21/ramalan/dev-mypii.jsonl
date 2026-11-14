@@ -1,0 +1,1000 @@
+{"id": "mypii-02292", "spans": [{"entiti": "MY_NRIC", "mula": 128, "tamat": 142}, {"entiti": "MY_PHONE", "mula": 151, "tamat": 162}, {"entiti": "MY_SSM", "mula": 88, "tamat": 96}]}
+{"id": "mypii-02671", "spans": []}
+{"id": "mypii-01196", "spans": [{"entiti": "MY_PHONE", "mula": 144, "tamat": 156}]}
+{"id": "mypii-01179", "spans": [{"entiti": "MY_NRIC", "mula": 111, "tamat": 123}, {"entiti": "MY_PHONE", "mula": 131, "tamat": 146}]}
+{"id": "mypii-03016", "spans": []}
+{"id": "mypii-01410", "spans": []}
+{"id": "mypii-02035", "spans": []}
+{"id": "mypii-02617", "spans": [{"entiti": "MY_NRIC", "mula": 118, "tamat": 132}, {"entiti": "MY_PHONE", "mula": 146, "tamat": 157}]}
+{"id": "mypii-03361", "spans": [{"entiti": "MY_SSM", "mula": 28, "tamat": 40}, {"entiti": "MY_PHONE", "mula": 118, "tamat": 130}]}
+{"id": "mypii-03537", "spans": [{"entiti": "MY_NRIC", "mula": 95, "tamat": 109}, {"entiti": "MY_PHONE", "mula": 212, "tamat": 222}]}
+{"id": "mypii-00754", "spans": [{"entiti": "MY_NRIC", "mula": 147, "tamat": 161}, {"entiti": "MY_PHONE", "mula": 215, "tamat": 228}]}
+{"id": "mypii-01317", "spans": []}
+{"id": "mypii-03499", "spans": [{"entiti": "MY_NRIC", "mula": 133, "tamat": 147}, {"entiti": "MY_PHONE", "mula": 241, "tamat": 256}]}
+{"id": "mypii-02458", "spans": []}
+{"id": "mypii-00601", "spans": [{"entiti": "MY_SSM", "mula": 77, "tamat": 89}]}
+{"id": "mypii-03418", "spans": []}
+{"id": "mypii-01275", "spans": [{"entiti": "MY_SSM", "mula": 39, "tamat": 51}]}
+{"id": "mypii-01232", "spans": [{"entiti": "MY_SSM", "mula": 32, "tamat": 40}]}
+{"id": "mypii-00836", "spans": []}
+{"id": "mypii-01676", "spans": [{"entiti": "MY_NRIC", "mula": 122, "tamat": 134}, {"entiti": "MY_PHONE", "mula": 148, "tamat": 161}]}
+{"id": "mypii-03303", "spans": [{"entiti": "MY_PHONE", "mula": 133, "tamat": 148}, {"entiti": "MY_SSM", "mula": 78, "tamat": 87}]}
+{"id": "mypii-02313", "spans": []}
+{"id": "mypii-01358", "spans": [{"entiti": "MY_NRIC", "mula": 24, "tamat": 38}]}
+{"id": "mypii-01323", "spans": [{"entiti": "MY_NRIC", "mula": 10, "tamat": 24}, {"entiti": "MY_PHONE", "mula": 76, "tamat": 90}]}
+{"id": "mypii-02893", "spans": []}
+{"id": "mypii-00277", "spans": [{"entiti": "MY_NRIC", "mula": 130, "tamat": 144}, {"entiti": "MY_SSM", "mula": 68, "tamat": 76}]}
+{"id": "mypii-03327", "spans": []}
+{"id": "mypii-02234", "spans": [{"entiti": "MY_NRIC", "mula": 110, "tamat": 124}]}
+{"id": "mypii-01431", "spans": []}
+{"id": "mypii-02017", "spans": [{"entiti": "MY_NRIC", "mula": 72, "tamat": 86}, {"entiti": "MY_PHONE", "mula": 89, "tamat": 102}, {"entiti": "MY_NRIC", "mula": 128, "tamat": 142}, {"entiti": "MY_PHONE", "mula": 145, "tamat": 160}]}
+{"id": "mypii-02506", "spans": [{"entiti": "MY_NRIC", "mula": 84, "tamat": 96}, {"entiti": "MY_SSM", "mula": 144, "tamat": 156}, {"entiti": "MY_PHONE", "mula": 208, "tamat": 220}]}
+{"id": "mypii-02871", "spans": [{"entiti": "MY_NRIC", "mula": 165, "tamat": 177}]}
+{"id": "mypii-03025", "spans": [{"entiti": "MY_PHONE", "mula": 113, "tamat": 125}]}
+{"id": "mypii-03793", "spans": []}
+{"id": "mypii-03717", "spans": [{"entiti": "MY_SSM", "mula": 72, "tamat": 84}]}
+{"id": "mypii-03115", "spans": []}
+{"id": "mypii-00938", "spans": []}
+{"id": "mypii-00669", "spans": []}
+{"id": "mypii-02084", "spans": []}
+{"id": "mypii-02980", "spans": [{"entiti": "MY_PHONE", "mula": 136, "tamat": 148}]}
+{"id": "mypii-01421", "spans": [{"entiti": "MY_NRIC", "mula": 61, "tamat": 75}, {"entiti": "MY_PHONE", "mula": 116, "tamat": 128}]}
+{"id": "mypii-00986", "spans": [{"entiti": "MY_SSM", "mula": 73, "tamat": 81}]}
+{"id": "mypii-00663", "spans": []}
+{"id": "mypii-01150", "spans": [{"entiti": "MY_NRIC", "mula": 12, "tamat": 26}, {"entiti": "MY_PHONE", "mula": 41, "tamat": 52}]}
+{"id": "mypii-00022", "spans": []}
+{"id": "mypii-02894", "spans": [{"entiti": "MY_PHONE", "mula": 152, "tamat": 164}, {"entiti": "MY_NRIC", "mula": 184, "tamat": 196}]}
+{"id": "mypii-02651", "spans": []}
+{"id": "mypii-01167", "spans": [{"entiti": "MY_PHONE", "mula": 164, "tamat": 176}]}
+{"id": "mypii-01753", "spans": []}
+{"id": "mypii-02230", "spans": []}
+{"id": "mypii-03404", "spans": [{"entiti": "MY_NRIC", "mula": 125, "tamat": 137}]}
+{"id": "mypii-03098", "spans": []}
+{"id": "mypii-01940", "spans": []}
+{"id": "mypii-02448", "spans": []}
+{"id": "mypii-00956", "spans": [{"entiti": "MY_NRIC", "mula": 102, "tamat": 116}, {"entiti": "MY_PHONE", "mula": 125, "tamat": 137}]}
+{"id": "mypii-03688", "spans": [{"entiti": "MY_SSM", "mula": 35, "tamat": 47}, {"entiti": "MY_PHONE", "mula": 230, "tamat": 243}]}
+{"id": "mypii-01993", "spans": [{"entiti": "MY_NRIC", "mula": 134, "tamat": 148}, {"entiti": "MY_PHONE", "mula": 168, "tamat": 179}]}
+{"id": "mypii-01010", "spans": []}
+{"id": "mypii-01300", "spans": [{"entiti": "MY_NRIC", "mula": 179, "tamat": 193}]}
+{"id": "mypii-02377", "spans": []}
+{"id": "mypii-02090", "spans": [{"entiti": "MY_NRIC", "mula": 81, "tamat": 95}]}
+{"id": "mypii-03203", "spans": [{"entiti": "MY_NRIC", "mula": 98, "tamat": 110}]}
+{"id": "mypii-02270", "spans": []}
+{"id": "mypii-01376", "spans": [{"entiti": "MY_PHONE", "mula": 101, "tamat": 113}]}
+{"id": "mypii-01365", "spans": []}
+{"id": "mypii-00800", "spans": []}
+{"id": "mypii-03400", "spans": [{"entiti": "MY_PHONE", "mula": 178, "tamat": 189}]}
+{"id": "mypii-03349", "spans": []}
+{"id": "mypii-00441", "spans": [{"entiti": "MY_NRIC", "mula": 90, "tamat": 104}, {"entiti": "MY_PHONE", "mula": 207, "tamat": 219}]}
+{"id": "mypii-01309", "spans": []}
+{"id": "mypii-02279", "spans": []}
+{"id": "mypii-02251", "spans": []}
+{"id": "mypii-03783", "spans": [{"entiti": "MY_NRIC", "mula": 144, "tamat": 158}, {"entiti": "MY_PHONE", "mula": 177, "tamat": 187}]}
+{"id": "mypii-03843", "spans": [{"entiti": "MY_NRIC", "mula": 23, "tamat": 37}, {"entiti": "MY_PHONE", "mula": 63, "tamat": 77}]}
+{"id": "mypii-01377", "spans": []}
+{"id": "mypii-01770", "spans": [{"entiti": "MY_NRIC", "mula": 6, "tamat": 18}, {"entiti": "MY_PHONE", "mula": 22, "tamat": 33}]}
+{"id": "mypii-01206", "spans": [{"entiti": "MY_NRIC", "mula": 36, "tamat": 50}, {"entiti": "MY_PHONE", "mula": 58, "tamat": 71}]}
+{"id": "mypii-00757", "spans": []}
+{"id": "mypii-02684", "spans": []}
+{"id": "mypii-03907", "spans": [{"entiti": "MY_NRIC", "mula": 122, "tamat": 134}, {"entiti": "MY_PHONE", "mula": 154, "tamat": 165}]}
+{"id": "mypii-03388", "spans": [{"entiti": "MY_NRIC", "mula": 151, "tamat": 163}, {"entiti": "MY_SSM", "mula": 82, "tamat": 90}]}
+{"id": "mypii-03002", "spans": [{"entiti": "MY_NRIC", "mula": 117, "tamat": 131}, {"entiti": "MY_PHONE", "mula": 140, "tamat": 151}]}
+{"id": "mypii-02136", "spans": []}
+{"id": "mypii-03762", "spans": [{"entiti": "MY_NRIC", "mula": 95, "tamat": 109}]}
+{"id": "mypii-01460", "spans": []}
+{"id": "mypii-02414", "spans": [{"entiti": "MY_PHONE", "mula": 160, "tamat": 172}, {"entiti": "MY_SSM", "mula": 84, "tamat": 93}]}
+{"id": "mypii-03151", "spans": [{"entiti": "MY_NRIC", "mula": 62, "tamat": 74}]}
+{"id": "mypii-03917", "spans": []}
+{"id": "mypii-00308", "spans": [{"entiti": "MY_NRIC", "mula": 135, "tamat": 147}, {"entiti": "MY_PHONE", "mula": 166, "tamat": 177}]}
+{"id": "mypii-01741", "spans": []}
+{"id": "mypii-02607", "spans": []}
+{"id": "mypii-03968", "spans": []}
+{"id": "mypii-00577", "spans": [{"entiti": "MY_PHONE", "mula": 82, "tamat": 96}, {"entiti": "MY_SSM", "mula": 32, "tamat": 40}]}
+{"id": "mypii-02940", "spans": [{"entiti": "MY_NRIC", "mula": 110, "tamat": 124}]}
+{"id": "mypii-03589", "spans": [{"entiti": "MY_PHONE", "mula": 28, "tamat": 39}]}
+{"id": "mypii-03058", "spans": [{"entiti": "MY_PHONE", "mula": 41, "tamat": 54}]}
+{"id": "mypii-00101", "spans": [{"entiti": "MY_NRIC", "mula": 105, "tamat": 119}, {"entiti": "MY_PHONE", "mula": 221, "tamat": 236}]}
+{"id": "mypii-01330", "spans": []}
+{"id": "mypii-02949", "spans": []}
+{"id": "mypii-02182", "spans": [{"entiti": "MY_PHONE", "mula": 205, "tamat": 216}]}
+{"id": "mypii-01040", "spans": []}
+{"id": "mypii-03864", "spans": []}
+{"id": "mypii-00854", "spans": [{"entiti": "MY_NRIC", "mula": 70, "tamat": 84}]}
+{"id": "mypii-01430", "spans": []}
+{"id": "mypii-03899", "spans": []}
+{"id": "mypii-03684", "spans": []}
+{"id": "mypii-03771", "spans": [{"entiti": "MY_NRIC", "mula": 108, "tamat": 122}]}
+{"id": "mypii-01708", "spans": [{"entiti": "MY_PHONE", "mula": 149, "tamat": 161}]}
+{"id": "mypii-01968", "spans": [{"entiti": "MY_NRIC", "mula": 94, "tamat": 108}]}
+{"id": "mypii-03310", "spans": [{"entiti": "MY_PHONE", "mula": 128, "tamat": 139}, {"entiti": "MY_SSM", "mula": 82, "tamat": 90}]}
+{"id": "mypii-00884", "spans": []}
+{"id": "mypii-01255", "spans": [{"entiti": "MY_NRIC", "mula": 152, "tamat": 166}, {"entiti": "MY_SSM", "mula": 105, "tamat": 114}]}
+{"id": "mypii-03838", "spans": []}
+{"id": "mypii-00671", "spans": []}
+{"id": "mypii-02149", "spans": [{"entiti": "MY_PHONE", "mula": 150, "tamat": 160}, {"entiti": "MY_SSM", "mula": 85, "tamat": 94}]}
+{"id": "mypii-02079", "spans": [{"entiti": "MY_NRIC", "mula": 110, "tamat": 124}, {"entiti": "MY_PHONE", "mula": 138, "tamat": 149}]}
+{"id": "mypii-00768", "spans": []}
+{"id": "mypii-00393", "spans": []}
+{"id": "mypii-03306", "spans": []}
+{"id": "mypii-01737", "spans": []}
+{"id": "mypii-03453", "spans": [{"entiti": "MY_PHONE", "mula": 224, "tamat": 236}, {"entiti": "MY_SSM", "mula": 52, "tamat": 59}]}
+{"id": "mypii-01009", "spans": [{"entiti": "MY_NRIC", "mula": 121, "tamat": 135}, {"entiti": "MY_SSM", "mula": 183, "tamat": 195}]}
+{"id": "mypii-02265", "spans": []}
+{"id": "mypii-02859", "spans": []}
+{"id": "mypii-03874", "spans": [{"entiti": "MY_PHONE", "mula": 89, "tamat": 104}]}
+{"id": "mypii-01727", "spans": [{"entiti": "MY_SSM", "mula": 97, "tamat": 109}, {"entiti": "MY_PHONE", "mula": 211, "tamat": 223}]}
+{"id": "mypii-00792", "spans": []}
+{"id": "mypii-02384", "spans": []}
+{"id": "mypii-03524", "spans": []}
+{"id": "mypii-01547", "spans": []}
+{"id": "mypii-02730", "spans": [{"entiti": "MY_NRIC", "mula": 127, "tamat": 141}, {"entiti": "MY_PHONE", "mula": 158, "tamat": 170}, {"entiti": "MY_SSM", "mula": 270, "tamat": 282}]}
+{"id": "mypii-00163", "spans": []}
+{"id": "mypii-02808", "spans": []}
+{"id": "mypii-03776", "spans": []}
+{"id": "mypii-03996", "spans": [{"entiti": "MY_PHONE", "mula": 111, "tamat": 122}]}
+{"id": "mypii-00255", "spans": [{"entiti": "MY_PHONE", "mula": 42, "tamat": 55}]}
+{"id": "mypii-00494", "spans": []}
+{"id": "mypii-03122", "spans": []}
+{"id": "mypii-00954", "spans": []}
+{"id": "mypii-01030", "spans": [{"entiti": "MY_PHONE", "mula": 226, "tamat": 236}]}
+{"id": "mypii-01467", "spans": []}
+{"id": "mypii-03360", "spans": []}
+{"id": "mypii-02686", "spans": []}
+{"id": "mypii-00249", "spans": [{"entiti": "MY_NRIC", "mula": 76, "tamat": 90}]}
+{"id": "mypii-02038", "spans": [{"entiti": "MY_NRIC", "mula": 110, "tamat": 122}, {"entiti": "MY_PHONE", "mula": 131, "tamat": 142}]}
+{"id": "mypii-03212", "spans": []}
+{"id": "mypii-03133", "spans": []}
+{"id": "mypii-03744", "spans": [{"entiti": "MY_PHONE", "mula": 112, "tamat": 123}, {"entiti": "MY_SSM", "mula": 74, "tamat": 82}]}
+{"id": "mypii-03477", "spans": [{"entiti": "MY_PHONE", "mula": 239, "tamat": 251}, {"entiti": "MY_SSM", "mula": 53, "tamat": 62}]}
+{"id": "mypii-01453", "spans": []}
+{"id": "mypii-01642", "spans": [{"entiti": "MY_NRIC", "mula": 151, "tamat": 163}, {"entiti": "MY_SSM", "mula": 100, "tamat": 108}]}
+{"id": "mypii-03148", "spans": [{"entiti": "MY_NRIC", "mula": 73, "tamat": 87}, {"entiti": "MY_PHONE", "mula": 115, "tamat": 127}]}
+{"id": "mypii-01392", "spans": [{"entiti": "MY_SSM", "mula": 77, "tamat": 84}]}
+{"id": "mypii-00863", "spans": []}
+{"id": "mypii-00850", "spans": []}
+{"id": "mypii-01100", "spans": [{"entiti": "MY_PHONE", "mula": 87, "tamat": 100}]}
+{"id": "mypii-00448", "spans": []}
+{"id": "mypii-01129", "spans": []}
+{"id": "mypii-03882", "spans": [{"entiti": "MY_NRIC", "mula": 12, "tamat": 26}, {"entiti": "MY_PHONE", "mula": 41, "tamat": 52}]}
+{"id": "mypii-00773", "spans": []}
+{"id": "mypii-00026", "spans": []}
+{"id": "mypii-00137", "spans": [{"entiti": "MY_PHONE", "mula": 119, "tamat": 132}]}
+{"id": "mypii-00403", "spans": [{"entiti": "MY_SSM", "mula": 73, "tamat": 85}, {"entiti": "MY_PHONE", "mula": 149, "tamat": 161}]}
+{"id": "mypii-01266", "spans": [{"entiti": "MY_NRIC", "mula": 84, "tamat": 98}]}
+{"id": "mypii-00585", "spans": []}
+{"id": "mypii-03407", "spans": [{"entiti": "MY_SSM", "mula": 198, "tamat": 210}]}
+{"id": "mypii-02077", "spans": []}
+{"id": "mypii-01398", "spans": [{"entiti": "MY_SSM", "mula": 40, "tamat": 48}]}
+{"id": "mypii-01969", "spans": [{"entiti": "MY_SSM", "mula": 88, "tamat": 100}, {"entiti": "MY_PHONE", "mula": 202, "tamat": 214}]}
+{"id": "mypii-02555", "spans": []}
+{"id": "mypii-00375", "spans": [{"entiti": "MY_NRIC", "mula": 49, "tamat": 61}]}
+{"id": "mypii-01726", "spans": [{"entiti": "MY_NRIC", "mula": 119, "tamat": 133}]}
+{"id": "mypii-02518", "spans": []}
+{"id": "mypii-00497", "spans": [{"entiti": "MY_NRIC", "mula": 37, "tamat": 49}, {"entiti": "MY_PHONE", "mula": 87, "tamat": 99}]}
+{"id": "mypii-00793", "spans": []}
+{"id": "mypii-01888", "spans": [{"entiti": "MY_NRIC", "mula": 123, "tamat": 137}, {"entiti": "MY_PHONE", "mula": 161, "tamat": 173}]}
+{"id": "mypii-01064", "spans": [{"entiti": "MY_NRIC", "mula": 108, "tamat": 122}]}
+{"id": "mypii-03948", "spans": []}
+{"id": "mypii-03901", "spans": []}
+{"id": "mypii-01620", "spans": [{"entiti": "MY_NRIC", "mula": 95, "tamat": 109}, {"entiti": "MY_SSM", "mula": 55, "tamat": 62}]}
+{"id": "mypii-02056", "spans": [{"entiti": "MY_PHONE", "mula": 78, "tamat": 90}]}
+{"id": "mypii-00500", "spans": []}
+{"id": "mypii-02381", "spans": []}
+{"id": "mypii-03222", "spans": [{"entiti": "MY_PHONE", "mula": 198, "tamat": 210}]}
+{"id": "mypii-02395", "spans": [{"entiti": "MY_NRIC", "mula": 141, "tamat": 155}, {"entiti": "MY_SSM", "mula": 208, "tamat": 220}]}
+{"id": "mypii-00942", "spans": []}
+{"id": "mypii-00699", "spans": []}
+{"id": "mypii-01654", "spans": [{"entiti": "MY_NRIC", "mula": 43, "tamat": 55}]}
+{"id": "mypii-03234", "spans": [{"entiti": "MY_NRIC", "mula": 144, "tamat": 158}]}
+{"id": "mypii-03683", "spans": [{"entiti": "MY_NRIC", "mula": 109, "tamat": 123}]}
+{"id": "mypii-00488", "spans": []}
+{"id": "mypii-03861", "spans": []}
+{"id": "mypii-03291", "spans": []}
+{"id": "mypii-00193", "spans": [{"entiti": "MY_NRIC", "mula": 83, "tamat": 95}]}
+{"id": "mypii-03034", "spans": []}
+{"id": "mypii-02753", "spans": [{"entiti": "MY_SSM", "mula": 89, "tamat": 98}]}
+{"id": "mypii-02496", "spans": []}
+{"id": "mypii-03803", "spans": []}
+{"id": "mypii-00647", "spans": [{"entiti": "MY_PHONE", "mula": 230, "tamat": 241}]}
+{"id": "mypii-00487", "spans": [{"entiti": "MY_NRIC", "mula": 54, "tamat": 66}]}
+{"id": "mypii-01173", "spans": [{"entiti": "MY_PHONE", "mula": 155, "tamat": 166}]}
+{"id": "mypii-00995", "spans": [{"entiti": "MY_SSM", "mula": 59, "tamat": 67}]}
+{"id": "mypii-00700", "spans": []}
+{"id": "mypii-02554", "spans": []}
+{"id": "mypii-01223", "spans": []}
+{"id": "mypii-03141", "spans": []}
+{"id": "mypii-03610", "spans": []}
+{"id": "mypii-02362", "spans": [{"entiti": "MY_NRIC", "mula": 60, "tamat": 74}]}
+{"id": "mypii-00674", "spans": [{"entiti": "MY_NRIC", "mula": 77, "tamat": 91}]}
+{"id": "mypii-01723", "spans": []}
+{"id": "mypii-00454", "spans": []}
+{"id": "mypii-00799", "spans": [{"entiti": "MY_PHONE", "mula": 42, "tamat": 53}]}
+{"id": "mypii-03984", "spans": [{"entiti": "MY_PHONE", "mula": 212, "tamat": 227}]}
+{"id": "mypii-03094", "spans": []}
+{"id": "mypii-02087", "spans": []}
+{"id": "mypii-02562", "spans": [{"entiti": "MY_NRIC", "mula": 125, "tamat": 139}, {"entiti": "MY_PHONE", "mula": 148, "tamat": 160}, {"entiti": "MY_SSM", "mula": 82, "tamat": 91}]}
+{"id": "mypii-03442", "spans": [{"entiti": "MY_PHONE", "mula": 90, "tamat": 102}, {"entiti": "MY_SSM", "mula": 69, "tamat": 77}]}
+{"id": "mypii-02750", "spans": [{"entiti": "MY_SSM", "mula": 73, "tamat": 85}]}
+{"id": "mypii-02347", "spans": []}
+{"id": "mypii-02117", "spans": [{"entiti": "MY_NRIC", "mula": 99, "tamat": 113}, {"entiti": "MY_PHONE", "mula": 160, "tamat": 172}]}
+{"id": "mypii-00917", "spans": []}
+{"id": "mypii-01783", "spans": []}
+{"id": "mypii-02752", "spans": []}
+{"id": "mypii-01351", "spans": [{"entiti": "MY_PHONE", "mula": 166, "tamat": 178}]}
+{"id": "mypii-02274", "spans": []}
+{"id": "mypii-01366", "spans": []}
+{"id": "mypii-00988", "spans": []}
+{"id": "mypii-02786", "spans": [{"entiti": "MY_NRIC", "mula": 78, "tamat": 90}, {"entiti": "MY_PHONE", "mula": 100, "tamat": 114}]}
+{"id": "mypii-02858", "spans": [{"entiti": "MY_SSM", "mula": 86, "tamat": 94}]}
+{"id": "mypii-01795", "spans": [{"entiti": "MY_SSM", "mula": 94, "tamat": 106}]}
+{"id": "mypii-01899", "spans": [{"entiti": "MY_PHONE", "mula": 45, "tamat": 57}]}
+{"id": "mypii-01950", "spans": []}
+{"id": "mypii-01667", "spans": [{"entiti": "MY_NRIC", "mula": 129, "tamat": 141}, {"entiti": "MY_PHONE", "mula": 158, "tamat": 170}, {"entiti": "MY_SSM", "mula": 264, "tamat": 276}]}
+{"id": "mypii-03802", "spans": []}
+{"id": "mypii-00508", "spans": []}
+{"id": "mypii-00351", "spans": []}
+{"id": "mypii-01617", "spans": []}
+{"id": "mypii-02354", "spans": [{"entiti": "MY_NRIC", "mula": 92, "tamat": 106}, {"entiti": "MY_PHONE", "mula": 115, "tamat": 129}]}
+{"id": "mypii-01861", "spans": [{"entiti": "MY_PHONE", "mula": 102, "tamat": 113}]}
+{"id": "mypii-01015", "spans": [{"entiti": "MY_NRIC", "mula": 116, "tamat": 130}, {"entiti": "MY_SSM", "mula": 73, "tamat": 81}]}
+{"id": "mypii-01807", "spans": []}
+{"id": "mypii-01652", "spans": [{"entiti": "MY_NRIC", "mula": 72, "tamat": 86}, {"entiti": "MY_PHONE", "mula": 89, "tamat": 104}, {"entiti": "MY_NRIC", "mula": 129, "tamat": 141}, {"entiti": "MY_PHONE", "mula": 144, "tamat": 160}]}
+{"id": "mypii-01181", "spans": [{"entiti": "MY_PHONE", "mula": 72, "tamat": 83}, {"entiti": "MY_SSM", "mula": 145, "tamat": 154}]}
+{"id": "mypii-03318", "spans": []}
+{"id": "mypii-02366", "spans": [{"entiti": "MY_NRIC", "mula": 62, "tamat": 76}, {"entiti": "MY_PHONE", "mula": 90, "tamat": 101}]}
+{"id": "mypii-03676", "spans": [{"entiti": "MY_PHONE", "mula": 39, "tamat": 50}]}
+{"id": "mypii-02301", "spans": [{"entiti": "MY_PHONE", "mula": 180, "tamat": 193}, {"entiti": "MY_SSM", "mula": 69, "tamat": 78}]}
+{"id": "mypii-01290", "spans": []}
+{"id": "mypii-03084", "spans": []}
+{"id": "mypii-03504", "spans": []}
+{"id": "mypii-03832", "spans": []}
+{"id": "mypii-03621", "spans": []}
+{"id": "mypii-02148", "spans": [{"entiti": "MY_PHONE", "mula": 129, "tamat": 141}, {"entiti": "MY_SSM", "mula": 81, "tamat": 89}]}
+{"id": "mypii-03564", "spans": []}
+{"id": "mypii-02282", "spans": []}
+{"id": "mypii-02780", "spans": []}
+{"id": "mypii-00327", "spans": []}
+{"id": "mypii-02568", "spans": []}
+{"id": "mypii-01788", "spans": [{"entiti": "MY_PHONE", "mula": 114, "tamat": 126}, {"entiti": "MY_NRIC", "mula": 141, "tamat": 153}]}
+{"id": "mypii-00702", "spans": [{"entiti": "MY_SSM", "mula": 33, "tamat": 41}]}
+{"id": "mypii-01985", "spans": [{"entiti": "MY_NRIC", "mula": 83, "tamat": 97}, {"entiti": "MY_PHONE", "mula": 107, "tamat": 118}]}
+{"id": "mypii-03682", "spans": []}
+{"id": "mypii-00044", "spans": [{"entiti": "MY_SSM", "mula": 37, "tamat": 49}, {"entiti": "MY_PHONE", "mula": 179, "tamat": 192}]}
+{"id": "mypii-03297", "spans": [{"entiti": "MY_PHONE", "mula": 120, "tamat": 131}]}
+{"id": "mypii-01303", "spans": [{"entiti": "MY_SSM", "mula": 31, "tamat": 43}]}
+{"id": "mypii-01500", "spans": [{"entiti": "MY_PHONE", "mula": 113, "tamat": 124}, {"entiti": "MY_NRIC", "mula": 139, "tamat": 153}]}
+{"id": "mypii-00807", "spans": [{"entiti": "MY_NRIC", "mula": 95, "tamat": 109}]}
+{"id": "mypii-02289", "spans": [{"entiti": "MY_NRIC", "mula": 70, "tamat": 84}, {"entiti": "MY_PHONE", "mula": 87, "tamat": 99}, {"entiti": "MY_NRIC", "mula": 146, "tamat": 158}, {"entiti": "MY_PHONE", "mula": 161, "tamat": 173}]}
+{"id": "mypii-03827", "spans": [{"entiti": "MY_NRIC", "mula": 129, "tamat": 143}, {"entiti": "MY_PHONE", "mula": 151, "tamat": 162}]}
+{"id": "mypii-00587", "spans": [{"entiti": "MY_PHONE", "mula": 154, "tamat": 165}]}
+{"id": "mypii-00981", "spans": []}
+{"id": "mypii-01736", "spans": [{"entiti": "MY_PHONE", "mula": 229, "tamat": 241}]}
+{"id": "mypii-00642", "spans": [{"entiti": "MY_NRIC", "mula": 28, "tamat": 42}, {"entiti": "MY_PHONE", "mula": 53, "tamat": 68}, {"entiti": "MY_SSM", "mula": 115, "tamat": 123}]}
+{"id": "mypii-03465", "spans": [{"entiti": "MY_SSM", "mula": 49, "tamat": 61}, {"entiti": "MY_PHONE", "mula": 163, "tamat": 174}]}
+{"id": "mypii-00767", "spans": [{"entiti": "MY_SSM", "mula": 108, "tamat": 120}, {"entiti": "MY_PHONE", "mula": 247, "tamat": 261}]}
+{"id": "mypii-03945", "spans": [{"entiti": "MY_PHONE", "mula": 45, "tamat": 59}]}
+{"id": "mypii-01938", "spans": []}
+{"id": "mypii-02798", "spans": [{"entiti": "MY_NRIC", "mula": 97, "tamat": 111}, {"entiti": "MY_PHONE", "mula": 213, "tamat": 225}]}
+{"id": "mypii-01005", "spans": [{"entiti": "MY_PHONE", "mula": 121, "tamat": 132}, {"entiti": "MY_SSM", "mula": 93, "tamat": 102}]}
+{"id": "mypii-02831", "spans": [{"entiti": "MY_NRIC", "mula": 128, "tamat": 142}, {"entiti": "MY_PHONE", "mula": 212, "tamat": 224}]}
+{"id": "mypii-01603", "spans": [{"entiti": "MY_NRIC", "mula": 93, "tamat": 107}]}
+{"id": "mypii-00415", "spans": [{"entiti": "MY_NRIC", "mula": 126, "tamat": 138}]}
+{"id": "mypii-02485", "spans": [{"entiti": "MY_SSM", "mula": 66, "tamat": 74}]}
+{"id": "mypii-01621", "spans": []}
+{"id": "mypii-00370", "spans": [{"entiti": "MY_PHONE", "mula": 99, "tamat": 113}]}
+{"id": "mypii-03173", "spans": [{"entiti": "MY_NRIC", "mula": 100, "tamat": 112}, {"entiti": "MY_PHONE", "mula": 159, "tamat": 170}]}
+{"id": "mypii-00251", "spans": []}
+{"id": "mypii-02131", "spans": []}
+{"id": "mypii-03026", "spans": []}
+{"id": "mypii-00055", "spans": [{"entiti": "MY_NRIC", "mula": 35, "tamat": 49}, {"entiti": "MY_PHONE", "mula": 74, "tamat": 85}]}
+{"id": "mypii-01492", "spans": [{"entiti": "MY_NRIC", "mula": 103, "tamat": 117}, {"entiti": "MY_PHONE", "mula": 187, "tamat": 201}]}
+{"id": "mypii-03770", "spans": [{"entiti": "MY_PHONE", "mula": 39, "tamat": 50}]}
+{"id": "mypii-03764", "spans": []}
+{"id": "mypii-03856", "spans": []}
+{"id": "mypii-00288", "spans": [{"entiti": "MY_SSM", "mula": 78, "tamat": 90}]}
+{"id": "mypii-03138", "spans": []}
+{"id": "mypii-03841", "spans": []}
+{"id": "mypii-01000", "spans": []}
+{"id": "mypii-00575", "spans": [{"entiti": "MY_PHONE", "mula": 179, "tamat": 190}]}
+{"id": "mypii-01865", "spans": []}
+{"id": "mypii-00108", "spans": []}
+{"id": "mypii-00825", "spans": []}
+{"id": "mypii-02375", "spans": [{"entiti": "MY_SSM", "mula": 89, "tamat": 96}]}
+{"id": "mypii-01634", "spans": []}
+{"id": "mypii-01055", "spans": [{"entiti": "MY_SSM", "mula": 84, "tamat": 96}, {"entiti": "MY_PHONE", "mula": 137, "tamat": 149}]}
+{"id": "mypii-02187", "spans": []}
+{"id": "mypii-00064", "spans": [{"entiti": "MY_SSM", "mula": 95, "tamat": 107}]}
+{"id": "mypii-02487", "spans": []}
+{"id": "mypii-02722", "spans": [{"entiti": "MY_NRIC", "mula": 97, "tamat": 111}]}
+{"id": "mypii-01956", "spans": [{"entiti": "MY_PHONE", "mula": 127, "tamat": 138}]}
+{"id": "mypii-02609", "spans": [{"entiti": "MY_NRIC", "mula": 108, "tamat": 122}]}
+{"id": "mypii-03780", "spans": []}
+{"id": "mypii-03590", "spans": [{"entiti": "MY_NRIC", "mula": 116, "tamat": 130}, {"entiti": "MY_PHONE", "mula": 144, "tamat": 156}]}
+{"id": "mypii-03745", "spans": [{"entiti": "MY_NRIC", "mula": 107, "tamat": 119}, {"entiti": "MY_PHONE", "mula": 128, "tamat": 141}]}
+{"id": "mypii-03480", "spans": [{"entiti": "MY_PHONE", "mula": 182, "tamat": 194}]}
+{"id": "mypii-03441", "spans": [{"entiti": "MY_PHONE", "mula": 130, "tamat": 143}]}
+{"id": "mypii-03013", "spans": []}
+{"id": "mypii-02978", "spans": []}
+{"id": "mypii-00926", "spans": [{"entiti": "MY_NRIC", "mula": 121, "tamat": 135}, {"entiti": "MY_PHONE", "mula": 229, "tamat": 241}]}
+{"id": "mypii-01635", "spans": [{"entiti": "MY_PHONE", "mula": 186, "tamat": 197}, {"entiti": "MY_SSM", "mula": 52, "tamat": 60}]}
+{"id": "mypii-03819", "spans": []}
+{"id": "mypii-01207", "spans": []}
+{"id": "mypii-01997", "spans": []}
+{"id": "mypii-00468", "spans": [{"entiti": "MY_PHONE", "mula": 28, "tamat": 42}]}
+{"id": "mypii-02380", "spans": [{"entiti": "MY_PHONE", "mula": 183, "tamat": 193}, {"entiti": "MY_SSM", "mula": 101, "tamat": 108}]}
+{"id": "mypii-02748", "spans": []}
+{"id": "mypii-03351", "spans": []}
+{"id": "mypii-00738", "spans": [{"entiti": "MY_PHONE", "mula": 74, "tamat": 87}]}
+{"id": "mypii-01230", "spans": []}
+{"id": "mypii-01921", "spans": []}
+{"id": "mypii-03045", "spans": [{"entiti": "MY_NRIC", "mula": 53, "tamat": 67}]}
+{"id": "mypii-03179", "spans": [{"entiti": "MY_NRIC", "mula": 50, "tamat": 62}, {"entiti": "MY_PHONE", "mula": 70, "tamat": 81}]}
+{"id": "mypii-02146", "spans": []}
+{"id": "mypii-03414", "spans": []}
+{"id": "mypii-02155", "spans": [{"entiti": "MY_NRIC", "mula": 111, "tamat": 125}]}
+{"id": "mypii-00342", "spans": [{"entiti": "MY_SSM", "mula": 90, "tamat": 102}]}
+{"id": "mypii-00014", "spans": [{"entiti": "MY_PHONE", "mula": 54, "tamat": 64}]}
+{"id": "mypii-02837", "spans": []}
+{"id": "mypii-00417", "spans": []}
+{"id": "mypii-00275", "spans": [{"entiti": "MY_PHONE", "mula": 57, "tamat": 68}]}
+{"id": "mypii-00578", "spans": [{"entiti": "MY_PHONE", "mula": 96, "tamat": 108}, {"entiti": "MY_SSM", "mula": 69, "tamat": 78}]}
+{"id": "mypii-02121", "spans": [{"entiti": "MY_SSM", "mula": 37, "tamat": 49}, {"entiti": "MY_PHONE", "mula": 136, "tamat": 147}]}
+{"id": "mypii-03135", "spans": []}
+{"id": "mypii-01554", "spans": [{"entiti": "MY_PHONE", "mula": 96, "tamat": 110}]}
+{"id": "mypii-01373", "spans": []}
+{"id": "mypii-00890", "spans": [{"entiti": "MY_NRIC", "mula": 37, "tamat": 51}]}
+{"id": "mypii-03694", "spans": []}
+{"id": "mypii-00285", "spans": []}
+{"id": "mypii-00353", "spans": []}
+{"id": "mypii-02082", "spans": [{"entiti": "MY_NRIC", "mula": 60, "tamat": 74}]}
+{"id": "mypii-01595", "spans": []}
+{"id": "mypii-03686", "spans": [{"entiti": "MY_SSM", "mula": 83, "tamat": 95}, {"entiti": "MY_PHONE", "mula": 129, "tamat": 140}]}
+{"id": "mypii-01432", "spans": [{"entiti": "MY_NRIC", "mula": 126, "tamat": 140}, {"entiti": "MY_PHONE", "mula": 234, "tamat": 246}]}
+{"id": "mypii-00753", "spans": []}
+{"id": "mypii-03293", "spans": [{"entiti": "MY_PHONE", "mula": 159, "tamat": 169}, {"entiti": "MY_SSM", "mula": 99, "tamat": 108}]}
+{"id": "mypii-00565", "spans": [{"entiti": "MY_NRIC", "mula": 39, "tamat": 51}, {"entiti": "MY_PHONE", "mula": 54, "tamat": 69}, {"entiti": "MY_NRIC", "mula": 86, "tamat": 98}, {"entiti": "MY_PHONE", "mula": 101, "tamat": 111}]}
+{"id": "mypii-00725", "spans": []}
+{"id": "mypii-03818", "spans": []}
+{"id": "mypii-03474", "spans": []}
+{"id": "mypii-03398", "spans": []}
+{"id": "mypii-02875", "spans": [{"entiti": "MY_PHONE", "mula": 109, "tamat": 121}, {"entiti": "MY_SSM", "mula": 54, "tamat": 63}]}
+{"id": "mypii-02102", "spans": []}
+{"id": "mypii-03661", "spans": [{"entiti": "MY_SSM", "mula": 45, "tamat": 57}, {"entiti": "MY_PHONE", "mula": 129, "tamat": 140}]}
+{"id": "mypii-01661", "spans": []}
+{"id": "mypii-02855", "spans": [{"entiti": "MY_PHONE", "mula": 151, "tamat": 164}, {"entiti": "MY_SSM", "mula": 85, "tamat": 94}]}
+{"id": "mypii-01177", "spans": []}
+{"id": "mypii-03057", "spans": [{"entiti": "MY_PHONE", "mula": 126, "tamat": 137}, {"entiti": "MY_SSM", "mula": 66, "tamat": 75}]}
+{"id": "mypii-00558", "spans": []}
+{"id": "mypii-03986", "spans": []}
+{"id": "mypii-02905", "spans": [{"entiti": "MY_PHONE", "mula": 119, "tamat": 133}, {"entiti": "MY_SSM", "mula": 59, "tamat": 67}]}
+{"id": "mypii-00612", "spans": [{"entiti": "MY_PHONE", "mula": 12, "tamat": 23}]}
+{"id": "mypii-02936", "spans": []}
+{"id": "mypii-01031", "spans": []}
+{"id": "mypii-02998", "spans": []}
+{"id": "mypii-03467", "spans": [{"entiti": "MY_NRIC", "mula": 10, "tamat": 22}, {"entiti": "MY_PHONE", "mula": 74, "tamat": 85}]}
+{"id": "mypii-01543", "spans": []}
+{"id": "mypii-03750", "spans": []}
+{"id": "mypii-02226", "spans": []}
+{"id": "mypii-00998", "spans": []}
+{"id": "mypii-01713", "spans": []}
+{"id": "mypii-01584", "spans": [{"entiti": "MY_NRIC", "mula": 78, "tamat": 90}, {"entiti": "MY_PHONE", "mula": 131, "tamat": 145}]}
+{"id": "mypii-01211", "spans": []}
+{"id": "mypii-02843", "spans": [{"entiti": "MY_NRIC", "mula": 42, "tamat": 56}]}
+{"id": "mypii-00182", "spans": []}
+{"id": "mypii-01087", "spans": [{"entiti": "MY_PHONE", "mula": 98, "tamat": 111}]}
+{"id": "mypii-01308", "spans": []}
+{"id": "mypii-02985", "spans": [{"entiti": "MY_PHONE", "mula": 175, "tamat": 186}, {"entiti": "MY_SSM", "mula": 81, "tamat": 89}]}
+{"id": "mypii-00718", "spans": []}
+{"id": "mypii-01846", "spans": []}
+{"id": "mypii-02908", "spans": [{"entiti": "MY_NRIC", "mula": 93, "tamat": 107}, {"entiti": "MY_PHONE", "mula": 123, "tamat": 135}]}
+{"id": "mypii-00858", "spans": [{"entiti": "MY_NRIC", "mula": 144, "tamat": 158}, {"entiti": "MY_SSM", "mula": 97, "tamat": 105}]}
+{"id": "mypii-00149", "spans": [{"entiti": "MY_PHONE", "mula": 186, "tamat": 196}, {"entiti": "MY_SSM", "mula": 83, "tamat": 92}]}
+{"id": "mypii-00238", "spans": []}
+{"id": "mypii-02987", "spans": []}
+{"id": "mypii-00432", "spans": [{"entiti": "MY_PHONE", "mula": 193, "tamat": 206}, {"entiti": "MY_SSM", "mula": 99, "tamat": 107}]}
+{"id": "mypii-02668", "spans": [{"entiti": "MY_NRIC", "mula": 179, "tamat": 193}]}
+{"id": "mypii-01408", "spans": [{"entiti": "MY_SSM", "mula": 93, "tamat": 105}]}
+{"id": "mypii-01113", "spans": []}
+{"id": "mypii-03601", "spans": [{"entiti": "MY_NRIC", "mula": 100, "tamat": 114}, {"entiti": "MY_PHONE", "mula": 212, "tamat": 224}]}
+{"id": "mypii-01690", "spans": [{"entiti": "MY_PHONE", "mula": 119, "tamat": 130}]}
+{"id": "mypii-03991", "spans": [{"entiti": "MY_SSM", "mula": 46, "tamat": 58}]}
+{"id": "mypii-02959", "spans": []}
+{"id": "mypii-00693", "spans": [{"entiti": "MY_NRIC", "mula": 26, "tamat": 40}, {"entiti": "MY_PHONE", "mula": 89, "tamat": 100}]}
+{"id": "mypii-00931", "spans": [{"entiti": "MY_NRIC", "mula": 97, "tamat": 111}]}
+{"id": "mypii-02227", "spans": []}
+{"id": "mypii-01525", "spans": [{"entiti": "MY_SSM", "mula": 40, "tamat": 52}, {"entiti": "MY_PHONE", "mula": 148, "tamat": 159}]}
+{"id": "mypii-03993", "spans": [{"entiti": "MY_NRIC", "mula": 90, "tamat": 104}]}
+{"id": "mypii-03941", "spans": []}
+{"id": "mypii-02325", "spans": []}
+{"id": "mypii-03526", "spans": []}
+{"id": "mypii-00742", "spans": [{"entiti": "MY_PHONE", "mula": 191, "tamat": 203}]}
+{"id": "mypii-02089", "spans": []}
+{"id": "mypii-00467", "spans": []}
+{"id": "mypii-01995", "spans": [{"entiti": "MY_PHONE", "mula": 44, "tamat": 55}]}
+{"id": "mypii-03060", "spans": [{"entiti": "MY_SSM", "mula": 93, "tamat": 101}]}
+{"id": "mypii-00257", "spans": []}
+{"id": "mypii-02762", "spans": []}
+{"id": "mypii-01687", "spans": [{"entiti": "MY_NRIC", "mula": 168, "tamat": 182}]}
+{"id": "mypii-01506", "spans": []}
+{"id": "mypii-03525", "spans": []}
+{"id": "mypii-01405", "spans": [{"entiti": "MY_PHONE", "mula": 153, "tamat": 165}]}
+{"id": "mypii-00910", "spans": [{"entiti": "MY_PHONE", "mula": 221, "tamat": 232}, {"entiti": "MY_SSM", "mula": 62, "tamat": 70}]}
+{"id": "mypii-03729", "spans": []}
+{"id": "mypii-03228", "spans": []}
+{"id": "mypii-01766", "spans": []}
+{"id": "mypii-03859", "spans": []}
+{"id": "mypii-01335", "spans": [{"entiti": "MY_NRIC", "mula": 161, "tamat": 175}, {"entiti": "MY_SSM", "mula": 94, "tamat": 102}]}
+{"id": "mypii-00839", "spans": [{"entiti": "MY_NRIC", "mula": 113, "tamat": 127}]}
+{"id": "mypii-01618", "spans": []}
+{"id": "mypii-01481", "spans": [{"entiti": "MY_SSM", "mula": 30, "tamat": 42}, {"entiti": "MY_PHONE", "mula": 121, "tamat": 133}]}
+{"id": "mypii-03169", "spans": [{"entiti": "MY_PHONE", "mula": 44, "tamat": 55}]}
+{"id": "mypii-02135", "spans": []}
+{"id": "mypii-02844", "spans": []}
+{"id": "mypii-01231", "spans": []}
+{"id": "mypii-03543", "spans": [{"entiti": "MY_PHONE", "mula": 185, "tamat": 198}]}
+{"id": "mypii-01561", "spans": [{"entiti": "MY_PHONE", "mula": 203, "tamat": 218}]}
+{"id": "mypii-00033", "spans": []}
+{"id": "mypii-02965", "spans": []}
+{"id": "mypii-01693", "spans": [{"entiti": "MY_SSM", "mula": 51, "tamat": 63}, {"entiti": "MY_PHONE", "mula": 185, "tamat": 197}]}
+{"id": "mypii-02493", "spans": []}
+{"id": "mypii-00290", "spans": [{"entiti": "MY_SSM", "mula": 38, "tamat": 46}]}
+{"id": "mypii-02013", "spans": [{"entiti": "MY_PHONE", "mula": 113, "tamat": 125}, {"entiti": "MY_NRIC", "mula": 140, "tamat": 152}]}
+{"id": "mypii-02295", "spans": [{"entiti": "MY_PHONE", "mula": 215, "tamat": 226}]}
+{"id": "mypii-00315", "spans": [{"entiti": "MY_NRIC", "mula": 71, "tamat": 83}]}
+{"id": "mypii-00537", "spans": [{"entiti": "MY_SSM", "mula": 71, "tamat": 83}, {"entiti": "MY_PHONE", "mula": 118, "tamat": 132}]}
+{"id": "mypii-01881", "spans": []}
+{"id": "mypii-03274", "spans": []}
+{"id": "mypii-02992", "spans": [{"entiti": "MY_PHONE", "mula": 200, "tamat": 212}, {"entiti": "MY_SSM", "mula": 57, "tamat": 65}]}
+{"id": "mypii-02725", "spans": []}
+{"id": "mypii-03943", "spans": [{"entiti": "MY_NRIC", "mula": 42, "tamat": 56}]}
+{"id": "mypii-03593", "spans": []}
+{"id": "mypii-03275", "spans": [{"entiti": "MY_SSM", "mula": 81, "tamat": 93}, {"entiti": "MY_PHONE", "mula": 213, "tamat": 225}]}
+{"id": "mypii-02000", "spans": [{"entiti": "MY_NRIC", "mula": 29, "tamat": 43}, {"entiti": "MY_PHONE", "mula": 51, "tamat": 62}, {"entiti": "MY_SSM", "mula": 109, "tamat": 121}]}
+{"id": "mypii-03508", "spans": [{"entiti": "MY_NRIC", "mula": 145, "tamat": 157}, {"entiti": "MY_PHONE", "mula": 166, "tamat": 177}, {"entiti": "MY_SSM", "mula": 81, "tamat": 89}]}
+{"id": "mypii-00313", "spans": [{"entiti": "MY_NRIC", "mula": 95, "tamat": 107}, {"entiti": "MY_PHONE", "mula": 121, "tamat": 133}]}
+{"id": "mypii-03513", "spans": [{"entiti": "MY_NRIC", "mula": 121, "tamat": 133}]}
+{"id": "mypii-01084", "spans": []}
+{"id": "mypii-01068", "spans": []}
+{"id": "mypii-00340", "spans": []}
+{"id": "mypii-03190", "spans": []}
+{"id": "mypii-03029", "spans": [{"entiti": "MY_PHONE", "mula": 67, "tamat": 79}]}
+{"id": "mypii-01205", "spans": []}
+{"id": "mypii-00522", "spans": [{"entiti": "MY_NRIC", "mula": 12, "tamat": 26}, {"entiti": "MY_PHONE", "mula": 39, "tamat": 50}]}
+{"id": "mypii-00546", "spans": []}
+{"id": "mypii-02478", "spans": []}
+{"id": "mypii-01310", "spans": [{"entiti": "MY_SSM", "mula": 86, "tamat": 94}]}
+{"id": "mypii-00202", "spans": [{"entiti": "MY_NRIC", "mula": 123, "tamat": 137}, {"entiti": "MY_PHONE", "mula": 157, "tamat": 170}]}
+{"id": "mypii-03790", "spans": []}
+{"id": "mypii-02243", "spans": [{"entiti": "MY_PHONE", "mula": 154, "tamat": 166}, {"entiti": "MY_SSM", "mula": 78, "tamat": 86}]}
+{"id": "mypii-03485", "spans": [{"entiti": "MY_NRIC", "mula": 6, "tamat": 18}, {"entiti": "MY_PHONE", "mula": 22, "tamat": 32}]}
+{"id": "mypii-03259", "spans": [{"entiti": "MY_SSM", "mula": 76, "tamat": 88}, {"entiti": "MY_PHONE", "mula": 129, "tamat": 140}]}
+{"id": "mypii-03927", "spans": []}
+{"id": "mypii-00775", "spans": [{"entiti": "MY_PHONE", "mula": 158, "tamat": 173}]}
+{"id": "mypii-00534", "spans": []}
+{"id": "mypii-03798", "spans": [{"entiti": "MY_PHONE", "mula": 119, "tamat": 130}, {"entiti": "MY_SSM", "mula": 58, "tamat": 66}]}
+{"id": "mypii-01725", "spans": [{"entiti": "MY_NRIC", "mula": 98, "tamat": 112}, {"entiti": "MY_SSM", "mula": 163, "tamat": 175}, {"entiti": "MY_PHONE", "mula": 227, "tamat": 239}]}
+{"id": "mypii-00897", "spans": []}
+{"id": "mypii-00205", "spans": [{"entiti": "MY_NRIC", "mula": 112, "tamat": 126}]}
+{"id": "mypii-00410", "spans": []}
+{"id": "mypii-00805", "spans": []}
+{"id": "mypii-01646", "spans": [{"entiti": "MY_NRIC", "mula": 91, "tamat": 105}, {"entiti": "MY_PHONE", "mula": 119, "tamat": 134}]}
+{"id": "mypii-02262", "spans": [{"entiti": "MY_NRIC", "mula": 81, "tamat": 95}, {"entiti": "MY_PHONE", "mula": 123, "tamat": 135}]}
+{"id": "mypii-01327", "spans": []}
+{"id": "mypii-00560", "spans": []}
+{"id": "mypii-02009", "spans": [{"entiti": "MY_PHONE", "mula": 228, "tamat": 240}, {"entiti": "MY_SSM", "mula": 97, "tamat": 106}]}
+{"id": "mypii-01577", "spans": [{"entiti": "MY_PHONE", "mula": 259, "tamat": 273}, {"entiti": "MY_SSM", "mula": 81, "tamat": 90}]}
+{"id": "mypii-02713", "spans": [{"entiti": "MY_PHONE", "mula": 96, "tamat": 108}, {"entiti": "MY_SSM", "mula": 74, "tamat": 83}]}
+{"id": "mypii-00922", "spans": []}
+{"id": "mypii-00092", "spans": []}
+{"id": "mypii-00969", "spans": []}
+{"id": "mypii-03552", "spans": []}
+{"id": "mypii-02814", "spans": []}
+{"id": "mypii-00460", "spans": []}
+{"id": "mypii-00559", "spans": [{"entiti": "MY_PHONE", "mula": 42, "tamat": 52}, {"entiti": "MY_PHONE", "mula": 79, "tamat": 91}]}
+{"id": "mypii-01941", "spans": []}
+{"id": "mypii-03557", "spans": [{"entiti": "MY_PHONE", "mula": 130, "tamat": 141}, {"entiti": "MY_SSM", "mula": 102, "tamat": 111}]}
+{"id": "mypii-02253", "spans": [{"entiti": "MY_PHONE", "mula": 132, "tamat": 144}]}
+{"id": "mypii-01869", "spans": [{"entiti": "MY_NRIC", "mula": 94, "tamat": 108}, {"entiti": "MY_PHONE", "mula": 210, "tamat": 224}]}
+{"id": "mypii-01342", "spans": [{"entiti": "MY_NRIC", "mula": 105, "tamat": 119}, {"entiti": "MY_PHONE", "mula": 128, "tamat": 140}]}
+{"id": "mypii-02100", "spans": [{"entiti": "MY_SSM", "mula": 25, "tamat": 37}, {"entiti": "MY_PHONE", "mula": 116, "tamat": 128}]}
+{"id": "mypii-00806", "spans": [{"entiti": "MY_PHONE", "mula": 274, "tamat": 285}, {"entiti": "MY_SSM", "mula": 85, "tamat": 94}]}
+{"id": "mypii-00519", "spans": []}
+{"id": "mypii-00231", "spans": [{"entiti": "MY_PHONE", "mula": 152, "tamat": 163}, {"entiti": "MY_SSM", "mula": 88, "tamat": 97}]}
+{"id": "mypii-03581", "spans": []}
+{"id": "mypii-01819", "spans": []}
+{"id": "mypii-00453", "spans": []}
+{"id": "mypii-02953", "spans": [{"entiti": "MY_SSM", "mula": 68, "tamat": 80}, {"entiti": "MY_PHONE", "mula": 126, "tamat": 137}]}
+{"id": "mypii-01274", "spans": []}
+{"id": "mypii-00309", "spans": []}
+{"id": "mypii-03707", "spans": []}
+{"id": "mypii-03869", "spans": [{"entiti": "MY_PHONE", "mula": 119, "tamat": 130}]}
+{"id": "mypii-01557", "spans": [{"entiti": "MY_NRIC", "mula": 98, "tamat": 112}, {"entiti": "MY_PHONE", "mula": 126, "tamat": 138}]}
+{"id": "mypii-02910", "spans": []}
+{"id": "mypii-03706", "spans": []}
+{"id": "mypii-02824", "spans": [{"entiti": "MY_PHONE", "mula": 28, "tamat": 40}]}
+{"id": "mypii-01797", "spans": []}
+{"id": "mypii-00810", "spans": [{"entiti": "MY_SSM", "mula": 34, "tamat": 42}]}
+{"id": "mypii-00899", "spans": []}
+{"id": "mypii-01831", "spans": [{"entiti": "MY_SSM", "mula": 88, "tamat": 100}, {"entiti": "MY_PHONE", "mula": 180, "tamat": 191}]}
+{"id": "mypii-03821", "spans": []}
+{"id": "mypii-02124", "spans": []}
+{"id": "mypii-00271", "spans": [{"entiti": "MY_PHONE", "mula": 37, "tamat": 49}]}
+{"id": "mypii-00199", "spans": []}
+{"id": "mypii-02172", "spans": []}
+{"id": "mypii-03139", "spans": []}
+{"id": "mypii-00203", "spans": [{"entiti": "MY_NRIC", "mula": 82, "tamat": 96}]}
+{"id": "mypii-01771", "spans": [{"entiti": "MY_SSM", "mula": 79, "tamat": 91}, {"entiti": "MY_PHONE", "mula": 129, "tamat": 141}]}
+{"id": "mypii-03001", "spans": [{"entiti": "MY_PHONE", "mula": 101, "tamat": 112}]}
+{"id": "mypii-03298", "spans": []}
+{"id": "mypii-01817", "spans": [{"entiti": "MY_NRIC", "mula": 103, "tamat": 117}]}
+{"id": "mypii-03328", "spans": []}
+{"id": "mypii-03595", "spans": []}
+{"id": "mypii-02593", "spans": []}
+{"id": "mypii-03942", "spans": [{"entiti": "MY_NRIC", "mula": 66, "tamat": 78}, {"entiti": "MY_PHONE", "mula": 87, "tamat": 99}]}
+{"id": "mypii-01279", "spans": []}
+{"id": "mypii-01507", "spans": [{"entiti": "MY_NRIC", "mula": 130, "tamat": 144}, {"entiti": "MY_PHONE", "mula": 153, "tamat": 165}]}
+{"id": "mypii-01297", "spans": [{"entiti": "MY_SSM", "mula": 62, "tamat": 70}]}
+{"id": "mypii-01254", "spans": []}
+{"id": "mypii-00774", "spans": [{"entiti": "MY_PHONE", "mula": 194, "tamat": 205}, {"entiti": "MY_SSM", "mula": 69, "tamat": 77}]}
+{"id": "mypii-00690", "spans": [{"entiti": "MY_SSM", "mula": 171, "tamat": 180}]}
+{"id": "mypii-01885", "spans": [{"entiti": "MY_NRIC", "mula": 86, "tamat": 100}, {"entiti": "MY_SSM", "mula": 135, "tamat": 147}, {"entiti": "MY_PHONE", "mula": 199, "tamat": 209}]}
+{"id": "mypii-00589", "spans": []}
+{"id": "mypii-02442", "spans": []}
+{"id": "mypii-03618", "spans": []}
+{"id": "mypii-02825", "spans": [{"entiti": "MY_PHONE", "mula": 151, "tamat": 162}]}
+{"id": "mypii-03656", "spans": []}
+{"id": "mypii-02721", "spans": [{"entiti": "MY_PHONE", "mula": 165, "tamat": 176}, {"entiti": "MY_SSM", "mula": 220, "tamat": 228}]}
+{"id": "mypii-02502", "spans": [{"entiti": "MY_PHONE", "mula": 41, "tamat": 53}]}
+{"id": "mypii-00210", "spans": []}
+{"id": "mypii-01191", "spans": [{"entiti": "MY_NRIC", "mula": 103, "tamat": 117}]}
+{"id": "mypii-01347", "spans": []}
+{"id": "mypii-01897", "spans": [{"entiti": "MY_NRIC", "mula": 126, "tamat": 140}, {"entiti": "MY_PHONE", "mula": 235, "tamat": 246}]}
+{"id": "mypii-00387", "spans": [{"entiti": "MY_NRIC", "mula": 166, "tamat": 180}, {"entiti": "MY_SSM", "mula": 76, "tamat": 84}]}
+{"id": "mypii-03000", "spans": [{"entiti": "MY_PHONE", "mula": 225, "tamat": 236}]}
+{"id": "mypii-02892", "spans": []}
+{"id": "mypii-02306", "spans": [{"entiti": "MY_NRIC", "mula": 55, "tamat": 67}]}
+{"id": "mypii-02592", "spans": []}
+{"id": "mypii-01748", "spans": [{"entiti": "MY_NRIC", "mula": 124, "tamat": 138}, {"entiti": "MY_PHONE", "mula": 152, "tamat": 165}]}
+{"id": "mypii-01851", "spans": [{"entiti": "MY_NRIC", "mula": 80, "tamat": 92}, {"entiti": "MY_PHONE", "mula": 102, "tamat": 113}]}
+{"id": "mypii-03888", "spans": [{"entiti": "MY_NRIC", "mula": 95, "tamat": 107}, {"entiti": "MY_PHONE", "mula": 210, "tamat": 222}]}
+{"id": "mypii-00923", "spans": []}
+{"id": "mypii-03071", "spans": []}
+{"id": "mypii-01928", "spans": []}
+{"id": "mypii-02553", "spans": []}
+{"id": "mypii-03213", "spans": [{"entiti": "MY_NRIC", "mula": 42, "tamat": 56}, {"entiti": "MY_PHONE", "mula": 59, "tamat": 71}, {"entiti": "MY_NRIC", "mula": 88, "tamat": 102}, {"entiti": "MY_PHONE", "mula": 105, "tamat": 117}]}
+{"id": "mypii-02343", "spans": [{"entiti": "MY_PHONE", "mula": 72, "tamat": 82}]}
+{"id": "mypii-01137", "spans": []}
+{"id": "mypii-02715", "spans": [{"entiti": "MY_PHONE", "mula": 218, "tamat": 230}]}
+{"id": "mypii-02069", "spans": [{"entiti": "MY_SSM", "mula": 63, "tamat": 75}, {"entiti": "MY_PHONE", "mula": 178, "tamat": 189}]}
+{"id": "mypii-01128", "spans": []}
+{"id": "mypii-01272", "spans": [{"entiti": "MY_NRIC", "mula": 95, "tamat": 107}, {"entiti": "MY_PHONE", "mula": 117, "tamat": 129}]}
+{"id": "mypii-03438", "spans": [{"entiti": "MY_NRIC", "mula": 115, "tamat": 129}]}
+{"id": "mypii-02629", "spans": []}
+{"id": "mypii-01461", "spans": [{"entiti": "MY_PHONE", "mula": 167, "tamat": 180}, {"entiti": "MY_SSM", "mula": 224, "tamat": 233}]}
+{"id": "mypii-01689", "spans": [{"entiti": "MY_SSM", "mula": 72, "tamat": 84}]}
+{"id": "mypii-02005", "spans": []}
+{"id": "mypii-02870", "spans": []}
+{"id": "mypii-01785", "spans": []}
+{"id": "mypii-03027", "spans": []}
+{"id": "mypii-02934", "spans": []}
+{"id": "mypii-02989", "spans": []}
+{"id": "mypii-03137", "spans": [{"entiti": "MY_NRIC", "mula": 125, "tamat": 137}, {"entiti": "MY_PHONE", "mula": 151, "tamat": 165}]}
+{"id": "mypii-00882", "spans": []}
+{"id": "mypii-01382", "spans": [{"entiti": "MY_NRIC", "mula": 159, "tamat": 173}, {"entiti": "MY_SSM", "mula": 95, "tamat": 103}]}
+{"id": "mypii-03668", "spans": [{"entiti": "MY_NRIC", "mula": 104, "tamat": 118}, {"entiti": "MY_PHONE", "mula": 142, "tamat": 157}]}
+{"id": "mypii-02119", "spans": [{"entiti": "MY_PHONE", "mula": 94, "tamat": 108}, {"entiti": "MY_SSM", "mula": 68, "tamat": 76}]}
+{"id": "mypii-02746", "spans": []}
+{"id": "mypii-02699", "spans": []}
+{"id": "mypii-02507", "spans": []}
+{"id": "mypii-01672", "spans": [{"entiti": "MY_PHONE", "mula": 152, "tamat": 163}, {"entiti": "MY_SSM", "mula": 88, "tamat": 96}]}
+{"id": "mypii-00489", "spans": []}
+{"id": "mypii-02341", "spans": []}
+{"id": "mypii-02757", "spans": [{"entiti": "MY_NRIC", "mula": 77, "tamat": 91}, {"entiti": "MY_PHONE", "mula": 101, "tamat": 113}]}
+{"id": "mypii-00937", "spans": []}
+{"id": "mypii-02268", "spans": [{"entiti": "MY_PHONE", "mula": 108, "tamat": 119}, {"entiti": "MY_NRIC", "mula": 134, "tamat": 148}]}
+{"id": "mypii-03853", "spans": [{"entiti": "MY_SSM", "mula": 88, "tamat": 100}, {"entiti": "MY_NRIC", "mula": 145, "tamat": 159}]}
+{"id": "mypii-02129", "spans": []}
+{"id": "mypii-01144", "spans": [{"entiti": "MY_PHONE", "mula": 165, "tamat": 179}]}
+{"id": "mypii-02340", "spans": [{"entiti": "MY_NRIC", "mula": 74, "tamat": 88}, {"entiti": "MY_PHONE", "mula": 91, "tamat": 104}, {"entiti": "MY_NRIC", "mula": 134, "tamat": 148}, {"entiti": "MY_PHONE", "mula": 151, "tamat": 166}]}
+{"id": "mypii-00542", "spans": []}
+{"id": "mypii-01285", "spans": [{"entiti": "MY_PHONE", "mula": 45, "tamat": 56}]}
+{"id": "mypii-03897", "spans": [{"entiti": "MY_SSM", "mula": 82, "tamat": 90}]}
+{"id": "mypii-01801", "spans": [{"entiti": "MY_PHONE", "mula": 208, "tamat": 219}]}
+{"id": "mypii-03763", "spans": []}
+{"id": "mypii-02185", "spans": [{"entiti": "MY_NRIC", "mula": 112, "tamat": 126}, {"entiti": "MY_SSM", "mula": 172, "tamat": 184}]}
+{"id": "mypii-03395", "spans": []}
+{"id": "mypii-01138", "spans": []}
+{"id": "mypii-03329", "spans": [{"entiti": "MY_NRIC", "mula": 56, "tamat": 68}, {"entiti": "MY_PHONE", "mula": 71, "tamat": 83}, {"entiti": "MY_NRIC", "mula": 113, "tamat": 125}, {"entiti": "MY_PHONE", "mula": 128, "tamat": 143}]}
+{"id": "mypii-03954", "spans": []}
+{"id": "mypii-00484", "spans": [{"entiti": "MY_PHONE", "mula": 84, "tamat": 99}]}
+{"id": "mypii-03677", "spans": []}
+{"id": "mypii-00140", "spans": [{"entiti": "MY_NRIC", "mula": 24, "tamat": 38}]}
+{"id": "mypii-03248", "spans": []}
+{"id": "mypii-02327", "spans": [{"entiti": "MY_NRIC", "mula": 45, "tamat": 59}, {"entiti": "MY_PHONE", "mula": 70, "tamat": 81}, {"entiti": "MY_SSM", "mula": 119, "tamat": 131}]}
+{"id": "mypii-03515", "spans": []}
+{"id": "mypii-01332", "spans": [{"entiti": "MY_NRIC", "mula": 33, "tamat": 47}]}
+{"id": "mypii-00682", "spans": []}
+{"id": "mypii-01670", "spans": []}
+{"id": "mypii-02623", "spans": [{"entiti": "MY_NRIC", "mula": 112, "tamat": 126}, {"entiti": "MY_PHONE", "mula": 224, "tamat": 236}]}
+{"id": "mypii-03997", "spans": []}
+{"id": "mypii-03900", "spans": []}
+{"id": "mypii-00727", "spans": [{"entiti": "MY_PHONE", "mula": 12, "tamat": 25}]}
+{"id": "mypii-03287", "spans": [{"entiti": "MY_NRIC", "mula": 110, "tamat": 124}]}
+{"id": "mypii-02456", "spans": []}
+{"id": "mypii-03829", "spans": [{"entiti": "MY_PHONE", "mula": 127, "tamat": 141}, {"entiti": "MY_SSM", "mula": 100, "tamat": 108}]}
+{"id": "mypii-03345", "spans": [{"entiti": "MY_PHONE", "mula": 168, "tamat": 180}]}
+{"id": "mypii-00909", "spans": [{"entiti": "MY_PHONE", "mula": 120, "tamat": 131}]}
+{"id": "mypii-02695", "spans": []}
+{"id": "mypii-03110", "spans": [{"entiti": "MY_NRIC", "mula": 27, "tamat": 41}, {"entiti": "MY_PHONE", "mula": 90, "tamat": 102}]}
+{"id": "mypii-00579", "spans": []}
+{"id": "mypii-01683", "spans": [{"entiti": "MY_NRIC", "mula": 92, "tamat": 106}]}
+{"id": "mypii-03541", "spans": [{"entiti": "MY_SSM", "mula": 56, "tamat": 68}, {"entiti": "MY_PHONE", "mula": 103, "tamat": 114}]}
+{"id": "mypii-01681", "spans": []}
+{"id": "mypii-01578", "spans": []}
+{"id": "mypii-01077", "spans": [{"entiti": "MY_PHONE", "mula": 128, "tamat": 140}, {"entiti": "MY_SSM", "mula": 72, "tamat": 81}]}
+{"id": "mypii-02335", "spans": []}
+{"id": "mypii-01789", "spans": [{"entiti": "MY_NRIC", "mula": 97, "tamat": 109}, {"entiti": "MY_PHONE", "mula": 119, "tamat": 134}]}
+{"id": "mypii-02408", "spans": [{"entiti": "MY_PHONE", "mula": 179, "tamat": 192}]}
+{"id": "mypii-03795", "spans": []}
+{"id": "mypii-00041", "spans": [{"entiti": "MY_NRIC", "mula": 115, "tamat": 129}, {"entiti": "MY_PHONE", "mula": 146, "tamat": 160}, {"entiti": "MY_SSM", "mula": 260, "tamat": 268}]}
+{"id": "mypii-03012", "spans": [{"entiti": "MY_PHONE", "mula": 35, "tamat": 50}, {"entiti": "MY_PHONE", "mula": 101, "tamat": 111}]}
+{"id": "mypii-01574", "spans": [{"entiti": "MY_NRIC", "mula": 79, "tamat": 91}, {"entiti": "MY_PHONE", "mula": 106, "tamat": 118}]}
+{"id": "mypii-01935", "spans": []}
+{"id": "mypii-01236", "spans": [{"entiti": "MY_PHONE", "mula": 192, "tamat": 206}]}
+{"id": "mypii-00333", "spans": []}
+{"id": "mypii-00745", "spans": []}
+{"id": "mypii-02706", "spans": [{"entiti": "MY_NRIC", "mula": 37, "tamat": 51}, {"entiti": "MY_PHONE", "mula": 62, "tamat": 73}, {"entiti": "MY_SSM", "mula": 119, "tamat": 128}]}
+{"id": "mypii-00958", "spans": []}
+{"id": "mypii-00599", "spans": []}
+{"id": "mypii-02925", "spans": []}
+{"id": "mypii-01027", "spans": []}
+{"id": "mypii-02877", "spans": []}
+{"id": "mypii-00737", "spans": [{"entiti": "MY_PHONE", "mula": 215, "tamat": 227}]}
+{"id": "mypii-00918", "spans": []}
+{"id": "mypii-02345", "spans": []}
+{"id": "mypii-00457", "spans": [{"entiti": "MY_NRIC", "mula": 111, "tamat": 123}, {"entiti": "MY_PHONE", "mula": 147, "tamat": 159}]}
+{"id": "mypii-01229", "spans": [{"entiti": "MY_PHONE", "mula": 180, "tamat": 191}]}
+{"id": "mypii-03187", "spans": [{"entiti": "MY_NRIC", "mula": 168, "tamat": 182}]}
+{"id": "mypii-01143", "spans": [{"entiti": "MY_PHONE", "mula": 112, "tamat": 124}]}
+{"id": "mypii-00691", "spans": [{"entiti": "MY_PHONE", "mula": 87, "tamat": 100}, {"entiti": "MY_SSM", "mula": 66, "tamat": 74}]}
+{"id": "mypii-03507", "spans": [{"entiti": "MY_SSM", "mula": 51, "tamat": 63}, {"entiti": "MY_PHONE", "mula": 188, "tamat": 202}]}
+{"id": "mypii-00052", "spans": [{"entiti": "MY_NRIC", "mula": 74, "tamat": 88}]}
+{"id": "mypii-01414", "spans": []}
+{"id": "mypii-01339", "spans": [{"entiti": "MY_PHONE", "mula": 120, "tamat": 132}, {"entiti": "MY_SSM", "mula": 36, "tamat": 45}]}
+{"id": "mypii-01033", "spans": []}
+{"id": "mypii-02474", "spans": [{"entiti": "MY_SSM", "mula": 48, "tamat": 60}, {"entiti": "MY_NRIC", "mula": 115, "tamat": 129}]}
+{"id": "mypii-02096", "spans": [{"entiti": "MY_PHONE", "mula": 169, "tamat": 184}, {"entiti": "MY_NRIC", "mula": 204, "tamat": 218}]}
+{"id": "mypii-01560", "spans": [{"entiti": "MY_SSM", "mula": 75, "tamat": 87}]}
+{"id": "mypii-02128", "spans": [{"entiti": "MY_SSM", "mula": 73, "tamat": 85}]}
+{"id": "mypii-00766", "spans": [{"entiti": "MY_NRIC", "mula": 12, "tamat": 26}, {"entiti": "MY_PHONE", "mula": 41, "tamat": 52}]}
+{"id": "mypii-01769", "spans": [{"entiti": "MY_NRIC", "mula": 83, "tamat": 97}, {"entiti": "MY_PHONE", "mula": 110, "tamat": 125}, {"entiti": "MY_SSM", "mula": 158, "tamat": 170}]}
+{"id": "mypii-01624", "spans": []}
+{"id": "mypii-02106", "spans": []}
+{"id": "mypii-02835", "spans": []}
+{"id": "mypii-02656", "spans": []}
+{"id": "mypii-02739", "spans": [{"entiti": "MY_PHONE", "mula": 217, "tamat": 228}]}
+{"id": "mypii-02906", "spans": []}
+{"id": "mypii-03540", "spans": []}
+{"id": "mypii-03136", "spans": []}
+{"id": "mypii-01581", "spans": []}
+{"id": "mypii-03709", "spans": []}
+{"id": "mypii-03617", "spans": [{"entiti": "MY_NRIC", "mula": 42, "tamat": 56}, {"entiti": "MY_PHONE", "mula": 105, "tamat": 119}]}
+{"id": "mypii-02792", "spans": []}
+{"id": "mypii-03100", "spans": [{"entiti": "MY_SSM", "mula": 47, "tamat": 59}, {"entiti": "MY_PHONE", "mula": 175, "tamat": 188}]}
+{"id": "mypii-00304", "spans": []}
+{"id": "mypii-01820", "spans": []}
+{"id": "mypii-01522", "spans": []}
+{"id": "mypii-02544", "spans": []}
+{"id": "mypii-02029", "spans": []}
+{"id": "mypii-02881", "spans": []}
+{"id": "mypii-00528", "spans": [{"entiti": "MY_NRIC", "mula": 126, "tamat": 140}, {"entiti": "MY_PHONE", "mula": 162, "tamat": 175}]}
+{"id": "mypii-02368", "spans": [{"entiti": "MY_PHONE", "mula": 182, "tamat": 193}]}
+{"id": "mypii-01675", "spans": [{"entiti": "MY_SSM", "mula": 127, "tamat": 139}, {"entiti": "MY_PHONE", "mula": 220, "tamat": 235}]}
+{"id": "mypii-00236", "spans": []}
+{"id": "mypii-00385", "spans": []}
+{"id": "mypii-02063", "spans": []}
+{"id": "mypii-01594", "spans": []}
+{"id": "mypii-02508", "spans": [{"entiti": "MY_NRIC", "mula": 46, "tamat": 60}]}
+{"id": "mypii-01501", "spans": []}
+{"id": "mypii-03972", "spans": []}
+{"id": "mypii-02488", "spans": []}
+{"id": "mypii-01818", "spans": []}
+{"id": "mypii-03871", "spans": [{"entiti": "MY_SSM", "mula": 60, "tamat": 68}]}
+{"id": "mypii-02950", "spans": [{"entiti": "MY_SSM", "mula": 39, "tamat": 47}]}
+{"id": "mypii-01517", "spans": []}
+{"id": "mypii-03796", "spans": []}
+{"id": "mypii-03847", "spans": []}
+{"id": "mypii-01220", "spans": [{"entiti": "MY_PHONE", "mula": 173, "tamat": 184}]}
+{"id": "mypii-01331", "spans": []}
+{"id": "mypii-01712", "spans": []}
+{"id": "mypii-02264", "spans": []}
+{"id": "mypii-03283", "spans": [{"entiti": "MY_NRIC", "mula": 179, "tamat": 193}]}
+{"id": "mypii-01551", "spans": [{"entiti": "MY_PHONE", "mula": 247, "tamat": 259}, {"entiti": "MY_SSM", "mula": 98, "tamat": 105}]}
+{"id": "mypii-03648", "spans": [{"entiti": "MY_SSM", "mula": 39, "tamat": 47}]}
+{"id": "mypii-03644", "spans": []}
+{"id": "mypii-02026", "spans": []}
+{"id": "mypii-02212", "spans": []}
+{"id": "mypii-00512", "spans": [{"entiti": "MY_SSM", "mula": 69, "tamat": 81}, {"entiti": "MY_NRIC", "mula": 101, "tamat": 115}]}
+{"id": "mypii-01023", "spans": [{"entiti": "MY_PHONE", "mula": 134, "tamat": 145}, {"entiti": "MY_SSM", "mula": 80, "tamat": 89}]}
+{"id": "mypii-01130", "spans": []}
+{"id": "mypii-01908", "spans": [{"entiti": "MY_PHONE", "mula": 180, "tamat": 194}, {"entiti": "MY_SSM", "mula": 87, "tamat": 95}]}
+{"id": "mypii-00523", "spans": []}
+{"id": "mypii-01697", "spans": [{"entiti": "MY_SSM", "mula": 85, "tamat": 93}]}
+{"id": "mypii-00414", "spans": []}
+{"id": "mypii-03638", "spans": []}
+{"id": "mypii-02979", "spans": []}
+{"id": "mypii-00105", "spans": [{"entiti": "MY_SSM", "mula": 72, "tamat": 80}]}
+{"id": "mypii-00015", "spans": [{"entiti": "MY_SSM", "mula": 57, "tamat": 65}]}
+{"id": "mypii-03757", "spans": []}
+{"id": "mypii-03556", "spans": [{"entiti": "MY_PHONE", "mula": 94, "tamat": 105}]}
+{"id": "mypii-03603", "spans": [{"entiti": "MY_NRIC", "mula": 89, "tamat": 103}, {"entiti": "MY_PHONE", "mula": 205, "tamat": 217}]}
+{"id": "mypii-02246", "spans": []}
+{"id": "mypii-01510", "spans": [{"entiti": "MY_PHONE", "mula": 86, "tamat": 100}]}
+{"id": "mypii-02389", "spans": []}
+{"id": "mypii-00603", "spans": [{"entiti": "MY_PHONE", "mula": 159, "tamat": 171}]}
+{"id": "mypii-01847", "spans": []}
+{"id": "mypii-02599", "spans": []}
+{"id": "mypii-02935", "spans": [{"entiti": "MY_NRIC", "mula": 93, "tamat": 107}]}
+{"id": "mypii-03918", "spans": []}
+{"id": "mypii-03695", "spans": [{"entiti": "MY_SSM", "mula": 70, "tamat": 78}]}
+{"id": "mypii-01597", "spans": []}
+{"id": "mypii-02336", "spans": [{"entiti": "MY_PHONE", "mula": 163, "tamat": 174}, {"entiti": "MY_SSM", "mula": 59, "tamat": 67}]}
+{"id": "mypii-02929", "spans": [{"entiti": "MY_NRIC", "mula": 123, "tamat": 137}, {"entiti": "MY_SSM", "mula": 68, "tamat": 76}]}
+{"id": "mypii-02484", "spans": [{"entiti": "MY_NRIC", "mula": 44, "tamat": 58}]}
+{"id": "mypii-02734", "spans": [{"entiti": "MY_NRIC", "mula": 87, "tamat": 101}, {"entiti": "MY_PHONE", "mula": 111, "tamat": 122}]}
+{"id": "mypii-03741", "spans": [{"entiti": "MY_NRIC", "mula": 113, "tamat": 127}]}
+{"id": "mypii-03384", "spans": [{"entiti": "MY_PHONE", "mula": 159, "tamat": 173}, {"entiti": "MY_SSM", "mula": 99, "tamat": 107}]}
+{"id": "mypii-02160", "spans": []}
+{"id": "mypii-00496", "spans": [{"entiti": "MY_NRIC", "mula": 97, "tamat": 111}]}
+{"id": "mypii-00380", "spans": []}
+{"id": "mypii-03354", "spans": [{"entiti": "MY_PHONE", "mula": 104, "tamat": 116}]}
+{"id": "mypii-02224", "spans": []}
+{"id": "mypii-02352", "spans": [{"entiti": "MY_NRIC", "mula": 123, "tamat": 137}, {"entiti": "MY_PHONE", "mula": 151, "tamat": 162}]}
+{"id": "mypii-00915", "spans": []}
+{"id": "mypii-00312", "spans": []}
+{"id": "mypii-02777", "spans": [{"entiti": "MY_NRIC", "mula": 105, "tamat": 117}, {"entiti": "MY_PHONE", "mula": 133, "tamat": 147}]}
+{"id": "mypii-00936", "spans": []}
+{"id": "mypii-01269", "spans": [{"entiti": "MY_NRIC", "mula": 33, "tamat": 45}]}
+{"id": "mypii-00801", "spans": []}
+{"id": "mypii-03050", "spans": []}
+{"id": "mypii-02622", "spans": []}
+{"id": "mypii-03333", "spans": [{"entiti": "MY_NRIC", "mula": 139, "tamat": 153}, {"entiti": "MY_PHONE", "mula": 195, "tamat": 207}]}
+{"id": "mypii-01016", "spans": [{"entiti": "MY_NRIC", "mula": 61, "tamat": 73}, {"entiti": "MY_PHONE", "mula": 114, "tamat": 129}]}
+{"id": "mypii-02236", "spans": [{"entiti": "MY_NRIC", "mula": 102, "tamat": 114}]}
+{"id": "mypii-00429", "spans": [{"entiti": "MY_NRIC", "mula": 144, "tamat": 156}]}
+{"id": "mypii-01732", "spans": [{"entiti": "MY_NRIC", "mula": 132, "tamat": 144}]}
+{"id": "mypii-02820", "spans": []}
+{"id": "mypii-02659", "spans": [{"entiti": "MY_PHONE", "mula": 86, "tamat": 97}]}
+{"id": "mypii-03538", "spans": [{"entiti": "MY_PHONE", "mula": 132, "tamat": 146}, {"entiti": "MY_SSM", "mula": 81, "tamat": 89}]}
+{"id": "mypii-01720", "spans": []}
+{"id": "mypii-02159", "spans": []}
+{"id": "mypii-02976", "spans": [{"entiti": "MY_NRIC", "mula": 90, "tamat": 104}, {"entiti": "MY_SSM", "mula": 50, "tamat": 59}]}
+{"id": "mypii-01972", "spans": []}
+{"id": "mypii-00444", "spans": [{"entiti": "MY_PHONE", "mula": 172, "tamat": 184}, {"entiti": "MY_SSM", "mula": 103, "tamat": 111}]}
+{"id": "mypii-01932", "spans": []}
+{"id": "mypii-02468", "spans": []}
+{"id": "mypii-02011", "spans": []}
+{"id": "mypii-01146", "spans": [{"entiti": "MY_NRIC", "mula": 110, "tamat": 124}]}
+{"id": "mypii-02287", "spans": []}
+{"id": "mypii-01990", "spans": [{"entiti": "MY_NRIC", "mula": 125, "tamat": 139}]}
+{"id": "mypii-03624", "spans": []}
+{"id": "mypii-02415", "spans": []}
+{"id": "mypii-02878", "spans": [{"entiti": "MY_PHONE", "mula": 35, "tamat": 46}, {"entiti": "MY_PHONE", "mula": 94, "tamat": 106}]}
+{"id": "mypii-01265", "spans": []}
+{"id": "mypii-03739", "spans": [{"entiti": "MY_SSM", "mula": 56, "tamat": 68}, {"entiti": "MY_PHONE", "mula": 103, "tamat": 113}]}
+{"id": "mypii-00057", "spans": []}
+{"id": "mypii-03192", "spans": []}
+{"id": "mypii-01316", "spans": [{"entiti": "MY_SSM", "mula": 65, "tamat": 77}, {"entiti": "MY_PHONE", "mula": 134, "tamat": 146}]}
+{"id": "mypii-01095", "spans": []}
+{"id": "mypii-02413", "spans": [{"entiti": "MY_NRIC", "mula": 103, "tamat": 117}, {"entiti": "MY_PHONE", "mula": 125, "tamat": 137}]}
+{"id": "mypii-02549", "spans": [{"entiti": "MY_NRIC", "mula": 78, "tamat": 90}, {"entiti": "MY_PHONE", "mula": 100, "tamat": 112}]}
+{"id": "mypii-02145", "spans": [{"entiti": "MY_NRIC", "mula": 98, "tamat": 110}, {"entiti": "MY_PHONE", "mula": 207, "tamat": 219}]}
+{"id": "mypii-01745", "spans": []}
+{"id": "mypii-02164", "spans": []}
+{"id": "mypii-03037", "spans": [{"entiti": "MY_PHONE", "mula": 144, "tamat": 156}, {"entiti": "MY_SSM", "mula": 79, "tamat": 88}]}
+{"id": "mypii-00330", "spans": [{"entiti": "MY_PHONE", "mula": 171, "tamat": 182}]}
+{"id": "mypii-03267", "spans": []}
+{"id": "mypii-01777", "spans": []}
+{"id": "mypii-02093", "spans": []}
+{"id": "mypii-00567", "spans": []}
+{"id": "mypii-03108", "spans": [{"entiti": "MY_SSM", "mula": 80, "tamat": 92}, {"entiti": "MY_PHONE", "mula": 133, "tamat": 147}]}
+{"id": "mypii-01512", "spans": [{"entiti": "MY_SSM", "mula": 51, "tamat": 63}, {"entiti": "MY_NRIC", "mula": 130, "tamat": 142}]}
+{"id": "mypii-03700", "spans": [{"entiti": "MY_NRIC", "mula": 107, "tamat": 121}, {"entiti": "MY_PHONE", "mula": 143, "tamat": 155}]}
+{"id": "mypii-00142", "spans": []}
+{"id": "mypii-00851", "spans": [{"entiti": "MY_PHONE", "mula": 205, "tamat": 219}]}
+{"id": "mypii-03809", "spans": []}
+{"id": "mypii-01109", "spans": [{"entiti": "MY_PHONE", "mula": 85, "tamat": 96}]}
+{"id": "mypii-03308", "spans": [{"entiti": "MY_SSM", "mula": 46, "tamat": 58}]}
+{"id": "mypii-02094", "spans": []}
+{"id": "mypii-01391", "spans": []}
+{"id": "mypii-00544", "spans": [{"entiti": "MY_NRIC", "mula": 64, "tamat": 76}]}
+{"id": "mypii-03851", "spans": []}
+{"id": "mypii-00464", "spans": []}
+{"id": "mypii-03974", "spans": []}
+{"id": "mypii-01971", "spans": []}
+{"id": "mypii-01314", "spans": []}
+{"id": "mypii-02920", "spans": [{"entiti": "MY_NRIC", "mula": 46, "tamat": 58}]}
+{"id": "mypii-03492", "spans": [{"entiti": "MY_NRIC", "mula": 107, "tamat": 119}, {"entiti": "MY_PHONE", "mula": 133, "tamat": 145}]}
+{"id": "mypii-01799", "spans": [{"entiti": "MY_PHONE", "mula": 88, "tamat": 102}, {"entiti": "MY_SSM", "mula": 62, "tamat": 70}]}
+{"id": "mypii-00155", "spans": [{"entiti": "MY_NRIC", "mula": 50, "tamat": 64}, {"entiti": "MY_PHONE", "mula": 84, "tamat": 95}]}
+{"id": "mypii-03340", "spans": [{"entiti": "MY_NRIC", "mula": 41, "tamat": 55}, {"entiti": "MY_PHONE", "mula": 69, "tamat": 79}]}
+{"id": "mypii-01538", "spans": []}
+{"id": "mypii-01259", "spans": []}
+{"id": "mypii-00240", "spans": [{"entiti": "MY_PHONE", "mula": 203, "tamat": 214}]}
+{"id": "mypii-02126", "spans": [{"entiti": "MY_PHONE", "mula": 159, "tamat": 170}, {"entiti": "MY_SSM", "mula": 79, "tamat": 87}]}
+{"id": "mypii-02118", "spans": []}
+{"id": "mypii-03073", "spans": [{"entiti": "MY_PHONE", "mula": 97, "tamat": 108}]}
+{"id": "mypii-02899", "spans": [{"entiti": "MY_NRIC", "mula": 106, "tamat": 120}, {"entiti": "MY_PHONE", "mula": 130, "tamat": 144}]}
+{"id": "mypii-02788", "spans": [{"entiti": "MY_NRIC", "mula": 66, "tamat": 80}, {"entiti": "MY_PHONE", "mula": 93, "tamat": 103}]}
+{"id": "mypii-03820", "spans": []}
+{"id": "mypii-01647", "spans": []}
+{"id": "mypii-03721", "spans": []}
+{"id": "mypii-02760", "spans": [{"entiti": "MY_SSM", "mula": 80, "tamat": 92}, {"entiti": "MY_NRIC", "mula": 156, "tamat": 170}]}
+{"id": "mypii-00000", "spans": [{"entiti": "MY_PHONE", "mula": 176, "tamat": 187}]}
+{"id": "mypii-03805", "spans": []}
+{"id": "mypii-02566", "spans": []}
+{"id": "mypii-02447", "spans": [{"entiti": "MY_NRIC", "mula": 106, "tamat": 118}, {"entiti": "MY_SSM", "mula": 68, "tamat": 76}]}
+{"id": "mypii-03065", "spans": []}
+{"id": "mypii-02218", "spans": [{"entiti": "MY_NRIC", "mula": 95, "tamat": 109}, {"entiti": "MY_PHONE", "mula": 213, "tamat": 224}]}
+{"id": "mypii-00518", "spans": []}
+{"id": "mypii-03549", "spans": []}
+{"id": "mypii-03486", "spans": []}
+{"id": "mypii-02228", "spans": []}
+{"id": "mypii-03947", "spans": []}
+{"id": "mypii-03696", "spans": [{"entiti": "MY_NRIC", "mula": 88, "tamat": 102}, {"entiti": "MY_PHONE", "mula": 204, "tamat": 215}]}
+{"id": "mypii-00009", "spans": []}
+{"id": "mypii-03760", "spans": [{"entiti": "MY_NRIC", "mula": 170, "tamat": 182}, {"entiti": "MY_SSM", "mula": 99, "tamat": 108}]}
+{"id": "mypii-00861", "spans": [{"entiti": "MY_SSM", "mula": 31, "tamat": 40}]}
+{"id": "mypii-02781", "spans": [{"entiti": "MY_NRIC", "mula": 181, "tamat": 195}, {"entiti": "MY_SSM", "mula": 78, "tamat": 87}]}
+{"id": "mypii-03528", "spans": [{"entiti": "MY_PHONE", "mula": 166, "tamat": 178}]}
+{"id": "mypii-00974", "spans": []}
+{"id": "mypii-00368", "spans": [{"entiti": "MY_NRIC", "mula": 121, "tamat": 135}, {"entiti": "MY_SSM", "mula": 189, "tamat": 201}]}
+{"id": "mypii-02203", "spans": []}
+{"id": "mypii-00455", "spans": []}
+{"id": "mypii-03130", "spans": [{"entiti": "MY_PHONE", "mula": 28, "tamat": 39}]}
+{"id": "mypii-03786", "spans": [{"entiti": "MY_SSM", "mula": 69, "tamat": 81}]}
+{"id": "mypii-01754", "spans": []}
+{"id": "mypii-00927", "spans": [{"entiti": "MY_SSM", "mula": 46, "tamat": 58}]}
+{"id": "mypii-02432", "spans": [{"entiti": "MY_PHONE", "mula": 175, "tamat": 188}]}
+{"id": "mypii-00680", "spans": [{"entiti": "MY_PHONE", "mula": 165, "tamat": 176}, {"entiti": "MY_NRIC", "mula": 196, "tamat": 210}]}
+{"id": "mypii-00953", "spans": [{"entiti": "MY_PHONE", "mula": 189, "tamat": 200}, {"entiti": "MY_SSM", "mula": 91, "tamat": 100}]}
+{"id": "mypii-00627", "spans": []}
+{"id": "mypii-01197", "spans": [{"entiti": "MY_PHONE", "mula": 42, "tamat": 53}]}
+{"id": "mypii-01816", "spans": []}
+{"id": "mypii-03288", "spans": [{"entiti": "MY_NRIC", "mula": 137, "tamat": 151}, {"entiti": "MY_PHONE", "mula": 173, "tamat": 185}]}
+{"id": "mypii-01641", "spans": [{"entiti": "MY_PHONE", "mula": 258, "tamat": 270}, {"entiti": "MY_SSM", "mula": 85, "tamat": 93}]}
+{"id": "mypii-02655", "spans": [{"entiti": "MY_SSM", "mula": 84, "tamat": 96}]}
+{"id": "mypii-00348", "spans": [{"entiti": "MY_NRIC", "mula": 112, "tamat": 126}, {"entiti": "MY_SSM", "mula": 61, "tamat": 69}]}
+{"id": "mypii-03342", "spans": [{"entiti": "MY_NRIC", "mula": 127, "tamat": 139}, {"entiti": "MY_PHONE", "mula": 153, "tamat": 164}]}
+{"id": "mypii-02073", "spans": [{"entiti": "MY_SSM", "mula": 62, "tamat": 74}]}
+{"id": "mypii-01914", "spans": [{"entiti": "MY_NRIC", "mula": 106, "tamat": 120}, {"entiti": "MY_PHONE", "mula": 208, "tamat": 220}]}
+{"id": "mypii-03421", "spans": [{"entiti": "MY_PHONE", "mula": 127, "tamat": 138}, {"entiti": "MY_SSM", "mula": 96, "tamat": 104}]}
+{"id": "mypii-02392", "spans": [{"entiti": "MY_PHONE", "mula": 166, "tamat": 177}, {"entiti": "MY_SSM", "mula": 88, "tamat": 94}]}
+{"id": "mypii-03926", "spans": []}
+{"id": "mypii-00159", "spans": [{"entiti": "MY_PHONE", "mula": 121, "tamat": 136}]}
+{"id": "mypii-03969", "spans": []}
+{"id": "mypii-03806", "spans": [{"entiti": "MY_SSM", "mula": 94, "tamat": 102}]}
+{"id": "mypii-03040", "spans": []}
+{"id": "mypii-02055", "spans": [{"entiti": "MY_NRIC", "mula": 127, "tamat": 141}, {"entiti": "MY_PHONE", "mula": 161, "tamat": 172}]}
+{"id": "mypii-01098", "spans": []}
+{"id": "mypii-03033", "spans": [{"entiti": "MY_SSM", "mula": 27, "tamat": 35}]}
+{"id": "mypii-01860", "spans": [{"entiti": "MY_NRIC", "mula": 134, "tamat": 148}, {"entiti": "MY_PHONE", "mula": 242, "tamat": 254}]}
+{"id": "mypii-02634", "spans": [{"entiti": "MY_PHONE", "mula": 69, "tamat": 80}, {"entiti": "MY_SSM", "mula": 133, "tamat": 140}]}
+{"id": "mypii-03242", "spans": [{"entiti": "MY_PHONE", "mula": 39, "tamat": 51}]}
+{"id": "mypii-03635", "spans": [{"entiti": "MY_PHONE", "mula": 180, "tamat": 190}, {"entiti": "MY_SSM", "mula": 105, "tamat": 112}]}
+{"id": "mypii-00521", "spans": []}
+{"id": "mypii-02828", "spans": []}
+{"id": "mypii-00717", "spans": [{"entiti": "MY_NRIC", "mula": 69, "tamat": 81}]}
+{"id": "mypii-03531", "spans": []}
+{"id": "mypii-01582", "spans": [{"entiti": "MY_NRIC", "mula": 92, "tamat": 106}, {"entiti": "MY_PHONE", "mula": 209, "tamat": 220}]}
+{"id": "mypii-02473", "spans": []}
+{"id": "mypii-00128", "spans": []}
+{"id": "mypii-00856", "spans": []}
+{"id": "mypii-03294", "spans": [{"entiti": "MY_NRIC", "mula": 98, "tamat": 112}, {"entiti": "MY_PHONE", "mula": 214, "tamat": 225}]}
+{"id": "mypii-02497", "spans": []}
+{"id": "mypii-01381", "spans": []}
+{"id": "mypii-01438", "spans": [{"entiti": "MY_SSM", "mula": 27, "tamat": 35}]}
+{"id": "mypii-03768", "spans": []}
+{"id": "mypii-00020", "spans": [{"entiti": "MY_PHONE", "mula": 161, "tamat": 173}]}
+{"id": "mypii-03302", "spans": [{"entiti": "MY_PHONE", "mula": 166, "tamat": 178}]}
+{"id": "mypii-03146", "spans": [{"entiti": "MY_NRIC", "mula": 44, "tamat": 58}, {"entiti": "MY_PHONE", "mula": 61, "tamat": 72}, {"entiti": "MY_NRIC", "mula": 108, "tamat": 120}, {"entiti": "MY_PHONE", "mula": 123, "tamat": 134}]}
+{"id": "mypii-02210", "spans": [{"entiti": "MY_NRIC", "mula": 78, "tamat": 92}]}
+{"id": "mypii-00783", "spans": []}
+{"id": "mypii-03737", "spans": [{"entiti": "MY_NRIC", "mula": 21, "tamat": 35}, {"entiti": "MY_PHONE", "mula": 59, "tamat": 71}]}
+{"id": "mypii-02527", "spans": []}
+{"id": "mypii-01691", "spans": [{"entiti": "MY_PHONE", "mula": 186, "tamat": 198}, {"entiti": "MY_SSM", "mula": 71, "tamat": 80}]}
+{"id": "mypii-01576", "spans": [{"entiti": "MY_PHONE", "mula": 174, "tamat": 189}]}
+{"id": "mypii-01719", "spans": []}
+{"id": "mypii-00925", "spans": [{"entiti": "MY_NRIC", "mula": 67, "tamat": 79}, {"entiti": "MY_NRIC", "mula": 89, "tamat": 103}]}
+{"id": "mypii-02646", "spans": [{"entiti": "MY_NRIC", "mula": 55, "tamat": 69}]}
+{"id": "mypii-01743", "spans": [{"entiti": "MY_NRIC", "mula": 94, "tamat": 108}]}
+{"id": "mypii-01313", "spans": []}
+{"id": "mypii-01174", "spans": [{"entiti": "MY_SSM", "mula": 70, "tamat": 82}, {"entiti": "MY_NRIC", "mula": 129, "tamat": 143}]}
+{"id": "mypii-01443", "spans": [{"entiti": "MY_SSM", "mula": 78, "tamat": 90}, {"entiti": "MY_NRIC", "mula": 178, "tamat": 192}]}
+{"id": "mypii-02588", "spans": []}
+{"id": "mypii-01768", "spans": [{"entiti": "MY_SSM", "mula": 27, "tamat": 39}, {"entiti": "MY_PHONE", "mula": 117, "tamat": 130}]}
+{"id": "mypii-00399", "spans": [{"entiti": "MY_NRIC", "mula": 132, "tamat": 144}, {"entiti": "MY_PHONE", "mula": 158, "tamat": 169}]}
+{"id": "mypii-03320", "spans": []}
+{"id": "mypii-01284", "spans": [{"entiti": "MY_NRIC", "mula": 78, "tamat": 90}, {"entiti": "MY_PHONE", "mula": 104, "tamat": 114}]}
+{"id": "mypii-02431", "spans": []}
+{"id": "mypii-02072", "spans": [{"entiti": "MY_SSM", "mula": 90, "tamat": 97}]}
+{"id": "mypii-00421", "spans": []}
+{"id": "mypii-03896", "spans": [{"entiti": "MY_PHONE", "mula": 68, "tamat": 79}]}
+{"id": "mypii-03670", "spans": []}
+{"id": "mypii-01758", "spans": [{"entiti": "MY_PHONE", "mula": 12, "tamat": 24}]}
+{"id": "mypii-01119", "spans": []}
+{"id": "mypii-02995", "spans": []}
+{"id": "mypii-01156", "spans": []}
+{"id": "mypii-03010", "spans": []}
+{"id": "mypii-01003", "spans": []}
+{"id": "mypii-02208", "spans": []}
+{"id": "mypii-00870", "spans": [{"entiti": "MY_PHONE", "mula": 212, "tamat": 223}]}
+{"id": "mypii-00941", "spans": []}
+{"id": "mypii-02250", "spans": []}
+{"id": "mypii-00077", "spans": []}
+{"id": "mypii-02004", "spans": [{"entiti": "MY_PHONE", "mula": 139, "tamat": 151}]}
+{"id": "mypii-01677", "spans": []}
+{"id": "mypii-00085", "spans": [{"entiti": "MY_NRIC", "mula": 107, "tamat": 119}, {"entiti": "MY_PHONE", "mula": 128, "tamat": 140}]}
+{"id": "mypii-03121", "spans": []}
+{"id": "mypii-00115", "spans": []}
+{"id": "mypii-02195", "spans": [{"entiti": "MY_NRIC", "mula": 92, "tamat": 106}]}
+{"id": "mypii-03807", "spans": []}
+{"id": "mypii-00814", "spans": [{"entiti": "MY_SSM", "mula": 76, "tamat": 88}, {"entiti": "MY_NRIC", "mula": 150, "tamat": 162}]}
+{"id": "mypii-03961", "spans": []}
+{"id": "mypii-00292", "spans": [{"entiti": "MY_NRIC", "mula": 117, "tamat": 131}, {"entiti": "MY_PHONE", "mula": 145, "tamat": 159}]}
+{"id": "mypii-03236", "spans": []}
+{"id": "mypii-01660", "spans": []}
+{"id": "mypii-01504", "spans": [{"entiti": "MY_PHONE", "mula": 176, "tamat": 187}, {"entiti": "MY_SSM", "mula": 81, "tamat": 89}]}
+{"id": "mypii-00087", "spans": [{"entiti": "MY_NRIC", "mula": 115, "tamat": 129}]}
+{"id": "mypii-01718", "spans": [{"entiti": "MY_NRIC", "mula": 115, "tamat": 129}]}
+{"id": "mypii-00695", "spans": [{"entiti": "MY_NRIC", "mula": 32, "tamat": 44}, {"entiti": "MY_PHONE", "mula": 93, "tamat": 105}]}
+{"id": "mypii-01761", "spans": []}
+{"id": "mypii-01866", "spans": []}
+{"id": "mypii-01115", "spans": []}
+{"id": "mypii-00950", "spans": []}
+{"id": "mypii-00633", "spans": []}
+{"id": "mypii-01910", "spans": []}
+{"id": "mypii-01485", "spans": [{"entiti": "MY_NRIC", "mula": 131, "tamat": 145}]}
+{"id": "mypii-00102", "spans": []}
+{"id": "mypii-00710", "spans": [{"entiti": "MY_NRIC", "mula": 77, "tamat": 91}]}
+{"id": "mypii-03905", "spans": [{"entiti": "MY_PHONE", "mula": 221, "tamat": 236}, {"entiti": "MY_SSM", "mula": 58, "tamat": 66}]}
+{"id": "mypii-02266", "spans": []}
+{"id": "mypii-03396", "spans": []}
+{"id": "mypii-00982", "spans": [{"entiti": "MY_NRIC", "mula": 54, "tamat": 68}, {"entiti": "MY_PHONE", "mula": 71, "tamat": 82}, {"entiti": "MY_NRIC", "mula": 105, "tamat": 117}, {"entiti": "MY_PHONE", "mula": 120, "tamat": 131}]}
+{"id": "mypii-00485", "spans": []}
+{"id": "mypii-00310", "spans": []}
+{"id": "mypii-01260", "spans": [{"entiti": "MY_SSM", "mula": 58, "tamat": 70}]}
+{"id": "mypii-00268", "spans": []}
+{"id": "mypii-00004", "spans": [{"entiti": "MY_NRIC", "mula": 93, "tamat": 105}]}
+{"id": "mypii-00247", "spans": [{"entiti": "MY_NRIC", "mula": 96, "tamat": 110}]}
+{"id": "mypii-02916", "spans": []}
+{"id": "mypii-02223", "spans": []}
+{"id": "mypii-03449", "spans": []}
+{"id": "mypii-03043", "spans": [{"entiti": "MY_NRIC", "mula": 142, "tamat": 154}, {"entiti": "MY_PHONE", "mula": 168, "tamat": 180}]}
+{"id": "mypii-01520", "spans": [{"entiti": "MY_NRIC", "mula": 43, "tamat": 55}]}
+{"id": "mypii-00946", "spans": []}
+{"id": "mypii-00948", "spans": [{"entiti": "MY_NRIC", "mula": 81, "tamat": 95}, {"entiti": "MY_PHONE", "mula": 105, "tamat": 117}]}
+{"id": "mypii-00930", "spans": []}
+{"id": "mypii-01629", "spans": [{"entiti": "MY_PHONE", "mula": 116, "tamat": 127}, {"entiti": "MY_SSM", "mula": 28, "tamat": 37}]}
+{"id": "mypii-00921", "spans": [{"entiti": "MY_SSM", "mula": 61, "tamat": 69}]}
+{"id": "mypii-00331", "spans": [{"entiti": "MY_SSM", "mula": 88, "tamat": 96}]}
+{"id": "mypii-01038", "spans": [{"entiti": "MY_SSM", "mula": 76, "tamat": 88}]}
+{"id": "mypii-02060", "spans": []}
+{"id": "mypii-01883", "spans": [{"entiti": "MY_PHONE", "mula": 192, "tamat": 203}, {"entiti": "MY_NRIC", "mula": 222, "tamat": 236}]}
+{"id": "mypii-00284", "spans": [{"entiti": "MY_NRIC", "mula": 60, "tamat": 74}]}
+{"id": "mypii-02455", "spans": []}
+{"id": "mypii-03053", "spans": []}
+{"id": "mypii-02166", "spans": [{"entiti": "MY_SSM", "mula": 76, "tamat": 83}]}
+{"id": "mypii-00495", "spans": []}
+{"id": "mypii-03482", "spans": [{"entiti": "MY_NRIC", "mula": 144, "tamat": 156}]}
+{"id": "mypii-02283", "spans": []}
+{"id": "mypii-03904", "spans": []}
+{"id": "mypii-00675", "spans": []}
+{"id": "mypii-03015", "spans": [{"entiti": "MY_SSM", "mula": 48, "tamat": 60}, {"entiti": "MY_PHONE", "mula": 173, "tamat": 185}]}
+{"id": "mypii-02971", "spans": []}
+{"id": "mypii-03825", "spans": [{"entiti": "MY_SSM", "mula": 38, "tamat": 50}, {"entiti": "MY_NRIC", "mula": 133, "tamat": 147}]}
+{"id": "mypii-00891", "spans": [{"entiti": "MY_PHONE", "mula": 106, "tamat": 118}]}
+{"id": "mypii-03195", "spans": [{"entiti": "MY_SSM", "mula": 28, "tamat": 36}]}
+{"id": "mypii-02434", "spans": []}
+{"id": "mypii-00217", "spans": [{"entiti": "MY_SSM", "mula": 87, "tamat": 99}, {"entiti": "MY_PHONE", "mula": 204, "tamat": 215}]}

@@ -1,0 +1,43 @@
+# Ayat biasa (PELAN-V21, 14 Nov 2026) — BAHAN PEMBANGUNAN pengecam v2.1, BUKAN sebahagian MyPII-Bench dan BUKAN dakwaan.
+# Asal: red team demo PELAN-HF-E ("My IC is 900101-08-1234" tidak ditanda v2 1.0.2). Ditulis sesi interaktif; setiap nombor sintetik
+# dan sah struktur (tarikh + kod PB `config/kod_pb.yaml`, SSM tahun + kod jenis, telefon libphonenumber MY) — tiada nombor sebenar.
+# positif: `nilai` = subrentetan tepat yang mesti ditanda sebagai `entiti`. negatif: `nilai` = subrentetan yang TIDAK boleh ditanda
+# sebagai mana-mana entiti MyPII (nombor berbentuk sah tetapi bukan PII dalam konteks ayat). Ujian: tests/test_ayat_biasa.py.
+
+positif:
+  - {teks: "My IC is 900101-08-1234", entiti: MY_NRIC, nilai: "900101-08-1234"}
+  - {teks: "My IC number is 900101-08-1234.", entiti: MY_NRIC, nilai: "900101-08-1234"}
+  - {teks: "IC: 900101-08-1234", entiti: MY_NRIC, nilai: "900101-08-1234"}
+  - {teks: "NRIC 900101081234", entiti: MY_NRIC, nilai: "900101081234"}
+  - {teks: "No. KP saya 850615-14-5523", entiti: MY_NRIC, nilai: "850615-14-5523"}
+  - {teks: "No kad pengenalan: 850615-14-5523", entiti: MY_NRIC, nilai: "850615-14-5523"}
+  - {teks: "ic aku 850615145523 k", entiti: MY_NRIC, nilai: "850615145523"}
+  - {teks: "Nama: Ali bin Abu, MyKad 750312-10-5671", entiti: MY_NRIC, nilai: "750312-10-5671"}
+  - {teks: "Please verify MyKad 750312-10-5671 before approval.", entiti: MY_NRIC, nilai: "750312-10-5671"}
+  - {teks: "bro ic dia 990101-01-1235 ok", entiti: MY_NRIC, nilai: "990101-01-1235"}
+  - {teks: "Sila nyatakan no. IC: 010203-08-0987", entiti: MY_NRIC, nilai: "010203-08-0987"}
+  - {teks: "Applicant NRIC: 820101-01-5555", entiti: MY_NRIC, nilai: "820101-01-5555"}
+  - {teks: "Saya Ahmad, 880808-08-8888, tinggal di Ipoh.", entiti: MY_NRIC, nilai: "880808-08-8888"}
+  - {teks: "Pemohon: Siti binti Hassan (IC 920315-07-5432)", entiti: MY_NRIC, nilai: "920315-07-5432"}
+  - {teks: "Call me at 012-345 6789", entiti: MY_PHONE, nilai: "012-345 6789"}
+  - {teks: "My phone number is 012-3456789", entiti: MY_PHONE, nilai: "012-3456789"}
+  - {teks: "Hubungi 03-2161 2345 untuk maklumat", entiti: MY_PHONE, nilai: "03-2161 2345"}
+  - {teks: "whatsapp 0123456789", entiti: MY_PHONE, nilai: "0123456789"}
+  - {teks: "Tel: +60 12-345 6789", entiti: MY_PHONE, nilai: "+60 12-345 6789"}
+  - {teks: "nombor tel saya 019-8765432", entiti: MY_PHONE, nilai: "019-8765432"}
+  - {teks: "Company No. 201901000005", entiti: MY_SSM, nilai: "201901000005"}
+  - {teks: "ABC Sdn Bhd (201901000005)", entiti: MY_SSM, nilai: "201901000005"}
+  - {teks: "No. pendaftaran syarikat: 202001012345", entiti: MY_SSM, nilai: "202001012345"}
+  - {teks: "Registration No. 199701012345 (123456-X)", entiti: MY_SSM, nilai: "199701012345"}
+
+negatif:
+  - {teks: "Akaun bank saya 900101081234, sila bank in hari ini", nilai: "900101081234"}
+  - {teks: "Invoice 201901000005 is overdue.", nilai: "201901000005"}
+  - {teks: "Tracking no 850615145523 dah sampai Ipoh", nilai: "850615145523"}
+  - {teks: "Order ID 990101011235 shipped yesterday", nilai: "990101011235"}
+  - {teks: "Ref: 750312-10-5671 untuk aduan anda", nilai: "750312-10-5671"}
+  - {teks: "Model penapis air (284281-V) habis stok", nilai: "284281-V"}
+  - {teks: "Item: Pad Brek Depan (709653-U) x 2 set", nilai: "709653-U"}
+  - {teks: "No. transaksi 202001012345 berjaya", nilai: "202001012345"}
+  - {teks: "Jumlah amount 0123456789 sen dikreditkan", nilai: "0123456789"}
+  - {teks: "Resit 880808088888 dicetak semula", nilai: "880808088888"}

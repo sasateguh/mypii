@@ -45,3 +45,18 @@ def semak_pindaan(akar: Path, split: str, fail: str | None = None) -> int:
         raise Ditolak(f"split {split} menuntut ≥ {p['min']} pindaan '{p['corak']}' dalam {fail} di HEAD, ada {n} — "
                       "pindaan v2 + pindaan kuasa mesti dikomit dahulu")
     return n
+
+
+def gerbang_belum_dibuka(split: str, benarkan_ujian: bool, akar: Path) -> None:
+    """PELAN-V21: split dalam `nilai.split_belum_dibuka` (cth ujian4) dibaca oleh alat LUAR harness (`scripts/luar_modal.py`) hanya
+    dengan `--benarkan-ujian` + pra-daftar bersih dalam HEAD + pindaan wajib (`semak` + `semak_pindaan`), SEBELUM fail split dibaca.
+    Split lain (termasuk ujian/ujian2/ujian3 yang sudah dibuka) tidak berubah. Ditolak = SystemExit (tiada fail dibaca)."""
+    if split not in konfig.utama()["nilai"].get("split_belum_dibuka", []):
+        return
+    if not benarkan_ujian:
+        raise SystemExit(f"split {split} dikunci — guna --benarkan-ujian (skrip satu-tembak sahaja)")
+    try:
+        semak(akar)
+        semak_pindaan(akar, split)
+    except Ditolak as e:
+        raise SystemExit(f"split {split} ditolak: {e}") from e

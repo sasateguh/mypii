@@ -1,0 +1,612 @@
+# Dijana 2026-11-14 oleh `python -m mypii.jana.templat_llm --sasaran ujian4` (model: modal/Qwen/Qwen3.8-27B-FP8). JANGAN sunting tangan.
+# DIMETERAI (PELAN-V2 P6): jangan buka, jangan sunting — gerbang menolak sebarang perubahan.
+genre:
+  jemaah_umrah:
+  - 'Manifest jemaah untuk kumpulan {NEG}. Sila pastikan semua dokumen siap sebelum {TARIKH}. Nama penerbang: {NAMA}, {NAMA}, dan {NAMA}.'
+  - 'Invoice No: {NEG_INVOIS}
+
+    Tarikh: {TARIKH}
+
+    Jumlah: RM{NEG}
+
+    Akaun: {NEG_AKAUN}
+
+    Terima kasih.'
+  - 'Booking confirmation for {NAMA}.
+
+    Group ID: {NEG}
+
+    Departure: {TARIKH}
+
+    Status: CONFIRMED.
+
+    Please bring valid passport.'
+  - 'Reg No: {MY_SSM_LLP}
+
+    Agency: {SYARIKAT}
+
+    Contact: {MY_PHONE_BS}
+
+    Address: {BANDAR}
+
+    Date: {TARIKH}'
+  - 'Scanned IC: {OCR_MY_NRIC}
+
+    Name: {NAMA}
+
+    Company: {SYARIKAT}
+
+    Reg: {OCR_MY_SSM}
+
+    Tel: {OCR_MY_PHONE}'
+  - 'Form A:
+
+    No. MyKad:
+
+    {PATAH_MY_NRIC}
+
+    Nama:
+
+    {NAMA}
+
+    No. Tel:
+
+    {PATAH_MY_PHONE}'
+  - 'SSM: {MY_SSM}
+
+    Peneraju: {NAMA}
+
+    Jemaah: {NAMA}
+
+    No. Ahli: {NEG12_TANPA}
+
+    Tarikh: {TARIKH}'
+  - 'Checklist:
+
+    1. Pasport
+
+    2. MyKad ({MY_NRIC})
+
+    3. Form M.59
+
+    4. Photo 2x2
+
+    Contact: {MY_PHONE}
+
+    {BANDAR}'
+  rider_ehailing:
+  - Hi, order no. {NEG} dah sampai tapi customer tak angkat phone. Dah cuba 3 kali. Tolong assist sikit ya. Nanti saya upload bukti delivery.
+  - 'Ref: {NEG}
+
+    Tarikh: {TARIKH}
+
+    Pembayaran diterima untuk servis delivery minggu lepas.
+
+    Akaun bank: {NEG_AKAUN}
+
+    Terima kasih.'
+  - Kak/Abang, MyKad saya expired. Nombor MyKad lama saya {MY_NRIC}. Boleh guna MyKad baru dulu sementara tu? Saya akan update dalam sistem esok.
+  - 'SSM: {OCR_MY_SSM}
+
+    Nama Syarikat: {SYARIKAT}
+
+    Alamat: {BANDAR}
+
+    Pemilik: {NAMA}
+
+    Tel: {OCR_MY_PHONE}
+
+
+    *Scanned from PDF, some text may be unclear.*'
+  - Saya {NAMA}, dari {SYARIKAT}. SSM kami {MY_SSM_LLP}. Kami berminat untuk kerjasama corporate delivery. Hubungi saya di {MY_PHONE_BS} untuk bincang lanjut.
+  - 'Nama:
+
+    {NAMA}
+
+
+    NRIC:
+
+    {PATAH_MY_NRIC}
+
+
+    Phone:
+
+    {PATAH_MY_PHONE}
+
+
+    BANDAR: {BANDAR}
+
+
+    Tarikh Lahir: {TARIKH}'
+  - Salam, no. policy insurans saya {NEG12_TANPA}. Status claim masih pending. Boleh check sikit? Saya dah submit semua dokumen kat {SYARIKAT} sejak minggu lepas.
+  amaran_penipuan:
+  - 'Warning: Unusual login detected on your {SYARIKAT} account. Verify ID {OCR_MY_NRIC} immediately to avoid freeze. Call {NEG_TEL} now.'
+  - Assalamualaikum, this is {SYARIKAT} {BANDAR}. Your SSM reg {MY_SSM_LLP} needs renewal. Contact {NEG_TEL} or WhatsApp us. Thank you.
+  - Bro, careful lah. Got scam msg ask transfer to {NEG12_TANPA}. I report to {SYARIKAT} already. Dont click any link ok?
+  - 'URGENT: Your {SYARIKAT} subscription expired. Renew using MyKad {PATAH_MY_NRIC} to keep your {NEG_AHLI} active. Deadline {TARIKH}.'
+  - 'Dear {NAMA}, your {SYARIKAT} payment of RM500 is due. Account: {NEG_AKAUN}. Ref: {NEG}. Call {OCR_MY_PHONE} for help.'
+  - Scam alert! Someone used {MY_PHONE_BS} to apply for loan in your name. Check your report at {SYARIKAT}. Do not share OTP.
+  - Hi, this is {SYARIKAT}. Your invoice {NEG_INVOIS} is overdue. Please pay via online banking to {NEG_AKAUN}. Thanks.
+  mangsa_banjir:
+  - 'Register kat pusat bantuan {BANDAR} ni.
+
+    Nama: {NAMA}
+
+    No. MyKad: {MY_NRIC}
+
+    Hubungi: {MY_PHONE}
+
+    Tarikh Daftar: {TARIKH}'
+  - 'Senarai sukarelawan untuk tabung makanan.
+
+    1. {NAMA} (Kontak: {MY_PHONE_BS})
+
+    2. {NAMA} (Kontak: {MY_PHONE})
+
+    3. {NAMA} (Kontak: {MY_PHONE})
+
+    Silakan hadir tepat pada masanya.'
+  - 'Borang permohonan bantuan kecemasan.
+
+    Nama Penuh: {NAMA}
+
+    No. Pendaftaran: {MY_SSM}
+
+    Alamat: {BANDAR}
+
+    No. Rujukan: {NEG}'
+  - 'Kod: {NEG12_TANPA}
+
+    Tarikh: {TARIKH}
+
+    Status: Diproses
+
+    Lokasi: {BANDAR}
+
+    Kontak: {NEG_TEL}'
+  - 'Salinan skan dokumen pendaftaran.
+
+    Nama: {NAMA}
+
+    MyKad: {OCR_MY_NRIC}
+
+    No. SSM: {OCR_MY_SSM}
+
+    Tarikh: {TARIKH}
+
+    *Semak semula jika ada kesilapan OCR*'
+  - 'Form kolom sempit:
+
+    No. MyKad:
+
+    {PATAH_MY_NRIC}
+
+    Nama: {NAMA}
+
+    No. Tel:
+
+    {PATAH_MY_PHONE}
+
+    Tarikh: {TARIKH}
+
+    Tanda Tangan: ______'
+  - 'Senarai penerima bantuan dari {SYARIKAT}.
+
+    No. SSM: {MY_SSM_LLP}
+
+    Kontak: {MY_PHONE}
+
+    Lokasi: {BANDAR}
+
+    Jumlah: 50 pek'
+  - 'Nota: Jangan guna nombor lama.
+
+    Guna: {MY_PHONE}
+
+    Tarikh: {TARIKH}
+
+    Rujukan: {NEG}
+
+    Borang: {NEG_INVOIS}'
+  hospital_wad:
+  - 'NOTIS PEMINDAHAN WAD
+
+    Pesakit: {NAMA}
+
+    Tarikh: {TARIKH}
+
+    Unit: {SYARIKAT}
+
+    Pemindah: Dr. A. Zulkifli
+
+    Destinasi: Wad 3B, Katil 12
+
+    Status: Stabil
+
+    Nota: Sila pastikan semua barang peribadi telah diambil. Jangan lupa tanda tangan form pelepasan di kaunter wad.'
+  - 'FORMULAR PENGESAHAN KELUARGA
+
+    Nama Pesakit: {NAMA}
+
+    No. MyKad: {MY_NRIC}
+
+    Hubungi: {MY_PHONE}
+
+    Tarikh Lahir: {TARIKH}
+
+    Alamat: {BANDAR}
+
+    Keadaan Kesihatan: Sedang dirawat di Wad 5
+
+    Borang ini perlu diisi oleh penjaga utama untuk tujuan lawatan.'
+  - 'KOD INVOIS: {NEG_INVOIS}
+
+    BIL: {NEG12_TANPA}
+
+    HARI: {TARIKH}
+
+    ITEM: Set Rawatan Kaki
+
+    Jumlah: RM{NEG_KOD}
+
+    Status: Bayaran Lengkap
+
+    Silakan tunjuk resit ini di kaunter farmasi untuk mendapatkan ubat. Terima kasih.'
+  - 'SURAT PELEPASAN PESAKIT
+
+    Tarikh: {TARIKH}
+
+    Pesakit: {NAMA}
+
+    NRIC: {MY_NRIC}
+
+    Wad: 7A
+
+    Doktor: Dr. R. Lim
+
+    Arahan: Ambil ubat 2 kali sehari. Jangan makan makanan pedas.
+
+    Hubungi klinik: {SYARIKAT}
+
+    Tel: {MY_PHONE}
+
+    Sila hadir semula jika demam berpanjangan.'
+  - 'FORMULAR LAWATAN KANAK-KANAK
+
+    Nama: {NAMA}
+
+    Umur: {NEG_KOD} tahun
+
+    No. MyKad Ibu Bapa: {MY_NRIC}
+
+    Wad: 2C
+
+    Tarikh: {TARIKH}
+
+    Pengambilan: {SYARIKAT}
+
+    Status: Dibolehkan
+
+    Sila simpan ID ini di lobi untuk pemeriksaan keselamatan.'
+  - 'NOTIS KEWANGAN
+
+    No. Rujukan: {NEG_INVOIS}
+
+    Pesakit: {NAMA}
+
+    Jumlah Tunggakan: RM{NEG_KOD}
+
+    Akaun Bank: {NEG_AKAUN}
+
+    Tarikh Jatuh Tempo: {TARIKH}
+
+    Sila bayarkan di kaunter kewangan tingkat 1. Terima kasih.'
+  - 'REKOD KEMASUKAN (SCAN)
+
+    Pesakit: {NAMA}
+
+    NRIC: {OCR_MY_NRIC}
+
+    Tarikh Masuk: {TARIKH}
+
+    Wad: 9B
+
+    Kad Lawatan: {NEG}
+
+    Hubungi: {MY_PHONE}
+
+    Nota: Sila semak nombor ID anda. Jika salah, hubungi kaunter pendaftaran.'
+  - 'FORMULAR PELEPASAN (LAPISAN SEMPIT)
+
+    Pesakit: {NAMA}
+
+    MyKad: {PATAH_MY_NRIC}
+
+    Telefon: {PATAH_MY_PHONE}
+
+    Wad: 4A
+
+    Tarikh: {TARIKH}
+
+    Doktor: Dr. S. Tan
+
+    Status: Sihat
+
+    Sila simpan resit ini untuk tuntutan insurans.'
+  biasiswa:
+  - 'Assalamualaikum, {NAMA} dari {BANDAR} nak apply biasiswa {SYARIKAT}. Ref: {NEG}. Saya tunggu reply sikit ya.'
+  - 'Salam, bond agreement dah sign. No. Akaun: {NEG_AKAUN}. NRIC: {MY_NRIC}. Thanks.
+
+    {SYARIKAT}
+
+    {TARIKH}'
+  - Hi team, {NAMA} sini. Ref {NEG}. Saya dah submit form. Tq.
+  - 'Sila bank in duit ke {NEG_AKAUN}. Ref: {NEG}.
+
+    Syarikat: {SYARIKAT} ({MY_SSM_LLP})
+
+    Contact: {MY_PHONE_BS}'
+  - 'Scan IC:
+
+    Nama: {NAMA}
+
+    No. IC: {OCR_MY_NRIC}
+
+    Alamat: {BANDAR}
+
+    Tarikh: {TARIKH}'
+  - 'Salam, {NAMA} dari {BANDAR}.
+
+    No. SSM: {MY_SSM_LAMA}
+
+    Tel: {MY_PHONE}
+
+    Ref: {NEG}'
+  - 'Invoice no {NEG_INVOIS}.
+
+    Pembayaran: {NEG12_TANPA}
+
+    Status: Paid.
+
+    {SYARIKAT}
+
+    {TARIKH}'
+  - 'Form Biasiswa:
+
+    Nama: {NAMA}
+
+    No. IC: {PATAH_MY_NRIC}
+
+    Kota: {BANDAR}
+
+    Kod: {NEG_KOD}'
+  beli_rumah:
+  - 'FORM PEMBUKUAN UNIT
+
+    Nama Penuh: {NAMA}
+
+    No. MyKad: {MY_NRIC}
+
+    No. Telefon: {MY_PHONE}
+
+    Tarikh Pembukaan: {TARIKH}
+
+    Jumlah Deposit: RM{NEG_KOD}'
+  - 'PENAWARAN JUALAN & PEMBELIANAN (EKSERT)
+
+    Developer: {SYARIKAT}
+
+    No. Pendaftaran SSM: {MY_SSM}
+
+    Pembeli: {NAMA}
+
+    Alamat: {BANDAR}
+
+    Tarikh: {TARIKH}'
+  - 'NOTIS PEMBAYARAN PROGRESS
+
+    Invoice No: {NEG_INVOIS}
+
+    Tarikh Due: {TARIKH}
+
+    Sila bayar ke akaun {NEG_AKAUN}
+
+    Ref: {NEG}
+
+    Sebarang pertanyaan hubungi {NEG_TEL}'
+  - 'SCAN DOKUMEN PEMILIKAN
+
+    Nama: {NAMA}
+
+    IC: {OCR_MY_NRIC}
+
+    Syarikat: {SYARIKAT}
+
+    SSM: {OCR_MY_SSM}
+
+    Status: Diiktiraf'
+  - 'RESIT PEMBUKUAN
+
+    Jumlah: RM{NEG_KOD}
+
+    No. Resit: {NEG_INVOIS}
+
+    Tarikh: {TARIKH}
+
+    Pembeli: {NAMA}
+
+    No. Ahli: {NEG12_TANPA}'
+  khairat_kematian:
+  - 'Assalamualaikum semua. Sapa nak join khairat society {SYARIKAT} kat {BANDAR}? Bayaran bulanan murah je. Call {NEG_TEL} atau datang office kami. No. pendaftaran: {NEG12_TANPA}. Jangan lambat, slot limited!'
+  - 'NOTIS KEPEMANDIAN
+
+    Mengenai: Mangsa {NAMA}
+
+    Tarikh meninggal: {TARIKH}
+
+    Alamat: {BANDAR}
+
+
+    Sila hubungi keluarga di {MY_PHONE} untuk urusan pengebumian. Terima kasih.'
+  - 'Salam, ini dari {SYARIKAT} Sdn Bhd (SSM: {MY_SSM}). Kami nak maklumkan claim khairat untuk ahli {NAMA} sudah diproses. Sila tunggu duit masuk dalam akaun anda. Ref: {NEG}.'
+  - 'Deklarasi kematian.
+
+    Pemohon: {NAMA}
+
+    NRIC: {OCR_MY_NRIC}
+
+
+    Sila isi borang ini dan hantar balik. Kalau ada soalan, call office kami. Jangan lupa attach surat kematian.'
+  - 'NOTIS FUNERARIUM
+
+
+    Nama Arwah: {NAMA}
+
+    Tarikh: {TARIKH}
+
+    Tempat: {BANDAR}
+
+
+    Sila hubungi {MY_PHONE_BS} untuk sebarang urusan pengebumian. Kami sedia membantu keluarga.'
+  - 'Borang Permohonan Khairat
+
+
+    Nama Penuh: {NAMA}
+
+    No. Kad Pengenalan:
+
+    {PATAH_MY_NRIC}
+
+
+    Tarikh Lahir: {TARIKH}
+
+    Alamat: {BANDAR}
+
+
+    Tanda Tangan: _______________'
+  - 'Salam, terima kasih untuk sumbangan khairat anda. Kami dari {SYARIKAT} (LLP: {MY_SSM_LLP}) di {BANDAR}. Duit akan dipindahkan ke akaun {NEG_AKAUN} anda esok. Terima kasih atas kerjasama.'
+  pekerja_asing:
+  - Assalamualaikum, ni reminder utk renew permit {NAMA}. Sila hantar photocopy IC no {MY_NRIC} dan form E6. Jangan lupa bayar levy dulu sebelum submit ke imigresen {BANDAR}.
+  - URGENT! Invoice {NEG_INVOIS} belum settle. Sila transfer ke akaun {NEG_AKAUN} sebelum {TARIKH}. Kalau delay, kami tak boleh process surat tawaran kerja untuk worker baru. Please confirm receipt.
+  - 'Ref: {NEG}
+
+    Bil. SSM: {MY_SSM}
+
+    Tarikh: {TARIKH}
+
+
+    Dijaga oleh:
+
+    {SYARIKAT}
+
+
+    Nota: Dokumen ini untuk tujuan internal sahaja.'
+  - Helo bos, agent kat {BANDAR} dah contact. Dia cakap quota full. Boleh try hubungi office Sabah, no phone {MY_PHONE_BS}. Check sama ada ada slot kosong sana tak. Saya tunggu reply cepat sikit.
+  - 'Formulir:
+
+    Nama: {NAMA}
+
+    No. Kad Pengenalan:
+
+    {PATAH_MY_NRIC}
+
+    Jenis Kewarganegaraan:
+
+    Warganegara Asing
+
+
+    Sila tandatangan di ruang yang disediakan.'
+  - Hi, sorry lambat reply. Saya dah submit dokumen {NAMA} kat kaunter. No rujukan {NEG} dah dapat. Expect 2 weeks processing time. Call me if ada update, number saya {MY_PHONE}.
+  - 'Deklarasi: Saya {NAMA}, pemegang MyKad {OCR_MY_NRIC} (terpindai), menyatakan bahawa maklumat dalam borang ini adalah benar. Syarikat {SYARIKAT} (SSM: {OCR_MY_SSM}) tidak bertanggungjawab atas sebarang salah laku worker.'
+  pendaftaran_nikah:
+  - 'Formuluar Permohonan Nikah
+
+    Nama Pengantin: {NAMA}
+
+    No. Kad Pengenalan: {MY_NRIC}
+
+    Alamat: {BANDAR}
+
+    Tarikh Perkahwinan: {TARIKH}
+
+    Saksi 1: {NAMA}
+
+    Saksi 2: {NAMA}'
+  - 'Sila lengkapkan borang ini untuk pendaftaran nikah di Pejabat Agama Islam {BANDAR}.
+
+    Nama Penuh: {NAMA}
+
+    No. MyKad: {PATAH_MY_NRIC}
+
+    No. Telefon: {MY_PHONE}
+
+    Tarikh Lahir: {TARIKH}
+
+    Tandatangan: _______________'
+  - 'Sertifikat Kursus Pra-Nikah
+
+    Diberikan kepada: {NAMA}
+
+    No. Pendaftaran: {NEG}
+
+    Tarikh Selesai: {TARIKH}
+
+    Lokasi: {BANDAR}
+
+    Disediakan oleh: {SYARIKAT}
+
+    SSM: {MY_SSM_LLP}'
+  - 'Borang Pendaftaran Nikah
+
+    Nama: {NAMA}
+
+    No. Kad: {OCR_MY_NRIC}
+
+    Telefon: {OCR_MY_PHONE}
+
+    Alamat: {BANDAR}
+
+    Tarikh: {TARIKH}
+
+    Saksi: {NAMA}'
+  - 'Detail Saksi untuk Pendaftaran Nikah
+
+    Saksi 1: {NAMA}
+
+    No. MyKad: {MY_NRIC}
+
+    Saksi 2: {NAMA}
+
+    No. MyKad: {MY_NRIC}
+
+    Pejabat Agama: {BANDAR}
+
+    Tarikh: {TARIKH}'
+  - 'Senarai Nama Peserta Kursus
+
+    1. {NAMA} - {MY_PHONE}
+
+    2. {NAMA} - {NEG_TEL}
+
+    3. {NAMA} - {MY_PHONE}
+
+    Lokasi: {BANDAR}
+
+    Tarikh: {TARIKH}
+
+    Pengarah: {SYARIKAT}'
+  - 'Borang Pengesahan Nikah
+
+    Nama: {NAMA}
+
+    No. MyKad: {MY_NRIC}
+
+    Telefon: {MY_PHONE_BS}
+
+    Alamat: {BANDAR}
+
+    Tarikh: {TARIKH}
+
+    No. Rujukan: {NEG12_TANPA}
+
+    Tandatangan: _______________'

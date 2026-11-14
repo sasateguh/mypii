@@ -6,6 +6,42 @@ dan versi ikut [Semantic Versioning](https://semver.org/). Keputusan reka bentuk
 [Keep a Changelog 1.1.0](https://keepachangelog.com/en/1.1.0/) and versions follow [Semantic Versioning](https://semver.org/).
 Full design decisions live in `docs/adr/`.
 
+## [1.1.0] - 2026-11-14
+
+Pengecam v2.1 + split ujian baharu `ujian4` + penilaian model PII luar. / Recognizer v2.1, a new test split `ujian4` and an evaluation
+of other PII models.
+
+### Changed
+
+- Recognizer **v2.1**: one rule changed in how the context classifier is combined with context phrases (`konteks.gabung.cara: frasa`,
+  [ADR-021](https://github.com/sasateguh/mypii/blob/main/docs/adr/021-v21-frasa-dan-ujian4.md)). A context phrase right before the
+  number (for example "My IC is 900101-08-1234", missed by 1.0.x) keeps it unless the classifier is nearly certain it is not PII; a
+  closer negative phrase drops it unless the classifier is very confident; an old-format SSM number needs a context phrase. The
+  classifier itself is unchanged. Tuned on `dev` and `dev3` only: `dev` 0.840 → 0.951, `dev3` 0.998 → 0.996. To get the 1.0.x
+  behaviour back, set `konteks.gabung.cara: ganti`.
+
+### Added
+
+- Test split `ujian4` (1000 documents, `data/bench_v3/ujian4.jsonl`): templates and names written by Qwen3.8-27B, self-hosted, a
+  model family used nowhere else in this study; registered in `docs/PRA-DAFTAR.md` (amendments 2026-11-14 (b) and (c)) before it was
+  generated, sealed, then opened once. All four pre-registered hypotheses hold (Holm k = 4): v2.1 is not worse than v2 1.0.2
+  (Δ +0.005) or Claude Haiku 5.5 (Δ +0.160), and beats Meddies PII v2 (Δ +0.470) and GLiNER multi PII v1 (Δ +0.332) on MyKad, SSM and
+  phone numbers. v2.1 better than v2 also holds but the difference is small (Δ +0.005). Report:
+  [`docs/BANDINGAN-V21.md`](https://github.com/sasateguh/mypii/blob/main/docs/BANDINGAN-V21.md); archive `hasil/arkib/ujian4-20261114T145032Z/`.
+- Descriptive scores of Meddies PII v2 and GLiNER multi PII v1 on the already-opened splits:
+  [`docs/BANDINGAN-LUAR.md`](https://github.com/sasateguh/mypii/blob/main/docs/BANDINGAN-LUAR.md). Raw predictions are in `hasil/luar/`.
+- `data/probe/ayat_biasa.yaml`: 24 everyday sentences that must be flagged and 10 that must not, checked by
+  `tests/test_ayat_biasa.py` (1.1.0: 24/24 and 0/10; 1.0.2: 20/24 and 3/10).
+- Evaluation system `mypii-v2` (1.0.2, run from the git tag `mypii-v2-beku`), `make bandingan-v21`, `make statistik-v21` and
+  `make ayat-biasa`.
+- Scripts for the Modal runs: `scripts/penjana_modal.py` starts the temporary self-hosted vLLM server (OpenAI-compatible) that wrote
+  the `ujian4` templates, called through `mypii.klien_llm` for model names that start with `modal/`; `scripts/luar_modal.py` runs the
+  other PII models inside Modal containers, while label mapping and scoring stay in `mypii/nilai/luar.py`.
+
+### Fixed
+
+- The one-shot test scripts no longer fail at random on a long pre-registration file (`git show | grep -q` under `pipefail`).
+
 ## [1.0.2] - 2026-11-14
 
 Kod pakej, pengecam v2 dan data penanda aras tidak berubah. / The package code, recognizer v2 and the benchmark data are unchanged.

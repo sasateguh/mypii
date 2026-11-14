@@ -1,0 +1,231 @@
+{
+  "bahasa:en|*": {
+    "emas": 173,
+    "ramal": 136,
+    "tepat": {
+      "p": 0.5662,
+      "r": 0.4451,
+      "f1": 0.4984
+    },
+    "separa": {
+      "p": 0.5735,
+      "r": 0.4509,
+      "f1": 0.5049
+    }
+  },
+  "bahasa:en|MY_NRIC": {
+    "emas": 54,
+    "ramal": 0,
+    "tepat": {
+      "p": 0.0,
+      "r": 0.0,
+      "f1": 0.0
+    },
+    "separa": {
+      "p": 0.0,
+      "r": 0.0,
+      "f1": 0.0
+    }
+  },
+  "bahasa:en|MY_PHONE": {
+    "emas": 104,
+    "ramal": 136,
+    "tepat": {
+      "p": 0.5662,
+      "r": 0.7404,
+      "f1": 0.6417
+    },
+    "separa": {
+      "p": 0.5735,
+      "r": 0.75,
+      "f1": 0.65
+    }
+  },
+  "bahasa:en|MY_SSM": {
+    "emas": 15,
+    "ramal": 0,
+    "tepat": {
+      "p": 0.0,
+      "r": 0.0,
+      "f1": 0.0
+    },
+    "separa": {
+      "p": 0.0,
+      "r": 0.0,
+      "f1": 0.0
+    }
+  },
+  "bahasa:manglish|*": {
+    "emas": 251,
+    "ramal": 152,
+    "tepat": {
+      "p": 0.4211,
+      "r": 0.255,
+      "f1": 0.3176
+    },
+    "separa": {
+      "p": 0.4276,
+      "r": 0.259,
+      "f1": 0.3226
+    }
+  },
+  "bahasa:manglish|MY_NRIC": {
+    "emas": 90,
+    "ramal": 0,
+    "tepat": {
+      "p": 0.0,
+      "r": 0.0,
+      "f1": 0.0
+    },
+    "separa": {
+      "p": 0.0,
+      "r": 0.0,
+      "f1": 0.0
+    }
+  },
+  "bahasa:manglish|MY_PHONE": {
+    "emas": 103,
+    "ramal": 152,
+    "tepat": {
+      "p": 0.4211,
+      "r": 0.6214,
+      "f1": 0.502
+    },
+    "separa": {
+      "p": 0.4276,
+      "r": 0.6311,
+      "f1": 0.5098
+    }
+  },
+  "bahasa:manglish|MY_SSM": {
+    "emas": 58,
+    "ramal": 0,
+    "tepat": {
+      "p": 0.0,
+      "r": 0.0,
+      "f1": 0.0
+    },
+    "separa": {
+      "p": 0.0,
+      "r": 0.0,
+      "f1": 0.0
+    }
+  },
+  "bahasa:ms|*": {
+    "emas": 267,
+    "ramal": 189,
+    "tepat": {
+      "p": 0.4233,
+      "r": 0.2996,
+      "f1": 0.3509
+    },
+    "separa": {
+      "p": 0.4444,
+      "r": 0.3146,
+      "f1": 0.3684
+    }
+  },
+  "bahasa:ms|MY_NRIC": {
+    "emas": 88,
+    "ramal": 0,
+    "tepat": {
+      "p": 0.0,
+      "r": 0.0,
+      "f1": 0.0
+    },
+    "separa": {
+      "p": 0.0,
+      "r": 0.0,
+      "f1": 0.0
+    }
+  },
+  "bahasa:ms|MY_PHONE": {
+    "emas": 115,
+    "ramal": 189,
+    "tepat": {
+      "p": 0.4233,
+      "r": 0.6957,
+      "f1": 0.5263
+    },
+    "separa": {
+      "p": 0.4444,
+      "r": 0.7304,
+      "f1": 0.5526
+    }
+  },
+  "bahasa:ms|MY_SSM": {
+    "emas": 64,
+    "ramal": 0,
+    "tepat": {
+      "p": 0.0,
+      "r": 0.0,
+      "f1": 0.0
+    },
+    "separa": {
+      "p": 0.0,
+      "r": 0.0,
+      "f1": 0.0
+    }
+  },
+  "semua|*": {
+    "emas": 691,
+    "ramal": 477,
+    "tepat": {
+      "p": 0.4633,
+      "r": 0.3198,
+      "f1": 0.3784
+    },
+    "separa": {
+      "p": 0.4759,
+      "r": 0.3285,
+      "f1": 0.3887
+    }
+  },
+  "semua|MY_NRIC": {
+    "emas": 232,
+    "ramal": 0,
+    "tepat": {
+      "p": 0.0,
+      "r": 0.0,
+      "f1": 0.0
+    },
+    "separa": {
+      "p": 0.0,
+      "r": 0.0,
+      "f1": 0.0
+    }
+  },
+  "semua|MY_PHONE": {
+    "emas": 322,
+    "ramal": 477,
+    "tepat": {
+      "p": 0.4633,
+      "r": 0.6863,
+      "f1": 0.5532
+    },
+    "separa": {
+      "p": 0.4759,
+      "r": 0.705,
+      "f1": 0.5682
+    }
+  },
+  "semua|MY_SSM": {
+    "emas": 137,
+    "ramal": 0,
+    "tepat": {
+      "p": 0.0,
+      "r": 0.0,
+      "f1": 0.0
+    },
+    "separa": {
+      "p": 0.0,
+      "r": 0.0,
+      "f1": 0.0
+    }
+  },
+  "_pradaftar": {
+    "fail": "docs/PRA-DAFTAR.md",
+    "komit": "faf6e0ed9b8b7aafd99eb6d215c68403e4b4ca43",
+    "blob": "67e60f08fbc7fef82cd80ac9dcf29f41b462fb9c"
+  }
+}

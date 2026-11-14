@@ -45,7 +45,7 @@ sys.exit(0 if m and [b for b in m.group(1).splitlines() if b.strip()] == sys.arg
 PY
 
 # pindaan pembekuan pengecam wujud dalam HEAD (§7-v2: "pindaan kedua 'MyPII v2'" = pindaan (e))
-git show "HEAD:$PRADAFTAR" 2>/dev/null | grep -qE "$BEKU" || enggan "pindaan 'MyPII v2: kuasa + pengecam dibekukan' tiada dalam HEAD"
+grep -qE "$BEKU" <<<"$(git show "HEAD:$PRADAFTAR" 2>/dev/null)" || enggan "pindaan 'MyPII v2: kuasa + pengecam dibekukan' tiada dalam HEAD"
 
 u3_semak_hasil
 

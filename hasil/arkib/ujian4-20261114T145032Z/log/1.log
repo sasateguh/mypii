@@ -1,0 +1,25 @@
++ uv run --group nilai --group garis python -m mypii.nilai.harness --split ujian4 --sistem mypii mypii-v2 mypii-v1 presidio-asal llm:anthropic/claude-haiku-5-5 --keluar hasil/v21 --benarkan-ujian
+pra-daftar docs/PRA-DAFTAR.md @ komit faf6e0ed9b8b7aafd99eb6d215c68403e4b4ca43 (blob 67e60f08fbc7fef82cd80ac9dcf29f41b462fb9c)
+llm:anthropic/claude-haiku-5-5: {"dokumen": 1000, "dari_cache": 0, "panggilan": 1000, "gagal": 0, "rosak": 3, "usd": 0.078588, "jumlah_usd": 3.467458, "had_dicapai": false}
+| sistem | entiti | P tepat | R tepat | F1 tepat | F1 separa |
+|---|---|---|---|---|---|
+| mypii | * | 0.9854 | 0.9754 | 0.9804 | 0.9804 |
+| mypii | MY_NRIC | 0.9556 | 0.9267 | 0.9409 | 0.9409 |
+| mypii | MY_PHONE | 1.0 | 1.0 | 1.0 | 1.0 |
+| mypii | MY_SSM | 1.0 | 1.0 | 1.0 | 1.0 |
+| mypii-v2 | * | 0.991 | 0.9595 | 0.975 | 0.975 |
+| mypii-v2 | MY_NRIC | 0.981 | 0.8879 | 0.9321 | 0.9321 |
+| mypii-v2 | MY_PHONE | 1.0 | 1.0 | 1.0 | 1.0 |
+| mypii-v2 | MY_SSM | 0.9854 | 0.9854 | 0.9854 | 0.9854 |
+| mypii-v1 | * | 0.7175 | 0.5036 | 0.5918 | 0.5918 |
+| mypii-v1 | MY_NRIC | 0.3401 | 0.2888 | 0.3124 | 0.3124 |
+| mypii-v1 | MY_PHONE | 1.0 | 0.6149 | 0.7615 | 0.7615 |
+| mypii-v1 | MY_SSM | 0.9222 | 0.6058 | 0.7313 | 0.7313 |
+| presidio-asal | * | 0.4633 | 0.3198 | 0.3784 | 0.3887 |
+| presidio-asal | MY_NRIC | 0.0 | 0.0 | 0.0 | 0.0 |
+| presidio-asal | MY_PHONE | 0.4633 | 0.6863 | 0.5532 | 0.5682 |
+| presidio-asal | MY_SSM | 0.0 | 0.0 | 0.0 | 0.0 |
+| llm:anthropic/claude-haiku-5-5 | * | 0.7512 | 0.9045 | 0.8207 | 0.8281 |
+| llm:anthropic/claude-haiku-5-5 | MY_NRIC | 0.6763 | 0.9095 | 0.7757 | 0.791 |
+| llm:anthropic/claude-haiku-5-5 | MY_PHONE | 0.7872 | 0.9193 | 0.8481 | 0.8525 |
+| llm:anthropic/claude-haiku-5-5 | MY_SSM | 0.8194 | 0.8613 | 0.8399 | 0.8399 |

@@ -52,6 +52,9 @@ def ramal(sistem: str, dokumen: list[dict]) -> list[list[dict]]:
     if sistem == "mypii-v1":   # PRA-DAFTAR §7-v2: kod + config tag v1 dari git worktree sementara
         from mypii.nilai import v1_worktree
         return v1_worktree.ramal(dokumen)
+    if sistem in konfig.utama()["nilai"].get("sistem_beku", {}):   # PELAN-V21: versi beku lain (mypii-v2 = 1.0.x), corak sama
+        from mypii.nilai import v1_worktree
+        return v1_worktree.ramal_tag(dokumen, v1_worktree.tag_sistem(sistem))
     if sistem == "pii-guard":
         return garis.ramal_pii_guard(dokumen)
     if sistem.startswith("llm:"):

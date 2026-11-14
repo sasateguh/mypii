@@ -71,8 +71,11 @@ jana_v3:
   templat: [data/templat_v3]        # P5 (5 Nov): templat LLM keluarga A (Nemotron); P3 memakai data/templat sementara
   templat_ujian3: data/templat_ujian3
   nama_ujian3: data/nama_ujian3.yaml
-  bilangan: {latih3: 3000, dev3: 1000, ujian3: 1000}
-  benih_tambah: {latih3: 3, ujian3: 4}   # jana.benih + 3 (latih3/dev3), + 4 (ujian3)
+  # PELAN-V21: ujian4 = protokol ujian3 + penjana keluarga baharu, genre + nama baharu, benih + 5 (pindaan PRA-DAFTAR "MyPII v2.1")
+  templat_ujian4: data/templat_ujian4
+  nama_ujian4: data/nama_ujian4.yaml
+  bilangan: {latih3: 3000, dev3: 1000, ujian3: 1000, ujian4: 1000}
+  benih_tambah: {latih3: 3, ujian3: 4, ujian4: 5}   # jana.benih + 3 (latih3/dev3), + 4 (ujian3), + 5 (ujian4)
   bahasa: {ms: 0.4, en: 0.3, manglish: 0.3}
   nisbah_negatif_keras: 0.25
   ssm_tahun: [1960, 2026]
@@ -90,12 +93,17 @@ nilai:
   entiti: [MY_NRIC, MY_SSM, MY_PHONE]
   ambang_skor: 0.4               # hasil Presidio di bawah ambang ini diabaikan
   v1: {tag: mypii-v1-muktamad}   # sistem `mypii-v1` (§7-v2): kod + config tag ini dari git worktree sementara
-  split_dikunci: [ujian, ujian2, ujian3]  # perlu --benarkan-ujian (manusia sahaja, sekali sebelum terbit)
+  # PELAN-V21: sistem beku lain → tag (corak sama, `v1_worktree.ramal_tag`). mypii-v2-beku = pengecam 1.0.2 (sama dengan beku 7ca74ab)
+  sistem_beku: {mypii-v2: mypii-v2-beku}
+  split_dikunci: [ujian, ujian2, ujian3, ujian4]  # perlu --benarkan-ujian (sekali, skrip satu-tembak)
+  # PELAN-V21: split dikunci yang BELUM dibuka — `scripts/luar_modal.py` (model luar di Modal) juga menuntut --benarkan-ujian + pra-daftar
+  split_belum_dibuka: [ujian4]
   # PELAN-V2 P4: laluan split v3 (konfig.fail_split / fail_cincangan). Split lain = data/bench/<split>.jsonl + data/bench/CINCANGAN.json (v1)
   split_fail:
     latih3: {fail: data/bench_v3/latih3.jsonl, cincangan: data/bench_v3/CINCANGAN3.json}
     dev3: {fail: data/bench_v3/dev3.jsonl, cincangan: data/bench_v3/CINCANGAN3.json}
     ujian3: {fail: data/bench_v3/ujian3.jsonl, cincangan: data/bench_v3/KUNCI3.json}
+    ujian4: {fail: data/bench_v3/ujian4.jsonl, cincangan: data/bench_v3/KUNCI4.json}   # PELAN-V21
   peta_garis_dasar:              # HANYA untuk presidio-asal: entiti generik → entiti MyPII (garis dasar adil)
     PHONE_NUMBER: MY_PHONE
   iterasi:                       # PELAN-C C2a (ADR-006 §Iterasi): `make nilai STATUS=… KETERANGAN="…"` → satu baris TSV, tambah-sahaja
@@ -156,6 +164,8 @@ nilai:
       # + pindaan kuasa P13 — ujian3 dibuka hanya selepas pengecam v2 dibekukan; PRA-DAFTAR §7-v2)
       pindaan_split:
         ujian3: {corak: '^### \d{4}-\d{2}-\d{2} .*MyPII v2', min: 2}
+        # PELAN-V21: ujian4 menuntut pindaan "MyPII v2.1" (v2.1 dibekukan + protokol ujian4 + H5) di HEAD SEBELUM dibaca
+        ujian4: {corak: '^### \d{4}-\d{2}-\d{2} .*MyPII v2\.1', min: 1}
     v2:                          # PRA-DAFTAR pindaan 2026-11-04 "MyPII v2": H4a/H4b atas split v3 (statistik_v2.py); lain = deskriptif
       split: [dev3, ujian3]
       alfa: 0.05
@@ -165,6 +175,23 @@ nilai:
       hipotesis:
         H4a: {sistem: "llm:anthropic/claude-haiku-5-5", margin: 0.01}   # bukan-inferioriti, δ = 0.01; p rawak deskriptif
         H4b: {sistem: mypii-v1, margin: 0, rawak: true}                 # v2 > v1; p rawak × k juga syarat
+    v21:                         # PELAN-V21 (pindaan PRA-DAFTAR "MyPII v2.1"): H5 atas ujian4; dev3 = kuasa/MDE sahaja (statistik_v21.py)
+      split: [dev3, ujian4]
+      keluar: hasil/v21          # ramalan harness v2.1 + statistik; hasil v1/v2 lama dalam hasil/ TIDAK disentuh
+      # belanja Anthropic TIDAK dikomit (cache split ujian tidak dikomit): ujian v1 3.399903 + ujian3 0.09672 (arkib ujian3 RINGKASAN
+      # lejar_usd_selepas 3.485583 − lejar dikomit 3.388863) — pindaan PRA-DAFTAR 2026-11-14 (b) §Kos
+      belanja_luar_usd: 3.496623
+      margin_kos: 1.5            # baki ≥ anggaran Haiku ujian4 × ini (scripts/ujian4-muktamad.sh)
+      alfa: 0.05
+      kuasa: 0.80
+      beza_kecil: 0.02
+      hipotesis:                 # sistem `luar:<model>` = ramalan hasil/luar/<split>-<model>.jsonl (scripts/luar_modal.py)
+        H5a: {sistem: mypii-v2, margin: 0.01, metrik: jenis}                          # v2.1 ≥ v2 (1.0.2) − δ
+        H5b: {sistem: "llm:anthropic/claude-haiku-5-5", margin: 0.01, metrik: jenis}  # v2.1 ≥ Haiku − δ (replikasi H4a)
+        H5c: {sistem: "luar:meddies", margin: 0, metrik: u1, rawak: true}             # v2.1 > Meddies PII v2 (U1)
+        H5d: {sistem: "luar:gliner", margin: 0, metrik: u1, rawak: true}              # v2.1 > GLiNER multi PII v1 (U1)
+      susulan:                   # urutan tetap: diuji pada α penuh HANYA bila induk disokong (tiada penalti berganda)
+        H5a+: {induk: H5a, sistem: mypii-v2, margin: 0, metrik: jenis, rawak: true}  # v2.1 > v2
 
 # 9router (PELAN-B). Kunci dari env (nama di bawah), TIDAK dalam repo. Semua arahan dalam mesej `user` (cbai/* membuang role:system).
 llm:
@@ -188,6 +215,15 @@ llm:
     latih3: {model: rv/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-NVFP4, sandaran: [], suhu: 0.8}
     # Pindaan 2026-11-05 (c), ADR-020 (keputusan pemilik): MiniMax/Grok tidak boleh dipanggil → Mistral, sandaran Claude Sonnet (API terus).
     ujian3: {model: cf/@cf/mistralai/mistral-small-3.1-24b-instruct, sandaran: [anthropic/claude-sonnet-5-5], suhu: 0.8}
+    # PELAN-V21 (pindaan "MyPII v2.1"): keluarga yang tidak pernah menghasilkan data/keputusan; dihos sendiri di Modal (Apache-2.0 / MIT,
+    # tiada terma API atas output). Calon pertama lulus probe dipakai; sandaran hanya bila calon pertama gagal probe.
+    ujian4: {model: modal/Qwen/Qwen3.8-27B-FP8, sandaran: [modal/aisingapore/Apertus-SEA-LION-v4-8B-IT], suhu: 0.8}
+  modal:                         # PELAN-V21: pelayan vLLM sementara `scripts/penjana_modal.py` (revisi dipin di sana); URL + kunci dari env
+    url_env: {modal/Qwen/Qwen3.8-27B-FP8: MYPII_MODAL_URL_QWEN, modal/aisingapore/Apertus-SEA-LION-v4-8B-IT: MYPII_MODAL_URL_SEALION}
+    env_kunci: MYPII_MODAL_KUNCI
+    max_tokens: 4096             # sama dengan llm.max_tokens (9router)
+    had_masa_saat: 900
+    badan: {chat_template_kwargs: {enable_thinking: false}}   # mod bukan-pemikiran (kad Qwen3.8); kunci lain diabaikan templat
 
 # Garis dasar pesaing (PELAN-B B3, ADR-011) — sistem harness `pii-guard` dan `llm:<model>`. Bukan sebahagian gelung pengecam.
 garis_dasar:
@@ -359,6 +395,32 @@ templat_llm:
         persatuan_penduduk: "residents' association or society meeting minutes, committee list, levy notice"
         latihan_kemahiran: "vocational / skills training course enrolment and certificate collection"
         lori_pindah: "house-moving lorry booking, mover's inventory list and delivery schedule"
+    ujian4:                      # PELAN-V21: protokol ujian3 (v3, kiraan, pengesah) + penjana keluarga baharu + genre/nama baharu
+      v3: true
+      folder: data/templat_ujian4
+      fail_nama: data/nama_ujian4.yaml
+      # pindaan 2026-11-14 (c) (selepas SATU kegagalan ambang; tiada fail ditulis): 6 panggilan nama (preseden ujian3 (d)) dan nisbah
+      # templat negatif ≥ 0.20 (asal 0.25: en 0.2308, manglish 0.2239). Prompt TIDAK berubah; bahagian dokumen negatif keras = 0.25
+      # tetap (`jana_v3.nisbah_negatif_keras`) — ambang templat hanya pengawal kepelbagaian templat negatif.
+      panggilan_nama: 6
+      min_nisbah_negatif: 0.20
+      min_templat: 150
+      min_kategori: 10
+      serentak: 8                # pelayan vLLM sendiri; tidak mengubah prompt/output
+      elak_folder: [data/templat, data/templat_ujian, data/templat_ujian2, data/templat_v3, data/templat_ujian3]
+      genre_unik_dari: [data/templat, data/templat_ujian, data/templat_ujian2, data/templat_v3, data/templat_ujian3]
+      elak_nama: [data/nama_tambahan.yaml, data/nama_ujian2.yaml, data/nama_ujian3.yaml]   # + data/nama.yaml (selalu)
+      genre:                     # 10; kunci + makna berbeza daripada 57 genre lama (kunci diperiksa kod sebelum LLM dipanggil)
+        jemaah_umrah: "umrah or hajj pilgrim registration, group manifest and travel-document checklist from a travel agency"
+        rider_ehailing: "e-hailing driver or food-delivery rider onboarding, document submission and support chat"
+        amaran_penipuan: "scam or phishing SMS / WhatsApp message impersonating a bank, courier or agency, and the victim's forwarded report"
+        mangsa_banjir: "flood relief: evacuation centre victim registration list, aid distribution and volunteer roster"
+        hospital_wad: "hospital admission, ward transfer or discharge summary excerpt and visitor pass"
+        biasiswa: "scholarship or study-sponsorship application, sponsor follow-up and bond agreement excerpt"
+        beli_rumah: "property purchase: booking form, sale and purchase agreement excerpt, developer progress-billing notice"
+        khairat_kematian: "death benefit (khairat) society claim, funeral arrangement notice and next-of-kin details"
+        pekerja_asing: "foreign worker permit renewal, employer levy payment and recruitment agent correspondence"
+        pendaftaran_nikah: "marriage registration at the religious office: course certificate, application form and witness details"
   bahasa:
     ms: "Bahasa Melayu (standard Malay as written in Malaysia)"
     en: "Malaysian English (write the whole document in English; Malay only for local terms such as place or form names)"
@@ -465,9 +527,14 @@ templat_llm:
     rv/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-NVFP4: nvidia   # pindaan 2026-11-05 (keluarga A ganti)
     cf/@cf/mistralai/mistral-small-3.1-24b-instruct: mistral   # pindaan 2026-11-05 (c): keluarga B ujian3
     anthropic/claude-sonnet-5-5: anthropic                     # pindaan 2026-11-05 (c): sandaran B ujian3
+    modal/Qwen/Qwen3.8-27B-FP8: qwen                           # PELAN-V21: penjana ujian4 (Apache-2.0, dihos sendiri)
+    modal/aisingapore/Apertus-SEA-LION-v4-8B-IT: apertus      # PELAN-V21: sandaran ujian4 (MIT)
   keluarga_larangan: [kimi, gemini, claude, glm, llama, deepseek, gpt, qwen, mistral]   # penjana / garis dasar lepas (subrentetan model atau keluarga)
   keluarga_larangan_kecuali:    # pindaan 2026-11-05 (c): pengecualian larangan HANYA untuk sasaran ini (keputusan pemilik, ADR-020)
     ujian3: [mistral, anthropic]
+    # PELAN-V21 (pindaan "MyPII v2.1"): `qwen` dalam larangan hanya kerana calon eksplorasi `qd/qmodel` (3 Nov) — ia gugur probe dengan
+    # HTTPError, tiada satu jawapan Qwen pernah masuk mana-mana data atau keputusan kajian ini.
+    ujian4: [qwen]
   penjana_larangan_tepat: [anthropic/claude-haiku-5-5]   # pembanding H4a — tidak boleh menjadi penjana mana-mana sasaran
   anthropic_max_tokens: 4096     # penjanaan templat/nama via API Anthropic (senarai JSON > jawapan pengesan 1024)
   probe:                         # `--probe`: format sahaja, calon ikut susunan llm.penjana.<sasaran>; pertama lulus = SATU-SATUNYA model jana
@@ -602,8 +669,45 @@ konteks:
     ngram_aksara: 3
     bentuk_maks: 4
   gabung:                        # P11: cara + ambang ditala atas dev3 (dibenarkan — set penalaan)
-    cara: ganti                  # tapis = p < ambang → skor_negatif; ganti = p ≥ ambang → ≥ skor_min, lain skor_negatif
-    ambang: {MY_NRIC: 0.5, MY_SSM: 0.5, MY_PHONE: 0.5}
+    # tapis = p < ambang → skor_negatif; ganti (v2 = 1.0.x; UNDUR v2.1 = tukar ke ganti) = p ≥ ambang → ≥ skor_min, lain skor_negatif;
+    # frasa (v2.1, PELAN-V21; ditala dev + dev3) = frasa didahulukan, pengelas memutuskan baki (konteks._simpan_frasa)
+    cara: frasa
+    ambang: {MY_NRIC: 0.5, MY_SSM: 0.5, MY_PHONE: 0.5}   # tiada frasa (frasa), atau semua calon (ganti/tapis)
+    ambang_positif: 0.05         # frasa: frasa positif terdekat → simpan kecuali p < ini
+    ambang_negatif: 0.9          # frasa: frasa negatif lebih dekat → simpan hanya calon disahkan struktur dengan p ≥ ini
+    ambang_corak: {"NRIC (dashed)": 0.3}   # frasa, tiada frasa: ambang ikut nama corak (MyKad bersempang = bentuk paling khusus)
+    tanpa_sah_perlu_frasa: true  # frasa: calon tanpa pengesahan struktur (SSM format lama) wajib frasa positif, seperti v1
+
+# PELAN-V21 P10: laporan `make bandingan-v21` → docs/BANDINGAN-V21.md (mypii/nilai/bandingan_v21.py). Had = pindaan 2026-11-14 (b)/(c).
+bandingan_v21:
+  laporan: docs/BANDINGAN-V21.md
+  arkib_ujian4: hasil/arkib/ujian4-20261114T145032Z   # salinan arkib larian SEKALI dalam repo (MANIFEST.sha256 disahkan 14 Nov)
+  sistem: [mypii, mypii-v2, llm:anthropic/claude-haiku-5-5, mypii-v1, presidio-asal]
+  luar: [meddies, gliner]
+  haiku: llm:anthropic/claude-haiku-5-5
+  entiti: [MY_NRIC, MY_SSM, MY_PHONE]
+  bahasa: [ms, en, manglish]
+  nama:
+    mypii: MyPII v2.1
+    mypii-v2: MyPII v2 (1.0.2)
+    mypii-v1: MyPII v1 (tag)
+    presidio-asal: Presidio asal
+    llm:anthropic/claude-haiku-5-5: Claude Haiku 5.5
+    meddies: Meddies PII v2
+    gliner: GLiNER multi PII v1
+    luar:meddies: Meddies PII v2
+    luar:gliner: GLiNER multi PII v1
+  had:
+    - "Data sintetik: nilai (termasuk kategori b–e) dijana `nilai_v3.py` yang ditulis pembina yang sama dengan pengecam, jadi ujian4 mengukur liputan bentuk yang dijangka, bukan realisme teks sebenar."
+    - "v2.1 dibina selepas ujian, ujian2 dan ujian3 dibuka (pembaikan dimotivasikan red team demo + split dev); ujian4 dijana selepas pengecam dibekukan dan pra-daftar dikomit, jadi hanya ujian4 yang bersih untuk v2.1."
+    - "Satu penjana ujian4 (Qwen3.8-27B); bersama ujian3 (Claude Sonnet) = dua keluarga ujian v3 sahaja."
+    - "Pengelas konteks dilatih atas gaya penjana latih3 (Nemotron) sahaja."
+    - "Ambang nisbah templat negatif ujian4 = 0.20 (pindaan c, selepas satu kegagalan ambang); bahagian dokumen negatif keras tetap 0.25, tetapi kepelbagaian templat negatif lebih rendah daripada ujian3."
+    - "Label telefon = julat sah libphonenumber (ADR-002), jadi recall telefon terlebih optimis."
+    - "Model luar dinilai dengan label/ambang pengeluar tanpa penalaan; Meddies CC BY-NC 4.0 (penyelidikan sahaja); PII Engineer v2.1 tidak dinilai (pelayan rasmi HTTP 500)."
+    - "Satu larian Haiku (tidak deterministik); jawapan rosak dikira sebagai tiada ramalan."
+    - "Pembantu yang menulis kod ialah keluarga Claude; penjana ujian4 bukan Claude, jadi bias keluarga ujian3 tiada untuk H5b."
+  ringkasan_en: "On the sealed ujian4 split (1000 synthetic documents; templates and names written by Qwen3.8-27B, a model family that produced no other data or result in this study; opened once after the recogniser was frozen and the hypotheses registered), MyPII v2.1 reaches exact micro F1 {v21}, versus {v2} for MyPII v2 (1.0.2) and {haiku} for Claude Haiku 5.5. Pre-registered H5 (Holm k = 4): v2.1 − v2 = {da:+} (non-inferiority, margin 0.01), v2.1 − Haiku = {db:+} (non-inferiority, margin 0.01), U1 v2.1 − Meddies PII v2 = {dc:+}, U1 v2.1 − GLiNER multi PII v1 = {dd:+} (superiority). Supported: {sok}. All data are synthetic; see the limitations above."
 
 # PELAN-V2 P16: laporan `make bandingan-v2` → docs/BANDINGAN-V2.md (mypii/nilai/bandingan_v2.py). Teks had = PRA-DAFTAR v2 + pindaan 5 Nov.
 bandingan_v2:

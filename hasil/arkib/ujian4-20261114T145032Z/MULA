@@ -1,0 +1,9 @@
+sha: 2b306b445f1991766fcd74970ee3bc991674fa06
+pelaksana: sesi interaktif 14 Nov 2026 atas arahan pemilik «buat yg terbaik, pelan → red team → bina» (PELAN-V21)
+uv: uv 0.12.5 (x86_64-unknown-linux-gnu)
+python: Python 3.12.3
+perintah: uv run --group nilai --group garis python -m mypii.nilai.harness --split ujian4 --sistem mypii mypii-v2 mypii-v1 presidio-asal llm:anthropic/claude-haiku-5-5 --keluar hasil/v21 --benarkan-ujian
+perintah: uv run --with modal==1.6.3 modal run scripts/luar_modal.py::main --model meddies --split ujian4 --benarkan-ujian
+perintah: uv run --with modal==1.6.3 modal run scripts/luar_modal.py::main --model gliner --split ujian4 --benarkan-ujian
+perintah: uv run python -m mypii.nilai.statistik_v21 --split ujian4 --benarkan-ujian
+tarikh_utc: 2026-11-14T14:50:33Z

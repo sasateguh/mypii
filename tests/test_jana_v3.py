@@ -130,14 +130,17 @@ def test_jana_v3_saiz_config_ujian3_hanya_bila_templat_wujud_dan_boleh_diulang(v
     """P3: tanpa templat ujian3 → latih3/dev3 sahaja. P6 (5 Nov): templat + nama ujian3 dikomit → ujian3 juga, KUNCI3 berasingan
     daripada CINCANGAN3. Kandungan ujian3 TIDAK dibaca (kiraan + kewujudan fail sahaja)."""
     keluar, r = v3
-    ada3 = bool(jana._templat(jana.AKAR / K3["templat_ujian3"])) and (jana.AKAR / K3["nama_ujian3"]).exists()
-    jangka = {"latih3": K3["bilangan"]["latih3"], "dev3": K3["bilangan"]["dev3"]} | ({"ujian3": K3["bilangan"]["ujian3"]} if ada3 else {})
+    # PELAN-V21: ujian4 (protokol sama, benih + 5) dijana bila templat + nama ujian4 wujud; KUNCI4 berasingan
+    ada = {u: bool(jana._templat(jana.AKAR / K3[f"templat_{u}"])) and (jana.AKAR / K3[f"nama_{u}"]).exists() for u in ("ujian3", "ujian4")}
+    jangka = {"latih3": K3["bilangan"]["latih3"], "dev3": K3["bilangan"]["dev3"]} | {u: K3["bilangan"][u] for u, a in ada.items() if a}
     assert {s: r[s]["dokumen"] for s in r} == jangka
     assert json.loads((keluar / "CINCANGAN3.json").read_text()) == {s: r[s] for s in ("latih3", "dev3")}
-    assert (keluar / "KUNCI3.json").exists() == ada3 == (keluar / "ujian3.jsonl").exists()
-    if ada3:
-        assert json.loads((keluar / "KUNCI3.json").read_text()) == {"ujian3": r["ujian3"]}
-        assert json.loads((jana.AKAR / "data/bench_v3/KUNCI3.json").read_text()) == {"ujian3": r["ujian3"]}   # repo = jana semula
+    for u, a in ada.items():
+        kunci = f"KUNCI{u.removeprefix('ujian')}.json"
+        assert (keluar / kunci).exists() == a == (keluar / f"{u}.jsonl").exists()
+        if a:
+            assert json.loads((keluar / kunci).read_text()) == {u: r[u]}
+            assert json.loads((jana.AKAR / "data/bench_v3" / kunci).read_text()) == {u: r[u]}   # repo = jana semula
     assert jana.jana_v3(tmp_path) == r
 
 

@@ -1,0 +1,2054 @@
+{
+  "latih": {
+    "farmasi": {
+      "dok": 188,
+      "emas": 134,
+      "ramal": 131,
+      "tepat": 124,
+      "ralat": {
+        "fn:MY_NRIC": 4,
+        "fp:MY_SSM": 6,
+        "fp:MY_NRIC": 1,
+        "fn:MY_SSM": 6
+      },
+      "contoh": [
+        {
+          "id": "mypii-01099",
+          "teks": "Hai uncle Dayang a/p Subramaniam, your ubat darah tinggi is ready for pickup kat Intan Gemilang Logistics PLT branch Nilai. Please confirm IC 060721106045 masa collect ye. If delivery, call us at 016-407 8833. Tq!",
+          "jenis": "fn",
+          "entiti": "MY_NRIC",
+          "mula": 142,
+          "tamat": 154,
+          "nilai": "060721106045"
+        },
+        {
+          "id": "mypii-03565",
+          "teks": "Refill ubat order ref: 12/03/2021 476890\nFarmasi: Gemilang Sejahtera Konsortium Sdn Bhd\nMember Policy: 201901582616\nItem: Paracetamol 500mg x 2 (193985-C)\nPaid via online transfer to acc 9078715971576\nTimestamp: 20042025-621. Pls keep this slip ya.",
+          "jenis": "fp",
+          "entiti": "MY_SSM",
+          "mula": 103,
+          "tamat": 115,
+          "nilai": "201901582616"
+        },
+        {
+          "id": "mypii-02941",
+          "teks": "Pesakit: Tay Si Ying\nNo. K/P: 691010 25 3385\nKlinik Panel: Puncak Emas Dagangan Sdn Bhd, Balik Pulau\nUbat: Metformin 500mg, Amlodipine 10mg (bekalan 30 hari).\nSila hubungi 016 3214555 jika terdapat sebarang pertanyaan berkaitan dos ubat.",
+          "jenis": "fn",
+          "entiti": "MY_NRIC",
+          "mula": 30,
+          "tamat": 44,
+          "nilai": "691010 25 3385"
+        }
+      ]
+    },
+    "keahlian": {
+      "dok": 179,
+      "emas": 147,
+      "ramal": 143,
+      "tepat": 143,
+      "ralat": {
+        "fn:MY_SSM": 3,
+        "fn:MY_NRIC": 1
+      },
+      "contoh": [
+        {
+          "id": "mypii-00607",
+          "teks": "Borang Permohonan Keahlian Koperasi Bayu Perkasa Logistik Enterprise:\nNama Penuh: Yusrina Zarina binti Naim Affan\nNo. Kad Pengenalan: 650323904420\nMajikan: Bintang Unggul Niaga Enterprise (No SSM: 198306345363)\nFee pendaftaran RM 50 dah tolak dari akaun 48708868117708. Tarikh hantar: 26 Jan 2026.",
+          "jenis": "fn",
+          "entiti": "MY_SSM",
+          "mula": 197,
+          "tamat": 209,
+          "nilai": "198306345363"
+        },
+        {
+          "id": "mypii-01895",
+          "teks": "Borang Pendaftaran Kelab Sukan Ipoh\nPemohon: Nurul Tan\nNo. K/P: 950403345194\nNo. Ahli Baharu: 550610591696\nYuran keahlian RM 30 telah dimasukkan ke akaun 5783 0232 9273 27 pada 20-03-2025.",
+          "jenis": "fn",
+          "entiti": "MY_NRIC",
+          "mula": 64,
+          "tamat": 76,
+          "nilai": "950403345194"
+        },
+        {
+          "id": "mypii-00195",
+          "teks": "Corporate Gym Registration under Lestari Hijau Solutions Enterprise (SSM: 197405968840)\nEmployee Name: Siti a/l Krishnan\nNRIC: 600619535392\nBranch: Taiping\nPolicy No: 465798369212\nPlease proceed to biometric registration.",
+          "jenis": "fn",
+          "entiti": "MY_SSM",
+          "mula": 74,
+          "tamat": 86,
+          "nilai": "197405968840"
+        }
+      ]
+    },
+    "pesanan_online": {
+      "dok": 188,
+      "emas": 132,
+      "ramal": 142,
+      "tepat": 124,
+      "ralat": {
+        "fp:MY_SSM": 18,
+        "fn:MY_SSM": 8
+      },
+      "contoh": [
+        {
+          "id": "mypii-03530",
+          "teks": "Order confirmed bro! Tracking no 202105090652 via Eko Saujana Agro PLT. Item (62615-K) already shipped out on 202604200089. Any issue with parcel delivery to Kudat, please quote ref 28/11/2021 657718 k.",
+          "jenis": "fp",
+          "entiti": "MY_SSM",
+          "mula": 78,
+          "tamat": 85,
+          "nilai": "62615-K"
+        },
+        {
+          "id": "mypii-02512",
+          "teks": "Dear Tan Wong, thank you for purchasing from Delima Trading (SSM: 196604901728). Your invoice 202005267784 is ready. For order status or address updates to Kota Kinabalu, please call customer support at 019 864 9102.",
+          "jenis": "fn",
+          "entiti": "MY_SSM",
+          "mula": 66,
+          "tamat": 78,
+          "nilai": "196604901728"
+        },
+        {
+          "id": "mypii-03162",
+          "teks": "Hello Vantage Horizon Agro Enterprise, parcel tracking 202006984620 still stuck at hub since 202606304353. Rider try call number 019-54333 but line cut off. If barang pecah, please refund RM 85 to acc 871226 12 4304 ref INV201547966961.",
+          "jenis": "fp",
+          "entiti": "MY_SSM",
+          "mula": 93,
+          "tamat": 105,
+          "nilai": "202606304353"
+        }
+      ]
+    },
+    "whatsapp_kumpulan": {
+      "dok": 58,
+      "emas": 25,
+      "ramal": 16,
+      "tepat": 16,
+      "ralat": {
+        "fn:MY_NRIC": 9
+      },
+      "contoh": [
+        {
+          "id": "mypii-03910",
+          "teks": "[29/04/2025] Cikgu Ana: ibu bapa yg belum hantar no kp anak, sila pm sy. Contoh: Rajesh Tan - 630909 03 2006",
+          "jenis": "fn",
+          "entiti": "MY_NRIC",
+          "mula": 94,
+          "tamat": 108,
+          "nilai": "630909 03 2006"
+        },
+        {
+          "id": "mypii-01253",
+          "teks": "[07-01-2026] Cikgu Ana: ibu bapa yg belum hantar no kp anak, sila pm sy. Contoh: Arjun Tan - 790906 68 5546",
+          "jenis": "fn",
+          "entiti": "MY_NRIC",
+          "mula": 93,
+          "tamat": 107,
+          "nilai": "790906 68 5546"
+        },
+        {
+          "id": "mypii-03966",
+          "teks": "[05-01-2026] Cikgu Ana: ibu bapa yg belum hantar no kp anak, sila pm sy. Contoh: Yusrina Zarina binti Affan Hanif - 820216 30 3352",
+          "jenis": "fn",
+          "entiti": "MY_NRIC",
+          "mula": 116,
+          "tamat": 130,
+          "nilai": "820216 30 3352"
+        }
+      ]
+    },
+    "whatsapp": {
+      "dok": 101,
+      "emas": 85,
+      "ramal": 85,
+      "tepat": 85,
+      "ralat": {},
+      "contoh": []
+    },
+    "penyata_bank": {
+      "dok": 106,
+      "emas": 90,
+      "ramal": 86,
+      "tepat": 86,
+      "ralat": {
+        "fn:MY_SSM": 4
+      },
+      "contoh": [
+        {
+          "id": "mypii-03323",
+          "teks": "Payment Advice: Instant Transfer to Saujana Emas Kejuruteraan Berhad (SSM: 199505083649)\nBeneficiary Acc: 870508895148\nPayment Details: Invoice settlement 202002801745\nStatus: Successful on 9 Mar 2026 21072025-791",
+          "jenis": "fn",
+          "entiti": "MY_SSM",
+          "mula": 75,
+          "tamat": 87,
+          "nilai": "199505083649"
+        },
+        {
+          "id": "mypii-03415",
+          "teks": "Payment Advice: Instant Transfer to Delima Trading (SSM: 200405880797)\nBeneficiary Acc: 680111 41 4969\nPayment Details: Invoice settlement 527393713966\nStatus: Successful on 12 Jun 2026 251104-330-3441",
+          "jenis": "fn",
+          "entiti": "MY_SSM",
+          "mula": 57,
+          "tamat": 69,
+          "nilai": "200405880797"
+        },
+        {
+          "id": "mypii-01067",
+          "teks": "E-Wallet Payment Receipt\nPaid to: Sinar Timur Enterprise (200206668193)\nLoc: Arau\nTarikh: 7 Jan 2025 jam 260711-456-6998\nInv: 773174201051\nRemark: Beli brg dapur siap delivery. Tq boss.",
+          "jenis": "fn",
+          "entiti": "MY_SSM",
+          "mula": 58,
+          "tamat": 70,
+          "nilai": "200206668193"
+        }
+      ]
+    },
+    "whatsapp_group": {
+      "dok": 92,
+      "emas": 41,
+      "ramal": 31,
+      "tepat": 31,
+      "ralat": {
+        "fn:MY_NRIC": 10
+      },
+      "contoh": [
+        {
+          "id": "mypii-01353",
+          "teks": "[16-01-2026] Admin: parents who haven't sent the child's IC, pm me. Format: Masyitah Najwa binti Naim Affan - 410815325872",
+          "jenis": "fn",
+          "entiti": "MY_NRIC",
+          "mula": 110,
+          "tamat": 122,
+          "nilai": "410815325872"
+        },
+        {
+          "id": "mypii-00490",
+          "teks": "[12-10-2025] Admin: parents who haven't sent the child's IC, pm me. Format: Sarah Syazana binti Farhan Asyraf - 580420 75 1145",
+          "jenis": "fn",
+          "entiti": "MY_NRIC",
+          "mula": 112,
+          "tamat": 126,
+          "nilai": "580420 75 1145"
+        },
+        {
+          "id": "mypii-01880",
+          "teks": "[20 May 2026] Admin: parents who haven't sent the child's IC, pm me. Format: Zulaikha bin Hassan - 491107 11 5665",
+          "jenis": "fn",
+          "entiti": "MY_NRIC",
+          "mula": 99,
+          "tamat": 113,
+          "nilai": "491107 11 5665"
+        }
+      ]
+    },
+    "ocr_noisy": {
+      "dok": 25,
+      "emas": 22,
+      "ramal": 17,
+      "tepat": 17,
+      "ralat": {
+        "fn:MY_NRIC": 5
+      },
+      "contoh": [
+        {
+          "id": "mypii-01090",
+          "teks": "ID CARD N0: 770818045182  |  M0BILE: 019-997 3899",
+          "jenis": "fn",
+          "entiti": "MY_NRIC",
+          "mula": 12,
+          "tamat": 24,
+          "nilai": "770818045182"
+        },
+        {
+          "id": "mypii-02773",
+          "teks": "ID CARD N0: 930117485052  |  M0BILE: 03-8673 6558",
+          "jenis": "fn",
+          "entiti": "MY_NRIC",
+          "mula": 12,
+          "tamat": 24,
+          "nilai": "930117485052"
+        },
+        {
+          "id": "mypii-02927",
+          "teks": "ID CARD N0: 890504350793  |  M0BILE: 016-865 8751",
+          "jenis": "fn",
+          "entiti": "MY_NRIC",
+          "mula": 12,
+          "tamat": 24,
+          "nilai": "890504350793"
+        }
+      ]
+    },
+    "borang": {
+      "dok": 56,
+      "emas": 71,
+      "ramal": 64,
+      "tepat": 64,
+      "ralat": {
+        "fn:MY_SSM": 7
+      },
+      "contoh": [
+        {
+          "id": "mypii-03583",
+          "teks": "Nama: Syafiqah anak Jalong | No. KP: 910725 12 2808 | Tel: 014922 1264 | Majikan: Serantau Murni Hardware Berhad (200906003942)",
+          "jenis": "fn",
+          "entiti": "MY_SSM",
+          "mula": 114,
+          "tamat": 126,
+          "nilai": "200906003942"
+        },
+        {
+          "id": "mypii-02425",
+          "teks": "Name: Hafiz Ng | IC No: 411127-34-5155 | Mobile: 018 338 7541 | Employer: Wawasan Baiduri Konsultansi PLT (200904697352)",
+          "jenis": "fn",
+          "entiti": "MY_SSM",
+          "mula": 107,
+          "tamat": 119,
+          "nilai": "200904697352"
+        },
+        {
+          "id": "mypii-02598",
+          "teks": "Name: Michael bin Ahmad | IC No: 110729 63 0399 | Mobile: 06-763 9415 | Employer: Harmoni Flora Landskap PLT (196705863531)",
+          "jenis": "fn",
+          "entiti": "MY_SSM",
+          "mula": 110,
+          "tamat": 122,
+          "nilai": "196705863531"
+        }
+      ]
+    },
+    "derma_zakat": {
+      "dok": 189,
+      "emas": 131,
+      "ramal": 125,
+      "tepat": 123,
+      "ralat": {
+        "fp:MY_NRIC": 2,
+        "fn:MY_SSM": 5,
+        "fn:MY_NRIC": 3
+      },
+      "contoh": [
+        {
+          "id": "mypii-01019",
+          "teks": "E-Zakat Portal Receipt\nReceipt Number: 990601104107\nCounter Ref: 870918-17-7134\nPayment Mode: Direct Debit (990512 43 7084)\nPackage Code: Item (168583-E)\nTransaction Time: 202601289484\nHelpline: 010-58946 (Office hours only)",
+          "jenis": "fp",
+          "entiti": "MY_NRIC",
+          "mula": 108,
+          "tamat": 122,
+          "nilai": "990512 43 7084"
+        },
+        {
+          "id": "mypii-00743",
+          "teks": "Borang Tajaan Iftar Kota Bharu\nNama Penderma: Hii Sin Rou\nSyarikat: Bayu Samudera Trading (1350743-K)\nWhatsApp / Phone: +60 17536 4773\nPakej: 50 pek makanan\nTarikh: 26 Dec 2025\nKite dah verify, tqvm sis!",
+          "jenis": "fn",
+          "entiti": "MY_SSM",
+          "mula": 91,
+          "tamat": 100,
+          "nilai": "1350743-K"
+        },
+        {
+          "id": "mypii-00167",
+          "teks": "Resit Rasmi Zakat Pendapatan\nPembayar: Hanif Aniq bin Zakaria Izzat\nNo K/P: 560522986923\nTarikh: 11 Jun 2025\nNo Resit: 202303830273\nBoleh guna for income tax relief ya. Terima kasih donasi kat tabung Kuala Selangor!",
+          "jenis": "fn",
+          "entiti": "MY_NRIC",
+          "mula": 76,
+          "tamat": 88,
+          "nilai": "560522986923"
+        }
+      ]
+    },
+    "pembekal_b2b": {
+      "dok": 187,
+      "emas": 160,
+      "ramal": 155,
+      "tepat": 146,
+      "ralat": {
+        "fp:MY_SSM": 9,
+        "fn:MY_SSM": 14
+      },
+      "contoh": [
+        {
+          "id": "mypii-03817",
+          "teks": "SEBUTHARGA RASMI PERALATAN IT\nNo. Sebutharga: 201906108488\nUntuk perhatian: Jabatan Perolehan, Puncak Emas Dagangan Sdn Bhd, Jitra\nButiran: Pelayan Rak (217821-P) sebanyak 3 unit.\nBayaran deposit hendaklah dipindahkan ke akaun pembekal di 080731823456.\nBagi pertanyaan pantas hubungi sambungan stor: 08583997.",
+          "jenis": "fp",
+          "entiti": "MY_SSM",
+          "mula": 46,
+          "tamat": 58,
+          "nilai": "201906108488"
+        },
+        {
+          "id": "mypii-00259",
+          "teks": "SEBUTHARGA RASMI PERALATAN IT\nNo. Sebutharga: 202105105391\nUntuk perhatian: Jabatan Perolehan, Kenanga Mekar Landskap Enterprise, Kuala Kangsar\nButiran: Pelayan Rak (33648-X) sebanyak 3 unit.\nBayaran deposit hendaklah dipindahkan ke akaun pembekal di 531210 06 0250.\nBagi pertanyaan pantas hubungi sambungan stor: 015-525 6491.",
+          "jenis": "fp",
+          "entiti": "MY_SSM",
+          "mula": 46,
+          "tamat": 58,
+          "nilai": "202105105391"
+        },
+        {
+          "id": "mypii-02509",
+          "teks": "Hi boss, quotation utk bekalan paip PVC dah ready.\nSyarikat: Bayu Samudera Trading (1392357-P)\nAttn to: Mei Ling a/l Krishnan\nIf agree dgn pricing, direct WhatsApp sales team kitorang kat 07-356 5654 ya. Tq boss!",
+          "jenis": "fn",
+          "entiti": "MY_SSM",
+          "mula": 84,
+          "tamat": 93,
+          "nilai": "1392357-P"
+        }
+      ]
+    },
+    "tempahan_hotel": {
+      "dok": 154,
+      "emas": 144,
+      "ramal": 139,
+      "tepat": 138,
+      "ralat": {
+        "fn:MY_SSM": 6,
+        "fp:MY_SSM": 1
+      },
+      "contoh": [
+        {
+          "id": "mypii-03316",
+          "teks": "Guest Registration Form - Puncak Wawasan Holdings Berhad Hotel Baling\nFull Name: Lavanya a/p Mohanraj\nIC / Passport No: 730617-79-1381\nContact Number: 03-9772 4954\nCheck-in Date: 06/06/2026 | Room No: 304\nManaged by Wawasan Baiduri Konsultansi PLT (Company Reg: 197206600813).",
+          "jenis": "fn",
+          "entiti": "MY_SSM",
+          "mula": 262,
+          "tamat": 274,
+          "nilai": "197206600813"
+        },
+        {
+          "id": "mypii-02577",
+          "teks": "Invois Tempahan Korporat\nDikeluarkan oleh: Teguh Maju Sdn Bhd (SSM: 196405331972)\nPegawai Penyelaras: Wee Chee Siong\nNo. Hubungan: +60-19 598 8072\nPakej Seminar 2 Hari 1 Malam di Johor Bahru.\nNo. Invois: 202106683491.",
+          "jenis": "fn",
+          "entiti": "MY_SSM",
+          "mula": 68,
+          "tamat": 80,
+          "nilai": "196405331972"
+        },
+        {
+          "id": "mypii-03738",
+          "teks": "Baucar Ganjaran Penginapan Intan Gemilang Logistics PLT\nNo. Keahlian: 202504780615\nKod Diskaun: (586519-A)\nNo. Rujukan: 8671197277\nNikmati diskaun 15% untuk penginapan di cawangan Kerteh sah sehingga 09-03-2025.",
+          "jenis": "fp",
+          "entiti": "MY_SSM",
+          "mula": 70,
+          "tamat": 82,
+          "nilai": "202504780615"
+        }
+      ]
+    },
+    "polisi_takaful": {
+      "dok": 187,
+      "emas": 134,
+      "ramal": 134,
+      "tepat": 124,
+      "ralat": {
+        "fn:MY_SSM": 8,
+        "fp:MY_SSM": 10,
+        "fn:MY_NRIC": 2
+      },
+      "contoh": [
+        {
+          "id": "mypii-03558",
+          "teks": "Mekar Wangi Perabot Berhad (200505630974)\nNotis Pembaharuan Skim Takaful Berkelompok\nPerhatian: Suhana Zubaidah binti Idham Ikram (No. K/P: 080817427407)\nSila ambil perhatian bahawa pelan perlindungan staf (139761-W) di cawangan Alor Gajah perlu diperbaharui sebelum 04-07-2025. Sila semak invois 201901613322.",
+          "jenis": "fn",
+          "entiti": "MY_SSM",
+          "mula": 28,
+          "tamat": 40,
+          "nilai": "200505630974"
+        },
+        {
+          "id": "mypii-03066",
+          "teks": "Borang Kemas Kini Pewaris / Wasi bagi Bina Jaya Resources (486322-K)\nNama Peserta: Rayyan Zafran bin Saiful Bahari\nNo. Kad Pengenalan: 721216 33 9438\nNo. Rujukan: 2397977031\nPermohonan penukaran penama bagi sijil 081217553031 di cawangan Semporna telah diterima dan sedang diproses dalam 3 hari bekerja.",
+          "jenis": "fn",
+          "entiti": "MY_SSM",
+          "mula": 59,
+          "tamat": 67,
+          "nilai": "486322-K"
+        },
+        {
+          "id": "mypii-02647",
+          "teks": "Peringatan Mesra Mega Logistik Sdn. Bhd.: Polisi kenderaan anda 202001929225 akan tamat pada 21-10-2025. Lindungi kenderaan anda dan nikmati diskaun NCD 55%. Hubungi ejen sah kami di talian 05-850 7226 atau layari portal perkhidmatan pelanggan.",
+          "jenis": "fp",
+          "entiti": "MY_SSM",
+          "mula": 64,
+          "tamat": 76,
+          "nilai": "202001929225"
+        }
+      ]
+    },
+    "klinik": {
+      "dok": 31,
+      "emas": 38,
+      "ramal": 38,
+      "tepat": 38,
+      "ralat": {},
+      "contoh": []
+    },
+    "ocr_bising": {
+      "dok": 74,
+      "emas": 58,
+      "ramal": 56,
+      "tepat": 56,
+      "ralat": {
+        "fn:MY_NRIC": 2
+      },
+      "contoh": [
+        {
+          "id": "mypii-01452",
+          "teks": "N0 . K/P :  581223537070   N0 . TEL :  0169395592\nNAMA :  Adli Syakir bin Thaqif Ezzat",
+          "jenis": "fn",
+          "entiti": "MY_NRIC",
+          "mula": 12,
+          "tamat": 24,
+          "nilai": "581223537070"
+        },
+        {
+          "id": "mypii-02857",
+          "teks": "N0 . K/P :  870621 86 3070   N0 . TEL :  0102258403\nNAMA :  Jia Hui bin Osman",
+          "jenis": "fn",
+          "entiti": "MY_NRIC",
+          "mula": 12,
+          "tamat": 26,
+          "nilai": "870621 86 3070"
+        }
+      ]
+    },
+    "majlis": {
+      "dok": 208,
+      "emas": 188,
+      "ramal": 171,
+      "tepat": 171,
+      "ralat": {
+        "fn:MY_SSM": 15,
+        "fn:MY_NRIC": 2
+      },
+      "contoh": [
+        {
+          "id": "mypii-02616",
+          "teks": "Perjanjian Sewaan Kanopi & Katering Majlis\nPihak Penyedia: Bayu Samudera Trading (No. Pendaftaran: 198406424889)\nPelanggan: Lim anak Jalong\nTarikh Acara: 30 Sep 2025\nSebarang pertanyaan atau pindaan sajian boleh terus hubungi wakil kami di 03-7975 9853.",
+          "jenis": "fn",
+          "entiti": "MY_SSM",
+          "mula": 99,
+          "tamat": 111,
+          "nilai": "198406424889"
+        },
+        {
+          "id": "mypii-03406",
+          "teks": "Wedding Photography Package Booking\nStudio: Cekap Bersatu Solutions Sdn Bhd (SSM: 198205273249)\nCustomer: Suresh Chong\nMobile: 019 837 7113\nDate of Majlis: 14-02-2025 at Johor Bahru\nInvoice Ref: 657232039797",
+          "jenis": "fn",
+          "entiti": "MY_SSM",
+          "mula": 82,
+          "tamat": 94,
+          "nilai": "198205273249"
+        },
+        {
+          "id": "mypii-00301",
+          "teks": "Agreement sewa busana & pelamin under Selasih Biru Bekalan Trading (Reg: 109483-H).\nPengantin: Shahrul Nizam bin Saiful Bahari\nNo K/P: 470301 50 0303\nMajlis bertempat di Baling tarikh 29-07-2025.\nBaki bayaran kena settle seminggu sebelum majlis berlangsung.",
+          "jenis": "fn",
+          "entiti": "MY_NRIC",
+          "mula": 135,
+          "tamat": 149,
+          "nilai": "470301 50 0303"
+        }
+      ]
+    },
+    "acara_sukan": {
+      "dok": 177,
+      "emas": 118,
+      "ramal": 112,
+      "tepat": 112,
+      "ralat": {
+        "fn:MY_SSM": 6
+      },
+      "contoh": [
+        {
+          "id": "mypii-00212",
+          "teks": "Liga Bola Sepak Amatur Anjuran Kasturi Haruman Trading (64988-T):\nPengurus Pasukan: Maisarah Maryam binti Adli Syakir\nNo. Telefon: +60-13-5823701\nYuran telah disahkan melalui rujukan 202204863628. Perlawanan sulung berlangsung di Kangar pada 11/03/2026.",
+          "jenis": "fn",
+          "entiti": "MY_SSM",
+          "mula": 56,
+          "tamat": 63,
+          "nilai": "64988-T"
+        },
+        {
+          "id": "mypii-03908",
+          "teks": "Liga Bola Sepak Amatur Anjuran Selasih Biru Bekalan Trading (837171-V):\nPengurus Pasukan: Mei Ling anak Jalong\nNo. Telefon: 012 3104853\nYuran telah disahkan melalui rujukan 202306952418. Perlawanan sulung berlangsung di Kota Kinabalu pada 3 Apr 2026.",
+          "jenis": "fn",
+          "entiti": "MY_SSM",
+          "mula": 61,
+          "tamat": 69,
+          "nilai": "837171-V"
+        },
+        {
+          "id": "mypii-03257",
+          "teks": "Borang Pendaftaran Kejohanan Badminton Tertutup:\nKetua Pasukan: Voon Guan Peng\nNo. MyKad: 680318 01 8604\nKelab Penaja: Bayu Perkasa Logistik Enterprise (197806440428)\nSebarang urusan sila hubungi talian urus setia di 019-821 4325.",
+          "jenis": "fn",
+          "entiti": "MY_SSM",
+          "mula": 153,
+          "tamat": 165,
+          "nilai": "197806440428"
+        }
+      ]
+    },
+    "servis_kenderaan": {
+      "dok": 160,
+      "emas": 113,
+      "ramal": 102,
+      "tepat": 99,
+      "ralat": {
+        "fn:MY_NRIC": 9,
+        "fn:MY_SSM": 5,
+        "fp:MY_SSM": 3
+      },
+      "contoh": [
+        {
+          "id": "mypii-01929",
+          "teks": "Pusat Servis Kenderaan KL Digital Solutions Sdn Bhd (Reg: 213680-F)\nNama Pemilik: Masyitah Najwa binti Haris Zulhilmi\nNo K/P: 920609 22 6830\nKerja dibuat: Major service 50 check-point, tukar spark plug & gearbox oil kat George Town.\nTerima kasih support bengkel kami!",
+          "jenis": "fn",
+          "entiti": "MY_NRIC",
+          "mula": 126,
+          "tamat": 140,
+          "nilai": "920609 22 6830"
+        },
+        {
+          "id": "mypii-01639",
+          "teks": "Resit Rasmi Bengkel: Kasturi Haruman Trading (No. Pendaftaran: 196905192863)\nCawangan: Seremban\nSebarang pertanyaan tentang pembaikan kotak gear, sila hubungi meja bantuan di 017-670 1576.\nTerima kasih atas kunjungan anda pada 21-08-2026.",
+          "jenis": "fn",
+          "entiti": "MY_SSM",
+          "mula": 63,
+          "tamat": 75,
+          "nilai": "196905192863"
+        },
+        {
+          "id": "mypii-00901",
+          "teks": "Peringatan Pembaharuan Cukai Jalan & Insurans Kenderaan\nPelanggan yang dihormati Kenneth Wee, polisi kenderaan anda (201801492539) di Selasih Kasturi Resources Berhad bakal tamat pada 21/08/2026.\nSila balas WhatsApp ke talian +60-14-987 7771 untuk sebut harga pembaharuan segera.",
+          "jenis": "fp",
+          "entiti": "MY_SSM",
+          "mula": 117,
+          "tamat": 129,
+          "nilai": "201801492539"
+        }
+      ]
+    },
+    "aduan": {
+      "dok": 109,
+      "emas": 73,
+      "ramal": 66,
+      "tepat": 66,
+      "ralat": {
+        "fn:MY_SSM": 7
+      },
+      "contoh": [
+        {
+          "id": "mypii-00525",
+          "teks": "I wish to lodge a complaint against KL Digital Solutions Sdn Bhd, registration no 197006863880. The goods have not arrived since 19 Apr 2025.",
+          "jenis": "fn",
+          "entiti": "MY_SSM",
+          "mula": 82,
+          "tamat": 94,
+          "nilai": "197006863880"
+        },
+        {
+          "id": "mypii-01684",
+          "teks": "I wish to lodge a complaint against Synergy Lestari Foods Berhad, registration no 200404561429. The goods have not arrived since 07-07-2025.",
+          "jenis": "fn",
+          "entiti": "MY_SSM",
+          "mula": 82,
+          "tamat": 94,
+          "nilai": "200404561429"
+        },
+        {
+          "id": "mypii-03321",
+          "teks": "I wish to lodge a complaint against Citra Perkasa PLT, registration no 198105001226. The goods have not arrived since 19/07/2025.",
+          "jenis": "fn",
+          "entiti": "MY_SSM",
+          "mula": 71,
+          "tamat": 83,
+          "nilai": "198105001226"
+        }
+      ]
+    },
+    "receipt": {
+      "dok": 39,
+      "emas": 20,
+      "ramal": 17,
+      "tepat": 17,
+      "ralat": {
+        "fn:MY_SSM": 3
+      },
+      "contoh": [
+        {
+          "id": "mypii-01827",
+          "teks": "Anggun Butik Enterprise (Co. No. 196306713863)\nTAX INVOICE 202504704666\nDate/Time: 202503171335\nTotal: RM 89.00\nTel: 012-7101476",
+          "jenis": "fn",
+          "entiti": "MY_SSM",
+          "mula": 33,
+          "tamat": 45,
+          "nilai": "196306713863"
+        },
+        {
+          "id": "mypii-00552",
+          "teks": "Utuh Perkasa Logistik Enterprise (Co. No. 200704347899)\nTAX INVOICE 662501466306\nDate/Time: 250711 1730\nTotal: RM 89.00\nTel: 012-8596268",
+          "jenis": "fn",
+          "entiti": "MY_SSM",
+          "mula": 42,
+          "tamat": 54,
+          "nilai": "200704347899"
+        },
+        {
+          "id": "mypii-02476",
+          "teks": "Kencana Unggul Services Trading (Co. No. 200506508489)\nTAX INVOICE 202305014498\nDate/Time: 260602 0752\nTotal: RM 89.00\nTel: 017-840 4107",
+          "jenis": "fn",
+          "entiti": "MY_SSM",
+          "mula": 41,
+          "tamat": 53,
+          "nilai": "200506508489"
+        }
+      ]
+    },
+    "jadual_teks": {
+      "dok": 33,
+      "emas": 66,
+      "ramal": 57,
+      "tepat": 57,
+      "ralat": {
+        "fn:MY_NRIC": 5,
+        "fn:MY_SSM": 4
+      },
+      "contoh": [
+        {
+          "id": "mypii-00449",
+          "teks": "Syarikat\tNo. SSM\tPengarah\tIC Pengarah\nSaujana Emas Kejuruteraan Berhad\t1495027-G\tMonis Modili\t520321 48 4079",
+          "jenis": "fn",
+          "entiti": "MY_NRIC",
+          "mula": 94,
+          "tamat": 108,
+          "nilai": "520321 48 4079"
+        },
+        {
+          "id": "mypii-02107",
+          "teks": "Syarikat\tNo. SSM\tPengarah\tIC Pengarah\nMekar Wangi Perabot Berhad\t198804567108\tDayang a/l Muniandy\t711223 11 9392",
+          "jenis": "fn",
+          "entiti": "MY_SSM",
+          "mula": 65,
+          "tamat": 77,
+          "nilai": "198804567108"
+        },
+        {
+          "id": "mypii-03350",
+          "teks": "Syarikat\tNo. SSM\tPengarah\tIC Pengarah\nMega Logistik Sdn. Bhd.\t197705087804\tTiffany Teo\t960407272398",
+          "jenis": "fn",
+          "entiti": "MY_SSM",
+          "mula": 62,
+          "tamat": 74,
+          "nilai": "197705087804"
+        }
+      ]
+    },
+    "emel_hr": {
+      "dok": 44,
+      "emas": 24,
+      "ramal": 22,
+      "tepat": 22,
+      "ralat": {
+        "fn:MY_NRIC": 2
+      },
+      "contoh": [
+        {
+          "id": "mypii-00139",
+          "teks": "hi hr, pls tukar my salary acc to 6196764181 start 21 Jul 2026. ic 050401016574. tq",
+          "jenis": "fn",
+          "entiti": "MY_NRIC",
+          "mula": 67,
+          "tamat": 79,
+          "nilai": "050401016574"
+        },
+        {
+          "id": "mypii-01078",
+          "teks": "hi hr, pls tukar my salary acc to 8130 0856 0398 60 start 24/07/2025. ic 890314 46 1673. tq",
+          "jenis": "fn",
+          "entiti": "MY_NRIC",
+          "mula": 73,
+          "tamat": 87,
+          "nilai": "890314 46 1673"
+        }
+      ]
+    },
+    "bil_utiliti": {
+      "dok": 162,
+      "emas": 115,
+      "ramal": 119,
+      "tepat": 109,
+      "ralat": {
+        "fp:MY_SSM": 10,
+        "fn:MY_SSM": 3,
+        "fn:MY_NRIC": 3
+      },
+      "contoh": [
+        {
+          "id": "mypii-01915",
+          "teks": "PENYATA BACAAN METER AIR - Saujana Emas Kejuruteraan Berhad\nNo. Meter: (15077-V)\nNo. Kontrak: 050905 04 8547\nNo. Keahlian Rebat: 202403562755\nHubungi talian aduan: 03-608 43\nBacaan semasa menunjukkan penggunaan 32 meter padu. Sila pastikan punca paip tidak bocor.",
+          "jenis": "fp",
+          "entiti": "MY_SSM",
+          "mula": 72,
+          "tamat": 79,
+          "nilai": "15077-V"
+        },
+        {
+          "id": "mypii-01450",
+          "teks": "PENYATA BACAAN METER AIR - Intan Gemilang Logistics PLT\nNo. Meter: (338290-K)\nNo. Kontrak: 1242 6460 80\nNo. Keahlian Rebat: 201703120114\nHubungi talian aduan: 011-133 555195\nBacaan semasa menunjukkan penggunaan 32 meter padu. Sila pastikan punca paip tidak bocor.",
+          "jenis": "fp",
+          "entiti": "MY_SSM",
+          "mula": 68,
+          "tamat": 76,
+          "nilai": "338290-K"
+        },
+        {
+          "id": "mypii-02361",
+          "teks": "INVOIS CUKAI UTILITI KOMERSIAL\nNama Syarikat: Aura Pesona Katering PLT\nNo. Pendaftaran Perniagaan: 197205460206\nLokasi Premis: Kawasan Perindustrian, Kota Kinabalu\nNo. Invois: 698778925880\nTarikh Bil: 18 Apr 2025\nJumlah Perlu Dibayar: RM 420.",
+          "jenis": "fn",
+          "entiti": "MY_SSM",
+          "mula": 99,
+          "tamat": 111,
+          "nilai": "197205460206"
+        }
+      ]
+    },
+    "borang_kerajaan": {
+      "dok": 54,
+      "emas": 50,
+      "ramal": 50,
+      "tepat": 50,
+      "ralat": {},
+      "contoh": []
+    },
+    "resit": {
+      "dok": 57,
+      "emas": 24,
+      "ramal": 21,
+      "tepat": 21,
+      "ralat": {
+        "fn:MY_SSM": 3
+      },
+      "contoh": [
+        {
+          "id": "mypii-00967",
+          "teks": "Delima Trading (904655-G)\nRESIT RASMI No. 350418394734\nTarikh/Masa: 260419-703-8298\nJumlah: RM 45.90\nTel: +60-14828 7046",
+          "jenis": "fn",
+          "entiti": "MY_SSM",
+          "mula": 16,
+          "tamat": 24,
+          "nilai": "904655-G"
+        },
+        {
+          "id": "mypii-01360",
+          "teks": "Sinar Timur Enterprise 201006325729 | resit 201906678336 | 202606071342 | total rm23.40",
+          "jenis": "fn",
+          "entiti": "MY_SSM",
+          "mula": 23,
+          "tamat": 35,
+          "nilai": "201006325729"
+        },
+        {
+          "id": "mypii-03452",
+          "teks": "Sejahtera Saujana Trading (1044271-E)\nRESIT RASMI No. 202601602808\nTarikh/Masa: 260726 0957\nJumlah: RM 45.90\nTel: +60-142150591",
+          "jenis": "fn",
+          "entiti": "MY_SSM",
+          "mula": 27,
+          "tamat": 36,
+          "nilai": "1044271-E"
+        }
+      ]
+    },
+    "text_table": {
+      "dok": 29,
+      "emas": 52,
+      "ramal": 52,
+      "tepat": 52,
+      "ralat": {},
+      "contoh": []
+    },
+    "gov_form": {
+      "dok": 34,
+      "emas": 30,
+      "ramal": 30,
+      "tepat": 30,
+      "ralat": {},
+      "contoh": []
+    },
+    "emel": {
+      "dok": 58,
+      "emas": 64,
+      "ramal": 57,
+      "tepat": 57,
+      "ralat": {
+        "fn:MY_SSM": 7
+      },
+      "contoh": [
+        {
+          "id": "mypii-03698",
+          "teks": "Hi boss, Selasih Kasturi Resources Berhad punya SSM no is 198204407020, pls update in system. Any q call +60-19335 9822. Tq, Zakaria Izzat bin Haris Zulhilmi",
+          "jenis": "fn",
+          "entiti": "MY_SSM",
+          "mula": 58,
+          "tamat": 70,
+          "nilai": "198204407020"
+        },
+        {
+          "id": "mypii-01322",
+          "teks": "Tuan/Puan,\nDengan hormatnya, Sejahtera Saujana Trading (No. Pendaftaran SSM: 197104729097) ingin memohon sebutharga. Sila hubungi 018-3614162.\nSekian, Tan a/p Subramaniam",
+          "jenis": "fn",
+          "entiti": "MY_SSM",
+          "mula": 77,
+          "tamat": 89,
+          "nilai": "197104729097"
+        },
+        {
+          "id": "mypii-00352",
+          "teks": "Hi boss, Kasturi Kejora Konsultansi PLT punya SSM no is 197304113930, pls update in system. Any q call 017 389 9968. Tq, Mustaqim Ashraf bin Hishamuddin Rusydi",
+          "jenis": "fn",
+          "entiti": "MY_SSM",
+          "mula": 56,
+          "tamat": 68,
+          "nilai": "197304113930"
+        }
+      ]
+    },
+    "hr_email": {
+      "dok": 21,
+      "emas": 16,
+      "ramal": 17,
+      "tepat": 16,
+      "ralat": {
+        "fp:MY_NRIC": 1
+      },
+      "contoh": [
+        {
+          "id": "mypii-02556",
+          "teks": "Hi Payroll,\nPlease update the salary account for Farah Ng (IC 040405406514) to CIMB 700719 98 2148 effective 25 Apr 2025.",
+          "jenis": "fp",
+          "entiti": "MY_NRIC",
+          "mula": 84,
+          "tamat": 98,
+          "nilai": "700719 98 2148"
+        }
+      ]
+    }
+  },
+  "dev": {
+    "keahlian": {
+      "dok": 55,
+      "emas": 46,
+      "ramal": 47,
+      "tepat": 44,
+      "ralat": {
+        "fp:MY_SSM": 3,
+        "fn:MY_SSM": 2
+      },
+      "contoh": [
+        {
+          "id": "mypii-00288",
+          "teks": "Pengesahan Pembaharuan Pas Gimnasium Lestari Utuh Niaga Sdn Bhd\nNo. Keahlian: 201604077518\nResit Bayaran: 201806800747\nAkaun Autodebit: 7346056120\nMasa Transaksi: 202601318994\nSila bawa pas fizikal lama untuk pengaktifan cip RFID di kaunter.",
+          "jenis": "fp",
+          "entiti": "MY_SSM",
+          "mula": 78,
+          "tamat": 90,
+          "nilai": "201604077518"
+        },
+        {
+          "id": "mypii-03513",
+          "teks": "Corporate Gym Registration under Saujana Emas Kejuruteraan Berhad (SSM: 198704596188)\nEmployee Name: Yip Kian Boon\nNRIC: 690226026230\nBranch: Nilai\nPolicy No: 671005047123\nPlease proceed to biometric registration.",
+          "jenis": "fn",
+          "entiti": "MY_SSM",
+          "mula": 72,
+          "tamat": 84,
+          "nilai": "198704596188"
+        },
+        {
+          "id": "mypii-02655",
+          "teks": "Pengesahan Pembaharuan Pas Gimnasium Utuh Wibawa Construction Sdn Bhd\nNo. Keahlian: 202203230966\nResit Bayaran: 580364739413\nAkaun Autodebit: 821102 99 7465\nMasa Transaksi: 260517 0923\nSila bawa pas fizikal lama untuk pengaktifan cip RFID di kaunter.",
+          "jenis": "fp",
+          "entiti": "MY_SSM",
+          "mula": 84,
+          "tamat": 96,
+          "nilai": "202203230966"
+        }
+      ]
+    },
+    "pembekal_b2b": {
+      "dok": 68,
+      "emas": 74,
+      "ramal": 73,
+      "tepat": 70,
+      "ralat": {
+        "fn:MY_SSM": 4,
+        "fp:MY_SSM": 3
+      },
+      "contoh": [
+        {
+          "id": "mypii-02940",
+          "teks": "Perjanjian sub-con antara Apex Bitara Solutions PLT (197906324142) dan kontraktor individu Nurul Lee (No K/P: 100717-77-0248).\nSkop kerja: Pemasangan kabel elektrik kat Pontian Kechil.\nBayaran claim ikut billing cycle bulanan via akaun syarikat 38961023146061.",
+          "jenis": "fn",
+          "entiti": "MY_SSM",
+          "mula": 53,
+          "tamat": 65,
+          "nilai": "197906324142"
+        },
+        {
+          "id": "mypii-03991",
+          "teks": "SEBUTHARGA RASMI PERALATAN IT\nNo. Sebutharga: 202504081927\nUntuk perhatian: Jabatan Perolehan, Kasturi Kejora Konsultansi PLT, Shah Alam\nButiran: Pelayan Rak (490555-A) sebanyak 3 unit.\nBayaran deposit hendaklah dipindahkan ke akaun pembekal di 730412 74 3367.\nBagi pertanyaan pantas hubungi sambungan stor: 011-62728.",
+          "jenis": "fp",
+          "entiti": "MY_SSM",
+          "mula": 46,
+          "tamat": 58,
+          "nilai": "202504081927"
+        },
+        {
+          "id": "mypii-03869",
+          "teks": "QUOTATION FOR OFFICE SUPPLIES\nSupplier: Aura Pesona Katering PLT (SSM: 197504317824)\nContact Person: Farah bin Hassan (012-6530544)\nDeliver to branch in Chukai by 16 Mar 2025.\nQuotation Ref: 670918-94-8937",
+          "jenis": "fn",
+          "entiti": "MY_SSM",
+          "mula": 71,
+          "tamat": 83,
+          "nilai": "197504317824"
+        }
+      ]
+    },
+    "majlis": {
+      "dok": 65,
+      "emas": 49,
+      "ramal": 45,
+      "tepat": 45,
+      "ralat": {
+        "fn:MY_NRIC": 1,
+        "fn:MY_SSM": 3
+      },
+      "contoh": [
+        {
+          "id": "mypii-00995",
+          "teks": "Agreement sewa busana & pelamin under Delima Trading (Reg: 387839-X).\nPengantin: Lojingon Gundit\nNo K/P: 011025 48 4902\nMajlis bertempat di Semporna tarikh 9 Mar 2026.\nBaki bayaran kena settle seminggu sebelum majlis berlangsung.",
+          "jenis": "fn",
+          "entiti": "MY_NRIC",
+          "mula": 105,
+          "tamat": 119,
+          "nilai": "011025 48 4902"
+        },
+        {
+          "id": "mypii-01507",
+          "teks": "Borang tempahan banquet hall Kenanga Mekar Landskap Enterprise (196604003195):\nNama Penyewa: Kok Wai bin Ahmad\nNo Kad Pengenalan: 050525-06-1817\nNo Tel: 014 594 5252\nLokasi: Jitra\nTarikh Majlis: 27-12-2025 (Ref: 683619-05-3539).",
+          "jenis": "fn",
+          "entiti": "MY_SSM",
+          "mula": 64,
+          "tamat": 76,
+          "nilai": "196604003195"
+        },
+        {
+          "id": "mypii-02715",
+          "teks": "Sebutharga Katering Majlis Aqiqah & Kesyukuran\nDisediakan oleh: Cemerlang Impian Rekabentuk Trading (30402-F)\nUntuk: En/Puan Maisarah Maryam binti Taufiq Hidayat\nTempat Majlis: Kuching\nTarikh: 23 May 2025\nSila hubungi 016-953 7174 untuk pengesahan set menu 5 jenis lauk pilihan.",
+          "jenis": "fn",
+          "entiti": "MY_SSM",
+          "mula": 101,
+          "tamat": 108,
+          "nilai": "30402-F"
+        }
+      ]
+    },
+    "pesanan_online": {
+      "dok": 64,
+      "emas": 39,
+      "ramal": 43,
+      "tepat": 39,
+      "ralat": {
+        "fp:MY_SSM": 4
+      },
+      "contoh": [
+        {
+          "id": "mypii-02375",
+          "teks": "Order confirmed bro! Tracking no 938350263868 via Maya Terbilang Services Sdn Bhd. Item (96709-P) already shipped out on 250511 1236. Any issue with parcel delivery to Kangar, please quote ref 6554474923 k.",
+          "jenis": "fp",
+          "entiti": "MY_SSM",
+          "mula": 89,
+          "tamat": 96,
+          "nilai": "96709-P"
+        },
+        {
+          "id": "mypii-01697",
+          "teks": "Order confirmed bro! Tracking no 202302575689 via Bitara Maya Inovasi Sdn Bhd. Item (235339-K) already shipped out on 202604182452. Any issue with parcel delivery to Kota Bharu, please quote ref 10/03/2023 382032 k.",
+          "jenis": "fp",
+          "entiti": "MY_SSM",
+          "mula": 85,
+          "tamat": 93,
+          "nilai": "235339-K"
+        },
+        {
+          "id": "mypii-02336",
+          "teks": "Hi seller Bintang Baiduri Tekstil Enterprise, barang baju (894215-P) sampai rosak la. Nak refund boleh? Order no 4132120610. My name Awang Wong, can contact me at 016-8415048. Pos courier to Alor Gajah hub ya.",
+          "jenis": "fp",
+          "entiti": "MY_SSM",
+          "mula": 59,
+          "tamat": 67,
+          "nilai": "894215-P"
+        }
+      ]
+    },
+    "whatsapp": {
+      "dok": 37,
+      "emas": 28,
+      "ramal": 28,
+      "tepat": 28,
+      "ralat": {},
+      "contoh": []
+    },
+    "penyata_bank": {
+      "dok": 44,
+      "emas": 46,
+      "ramal": 44,
+      "tepat": 44,
+      "ralat": {
+        "fn:MY_SSM": 2
+      },
+      "contoh": [
+        {
+          "id": "mypii-02518",
+          "teks": "Payment Advice: Instant Transfer to Bitara Maya Inovasi Sdn Bhd (SSM: 198706207930)\nBeneficiary Acc: 750624983620\nPayment Details: Invoice settlement 575313613399\nStatus: Successful on 09-02-2026 260513-194-9632",
+          "jenis": "fn",
+          "entiti": "MY_SSM",
+          "mula": 70,
+          "tamat": 82,
+          "nilai": "198706207930"
+        },
+        {
+          "id": "mypii-01720",
+          "teks": "Payment Advice: Instant Transfer to Rangkaian Maya Infiniti Sdn Bhd (SSM: 198406058825)\nBeneficiary Acc: 8623420734104\nPayment Details: Invoice settlement 201705422946\nStatus: Successful on 29 May 2025 202608136718",
+          "jenis": "fn",
+          "entiti": "MY_SSM",
+          "mula": 74,
+          "tamat": 86,
+          "nilai": "198406058825"
+        }
+      ]
+    },
+    "tempahan_hotel": {
+      "dok": 65,
+      "emas": 75,
+      "ramal": 75,
+      "tepat": 73,
+      "ralat": {
+        "fp:MY_SSM": 2,
+        "fn:MY_SSM": 2
+      },
+      "contoh": [
+        {
+          "id": "mypii-00601",
+          "teks": "Baucar Ganjaran Penginapan Puncak Harmoni Kejuruteraan Sdn Bhd\nNo. Keahlian: 202304178146\nKod Diskaun: (556921-F)\nNo. Rujukan: 9116821245\nNikmati diskaun 15% untuk penginapan di cawangan Arau sah sehingga 14-09-2025.",
+          "jenis": "fp",
+          "entiti": "MY_SSM",
+          "mula": 77,
+          "tamat": 89,
+          "nilai": "202304178146"
+        },
+        {
+          "id": "mypii-01708",
+          "teks": "Pakej Percutian Pulau oleh Warisan Katering (No. SSM: 197706506579)\nKetua Rombongan: Zarina Zinnirah binti Thaqif Ezzat\nHubungi penyelaras di talian 016 628 0782 untuk urusan bot.\nStatus tempahan: Disahkan (4513925140). Sila bawa baucar ini ke jeti.",
+          "jenis": "fn",
+          "entiti": "MY_SSM",
+          "mula": 54,
+          "tamat": 66,
+          "nilai": "197706506579"
+        },
+        {
+          "id": "mypii-02750",
+          "teks": "Baucar Ganjaran Penginapan Mercu Dinamik Automotif Sdn Bhd\nNo. Keahlian: 202102373086\nKod Diskaun: (629610-G)\nNo. Rujukan: INV201536454397\nNikmati diskaun 15% untuk penginapan di cawangan Jitra sah sehingga 26 Aug 2025.",
+          "jenis": "fp",
+          "entiti": "MY_SSM",
+          "mula": 73,
+          "tamat": 85,
+          "nilai": "202102373086"
+        }
+      ]
+    },
+    "resit": {
+      "dok": 25,
+      "emas": 15,
+      "ramal": 14,
+      "tepat": 14,
+      "ralat": {
+        "fn:MY_SSM": 1
+      },
+      "contoh": [
+        {
+          "id": "mypii-00909",
+          "teks": "Perak Solar Tech Sdn Bhd (200204594481)\nRESIT RASMI No. 201506497066\nTarikh/Masa: 250727-609-1625\nJumlah: RM 45.90\nTel: 010 5635243",
+          "jenis": "fn",
+          "entiti": "MY_SSM",
+          "mula": 26,
+          "tamat": 38,
+          "nilai": "200204594481"
+        }
+      ]
+    },
+    "acara_sukan": {
+      "dok": 54,
+      "emas": 33,
+      "ramal": 30,
+      "tepat": 30,
+      "ralat": {
+        "fn:MY_SSM": 3
+      },
+      "contoh": [
+        {
+          "id": "mypii-03537",
+          "teks": "Borang Pendaftaran Kejohanan Badminton Tertutup:\nKetua Pasukan: Tan a/p Subramaniam\nNo. MyKad: 780808-47-6908\nKelab Penaja: Sinar Timur Enterprise (199604296826)\nSebarang urusan sila hubungi talian urus setia di 0173852343.",
+          "jenis": "fn",
+          "entiti": "MY_SSM",
+          "mula": 148,
+          "tamat": 160,
+          "nilai": "199604296826"
+        },
+        {
+          "id": "mypii-02788",
+          "teks": "Borang Pendaftaran Futsal Cup:\nNama Manager: Wee Seng Guan\nNo IC: 530422 13 0563\nContact No: 0164768466\nNama Company: Harmoni Flora Landskap PLT (197404577090)\nSila bawa IC masa match day for verification ya.",
+          "jenis": "fn",
+          "entiti": "MY_SSM",
+          "mula": 146,
+          "tamat": 158,
+          "nilai": "197404577090"
+        },
+        {
+          "id": "mypii-02218",
+          "teks": "Borang Pendaftaran Kejohanan Badminton Tertutup:\nKetua Pasukan: Aisyah binti Rahman\nNo. MyKad: 800821 33 7085\nKelab Penaja: Cemerlang Abadi Sdn Bhd (196204115290)\nSebarang urusan sila hubungi talian urus setia di 013-5986943.",
+          "jenis": "fn",
+          "entiti": "MY_SSM",
+          "mula": 149,
+          "tamat": 161,
+          "nilai": "196204115290"
+        }
+      ]
+    },
+    "servis_kenderaan": {
+      "dok": 45,
+      "emas": 43,
+      "ramal": 40,
+      "tepat": 39,
+      "ralat": {
+        "fn:MY_SSM": 2,
+        "fn:MY_NRIC": 2,
+        "fp:MY_SSM": 1
+      },
+      "contoh": [
+        {
+          "id": "mypii-00647",
+          "teks": "Inovasi Utuh Kejuruteraan Sdn Bhd (201006627238) - Resit Servis & Overhaul Enjin.\nKereta siap overhaul gasket dan water pump. Warranty 6 bulan bermula 14/06/2026.\nSebarang breakdown atau leaking, terus contact hotline towing kami 012 3917883. Cawangan kami di Sibu sedia membantu.",
+          "jenis": "fn",
+          "entiti": "MY_SSM",
+          "mula": 35,
+          "tamat": 47,
+          "nilai": "201006627238"
+        },
+        {
+          "id": "mypii-01297",
+          "teks": "Pusat Servis Kenderaan Utuh Wibawa Construction Sdn Bhd (Reg: 661344-T)\nNama Pemilik: Firzanah Hazirah binti Ashraf Hilman\nNo K/P: 420219 87 6928\nKerja dibuat: Major service 50 check-point, tukar spark plug & gearbox oil kat Johor Bahru.\nTerima kasih support bengkel kami!",
+          "jenis": "fn",
+          "entiti": "MY_NRIC",
+          "mula": 131,
+          "tamat": 145,
+          "nilai": "420219 87 6928"
+        },
+        {
+          "id": "mypii-01801",
+          "teks": "Peringatan mesra dari Kejora Abadi Katering Enterprise: Roadtax & insuran kereta abang Priya Ng dah nak expired 24/06/2026. Sila verify IC no 040428646070 utk proceed renew NCD 55%. Call atau WhatsApp nombor 016857 8756 kalau nak geran pos terus ke Balik Pulau.",
+          "jenis": "fn",
+          "entiti": "MY_NRIC",
+          "mula": 142,
+          "tamat": 154,
+          "nilai": "040428646070"
+        }
+      ]
+    },
+    "derma_zakat": {
+      "dok": 58,
+      "emas": 24,
+      "ramal": 23,
+      "tepat": 21,
+      "ralat": {
+        "fp:MY_NRIC": 2,
+        "fn:MY_SSM": 2,
+        "fn:MY_NRIC": 1
+      },
+      "contoh": [
+        {
+          "id": "mypii-03771",
+          "teks": "E-Zakat Portal Receipt\nReceipt Number: 202502449594\nCounter Ref: 522023-06-9630\nPayment Mode: Direct Debit (461130 71 1166)\nPackage Code: Item (88906-G)\nTransaction Time: 22022026-037\nHelpline: 010-792 567017 (Office hours only)",
+          "jenis": "fp",
+          "entiti": "MY_NRIC",
+          "mula": 108,
+          "tamat": 122,
+          "nilai": "461130 71 1166"
+        },
+        {
+          "id": "mypii-01064",
+          "teks": "E-Zakat Portal Receipt\nReceipt Number: 706620799627\nCounter Ref: 530518-20-7031\nPayment Mode: Direct Debit (111015 12 8427)\nPackage Code: Item (69123-C)\nTransaction Time: 251114-764-6446\nHelpline: 02459850 (Office hours only)",
+          "jenis": "fp",
+          "entiti": "MY_NRIC",
+          "mula": 108,
+          "tamat": 122,
+          "nilai": "111015 12 8427"
+        },
+        {
+          "id": "mypii-01173",
+          "teks": "BORANG AKUAN ZAKAT PERNIAGAAN\nSyarikat Pembayar: Utuh Wibawa Construction Sdn Bhd\nNo. Pendaftaran Syarikat: 198705049775\nPegawai Dihubungi: Phang Ru Shan (017209 9625)\nJumlah Zakat Taksiran: RM 950\nLokasi: Jitra | No. Resit Sementara: 420781991641",
+          "jenis": "fn",
+          "entiti": "MY_SSM",
+          "mula": 108,
+          "tamat": 120,
+          "nilai": "198705049775"
+        }
+      ]
+    },
+    "bil_utiliti": {
+      "dok": 69,
+      "emas": 38,
+      "ramal": 40,
+      "tepat": 35,
+      "ralat": {
+        "fp:MY_SSM": 5,
+        "fn:MY_NRIC": 2,
+        "fn:MY_SSM": 1
+      },
+      "contoh": [
+        {
+          "id": "mypii-00986",
+          "teks": "PENYATA BACAAN METER AIR - Inovasi Utuh Kejuruteraan Sdn Bhd\nNo. Meter: (744975-K)\nNo. Kontrak: 410723882424\nNo. Keahlian Rebat: 620119212730\nHubungi talian aduan: 010-31459\nBacaan semasa menunjukkan penggunaan 32 meter padu. Sila pastikan punca paip tidak bocor.",
+          "jenis": "fp",
+          "entiti": "MY_SSM",
+          "mula": 73,
+          "tamat": 81,
+          "nilai": "744975-K"
+        },
+        {
+          "id": "mypii-00793",
+          "teks": "Makluman Pulangan Deposit Baiduri Unggul Enterprise:\nNama Pelanggan: Hafiz Chong\nNo K/P: 810117848230\nRef No: 930715-20-5067\nDeposit elektrik RM 200 akan dipulangkan ke akaun bank 47243454949733 selewat-lewatnya 30/12/2025. Terima kasih.",
+          "jenis": "fn",
+          "entiti": "MY_NRIC",
+          "mula": 89,
+          "tamat": 101,
+          "nilai": "810117848230"
+        },
+        {
+          "id": "mypii-03861",
+          "teks": "Makluman Pulangan Deposit Synergy Lestari Foods Berhad:\nNama Pelanggan: Wei Jie Lee\nNo K/P: 560702 49 3801\nRef No: 114326-16-6292\nDeposit elektrik RM 200 akan dipulangkan ke akaun bank 460712 34 4240 selewat-lewatnya 21-06-2026. Terima kasih.",
+          "jenis": "fn",
+          "entiti": "MY_NRIC",
+          "mula": 92,
+          "tamat": 106,
+          "nilai": "560702 49 3801"
+        }
+      ]
+    },
+    "ocr_bising": {
+      "dok": 25,
+      "emas": 18,
+      "ramal": 16,
+      "tepat": 16,
+      "ralat": {
+        "fn:MY_SSM": 1,
+        "fn:MY_NRIC": 1
+      },
+      "contoh": [
+        {
+          "id": "mypii-03327",
+          "teks": "SURAT  P E R A K U A N   PENDAFTARAN\nKencana Unggul Services Trading\n( 296402-X )",
+          "jenis": "fn",
+          "entiti": "MY_SSM",
+          "mula": 71,
+          "tamat": 79,
+          "nilai": "296402-X"
+        },
+        {
+          "id": "mypii-03242",
+          "teks": "N0 . K/P :  470306308442   N0 . TEL :  03-8907 3724\nNAMA :  Yusrina Zarina binti Safwan Tariq",
+          "jenis": "fn",
+          "entiti": "MY_NRIC",
+          "mula": 12,
+          "tamat": 24,
+          "nilai": "470306308442"
+        }
+      ]
+    },
+    "polisi_takaful": {
+      "dok": 71,
+      "emas": 61,
+      "ramal": 60,
+      "tepat": 59,
+      "ralat": {
+        "fn:MY_SSM": 2,
+        "fp:MY_SSM": 1
+      },
+      "contoh": [
+        {
+          "id": "mypii-02871",
+          "teks": "Hi boss, your company SME group takaful under Selasih Kasturi Resources Berhad (198304173947) will lapse on 2 Aug 2026. Person-in-charge is Komathi a/p Dharman (IC: 841022827395). Sila submit form renewal kat branch Ipoh segera.",
+          "jenis": "fn",
+          "entiti": "MY_SSM",
+          "mula": 80,
+          "tamat": 92,
+          "nilai": "198304173947"
+        },
+        {
+          "id": "mypii-03407",
+          "teks": "NOTIS PERINGATAN SUMBANGAN TAKAFUL\nNo. Sijil Takaful: 652386124847\nNo. Rujukan Bil: 226005207913\nTarikh Akhir Bayaran: 30 Jul 2025\nSumbangan bulanan bagi pelan 532802-C masih belum diterima setakat 202602211801. Bayaran boleh dibuat secara dalam talian ke akaun 4974 1870 2546 7.",
+          "jenis": "fp",
+          "entiti": "MY_SSM",
+          "mula": 198,
+          "tamat": 210,
+          "nilai": "202602211801"
+        },
+        {
+          "id": "mypii-01485",
+          "teks": "Selasih Kasturi Resources Berhad (198304119233)\nNotis Pembaharuan Skim Takaful Berkelompok\nPerhatian: Ahmad a/l Muniandy (No. K/P: 810402 53 8654)\nSila ambil perhatian bahawa pelan perlindungan staf (648233-H) di cawangan Ranau perlu diperbaharui sebelum 27-03-2025. Sila semak invois 202301177182.",
+          "jenis": "fn",
+          "entiti": "MY_SSM",
+          "mula": 34,
+          "tamat": 46,
+          "nilai": "198304119233"
+        }
+      ]
+    },
+    "text_table": {
+      "dok": 11,
+      "emas": 20,
+      "ramal": 18,
+      "tepat": 18,
+      "ralat": {
+        "fn:MY_SSM": 2
+      },
+      "contoh": [
+        {
+          "id": "mypii-01146",
+          "teks": "Company\tReg No\tDirector\tDirector IC\nVantage Horizon Agro Enterprise\t198505520089\tThaqif Ezzat bin Affan Hanif\t590819 02 7278",
+          "jenis": "fn",
+          "entiti": "MY_SSM",
+          "mula": 68,
+          "tamat": 80,
+          "nilai": "198505520089"
+        },
+        {
+          "id": "mypii-02195",
+          "teks": "Company\tReg No\tDirector\tDirector IC\nCipta Wawasan Dagangan Enterprise\t196805631931\tAmir Lee\t450620-98-9007",
+          "jenis": "fn",
+          "entiti": "MY_SSM",
+          "mula": 70,
+          "tamat": 82,
+          "nilai": "196805631931"
+        }
+      ]
+    },
+    "whatsapp_kumpulan": {
+      "dok": 11,
+      "emas": 3,
+      "ramal": 3,
+      "tepat": 3,
+      "ralat": {},
+      "contoh": []
+    },
+    "farmasi": {
+      "dok": 64,
+      "emas": 55,
+      "ramal": 53,
+      "tepat": 50,
+      "ralat": {
+        "fp:MY_SSM": 3,
+        "fn:MY_NRIC": 3,
+        "fn:MY_SSM": 2
+      },
+      "contoh": [
+        {
+          "id": "mypii-03717",
+          "teks": "e-Prescription Order Status: 18/03/2023 618872\nPrescription uploaded at 202501236573.\nPharmacy Helpdesk callback attempted on 013-66010 (unreachable).\nPlease update payment method or transfer to account 591207 89 9204 to proceed with medication dispatch.",
+          "jenis": "fp",
+          "entiti": "MY_SSM",
+          "mula": 72,
+          "tamat": 84,
+          "nilai": "202501236573"
+        },
+        {
+          "id": "mypii-03222",
+          "teks": "Hai uncle Hui Min binti Ismail, your ubat darah tinggi is ready for pickup kat Saujana Emas Kejuruteraan Berhad branch Jitra. Please confirm IC 540519499797 masa collect ye. If delivery, call us at 010 648 1082. Tq!",
+          "jenis": "fn",
+          "entiti": "MY_NRIC",
+          "mula": 144,
+          "tamat": 156,
+          "nilai": "540519499797"
+        },
+        {
+          "id": "mypii-00508",
+          "teks": "Borang Program Ubat Kronik: Farmasi Vantage Horizon Agro Enterprise (200106100614).\nNama Pesakit: Naim Affan bin Azam Mustaqim\nNo K/P: 941216 39 0039\nAlamat pickup: Seremban\nTarikh mula bekalan: 08-05-2025. Sila bawa MyKad asal masa pickup.",
+          "jenis": "fn",
+          "entiti": "MY_SSM",
+          "mula": 69,
+          "tamat": 81,
+          "nilai": "200106100614"
+        }
+      ]
+    },
+    "receipt": {
+      "dok": 11,
+      "emas": 10,
+      "ramal": 7,
+      "tepat": 7,
+      "ralat": {
+        "fn:MY_SSM": 3
+      },
+      "contoh": [
+        {
+          "id": "mypii-03996",
+          "teks": "Citra Perkasa PLT (Co. No. 199006042406)\nTAX INVOICE 346321416543\nDate/Time: 18082026-176\nTotal: RM 89.00\nTel: 018-5701357",
+          "jenis": "fn",
+          "entiti": "MY_SSM",
+          "mula": 27,
+          "tamat": 39,
+          "nilai": "199006042406"
+        },
+        {
+          "id": "mypii-02253",
+          "teks": "Cemerlang Impian Rekabentuk Trading (Co. No. 198004389793)\nTAX INVOICE 991562075444\nDate/Time: 250802-149-2334\nTotal: RM 89.00\nTel: 019 835 0155",
+          "jenis": "fn",
+          "entiti": "MY_SSM",
+          "mula": 45,
+          "tamat": 57,
+          "nilai": "198004389793"
+        },
+        {
+          "id": "mypii-00159",
+          "teks": "Selasih Biru Bekalan Trading (Co. No. 196104636808)\nTAX INVOICE 848567092576\nDate/Time: 250710 1914\nTotal: RM 89.00\nTel: +60 17-814 4815",
+          "jenis": "fn",
+          "entiti": "MY_SSM",
+          "mula": 38,
+          "tamat": 50,
+          "nilai": "196104636808"
+        }
+      ]
+    },
+    "aduan": {
+      "dok": 24,
+      "emas": 17,
+      "ramal": 15,
+      "tepat": 15,
+      "ralat": {
+        "fn:MY_SSM": 2
+      },
+      "contoh": [
+        {
+          "id": "mypii-01031",
+          "teks": "Saya Jessica anak Jalong ingin membuat aduan terhadap Aura Pesona Katering PLT, no. syarikat 196804725851. Barang tidak sampai sejak 13-12-2025.",
+          "jenis": "fn",
+          "entiti": "MY_SSM",
+          "mula": 93,
+          "tamat": 105,
+          "nilai": "196804725851"
+        },
+        {
+          "id": "mypii-02828",
+          "teks": "Saya Hanif Aniq bin Zafran Shahrul ingin membuat aduan terhadap Kasturi Kejora Konsultansi PLT, no. syarikat 196406433100. Barang tidak sampai sejak 18 Oct 2025.",
+          "jenis": "fn",
+          "entiti": "MY_SSM",
+          "mula": 109,
+          "tamat": 121,
+          "nilai": "196406433100"
+        }
+      ]
+    },
+    "borang": {
+      "dok": 16,
+      "emas": 24,
+      "ramal": 22,
+      "tepat": 22,
+      "ralat": {
+        "fn:MY_SSM": 2
+      },
+      "contoh": [
+        {
+          "id": "mypii-01206",
+          "teks": "Nama: Syafiqah bin Hassan | No. KP: 030413-60-0439 | Tel: +6016-9678177 | Majikan: Utuh Wibawa Construction Sdn Bhd (198104372696)",
+          "jenis": "fn",
+          "entiti": "MY_SSM",
+          "mula": 117,
+          "tamat": 129,
+          "nilai": "198104372696"
+        },
+        {
+          "id": "mypii-03179",
+          "teks": "Nama: Haslinda Kauthar binti Izzat Muaz | No. KP: 880629058525 | Tel: 012-2764141 | Majikan: Saujana Emas Kejuruteraan Berhad (198005283033)",
+          "jenis": "fn",
+          "entiti": "MY_SSM",
+          "mula": 127,
+          "tamat": 139,
+          "nilai": "198005283033"
+        }
+      ]
+    },
+    "whatsapp_group": {
+      "dok": 27,
+      "emas": 17,
+      "ramal": 14,
+      "tepat": 14,
+      "ralat": {
+        "fn:MY_NRIC": 3
+      },
+      "contoh": [
+        {
+          "id": "mypii-02607",
+          "teks": "[18-05-2026] admin: parents yg belum send ic anak pls pm k. eg Lam Boon Jin - 590411 49 1402",
+          "jenis": "fn",
+          "entiti": "MY_NRIC",
+          "mula": 78,
+          "tamat": 92,
+          "nilai": "590411 49 1402"
+        },
+        {
+          "id": "mypii-00351",
+          "teks": "[05-09-2025] admin: parents yg belum send ic anak pls pm k. eg Wei Jie bin Hassan - 841231 59 2068",
+          "jenis": "fn",
+          "entiti": "MY_NRIC",
+          "mula": 84,
+          "tamat": 98,
+          "nilai": "841231 59 2068"
+        },
+        {
+          "id": "mypii-00897",
+          "teks": "[02-11-2025] admin: parents yg belum send ic anak pls pm k. eg Iskandar Chong - 510218 14 2031",
+          "jenis": "fn",
+          "entiti": "MY_NRIC",
+          "mula": 80,
+          "tamat": 94,
+          "nilai": "510218 14 2031"
+        }
+      ]
+    },
+    "emel": {
+      "dok": 19,
+      "emas": 20,
+      "ramal": 18,
+      "tepat": 18,
+      "ralat": {
+        "fn:MY_SSM": 2
+      },
+      "contoh": [
+        {
+          "id": "mypii-01690",
+          "teks": "Dear Sir/Madam,\nDinamik Muhibbah Motors Sdn Bhd (Company No. 198004075282) would like to request a quotation. Contact: 016979 7493.\nRegards, Rayyan Zafran bin Nazirul Mubin",
+          "jenis": "fn",
+          "entiti": "MY_SSM",
+          "mula": 61,
+          "tamat": 73,
+          "nilai": "198004075282"
+        },
+        {
+          "id": "mypii-00891",
+          "teks": "Hi boss, Cipta Wawasan Dagangan Enterprise punya SSM no is 197705004750, pls update in system. Any q call 016-861 0270. Tq, Ahmad Tan",
+          "jenis": "fn",
+          "entiti": "MY_SSM",
+          "mula": 59,
+          "tamat": 71,
+          "nilai": "197705004750"
+        }
+      ]
+    },
+    "jadual_teks": {
+      "dok": 15,
+      "emas": 26,
+      "ramal": 24,
+      "tepat": 24,
+      "ralat": {
+        "fn:MY_SSM": 1,
+        "fn:MY_NRIC": 1
+      },
+      "contoh": [
+        {
+          "id": "mypii-03741",
+          "teks": "Syarikat\tNo. SSM\tPengarah\tIC Pengarah\nUtuh Wibawa Construction Sdn Bhd\t199805508234\tHazim Nadzmi bin Idham Ikram\t950322-32-0298",
+          "jenis": "fn",
+          "entiti": "MY_SSM",
+          "mula": 71,
+          "tamat": 83,
+          "nilai": "199805508234"
+        },
+        {
+          "id": "mypii-02073",
+          "teks": "sdn bhd | ssm | director ic\nKencana Unggul Services Trading | 202304326464 | 550723 85 0940",
+          "jenis": "fn",
+          "entiti": "MY_NRIC",
+          "mula": 77,
+          "tamat": 91,
+          "nilai": "550723 85 0940"
+        }
+      ]
+    },
+    "klinik": {
+      "dok": 9,
+      "emas": 10,
+      "ramal": 10,
+      "tepat": 10,
+      "ralat": {},
+      "contoh": []
+    },
+    "hr_email": {
+      "dok": 5,
+      "emas": 1,
+      "ramal": 2,
+      "tepat": 1,
+      "ralat": {
+        "fp:MY_NRIC": 1
+      },
+      "contoh": [
+        {
+          "id": "mypii-00925",
+          "teks": "Hi Payroll,\nPlease update the salary account for Kang Kin Meng (IC 740321492109) to CIMB 600902 30 2675 effective 31 May 2026.",
+          "jenis": "fp",
+          "entiti": "MY_NRIC",
+          "mula": 89,
+          "tamat": 103,
+          "nilai": "600902 30 2675"
+        }
+      ]
+    },
+    "emel_hr": {
+      "dok": 11,
+      "emas": 10,
+      "ramal": 10,
+      "tepat": 10,
+      "ralat": {},
+      "contoh": []
+    },
+    "gov_form": {
+      "dok": 10,
+      "emas": 14,
+      "ramal": 14,
+      "tepat": 14,
+      "ralat": {},
+      "contoh": []
+    },
+    "borang_kerajaan": {
+      "dok": 15,
+      "emas": 12,
+      "ramal": 12,
+      "tepat": 12,
+      "ralat": {},
+      "contoh": []
+    },
+    "ocr_noisy": {
+      "dok": 7,
+      "emas": 8,
+      "ramal": 5,
+      "tepat": 5,
+      "ralat": {
+        "fn:MY_NRIC": 3
+      },
+      "contoh": [
+        {
+          "id": "mypii-03676",
+          "teks": "ID CARD N0: 820823 89 5987  |  M0BILE: 05-325 1861",
+          "jenis": "fn",
+          "entiti": "MY_NRIC",
+          "mula": 12,
+          "tamat": 26,
+          "nilai": "820823 89 5987"
+        },
+        {
+          "id": "mypii-03770",
+          "teks": "ID CARD N0: 930605 43 8172  |  M0BILE: 05-934 1658",
+          "jenis": "fn",
+          "entiti": "MY_NRIC",
+          "mula": 12,
+          "tamat": 26,
+          "nilai": "930605 43 8172"
+        },
+        {
+          "id": "mypii-00271",
+          "teks": "ID CARD N0: 920313436871  |  M0BILE: 016-584 0336",
+          "jenis": "fn",
+          "entiti": "MY_NRIC",
+          "mula": 12,
+          "tamat": 24,
+          "nilai": "920313436871"
+        }
+      ]
+    }
+  },
+  "probe": {
+    "negatif_berkurung": {
+      "dok": 40,
+      "emas": 0,
+      "ramal": 0,
+      "tepat": 0,
+      "ralat": {},
+      "contoh": []
+    },
+    "syarikat_luar_senarai": {
+      "dok": 40,
+      "emas": 40,
+      "ramal": 2,
+      "tepat": 2,
+      "ralat": {
+        "fn:MY_SSM": 38
+      },
+      "contoh": [
+        {
+          "id": "probe-syarikat_luar_senarai-000",
+          "teks": "Dapur Mak Long Catering 935684-X",
+          "jenis": "fn",
+          "entiti": "MY_SSM",
+          "mula": 24,
+          "tamat": 32,
+          "nilai": "935684-X"
+        },
+        {
+          "id": "probe-syarikat_luar_senarai-002",
+          "teks": "Agensi Pelancongan Pelangi (1066071-M) — sebut harga dilampirkan",
+          "jenis": "fn",
+          "entiti": "MY_SSM",
+          "mula": 28,
+          "tamat": 37,
+          "nilai": "1066071-M"
+        },
+        {
+          "id": "probe-syarikat_luar_senarai-003",
+          "teks": "Invoice from Kedai Gunting Rambut Ali 22663-V for October",
+          "jenis": "fn",
+          "entiti": "MY_SSM",
+          "mula": 38,
+          "tamat": 45,
+          "nilai": "22663-V"
+        }
+      ]
+    },
+    "jadual_tidak_teratur": {
+      "dok": 40,
+      "emas": 70,
+      "ramal": 44,
+      "tepat": 44,
+      "ralat": {
+        "fn:MY_SSM": 17,
+        "fn:MY_NRIC": 9
+      },
+      "contoh": [
+        {
+          "id": "probe-jadual_tidak_teratur-002",
+          "teks": "Pembekal | No. Daftar\nPusat Tuisyen Cemerlang | 199805110484\n(cawangan Suresh Wong) | 201605776015",
+          "jenis": "fn",
+          "entiti": "MY_SSM",
+          "mula": 48,
+          "tamat": 60,
+          "nilai": "199805110484"
+        },
+        {
+          "id": "probe-jadual_tidak_teratur-002",
+          "teks": "Pembekal | No. Daftar\nPusat Tuisyen Cemerlang | 199805110484\n(cawangan Suresh Wong) | 201605776015",
+          "jenis": "fn",
+          "entiti": "MY_SSM",
+          "mula": 86,
+          "tamat": 98,
+          "nilai": "201605776015"
+        },
+        {
+          "id": "probe-jadual_tidak_teratur-003",
+          "teks": "Bil  Pelajar        IC Penjaga\n1    Lim bin Abdullah   990829 57 8517\n     (penjaga kedua)  601007684213",
+          "jenis": "fn",
+          "entiti": "MY_NRIC",
+          "mula": 92,
+          "tamat": 104,
+          "nilai": "601007684213"
+        }
+      ]
+    },
+    "negatif_tanpa_kata": {
+      "dok": 40,
+      "emas": 0,
+      "ramal": 5,
+      "tepat": 0,
+      "ralat": {
+        "fp:MY_NRIC": 5
+      },
+      "contoh": [
+        {
+          "id": "probe-negatif_tanpa_kata-007",
+          "teks": "Member ID: 461212-59-3569 — tunjuk di kaunter untuk diskaun",
+          "jenis": "fp",
+          "entiti": "MY_NRIC",
+          "mula": 11,
+          "tamat": 25,
+          "nilai": "461212-59-3569"
+        },
+        {
+          "id": "probe-negatif_tanpa_kata-015",
+          "teks": "Member ID: 070816-49-9723 — tunjuk di kaunter untuk diskaun",
+          "jenis": "fp",
+          "entiti": "MY_NRIC",
+          "mula": 11,
+          "tamat": 25,
+          "nilai": "070816-49-9723"
+        },
+        {
+          "id": "probe-negatif_tanpa_kata-027",
+          "teks": "Member ID: 950103-78-1402 — tunjuk di kaunter untuk diskaun",
+          "jenis": "fp",
+          "entiti": "MY_NRIC",
+          "mula": 11,
+          "tamat": 25,
+          "nilai": "950103-78-1402"
+        }
+      ]
+    },
+    "konteks_jauh": {
+      "dok": 40,
+      "emas": 40,
+      "ramal": 8,
+      "tepat": 8,
+      "ralat": {
+        "fn:MY_NRIC": 32
+      },
+      "contoh": [
+        {
+          "id": "probe-konteks_jauh-000",
+          "teks": "Kad pengenalan pemohon seperti yang dikemukakan semasa pendaftaran awal ialah 600129-33-7186",
+          "jenis": "fn",
+          "entiti": "MY_NRIC",
+          "mula": 78,
+          "tamat": 92,
+          "nilai": "600129-33-7186"
+        },
+        {
+          "id": "probe-konteks_jauh-002",
+          "teks": "No KP ibu bapa atau penjaga yang sah bagi murid ini: 950409 85 4154",
+          "jenis": "fn",
+          "entiti": "MY_NRIC",
+          "mula": 53,
+          "tamat": 67,
+          "nilai": "950409 85 4154"
+        },
+        {
+          "id": "probe-konteks_jauh-003",
+          "teks": "Kad pengenalan pemohon seperti yang dikemukakan semasa pendaftaran awal ialah 801024 21 3259",
+          "jenis": "fn",
+          "entiti": "MY_NRIC",
+          "mula": 78,
+          "tamat": 92,
+          "nilai": "801024 21 3259"
+        }
+      ]
+    },
+    "telefon_bukan_telefon": {
+      "dok": 40,
+      "emas": 0,
+      "ramal": 38,
+      "tepat": 0,
+      "ralat": {
+        "fp:MY_PHONE": 38
+      },
+      "contoh": [
+        {
+          "id": "probe-telefon_bukan_telefon-000",
+          "teks": "Kod pengesahan pesanan anda: 014 688 8131",
+          "jenis": "fp",
+          "entiti": "MY_PHONE",
+          "mula": 29,
+          "tamat": 41,
+          "nilai": "014 688 8131"
+        },
+        {
+          "id": "probe-telefon_bukan_telefon-001",
+          "teks": "Serial no. 03-3326 4907 — warranty 2 tahun",
+          "jenis": "fp",
+          "entiti": "MY_PHONE",
+          "mula": 11,
+          "tamat": 23,
+          "nilai": "03-3326 4907"
+        },
+        {
+          "id": "probe-telefon_bukan_telefon-002",
+          "teks": "ID pelanggan 019-436 1312 telah dikemas kini",
+          "jenis": "fp",
+          "entiti": "MY_PHONE",
+          "mula": 13,
+          "tamat": 25,
+          "nilai": "019-436 1312"
+        }
+      ]
+    },
+    "ocr_digit": {
+      "dok": 40,
+      "emas": 40,
+      "ramal": 20,
+      "tepat": 20,
+      "ralat": {
+        "fn:MY_NRIC": 20
+      },
+      "contoh": [
+        {
+          "id": "probe-ocr_digit-002",
+          "teks": "No. KP: S7l012 47 653l",
+          "jenis": "fn",
+          "entiti": "MY_NRIC",
+          "mula": 8,
+          "tamat": 22,
+          "nilai": "S7l012 47 653l"
+        },
+        {
+          "id": "probe-ocr_digit-003",
+          "teks": "IC pemohon O3ll29-66-03S2 disahkan",
+          "jenis": "fn",
+          "entiti": "MY_NRIC",
+          "mula": 11,
+          "tamat": 25,
+          "nilai": "O3ll29-66-03S2"
+        },
+        {
+          "id": "probe-ocr_digit-004",
+          "teks": "No. KP: 871117 16 l397",
+          "jenis": "fn",
+          "entiti": "MY_NRIC",
+          "mula": 8,
+          "tamat": 22,
+          "nilai": "871117 16 l397"
+        }
+      ]
+    },
+    "patah_baris": {
+      "dok": 40,
+      "emas": 40,
+      "ramal": 28,
+      "tepat": 28,
+      "ralat": {
+        "fn:MY_NRIC": 12
+      },
+      "contoh": [
+        {
+          "id": "probe-patah_baris-005",
+          "teks": "Pemohon Suresh bin Hassan, IC 640629\n-76-9760, hadir",
+          "jenis": "fn",
+          "entiti": "MY_NRIC",
+          "mula": 30,
+          "tamat": 45,
+          "nilai": "640629\n-76-9760"
+        },
+        {
+          "id": "probe-patah_baris-008",
+          "teks": "No. Kad Pengenalan: 591203\n-83-0038",
+          "jenis": "fn",
+          "entiti": "MY_NRIC",
+          "mula": 20,
+          "tamat": 35,
+          "nilai": "591203\n-83-0038"
+        },
+        {
+          "id": "probe-patah_baris-011",
+          "teks": "Pemohon Priya a/l Krishnan, IC 740818\n-29-0825, hadir",
+          "jenis": "fn",
+          "entiti": "MY_NRIC",
+          "mula": 31,
+          "tamat": 46,
+          "nilai": "740818\n-29-0825"
+        }
+      ]
+    }
+  }
+}

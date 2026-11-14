@@ -14,6 +14,7 @@ repo ini gagal jika mana-mana bait berubah.
 | `data/bench/ujian.jsonl` | `38d473fb77bde237` | `data/bench/KUNCI.json` | 28 Okt 2026 | 3 hingga 4 Nov 2026, sekali |
 | `data/bench/ujian2.jsonl` | `83ff90b4ef40a7ac` | `data/bench/KUNCI2.json` | 30 Okt 2026 | 3 hingga 4 Nov 2026, sekali |
 | `data/bench_v3/ujian3.jsonl` | `5658ebe3614f5b09` | `data/bench_v3/KUNCI3.json` | 5 Nov 2026 12:11 | 5 Nov 2026 13:00, sekali |
+| `data/bench_v3/ujian4.jsonl` | `6b68aa70513c1071` | `data/bench_v3/KUNCI4.json` | 14 Nov 2026 14:29 | 14 Nov 2026 14:50, sekali |
 | `model/konteks-v2.json` (pengelas v2) | `02d7d9bd37859762` | `config/mypii.yaml` `konteks.sha256` | dibekukan 5 Nov 2026 12:48 | |
 
 **Arkib larian ujian.** Keputusan, ramalan setiap dokumen dan jawapan LLM setiap larian ujian ada dalam `hasil/arkib/`, bersama
@@ -24,10 +25,13 @@ perintah tepat dan komit pembangunan yang dijalankan.
 |---|---|---|---|
 | `ujian-20261103T182455Z` | `ujian` + `ujian2` (v1) | `e846e49` | 3 Nov 18:24 hingga 4 Nov 04:14 (diulang sekali selepas crash, `ULANG-CRASH`) |
 | `ujian3-20261105T130039Z` | `ujian3` (v2) | `17bb5a1` | 5 Nov 13:00 hingga 13:19 |
+| `ujian4-20261114T145032Z` | `ujian4` (v2.1) | `2b306b4` | 14 Nov 14:50 hingga 15:15 |
 
 **Suntingan.** Dalam `docs/PRA-DAFTAR.md`, `docs/LOG-ITERASI.md`, ADR-019, ADR-020 dan satu komen `config/mypii.yaml`, butiran
 operasi akaun penyedia API diganti dengan tanda `[disunting]`. Hipotesis, ambang, tarikh, angka, keputusan dan sebab saintifik tidak
-diubah. Fail arkib dalam `hasil/arkib/` tidak disunting kerana ia dilindungi `MANIFEST.sha256`.
+diubah. Fail arkib dalam `hasil/arkib/` tidak disunting kerana ia dilindungi `MANIFEST.sha256`, dengan satu pengecualian: dalam
+`hasil/arkib/ujian4-20261114T145032Z/log/2.log` dan `3.log`, URL ruang kerja Modal (empat baris) dan laluan hos (dua baris) diganti `[disunting]`, jadi
+`sha256sum -c` melaporkan dua fail log itu berbeza; `MANIFEST.sha256` merujuk fail asal dalam repo pembangunan.
 
 **Fail yang dirujuk tetapi tiada di sini.** Rujukan kepada `PELAN-*.md`, `NEXT.md`, `docs/kertas/` atau laluan `~/ops/...` menunjuk
 kepada fail kerja dalam repo pembangunan atau hos pembina. Fail itu tidak diperlukan untuk menjana semula sebarang angka.
@@ -47,7 +51,10 @@ commands and the development commit that ran.
 
 **Redactions.** In `docs/PRA-DAFTAR.md`, `docs/LOG-ITERASI.md`, ADR-019, ADR-020 and one comment in `config/mypii.yaml`, operational
 details about API provider accounts are replaced with a `[redacted]` / `[disunting]` marker. Hypotheses, thresholds, dates, numbers,
-decisions and scientific reasons are unchanged. Archive files in `hasil/arkib/` are not edited because `MANIFEST.sha256` covers them.
+decisions and scientific reasons are unchanged. Archive files in `hasil/arkib/` are not edited because `MANIFEST.sha256` covers them,
+with one exception: in `hasil/arkib/ujian4-20261114T145032Z/log/2.log` and `3.log` the Modal workspace URL (four lines) and a host path (two lines) are replaced
+with `[redacted]`, so `sha256sum -c` reports those two log files as changed; `MANIFEST.sha256` refers to the originals in the development
+repository.
 
 **Files referenced but absent here.** References to `PELAN-*.md`, `NEXT.md`, `docs/kertas/` or `~/ops/...` paths point to working
 files in the development repository or on the build host. None of them is needed to regenerate any number.

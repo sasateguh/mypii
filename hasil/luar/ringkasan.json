@@ -1,0 +1,887 @@
+[
+ {
+  "split": "ujian3",
+  "dokumen": 1000,
+  "sistem": {
+   "mypii": {
+    "U1:semua|*": {
+     "f1": 0.981,
+     "p": 0.9712,
+     "r": 0.991,
+     "f1_separa": 0.981,
+     "bawah": 0.9739,
+     "atas": 0.9874,
+     "n_sah": 1000
+    },
+    "U1:semua|ID": {
+     "f1": 0.9656,
+     "p": 0.9483,
+     "r": 0.9835,
+     "f1_separa": 0.9656,
+     "bawah": 0.9531,
+     "atas": 0.9769,
+     "n_sah": 1000
+    },
+    "U1:semua|TEL": {
+     "f1": 1.0,
+     "p": 1.0,
+     "r": 1.0,
+     "f1_separa": 1.0,
+     "bawah": 1.0,
+     "atas": 1.0,
+     "n_sah": 1000
+    },
+    "U1:bahasa": {
+     "bahasa:en": 0.9662,
+     "bahasa:manglish": 0.9921,
+     "bahasa:ms": 0.9816
+    },
+    "NRIC_ketat:semua|N": {
+     "f1": 0.9378,
+     "p": 0.8903,
+     "r": 0.9906,
+     "f1_separa": 0.9378,
+     "bawah": 0.9148,
+     "atas": 0.9607,
+     "n_sah": 1000
+    },
+    "bertipe:semua|*": {
+     "f1": 0.9804,
+     "p": 0.9701,
+     "r": 0.991,
+     "f1_separa": 0.9804,
+     "bawah": 0.9733,
+     "atas": 0.9868,
+     "n_sah": 1000
+    },
+    "bertipe:semua|MY_NRIC": {
+     "f1": 0.9929,
+     "p": 0.9953,
+     "r": 0.9906,
+     "f1_separa": 0.9929,
+     "bawah": 0.9841,
+     "atas": 1.0,
+     "n_sah": 1000
+    },
+    "bertipe:semua|MY_SSM": {
+     "f1": 0.9431,
+     "p": 0.9107,
+     "r": 0.9779,
+     "f1_separa": 0.9431,
+     "bawah": 0.922,
+     "atas": 0.9626,
+     "n_sah": 1000
+    },
+    "bertipe:semua|MY_PHONE": {
+     "f1": 1.0,
+     "p": 1.0,
+     "r": 1.0,
+     "f1_separa": 1.0,
+     "bawah": 1.0,
+     "atas": 1.0,
+     "n_sah": 1000
+    },
+    "kategori": {
+     "b": {
+      "n": 162,
+      "kena": 162
+     },
+     "c": {
+      "n": 191,
+      "kena": 191
+     },
+     "d": {
+      "n": 396,
+      "kena": 395
+     },
+     "e": {
+      "n": 61,
+      "kena": 0
+     }
+    }
+   },
+   "meddies": {
+    "U1:semua|*": {
+     "f1": 0.452,
+     "p": 0.306,
+     "r": 0.8644,
+     "f1_separa": 0.5452,
+     "bawah": 0.4239,
+     "atas": 0.48,
+     "n_sah": 1000,
+     "delta_mypii": 0.529,
+     "delta_ci": {
+      "bawah": 0.5032,
+      "atas": 0.5564,
+      "n_sah": 1000
+     }
+    },
+    "U1:semua|ID": {
+     "f1": 0.3183,
+     "p": 0.1991,
+     "r": 0.7934,
+     "f1_separa": 0.4358,
+     "bawah": 0.29,
+     "atas": 0.3463,
+     "n_sah": 1000,
+     "delta_mypii": 0.6473,
+     "delta_ci": {
+      "bawah": 0.6197,
+      "atas": 0.6755,
+      "n_sah": 1000
+     }
+    },
+    "U1:semua|TEL": {
+     "f1": 0.784,
+     "p": 0.6673,
+     "r": 0.9501,
+     "f1_separa": 0.8212,
+     "bawah": 0.7519,
+     "atas": 0.8144,
+     "n_sah": 1000,
+     "delta_mypii": 0.216,
+     "delta_ci": {
+      "bawah": 0.1856,
+      "atas": 0.2481,
+      "n_sah": 1000
+     }
+    },
+    "U1:bahasa": {
+     "bahasa:en": 0.4158,
+     "bahasa:manglish": 0.5137,
+     "bahasa:ms": 0.4304
+    },
+    "NRIC_ketat:semua|N": {
+     "f1": 0.1659,
+     "p": 0.0937,
+     "r": 0.723,
+     "f1_separa": 0.2666,
+     "bawah": 0.1431,
+     "atas": 0.19,
+     "n_sah": 1000,
+     "delta_mypii": 0.7719,
+     "delta_ci": {
+      "bawah": 0.743,
+      "atas": 0.7989,
+      "n_sah": 1000
+     }
+    },
+    "kategori": {
+     "b": {
+      "n": 162,
+      "kena": 162
+     },
+     "c": {
+      "n": 191,
+      "kena": 187
+     },
+     "d": {
+      "n": 396,
+      "kena": 388
+     },
+     "e": {
+      "n": 61,
+      "kena": 61
+     }
+    }
+   },
+   "gliner": {
+    "U1:semua|*": {
+     "f1": 0.6527,
+     "p": 0.7467,
+     "r": 0.5797,
+     "f1_separa": 0.6667,
+     "bawah": 0.6309,
+     "atas": 0.6745,
+     "n_sah": 1000,
+     "delta_mypii": 0.3283,
+     "delta_ci": {
+      "bawah": 0.3071,
+      "atas": 0.3501,
+      "n_sah": 1000
+     }
+    },
+    "U1:semua|ID": {
+     "f1": 0.3524,
+     "p": 0.6994,
+     "r": 0.2355,
+     "f1_separa": 0.3864,
+     "bawah": 0.3063,
+     "atas": 0.4011,
+     "n_sah": 1000,
+     "delta_mypii": 0.6132,
+     "delta_ci": {
+      "bawah": 0.5634,
+      "atas": 0.6617,
+      "n_sah": 1000
+     }
+    },
+    "U1:semua|TEL": {
+     "f1": 0.8627,
+     "p": 0.7615,
+     "r": 0.995,
+     "f1_separa": 0.8627,
+     "bawah": 0.8387,
+     "atas": 0.8867,
+     "n_sah": 1000,
+     "delta_mypii": 0.1373,
+     "delta_ci": {
+      "bawah": 0.1133,
+      "atas": 0.1613,
+      "n_sah": 1000
+     }
+    },
+    "U1:bahasa": {
+     "bahasa:en": 0.6127,
+     "bahasa:manglish": 0.677,
+     "bahasa:ms": 0.6622
+    },
+    "NRIC_ketat:semua|N": {
+     "f1": 0.2576,
+     "p": 0.4634,
+     "r": 0.1784,
+     "f1_separa": 0.2983,
+     "bawah": 0.1875,
+     "atas": 0.3213,
+     "n_sah": 1000,
+     "delta_mypii": 0.6802,
+     "delta_ci": {
+      "bawah": 0.6142,
+      "atas": 0.7518,
+      "n_sah": 1000
+     }
+    },
+    "bertipe:semua|*": {
+     "f1": 0.6399,
+     "p": 0.7322,
+     "r": 0.5684,
+     "f1_separa": 0.6527,
+     "bawah": 0.6182,
+     "atas": 0.6618,
+     "n_sah": 1000,
+     "delta_mypii": 0.3405,
+     "delta_ci": {
+      "bawah": 0.3198,
+      "atas": 0.362,
+      "n_sah": 1000
+     }
+    },
+    "bertipe:semua|MY_NRIC": {
+     "f1": 0.2179,
+     "p": 0.6364,
+     "r": 0.1315,
+     "f1_separa": 0.2568,
+     "bawah": 0.1513,
+     "atas": 0.2822,
+     "n_sah": 1000,
+     "delta_mypii": 0.775,
+     "delta_ci": {
+      "bawah": 0.7076,
+      "atas": 0.841,
+      "n_sah": 1000
+     }
+    },
+    "bertipe:semua|MY_SSM": {
+     "f1": 0.3897,
+     "p": 0.6387,
+     "r": 0.2804,
+     "f1_separa": 0.4154,
+     "bawah": 0.3274,
+     "atas": 0.4513,
+     "n_sah": 1000,
+     "delta_mypii": 0.5534,
+     "delta_ci": {
+      "bawah": 0.4922,
+      "atas": 0.6171,
+      "n_sah": 1000
+     }
+    },
+    "bertipe:semua|MY_PHONE": {
+     "f1": 0.8627,
+     "p": 0.7615,
+     "r": 0.995,
+     "f1_separa": 0.8627,
+     "bawah": 0.8387,
+     "atas": 0.8867,
+     "n_sah": 1000,
+     "delta_mypii": 0.1373,
+     "delta_ci": {
+      "bawah": 0.1133,
+      "atas": 0.1613,
+      "n_sah": 1000
+     }
+    },
+    "kategori": {
+     "b": {
+      "n": 162,
+      "kena": 46
+     },
+     "c": {
+      "n": 191,
+      "kena": 189
+     },
+     "d": {
+      "n": 396,
+      "kena": 217
+     },
+     "e": {
+      "n": 61,
+      "kena": 4
+     }
+    }
+   }
+  }
+ },
+ {
+  "split": "ujian2",
+  "dokumen": 1000,
+  "sistem": {
+   "mypii": {
+    "U1:semua|*": {
+     "f1": 0.9403,
+     "p": 0.9827,
+     "r": 0.9013,
+     "f1_separa": 0.9403,
+     "bawah": 0.9281,
+     "atas": 0.9515,
+     "n_sah": 1000
+    },
+    "U1:semua|ID": {
+     "f1": 0.8956,
+     "p": 0.9708,
+     "r": 0.8313,
+     "f1_separa": 0.8956,
+     "bawah": 0.873,
+     "atas": 0.9158,
+     "n_sah": 1000
+    },
+    "U1:semua|TEL": {
+     "f1": 0.9985,
+     "p": 0.9971,
+     "r": 1.0,
+     "f1_separa": 0.9985,
+     "bawah": 0.9954,
+     "atas": 1.0,
+     "n_sah": 1000
+    },
+    "U1:bahasa": {
+     "bahasa:en": 0.945,
+     "bahasa:manglish": 0.9007,
+     "bahasa:ms": 0.9609
+    },
+    "NRIC_ketat:semua|N": {
+     "f1": 0.8968,
+     "p": 0.9522,
+     "r": 0.8475,
+     "f1_separa": 0.8968,
+     "bawah": 0.8675,
+     "atas": 0.9225,
+     "n_sah": 1000
+    },
+    "bertipe:semua|*": {
+     "f1": 0.9403,
+     "p": 0.9827,
+     "r": 0.9013,
+     "f1_separa": 0.9403,
+     "bawah": 0.9281,
+     "atas": 0.9515,
+     "n_sah": 1000
+    },
+    "bertipe:semua|MY_NRIC": {
+     "f1": 0.9157,
+     "p": 0.9958,
+     "r": 0.8475,
+     "f1_separa": 0.9157,
+     "bawah": 0.8872,
+     "atas": 0.9391,
+     "n_sah": 1000
+    },
+    "bertipe:semua|MY_SSM": {
+     "f1": 0.8672,
+     "p": 0.9357,
+     "r": 0.8081,
+     "f1_separa": 0.8672,
+     "bawah": 0.8289,
+     "atas": 0.8997,
+     "n_sah": 1000
+    },
+    "bertipe:semua|MY_PHONE": {
+     "f1": 0.9985,
+     "p": 0.9971,
+     "r": 1.0,
+     "f1_separa": 0.9985,
+     "bawah": 0.9954,
+     "atas": 1.0,
+     "n_sah": 1000
+    }
+   },
+   "meddies": {
+    "U1:semua|*": {
+     "f1": 0.4501,
+     "p": 0.2979,
+     "r": 0.9208,
+     "f1_separa": 0.4799,
+     "bawah": 0.4245,
+     "atas": 0.4775,
+     "n_sah": 1000,
+     "delta_mypii": 0.4902,
+     "delta_ci": {
+      "bawah": 0.4625,
+      "atas": 0.5179,
+      "n_sah": 1000
+     }
+    },
+    "U1:semua|ID": {
+     "f1": 0.3491,
+     "p": 0.2183,
+     "r": 0.8708,
+     "f1_separa": 0.3883,
+     "bawah": 0.3221,
+     "atas": 0.3768,
+     "n_sah": 1000,
+     "delta_mypii": 0.5465,
+     "delta_ci": {
+      "bawah": 0.5131,
+      "atas": 0.5783,
+      "n_sah": 1000
+     }
+    },
+    "U1:semua|TEL": {
+     "f1": 0.7012,
+     "p": 0.5425,
+     "r": 0.9912,
+     "f1_separa": 0.7075,
+     "bawah": 0.6667,
+     "atas": 0.7335,
+     "n_sah": 1000,
+     "delta_mypii": 0.2973,
+     "delta_ci": {
+      "bawah": 0.2641,
+      "atas": 0.3323,
+      "n_sah": 1000
+     }
+    },
+    "U1:bahasa": {
+     "bahasa:en": 0.4376,
+     "bahasa:manglish": 0.4433,
+     "bahasa:ms": 0.4626
+    },
+    "NRIC_ketat:semua|N": {
+     "f1": 0.2426,
+     "p": 0.1412,
+     "r": 0.8617,
+     "f1_separa": 0.2706,
+     "bawah": 0.2175,
+     "atas": 0.2671,
+     "n_sah": 1000,
+     "delta_mypii": 0.6542,
+     "delta_ci": {
+      "bawah": 0.6207,
+      "atas": 0.6897,
+      "n_sah": 1000
+     }
+    }
+   },
+   "gliner": {
+    "U1:semua|*": {
+     "f1": 0.5553,
+     "p": 0.609,
+     "r": 0.5104,
+     "f1_separa": 0.5779,
+     "bawah": 0.5282,
+     "atas": 0.5815,
+     "n_sah": 1000,
+     "delta_mypii": 0.385,
+     "delta_ci": {
+      "bawah": 0.357,
+      "atas": 0.4132,
+      "n_sah": 1000
+     }
+    },
+    "U1:semua|ID": {
+     "f1": 0.277,
+     "p": 0.7321,
+     "r": 0.1708,
+     "f1_separa": 0.3311,
+     "bawah": 0.2309,
+     "atas": 0.3232,
+     "n_sah": 1000,
+     "delta_mypii": 0.6186,
+     "delta_ci": {
+      "bawah": 0.5678,
+      "atas": 0.6708,
+      "n_sah": 1000
+     }
+    },
+    "U1:semua|TEL": {
+     "f1": 0.735,
+     "p": 0.5851,
+     "r": 0.9883,
+     "f1_separa": 0.7372,
+     "bawah": 0.7018,
+     "atas": 0.7662,
+     "n_sah": 1000,
+     "delta_mypii": 0.2635,
+     "delta_ci": {
+      "bawah": 0.2324,
+      "atas": 0.2971,
+      "n_sah": 1000
+     }
+    },
+    "U1:bahasa": {
+     "bahasa:en": 0.5266,
+     "bahasa:manglish": 0.5095,
+     "bahasa:ms": 0.6015
+    },
+    "NRIC_ketat:semua|N": {
+     "f1": 0.1455,
+     "p": 0.5,
+     "r": 0.0851,
+     "f1_separa": 0.2061,
+     "bawah": 0.0933,
+     "atas": 0.1947,
+     "n_sah": 1000,
+     "delta_mypii": 0.7513,
+     "delta_ci": {
+      "bawah": 0.6882,
+      "atas": 0.8154,
+      "n_sah": 1000
+     }
+    },
+    "bertipe:semua|*": {
+     "f1": 0.5527,
+     "p": 0.6061,
+     "r": 0.5079,
+     "f1_separa": 0.5686,
+     "bawah": 0.5254,
+     "atas": 0.5793,
+     "n_sah": 1000,
+     "delta_mypii": 0.3876,
+     "delta_ci": {
+      "bawah": 0.3588,
+      "atas": 0.4153,
+      "n_sah": 1000
+     }
+    },
+    "bertipe:semua|MY_NRIC": {
+     "f1": 0.1419,
+     "p": 0.7857,
+     "r": 0.078,
+     "f1_separa": 0.1742,
+     "bawah": 0.0873,
+     "atas": 0.1967,
+     "n_sah": 1000,
+     "delta_mypii": 0.7738,
+     "delta_ci": {
+      "bawah": 0.7084,
+      "atas": 0.8398,
+      "n_sah": 1000
+     }
+    },
+    "bertipe:semua|MY_SSM": {
+     "f1": 0.4113,
+     "p": 0.6905,
+     "r": 0.2929,
+     "f1_separa": 0.4539,
+     "bawah": 0.3368,
+     "atas": 0.4843,
+     "n_sah": 1000,
+     "delta_mypii": 0.4559,
+     "delta_ci": {
+      "bawah": 0.3688,
+      "atas": 0.5354,
+      "n_sah": 1000
+     }
+    },
+    "bertipe:semua|MY_PHONE": {
+     "f1": 0.735,
+     "p": 0.5851,
+     "r": 0.9883,
+     "f1_separa": 0.7372,
+     "bawah": 0.7018,
+     "atas": 0.7662,
+     "n_sah": 1000,
+     "delta_mypii": 0.2635,
+     "delta_ci": {
+      "bawah": 0.2324,
+      "atas": 0.2971,
+      "n_sah": 1000
+     }
+    }
+   }
+  }
+ },
+ {
+  "split": "ujian",
+  "dokumen": 1000,
+  "sistem": {
+   "mypii": {
+    "U1:semua|*": {
+     "f1": 0.8702,
+     "p": 1.0,
+     "r": 0.7703,
+     "f1_separa": 0.8702,
+     "bawah": 0.8574,
+     "atas": 0.8834,
+     "n_sah": 1000
+    },
+    "U1:semua|ID": {
+     "f1": 0.7476,
+     "p": 1.0,
+     "r": 0.597,
+     "f1_separa": 0.7476,
+     "bawah": 0.7181,
+     "atas": 0.7787,
+     "n_sah": 1000
+    },
+    "U1:semua|TEL": {
+     "f1": 1.0,
+     "p": 1.0,
+     "r": 1.0,
+     "f1_separa": 1.0,
+     "bawah": 1.0,
+     "atas": 1.0,
+     "n_sah": 1000
+    },
+    "U1:bahasa": {
+     "bahasa:campur": 0.8702
+    },
+    "NRIC_ketat:semua|N": {
+     "f1": 0.7798,
+     "p": 1.0,
+     "r": 0.639,
+     "f1_separa": 0.7798,
+     "bawah": 0.7434,
+     "atas": 0.816,
+     "n_sah": 1000
+    },
+    "bertipe:semua|*": {
+     "f1": 0.8681,
+     "p": 0.9975,
+     "r": 0.7684,
+     "f1_separa": 0.8681,
+     "bawah": 0.8546,
+     "atas": 0.8816,
+     "n_sah": 1000
+    },
+    "bertipe:semua|MY_NRIC": {
+     "f1": 0.7772,
+     "p": 0.9917,
+     "r": 0.639,
+     "f1_separa": 0.7772,
+     "bawah": 0.7401,
+     "atas": 0.8147,
+     "n_sah": 1000
+    },
+    "bertipe:semua|MY_SSM": {
+     "f1": 0.6824,
+     "p": 1.0,
+     "r": 0.5179,
+     "f1_separa": 0.6824,
+     "bawah": 0.6254,
+     "atas": 0.7333,
+     "n_sah": 1000
+    },
+    "bertipe:semua|MY_PHONE": {
+     "f1": 1.0,
+     "p": 1.0,
+     "r": 1.0,
+     "f1_separa": 1.0,
+     "bawah": 1.0,
+     "atas": 1.0,
+     "n_sah": 1000
+    }
+   },
+   "meddies": {
+    "U1:semua|*": {
+     "f1": 0.7538,
+     "p": 0.6121,
+     "r": 0.9809,
+     "f1_separa": 0.7575,
+     "bawah": 0.7353,
+     "atas": 0.7708,
+     "n_sah": 1000,
+     "delta_mypii": 0.1164,
+     "delta_ci": {
+      "bawah": 0.095,
+      "atas": 0.1396,
+      "n_sah": 1000
+     }
+    },
+    "U1:semua|ID": {
+     "f1": 0.6396,
+     "p": 0.4759,
+     "r": 0.9749,
+     "f1_separa": 0.6451,
+     "bawah": 0.6179,
+     "atas": 0.6613,
+     "n_sah": 1000,
+     "delta_mypii": 0.108,
+     "delta_ci": {
+      "bawah": 0.0702,
+      "atas": 0.1461,
+      "n_sah": 1000
+     }
+    },
+    "U1:semua|TEL": {
+     "f1": 0.9835,
+     "p": 0.9781,
+     "r": 0.9889,
+     "f1_separa": 0.9835,
+     "bawah": 0.9749,
+     "atas": 0.9912,
+     "n_sah": 1000,
+     "delta_mypii": 0.0165,
+     "delta_ci": {
+      "bawah": 0.0088,
+      "atas": 0.0251,
+      "n_sah": 1000
+     }
+    },
+    "U1:bahasa": {
+     "bahasa:campur": 0.7538
+    },
+    "NRIC_ketat:semua|N": {
+     "f1": 0.5286,
+     "p": 0.3625,
+     "r": 0.9759,
+     "f1_separa": 0.5358,
+     "bawah": 0.4992,
+     "atas": 0.5582,
+     "n_sah": 1000,
+     "delta_mypii": 0.2512,
+     "delta_ci": {
+      "bawah": 0.2054,
+      "atas": 0.301,
+      "n_sah": 1000
+     }
+    }
+   },
+   "gliner": {
+    "U1:semua|*": {
+     "f1": 0.6987,
+     "p": 0.8882,
+     "r": 0.5758,
+     "f1_separa": 0.7843,
+     "bawah": 0.675,
+     "atas": 0.7229,
+     "n_sah": 1000,
+     "delta_mypii": 0.1715,
+     "delta_ci": {
+      "bawah": 0.1441,
+      "atas": 0.1987,
+      "n_sah": 1000
+     }
+    },
+    "U1:semua|ID": {
+     "f1": 0.3709,
+     "p": 0.674,
+     "r": 0.2559,
+     "f1_separa": 0.5503,
+     "bawah": 0.3275,
+     "atas": 0.4183,
+     "n_sah": 1000,
+     "delta_mypii": 0.3767,
+     "delta_ci": {
+      "bawah": 0.3201,
+      "atas": 0.4315,
+      "n_sah": 1000
+     }
+    },
+    "U1:semua|TEL": {
+     "f1": 0.9978,
+     "p": 0.9956,
+     "r": 1.0,
+     "f1_separa": 0.9978,
+     "bawah": 0.9943,
+     "atas": 1.0,
+     "n_sah": 1000,
+     "delta_mypii": 0.0022,
+     "delta_ci": {
+      "bawah": 0.0,
+      "atas": 0.0057,
+      "n_sah": 1000
+     }
+    },
+    "U1:bahasa": {
+     "bahasa:campur": 0.6987
+    },
+    "NRIC_ketat:semua|N": {
+     "f1": 0.2534,
+     "p": 0.4676,
+     "r": 0.1738,
+     "f1_separa": 0.5419,
+     "bawah": 0.1975,
+     "atas": 0.3053,
+     "n_sah": 1000,
+     "delta_mypii": 0.5264,
+     "delta_ci": {
+      "bawah": 0.4729,
+      "atas": 0.5827,
+      "n_sah": 1000
+     }
+    },
+    "bertipe:semua|*": {
+     "f1": 0.6987,
+     "p": 0.8882,
+     "r": 0.5758,
+     "f1_separa": 0.7577,
+     "bawah": 0.675,
+     "atas": 0.7229,
+     "n_sah": 1000,
+     "delta_mypii": 0.1694,
+     "delta_ci": {
+      "bawah": 0.1406,
+      "atas": 0.197,
+      "n_sah": 1000
+     }
+    },
+    "bertipe:semua|MY_NRIC": {
+     "f1": 0.2653,
+     "p": 0.5603,
+     "r": 0.1738,
+     "f1_separa": 0.4735,
+     "bawah": 0.2078,
+     "atas": 0.3208,
+     "n_sah": 1000,
+     "delta_mypii": 0.5119,
+     "delta_ci": {
+      "bawah": 0.4601,
+      "atas": 0.5707,
+      "n_sah": 1000
+     }
+    },
+    "bertipe:semua|MY_SSM": {
+     "f1": 0.5254,
+     "p": 0.7928,
+     "r": 0.3929,
+     "f1_separa": 0.5254,
+     "bawah": 0.4587,
+     "atas": 0.5889,
+     "n_sah": 1000,
+     "delta_mypii": 0.157,
+     "delta_ci": {
+      "bawah": 0.0564,
+      "atas": 0.2499,
+      "n_sah": 1000
+     }
+    },
+    "bertipe:semua|MY_PHONE": {
+     "f1": 0.9978,
+     "p": 0.9956,
+     "r": 1.0,
+     "f1_separa": 0.9978,
+     "bawah": 0.9943,
+     "atas": 1.0,
+     "n_sah": 1000,
+     "delta_mypii": 0.0022,
+     "delta_ci": {
+      "bawah": 0.0,
+      "atas": 0.0057,
+      "n_sah": 1000
+     }
+    }
+   }
+  }
+ }
+]

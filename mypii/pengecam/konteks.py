@@ -93,27 +93,49 @@ class KonteksFrasa:
             sebelum = sebelum.lower().split()
             tetingkap = _ocr(" ".join(sebelum[-k["tetingkap_perkataan"]:]) + " " + tambahan, peta)
             jumpa, tolak = _terdekat(positif, tetingkap), _terdekat(negatif, tetingkap)
+            frasa = "tiada"
             if tolak and (not jumpa or tolak.end() > jumpa.end()):
+                frasa = "negatif"
                 r.score = min(r.score, k["skor_negatif"])
             elif jumpa:
+                frasa = "positif"
                 r.score = min(1.0, max(r.score + k["faktor"], k["skor_min"]))
                 if r.analysis_explanation:
                     r.analysis_explanation.set_supportive_context_word(jumpa.group(0))
                     r.analysis_explanation.set_improved_score(r.score)
             r.recognition_metadata[RecognizerResult.IS_SCORE_ENHANCED_BY_CONTEXT_KEY] = True
-            _gabung_pengelas(text, r, k["skor_negatif"], k["skor_min"])
+            _gabung_pengelas(text, r, k["skor_negatif"], k["skor_min"], frasa)
         return raw_recognizer_results
 
 
-def _gabung_pengelas(text: str, r: RecognizerResult, skor_negatif: float, skor_min: float) -> None:
-    """P11 (PELAN-V2): skor pengelas konteks tempatan digabung dengan keputusan frasa ikut config `konteks.gabung`.
-    tapis = p < ambang → skor_negatif (frasa kekal memutuskan yang lain); ganti = pengelas memutuskan (≥ ambang → ≥ skor_min)."""
+def _gabung_pengelas(text: str, r: RecognizerResult, skor_negatif: float, skor_min: float, frasa: str = "tiada") -> None:
+    """Skor pengelas konteks tempatan digabung dengan keputusan frasa ikut config `konteks.gabung.cara`:
+    tapis (P11) = p < ambang → skor_negatif, frasa memutuskan yang lain; ganti (P11, v2 = 1.0.x) = pengelas memutuskan SEMUA calon;
+    frasa (v2.1, PELAN-V21) = frasa didahulukan, pengelas memutuskan baki (`_simpan_frasa`). Keputusan → ≥ skor_min atau ≤ skor_negatif."""
     p = kebarangkalian(text, r.start, r.end, r.entity_type)
     if p is None:
         return
     g = konfig.utama()["konteks"]["gabung"]
+    if g["cara"] == "frasa":
+        r.score = max(r.score, skor_min) if _simpan_frasa(r, p, frasa, g) else min(r.score, skor_negatif)
+        return
     ambang = g["ambang"][r.entity_type]
     if p < ambang:
         r.score = min(r.score, skor_negatif)
     elif g["cara"] == "ganti":
         r.score = max(r.score, skor_min)
+
+
+def _simpan_frasa(r: RecognizerResult, p: float, frasa: str, g: dict) -> bool:
+    """v2.1: frasa positif terdekat → simpan kecuali pengelas hampir pasti bukan PII (p < `ambang_positif`); frasa negatif lebih dekat →
+    simpan HANYA calon disahkan struktur dengan p ≥ `ambang_negatif`; tiada frasa → calon tanpa pengesahan struktur (SSM format lama)
+    dibuang bila `tanpa_sah_perlu_frasa`, yang lain p ≥ `ambang_corak[<nama corak>]` atau `ambang[<entiti>]`."""
+    e = r.analysis_explanation
+    sah = bool(e and e.validation_result)
+    if frasa == "positif":
+        return p >= g["ambang_positif"]
+    if frasa == "negatif":
+        return sah and p >= g["ambang_negatif"]
+    if not sah and g["tanpa_sah_perlu_frasa"]:
+        return False
+    return p >= g.get("ambang_corak", {}).get(e.pattern_name if e else None, g["ambang"][r.entity_type])

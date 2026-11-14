@@ -1,0 +1,8 @@
+{
+ "model": [
+  "Meddies/meddies-pii-v2",
+  "0e5361e4d47ba4a92e56f7635a65daac54fec791"
+ ],
+ "peranti": "cuda",
+ "torch": "2.14.1+cu130"
+}

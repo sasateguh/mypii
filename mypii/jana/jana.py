@@ -293,8 +293,8 @@ def _templat_v3(folder_senarai: list[str]) -> dict[str, list[tuple[str, str]]]:
 
 
 def jana_v3(keluar: Path | None = None) -> dict:
-    """latih3 + dev3 (benih + `benih_tambah.latih3`, templat `jana_v3.templat`) dan, bila templat + nama ujian3 wujud, ujian3 (benih +
-    `benih_tambah.ujian3`). CINCANGAN3.json = latih3/dev3; KUNCI3.json = ujian3 (tidak ditulis semula senyap — ADR-003)."""
+    """latih3 + dev3 (benih + `benih_tambah.latih3`, templat `jana_v3.templat`) dan, bila templat + nama wujud, ujian3 / ujian4 (benih +
+    `benih_tambah.<split>`). CINCANGAN3.json = latih3/dev3; KUNCI3/KUNCI4.json = ujian3/ujian4 (tidak ditulis semula senyap — ADR-003)."""
     k, kj = konfig.utama()["jana_v3"], konfig.utama()["jana"]
     keluar = keluar or AKAR / k["keluar"]
     nama = gabung_nama(yaml.safe_load((AKAR / "data/nama.yaml").read_text(encoding="utf-8")), AKAR / kj["nama_tambahan"])
@@ -305,12 +305,17 @@ def jana_v3(keluar: Path | None = None) -> dict:
     keluar.mkdir(parents=True, exist_ok=True)
     ringkasan = {"latih3": _tulis(keluar / "latih3.jsonl", biasa[n_dev:]), "dev3": _tulis(keluar / "dev3.jsonl", biasa[:n_dev])}
     (keluar / "CINCANGAN3.json").write_text(json.dumps(ringkasan, indent=2) + "\n")
-    t3, fail_nama = _templat(k["templat_ujian3"]), AKAR / k["nama_ujian3"]
-    if t3 and fail_nama.exists():
-        nama3 = yaml.safe_load(fail_nama.read_text(encoding="utf-8"))
-        dok = _dokumen_v3(k["bilangan"]["ujian3"], random.Random(kj["benih"] + k["benih_tambah"]["ujian3"]), t3, nama3, "mypii-u3")
-        ringkasan["ujian3"] = _tulis(keluar / "ujian3.jsonl", dok)
-        _kunci(keluar / "KUNCI3.json", "ujian3", ringkasan["ujian3"])
+    # ujian3 (PELAN-V2) dan ujian4 (PELAN-V21, protokol sama, benih + `benih_tambah.ujian4`): setiap satu hanya bila templat + nama
+    # wujud; rng berasingan, jadi menambah ujian4 tidak mengubah bait latih3/dev3/ujian3. KUNCI<n>.json tidak ditulis semula senyap.
+    for u in ("ujian3", "ujian4"):
+        if f"templat_{u}" not in k:
+            continue
+        t, fail_nama = _templat(k[f"templat_{u}"]), AKAR / k[f"nama_{u}"]
+        if t and fail_nama.exists():
+            nama_u, n = yaml.safe_load(fail_nama.read_text(encoding="utf-8")), u.removeprefix("ujian")
+            dok = _dokumen_v3(k["bilangan"][u], random.Random(kj["benih"] + k["benih_tambah"][u]), t, nama_u, f"mypii-u{n}")
+            ringkasan[u] = _tulis(keluar / f"{u}.jsonl", dok)
+            _kunci(keluar / f"KUNCI{n}.json", u, ringkasan[u])
     return ringkasan
 
 

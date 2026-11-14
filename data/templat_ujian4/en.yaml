@@ -1,0 +1,160 @@
+# Dijana 2026-11-14 oleh `python -m mypii.jana.templat_llm --sasaran ujian4` (model: modal/Qwen/Qwen3.8-27B-FP8). JANGAN sunting tangan.
+# DIMETERAI (PELAN-V2 P6): jangan buka, jangan sunting — gerbang menolak sebarang perubahan.
+genre:
+  jemaah_umrah:
+  - Please verify your passport expiry before {TARIKH}. Contact {SYARIKAT} at {MY_PHONE} for visa status updates. Do not bring liquids over 100ml.
+  - 'Receipt No: {NEG_INVOIS}. Payment received for Umrah package. Ref: {NEG12_TANPA}. Thank you for choosing {SYARIKAT}.'
+  - 'Agent: {SYARIKAT}, Reg No: {MY_SSM_LLP}. Office: {BANDAR}. Contact: {MY_PHONE_BS} for group bookings in East Malaysia.'
+  - 'Scanned form check: IC {OCR_MY_NRIC}. Name: {NAMA}. Address: {BANDAR}. Please confirm if the last digit is 3 or 8.'
+  - 'Company Reg: {OCR_MY_SSM}. Name: {SYARIKAT}. Location: {BANDAR}. Note: SSM number may have OCR errors, please verify manually.'
+  rider_ehailing:
+  - Hi {NAMA}, your rider profile is pending. Please upload a clear photo of your MyKad front and back. Ensure the number {OCR_MY_NRIC} is fully visible and not blurred for verification.
+  - 'To activate your delivery account with {SYARIKAT}, please complete the form below.
+
+    Name: {NAMA}
+
+    Phone: {MY_PHONE}
+
+    Location: {BANDAR}
+
+    Please submit by {TARIKH}.'
+  - 'Payment processed to {NEG_AKAUN}. Reference: {NEG}. Thank you for riding with us.
+
+    Support: {NEG_TEL} (24/7)'
+  - Dear {NAMA}, we received your application for the partner driver program. Your MyKad number {MY_NRIC} and phone {MY_PHONE} have been recorded. Please check your email for the next steps.
+  - 'Landline verification for {SYARIKAT} hub in {BANDAR}.
+
+    Contact: {MY_PHONE_BS}
+
+    Office Ref: {NEG_KOD}
+
+    Please call during business hours.'
+  amaran_penipuan:
+  - 'URGENT: Your {SYARIKAT} account is locked. Verify NRIC {MY_NRIC} via link now or funds will be frozen. Do not share OTP.'
+  - Halo {NAMA}, your parcel from {SYARIKAT} in {BANDAR} is held. Pay RM15 to {MY_PHONE} to release. Tracking {NEG_INVOIS}.
+  - 'SMS: Your {SYARIKAT} delivery failed. Call {NEG_TEL} to reschedule. Ref {NEG}.'
+  - Dear {NAMA}, your {SYARIKAT} membership ID {NEG12_TANPA} is pending. Click here to activate.
+  - 'Scam alert: Unknown number {MY_PHONE_BS} claims to be {SYARIKAT} HQ. Asks for OTP. Do not respond.'
+  mangsa_banjir:
+  - 'FORM A - NARROW COLUMN
+
+    Name: {NAMA}
+
+    NRIC:
+
+    {PATAH_MY_NRIC}
+
+    Phone:
+
+    {PATAH_MY_PHONE}
+
+    Town: {BANDAR}
+
+    Date: {TARIKH}
+
+    Ref: {NEG}'
+  hospital_wad:
+  - 'Visitor Pass Form.
+
+    Name: {NAMA}
+
+    NRIC: {PATAH_MY_NRIC}
+
+    Contact: {MY_PHONE}
+
+    Ward: 3B, Bed 07
+
+    Purpose: Family visit. Valid for 2 hours.'
+  - 'Discharge Summary Excerpt.
+
+    Ref No: {NEG}
+
+    Patient: {NAMA}
+
+    Discharge Date: {TARIKH}
+
+    Attending Physician: Dr. {NAMA}
+
+    Notes: Patient advised to rest. Follow up in 2 weeks. No complications.'
+  - 'Admission Form (Scanned).
+
+    Patient Name: {NAMA}
+
+    MyKad: {OCR_MY_NRIC}
+
+    Emergency Contact: {OCR_MY_PHONE}
+
+    Date of Admission: {TARIKH}
+
+    Ward Allocation: 5A'
+  - 'Transfer Request.
+
+    From: ICU Bed 2
+
+    To: Ward 2, Room 204
+
+    Patient: {NAMA}
+
+    Date: {TARIKH}
+
+    Reason: Stable vitals, ready for step-down.
+
+    Approver: {NAMA}'
+  - 'Referral Letter.
+
+    To: Specialist Clinic, {BANDAR}
+
+    From: General Hospital, {BANDAR}
+
+    Re: {NAMA}
+
+    Date: {TARIKH}
+
+    Contact: {MY_PHONE_BS}
+
+    Notes: Please review for chronic back pain. Attach previous X-ray.'
+  biasiswa:
+  - 'Reminder: Scholarship disbursement for {NAMA} is pending.
+
+    Ref: {NEG}
+
+    Sponsor: {SYARIKAT}
+
+    Date: {TARIKH}'
+  - 'Follow-up Letter
+
+    To: {NAMA}
+
+    From: {SYARIKAT}
+
+    Re: Bond Agreement Ref {NEG_INVOIS}
+
+    Please confirm receipt by {TARIKH}.'
+  - 'Acknowledgement of Receipt
+
+    Received from: {NAMA}
+
+    Doc Ref: {NEG_TARIKH}
+
+    Status: Verified
+
+    Sponsor: {SYARIKAT}'
+  beli_rumah:
+  - 'Booking Form: Property Type: 2BR at {SYARIKAT} Heights, {BANDAR}. Buyer: {NAMA}. Booking Fee: RM5,000. Ref: {NEG}. Date: {TARIKH}.'
+  - 'NOTICE OF PROGRESS BILLING. Invoice No: {NEG_INVOIS}. Project: {SYARIKAT} Residences. Please remit 10% to A/C {NEG_AKAUN} by {TARIKH}.'
+  - 'Payment Received: {NEG_INVOIS}. Amount: RM100,000. Buyer: {NAMA}. Tel: {PATAH_MY_PHONE}. Ref: {NEG}. Status: Cleared.'
+  pekerja_asing:
+  - 'RE: Work permit extension for {NAMA}. Please submit the updated IC copy (Ref: {NEG}) and proof of levy payment by {TARIKH}. Contact HR at {MY_PHONE} if you have questions about the quota.'
+  - 'REMINDER: Your annual employer levy for {SYARIKAT} is due on {TARIKH}. Non-payment may result in a fine. Please settle via online banking to the designated government account.'
+  - 'Dear {NAMA},
+
+    Your work permit for {SYARIKAT} has been approved. Please collect your pass from the Immigration Office in {BANDAR} on {TARIKH}. Bring your original IC and passport. Contact us at {MY_PHONE_BS} for any issues.'
+  - 'URGENT: Missing Document
+
+    Worker: {NAMA}
+
+    NRIC: {MY_NRIC}
+
+    Phone: {MY_PHONE}
+
+    Please submit the missing police clearance letter by {TARIKH} to avoid permit cancellation. Contact {SYARIKAT} HR immediately.'

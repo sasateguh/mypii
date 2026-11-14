@@ -1,0 +1,14 @@
+{
+ "model": [
+  "urchade/gliner_multi_pii-v1",
+  "1fcf13e85f4eef5394e1fcd406cf2ca9ea82351d"
+ ],
+ "label": {
+  "identity card number": "MY_NRIC",
+  "registration number": "MY_SSM",
+  "phone number": "MY_PHONE"
+ },
+ "ambang": 0.5,
+ "gliner": "0.2.29",
+ "cuda": true
+}

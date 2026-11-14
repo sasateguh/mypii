@@ -1,0 +1,30 @@
+{
+ "model": [
+  "pii-engineer/PII-Engineer-Multi-NER-v2.1",
+  "efacd9242671d0300da535207d7952dc3f82f57e"
+ ],
+ "zh": [
+  "pii-engineer/PII-Engineer-Chinese-NER-v1.0",
+  "d16aa1c54f34f993b2d4c30c218ee9d712959b2d"
+ ],
+ "git": [
+  "https://github.com/gantz-ai/pii.engineer",
+  "4ff53986a53351b3a516872a557832b44b166628"
+ ],
+ "ort": "https://github.com/microsoft/onnxruntime/releases/download/v1.20.1/onnxruntime-linux-x64-1.20.1.tgz",
+ "rustc": "rustc 1.100.0 (0ef1bc386 2026-11-09)",
+ "ofset_bait_ditukar": 0,
+ "dokumen_ralat": 20,
+ "contoh_ralat": [
+  "mypii3-01126",
+  "mypii3-01914",
+  "mypii3-02752",
+  "mypii3-02950",
+  "mypii3-03857",
+  "mypii3-03744",
+  "mypii3-02016",
+  "mypii3-02361",
+  "mypii3-01569",
+  "mypii3-00795"
+ ]
+}

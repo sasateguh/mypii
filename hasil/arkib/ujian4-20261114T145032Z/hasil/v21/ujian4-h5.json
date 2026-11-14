@@ -1,0 +1,126 @@
+{
+  "_pradaftar": {
+    "blob": "67e60f08fbc7fef82cd80ac9dcf29f41b462fb9c",
+    "fail": "docs/PRA-DAFTAR.md",
+    "komit": "faf6e0ed9b8b7aafd99eb6d215c68403e4b4ca43"
+  },
+  "alfa": 0.05,
+  "benih": 2026,
+  "dokumen": 1000,
+  "hipotesis": {
+    "H5a": {
+      "atas": 0.0115,
+      "bawah": -0.0012,
+      "beza_kecil": false,
+      "delta": 0.0054,
+      "disokong": true,
+      "f1_lawan": 0.975,
+      "f1_mypii": 0.9804,
+      "kuasa": {
+        "kuasa_anggaran_ketat": 0.994,
+        "mde_ketat": 0.01,
+        "mde_longgar": 0.0081,
+        "se": 0.0032
+      },
+      "margin": 0.01,
+      "metrik": "jenis",
+      "p_bootstrap": 0.0,
+      "p_holm_bootstrap": 0.0,
+      "p_rawak": 0.036,
+      "p_rawak_bonferroni": 0.144,
+      "rawak_syarat": false,
+      "sistem": "mypii-v2"
+    },
+    "H5b": {
+      "atas": 0.1839,
+      "bawah": 0.1372,
+      "beza_kecil": false,
+      "delta": 0.1597,
+      "disokong": true,
+      "f1_lawan": 0.8207,
+      "f1_mypii": 0.9804,
+      "kuasa": {
+        "kuasa_anggaran_ketat": 1.0,
+        "mde_ketat": 0.0367,
+        "mde_longgar": 0.0296,
+        "se": 0.0119
+      },
+      "margin": 0.01,
+      "metrik": "jenis",
+      "p_bootstrap": 0.0,
+      "p_holm_bootstrap": 0.0,
+      "p_rawak": 0.001,
+      "p_rawak_bonferroni": 0.004,
+      "rawak_syarat": false,
+      "sistem": "llm:anthropic/claude-haiku-5-5"
+    },
+    "H5c": {
+      "atas": 0.5,
+      "bawah": 0.4412,
+      "beza_kecil": false,
+      "delta": 0.47,
+      "disokong": true,
+      "f1_lawan": 0.5104,
+      "f1_mypii": 0.9804,
+      "kuasa": {
+        "kuasa_anggaran_ketat": 1.0,
+        "mde_ketat": 0.0462,
+        "mde_longgar": 0.0373,
+        "se": 0.015
+      },
+      "margin": 0.0,
+      "metrik": "u1",
+      "p_bootstrap": 0.0,
+      "p_holm_bootstrap": 0.0,
+      "p_rawak": 0.001,
+      "p_rawak_bonferroni": 0.004,
+      "rawak_syarat": true,
+      "sistem": "luar:meddies"
+    },
+    "H5d": {
+      "atas": 0.3626,
+      "bawah": 0.3028,
+      "beza_kecil": false,
+      "delta": 0.3322,
+      "disokong": true,
+      "f1_lawan": 0.6482,
+      "f1_mypii": 0.9804,
+      "kuasa": {
+        "kuasa_anggaran_ketat": 1.0,
+        "mde_ketat": 0.047,
+        "mde_longgar": 0.0379,
+        "se": 0.0153
+      },
+      "margin": 0.0,
+      "metrik": "u1",
+      "p_bootstrap": 0.0,
+      "p_holm_bootstrap": 0.0,
+      "p_rawak": 0.001,
+      "p_rawak_bonferroni": 0.004,
+      "rawak_syarat": true,
+      "sistem": "luar:gliner"
+    }
+  },
+  "k": 4,
+  "split": "ujian4",
+  "susulan": {
+    "H5a+": {
+      "atas": 0.0115,
+      "bawah": -0.0012,
+      "beza_kecil": true,
+      "delta": 0.0054,
+      "disokong": true,
+      "diuji": true,
+      "f1_lawan": 0.975,
+      "f1_mypii": 0.9804,
+      "induk": "H5a",
+      "margin": 0.0,
+      "metrik": "jenis",
+      "p_bootstrap": 0.041,
+      "p_rawak": 0.036,
+      "rawak_syarat": true,
+      "sistem": "mypii-v2"
+    }
+  },
+  "ulangan": 1000
+}

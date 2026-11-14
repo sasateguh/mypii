@@ -1,0 +1,16 @@
++ uv run --with modal==1.6.3 modal run scripts/luar_modal.py::main --model gliner --split ujian4 --benarkan-ujian
+✓ Initialized. View run at 
+[disunting: URL ruang kerja Modal / Modal workspace URL redacted]
+✓ Created objects.
+├── ✓ Uploaded [disunting: laluan hos]/scripts/luar_modal.py
+├── ✓ Created Function gliner.
+├── ✓ Created Function meddies.
+├── ✓ Created Function pii_engineer.
+└── ✓ Created Function pii_engineer_probe.
+/usr/local/lib/python3.12/site-packages/torch/jit/_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+hasil/luar/ujian4-gliner.jsonl: 1000 dokumen · {'model': ['urchade/gliner_multi_pii-v1', '1fcf13e85f4eef5394e1fcd406cf2ca9ea82351d'], 'label': {'identity card number': 'MY_NRIC', 'registration number': 'MY_SSM', 'phone number': 'MY_PHONE'}, 'ambang': 0.5, 'gliner': '0.2.29', 'cuda': True}
+Stopping app - local entrypoint completed.
+✓ App completed. View run at 
+[disunting: URL ruang kerja Modal / Modal workspace URL redacted]

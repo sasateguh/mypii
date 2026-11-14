@@ -1,0 +1,181 @@
+{
+  "alfa": 0.05,
+  "dokumen": 1000,
+  "f1_jenis": {
+    "llm_anthropic_claude-haiku-5-5": {
+      "f1": 0.8207,
+      "p": 0.7512,
+      "r": 0.9045
+    },
+    "mypii": {
+      "f1": 0.9804,
+      "p": 0.9854,
+      "r": 0.9754
+    },
+    "mypii-v1": {
+      "f1": 0.5918,
+      "p": 0.7175,
+      "r": 0.5036
+    },
+    "mypii-v2": {
+      "f1": 0.975,
+      "p": 0.991,
+      "r": 0.9595
+    },
+    "presidio-asal": {
+      "f1": 0.3784,
+      "p": 0.4633,
+      "r": 0.3198
+    }
+  },
+  "hipotesis": {
+    "H5a": {
+      "atas": 0.0115,
+      "bawah": -0.0012,
+      "beza_kecil": false,
+      "delta": 0.0054,
+      "disokong": true,
+      "f1_lawan": 0.975,
+      "f1_mypii": 0.9804,
+      "kuasa": {
+        "kuasa_anggaran_ketat": 0.994,
+        "mde_ketat": 0.01,
+        "mde_longgar": 0.0081,
+        "se": 0.0032
+      },
+      "margin": 0.01,
+      "metrik": "jenis",
+      "p_bootstrap": 0.0,
+      "p_holm_bootstrap": 0.0,
+      "p_rawak": 0.036,
+      "p_rawak_bonferroni": 0.144,
+      "rawak_syarat": false,
+      "sistem": "mypii-v2"
+    },
+    "H5b": {
+      "atas": 0.1839,
+      "bawah": 0.1372,
+      "beza_kecil": false,
+      "delta": 0.1597,
+      "disokong": true,
+      "f1_lawan": 0.8207,
+      "f1_mypii": 0.9804,
+      "kuasa": {
+        "kuasa_anggaran_ketat": 1.0,
+        "mde_ketat": 0.0367,
+        "mde_longgar": 0.0296,
+        "se": 0.0119
+      },
+      "margin": 0.01,
+      "metrik": "jenis",
+      "p_bootstrap": 0.0,
+      "p_holm_bootstrap": 0.0,
+      "p_rawak": 0.001,
+      "p_rawak_bonferroni": 0.004,
+      "rawak_syarat": false,
+      "sistem": "llm:anthropic/claude-haiku-5-5"
+    },
+    "H5c": {
+      "atas": 0.5,
+      "bawah": 0.4412,
+      "beza_kecil": false,
+      "delta": 0.47,
+      "disokong": true,
+      "f1_lawan": 0.5104,
+      "f1_mypii": 0.9804,
+      "kuasa": {
+        "kuasa_anggaran_ketat": 1.0,
+        "mde_ketat": 0.0462,
+        "mde_longgar": 0.0373,
+        "se": 0.015
+      },
+      "margin": 0.0,
+      "metrik": "u1",
+      "p_bootstrap": 0.0,
+      "p_holm_bootstrap": 0.0,
+      "p_rawak": 0.001,
+      "p_rawak_bonferroni": 0.004,
+      "rawak_syarat": true,
+      "sistem": "luar:meddies"
+    },
+    "H5d": {
+      "atas": 0.3626,
+      "bawah": 0.3028,
+      "beza_kecil": false,
+      "delta": 0.3322,
+      "disokong": true,
+      "f1_lawan": 0.6482,
+      "f1_mypii": 0.9804,
+      "kuasa": {
+        "kuasa_anggaran_ketat": 1.0,
+        "mde_ketat": 0.047,
+        "mde_longgar": 0.0379,
+        "se": 0.0153
+      },
+      "margin": 0.0,
+      "metrik": "u1",
+      "p_bootstrap": 0.0,
+      "p_holm_bootstrap": 0.0,
+      "p_rawak": 0.001,
+      "p_rawak_bonferroni": 0.004,
+      "rawak_syarat": true,
+      "sistem": "luar:gliner"
+    }
+  },
+  "holm_k": 4,
+  "lejar_usd_selepas": 3.467458,
+  "llm": {
+    "llm:anthropic/claude-haiku-5-5": {
+      "dokumen": 1000,
+      "gagal": 0,
+      "panggilan": 1000,
+      "rosak": 3
+    }
+  },
+  "luar": {
+    "ujian4-gliner.versi.json": {
+      "ambang": 0.5,
+      "cuda": true,
+      "gliner": "0.2.29",
+      "label": {
+        "identity card number": "MY_NRIC",
+        "phone number": "MY_PHONE",
+        "registration number": "MY_SSM"
+      },
+      "model": [
+        "urchade/gliner_multi_pii-v1",
+        "1fcf13e85f4eef5394e1fcd406cf2ca9ea82351d"
+      ]
+    },
+    "ujian4-meddies.versi.json": {
+      "model": [
+        "Meddies/meddies-pii-v2",
+        "0e5361e4d47ba4a92e56f7635a65daac54fec791"
+      ],
+      "peranti": "cuda",
+      "torch": "2.14.1+cu130"
+    }
+  },
+  "pelaksana": "sesi interaktif 14 Nov 2026 atas arahan pemilik «buat yg terbaik, pelan → red team → bina» (PELAN-V21)",
+  "sha": "2b306b445f1991766fcd74970ee3bc991674fa06",
+  "split": "ujian4",
+  "susulan": {
+    "H5a+": {
+      "atas": 0.0115,
+      "bawah": -0.0012,
+      "beza_kecil": true,
+      "delta": 0.0054,
+      "disokong": true,
+      "diuji": true,
+      "f1_lawan": 0.975,
+      "f1_mypii": 0.9804,
+      "induk": "H5a",
+      "margin": 0.0,
+      "metrik": "jenis",
+      "p_bootstrap": 0.041,
+      "p_rawak": 0.036,
+      "rawak_syarat": true,
+      "sistem": "mypii-v2"
+    }
+  }
+}

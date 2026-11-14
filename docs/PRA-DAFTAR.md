@@ -805,3 +805,166 @@ classifier artifact sha recorded above; combine = replace at threshold 0.5, tune
 optimistic. MDE at n = 1000, power 0.8: H4a 0.0347, H4b 0.0468 (α/k). Disclosed: the first family-B candidate (Mistral) failed the
 probe because of a builder bug (no `max_tokens` on the 9router path → 256-token truncation). Test3 will be opened once by the owner's
 interactive session via `scripts/ujian3-muktamad.sh`, with the exact pre-registered commands.
+
+### 2026-11-14 — Penilaian DESKRIPTIF model PII luar atas MyPII-Bench (selepas semua split ujian dibuka)
+**Status:** `ujian`, `ujian2`, `ujian3` SUDAH DIBUKA (3–5 Nov). Pindaan ini mendaftarkan penilaian **deskriptif selepas kejadian**: tiada
+hipotesis baharu, tiada ujian kesignifikanan untuk dakwaan, tiada perubahan pada hipotesis H1–H4 atau keputusannya. Dakwaan bersih tentang
+model luar memerlukan split ujian BAHARU yang dimeterai (ujian4). Ditulis SEBELUM mana-mana model di bawah dijalankan atas split ujian;
+larian asap hanya atas 20 dokumen `dev3` (split pembangunan).
+
+**Model (revisi dipin; berjalan dalam kontena Modal, `scripts/luar_modal.py`):**
+- `Meddies/meddies-pii-v2` @ `0e5361e4d47ba4a92e56f7635a65daac54fec791` (CC BY-NC 4.0; penyelidikan sahaja), bentuk `adapter` (laluan
+  yang dinilai pengeluar), GPU T4, `extract(teks)` seluruh dokumen. Label tertutup; dipetakan: `id_number` → ID, `phone_number` → TELEFON.
+- `urchade/gliner_multi_pii-v1` @ `1fcf13e85f4eef5394e1fcd406cf2ca9ea82351d` (Apache-2.0; **eksplorasi**: BM tiada dalam bahasa kad),
+  `gliner` PyPI, `predict_entities(teks, label, threshold=0.5)` dengan label dari senarai kad model: `identity card number` → MY_NRIC,
+  `registration number` → MY_SSM, `phone number` → MY_PHONE.
+- `pii-engineer/PII-Engineer-Multi-NER-v2.1` @ `efacd924…` + pelayan rasmi `gantz-ai/pii.engineer` @ `4ff5398` (ONNX Runtime 1.20.1 untuk
+  `ort 2.0.0-rc.9 load-dynamic`): **TIDAK DAPAT DIJALANKAN** — pelayan rasmi memulangkan HTTP 500 (`Reshape` dalam `span_rep`) untuk SETIAP
+  input termasuk contoh README pengeluar sendiri dan 20/20 dokumen dev3 (14 Nov). Dilapor sebagai tidak dinilai; kod pihak ketiga TIDAK
+  dibaiki (yang dinilai mestilah keluaran pengeluar).
+- Rujukan: MyPII v2 (pengecam 1.0.x, pokok `mypii/pengecam` beku), dijalankan semula atas split yang sama (v2 atas `ujian`/`ujian2` =
+  selepas kejadian, split itu dibuka untuk v1).
+
+**Split:** `ujian3` (utama), `ujian2`, `ujian` — setiap satu 1000 dokumen, penuh, tiada pensampelan.
+
+**Pemetaan + metrik (dikira di hos, `mypii/nilai/luar.py`, `harness.skor` tidak diubah):**
+- **Utama U1:** F1 tepat mikro atas DUA kelas yang semua sistem sokong: **ID** = emas `MY_NRIC` ∪ `MY_SSM`; ramalan `id_number` (Meddies) /
+  `MY_NRIC` ∪ `MY_SSM` (MyPII, GLiNER) → ID; **TELEFON** = `MY_PHONE` / `phone_number`. Sebab: set label Meddies tiada SSM; nombor SSM yang
+  dilabel `id_number` ialah pengecam yang dikesan, bukan ralat jenis.
+- **Sekunder:** F1 tepat setiap kelas U1; **NRIC ketat** (emas MyKad sahaja; ramalan ID yang bertindih span emas SSM DIABAIKAN, bukan FP);
+  span bertindih (`separa`); setiap bahasa; kategori sukar v3 (b–e, `ujian3` sahaja: dapatan semula bagi b–d, FP atas e); bertipe 3 entiti
+  untuk GLiNER + MyPII sahaja.
+- Label lain ramalan (nama, tarikh, alamat, `company_name`, …) diabaikan — bench hanya melabel tiga entiti.
+- Ketidakpastian: CI bootstrap dokumen `nilai.statistik` (1000, benih 2026, 95%) untuk F1 dan Δ (MyPII v2 − model). Tiada nilai p dilapor.
+- Dokumen yang model gagal proses = tiada ramalan, dikira + dilapor. Tiada penalaan ambang, label atau prompt selepas melihat keputusan.
+
+**Dilapor walau buruk:** semua angka di atas untuk setiap model + split, termasuk jika model luar mengatasi MyPII. Ramalan mentah dikomit
+(`hasil/luar/`), kerana bench awam dan sintetik.
+
+**Had:** data sintetik; MyPII dibina atas penjana yang sama (v3 latih3/dev3) — kelebihan rumah; ujian3 ditulis keluarga Claude; model luar
+tidak dilatih untuk format Malaysia tertentu (SSM 12 digit, kod PB JPN), dan itulah soalan yang diukur.
+
+**English summary.** Descriptive post-hoc evaluation (all test splits already opened; no new hypotheses or significance claims). Models,
+pinned: Meddies PII v2 (adapter, T4) and GLiNER multi PII v1 (exploratory; labels from its card, threshold 0.5); PII Engineer v2.1 could
+not be run (its official server returns HTTP 500 on every input, including its own README example) and is reported as not evaluated.
+Primary metric: exact micro F1 over two classes every system supports, ID (MyKad ∪ SSM gold) and PHONE. Secondary: per class, strict
+MyKad (SSM-overlapping ID predictions ignored), partial overlap, per language, v3 hard categories, typed 3-entity for GLiNER and MyPII.
+Splits ujian3 (primary), ujian2, ujian, 1000 documents each. Document bootstrap CIs; no p-values; no tuning after seeing results.
+
+### 2026-11-14 (b) — MyPII v2.1 + ujian4: pengecam dibekukan, protokol ujian4, hipotesis H5 (sebelum ujian4 dijana)
+**Status:** `ujian`, `ujian2`, `ujian3` SUDAH DIBUKA; langkah B (pindaan 2026-11-14 di atas) deskriptif sahaja. Pindaan ini mendaftarkan
+split ujian BAHARU `ujian4` dan keluarga hipotesis BAHARU H5, SEBELUM ujian4 wujud: pada komit pindaan ini tiada `data/templat_ujian4/`,
+`data/nama_ujian4.yaml`, `data/bench_v3/ujian4.jsonl`, `KUNCI4.json` atau `UJIAN4-MUKTAMAD`. Rancangan penuh: `PELAN-V21.md`; ADR-021.
+
+**Pengecam v2.1 (DIBEKUKAN):** tag `mypii-v21-beku` → komit `6e982c9c624237b40588756bced8e27ae91de8d0`. Beza dengan v2 (1.0.x): SATU
+peraturan gabung, `konteks.gabung.cara: frasa` — frasa positif terdekat → simpan bila p ≥ 0.05; frasa negatif lebih dekat → simpan hanya
+calon disahkan struktur dengan p ≥ 0.9; tiada frasa → p ≥ 0.3 (`NRIC (dashed)`) atau 0.5; calon tanpa pengesahan struktur (SSM format
+lama) tanpa frasa positif → buang. Artifak pengelas TIDAK berubah (`model/konteks-v2.json` sha `02d7d9bd…`). Dibangunkan atas `dev` +
+`dev3` SAHAJA (simulasi atas calon yang ditangkap + baris `hasil/iterasi.tsv` 14 Nov) dan probe `data/probe/ayat_biasa.yaml` (bahan
+pembangunan, ditulis sesi). Sebab = red team demo PELAN-HF-E ("My IC is 900101-08-1234" tidak ditanda 1.0.x) + pecahan calon dev.
+Keputusan pembangunan (BUKAN dakwaan): dev F1 `semua|*` 0.840 → 0.9506; dev3 0.9981 → 0.9956; ayat biasa 24/24 positif + 10/10 negatif
+(1.0.x 20/24). Probe luar bench `make analisis` (alat analisis, tidak ditala): lebih baik pada 4 kategori, lebih teruk pada 2 (SSM selepas
+nama perniagaan tanpa akhiran 16 → 2 betul; 12 digit tanpa kata 0 → 5 FP). Selepas pindaan ini pengecam BEKU sehingga ujian4 dibuka +
+dilapor: `scripts/ujian4-muktamad.sh` enggan bila `mypii/pengecam`, `model/`, fakta (`config/kod_pb.yaml`, `config/ssm_rob.yaml`) atau
+bahagian config `pengecam`/`konteks`/`nilai.ambang_skor`/`nilai.entiti` di HEAD berbeza dengan tag.
+
+**Data ujian4:** protokol ujian3 (pindaan 2026-11-04 + (b)–(e)) tanpa ubah — `prompt_templat_v3`, slot + kategori b–e, pengesah
+(`tapis_templat_v3`, termasuk `nombor_literal`), `min_templat` 150, `min_kategori` 10, `panggilan_nama` 4, `jana_v3._dokumen_v3`, 1000
+dokumen — dengan EMPAT beza sahaja:
+- (a) **Penjana:** `modal/Qwen/Qwen3.8-27B-FP8` @ `c3a462cc3d38cf351f3b26cbd763469eeb74ef81` (Apache-2.0), dihos sendiri: vLLM 0.33.0 di
+  Modal H100, imej `nvidia/cuda:13.0.3-devel-ubuntu24.04`, mod bukan-pemikiran (`chat_template_kwargs.enable_thinking: false`), suhu 0.8,
+  `max_tokens` 4096, `--seed 2026`. Sandaran: `modal/aisingapore/Apertus-SEA-LION-v4-8B-IT` @ `3cb02025474d0e3f57be2e95278f0e3f31c8dba0`
+  (MIT), L40S. Probe format (peraturan sedia ada: 4 genre pertama, `ms`, 4 templat + 1 negatif setiap genre, lulus = sah ≥ 0.5 × 16)
+  ikut susunan; calon pertama lulus = SATU-SATUNYA penjana; semua gagal = BERHENTI + pindaan baharu. Kegagalan INFRASTRUKTUR (pelayan
+  tidak bermula, tiada satu jawapan) bukan keputusan probe: pelayan dibaiki, kemudian probe dijalankan SEKALI atas pelayan sihat.
+  Keluarga: Qwen tidak pernah menghasilkan data atau keputusan dalam kajian ini (calon eksplorasi `qd/qmodel` gugur probe 3 Nov dengan
+  HTTPError) → `keluarga_larangan_kecuali.ujian4: [qwen]`; keluarga latih3 (nvidia), ujian3 (mistral, anthropic), ujian4 (qwen, apertus)
+  bersilang kosong (`semak_keluarga`). Bukan Claude → bias keluarga Anthropic ujian3 (had (8) pindaan (c)) tiada untuk H5b.
+- (b) **Genre:** 10 dalam `templat_llm.sasaran.ujian4.genre` (jemaah_umrah, rider_ehailing, amaran_penipuan, mangsa_banjir, hospital_wad,
+  biasiswa, beli_rumah, khairat_kematian, pekerja_asing, pendaftaran_nikah) — kunci + makna berbeza daripada 57 genre lama.
+- (c) **Nama:** `data/nama_ujian4.yaml` oleh penjana yang sama; bersilang kosong dengan `nama.yaml`, `nama_tambahan.yaml`,
+  `nama_ujian2.yaml`, `nama_ujian3.yaml` (`tapis_nama`).
+- (d) **Benih:** `jana.benih + 5`; id `mypii-u4-…`.
+Ambang gagal (`gagal_ambang`) = BERHENTI + pindaan bertarikh sebelum sebarang jana semula (corak ujian3 (b)/(d)). Meterai: `KUNCI4.json`
+(sha256) dalam komit jana; `UJIAN4-MUKTAMAD` dikomit SENDIRI selepas itu. Pembina hanya melihat kiraan (`statistik_v3`: templat setiap
+bahasa/genre, kategori, tolak, nama) — teks ujian4 tidak dibaca sehingga larian sekali.
+
+**Sistem:** `mypii` (v2.1 = HEAD = tag beku), `mypii-v2` (tag `mypii-v2-beku` = `8e2e6ea`, sumber eksport 1.0.2; pengecam sama dengan
+beku `7ca74ab`), `mypii-v1` (tag `mypii-v1-muktamad`), `presidio-asal`, `llm:anthropic/claude-haiku-5-5` (tetapan H4a sama),
+`luar:meddies` (Meddies PII v2 @ `0e5361e4…`, adapter, T4) dan `luar:gliner` (GLiNER multi PII v1 @ `1fcf13e8…`, ambang 0.5, label langkah
+B). PII Engineer v2.1: tidak dinilai (pelayan rasmi HTTP 500 untuk setiap input, 14 Nov).
+
+**Hipotesis H5 (keluarga Holm BAHARU, k = 4; α = 0.05 sehala; bootstrap 1000, benih 2026, indeks dokumen sama untuk semua sistem; CI
+persentil 95%; config `nilai.statistik.v21`, `mypii/nilai/statistik_v21.py`):**
+- **H5a** F1 `semua|*` v2.1 ≥ v2 − 0.01 (bukan-inferioriti; p bootstrap atas Δ dianjak δ, corak H4a).
+- **H5b** F1 `semua|*` v2.1 ≥ Claude Haiku 5.5 − 0.01 (bukan-inferioriti; replikasi H4a dengan penjana bukan Claude).
+- **H5c** U1 F1 v2.1 > Meddies PII v2 (keunggulan: p bootstrap Holm < α DAN p rawak × 4 < α, corak H4b).
+- **H5d** U1 F1 v2.1 > GLiNER multi PII v1 (sama seperti H5c).
+- **Susulan berhierarki H5a⁺** v2.1 > v2 (keunggulan) — diuji pada α = 0.05 HANYA bila H5a disokong (urutan tetap, di luar Holm);
+  syarat p bootstrap < α DAN p rawak < α.
+- Keunggulan yang disokong dengan Δ < 0.02 dilapor "beza kecil". U1 = definisi pindaan 2026-11-14 (ID = MyKad ∪ SSM, TELEFON).
+
+**Kuasa (dev3, `hasil/v21/dev3-h5.json`; SE dari lebar CI bootstrap, kuasa 0.80, k = 4):**
+
+| H | lawan | metrik | Δ dev3 [CI] | SE | MDE α/k | MDE α | kuasa anggaran (Δ dev3) |
+|---|---|---|---|---|---|---|---|
+| H5a | mypii-v2 | jenis | −0.0025 [−0.0058, 0.0] | 0.0015 | 0.0046 | 0.0037 | 0.9977 |
+| H5b | Haiku 5.5 | jenis | 0.2049 [0.1806, 0.2306] | 0.0128 | 0.0393 | 0.0317 | 1.0 |
+| H5c | Meddies | u1 | 0.5162 [0.4907, 0.5458] | 0.0141 | 0.0433 | 0.0350 | 1.0 |
+| H5d | GLiNER | u1 | 0.3492 [0.3265, 0.3728] | 0.0118 | 0.0364 | 0.0294 | 1.0 |
+
+dev3 ialah set penalaan v2 (latih3/dev3 = penjana yang sama) — jurang dev3 → ujian4 dijangka, dan dilapor. H5a⁺ atas dev3 tidak disokong
+(Δ −0.0025): keunggulan v2.1 hanya dijangka pada gaya teks yang bukan gaya penalaan v2.
+
+**Deskriptif (bukan dakwaan):** setiap entiti, bahasa, kategori b–e ujian4, `separa`, NRIC ketat; v1 + presidio-asal; jurang dev3 → ujian4
+setiap sistem; ayat biasa (bahan dev). **Dilapor walau buruk:** semua di atas, termasuk v2.1 < v2, Haiku atau model luar ≥ v2.1.
+
+#### §7-v21 Perintah tepat ujian4
+```
+uv run --group nilai --group garis python -m mypii.nilai.harness --split ujian4 --sistem mypii mypii-v2 mypii-v1 presidio-asal llm:anthropic/claude-haiku-5-5 --keluar hasil/v21 --benarkan-ujian
+uv run --with modal==1.6.3 modal run scripts/luar_modal.py::main --model meddies --split ujian4 --benarkan-ujian
+uv run --with modal==1.6.3 modal run scripts/luar_modal.py::main --model gliner --split ujian4 --benarkan-ujian
+uv run python -m mypii.nilai.statistik_v21 --split ujian4 --benarkan-ujian
+```
+**Pelaksana:** sesi interaktif atas arahan pemilik 14 Nov 2026 ("buat yg terbaik, pelan → red team → bina"), SEKALI, melalui
+`scripts/ujian4-muktamad.sh` (`--kering` dahulu; `--ulang-crash` SEKALI hanya bila crash). Arkib `~/ops/mypii/arkib-ujian4/` + salinan
+`hasil/arkib/ujian4-<ts>/` (MANIFEST.sha256). Cache/lejar Anthropic ujian4 TIDAK dikomit (diarkib sahaja). **Kos:** Haiku ujian4 ≈
+USD 0.1 (had lejar 20 tidak berubah; baki 13.11 selepas belanja luar repo 3.496623 = ujian v1 3.399903 + ujian3 0.09672); Modal (penjana
++ model luar) < USD 10 (Budget workspace pemilik USD 29.50).
+
+**Apa yang TIDAK dibuat:** perubahan pengecam selepas pindaan ini sehingga ujian4 dibuka + dilapor; jana semula ujian4 selepas meterai;
+menala ambang/label/prompt selepas melihat ujian4; pembina membaca teks ujian4 sebelum larian; membuka ujian4 lebih sekali; mendakwa
+apa-apa dari dev/dev3/ayat biasa.
+
+**Had:** data sintetik; protokol slot v3 + penjana nilai ditulis pembina yang sama dengan pengecam; pengelas dilatih atas gaya Nemotron;
+satu split dari satu penjana; label telefon = julat libphonenumber (ADR-002); IAA manusia tidak diulang untuk ujian4.
+
+**English summary.** Registered before `ujian4` exists. MyPII v2.1 is frozen at tag `mypii-v21-beku` (6e982c9): one change to how the
+context classifier is combined with phrase context (`cara: frasa`), developed on dev/dev3 only (dev 0.840 → 0.951, dev3 0.998 → 0.996).
+`ujian4` repeats the ujian3 generation protocol unchanged except for the generator (Qwen3.8-27B-FP8, Apache-2.0, self-hosted with vLLM
+0.33.0 on Modal, non-thinking, temperature 0.8; fallback Apertus-SEA-LION-v4-8B-IT, MIT; first to pass the format probe is the only
+generator), 10 new genres, new disjoint names and seed + 5; 1000 documents, sealed by KUNCI4.json + UJIAN4-MUKTAMAD before opening.
+New Holm family (k = 4, α = 0.05 one-sided, 1000 bootstrap, seed 2026): H5a v2.1 non-inferior to v2 (δ 0.01); H5b v2.1 non-inferior to
+Claude Haiku 5.5 (δ 0.01; a non-Claude-generated replication of H4a); H5c/H5d v2.1 superior to Meddies PII v2 / GLiNER multi PII v1 on
+U1 (bootstrap Holm and randomisation × 4 both < α); hierarchical follow-up H5a+ (v2.1 > v2) only if H5a holds. Exact commands in §7-v21;
+run once by this session via `scripts/ujian4-muktamad.sh`.
+
+### 2026-11-14 (c) — MyPII v2.1: ujian4 jana semula selepas SATU kegagalan ambang (sebelum ujian4 wujud)
+**Fakta:** larian jana ujian4 pertama (14 Nov, penjana `modal/Qwen/Qwen3.8-27B-FP8` dipilih probe: sah 11/16, perlu 8) GAGAL ambang:
+nisbah templat negatif `en` 0.2308 dan `manglish` 0.2239 < 0.25; nama `pertama_melayu_p` 18 < 20 (templat 157, kategori b12 c19 d47 e15;
+`ms` 0.3922). Ikut protokol, `jana_sasaran_v3` TIDAK menulis apa-apa fail; tiada dokumen ujian4 wujud; pembina melihat kiraan sahaja.
+**Pindaan (ujian4 SAHAJA; prompt, slot, pengesah lain, model, suhu, genre, benih TIDAK berubah):**
+1. `templat_llm.sasaran.ujian4.min_nisbah_negatif: 0.20` (lalai 0.25 kekal untuk sasaran lain; `semak_ambang` membaca nilai sasaran).
+   Sebab: bahagian dokumen negatif keras dalam split = `jana_v3.nisbah_negatif_keras` 0.25, ditetapkan semasa jana dokumen dan TIDAK
+   bergantung pada nisbah templat; nisbah templat hanya mengawal kepelbagaian templat negatif. Menaikkan `negatif_setiap_panggilan` atau
+   mengubah prompt ditolak: ia mengubah proses penjanaan ujian3 yang mahu diulang (reka bentuk satu pemboleh ubah = penjana).
+   Menambah `panggilan` ditolak: nisbah ialah sifat taburan penjana, bilangan panggilan tidak mengalihkan jangkaannya.
+2. `panggilan_nama: 6` (dari 4) — preseden pindaan 2026-11-05 (d) (nama ujian3: 4 panggilan selepas satu kegagalan ambang nama).
+3. Jana semula PENUH (templat + nama) SEKALI. Gagal ambang lagi = BERHENTI; keputusan seterusnya milik pemilik.
+Tiada perubahan pada hipotesis H5, sistem, metrik, perintah §7-v21 atau pengecam beku.
+
+**English summary.** The first ujian4 generation run failed its thresholds (negative-only template share en 0.231, manglish 0.224 <
+0.25; one name category 18 < 20) and, by design, wrote no files. For ujian4 only: template-level negative share threshold 0.20 (the
+document-level hard-negative share stays fixed at 0.25 by the document generator, so this guard only concerns negative-template
+diversity; the prompt is unchanged to keep the generator the single variable) and six name calls (precedent: ujian3 amendment (d)).
+One full regeneration; a second failure stops the pipeline for an owner decision. Hypotheses, systems, metrics and commands unchanged.

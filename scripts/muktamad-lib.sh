@@ -2,7 +2,7 @@
 # Pustaka ujian3 muktamad (PELAN-V2 P14) — di-`source` oleh `scripts/ujian3-muktamad.sh` SAHAJA.
 # `scripts/ujian-muktamad.sh` (v1) ialah fail LARANGAN (rekod v1 muktamad) dan TIDAK memakai pustaka ini; logik di sini ialah
 # pelaksanaan semula untuk v3 (bukan salinan baris), supaya pagar `pendua` lulus tanpa menyentuh skrip v1.
-# Pemanggil menetapkan: ARKIB, PELAKSANA, PERINTAH[], CACHE, HASIL (glob), SKRIP, FAIL_ENV[], ENV_DIR.
+# Pemanggil menetapkan: ARKIB, PELAKSANA, PERINTAH[], CACHE, HASIL (glob) atau HASIL_GLOB[] (laluan penuh), SKRIP, FAIL_ENV[], ENV_DIR.
 # Ditetapkan di sini: MOD, SEBAB_ULANG, D, SHA, tamat. Kod keluar: 2 hujah · 4 enggan · 5 crash · 6 tree.
 
 u3_hujah() {
@@ -51,9 +51,11 @@ u3_semak_arkib() {
   [ -z "$kotor" ] || enggan "tree git tidak bersih: $(head -3 <<<"$kotor" | tr '\n' ' ')"
 }
 
-_u3_hasil() {  # fail hasil + ramalan split yang wujud
+_u3_hasil() {  # fail hasil + ramalan split yang wujud; HASIL_GLOB[] (PELAN-V21) menggantikan dua glob lalai bila ditetapkan
   local g
-  for g in "hasil/$HASIL" "hasil/ramalan/$HASIL"; do
+  local -a gs=("hasil/$HASIL" "hasil/ramalan/$HASIL")
+  if [ -n "${HASIL_GLOB+x}" ]; then gs=("${HASIL_GLOB[@]}"); fi
+  for g in "${gs[@]}"; do
     # shellcheck disable=SC2086
     compgen -G "$g" || true
   done
@@ -95,7 +97,7 @@ u3_mula() {
 u3_arkib_pulih() {  # $1 = folder sasaran: salin hasil/ramalan/cache berubah, pulih cache repo
   local k="$1" f
   mkdir -p "$k/hasil/ramalan" "$k/cache"
-  _u3_hasil | while IFS= read -r f; do cp -p "$f" "$k/$(dirname "$f")/"; done
+  _u3_hasil | while IFS= read -r f; do mkdir -p "$k/$(dirname "$f")"; cp -p "$f" "$k/$(dirname "$f")/"; done
   git ls-files -m -o --exclude-standard -- "$CACHE" | while IFS= read -r f; do
     [ ! -e "$f" ] || cp -p --parents "$f" "$k/cache/"
   done

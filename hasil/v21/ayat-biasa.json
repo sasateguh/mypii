@@ -1,0 +1,35 @@
+{
+ "mypii": {
+  "positif": 24,
+  "positif_ditanda": 24,
+  "negatif": 10,
+  "negatif_ditanda": 0,
+  "terlepas": [],
+  "tersalah": []
+ },
+ "mypii-v2": {
+  "positif": 24,
+  "positif_ditanda": 20,
+  "negatif": 10,
+  "negatif_ditanda": 3,
+  "terlepas": [
+   "My IC is 900101-08-1234",
+   "ic aku 850615145523 k",
+   "bro ic dia 990101-01-1235 ok",
+   "Saya Ahmad, 880808-08-8888, tinggal di Ipoh."
+  ],
+  "tersalah": [
+   "Model penapis air (284281-V) habis stok",
+   "Item: Pad Brek Depan (709653-U) x 2 set",
+   "Jumlah amount 0123456789 sen dikreditkan"
+  ]
+ },
+ "mypii-v1": {
+  "positif": 24,
+  "positif_ditanda": 24,
+  "negatif": 10,
+  "negatif_ditanda": 0,
+  "terlepas": [],
+  "tersalah": []
+ }
+}

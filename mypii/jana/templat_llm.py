@@ -23,7 +23,7 @@ import yaml
 
 from mypii import klien_anthropic, konfig
 from mypii.jana import jana
-from mypii.klien_llm import GagalLLM, Hantar, hantar_9router, json_dari, tanya
+from mypii.klien_llm import GagalLLM, Hantar, hantar_9router, hantar_modal, json_dari, tanya
 
 ENTITI_SLOT = {"MY_NRIC", "MY_SSM", "MY_SSM_LAMA", "MY_PHONE"}
 ANGKA_SLOT = ENTITI_SLOT | {"NEG", "TARIKH"} | set(jana.NEGATIF_P1)
@@ -122,12 +122,13 @@ def semak_ambang(st: dict, k: dict, s: dict | None = None) -> list[str]:
     gagal, minimum = [], (s or {}).get("min_templat", k["min_templat"])   # `s` = sasaran (B2 latih: ≥ 240)
     if st["templat"] < minimum:
         gagal.append(f"templat {st['templat']} < {minimum}")
+    neg = (s or {}).get("min_nisbah_negatif", k["min_nisbah_negatif"])   # pindaan 2026-11-14 (c): ganti setiap sasaran (ujian4)
     for b in k["bahasa"]:
         sb = st["bahasa"].get(b, {"genre": 0, "nisbah_negatif": 0.0})
         if sb["genre"] < k["min_genre_setiap_bahasa"]:
             gagal.append(f"{b}: genre {sb['genre']} < {k['min_genre_setiap_bahasa']}")
-        if sb["nisbah_negatif"] < k["min_nisbah_negatif"]:
-            gagal.append(f"{b}: nisbah negatif {sb['nisbah_negatif']} < {k['min_nisbah_negatif']}")
+        if sb["nisbah_negatif"] < neg:
+            gagal.append(f"{b}: nisbah negatif {sb['nisbah_negatif']} < {neg}")
     return gagal
 
 
@@ -435,9 +436,11 @@ def semak_keluarga(k: dict, penjana: dict) -> None:
                     any(x in f"{m} {k['keluarga'][m]}".casefold() for x in k["keluarga_larangan"]):
                 raise SystemExit(f"{sasaran}: model {m} dari keluarga larangan (penjana/garis dasar lepas)")
             kel.setdefault(sasaran, set()).add(k["keluarga"][m])
-    sama = kel.get("latih3", set()) & kel.get("ujian3", set())
-    if sama:
-        raise SystemExit(f"keluarga latih3 dan ujian3 bertindih: {sorted(sama)}")
+    # PELAN-V21: keluarga SETIAP pasangan sasaran v3 (latih3, ujian3, ujian4, …) mesti bersilang kosong
+    for i, a in enumerate(sorted(kel)):
+        for b in sorted(kel)[i + 1:]:
+            if sama := kel[a] & kel[b]:
+                raise SystemExit(f"keluarga {a} dan {b} bertindih: {sorted(sama)}")
 
 
 def _folder_yaml(akar: Path, folder: str) -> list[Path]:
@@ -485,6 +488,8 @@ _LEJAR = []
 def hantar_penjana(model: str, prompt: str, suhu: float) -> str:
     """Penjana v3: `anthropic/<id>` → API terus melalui `klien_anthropic` (lejar + had keras; kos terburuk ditempah dahulu; suhu TIDAK
     dihantar; `max_tokens` = `templat_llm.anthropic_max_tokens`); selain itu → 9router. Had dicapai = HadDicapai (BERHENTI)."""
+    if model.startswith("modal/"):   # PELAN-V21: model berlesen terbuka dihos sendiri di Modal (scripts/penjana_modal.py)
+        return hantar_modal(model, prompt, suhu)
     if not klien_anthropic.ialah(model):
         return hantar_9router(model, prompt, suhu)
     t = klien_anthropic.tetapan(model)
@@ -586,7 +591,8 @@ def jana_sasaran_v3(sasaran: str, hantar: Hantar = hantar_penjana, akar: Path = 
         except GagalLLM as e:
             return None, str(e)
 
-    with ThreadPoolExecutor(max_workers=konfig.utama()["llm"]["serentak"]) as ex:
+    # `serentak` sasaran (PELAN-V21: pelayan vLLM sendiri menampung lebih) mengatasi `llm.serentak`; tidak mengubah prompt/output
+    with ThreadPoolExecutor(max_workers=s.get("serentak", konfig.utama()["llm"]["serentak"])) as ex:
         r = dict(zip([*kerja, *kerja_nama], ex.map(satu, [*kerja.values(), *kerja_nama.values()])))
     sedia = {_norm(ke_v1(t, k)) for v in jana._templat().values() for _, t in v}
     jawapan = {}

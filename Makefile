@@ -1,4 +1,4 @@
-.PHONY: bandingan-v2 latih-konteks semua jana jana-v3 uji nilai carta statistik kuasa nilai-garis bandingan bandingan-masa lint analisis sahkan-rujukan templat-llm templat-llm-probe iaa-sampel iaa-pakej iaa-pelayan iaa-llm iaa-eksport iaa-skor kos-claude probe-llm
+.PHONY: bandingan-v2 bandingan-v21 statistik-v21 ayat-biasa bandingan-luar latih-konteks semua jana jana-v3 uji nilai carta statistik kuasa nilai-garis bandingan bandingan-masa lint analisis sahkan-rujukan templat-llm templat-llm-probe iaa-sampel iaa-pakej iaa-pelayan iaa-llm iaa-eksport iaa-skor kos-claude probe-llm
 
 semua: jana uji nilai
 
@@ -109,3 +109,18 @@ latih-konteks:
 # PELAN-V2 P16: laporan v2 dijana (dev3 dikomit + arkib ujian3 luar repo) → docs/BANDINGAN-V2.md; docs/BANDINGAN.md v1 tidak disentuh
 bandingan-v2:
 	uv run python -m mypii.nilai.bandingan_v2
+
+# Pindaan PRA-DAFTAR 2026-11-14: model PII luar (ramalan Modal dalam hasil/luar/) → docs/BANDINGAN-LUAR.md, tiada rangkaian
+bandingan-luar:
+	uv run python -m mypii.nilai.luar
+
+# PELAN-V21: statistik H5 atas dev3 (kuasa/MDE; ujian4 = skrip satu-tembak) → hasil/v21/dev3-h5.json; ayat biasa (bahan dev) →
+# hasil/v21/ayat-biasa.json; laporan v2.1 dari arkib ujian4 dalam repo → docs/BANDINGAN-V21.md (tiada rangkaian)
+statistik-v21:
+	uv run python -m mypii.nilai.statistik_v21 --split dev3
+
+ayat-biasa:
+	uv run python -m mypii.nilai.ayat_biasa
+
+bandingan-v21:
+	uv run python -m mypii.nilai.bandingan_v21

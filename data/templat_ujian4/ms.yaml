@@ -1,0 +1,481 @@
+# Dijana 2026-11-14 oleh `python -m mypii.jana.templat_llm --sasaran ujian4` (model: modal/Qwen/Qwen3.8-27B-FP8). JANGAN sunting tangan.
+# DIMETERAI (PELAN-V2 P6): jangan buka, jangan sunting — gerbang menolak sebarang perubahan.
+genre:
+  jemaah_umrah:
+  - 'Perakuan Pendaftaran
+
+    Nama: {NAMA}
+
+    No. Kad Pengenalan: {MY_NRIC}
+
+    No. Pasport: {NEG_KOD}
+
+    Jenis Visa: Umrah
+
+    Tarikh Valid: {TARIKH}
+
+    Dikeluarkan oleh: {SYARIKAT}'
+  - 'Makluman Penting
+
+    Sila hadir 3 jam sebelum penerbangan.
+
+    Bawa dokumen asal.
+
+    No. Rujukan: {NEG}
+
+    Tarikh: {TARIKH}
+
+    Hubungi: {NEG_TEL}
+
+    {NEG12_TANPA}'
+  - 'Pendaftaran Agensi
+
+    Nama Syarikat: {SYARIKAT}
+
+    No. SSM: {MY_SSM}
+
+    Pemilik: {NAMA}
+
+    Alamat: {BANDAR}
+
+    Hubungi: {MY_PHONE}
+
+    Tarikh Daftar: {TARIKH}'
+  rider_ehailing:
+  - 'Sila pastikan maklumat anda tepat sebelum hantar. Nama: {NAMA}. No. Telefon: {NEG_TEL}. Lokasi: {BANDAR}. Tarikh: {TARIKH}.'
+  - 'Dokumen SSM untuk {SYARIKAT} tidak jelas. Sila semak semula. No. SSM: {NEG12_TANPA}. Ruangan ini terlalu sempit untuk dibaca oleh sistem OCR.'
+  - 'Tanda tangan diperlukan di sini. {NAMA} telah bersetuju untuk terma dan syarat {SYARIKAT}. Tarikh lulus: {TARIKH}.'
+  - 'Permohonan pengendali di {SYARIKAT}. Nama: {NAMA}. No. MyKad: {MY_NRIC}. No. Telefon: {MY_PHONE}.'
+  - 'Pendaftaran untuk {SYARIKAT} di {BANDAR}. No. SSM: {MY_SSM}. Hubungi pejabat: {MY_PHONE_BS}.'
+  amaran_penipuan:
+  - 'Amaran: Akaun anda telah disekat. Klik pautan ini untuk verifikasi segera. No. rujukan: {NEG}'
+  - Salam {NAMA}, pesanan anda bernombor {NEG_INVOIS} tidak dapat dihantar. Sila hubungi wakil kami di {MY_PHONE} untuk lanjut.
+  - 'Notifikasi {SYARIKAT}: Bayaran bulanan anda telah dibuat. No. polisi: {NEG_AHLI}. Terima kasih.'
+  - 'Sistem {SYARIKAT} telah mengesan aktiviti mencurigakan. No. SSM kami: {MY_SSM}. Sila hubungi {MY_PHONE_BS} untuk pengesahan.'
+  - 'Pemberitahuan: Wang anda akan dipindahkan ke akaun {NEG_AKAUN} pada {TARIKH}. Jika anda tidak mengenal pasti, hubungi {NEG_TEL}.'
+  - 'Amaran: Kod OTP anda adalah {NEG_KOD}. Jangan kongsi dengan sesiapa. Tamat tempoh dalam 5 minit.'
+  mangsa_banjir:
+  - 'SENARAI PENDAFTARAN MANGSA BAJIR
+
+    TARIKH: {TARIKH}
+
+    NO. REFERENSI: {NEG}
+
+    LOKASI: {BANDAR}
+
+
+    NO. AHLI | NAMA PENUH | STATUS
+
+    ---|---|---
+
+    {NEG12_TANPA} | {NAMA} | Selamat
+
+    {NEG12_TANPA} | {NAMA} | Sihat'
+  - 'BORANG PERMOHONAN BANTUAN EMERGENSI
+
+
+    Nama Penuh: {NAMA}
+
+    No. Kad Pengenalan: {MY_NRIC}
+
+    No. Telefon: {MY_PHONE}
+
+    Alamat: {BANDAR}
+
+
+    Jenis Bantuan: Makanan & Selimut
+
+    Tandatangan: ________________'
+  - 'SENARAI SUMBER DAYA VOLUNTEER
+
+
+    Nama: {NAMA}
+
+    Hubungi: {MY_PHONE}
+
+    Kumpulan: {SYARIKAT}
+
+    Tarikh Bergabung: {TARIKH}
+
+
+    Nota: Sila lapor diri ke pusat kawalan pada pukul 8 pagi.'
+  - 'PESANAN BARANG PERKAKASAN BANGUNAN
+
+
+    No. Pendaftaran SSM: {MY_SSM}
+
+    Syarikat: {SYARIKAT}
+
+    No. Tel: {MY_PHONE_BS}
+
+
+    Item: Peralatan Pembersihan
+
+    Kod Produk: {NEG_KOD}
+
+    Jumlah Unit: 10
+
+
+    Diterima oleh: {NAMA}'
+  - 'DOKUMEN PINDAHAN (SKAN)
+
+
+    Nama: {NAMA}
+
+    MyKad: {OCR_MY_NRIC}
+
+    No. Telefon: {OCR_MY_PHONE}
+
+
+    Alamat: {BANDAR}
+
+    Tarikh Lahir: {TARIKH}
+
+
+    Nota: Imbasan berkualiti rendah, sila semak semula digit terakhir.'
+  - 'SENARAI PENDAFTARAN PUSAT EVAKUASI
+
+
+    No. Pendaftaran: {PATAH_MY_SSM}
+
+    Nama Syarikat: {SYARIKAT}
+
+
+    Penerima: {NAMA}
+
+    No. Tel: {PATAH_MY_PHONE}
+
+
+    Keterangan: Bantuan makanan harian
+
+    Tarikh: {TARIKH}'
+  - 'LAPORAN HARIAN OPERASI BANTUAN
+
+
+    Tarikh: {TARIKH}
+
+    Lokasi: {BANDAR}
+
+    No. Rujukan: {NEG}
+
+
+    Jumlah Mangsa: 25 orang
+
+    Status: Stabil
+
+
+    Ketua Operasi: {NAMA}
+
+    Kontak: {MY_PHONE}
+
+
+    Tiada insiden kritikal dilaporkan.'
+  hospital_wad:
+  - 'Rekod Wad: Pesakit {NAMA} telah dipindahkan ke Wad 4.2 pada {TARIKH}. Status: Stabil. No. Pesakit: {NEG12_TANPA}.
+
+    Notis: Kematian tidak dijangka. Sila hubungi doktor bertugas untuk sebarang pertanyaan lanjut mengenai rawatan pesakit ini.'
+  - 'LESEN PELAWAT HOSPITAL
+
+    Nama: {NAMA}
+
+    No. MyKad: {MY_NRIC}
+
+    Tarikh Lepas: {TARIKH}
+
+    Wad: 3A
+
+    Sila tunjukkan lesen ini kepada petugas keselamatan.'
+  - 'Ringkasan Discaj
+
+    Pesakit: {NAMA}
+
+    No. Rujukan: {NEG}
+
+    Dianjurkan untuk berehat di rumah selama dua minggu. Jaga pemakanan dan pengambilan ubat mengikut jadual. Hubungi klinik jika demam berpanjangan.'
+  - 'Perakuan Penginapan
+
+    Saya {NAMA}, No. Kad {OCR_MY_NRIC}, mengesahkan bahawa saya telah menginap di Wad VIP 5.01 dari {TARIKH} hingga {TARIKH}. Bayaran telah diselesaikan melalui kaedah pindahan bank.'
+  - 'Permohonan Pindahan Wad
+
+    Nama: {NAMA}
+
+    No. Pesakit: {NEG12_TANPA}
+
+    Alasan: Keramaian. Mohon dipindahkan ke wad lebih sunyi. Terima kasih atas pertimbangan pihak hospital.'
+  - 'Rekod Penerimaan (Skan)
+
+    Nama: {NAMA}
+
+    No. Pendaftaran: {OCR_MY_SSM}
+
+    Hubungi: {MY_PHONE_BS}
+
+    Tarikh: {TARIKH}
+
+    Status: Diterima. Sila tunggu di ruang tamu wad.'
+  biasiswa:
+  - 'Pernyataan Ikatan Biasiswa
+
+    Saya, {NAMA}, bersetuju untuk berkhidmat bersama {SYARIKAT} selama 3 tahun. Sekiranya mengundurkan diri, denda sebanyak RM10,000 akan dikenakan. No. Rujukan: {NEG}.'
+  - 'Tuan/Puan,
+
+    Sila semak status permohonan biasiswa anda. Bilangan rujukan: {NEG}. Hubungi kami di {MY_PHONE} untuk pertanyaan lanjut. Terima kasih atas kerjasama anda.'
+  - 'MAKLUMAT PERMOHONAN
+
+    Nama: {NAMA}
+
+    No. Kad Pengenalan: {MY_NRIC}
+
+    No. SSM Syarikat: {MY_SSM}
+
+    Tarikh Lahir: {TARIKH}'
+  - 'NOTIS PENOLAKAN
+
+    No. Rujukan: {NEG}
+
+
+    Permohonan anda untuk biasiswa {SYARIKAT} tidak berjaya. Sila hubungi unit kewangan di {NEG_TEL} jika ada pertanyaan mengenai bayaran balik.'
+  - 'SURAT PENGESAHAN
+
+
+    Dengan ini {SYARIKAT} mengesahkan {NAMA} telah menerima biasiswa. No. Ahli: {NEG_AHLI}. Sila simpan surat ini untuk rujukan masa depan. Dikeluarkan pada {TARIKH}.'
+  - 'Dokumen Imbasan
+
+
+    No. Kad: {OCR_MY_NRIC}
+
+    No. SSM: {OCR_MY_SSM}
+
+    Nama Pemohon: {NAMA}
+
+
+    *Data mungkin tidak jelas akibat imbasan.*'
+  - 'SEMAKAN STATUS
+
+
+    No. Rujukan: {NEG}
+
+    Jumlah Biasiswa: RM5,000
+
+    Tarikh Bayaran: {TARIKH}
+
+
+    Sila pastikan akaun bank anda aktif untuk pemindahan dana.'
+  beli_rumah:
+  - 'Borang Tempahan Unit: {NAMA}. Nombor Rujukan: {NEG}. Tarikh Tempahan: {TARIKH}. Yuran Tempahan: RM{NEG}. Sila semak status melalui portal.'
+  - 'NOTIS PEMBAYARAN ANSURAN
+
+    Unit: {NEG}
+
+    Pembeli: {NAMA}
+
+    No. Akaun Bank: {NEG_AKAUN}
+
+    Tarikh Jatuh Tempoh: {TARIKH}
+
+    Jumlah: RM{NEG}
+
+    Sila bayar sebelum tarikh untuk mengelak denda.'
+  - 'Surat Pengesahan Pemilikan
+
+    No. Rujukan: {NEG}
+
+    Tarikh: {TARIKH}
+
+    Pemilik: {NAMA}
+
+    Jenis Unit: {NEG_KOD}
+
+    Status: Diluluskan
+
+    Sila simpan dokumen ini dengan baik.'
+  - 'NOTIS BILANJAN BERJANGKA
+
+    Unit: {NEG_KOD}
+
+    Pemilik: {NAMA}
+
+    No. Kad: {OCR_MY_NRIC}
+
+    Jumlah Bayaran: RM{NEG}
+
+    Tarikh Bayaran: {TARIKH}
+
+    Sila hubungi {OCR_MY_PHONE} untuk pertanyaan.'
+  - 'Borang Pendaftaran Pelanggan
+
+    Nama Penuh: {NAMA}
+
+    Alamat: {BANDAR}
+
+    No. Telefon: {MY_PHONE_BS}
+
+    No. Rujukan: {NEG}
+
+    Tarikh Daftar: {TARIKH}
+
+    Silakan isi maklumat dengan jelas.'
+  - 'Pengesahan Penerimaan
+
+    No. Invois: {NEG_INVOIS}
+
+    Tarikh: {TARIKH}
+
+    Penerima: {NAMA}
+
+    No. Ahli: {NEG12_TANPA}
+
+    Jumlah Diterima: RM{NEG}
+
+    Terima kasih atas pembelian anda.'
+  khairat_kematian:
+  - 'NOTIS KHABAR DUKA
+
+    Almarhum {NAMA} telah berpulang ke rahmatullah pada {TARIKH}.
+
+    Makam: Tanah Perkuburan Islam {BANDAR}.
+
+    Sila urus tuntutan khairat dengan segera.'
+  - 'Borang Permohonan Faedah Kematian
+
+    Nama Penerima: {NAMA}
+
+    No. Kad Pengenalan: {MY_NRIC}
+
+    No. Ahli: {NEG_AHLI}
+
+    Sila sediakan salinan sijil kematian dan MyKad.'
+  - 'Salam takziah dari {SYARIKAT}.
+
+    Kami amat sedih mendengar pemergian arwah.
+
+    Sila hubungi kami di {MY_PHONE} untuk urusan bayaran.
+
+    No. Rujukan: {NEG}'
+  - 'MAKLUMAT WARIS
+
+    Nama: {NAMA}
+
+    No. MyKad: {OCR_MY_NRIC}
+
+    Hubungi: {MY_PHONE}
+
+    Tempat tinggal: {BANDAR}
+
+    Tarikh permohonan: {TARIKH}'
+  - 'Salam takziah.
+
+    Klaim khairat telah diproses.
+
+    No. Rujukan: {NEG}
+
+    No. Invois: {NEG_INVOIS}
+
+    Sila semak akaun bank anda.
+
+    Terima kasih.'
+  - 'Pendaftaran Waris Baru
+
+    Nama: {NAMA}
+
+    No. MyKad: {PATAH_MY_NRIC}
+
+    Telefon: {MY_PHONE_BS}
+
+    Lokasi: {BANDAR}
+
+    Sila hadir untuk pengesahan.'
+  - 'NOTIS PENTING
+
+    Sila semak butiran anda.
+
+    No. Rujukan: {NEG12_TANPA}
+
+    Tarikh: {TARIKH}
+
+    Sila hubungi pejabat di {BANDAR}.
+
+    Terima kasih.'
+  pekerja_asing:
+  - 'Faks dari agensi rakan kongsi di {BANDAR}. Sila hubungi talian {NEG_TEL} untuk pengesahan dokumen. Referens: {NEG}. Sila pastikan semua maklumat adalah tepat sebelum dihantar.'
+  - 'SEMAKAN PERMINTAAN
+
+    Pembuat Permintaan: {NAMA}
+
+    No. MyKad: {MY_NRIC}
+
+    Status: Diterima
+
+    Tarikh: {TARIKH}
+
+    Arahan: Sila hadir ke kaunter untuk pengambilan dokumen.'
+  - 'Dokumen ganding dari skanner:
+
+    Pemohon: {NAMA}
+
+    No. Kad Pengenalan: {OCR_MY_NRIC}
+
+    No. Syarikat: {OCR_MY_SSM}
+
+    Tarikh: {TARIKH}
+
+    Catatan: Sila semak kesilapan OCR pada nombor kad.'
+  - 'Permohonan pembaharuan permit untuk {NAMA}.
+
+    No. MyKad: {PATAH_MY_NRIC}
+
+    No. Syarikat: {MY_SSM_LLP}
+
+    Tarikh: {TARIKH}
+
+    Sila lampirkan salinan pasport yang sah.'
+  - 'Hubungi pejabat cawangan kami di {BANDAR} untuk urusan permit.
+
+    Talian: {MY_PHONE_BS}
+
+    Waktu pejabat: 8:00 pagi - 5:00 petang.
+
+    Sila bawa kad pengenalan dan dokumen syarikat.'
+  pendaftaran_nikah:
+  - 'Borang Permohonan Nikah
+
+    Nama Pengantin Lelaki: {NAMA}
+
+    No. Kad Pengenalan: {MY_NRIC}
+
+    Nama Saksi 1: {NAMA}
+
+    Tarikh Pengisian: {TARIKH}'
+  - 'Pengesahan Saksi Nikah
+
+    Nama Saksi: {NAMA}
+
+    Alamat: {BANDAR}
+
+    Pemegang Kelayakan: {NEG_AHLI}
+
+    Jenis Saksi: Keluarga
+
+    Tarikh Tandatangan: {TARIKH}'
+  - 'Surat Pengesahan Jawatan
+
+    Dikeluarkan oleh: {SYARIKAT}
+
+    No. Pendaftaran LLP: {MY_SSM_LLP}
+
+    Alamat Pejabat: {BANDAR}
+
+    Telefon: {MY_PHONE_BS}
+
+    Tarikh Surat: {TARIKH}'
+  - 'Borang Permohonan (Skim Salinan)
+
+    Nama: {NAMA}
+
+    No. MyKad: {OCR_MY_NRIC}
+
+    No. Telefon: {PATAH_MY_PHONE}
+
+    No. Rujukan: {NEG}
+
+    Tarikh: {TARIKH}'

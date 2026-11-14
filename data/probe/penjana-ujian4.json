@@ -1,0 +1,31 @@
+{
+  "sasaran": "ujian4",
+  "tarikh": "2026-11-14",
+  "bahasa": "ms",
+  "genre": [
+    "jemaah_umrah",
+    "rider_ehailing",
+    "amaran_penipuan",
+    "mangsa_banjir"
+  ],
+  "calon": [
+    {
+      "model": "modal/Qwen/Qwen3.8-27B-FP8",
+      "lulus": true,
+      "sebab": "sah 11/16 (perlu 8)",
+      "per_genre": {
+        "jemaah_umrah": 3,
+        "rider_ehailing": 0,
+        "amaran_penipuan": 4,
+        "mangsa_banjir": 4
+      },
+      "tolak": {
+        "nombor_literal": 1,
+        "kurungan_liar": 1,
+        "bahasa_tidak_dinilai": 2,
+        "tiada_slot_nombor": 1
+      }
+    }
+  ],
+  "dipilih": "modal/Qwen/Qwen3.8-27B-FP8"
+}
